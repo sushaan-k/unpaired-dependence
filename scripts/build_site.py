@@ -45,6 +45,7 @@ def plain(text):
     text = re.sub(r"\\ref\{fig:([^}]+)\}", lambda m: str(FIGURE_LABELS[m[1]]), text)
     for _ in range(3):
         text = re.sub(r"\\([A-Za-z]+)(?:\{\})?", lambda m: macros.get(m[1], m[0]), text)
+    text = text.replace(r"\ensuremath{-}", "\N{MINUS SIGN}")
     return " ".join(converter.latex_to_text(text).split())
 
 
