@@ -25,7 +25,8 @@ pip install numpy==2.0.2 scipy==1.13.1 threadpoolctl==3.6.0 scikit-learn==1.8.0 
     h5py==3.16.0 anndata==0.12.19 pyreadr==0.5.6
 ```
 
-`../requirements.txt` pins the three packages that the results-only checks need (numpy, scipy, threadpoolctl).
+`../requirements.txt` pins the packages that the results-only checks import (numpy, scipy, threadpoolctl and
+scikit-learn). Shared comparator modules import scikit-learn even when raw-data analysis is not requested.
 
 ## Champollion (comparator only)
 

@@ -4,9 +4,9 @@ Three files are compiled; every other `.tex` file here is read by them.
 
 | File | Builds |
 |---|---|
-| `main.tex` | The manuscript in the journal's layout (`documents/1-manuscript.pdf`) |
-| `supplement.tex` | The Supplementary Information (`documents/2-supplementary-information.pdf`) |
-| `reader.tex` | The two-column reading copy (`documents/5-manuscript-two-column-reading-copy.pdf`) |
+| `main.tex` | The manuscript in the journal's layout (`docs/assets/papers/manuscript.pdf`) |
+| `supplement.tex` | The Supplementary Information (`docs/assets/papers/supplement.pdf`) |
+| `reader.tex` | The two-column reading copy (`docs/assets/papers/reading-copy.pdf`) |
 
 Build from this folder (the first line writes `si_refs.tex`, the numbers of the Supplementary notes, tables and
 figures that the main text cites; the second pass reads them from the compiled supplement):

@@ -1,4 +1,5 @@
-# Versions used for this handoff's numerical checks.
+# Versions used for package-only numerical checks.
 numpy==2.0.2
 scipy==1.13.1
 threadpoolctl==3.6.0
+scikit-learn==1.8.0
