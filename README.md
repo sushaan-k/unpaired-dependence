@@ -2,7 +2,7 @@
 
 **Using unpaired measurements to reduce the number of paired cells needed to estimate dependence between modalities**
 
-Sushaan Kandukoori, Pranava Kumar, Shrikrishna Ramesh
+Sushaan Kandukoori, Shrikrishna Ramesh
 
 [Project page](https://sushaan-k.github.io/unpaired-dependence/) ·
 [Paper](docs/assets/papers/reading-copy.pdf) ·
@@ -92,5 +92,4 @@ tag. Files inside `release/` retain their original names and bytes so their reco
 ## Contact
 
 - Sushaan Kandukoori: [sushaankandukoori@gmail.com](mailto:sushaankandukoori@gmail.com)
-- Pranava Kumar: [pranavak@mit.edu](mailto:pranavak@mit.edu)
 - Shrikrishna Ramesh: [shrikrish.ramesh@gmail.com](mailto:shrikrish.ramesh@gmail.com)

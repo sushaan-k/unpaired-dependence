@@ -18,14 +18,17 @@ FIGURES = ("overview", "atlas", "reference", "savings", "law", "pairfree")
 FIGURE_LABELS = dict(zip(("overview", "atlas", "reference", "savings", "pred", "pairfree"), range(1, 7)))
 AUTHORS = (
     ("Sushaan Kandukoori", "sushaankandukoori@gmail.com"),
-    ("Pranava Kumar", "pranavak@mit.edu"),
     ("Shrikrishna Ramesh", "shrikrish.ramesh@gmail.com"),
 )
 
 main = (SOURCE / "main.tex").read_text()
 macros = {}
 for path in SOURCE.glob("*macros.tex"):
-    macros.update(re.findall(r"\\newcommand\{\\(\w+)\}\{([^{}]*)\}", path.read_text()))
+    text = path.read_text()
+    walker = LatexWalker(text)
+    for match in re.finditer(r"\\newcommand\{\\(\w+)\}(?=\{)", text):
+        node, _, _ = walker.get_latex_braced_group(match.end())
+        macros[match[1]] = node.latex_verbatim()[1:-1]
 refs = dict(re.findall(r"siref@([^\\]+)\\endcsname\{([^}]+)\}", (SOURCE / "si_refs.tex").read_text()))
 converter = LatexNodes2Text(math_mode="verbatim")
 
@@ -96,13 +99,13 @@ head = f"""<meta charset="utf-8">
   <meta property="og:title" content="{TITLE}">
   <meta property="og:description" content="{escape(abstract, quote=True)}">
   <meta property="og:url" content="{URL}">
-  <meta property="og:image" content="{URL}assets/social-preview.png">
+  <meta property="og:image" content="{URL}assets/social-preview.png?v=2">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="{TITLE}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{TITLE}">
-  <meta name="twitter:image" content="{URL}assets/social-preview.png">
+  <meta name="twitter:image" content="{URL}assets/social-preview.png?v=2">
   <link rel="icon" href="data:,">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
