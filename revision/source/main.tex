@@ -28,7 +28,7 @@
 \renewcommand{\dblfloatpagefraction}{0.85}
 \renewcommand{\floatpagefraction}{0.85}
 \hypersetup{
-  pdftitle={Using unpaired measurements to reduce the number of paired cells needed to estimate dependence between modalities},
+  pdftitle={Estimating Cross-Modal Dependence with Fewer Paired Cells},
   pdfauthor={}
 }
 \input{results_macros.tex}
@@ -56,7 +56,7 @@
   \doublespacing
   \linenumbers
 \fi
-\title[Reducing the number of paired cells with unpaired measurements]{Using unpaired measurements to reduce the number of paired cells needed to estimate dependence between modalities}
+\title[Cross-Modal Dependence with Fewer Paired Cells]{Estimating Cross-Modal Dependence with Fewer Paired Cells}
 
 
 \abstract{Measuring two modalities, such as RNA and protein, in the same cells shows how they vary together, but paired assays are costly. Unpaired measurements, which make up most single-cell data, cannot reveal this but provide each modality's principal axes and covariance within cell types. In a prespecified test on an independent blood study, our estimator with \VlCellsAtlas{} paired cells and another study's atlas estimated RNA--protein correlations within broad cell types better than paired-only methods with 800. With 100 paired cells, it predicted the direction of \BoOneAtlasHundred\% of reproducible gene--protein associations, against \BoOnePoHundred\% for paired-only methods (follow-up). Across \SyNInf{} further data sets, paired-only methods needed at least \SyGeo{} times as many paired cells as our estimator to reach data-set-specific targets (descriptive geometric mean). In a prespecified test, the distribution of correlations and noise along the axes predicted their saving in the \PredNEstimableData{} data sets from two studies where it could be measured. Without paired cells, population averages identify correlations only where populations differ.}

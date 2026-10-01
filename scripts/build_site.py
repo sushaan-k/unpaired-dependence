@@ -13,7 +13,7 @@ SOURCE = ROOT / "revision/source"
 OUT = ROOT / "docs"
 URL = "https://sushaan-k.github.io/unpaired-dependence/"
 REPO = "https://github.com/sushaan-k/unpaired-dependence"
-TITLE = "Using unpaired measurements to reduce the number of paired cells needed to estimate dependence between modalities"
+TITLE = "Estimating Cross-Modal Dependence with Fewer Paired Cells"
 FIGURES = ("overview", "atlas", "reference", "savings", "law", "pairfree")
 FIGURE_LABELS = dict(zip(("overview", "atlas", "reference", "savings", "pred", "pairfree"), range(1, 7)))
 AUTHORS = (
@@ -100,13 +100,13 @@ head = f"""<meta charset="utf-8">
   <meta property="og:title" content="{TITLE}">
   <meta property="og:description" content="{escape(abstract, quote=True)}">
   <meta property="og:url" content="{URL}">
-  <meta property="og:image" content="{URL}assets/social-preview.png?v=2">
+  <meta property="og:image" content="{URL}assets/social-preview.png?v=3">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="{TITLE}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{TITLE}">
-  <meta name="twitter:image" content="{URL}assets/social-preview.png?v=2">
+  <meta name="twitter:image" content="{URL}assets/social-preview.png?v=3">
   <link rel="icon" href="data:,">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -120,7 +120,7 @@ OUT.mkdir(exist_ok=True)
 <html lang="en"><head>{head}</head><body>
   <a class="skip-link" href="#abstract">Skip to content</a>
   <header class="publication-hero">
-    <h1>Using <span>unpaired measurements</span> to reduce the number of paired cells needed to estimate dependence between modalities</h1>
+    <h1>Estimating Cross-Modal Dependence with <span>Fewer Paired Cells</span></h1>
     <p class="authors">{names}</p>
     <div class="author-emails">{emails}</div>
     {resources()}
@@ -152,5 +152,5 @@ OUT.mkdir(exist_ok=True)
 (OUT / "assets/social-preview.html").write_text(f"""<!doctype html><html lang="en"><head>
 <meta charset="utf-8"><link rel="icon" href="data:,"><link href="https://fonts.googleapis.com/css?family=Google+Sans:400,500" rel="stylesheet">
 <style>*{{box-sizing:border-box}}body{{margin:0;width:1200px;height:630px;display:flex;flex-direction:column;justify-content:center;padding:60px 75px;color:#303236;background:white;font-family:'Google Sans',Arial,sans-serif;letter-spacing:0}}h1{{font-size:54px;line-height:1.2;font-weight:500;margin:0 0 44px}}span{{color:#1769aa}}p{{font-size:24px;line-height:1.6;margin:0}}</style>
-</head><body><h1>Using <span>unpaired measurements</span> to reduce the number of paired cells needed to estimate dependence between modalities</h1><p>{' &middot; '.join(name for name, _ in AUTHORS)}</p></body></html>""")
+</head><body><h1>Estimating Cross-Modal Dependence with <span>Fewer Paired Cells</span></h1><p>{' &middot; '.join(name for name, _ in AUTHORS)}</p></body></html>""")
 print("Built project page from manuscript text and numerical macros")

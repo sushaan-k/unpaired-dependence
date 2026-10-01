@@ -1,6 +1,6 @@
 # Unpaired Dependence
 
-**Using unpaired measurements to reduce the number of paired cells needed to estimate dependence between modalities**
+**Estimating Cross-Modal Dependence with Fewer Paired Cells**
 
 Sushaan Kandukoori, Shrikrishna Ramesh
 
