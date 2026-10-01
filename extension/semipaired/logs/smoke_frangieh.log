@@ -1,0 +1,10 @@
+[     4s] fold None: 141 groups
+/home/claude/cbio/cbio-agent-handoff/extension/recoverability/noise.py:46: RuntimeWarning: Mean of empty slice.
+  x1[m] -= x1[m].mean(0)
+/usr/local/lib/python3.11/dist-packages/numpy/_core/_methods.py:130: RuntimeWarning: invalid value encountered in divide
+  ret = um.true_divide(
+/home/claude/cbio/cbio-agent-handoff/extension/recoverability/noise.py:47: RuntimeWarning: Mean of empty slice.
+  x2[m] -= x2[m].mean(0)
+[    20s]   B=50 (6s): bjs/mapped 28.3, bjs/pooled 27.5, js/pooled 8.7, fcose/mapped 3.5, semicca/mapped 21.6, factor/mapped -74.4, ridge_u/mapped 14.7, abl/bjs_pairbasis 2.6
+[    26s]   B=100 (6s): bjs/mapped 36.5, bjs/pooled 33.6, js/pooled 14.0, fcose/mapped 1.0, semicca/mapped 31.5, factor/mapped -72.8, ridge_u/mapped 30.0, abl/bjs_pairbasis 10.6
+[    26s] done

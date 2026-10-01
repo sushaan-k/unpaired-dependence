@@ -1,0 +1,152 @@
+heldout 141 groups
+nt 3 groups
+{
+ "verdict": {
+  "P1_ifn_share_above_half": true,
+  "P2_along_S_share_above_half": false,
+  "P3_ifn_above_complement": true
+ },
+ "support_vs_recovery": {
+  "programs": [
+   "e2f_targets",
+   "epithelial_mesenchymal_transition",
+   "g2m_checkpoint",
+   "hypoxia",
+   "tnfa_signaling_via_nfkb"
+  ],
+  "support": [
+   0.012999753740536801,
+   0.016972527813166712,
+   0.011400891902999068,
+   0.02135101532753754,
+   0.01730323008159226
+  ],
+  "recovery": [
+   -0.05119679532200103,
+   0.07782237917310728,
+   -0.07531305827788337,
+   0.03882957732312665,
+   0.05429738809567451
+  ],
+  "spearman": 0.6
+ },
+ "blocks": {
+  "ifn": {
+   "rf": {
+    "pf_within_measured": 0.425,
+    "paired_closed_form": 0.642,
+    "transferred_correlation": 0.94,
+    "reference_regression": 0.688,
+    "benchmark": 0.483,
+    "replicate": -0.243
+   },
+   "reliability": 0.29,
+   "support": 0.09356468011475581,
+   "share_paired": 0.663
+  },
+  "ifn_genes": {
+   "rf": {
+    "pf_within_measured": 0.164,
+    "paired_closed_form": 0.335,
+    "transferred_correlation": 0.923,
+    "reference_regression": 0.491,
+    "benchmark": 0.239,
+    "replicate": -2.813
+   },
+   "reliability": 0.12,
+   "support": 0.09356468011475581,
+   "share_paired": 0.49
+  },
+  "complement": {
+   "rf": {
+    "pf_within_measured": 0.057,
+    "paired_closed_form": 0.362,
+    "transferred_correlation": 0.979,
+    "reference_regression": 0.547,
+    "benchmark": 0.187,
+    "replicate": -3.083
+   },
+   "reliability": 0.109,
+   "support": 0.020256348897113412,
+   "share_paired": 0.157
+  },
+  "along_S": {
+   "rf": {
+    "pf_within_measured": 0.273,
+    "paired_closed_form": 0.693,
+    "transferred_correlation": 0.87,
+    "reference_regression": 0.763,
+    "benchmark": 0.474,
+    "replicate": 0.066
+   },
+   "reliability": 0.345,
+   "support": null,
+   "share_paired": 0.394
+  },
+  "e2f_targets": {
+   "rf": {
+    "pf_within_measured": -0.051,
+    "paired_closed_form": -0.186,
+    "transferred_correlation": 1.006,
+    "reference_regression": 0.046,
+    "benchmark": -0.439,
+    "replicate": -5.545
+   },
+   "reliability": 0.068,
+   "support": 0.012999753740536801,
+   "share_paired": NaN
+  },
+  "epithelial_mesenchymal_transition": {
+   "rf": {
+    "pf_within_measured": 0.078,
+    "paired_closed_form": 0.561,
+    "transferred_correlation": 0.963,
+    "reference_regression": 0.687,
+    "benchmark": 0.387,
+    "replicate": -1.232
+   },
+   "reliability": 0.184,
+   "support": 0.016972527813166712,
+   "share_paired": 0.139
+  },
+  "g2m_checkpoint": {
+   "rf": {
+    "pf_within_measured": -0.075,
+    "paired_closed_form": -0.094,
+    "transferred_correlation": 1.013,
+    "reference_regression": 0.123,
+    "benchmark": -0.438,
+    "replicate": -5.252
+   },
+   "reliability": 0.072,
+   "support": 0.011400891902999068,
+   "share_paired": NaN
+  },
+  "hypoxia": {
+   "rf": {
+    "pf_within_measured": 0.039,
+    "paired_closed_form": 0.329,
+    "transferred_correlation": 0.943,
+    "reference_regression": 0.502,
+    "benchmark": 0.242,
+    "replicate": -2.751
+   },
+   "reliability": 0.12,
+   "support": 0.02135101532753754,
+   "share_paired": 0.118
+  },
+  "tnfa_signaling_via_nfkb": {
+   "rf": {
+    "pf_within_measured": 0.054,
+    "paired_closed_form": 0.41,
+    "transferred_correlation": 0.991,
+    "reference_regression": 0.574,
+    "benchmark": 0.29,
+    "replicate": -2.382
+   },
+   "reliability": 0.13,
+   "support": 0.01730323008159226,
+   "share_paired": 0.132
+  }
+ }
+}

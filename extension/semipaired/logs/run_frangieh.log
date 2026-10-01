@@ -1,0 +1,15 @@
+[     4s] fold None: 141 groups
+/home/claude/cbio/cbio-agent-handoff/extension/recoverability/noise.py:46: RuntimeWarning: Mean of empty slice.
+  x1[m] -= x1[m].mean(0)
+/usr/local/lib/python3.11/dist-packages/numpy/_core/_methods.py:130: RuntimeWarning: invalid value encountered in divide
+  ret = um.true_divide(
+/home/claude/cbio/cbio-agent-handoff/extension/recoverability/noise.py:47: RuntimeWarning: Mean of empty slice.
+  x2[m] -= x2[m].mean(0)
+[    41s]   B=50 (26s): bjs2/mapped 37.4, bjs/mapped 26.9, bjs2/pooled 35.4, js/pooled 9.1, fcose/mapped -0.1, semicca/mapped 16.8, ridge_u/mapped 14.5, abl/bjs_pairbasis -8.1
+[    68s]   B=100 (27s): bjs2/mapped 48.1, bjs/mapped 38.5, bjs2/pooled 44.5, js/pooled 15.6, fcose/mapped 7.9, semicca/mapped 32.5, ridge_u/mapped 28.8, abl/bjs_pairbasis 11.2
+[    96s]   B=200 (28s): bjs2/mapped 62.9, bjs/mapped 57.2, bjs2/pooled 57.3, js/pooled 28.1, fcose/mapped 15.6, semicca/mapped 47.4, ridge_u/mapped 40.5, abl/bjs_pairbasis 34.7
+[   131s]   B=400 (34s): bjs2/mapped 72.4, bjs/mapped 69.3, bjs2/pooled 65.5, js/pooled 43.1, fcose/mapped 37.6, semicca/mapped 57.1, ridge_u/mapped 61.9, abl/bjs_pairbasis 53.2
+[   178s]   B=800 (47s): bjs2/mapped 78.9, bjs/mapped 77.4, bjs2/pooled 71.0, js/pooled 55.7, fcose/mapped 57.4, semicca/mapped 71.2, ridge_u/mapped 67.6, abl/bjs_pairbasis 64.5
+[   318s]   B=1600 (140s): bjs2/mapped 83.9, bjs/mapped 83.4, bjs2/pooled 74.7, js/pooled 65.9, fcose/mapped 69.2, semicca/mapped 76.2, ridge_u/mapped 79.1, abl/bjs_pairbasis 71.7
+[  1166s]   B=3200 (848s): bjs2/mapped 86.9, bjs/mapped 86.8, bjs2/pooled 77.0, js/pooled 73.0, fcose/mapped 80.2, semicca/mapped 82.6, ridge_u/mapped 83.9, abl/bjs_pairbasis 75.6
+[  1167s] done

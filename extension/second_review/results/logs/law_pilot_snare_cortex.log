@@ -1,0 +1,9 @@
+[06:19:24] snare_cortex p100 target 0.5: observed 1357=; m=50: median achieved 0.485, reached 0.46; m=100: median achieved 0.484, reached 0.44; m=200: median achieved 0.475, reached 0.40
+[06:19:26] snare_cortex p100 target 0.3: observed 270=; m=50: median achieved 0.357, reached 0.63; m=100: median achieved 0.348, reached 0.62; m=200: median achieved 0.318, reached 0.60
+[06:19:37] snare_cortex p100 target 0.7: observed 1600>; m=50: median achieved 0.587, reached 0.00; m=100: median achieved 0.588, reached 0.00; m=200: median achieved 0.588, reached 0.00
+[06:19:44] snare_cortex p200 target 0.5: observed 1040=; m=50: median achieved 0.509, reached 0.51; m=100: median achieved 0.503, reached 0.51; m=200: median achieved 0.464, reached 0.40
+[06:19:47] snare_cortex p200 target 0.3: observed 217=; m=50: median achieved 0.348, reached 0.60; m=100: median achieved 0.388, reached 0.69; m=200: median achieved 0.344, reached 0.71
+[06:20:01] snare_cortex p200 target 0.7: observed 1600>; m=50: median achieved 0.603, reached 0.00; m=100: median achieved 0.605, reached 0.00; m=200: median achieved 0.605, reached 0.00
+[06:20:14] snare_cortex p400 target 0.5: observed 783=; m=50: median achieved 0.542, reached 0.58; m=100: median achieved 0.509, reached 0.56; m=200: median achieved 0.513, reached 0.54
+[06:20:19] snare_cortex p400 target 0.3: observed 173=; m=50: median achieved 0.368, reached 0.64; m=100: median achieved 0.354, reached 0.68; m=200: median achieved 0.371, reached 0.82
+[06:20:45] snare_cortex p400 target 0.7: observed 1600>; m=50: median achieved 0.647, reached 0.00; m=100: median achieved 0.647, reached 0.00; m=200: median achieved 0.647, reached 0.00

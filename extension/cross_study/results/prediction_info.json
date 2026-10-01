@@ -1,0 +1,1686 @@
+{
+ "hao/P1/total": {
+  "cells": 9067,
+  "benchmark": {
+   "lambda": 0.1,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0
+    ],
+    "losses": [
+     760182.3448092747,
+     760037.1941040976,
+     758724.4065903116,
+     752215.2219095208,
+     757332.0228790161
+    ],
+    "extensions": 0,
+    "at_edge": false
+   }
+  }
+ },
+ "hao/P1/within_l1": {
+  "cells": 9067,
+  "types": [
+   "B",
+   "CD4 T",
+   "CD8 T",
+   "DC",
+   "Mono",
+   "NK",
+   "other",
+   "other T"
+  ],
+  "benchmark": {
+   "lambda": 1.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0
+    ],
+    "losses": [
+     1010962.6417659505,
+     1010865.6068601517,
+     1009928.1303627361,
+     1003030.697585847,
+     995801.6676982215,
+     1047719.5915956295
+    ],
+    "extensions": 1,
+    "at_edge": false
+   }
+  }
+ },
+ "hao/P1/within_l2": {
+  "cells": 9055,
+  "types": [
+   "B intermediate",
+   "B memory",
+   "B naive",
+   "CD14 Mono",
+   "CD16 Mono",
+   "CD4 CTL",
+   "CD4 Naive",
+   "CD4 Proliferating",
+   "CD4 TCM",
+   "CD4 TEM",
+   "CD8 Naive",
+   "CD8 Proliferating",
+   "CD8 TCM",
+   "CD8 TEM",
+   "Doublet",
+   "Eryth",
+   "HSPC",
+   "MAIT",
+   "NK",
+   "NK Proliferating",
+   "NK_CD56bright",
+   "Plasmablast",
+   "Platelet",
+   "Treg",
+   "cDC2",
+   "dnT",
+   "gdT",
+   "pDC"
+  ],
+  "benchmark": {
+   "lambda": 1.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0
+    ],
+    "losses": [
+     1085639.62157739,
+     1085551.6102141077,
+     1084692.318103283,
+     1077817.734272997,
+     1063156.0830865207,
+     1085535.0606395327
+    ],
+    "extensions": 1,
+    "at_edge": false
+   }
+  }
+ },
+ "hao/P2/total": {
+  "cells": 8602,
+  "benchmark": {
+   "lambda": 0.1,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0
+    ],
+    "losses": [
+     722437.8718996219,
+     722289.5509469528,
+     720940.2416874211,
+     714035.6848454665,
+     715927.5122086308
+    ],
+    "extensions": 0,
+    "at_edge": false
+   }
+  }
+ },
+ "hao/P2/within_l1": {
+  "cells": 8602,
+  "types": [
+   "B",
+   "CD4 T",
+   "CD8 T",
+   "DC",
+   "Mono",
+   "NK",
+   "other",
+   "other T"
+  ],
+  "benchmark": {
+   "lambda": 1.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0
+    ],
+    "losses": [
+     1008675.9292665254,
+     986269.3019382316,
+     974432.0960574924,
+     967180.4704584284,
+     957386.6249099592,
+     999139.7459679334
+    ],
+    "extensions": 1,
+    "at_edge": false
+   }
+  }
+ },
+ "hao/P2/within_l2": {
+  "cells": 8579,
+  "types": [
+   "B intermediate",
+   "B memory",
+   "B naive",
+   "CD14 Mono",
+   "CD16 Mono",
+   "CD4 CTL",
+   "CD4 Naive",
+   "CD4 TCM",
+   "CD4 TEM",
+   "CD8 Naive",
+   "CD8 TCM",
+   "CD8 TEM",
+   "Doublet",
+   "HSPC",
+   "ILC",
+   "MAIT",
+   "NK",
+   "NK Proliferating",
+   "NK_CD56bright",
+   "Plasmablast",
+   "Platelet",
+   "Treg",
+   "cDC2",
+   "dnT",
+   "gdT",
+   "pDC"
+  ],
+  "benchmark": {
+   "lambda": 1.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0
+    ],
+    "losses": [
+     1078505.877164152,
+     1054341.9216008438,
+     1040131.5262407358,
+     1032813.4132094226,
+     1016794.5046834061,
+     1032829.7242969432
+    ],
+    "extensions": 1,
+    "at_edge": false
+   }
+  }
+ },
+ "hao/P3/total": {
+  "cells": 7330,
+  "benchmark": {
+   "lambda": 1.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0
+    ],
+    "losses": [
+     597065.667879025,
+     596916.5397427537,
+     595569.8359902555,
+     588837.4227909404,
+     588591.8655284571,
+     639348.5144874265
+    ],
+    "extensions": 1,
+    "at_edge": false
+   }
+  }
+ },
+ "hao/P3/within_l1": {
+  "cells": 7330,
+  "types": [
+   "B",
+   "CD4 T",
+   "CD8 T",
+   "DC",
+   "Mono",
+   "NK",
+   "other",
+   "other T"
+  ],
+  "benchmark": {
+   "lambda": 1.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0
+    ],
+    "losses": [
+     1061646.304767215,
+     868634.4840103276,
+     847077.1947261349,
+     839973.9307944537,
+     827687.7792121982,
+     858384.4534343319
+    ],
+    "extensions": 1,
+    "at_edge": false
+   }
+  }
+ },
+ "hao/P3/within_l2": {
+  "cells": 7297,
+  "types": [
+   "B intermediate",
+   "B memory",
+   "B naive",
+   "CD14 Mono",
+   "CD16 Mono",
+   "CD4 Naive",
+   "CD4 TCM",
+   "CD4 TEM",
+   "CD8 Naive",
+   "CD8 TCM",
+   "CD8 TEM",
+   "Doublet",
+   "HSPC",
+   "MAIT",
+   "NK",
+   "NK Proliferating",
+   "NK_CD56bright",
+   "Platelet",
+   "Treg",
+   "cDC2",
+   "dnT",
+   "gdT",
+   "pDC"
+  ],
+  "benchmark": {
+   "lambda": 1.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0
+    ],
+    "losses": [
+     1003090.6911138392,
+     917447.5826728585,
+     893624.5486391622,
+     886199.6297060985,
+     869332.2508416376,
+     880286.806414014
+    ],
+    "extensions": 1,
+    "at_edge": false
+   }
+  }
+ },
+ "hao/P4/total": {
+  "cells": 8545,
+  "benchmark": {
+   "lambda": 0.1,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0
+    ],
+    "losses": [
+     734992.6139762552,
+     734846.7415665102,
+     733521.6570693181,
+     726573.1511132418,
+     726703.3858471019
+    ],
+    "extensions": 0,
+    "at_edge": false
+   }
+  }
+ },
+ "hao/P4/within_l1": {
+  "cells": 8545,
+  "types": [
+   "B",
+   "CD4 T",
+   "CD8 T",
+   "DC",
+   "Mono",
+   "NK",
+   "other",
+   "other T"
+  ],
+  "benchmark": {
+   "lambda": 1.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0
+    ],
+    "losses": [
+     1229715.3737308464,
+     1015125.2311127844,
+     994730.6169035877,
+     987484.6328064357,
+     975708.6361763838,
+     1009896.6135648789
+    ],
+    "extensions": 1,
+    "at_edge": false
+   }
+  }
+ },
+ "hao/P4/within_l2": {
+  "cells": 8513,
+  "types": [
+   "B intermediate",
+   "B memory",
+   "B naive",
+   "CD14 Mono",
+   "CD16 Mono",
+   "CD4 Naive",
+   "CD4 TCM",
+   "CD4 TEM",
+   "CD8 Naive",
+   "CD8 TCM",
+   "CD8 TEM",
+   "Doublet",
+   "HSPC",
+   "MAIT",
+   "NK",
+   "NK Proliferating",
+   "Plasmablast",
+   "Platelet",
+   "Treg",
+   "cDC1",
+   "cDC2",
+   "dnT",
+   "gdT",
+   "pDC"
+  ],
+  "benchmark": {
+   "lambda": 1.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0
+    ],
+    "losses": [
+     1138457.7245165138,
+     1069584.1884106535,
+     1044323.1013432881,
+     1036638.6069531296,
+     1019036.9525837919,
+     1028929.9734517486
+    ],
+    "extensions": 1,
+    "at_edge": false
+   }
+  }
+ },
+ "hao/P5/total": {
+  "cells": 10905,
+  "benchmark": {
+   "lambda": 0.1,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0
+    ],
+    "losses": [
+     826729.5071787292,
+     826601.3477728507,
+     825435.2276894816,
+     819800.6313147296,
+     831751.4180757301
+    ],
+    "extensions": 0,
+    "at_edge": false
+   }
+  }
+ },
+ "hao/P5/within_l1": {
+  "cells": 10905,
+  "types": [
+   "B",
+   "CD4 T",
+   "CD8 T",
+   "DC",
+   "Mono",
+   "NK",
+   "other",
+   "other T"
+  ],
+  "benchmark": {
+   "lambda": 1.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0
+    ],
+    "losses": [
+     1201378.7103712417,
+     1201291.2415402092,
+     1200443.625284479,
+     1194100.2574054636,
+     1188855.3904113863,
+     1253783.577406581
+    ],
+    "extensions": 1,
+    "at_edge": false
+   }
+  }
+ },
+ "hao/P5/within_l2": {
+  "cells": 10873,
+  "types": [
+   "B intermediate",
+   "B memory",
+   "B naive",
+   "CD14 Mono",
+   "CD16 Mono",
+   "CD4 CTL",
+   "CD4 Naive",
+   "CD4 TCM",
+   "CD4 TEM",
+   "CD8 Naive",
+   "CD8 TCM",
+   "CD8 TEM",
+   "Doublet",
+   "ILC",
+   "MAIT",
+   "NK",
+   "NK Proliferating",
+   "NK_CD56bright",
+   "Plasmablast",
+   "Platelet",
+   "Treg",
+   "cDC1",
+   "cDC2",
+   "gdT",
+   "pDC"
+  ],
+  "benchmark": {
+   "lambda": 1.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0
+    ],
+    "losses": [
+     1275526.0952745208,
+     1275443.9056663993,
+     1274641.5316097904,
+     1268243.7016892647,
+     1256786.1022381329,
+     1294020.6065093281
+    ],
+    "extensions": 1,
+    "at_edge": false
+   }
+  }
+ },
+ "hao/P6/total": {
+  "cells": 10371,
+  "benchmark": {
+   "lambda": 0.1,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0
+    ],
+    "losses": [
+     767793.4562633875,
+     767664.5492041918,
+     766492.3400817922,
+     760701.1376790045,
+     766967.7419487798
+    ],
+    "extensions": 0,
+    "at_edge": false
+   }
+  }
+ },
+ "hao/P6/within_l1": {
+  "cells": 10371,
+  "types": [
+   "B",
+   "CD4 T",
+   "CD8 T",
+   "DC",
+   "Mono",
+   "NK",
+   "other",
+   "other T"
+  ],
+  "benchmark": {
+   "lambda": 1.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0
+    ],
+    "losses": [
+     1173018.331855036,
+     1172932.9777031587,
+     1172103.5216538718,
+     1165739.1670612255,
+     1157775.6960370895,
+     1209444.9433002651
+    ],
+    "extensions": 1,
+    "at_edge": false
+   }
+  }
+ },
+ "hao/P6/within_l2": {
+  "cells": 10340,
+  "types": [
+   "B intermediate",
+   "B memory",
+   "B naive",
+   "CD14 Mono",
+   "CD16 Mono",
+   "CD4 Naive",
+   "CD4 TCM",
+   "CD4 TEM",
+   "CD8 Naive",
+   "CD8 TCM",
+   "CD8 TEM",
+   "Doublet",
+   "ILC",
+   "MAIT",
+   "NK",
+   "NK Proliferating",
+   "NK_CD56bright",
+   "Plasmablast",
+   "Platelet",
+   "Treg",
+   "cDC2",
+   "gdT",
+   "pDC"
+  ],
+  "benchmark": {
+   "lambda": 1.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0
+    ],
+    "losses": [
+     1247913.5199267839,
+     1247831.7868714482,
+     1247032.2423734996,
+     1240534.5198450852,
+     1225901.3425000748,
+     1245974.188054936
+    ],
+    "extensions": 1,
+    "at_edge": false
+   }
+  }
+ },
+ "hao/P7/total": {
+  "cells": 12935,
+  "benchmark": {
+   "lambda": 0.1,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0
+    ],
+    "losses": [
+     974037.4209082051,
+     973897.8832978769,
+     972639.803563863,
+     966938.4093994377,
+     980885.6824746169
+    ],
+    "extensions": 0,
+    "at_edge": false
+   }
+  }
+ },
+ "hao/P7/within_l1": {
+  "cells": 12935,
+  "types": [
+   "B",
+   "CD4 T",
+   "CD8 T",
+   "DC",
+   "Mono",
+   "NK",
+   "other",
+   "other T"
+  ],
+  "benchmark": {
+   "lambda": 1.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0
+    ],
+    "losses": [
+     1428383.7923391964,
+     1428293.0545140698,
+     1427416.0725436553,
+     1421012.7699675234,
+     1418771.4331630743,
+     1493012.094263922
+    ],
+    "extensions": 1,
+    "at_edge": false
+   }
+  }
+ },
+ "hao/P7/within_l2": {
+  "cells": 12903,
+  "types": [
+   "B intermediate",
+   "B memory",
+   "B naive",
+   "CD14 Mono",
+   "CD16 Mono",
+   "CD4 CTL",
+   "CD4 Naive",
+   "CD4 Proliferating",
+   "CD4 TCM",
+   "CD4 TEM",
+   "CD8 Naive",
+   "CD8 TCM",
+   "CD8 TEM",
+   "Doublet",
+   "MAIT",
+   "NK",
+   "NK Proliferating",
+   "NK_CD56bright",
+   "Plasmablast",
+   "Platelet",
+   "Treg",
+   "cDC1",
+   "cDC2",
+   "dnT",
+   "gdT",
+   "pDC"
+  ],
+  "benchmark": {
+   "lambda": 1.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0
+    ],
+    "losses": [
+     1521862.3548496894,
+     1521777.4588204331,
+     1520949.7961812883,
+     1514425.7260119123,
+     1503861.6604116983,
+     1542354.9213992446
+    ],
+    "extensions": 1,
+    "at_edge": false
+   }
+  }
+ },
+ "hao/P8/total": {
+  "cells": 13125,
+  "benchmark": {
+   "lambda": 0.1,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0
+    ],
+    "losses": [
+     1068633.5448179329,
+     1068497.5383275305,
+     1067250.3870489383,
+     1060846.0898267599,
+     1068996.580741861
+    ],
+    "extensions": 0,
+    "at_edge": false
+   }
+  }
+ },
+ "hao/P8/within_l1": {
+  "cells": 13125,
+  "types": [
+   "B",
+   "CD4 T",
+   "CD8 T",
+   "DC",
+   "Mono",
+   "NK",
+   "other",
+   "other T"
+  ],
+  "benchmark": {
+   "lambda": 1.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0
+    ],
+    "losses": [
+     1479076.667461488,
+     1478987.1660115367,
+     1478119.9647234394,
+     1471621.5019421976,
+     1465596.1594643558,
+     1527404.8918278303
+    ],
+    "extensions": 1,
+    "at_edge": false
+   }
+  }
+ },
+ "hao/P8/within_l2": {
+  "cells": 13097,
+  "types": [
+   "B intermediate",
+   "B memory",
+   "B naive",
+   "CD14 Mono",
+   "CD16 Mono",
+   "CD4 CTL",
+   "CD4 Naive",
+   "CD4 TCM",
+   "CD4 TEM",
+   "CD8 Naive",
+   "CD8 TCM",
+   "CD8 TEM",
+   "Doublet",
+   "MAIT",
+   "NK",
+   "NK Proliferating",
+   "NK_CD56bright",
+   "Plasmablast",
+   "Platelet",
+   "Treg",
+   "cDC2",
+   "dnT",
+   "gdT",
+   "pDC"
+  ],
+  "benchmark": {
+   "lambda": 1.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0
+    ],
+    "losses": [
+     1556361.7589806002,
+     1556277.8139150576,
+     1555458.5586532047,
+     1548934.4056731008,
+     1536546.5887863212,
+     1568240.8237768847
+    ],
+    "extensions": 1,
+    "at_edge": false
+   }
+  }
+ },
+ "colon/XAUT1-HS1/total": {
+  "cells": 731,
+  "benchmark": {
+   "lambda": 1.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0
+    ],
+    "losses": [
+     201981.6076180478,
+     193565.29404286895,
+     155661.23469295754,
+     105510.18766790503,
+     80495.74185549135,
+     81025.80932027848
+    ],
+    "extensions": 1,
+    "at_edge": false
+   }
+  }
+ },
+ "colon/XAUT1-HS1/within_coarse": {
+  "cells": 710,
+  "types": [
+   "01-Plasma cells",
+   "02-B",
+   "03-CD4 T",
+   "04-CD8 T",
+   "05-ILC2 and ILC3",
+   "08-MNP",
+   "10-Epithelial",
+   "11-Stromal-fibroblast",
+   "14-Mito Hi immune"
+  ],
+  "benchmark": {
+   "lambda": 10.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0,
+     100.0
+    ],
+    "losses": [
+     274195.0360582865,
+     236404.42507755186,
+     173601.3056824179,
+     118112.44806855256,
+     87104.60457249318,
+     84730.69960443118,
+     86546.73578589153
+    ],
+    "extensions": 2,
+    "at_edge": false
+   }
+  }
+ },
+ "colon/XAUT1-HS10/total": {
+  "cells": 216,
+  "benchmark": {
+   "lambda": 10.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0,
+     100.0
+    ],
+    "losses": [
+     471858.92072937696,
+     303644.07050749724,
+     113383.60648099052,
+     45269.023964380925,
+     27001.741604547915,
+     24918.737645172252,
+     26238.352834667636
+    ],
+    "extensions": 2,
+    "at_edge": false
+   }
+  }
+ },
+ "colon/XAUT1-HS10/within_coarse": {
+  "cells": 183,
+  "types": [
+   "01-Plasma cells",
+   "03-CD4 T",
+   "04-CD8 T",
+   "14-Mito Hi immune"
+  ],
+  "benchmark": {
+   "lambda": 10.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0,
+     100.0
+    ],
+    "losses": [
+     193837.21698517894,
+     177228.38057971973,
+     110902.49463434063,
+     46958.30127840514,
+     25975.86106168026,
+     22527.52547739153,
+     22556.95006767714
+    ],
+    "extensions": 2,
+    "at_edge": false
+   }
+  }
+ },
+ "colon/XAUT1-HS11/total": {
+  "cells": 675,
+  "benchmark": {
+   "lambda": 1.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0
+    ],
+    "losses": [
+     296997.9422368367,
+     175989.06400276453,
+     141489.11366156238,
+     99416.8637890701,
+     73725.57206870406,
+     74272.12312984902
+    ],
+    "extensions": 1,
+    "at_edge": false
+   }
+  }
+ },
+ "colon/XAUT1-HS11/within_coarse": {
+  "cells": 654,
+  "types": [
+   "01-Plasma cells",
+   "02-B",
+   "03-CD4 T",
+   "04-CD8 T",
+   "08-MNP",
+   "09-Cycling",
+   "10-Epithelial",
+   "11-Stromal-fibroblast",
+   "14-Mito Hi immune"
+  ],
+  "benchmark": {
+   "lambda": 10.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0,
+     100.0
+    ],
+    "losses": [
+     415591.39195450384,
+     261871.83579486504,
+     157902.19581398962,
+     110734.25713735301,
+     80202.53431814983,
+     77849.0951939092,
+     79734.37291265023
+    ],
+    "extensions": 2,
+    "at_edge": false
+   }
+  }
+ },
+ "colon/XAUT1-HS12/total": {
+  "cells": 1403,
+  "benchmark": {
+   "lambda": 1.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0
+    ],
+    "losses": [
+     191713.58581910154,
+     191397.5015858694,
+     188488.56709428498,
+     172036.58440104412,
+     149439.94836642174,
+     154576.26754092038
+    ],
+    "extensions": 1,
+    "at_edge": false
+   }
+  }
+ },
+ "colon/XAUT1-HS12/within_coarse": {
+  "cells": 1377,
+  "types": [
+   "01-Plasma cells",
+   "02-B",
+   "03-CD4 T",
+   "04-CD8 T",
+   "06-NK",
+   "10-Epithelial",
+   "11-Stromal-fibroblast",
+   "12-Endothelial",
+   "14-Mito Hi immune"
+  ],
+  "benchmark": {
+   "lambda": 10.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0,
+     100.0
+    ],
+    "losses": [
+     294039.96051185863,
+     254868.67936733094,
+     216043.29455875515,
+     193638.33658438103,
+     165797.3887621725,
+     164628.5799292777,
+     167732.65166204385
+    ],
+    "extensions": 2,
+    "at_edge": false
+   }
+  }
+ },
+ "colon/XAUT1-HS2/total": {
+  "cells": 511,
+  "benchmark": {
+   "lambda": 10.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0,
+     100.0
+    ],
+    "losses": [
+     285228.7602356362,
+     198717.1695243836,
+     142475.48772486675,
+     83743.99854168246,
+     57407.006629474476,
+     56631.23864037423,
+     61269.69660211314
+    ],
+    "extensions": 2,
+    "at_edge": false
+   }
+  }
+ },
+ "colon/XAUT1-HS2/within_coarse": {
+  "cells": 486,
+  "types": [
+   "01-Plasma cells",
+   "02-B",
+   "03-CD4 T",
+   "04-CD8 T",
+   "10-Epithelial",
+   "11-Stromal-fibroblast",
+   "14-Mito Hi immune"
+  ],
+  "benchmark": {
+   "lambda": 10.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0,
+     100.0
+    ],
+    "losses": [
+     541793.7288744645,
+     298590.5670144286,
+     173300.75881132507,
+     94297.36243518812,
+     61457.60579520813,
+     58264.866318800545,
+     59375.32030253346
+    ],
+    "extensions": 2,
+    "at_edge": false
+   }
+  }
+ },
+ "colon/XAUT1-HS3/total": {
+  "cells": 852,
+  "benchmark": {
+   "lambda": 1.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0
+    ],
+    "losses": [
+     161494.55256443753,
+     158542.08328513725,
+     143742.42802933295,
+     113043.54381647924,
+     89970.12421612703,
+     91420.02170750828
+    ],
+    "extensions": 1,
+    "at_edge": false
+   }
+  }
+ },
+ "colon/XAUT1-HS3/within_coarse": {
+  "cells": 835,
+  "types": [
+   "01-Plasma cells",
+   "02-B",
+   "03-CD4 T",
+   "04-CD8 T",
+   "05-ILC2 and ILC3",
+   "08-MNP",
+   "09-Cycling",
+   "10-Epithelial",
+   "11-Stromal-fibroblast",
+   "14-Mito Hi immune"
+  ],
+  "benchmark": {
+   "lambda": 10.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0,
+     100.0
+    ],
+    "losses": [
+     188041.55129993038,
+     183466.49867985884,
+     166379.73084405757,
+     133201.33005567628,
+     102583.32852724228,
+     99822.44115649903,
+     101796.05049524072
+    ],
+    "extensions": 2,
+    "at_edge": false
+   }
+  }
+ },
+ "colon/XAUT1-HS4/total": {
+  "cells": 865,
+  "benchmark": {
+   "lambda": 1.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0
+    ],
+    "losses": [
+     185890.36662020057,
+     174342.4783846719,
+     145238.87861784812,
+     111726.52589236028,
+     89921.728597267,
+     92243.68625272418
+    ],
+    "extensions": 1,
+    "at_edge": false
+   }
+  }
+ },
+ "colon/XAUT1-HS4/within_coarse": {
+  "cells": 845,
+  "types": [
+   "01-Plasma cells",
+   "02-B",
+   "03-CD4 T",
+   "04-CD8 T",
+   "08-MNP",
+   "10-Epithelial",
+   "11-Stromal-fibroblast",
+   "12-Endothelial",
+   "14-Mito Hi immune"
+  ],
+  "benchmark": {
+   "lambda": 10.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0,
+     100.0
+    ],
+    "losses": [
+     200684.98907155497,
+     193686.64707094943,
+     172135.05896272906,
+     134374.33692627688,
+     103646.17870014232,
+     101164.29267284501,
+     103009.56232582293
+    ],
+    "extensions": 2,
+    "at_edge": false
+   }
+  }
+ },
+ "colon/XAUT1-HS5/total": {
+  "cells": 523,
+  "benchmark": {
+   "lambda": 1.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0
+    ],
+    "losses": [
+     218400.59806101274,
+     195231.23135871784,
+     132244.18484520196,
+     77338.75344987627,
+     53991.50403192086,
+     54456.644966660155
+    ],
+    "extensions": 1,
+    "at_edge": false
+   }
+  }
+ },
+ "colon/XAUT1-HS5/within_coarse": {
+  "cells": 499,
+  "types": [
+   "01-Plasma cells",
+   "02-B",
+   "03-CD4 T",
+   "04-CD8 T",
+   "08-MNP",
+   "10-Epithelial",
+   "11-Stromal-fibroblast",
+   "12-Endothelial",
+   "14-Mito Hi immune"
+  ],
+  "benchmark": {
+   "lambda": 10.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0,
+     100.0
+    ],
+    "losses": [
+     328938.00966499944,
+     285046.5392628496,
+     180577.27668904478,
+     96496.2667433303,
+     62643.06924766756,
+     59516.18206187026,
+     60921.9556723867
+    ],
+    "extensions": 2,
+    "at_edge": false
+   }
+  }
+ },
+ "colon/XAUT1-HS6/total": {
+  "cells": 265,
+  "benchmark": {
+   "lambda": 10.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0,
+     100.0
+    ],
+    "losses": [
+     609876.3995249915,
+     328477.8634641218,
+     116791.43559138481,
+     46934.76651986179,
+     28595.12244219268,
+     28153.374548292508,
+     31547.862174646063
+    ],
+    "extensions": 2,
+    "at_edge": false
+   }
+  }
+ },
+ "colon/XAUT1-HS6/within_coarse": {
+  "cells": 244,
+  "types": [
+   "01-Plasma cells",
+   "02-B",
+   "03-CD4 T",
+   "04-CD8 T",
+   "06-NK",
+   "07-Mast",
+   "11-Stromal-fibroblast",
+   "12-Endothelial",
+   "14-Mito Hi immune"
+  ],
+  "benchmark": {
+   "lambda": 10.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0,
+     100.0
+    ],
+    "losses": [
+     369773.84187122306,
+     298312.75101578754,
+     144865.45949395106,
+     56656.30118050345,
+     32502.910419120486,
+     29517.915319957923,
+     29947.082366421797
+    ],
+    "extensions": 2,
+    "at_edge": false
+   }
+  }
+ },
+ "colon/XAUT1-HS7/total": {
+  "cells": 778,
+  "benchmark": {
+   "lambda": 1.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0
+    ],
+    "losses": [
+     168390.44581613268,
+     165967.64229604552,
+     149557.29408786024,
+     110192.92693122402,
+     84873.23091057286,
+     85564.43220346555
+    ],
+    "extensions": 1,
+    "at_edge": false
+   }
+  }
+ },
+ "colon/XAUT1-HS7/within_coarse": {
+  "cells": 761,
+  "types": [
+   "01-Plasma cells",
+   "02-B",
+   "03-CD4 T",
+   "04-CD8 T",
+   "08-MNP",
+   "09-Cycling",
+   "10-Epithelial",
+   "11-Stromal-fibroblast",
+   "14-Mito Hi immune"
+  ],
+  "benchmark": {
+   "lambda": 10.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0,
+     100.0
+    ],
+    "losses": [
+     189457.63869117253,
+     187193.61685972172,
+     170813.59893701895,
+     125950.51760317732,
+     93312.22189612841,
+     90811.22919274156,
+     92786.21981269206
+    ],
+    "extensions": 2,
+    "at_edge": false
+   }
+  }
+ },
+ "colon/XAUT1-HS8/total": {
+  "cells": 483,
+  "benchmark": {
+   "lambda": 1.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0
+    ],
+    "losses": [
+     168550.15087270687,
+     160332.66724128608,
+     120572.21036876681,
+     67194.23018054981,
+     46189.03718091095,
+     47962.34206714727
+    ],
+    "extensions": 1,
+    "at_edge": false
+   }
+  }
+ },
+ "colon/XAUT1-HS8/within_coarse": {
+  "cells": 459,
+  "types": [
+   "01-Plasma cells",
+   "02-B",
+   "03-CD4 T",
+   "04-CD8 T",
+   "08-MNP",
+   "11-Stromal-fibroblast",
+   "12-Endothelial",
+   "14-Mito Hi immune"
+  ],
+  "benchmark": {
+   "lambda": 10.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0,
+     100.0
+    ],
+    "losses": [
+     382640.085197497,
+     308070.62981698837,
+     179148.34393350326,
+     88603.57717456025,
+     56490.96149524872,
+     54025.78896551692,
+     55866.35501227787
+    ],
+    "extensions": 2,
+    "at_edge": false
+   }
+  }
+ },
+ "colon/XAUT1-HS9/total": {
+  "cells": 672,
+  "benchmark": {
+   "lambda": 1.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0
+    ],
+    "losses": [
+     150539.5380207647,
+     148533.9095384629,
+     134214.4046203517,
+     95793.86084705048,
+     71155.89506926133,
+     72145.75268450801
+    ],
+    "extensions": 1,
+    "at_edge": false
+   }
+  }
+ },
+ "colon/XAUT1-HS9/within_coarse": {
+  "cells": 653,
+  "types": [
+   "01-Plasma cells",
+   "02-B",
+   "03-CD4 T",
+   "04-CD8 T",
+   "05-ILC2 and ILC3",
+   "10-Epithelial",
+   "11-Stromal-fibroblast",
+   "12-Endothelial",
+   "14-Mito Hi immune"
+  ],
+  "benchmark": {
+   "lambda": 10.0,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0,
+     100.0
+    ],
+    "losses": [
+     261323.47994667478,
+     212199.8170397822,
+     162658.33159190326,
+     114837.97891715441,
+     81332.65086305226,
+     78255.50456002526,
+     79655.75871266714
+    ],
+    "extensions": 2,
+    "at_edge": false
+   }
+  }
+ }
+}

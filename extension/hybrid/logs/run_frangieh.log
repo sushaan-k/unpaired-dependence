@@ -1,0 +1,20 @@
+[   293s] frangieh: 505 eligible training populations, test groups 141, nt groups 3, blocks ['all', 'ifn', 'ifn_genes', 'complement', 'e2f_targets', 'epithelial_mesenchymal_transition', 'g2m_checkpoint', 'hypoxia', 'tnfa_signaling_via_nfkb']
+[   293s] test fold None: 141 groups, 505 training populations
+[   369s]   unpaired fits 60s: dims current 1, noise_aware 1 (threshold 0.6987, eigenvalues [1.4168, 0.3042, 0.0723, 0.0584])
+[   409s]   budget 50: paired_corr -5.239, paired_js 0.093, paired_lowrank 0.000, paired_eot -0.191, block_js 0.237, combine_global -0.031, hybrid 0.195, hybrid_current 0.224, hybrid_pc 0.189
+[   443s]   budget 100: paired_corr -2.444, paired_js 0.164, paired_lowrank 0.000, paired_eot -0.249, block_js 0.381, combine_global 0.041, hybrid 0.350, hybrid_current 0.372, hybrid_pc 0.357
+[   481s]   budget 200: paired_corr -0.794, paired_js 0.285, paired_lowrank 0.026, paired_eot -0.166, block_js 0.523, combine_global 0.160, hybrid 0.499, hybrid_current 0.512, hybrid_pc 0.512
+[   518s]   budget 400: paired_corr 0.002, paired_js 0.408, paired_lowrank 0.305, paired_eot -0.096, block_js 0.612, combine_global 0.280, hybrid 0.596, hybrid_current 0.602, hybrid_pc 0.606
+[   563s]   budget 800: paired_corr 0.419, paired_js 0.559, paired_lowrank 0.572, paired_eot -0.005, block_js 0.700, combine_global 0.431, hybrid 0.688, hybrid_current 0.690, hybrid_pc 0.698
+[   595s]   budget 1600: paired_corr 0.616, paired_js 0.662, paired_lowrank 0.671, paired_eot 0.123, block_js 0.741, combine_global 0.535, hybrid 0.730, hybrid_current 0.731, hybrid_pc 0.740
+[   639s]   budget 3200: paired_corr 0.716, paired_js 0.730, paired_lowrank 0.732, paired_eot 0.223, block_js 0.769, combine_global 0.603, hybrid 0.759, hybrid_current 0.760, hybrid_pc 0.768
+[   639s] nt fold None: 3 groups, 505 training populations
+[   713s]   unpaired fits 58s: dims current 1, noise_aware 1 (threshold 0.6987, eigenvalues [1.4168, 0.3042, 0.0723, 0.0584])
+[   737s]   budget 50: paired_corr -5.630, paired_js 0.081, paired_lowrank 0.000, paired_eot 0.084, block_js 0.224, combine_global 0.100, hybrid 0.260, hybrid_current 0.264, hybrid_pc 0.199
+[   760s]   budget 100: paired_corr -2.409, paired_js 0.177, paired_lowrank 0.000, paired_eot 0.190, block_js 0.399, combine_global 0.186, hybrid 0.417, hybrid_current 0.421, hybrid_pc 0.388
+[   793s]   budget 200: paired_corr -0.812, paired_js 0.286, paired_lowrank 0.040, paired_eot 0.316, block_js 0.522, combine_global 0.292, hybrid 0.542, hybrid_current 0.543, hybrid_pc 0.511
+[   824s]   budget 400: paired_corr 0.041, paired_js 0.427, paired_lowrank 0.333, paired_eot 0.472, block_js 0.627, combine_global 0.432, hybrid 0.646, hybrid_current 0.647, hybrid_pc 0.626
+[   847s]   budget 800: paired_corr 0.434, paired_js 0.567, paired_lowrank 0.588, paired_eot 0.636, block_js 0.708, combine_global 0.565, hybrid 0.726, hybrid_current 0.726, hybrid_pc 0.711
+[   878s]   budget 1600: paired_corr 0.631, paired_js 0.675, paired_lowrank 0.679, paired_eot 0.761, block_js 0.754, combine_global 0.674, hybrid 0.769, hybrid_current 0.770, hybrid_pc 0.757
+[   918s]   budget 3200: paired_corr 0.728, paired_js 0.742, paired_lowrank 0.743, paired_eot 0.842, block_js 0.780, combine_global 0.738, hybrid 0.795, hybrid_current 0.796, hybrid_pc 0.783
+[   918s] wrote results/frangieh.json

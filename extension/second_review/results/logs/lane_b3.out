@@ -1,0 +1,1 @@
+./lane_b3.sh: line 15:  9603 Killed                  python3 atlas_bootstrap.py run -1 0 1 2 3 4 5 6 7 8 9 > $L/atlas_bootstrap.log 2>&1

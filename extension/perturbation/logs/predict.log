@@ -1,0 +1,13 @@
+heldout groups 141
+nt groups 3
+{
+ "predictions.npz": "58c520557e9da97f7285f3e80e5ddad1c3bba983d8014cefd351fd9714e58421",
+ "digests.json": "22879a11d8ae183cb52c32eb072bb1c50357a2d4f2739cc661d4b02b191615c5",
+ "diagnostics.json": "a7b0a767fe4b58492039b5cdd701f3e6bac5c927c1f1bc4cead8b314f16a7a51",
+ "channels.npz": "f6a1d3b346db16de2fb46dc8c896da5f1e0d8bdf335891048ffe5ef0706c7dc4",
+ "channels.json": "48037992376cd8e6e4b71ea3280bf004cfab578d7740cc5824b8a9620ce6fbc6",
+ "seal.json": "a8821b55055e68d21134b493d1e930a96e35f249d48df9ef63d47ee1d150c865",
+ "freeze.json": "bd48a0d41321b89331436c6977047e12a52e54f866154f089df9fc758790733c",
+ "frozen_at": "2026-09-27T07:20:18-04:00",
+ "note": "written before the scoring files were opened"
+}

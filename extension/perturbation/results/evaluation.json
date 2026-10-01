@@ -1,0 +1,343 @@
+{
+ "manifest": {
+  "predictions.npz": "58c520557e9da97f7285f3e80e5ddad1c3bba983d8014cefd351fd9714e58421",
+  "digests.json": "22879a11d8ae183cb52c32eb072bb1c50357a2d4f2739cc661d4b02b191615c5",
+  "diagnostics.json": "a7b0a767fe4b58492039b5cdd701f3e6bac5c927c1f1bc4cead8b314f16a7a51",
+  "channels.npz": "f6a1d3b346db16de2fb46dc8c896da5f1e0d8bdf335891048ffe5ef0706c7dc4",
+  "channels.json": "48037992376cd8e6e4b71ea3280bf004cfab578d7740cc5824b8a9620ce6fbc6",
+  "seal.json": "a8821b55055e68d21134b493d1e930a96e35f249d48df9ef63d47ee1d150c865",
+  "freeze.json": "bd48a0d41321b89331436c6977047e12a52e54f866154f089df9fc758790733c",
+  "frozen_at": "2026-09-27T07:20:18-04:00",
+  "note": "written before the scoring files were opened"
+ },
+ "heldout": {
+  "groups": 141,
+  "targets": 51,
+  "denominator": 1919.6817032735942,
+  "estimates": {
+   "benchmark": {
+    "value": 0.23997277374107187,
+    "ci": [
+     0.197951647461906,
+     0.2774697533558147
+    ]
+   },
+   "independence": {
+    "value": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "paired_closed_form": {
+    "value": 0.37271147407159405,
+    "ci": [
+     0.3165253724576516,
+     0.42219872151938187
+    ]
+   },
+   "paired_closed_form_latent": {
+    "value": 0.39680262945773526,
+    "ci": [
+     0.3440946743053538,
+     0.443732101662408
+    ]
+   },
+   "pf_latent": {
+    "value": -0.3335850077475793,
+    "ci": [
+     -0.3875189598536598,
+     -0.28726928151588144
+    ]
+   },
+   "pf_measured": {
+    "value": -0.364101021363611,
+    "ci": [
+     -0.4195522305178677,
+     -0.3164552836522974
+    ]
+   },
+   "pf_within_condition": {
+    "value": 0.15050675213594955,
+    "ci": [
+     0.12984498165320632,
+     0.1721181523501592
+    ]
+   },
+   "pf_within_latent": {
+    "value": 0.06991961770643533,
+    "ci": [
+     0.04388369303413704,
+     0.09503037402322664
+    ]
+   },
+   "pf_within_measured": {
+    "value": 0.06789859389334499,
+    "ci": [
+     0.04051164657969921,
+     0.09416653479007786
+    ]
+   },
+   "pf_within_regression": {
+    "value": 0.09175098426377587,
+    "ci": [
+     0.07936898621700222,
+     0.10496073579898359
+    ]
+   },
+   "reference_regression": {
+    "value": 0.5344468628857537,
+    "ci": [
+     0.49385379686828623,
+     0.5717660449056868
+    ]
+   },
+   "transferred_correlation": {
+    "value": 0.9669674700940248,
+    "ci": [
+     0.9267239127092368,
+     1.0068827719640379
+    ]
+   },
+   "control_within_pseudo": {
+    "value": -0.0010048526450699377,
+    "ci": [
+     -0.0014523955341288139,
+     -0.0005742287330408176
+    ]
+   },
+   "control_within_derange": {
+    "value": -0.004141576526730214,
+    "ci": [
+     -0.005671293687542473,
+     -0.0026549347842712463
+    ]
+   },
+   "control_pseudo": {
+    "value": -0.46427431589112994,
+    "ci": [
+     -0.5229769825155779,
+     -0.41346858687261906
+    ]
+   },
+   "control_derange": {
+    "value": -0.7535289942236308,
+    "ci": [
+     -0.8199604221787753,
+     -0.6977949160719487
+    ]
+   },
+   "primary_minus_within_pseudo": {
+    "value": 0.06890344653841493,
+    "ci": [
+     0.041588747276003826,
+     0.09496237438307806
+    ]
+   },
+   "primary_minus_within_derange": {
+    "value": 0.0720401704200752,
+    "ci": [
+     0.046139259808279175,
+     0.097220909735489
+    ]
+   },
+   "share_of_paired": {
+    "value": 0.1821746809981556,
+    "ci": [
+     0.11508548530052219,
+     0.2498970794344955
+    ]
+   },
+   "primary_minus_unstratified": {
+    "value": 0.43199961525695596,
+    "ci": [
+     0.39655653617963044,
+     0.4722031201546053
+    ]
+   },
+   "unstratified_minus_pseudo": {
+    "value": 0.10017329452751894,
+    "ci": [
+     0.08494559667118345,
+     0.11558888209686574
+    ]
+   },
+   "unstratified_minus_derange": {
+    "value": 0.38942797286001984,
+    "ci": [
+     0.36798681978787323,
+     0.4110500383463734
+    ]
+   }
+  },
+  "by_condition": {
+   "control": {
+    "benchmark": 0.09468641685228124,
+    "independence": 0.0,
+    "paired_closed_form": 0.23511783938537287,
+    "paired_closed_form_latent": 0.2738975415308259,
+    "pf_latent": -0.1724618798280114,
+    "pf_measured": -0.1967841448286713,
+    "pf_within_condition": 0.15183125513412485,
+    "pf_within_latent": 0.11593346171952601,
+    "pf_within_measured": 0.11466447002639925,
+    "pf_within_regression": 0.0600471441333476,
+    "reference_regression": 0.4384221508752112,
+    "transferred_correlation": 0.9831373733472233
+   },
+   "ifng": {
+    "benchmark": 0.25325337585238517,
+    "independence": 0.0,
+    "paired_closed_form": 0.42822929399325915,
+    "paired_closed_form_latent": 0.44822026536414655,
+    "pf_latent": -0.2403591153988956,
+    "pf_measured": -0.26565827755252697,
+    "pf_within_condition": 0.24180083255605964,
+    "pf_within_latent": 0.16138755851298855,
+    "pf_within_measured": 0.16232886961864182,
+    "pf_within_regression": 0.1317621040386746,
+    "reference_regression": 0.548110718901947,
+    "transferred_correlation": 0.9660333512354402
+   },
+   "coculture": {
+    "benchmark": 0.3412612028890547,
+    "independence": 0.0,
+    "paired_closed_form": 0.4299456462194044,
+    "paired_closed_form_latent": 0.44628110708094415,
+    "pf_latent": -0.5431856118912423,
+    "pf_measured": -0.5832304369195476,
+    "pf_within_condition": 0.06721434459347034,
+    "pf_within_latent": -0.048366051593998045,
+    "pf_within_measured": -0.053642497773427285,
+    "pf_within_regression": 0.08041327324884438,
+    "reference_regression": 0.5969891173910615,
+    "transferred_correlation": 0.9552042544469134
+   }
+  },
+  "mean_rel_error": {
+   "benchmark": 0.969082158075549,
+   "independence": 1.0,
+   "paired_closed_form": 0.9527523810743278,
+   "paired_closed_form_latent": 0.9502375109475494,
+   "pf_latent": 1.0360465390045577,
+   "pf_measured": 1.0393097441819033,
+   "pf_within_condition": 0.9820712651829264,
+   "pf_within_latent": 0.991353437564917,
+   "pf_within_measured": 0.9915249278165303,
+   "pf_within_regression": 0.9889171502674723,
+   "reference_regression": 0.9348493306518766,
+   "transferred_correlation": 0.8836913889679026
+  },
+  "arms": [
+   "benchmark",
+   "independence",
+   "paired_closed_form",
+   "paired_closed_form_latent",
+   "pf_latent",
+   "pf_measured",
+   "pf_within_condition",
+   "pf_within_latent",
+   "pf_within_measured",
+   "pf_within_regression",
+   "reference_regression",
+   "transferred_correlation"
+  ]
+ },
+ "nt": {
+  "by_condition": {
+   "coculture": {
+    "benchmark": 0.8981158753509874,
+    "paired_closed_form": 0.9364340566517613,
+    "pf_measured": -0.2531698315518903,
+    "pf_within_condition": 0.14153256258564859,
+    "pf_within_latent": 0.12629721865897997,
+    "pf_within_measured": 0.13184754269551494,
+    "reference_regression": 0.893145601391613,
+    "transferred_correlation": 0.9816480253561514
+   },
+   "control": {
+    "benchmark": 0.8830396278749327,
+    "paired_closed_form": 0.928444600128602,
+    "pf_measured": -0.09288278617061632,
+    "pf_within_condition": 0.1532278465960036,
+    "pf_within_latent": 0.14652068099051344,
+    "pf_within_measured": 0.15132396548523416,
+    "reference_regression": 0.9061977677099983,
+    "transferred_correlation": 0.9785340886794048
+   },
+   "ifng": {
+    "benchmark": 0.9079384224238704,
+    "paired_closed_form": 0.9650716623880525,
+    "pf_measured": 0.016103518445610636,
+    "pf_within_condition": 0.28030734469420043,
+    "pf_within_latent": 0.2735586070243899,
+    "pf_within_measured": 0.28359012226467156,
+    "reference_regression": 0.9444769866809468,
+    "transferred_correlation": 0.9939770026169421
+   }
+  },
+  "pooled": {
+   "benchmark": 0.8966870366516757,
+   "paired_closed_form": 0.9431354805416291,
+   "pf_measured": -0.11902670219080111,
+   "pf_within_condition": 0.1892391321343459,
+   "pf_within_latent": 0.17928197636658147,
+   "pf_within_measured": 0.18603296335667033,
+   "reference_regression": 0.9134284680313411,
+   "transferred_correlation": 0.984631503429046
+  },
+  "pooled_ci": {
+   "benchmark": [
+    0.8809122938013383,
+    0.9110456665232483
+   ],
+   "paired_closed_form": [
+    0.9283878538746214,
+    0.9572434943236148
+   ],
+   "pf_measured": [
+    -0.16148846750061002,
+    -0.07669831838364909
+   ],
+   "pf_within_condition": [
+    0.16471090396873533,
+    0.213329472147101
+   ],
+   "pf_within_latent": [
+    0.1554708455731156,
+    0.2027769160437074
+   ],
+   "pf_within_measured": [
+    0.1611921316749906,
+    0.21066490140407618
+   ],
+   "reference_regression": [
+    0.896456294853588,
+    0.9290422669717011
+   ],
+   "transferred_correlation": [
+    0.9703516559930886,
+    0.9983052625374155
+   ]
+  },
+  "share_of_paired": {
+   "value": 0.19724945905951316,
+   "ci": [
+    0.17123081578749405,
+    0.22342513058755997
+   ]
+  },
+  "guide_sets": {
+   "coculture": 164,
+   "control": 167,
+   "ifng": 212
+  }
+ },
+ "verdict": {
+  "H1_recovery": true,
+  "H2_beats_pseudo_populations": true,
+  "H2_beats_derangements": true,
+  "H3_nontargeting": true,
+  "H4_most_of_paired": false
+ }
+}

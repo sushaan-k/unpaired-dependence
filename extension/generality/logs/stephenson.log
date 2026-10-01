@@ -1,0 +1,24 @@
+[    28s] stephenson: fold 0 B=25 (bjs2 41, selftune 5, js 26, scose 2, fcose 2, lowrank 179, semicca 1126, ridge_p 75, ridge_u 89 ms/fit)
+[    69s] stephenson: fold 0 B=50 (bjs2 51, selftune 6, js 39, scose 3, fcose 2, lowrank 188, semicca 1161, ridge_p 78, ridge_u 82 ms/fit)
+[   119s] stephenson: fold 0 B=100 (bjs2 85, selftune 6, js 81, scose 5, fcose 4, lowrank 201, semicca 1181, ridge_p 78, ridge_u 79 ms/fit)
+[   177s] stephenson: fold 0 B=200 (bjs2 147, selftune 7, js 149, scose 8, fcose 9, lowrank 227, semicca 1214, ridge_p 78, ridge_u 80 ms/fit)
+[   250s] stephenson: fold 0 B=400 (bjs2 259, selftune 8, js 271, scose 13, fcose 30, lowrank 261, semicca 1259, ridge_p 81, ridge_u 81 ms/fit)
+[   356s] stephenson: fold 0 B=800 (bjs2 450, selftune 12, js 472, scose 23, fcose 121, lowrank 329, semicca 1300, ridge_p 88, ridge_u 85 ms/fit)
+[   388s] stephenson: fold 1 B=25 (bjs2 43, selftune 5, js 31, scose 2, fcose 2, lowrank 208, semicca 1186, ridge_p 78, ridge_u 71 ms/fit)
+[   425s] stephenson: fold 1 B=50 (bjs2 55, selftune 5, js 42, scose 3, fcose 3, lowrank 208, semicca 1191, ridge_p 74, ridge_u 69 ms/fit)
+[   474s] stephenson: fold 1 B=100 (bjs2 89, selftune 6, js 85, scose 5, fcose 5, lowrank 219, semicca 1188, ridge_p 75, ridge_u 70 ms/fit)
+[   531s] stephenson: fold 1 B=200 (bjs2 153, selftune 6, js 147, scose 9, fcose 11, lowrank 233, semicca 1209, ridge_p 79, ridge_u 72 ms/fit)
+[   600s] stephenson: fold 1 B=400 (bjs2 261, selftune 8, js 257, scose 13, fcose 28, lowrank 263, semicca 1242, ridge_p 81, ridge_u 77 ms/fit)
+[   702s] stephenson: fold 1 B=800 (bjs2 446, selftune 11, js 453, scose 23, fcose 114, lowrank 315, semicca 1276, ridge_p 88, ridge_u 83 ms/fit)
+[   730s] stephenson: fold 2 B=25 (bjs2 44, selftune 5, js 27, scose 2, fcose 2, lowrank 199, semicca 1187, ridge_p 79, ridge_u 74 ms/fit)
+[   770s] stephenson: fold 2 B=50 (bjs2 58, selftune 5, js 41, scose 3, fcose 3, lowrank 207, semicca 1182, ridge_p 79, ridge_u 76 ms/fit)
+[   820s] stephenson: fold 2 B=100 (bjs2 86, selftune 5, js 81, scose 5, fcose 4, lowrank 218, semicca 1210, ridge_p 78, ridge_u 75 ms/fit)
+[   875s] stephenson: fold 2 B=200 (bjs2 148, selftune 6, js 156, scose 8, fcose 10, lowrank 233, semicca 1224, ridge_p 78, ridge_u 78 ms/fit)
+[   944s] stephenson: fold 2 B=400 (bjs2 261, selftune 8, js 272, scose 13, fcose 27, lowrank 265, semicca 1262, ridge_p 79, ridge_u 81 ms/fit)
+[  1043s] stephenson: fold 2 B=800 (bjs2 445, selftune 11, js 459, scose 22, fcose 108, lowrank 326, semicca 1290, ridge_p 85, ridge_u 86 ms/fit)
+[  1054s] stephenson: predictions hashed
+[  1248s] stephenson: bootstrap 500/2000
+[  1425s] stephenson: bootstrap 1000/2000
+[  1602s] stephenson: bootstrap 1500/2000
+[  1778s] stephenson: bootstrap 2000/2000
+[  1780s] stephenson: done: proposed -14.1, -20.5, -0.7, 0.7, 6.6, 9.3; saving vs paired-only at 0.5: 1.00 [1.0, 1.0]

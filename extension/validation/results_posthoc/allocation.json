@@ -1,0 +1,1530 @@
+{
+ "samples": {
+  "XHLT2-HS10-AAE6": {
+   "donor": "HS10",
+   "pool": "DB12",
+   "timepoint": "followup",
+   "cells": 4488,
+   "reservoir": 1115
+  },
+  "XHLT2-HS10-BLE1": {
+   "donor": "HS10",
+   "pool": "DB9",
+   "timepoint": "baseline",
+   "cells": 3464,
+   "reservoir": 857
+  },
+  "XHLT2-HS12-AAE6": {
+   "donor": "HS12",
+   "pool": "DB14",
+   "timepoint": "followup",
+   "cells": 3860,
+   "reservoir": 940
+  },
+  "XHLT2-HS16-AAE6": {
+   "donor": "HS16",
+   "pool": "DB9",
+   "timepoint": "followup",
+   "cells": 3574,
+   "reservoir": 913
+  },
+  "XHLT2-HS16-BLE1": {
+   "donor": "HS16",
+   "pool": "DB12",
+   "timepoint": "baseline",
+   "cells": 3762,
+   "reservoir": 913
+  },
+  "XHLT2-HS22-AAE6": {
+   "donor": "HS22",
+   "pool": "DB11",
+   "timepoint": "followup",
+   "cells": 4550,
+   "reservoir": 1122
+  },
+  "XHLT2-HS22-BLE1": {
+   "donor": "HS22",
+   "pool": "DB13",
+   "timepoint": "baseline",
+   "cells": 3597,
+   "reservoir": 913
+  },
+  "XHLT2-HS24-AAE6": {
+   "donor": "HS24",
+   "pool": "DB9",
+   "timepoint": "followup",
+   "cells": 3238,
+   "reservoir": 797
+  },
+  "XHLT2-HS24-BLE1": {
+   "donor": "HS24",
+   "pool": "DB10",
+   "timepoint": "baseline",
+   "cells": 3474,
+   "reservoir": 915
+  },
+  "XHLT2-HS28-AAE6": {
+   "donor": "HS28",
+   "pool": "DB14",
+   "timepoint": "followup",
+   "cells": 4293,
+   "reservoir": 1066
+  },
+  "XHLT2-HS28-BLE1": {
+   "donor": "HS28",
+   "pool": "DB11",
+   "timepoint": "baseline",
+   "cells": 3921,
+   "reservoir": 999
+  },
+  "XHLT2-HS30-AAE6": {
+   "donor": "HS30",
+   "pool": "DB13",
+   "timepoint": "followup",
+   "cells": 3881,
+   "reservoir": 1019
+  },
+  "XHLT2-HS30-BLE1": {
+   "donor": "HS30",
+   "pool": "DB14",
+   "timepoint": "baseline",
+   "cells": 3597,
+   "reservoir": 951
+  },
+  "XHLT2-HS32-AAE6": {
+   "donor": "HS32",
+   "pool": "DB14",
+   "timepoint": "followup",
+   "cells": 3427,
+   "reservoir": 879
+  },
+  "XHLT2-HS32-BLE1": {
+   "donor": "HS32",
+   "pool": "DB8",
+   "timepoint": "baseline",
+   "cells": 4293,
+   "reservoir": 1075
+  },
+  "XHLT2-HS46-AAE6": {
+   "donor": "HS46",
+   "pool": "DB11",
+   "timepoint": "followup",
+   "cells": 3122,
+   "reservoir": 771
+  },
+  "XHLT2-HS46-BLE1": {
+   "donor": "HS46",
+   "pool": "DB9",
+   "timepoint": "baseline",
+   "cells": 3770,
+   "reservoir": 917
+  },
+  "XHLT2-HS47-AAE6": {
+   "donor": "HS47",
+   "pool": "DB10",
+   "timepoint": "followup",
+   "cells": 3266,
+   "reservoir": 804
+  },
+  "XHLT2-HS47-BLE1": {
+   "donor": "HS47",
+   "pool": "DB12",
+   "timepoint": "baseline",
+   "cells": 3924,
+   "reservoir": 993
+  },
+  "XHLT2-HS48-BLE1": {
+   "donor": "HS48",
+   "pool": "DB13",
+   "timepoint": "baseline",
+   "cells": 3715,
+   "reservoir": 908
+  },
+  "XHLT2-HS6-AAE6": {
+   "donor": "HS6",
+   "pool": "DB13",
+   "timepoint": "followup",
+   "cells": 3883,
+   "reservoir": 931
+  },
+  "XHLT2-HS6-BLE1": {
+   "donor": "HS6",
+   "pool": "DB8",
+   "timepoint": "baseline",
+   "cells": 4565,
+   "reservoir": 1104
+  },
+  "XHLT2-HS68-AAE6": {
+   "donor": "HS68",
+   "pool": "DB11",
+   "timepoint": "followup",
+   "cells": 3927,
+   "reservoir": 1009
+  },
+  "XHLT2-HS68-BLE1": {
+   "donor": "HS68",
+   "pool": "DB10",
+   "timepoint": "baseline",
+   "cells": 4286,
+   "reservoir": 1068
+  },
+  "XHLT2-HS75-AAE6": {
+   "donor": "HS75",
+   "pool": "DB12",
+   "timepoint": "followup",
+   "cells": 3430,
+   "reservoir": 893
+  },
+  "XHLT2-HS75-BLE1": {
+   "donor": "HS75",
+   "pool": "DB11",
+   "timepoint": "baseline",
+   "cells": 3769,
+   "reservoir": 916
+  },
+  "XHLT2-HS86-AAE6": {
+   "donor": "HS86",
+   "pool": "DB9",
+   "timepoint": "followup",
+   "cells": 3852,
+   "reservoir": 992
+  },
+  "XHLT2-HS86-BLE1": {
+   "donor": "HS86",
+   "pool": "DB14",
+   "timepoint": "baseline",
+   "cells": 3764,
+   "reservoir": 950
+  },
+  "XHLT2-HS88-AAE6": {
+   "donor": "HS88",
+   "pool": "DB11",
+   "timepoint": "followup",
+   "cells": 4070,
+   "reservoir": 1009
+  },
+  "XHLT2-HS88-BLE1": {
+   "donor": "HS88",
+   "pool": "DB9",
+   "timepoint": "baseline",
+   "cells": 3917,
+   "reservoir": 1021
+  },
+  "XHLT2-HS93-AAE6": {
+   "donor": "HS93",
+   "pool": "DB10",
+   "timepoint": "followup",
+   "cells": 3047,
+   "reservoir": 739
+  },
+  "XHLT2-HS93-BLE1": {
+   "donor": "HS93",
+   "pool": "DB12",
+   "timepoint": "baseline",
+   "cells": 3680,
+   "reservoir": 892
+  },
+  "XHLT2-HS94-AAE6": {
+   "donor": "HS94",
+   "pool": "DB8",
+   "timepoint": "followup",
+   "cells": 4031,
+   "reservoir": 987
+  },
+  "XHLT2-HS94-BLE1": {
+   "donor": "HS94",
+   "pool": "DB14",
+   "timepoint": "baseline",
+   "cells": 2987,
+   "reservoir": 772
+  }
+ },
+ "donors": [
+  "HS6",
+  "HS10",
+  "HS12",
+  "HS16",
+  "HS22",
+  "HS24",
+  "HS28",
+  "HS30",
+  "HS32",
+  "HS46",
+  "HS47",
+  "HS48",
+  "HS68",
+  "HS75",
+  "HS86",
+  "HS88",
+  "HS93",
+  "HS94"
+ ],
+ "pools": [
+  "DB8",
+  "DB9",
+  "DB10",
+  "DB11",
+  "DB12",
+  "DB13",
+  "DB14"
+ ],
+ "donors_by_pool": {
+  "DB8": [
+   "HS6",
+   "HS32",
+   "HS94"
+  ],
+  "DB9": [
+   "HS10",
+   "HS16",
+   "HS24",
+   "HS46",
+   "HS86",
+   "HS88"
+  ],
+  "DB10": [
+   "HS24",
+   "HS47",
+   "HS68",
+   "HS93"
+  ],
+  "DB11": [
+   "HS22",
+   "HS28",
+   "HS46",
+   "HS68",
+   "HS75",
+   "HS88"
+  ],
+  "DB12": [
+   "HS10",
+   "HS16",
+   "HS47",
+   "HS75",
+   "HS93"
+  ],
+  "DB13": [
+   "HS6",
+   "HS22",
+   "HS30",
+   "HS48"
+  ],
+  "DB14": [
+   "HS12",
+   "HS28",
+   "HS30",
+   "HS32",
+   "HS86",
+   "HS94"
+  ]
+ },
+ "folds": [
+  {
+   "fold": 0,
+   "pool": "DB8",
+   "heldout": "XHLT2-HS6-BLE1",
+   "donor": "HS6",
+   "timepoint": "baseline",
+   "paired": [
+    {
+     "sample": "XHLT2-HS32-BLE1",
+     "donor": "HS32",
+     "timepoint": "baseline"
+    },
+    {
+     "sample": "XHLT2-HS94-AAE6",
+     "donor": "HS94",
+     "timepoint": "followup"
+    }
+   ],
+   "own_reference_cells": 6262,
+   "other": {
+    "samples": 28,
+    "donors": 15,
+    "pools": [
+     "DB9",
+     "DB10",
+     "DB11",
+     "DB12",
+     "DB13",
+     "DB14"
+    ],
+    "cells": 105238
+   }
+  },
+  {
+   "fold": 1,
+   "pool": "DB8",
+   "heldout": "XHLT2-HS32-BLE1",
+   "donor": "HS32",
+   "timepoint": "baseline",
+   "paired": [
+    {
+     "sample": "XHLT2-HS94-AAE6",
+     "donor": "HS94",
+     "timepoint": "followup"
+    },
+    {
+     "sample": "XHLT2-HS6-BLE1",
+     "donor": "HS6",
+     "timepoint": "baseline"
+    }
+   ],
+   "own_reference_cells": 6505,
+   "other": {
+    "samples": 28,
+    "donors": 15,
+    "pools": [
+     "DB9",
+     "DB10",
+     "DB11",
+     "DB12",
+     "DB13",
+     "DB14"
+    ],
+    "cells": 105238
+   }
+  },
+  {
+   "fold": 2,
+   "pool": "DB8",
+   "heldout": "XHLT2-HS94-AAE6",
+   "donor": "HS94",
+   "timepoint": "followup",
+   "paired": [
+    {
+     "sample": "XHLT2-HS6-BLE1",
+     "donor": "HS6",
+     "timepoint": "baseline"
+    },
+    {
+     "sample": "XHLT2-HS32-BLE1",
+     "donor": "HS32",
+     "timepoint": "baseline"
+    }
+   ],
+   "own_reference_cells": 6679,
+   "other": {
+    "samples": 28,
+    "donors": 15,
+    "pools": [
+     "DB9",
+     "DB10",
+     "DB11",
+     "DB12",
+     "DB13",
+     "DB14"
+    ],
+    "cells": 105238
+   }
+  },
+  {
+   "fold": 3,
+   "pool": "DB9",
+   "heldout": "XHLT2-HS86-AAE6",
+   "donor": "HS86",
+   "timepoint": "followup",
+   "paired": [
+    {
+     "sample": "XHLT2-HS24-AAE6",
+     "donor": "HS24",
+     "timepoint": "followup"
+    },
+    {
+     "sample": "XHLT2-HS46-BLE1",
+     "donor": "HS46",
+     "timepoint": "baseline"
+    }
+   ],
+   "own_reference_cells": 5294,
+   "other": {
+    "samples": 22,
+    "donors": 12,
+    "pools": [
+     "DB8",
+     "DB10",
+     "DB11",
+     "DB12",
+     "DB13",
+     "DB14"
+    ],
+    "cells": 83929
+   }
+  },
+  {
+   "fold": 4,
+   "pool": "DB9",
+   "heldout": "XHLT2-HS24-AAE6",
+   "donor": "HS24",
+   "timepoint": "followup",
+   "paired": [
+    {
+     "sample": "XHLT2-HS46-BLE1",
+     "donor": "HS46",
+     "timepoint": "baseline"
+    },
+    {
+     "sample": "XHLT2-HS88-BLE1",
+     "donor": "HS88",
+     "timepoint": "baseline"
+    }
+   ],
+   "own_reference_cells": 5749,
+   "other": {
+    "samples": 22,
+    "donors": 12,
+    "pools": [
+     "DB8",
+     "DB10",
+     "DB11",
+     "DB12",
+     "DB13",
+     "DB14"
+    ],
+    "cells": 83929
+   }
+  },
+  {
+   "fold": 5,
+   "pool": "DB9",
+   "heldout": "XHLT2-HS46-BLE1",
+   "donor": "HS46",
+   "timepoint": "baseline",
+   "paired": [
+    {
+     "sample": "XHLT2-HS88-BLE1",
+     "donor": "HS88",
+     "timepoint": "baseline"
+    },
+    {
+     "sample": "XHLT2-HS16-AAE6",
+     "donor": "HS16",
+     "timepoint": "followup"
+    }
+   ],
+   "own_reference_cells": 5557,
+   "other": {
+    "samples": 22,
+    "donors": 12,
+    "pools": [
+     "DB8",
+     "DB10",
+     "DB11",
+     "DB12",
+     "DB13",
+     "DB14"
+    ],
+    "cells": 83929
+   }
+  },
+  {
+   "fold": 6,
+   "pool": "DB9",
+   "heldout": "XHLT2-HS88-BLE1",
+   "donor": "HS88",
+   "timepoint": "baseline",
+   "paired": [
+    {
+     "sample": "XHLT2-HS16-AAE6",
+     "donor": "HS16",
+     "timepoint": "followup"
+    },
+    {
+     "sample": "XHLT2-HS10-BLE1",
+     "donor": "HS10",
+     "timepoint": "baseline"
+    }
+   ],
+   "own_reference_cells": 5268,
+   "other": {
+    "samples": 22,
+    "donors": 12,
+    "pools": [
+     "DB8",
+     "DB10",
+     "DB11",
+     "DB12",
+     "DB13",
+     "DB14"
+    ],
+    "cells": 83929
+   }
+  },
+  {
+   "fold": 7,
+   "pool": "DB9",
+   "heldout": "XHLT2-HS16-AAE6",
+   "donor": "HS16",
+   "timepoint": "followup",
+   "paired": [
+    {
+     "sample": "XHLT2-HS10-BLE1",
+     "donor": "HS10",
+     "timepoint": "baseline"
+    },
+    {
+     "sample": "XHLT2-HS86-AAE6",
+     "donor": "HS86",
+     "timepoint": "followup"
+    }
+   ],
+   "own_reference_cells": 5467,
+   "other": {
+    "samples": 22,
+    "donors": 12,
+    "pools": [
+     "DB8",
+     "DB10",
+     "DB11",
+     "DB12",
+     "DB13",
+     "DB14"
+    ],
+    "cells": 83929
+   }
+  },
+  {
+   "fold": 8,
+   "pool": "DB9",
+   "heldout": "XHLT2-HS10-BLE1",
+   "donor": "HS10",
+   "timepoint": "baseline",
+   "paired": [
+    {
+     "sample": "XHLT2-HS86-AAE6",
+     "donor": "HS86",
+     "timepoint": "followup"
+    },
+    {
+     "sample": "XHLT2-HS24-AAE6",
+     "donor": "HS24",
+     "timepoint": "followup"
+    }
+   ],
+   "own_reference_cells": 5301,
+   "other": {
+    "samples": 22,
+    "donors": 12,
+    "pools": [
+     "DB8",
+     "DB10",
+     "DB11",
+     "DB12",
+     "DB13",
+     "DB14"
+    ],
+    "cells": 83929
+   }
+  },
+  {
+   "fold": 9,
+   "pool": "DB10",
+   "heldout": "XHLT2-HS68-BLE1",
+   "donor": "HS68",
+   "timepoint": "baseline",
+   "paired": [
+    {
+     "sample": "XHLT2-HS24-BLE1",
+     "donor": "HS24",
+     "timepoint": "baseline"
+    },
+    {
+     "sample": "XHLT2-HS47-AAE6",
+     "donor": "HS47",
+     "timepoint": "followup"
+    }
+   ],
+   "own_reference_cells": 5021,
+   "other": {
+    "samples": 26,
+    "donors": 14,
+    "pools": [
+     "DB8",
+     "DB9",
+     "DB11",
+     "DB12",
+     "DB13",
+     "DB14"
+    ],
+    "cells": 99582
+   }
+  },
+  {
+   "fold": 10,
+   "pool": "DB10",
+   "heldout": "XHLT2-HS24-BLE1",
+   "donor": "HS24",
+   "timepoint": "baseline",
+   "paired": [
+    {
+     "sample": "XHLT2-HS47-AAE6",
+     "donor": "HS47",
+     "timepoint": "followup"
+    },
+    {
+     "sample": "XHLT2-HS93-AAE6",
+     "donor": "HS93",
+     "timepoint": "followup"
+    }
+   ],
+   "own_reference_cells": 4770,
+   "other": {
+    "samples": 26,
+    "donors": 14,
+    "pools": [
+     "DB8",
+     "DB9",
+     "DB11",
+     "DB12",
+     "DB13",
+     "DB14"
+    ],
+    "cells": 99582
+   }
+  },
+  {
+   "fold": 11,
+   "pool": "DB10",
+   "heldout": "XHLT2-HS47-AAE6",
+   "donor": "HS47",
+   "timepoint": "followup",
+   "paired": [
+    {
+     "sample": "XHLT2-HS93-AAE6",
+     "donor": "HS93",
+     "timepoint": "followup"
+    },
+    {
+     "sample": "XHLT2-HS68-BLE1",
+     "donor": "HS68",
+     "timepoint": "baseline"
+    }
+   ],
+   "own_reference_cells": 5526,
+   "other": {
+    "samples": 26,
+    "donors": 14,
+    "pools": [
+     "DB8",
+     "DB9",
+     "DB11",
+     "DB12",
+     "DB13",
+     "DB14"
+    ],
+    "cells": 99582
+   }
+  },
+  {
+   "fold": 12,
+   "pool": "DB10",
+   "heldout": "XHLT2-HS93-AAE6",
+   "donor": "HS93",
+   "timepoint": "followup",
+   "paired": [
+    {
+     "sample": "XHLT2-HS68-BLE1",
+     "donor": "HS68",
+     "timepoint": "baseline"
+    },
+    {
+     "sample": "XHLT2-HS24-BLE1",
+     "donor": "HS24",
+     "timepoint": "baseline"
+    }
+   ],
+   "own_reference_cells": 5777,
+   "other": {
+    "samples": 26,
+    "donors": 14,
+    "pools": [
+     "DB8",
+     "DB9",
+     "DB11",
+     "DB12",
+     "DB13",
+     "DB14"
+    ],
+    "cells": 99582
+   }
+  },
+  {
+   "fold": 13,
+   "pool": "DB11",
+   "heldout": "XHLT2-HS46-AAE6",
+   "donor": "HS46",
+   "timepoint": "followup",
+   "paired": [
+    {
+     "sample": "XHLT2-HS22-AAE6",
+     "donor": "HS22",
+     "timepoint": "followup"
+    },
+    {
+     "sample": "XHLT2-HS68-AAE6",
+     "donor": "HS68",
+     "timepoint": "followup"
+    }
+   ],
+   "own_reference_cells": 6346,
+   "other": {
+    "samples": 22,
+    "donors": 12,
+    "pools": [
+     "DB8",
+     "DB9",
+     "DB10",
+     "DB12",
+     "DB13",
+     "DB14"
+    ],
+    "cells": 81772
+   }
+  },
+  {
+   "fold": 14,
+   "pool": "DB11",
+   "heldout": "XHLT2-HS22-AAE6",
+   "donor": "HS22",
+   "timepoint": "followup",
+   "paired": [
+    {
+     "sample": "XHLT2-HS68-AAE6",
+     "donor": "HS68",
+     "timepoint": "followup"
+    },
+    {
+     "sample": "XHLT2-HS75-BLE1",
+     "donor": "HS75",
+     "timepoint": "baseline"
+    }
+   ],
+   "own_reference_cells": 5771,
+   "other": {
+    "samples": 22,
+    "donors": 12,
+    "pools": [
+     "DB8",
+     "DB9",
+     "DB10",
+     "DB12",
+     "DB13",
+     "DB14"
+    ],
+    "cells": 81772
+   }
+  },
+  {
+   "fold": 15,
+   "pool": "DB11",
+   "heldout": "XHLT2-HS68-AAE6",
+   "donor": "HS68",
+   "timepoint": "followup",
+   "paired": [
+    {
+     "sample": "XHLT2-HS75-BLE1",
+     "donor": "HS75",
+     "timepoint": "baseline"
+    },
+    {
+     "sample": "XHLT2-HS88-AAE6",
+     "donor": "HS88",
+     "timepoint": "followup"
+    }
+   ],
+   "own_reference_cells": 5914,
+   "other": {
+    "samples": 22,
+    "donors": 12,
+    "pools": [
+     "DB8",
+     "DB9",
+     "DB10",
+     "DB12",
+     "DB13",
+     "DB14"
+    ],
+    "cells": 81772
+   }
+  },
+  {
+   "fold": 16,
+   "pool": "DB11",
+   "heldout": "XHLT2-HS75-BLE1",
+   "donor": "HS75",
+   "timepoint": "baseline",
+   "paired": [
+    {
+     "sample": "XHLT2-HS88-AAE6",
+     "donor": "HS88",
+     "timepoint": "followup"
+    },
+    {
+     "sample": "XHLT2-HS28-BLE1",
+     "donor": "HS28",
+     "timepoint": "baseline"
+    }
+   ],
+   "own_reference_cells": 5983,
+   "other": {
+    "samples": 22,
+    "donors": 12,
+    "pools": [
+     "DB8",
+     "DB9",
+     "DB10",
+     "DB12",
+     "DB13",
+     "DB14"
+    ],
+    "cells": 81772
+   }
+  },
+  {
+   "fold": 17,
+   "pool": "DB11",
+   "heldout": "XHLT2-HS88-AAE6",
+   "donor": "HS88",
+   "timepoint": "followup",
+   "paired": [
+    {
+     "sample": "XHLT2-HS28-BLE1",
+     "donor": "HS28",
+     "timepoint": "baseline"
+    },
+    {
+     "sample": "XHLT2-HS46-AAE6",
+     "donor": "HS46",
+     "timepoint": "followup"
+    }
+   ],
+   "own_reference_cells": 5273,
+   "other": {
+    "samples": 22,
+    "donors": 12,
+    "pools": [
+     "DB8",
+     "DB9",
+     "DB10",
+     "DB12",
+     "DB13",
+     "DB14"
+    ],
+    "cells": 81772
+   }
+  },
+  {
+   "fold": 18,
+   "pool": "DB11",
+   "heldout": "XHLT2-HS28-BLE1",
+   "donor": "HS28",
+   "timepoint": "baseline",
+   "paired": [
+    {
+     "sample": "XHLT2-HS46-AAE6",
+     "donor": "HS46",
+     "timepoint": "followup"
+    },
+    {
+     "sample": "XHLT2-HS22-AAE6",
+     "donor": "HS22",
+     "timepoint": "followup"
+    }
+   ],
+   "own_reference_cells": 5779,
+   "other": {
+    "samples": 22,
+    "donors": 12,
+    "pools": [
+     "DB8",
+     "DB9",
+     "DB10",
+     "DB12",
+     "DB13",
+     "DB14"
+    ],
+    "cells": 81772
+   }
+  },
+  {
+   "fold": 19,
+   "pool": "DB12",
+   "heldout": "XHLT2-HS10-AAE6",
+   "donor": "HS10",
+   "timepoint": "followup",
+   "paired": [
+    {
+     "sample": "XHLT2-HS93-BLE1",
+     "donor": "HS93",
+     "timepoint": "baseline"
+    },
+    {
+     "sample": "XHLT2-HS47-BLE1",
+     "donor": "HS47",
+     "timepoint": "baseline"
+    }
+   ],
+   "own_reference_cells": 5719,
+   "other": {
+    "samples": 24,
+    "donors": 13,
+    "pools": [
+     "DB8",
+     "DB9",
+     "DB10",
+     "DB11",
+     "DB13",
+     "DB14"
+    ],
+    "cells": 92020
+   }
+  },
+  {
+   "fold": 20,
+   "pool": "DB12",
+   "heldout": "XHLT2-HS93-BLE1",
+   "donor": "HS93",
+   "timepoint": "baseline",
+   "paired": [
+    {
+     "sample": "XHLT2-HS47-BLE1",
+     "donor": "HS47",
+     "timepoint": "baseline"
+    },
+    {
+     "sample": "XHLT2-HS16-BLE1",
+     "donor": "HS16",
+     "timepoint": "baseline"
+    }
+   ],
+   "own_reference_cells": 5780,
+   "other": {
+    "samples": 24,
+    "donors": 13,
+    "pools": [
+     "DB8",
+     "DB9",
+     "DB10",
+     "DB11",
+     "DB13",
+     "DB14"
+    ],
+    "cells": 92020
+   }
+  },
+  {
+   "fold": 21,
+   "pool": "DB12",
+   "heldout": "XHLT2-HS47-BLE1",
+   "donor": "HS47",
+   "timepoint": "baseline",
+   "paired": [
+    {
+     "sample": "XHLT2-HS16-BLE1",
+     "donor": "HS16",
+     "timepoint": "baseline"
+    },
+    {
+     "sample": "XHLT2-HS75-AAE6",
+     "donor": "HS75",
+     "timepoint": "followup"
+    }
+   ],
+   "own_reference_cells": 5386,
+   "other": {
+    "samples": 24,
+    "donors": 13,
+    "pools": [
+     "DB8",
+     "DB9",
+     "DB10",
+     "DB11",
+     "DB13",
+     "DB14"
+    ],
+    "cells": 92020
+   }
+  },
+  {
+   "fold": 22,
+   "pool": "DB12",
+   "heldout": "XHLT2-HS16-BLE1",
+   "donor": "HS16",
+   "timepoint": "baseline",
+   "paired": [
+    {
+     "sample": "XHLT2-HS75-AAE6",
+     "donor": "HS75",
+     "timepoint": "followup"
+    },
+    {
+     "sample": "XHLT2-HS10-AAE6",
+     "donor": "HS10",
+     "timepoint": "followup"
+    }
+   ],
+   "own_reference_cells": 5910,
+   "other": {
+    "samples": 24,
+    "donors": 13,
+    "pools": [
+     "DB8",
+     "DB9",
+     "DB10",
+     "DB11",
+     "DB13",
+     "DB14"
+    ],
+    "cells": 92020
+   }
+  },
+  {
+   "fold": 23,
+   "pool": "DB12",
+   "heldout": "XHLT2-HS75-AAE6",
+   "donor": "HS75",
+   "timepoint": "followup",
+   "paired": [
+    {
+     "sample": "XHLT2-HS10-AAE6",
+     "donor": "HS10",
+     "timepoint": "followup"
+    },
+    {
+     "sample": "XHLT2-HS93-BLE1",
+     "donor": "HS93",
+     "timepoint": "baseline"
+    }
+   ],
+   "own_reference_cells": 6161,
+   "other": {
+    "samples": 24,
+    "donors": 13,
+    "pools": [
+     "DB8",
+     "DB9",
+     "DB10",
+     "DB11",
+     "DB13",
+     "DB14"
+    ],
+    "cells": 92020
+   }
+  },
+  {
+   "fold": 24,
+   "pool": "DB13",
+   "heldout": "XHLT2-HS22-BLE1",
+   "donor": "HS22",
+   "timepoint": "baseline",
+   "paired": [
+    {
+     "sample": "XHLT2-HS6-AAE6",
+     "donor": "HS6",
+     "timepoint": "followup"
+    },
+    {
+     "sample": "XHLT2-HS48-BLE1",
+     "donor": "HS48",
+     "timepoint": "baseline"
+    }
+   ],
+   "own_reference_cells": 5759,
+   "other": {
+    "samples": 27,
+    "donors": 14,
+    "pools": [
+     "DB8",
+     "DB9",
+     "DB10",
+     "DB11",
+     "DB12",
+     "DB14"
+    ],
+    "cells": 100636
+   }
+  },
+  {
+   "fold": 25,
+   "pool": "DB13",
+   "heldout": "XHLT2-HS6-AAE6",
+   "donor": "HS6",
+   "timepoint": "followup",
+   "paired": [
+    {
+     "sample": "XHLT2-HS48-BLE1",
+     "donor": "HS48",
+     "timepoint": "baseline"
+    },
+    {
+     "sample": "XHLT2-HS30-AAE6",
+     "donor": "HS30",
+     "timepoint": "followup"
+    }
+   ],
+   "own_reference_cells": 5669,
+   "other": {
+    "samples": 27,
+    "donors": 14,
+    "pools": [
+     "DB8",
+     "DB9",
+     "DB10",
+     "DB11",
+     "DB12",
+     "DB14"
+    ],
+    "cells": 100636
+   }
+  },
+  {
+   "fold": 26,
+   "pool": "DB13",
+   "heldout": "XHLT2-HS48-BLE1",
+   "donor": "HS48",
+   "timepoint": "baseline",
+   "paired": [
+    {
+     "sample": "XHLT2-HS30-AAE6",
+     "donor": "HS30",
+     "timepoint": "followup"
+    },
+    {
+     "sample": "XHLT2-HS22-BLE1",
+     "donor": "HS22",
+     "timepoint": "baseline"
+    }
+   ],
+   "own_reference_cells": 5546,
+   "other": {
+    "samples": 27,
+    "donors": 14,
+    "pools": [
+     "DB8",
+     "DB9",
+     "DB10",
+     "DB11",
+     "DB12",
+     "DB14"
+    ],
+    "cells": 100636
+   }
+  },
+  {
+   "fold": 27,
+   "pool": "DB13",
+   "heldout": "XHLT2-HS30-AAE6",
+   "donor": "HS30",
+   "timepoint": "followup",
+   "paired": [
+    {
+     "sample": "XHLT2-HS22-BLE1",
+     "donor": "HS22",
+     "timepoint": "baseline"
+    },
+    {
+     "sample": "XHLT2-HS6-AAE6",
+     "donor": "HS6",
+     "timepoint": "followup"
+    }
+   ],
+   "own_reference_cells": 5636,
+   "other": {
+    "samples": 27,
+    "donors": 14,
+    "pools": [
+     "DB8",
+     "DB9",
+     "DB10",
+     "DB11",
+     "DB12",
+     "DB14"
+    ],
+    "cells": 100636
+   }
+  },
+  {
+   "fold": 28,
+   "pool": "DB14",
+   "heldout": "XHLT2-HS12-AAE6",
+   "donor": "HS12",
+   "timepoint": "followup",
+   "paired": [
+    {
+     "sample": "XHLT2-HS30-BLE1",
+     "donor": "HS30",
+     "timepoint": "baseline"
+    },
+    {
+     "sample": "XHLT2-HS94-BLE1",
+     "donor": "HS94",
+     "timepoint": "baseline"
+    }
+   ],
+   "own_reference_cells": 4861,
+   "other": {
+    "samples": 23,
+    "donors": 12,
+    "pools": [
+     "DB8",
+     "DB9",
+     "DB10",
+     "DB11",
+     "DB12",
+     "DB13"
+    ],
+    "cells": 86518
+   }
+  },
+  {
+   "fold": 29,
+   "pool": "DB14",
+   "heldout": "XHLT2-HS30-BLE1",
+   "donor": "HS30",
+   "timepoint": "baseline",
+   "paired": [
+    {
+     "sample": "XHLT2-HS94-BLE1",
+     "donor": "HS94",
+     "timepoint": "baseline"
+    },
+    {
+     "sample": "XHLT2-HS86-BLE1",
+     "donor": "HS86",
+     "timepoint": "baseline"
+    }
+   ],
+   "own_reference_cells": 5029,
+   "other": {
+    "samples": 23,
+    "donors": 12,
+    "pools": [
+     "DB8",
+     "DB9",
+     "DB10",
+     "DB11",
+     "DB12",
+     "DB13"
+    ],
+    "cells": 86518
+   }
+  },
+  {
+   "fold": 30,
+   "pool": "DB14",
+   "heldout": "XHLT2-HS94-BLE1",
+   "donor": "HS94",
+   "timepoint": "baseline",
+   "paired": [
+    {
+     "sample": "XHLT2-HS86-BLE1",
+     "donor": "HS86",
+     "timepoint": "baseline"
+    },
+    {
+     "sample": "XHLT2-HS28-AAE6",
+     "donor": "HS28",
+     "timepoint": "followup"
+    }
+   ],
+   "own_reference_cells": 6041,
+   "other": {
+    "samples": 23,
+    "donors": 12,
+    "pools": [
+     "DB8",
+     "DB9",
+     "DB10",
+     "DB11",
+     "DB12",
+     "DB13"
+    ],
+    "cells": 86518
+   }
+  },
+  {
+   "fold": 31,
+   "pool": "DB14",
+   "heldout": "XHLT2-HS86-BLE1",
+   "donor": "HS86",
+   "timepoint": "baseline",
+   "paired": [
+    {
+     "sample": "XHLT2-HS28-AAE6",
+     "donor": "HS28",
+     "timepoint": "followup"
+    },
+    {
+     "sample": "XHLT2-HS32-AAE6",
+     "donor": "HS32",
+     "timepoint": "followup"
+    }
+   ],
+   "own_reference_cells": 5775,
+   "other": {
+    "samples": 23,
+    "donors": 12,
+    "pools": [
+     "DB8",
+     "DB9",
+     "DB10",
+     "DB11",
+     "DB12",
+     "DB13"
+    ],
+    "cells": 86518
+   }
+  },
+  {
+   "fold": 32,
+   "pool": "DB14",
+   "heldout": "XHLT2-HS28-AAE6",
+   "donor": "HS28",
+   "timepoint": "followup",
+   "paired": [
+    {
+     "sample": "XHLT2-HS32-AAE6",
+     "donor": "HS32",
+     "timepoint": "followup"
+    },
+    {
+     "sample": "XHLT2-HS12-AAE6",
+     "donor": "HS12",
+     "timepoint": "followup"
+    }
+   ],
+   "own_reference_cells": 5468,
+   "other": {
+    "samples": 23,
+    "donors": 12,
+    "pools": [
+     "DB8",
+     "DB9",
+     "DB10",
+     "DB11",
+     "DB12",
+     "DB13"
+    ],
+    "cells": 86518
+   }
+  },
+  {
+   "fold": 33,
+   "pool": "DB14",
+   "heldout": "XHLT2-HS32-AAE6",
+   "donor": "HS32",
+   "timepoint": "followup",
+   "paired": [
+    {
+     "sample": "XHLT2-HS12-AAE6",
+     "donor": "HS12",
+     "timepoint": "followup"
+    },
+    {
+     "sample": "XHLT2-HS30-BLE1",
+     "donor": "HS30",
+     "timepoint": "baseline"
+    }
+   ],
+   "own_reference_cells": 5566,
+   "other": {
+    "samples": 23,
+    "donors": 12,
+    "pools": [
+     "DB8",
+     "DB9",
+     "DB10",
+     "DB11",
+     "DB12",
+     "DB13"
+    ],
+    "cells": 86518
+   }
+  }
+ ],
+ "roles": {
+  "HS6": {
+   "heldout": 2,
+   "paired": 4
+  },
+  "HS10": {
+   "heldout": 2,
+   "paired": 4
+  },
+  "HS12": {
+   "heldout": 1,
+   "paired": 2
+  },
+  "HS16": {
+   "heldout": 2,
+   "paired": 4
+  },
+  "HS22": {
+   "heldout": 2,
+   "paired": 4
+  },
+  "HS24": {
+   "heldout": 2,
+   "paired": 4
+  },
+  "HS28": {
+   "heldout": 2,
+   "paired": 4
+  },
+  "HS30": {
+   "heldout": 2,
+   "paired": 4
+  },
+  "HS32": {
+   "heldout": 2,
+   "paired": 4
+  },
+  "HS46": {
+   "heldout": 2,
+   "paired": 4
+  },
+  "HS47": {
+   "heldout": 2,
+   "paired": 4
+  },
+  "HS48": {
+   "heldout": 1,
+   "paired": 2
+  },
+  "HS68": {
+   "heldout": 2,
+   "paired": 4
+  },
+  "HS75": {
+   "heldout": 2,
+   "paired": 4
+  },
+  "HS86": {
+   "heldout": 2,
+   "paired": 4
+  },
+  "HS88": {
+   "heldout": 2,
+   "paired": 4
+  },
+  "HS93": {
+   "heldout": 2,
+   "paired": 4
+  },
+  "HS94": {
+   "heldout": 2,
+   "paired": 4
+  }
+ },
+ "checks": {
+  "one_sample_per_donor_and_pool": true,
+  "two_timepoints_in_different_pools": true,
+  "heldout_donor_not_paired": true,
+  "heldout_donor_not_in_other_pool_reference": true,
+  "paired_donors_not_in_other_pool_reference": true,
+  "other_pool_reference_excludes_every_donor_of_the_pool": true,
+  "atlas": "another study (Stephenson et al. 2021, E-MTAB-10026); no shared donor"
+ },
+ "donor_disjoint": true,
+ "written": "2026-09-29 16:06:56 EDT"
+}

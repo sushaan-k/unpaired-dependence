@@ -1,0 +1,12 @@
+hao 5.3 {'B_single': np.float64(578.421), 'B_blocks': 109.22, 'signal_share_leading_block': np.float64(0.44), 'noise_share_leading_block': np.float64(0.026)}
+stephenson 5.85 {'B_single': np.float64(3442.41), 'B_blocks': 588.928, 'signal_share_leading_block': np.float64(0.2), 'noise_share_leading_block': np.float64(0.008)}
+bmmc_cite 5.43 {'B_single': np.float64(318.419), 'B_blocks': 58.601, 'signal_share_leading_block': np.float64(0.554), 'noise_share_leading_block': np.float64(0.037)}
+colon 6.01 {'B_single': np.float64(1476.759), 'B_blocks': 245.662, 'signal_share_leading_block': np.float64(0.395), 'noise_share_leading_block': np.float64(0.015)}
+bmmc_multiome 19.35 {'B_single': np.float64(29071.575), 'B_blocks': 1502.492, 'signal_share_leading_block': np.float64(0.445), 'noise_share_leading_block': np.float64(0.004)}
+scala_m1 1.95 {'B_single': np.float64(593.552), 'B_blocks': 303.628, 'signal_share_leading_block': np.float64(0.002), 'noise_share_leading_block': np.float64(0.054)}
+gouwens_visp 2.16 {'B_single': np.float64(229.352), 'B_blocks': 106.183, 'signal_share_leading_block': np.float64(0.445), 'noise_share_leading_block': np.float64(0.089)}
+banc 2.71 {'B_single': np.float64(85.663), 'B_blocks': 31.658, 'signal_share_leading_block': np.float64(0.531), 'noise_share_leading_block': np.float64(0.075)}
+malecns 3.59 {'B_single': np.float64(71.858), 'B_blocks': 20.032, 'signal_share_leading_block': np.float64(0.629), 'noise_share_leading_block': np.float64(0.076)}
+frangieh 6.94 {'B_single': np.float64(369.383), 'B_blocks': 53.215, 'signal_share_leading_block': np.float64(0.743), 'noise_share_leading_block': np.float64(0.063)}
+papalexi 2.77 {'B_single': np.float64(235.397), 'B_blocks': 84.932, 'signal_share_leading_block': np.float64(0.789), 'noise_share_leading_block': np.float64(0.195)}
+overcite 4.34 {'B_single': np.float64(492.912), 'B_blocks': 113.628, 'signal_share_leading_block': np.float64(0.574), 'noise_share_leading_block': np.float64(0.056)}

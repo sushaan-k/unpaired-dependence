@@ -1,0 +1,3026 @@
+[
+ {
+  "part": "heldout",
+  "key": "AHNAK|coculture",
+  "target": "AHNAK",
+  "condition": "coculture",
+  "n_adapt": 90,
+  "nu_mean": 0.5483272880533404,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.0449456863236997,
+   "F_latent": 0.02143983481811921,
+   "F_measured": 0.143754781923494
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.05523707715810851,
+   "F_latent": 0.03074609240853775,
+   "F_measured": 0.25912732691076723
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "AHNAK|control",
+  "target": "AHNAK",
+  "condition": "control",
+  "n_adapt": 72,
+  "nu_mean": 0.6048389063627748,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.008206061004446449,
+   "F_latent": 0.010032999612305688,
+   "F_measured": 0.01787161393093185
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.014854541233774709,
+   "F_latent": 0.016667614828321613,
+   "F_measured": 0.02847150927169165
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "AHNAK|ifng",
+  "target": "AHNAK",
+  "condition": "ifng",
+  "n_adapt": 100,
+  "nu_mean": 0.5903297489841032,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.026774565652202945,
+   "F_latent": 0.014686439557976454,
+   "F_measured": 0.12707570064309334
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04671878745642173,
+   "F_latent": 0.022510175965457575,
+   "F_measured": 0.22000277037432428
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "APOD|coculture",
+  "target": "APOD",
+  "condition": "coculture",
+  "n_adapt": 95,
+  "nu_mean": 0.6038219103259815,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.03404746778704641,
+   "F_latent": 0.01845962100827795,
+   "F_measured": 0.12373690271289797
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.050800224789487536,
+   "F_latent": 0.028410899800360354,
+   "F_measured": 0.21467837271847182
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "APOD|control",
+  "target": "APOD",
+  "condition": "control",
+  "n_adapt": 60,
+  "nu_mean": 0.5961108382925377,
+  "benchmark_lambda": 100.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.00984628546436334,
+   "F_latent": 0.010709005614253616,
+   "F_measured": 0.021684892659045975
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.01751482996901265,
+   "F_latent": 0.0176035318648787,
+   "F_measured": 0.03887337011091374
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "APOD|ifng",
+  "target": "APOD",
+  "condition": "ifng",
+  "n_adapt": 113,
+  "nu_mean": 0.6202294667680096,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.015107136967026223,
+   "F_latent": 0.012908224999194013,
+   "F_measured": 0.13605661412003234
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.03376964193439336,
+   "F_latent": 0.019160527133811008,
+   "F_measured": 0.20441294099015622
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "CCR10|coculture",
+  "target": "CCR10",
+  "condition": "coculture",
+  "n_adapt": 94,
+  "nu_mean": 0.5820027017150136,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.034268377564423226,
+   "F_latent": 0.01938610516563987,
+   "F_measured": 0.13000071872435912
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.0469938616862969,
+   "F_latent": 0.026907782135916467,
+   "F_measured": 0.2463108171751374
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "CCR10|control",
+  "target": "CCR10",
+  "condition": "control",
+  "n_adapt": 58,
+  "nu_mean": 0.6186772863097886,
+  "benchmark_lambda": 100.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.00931632510684487,
+   "F_latent": 0.009865714861474128,
+   "F_measured": 0.015622468364463377
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.016694820781160167,
+   "F_latent": 0.01649215076044757,
+   "F_measured": 0.026738087832991225
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "CCR10|ifng",
+  "target": "CCR10",
+  "condition": "ifng",
+  "n_adapt": 103,
+  "nu_mean": 0.5720129452412365,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.01989980736932301,
+   "F_latent": 0.014679759421653886,
+   "F_measured": 0.1429717950242217
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.037359069432244804,
+   "F_latent": 0.02235118273364345,
+   "F_measured": 0.20897257147577616
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "CD63|coculture",
+  "target": "CD63",
+  "condition": "coculture",
+  "n_adapt": 89,
+  "nu_mean": 0.5381931935778457,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.03639866344917859,
+   "F_latent": 0.01964857117515467,
+   "F_measured": 0.14927218561561628
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.057004280198972704,
+   "F_latent": 0.031638272891629814,
+   "F_measured": 0.2973308862470781
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "CD63|control",
+  "target": "CD63",
+  "condition": "control",
+  "n_adapt": 52,
+  "nu_mean": 0.6403123459802899,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.007741876590169936,
+   "F_latent": 0.011985223190259048,
+   "F_measured": 0.019482533260560923
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.015641962672747044,
+   "F_latent": 0.018129343378507693,
+   "F_measured": 0.028240050834038834
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "CD63|ifng",
+  "target": "CD63",
+  "condition": "ifng",
+  "n_adapt": 98,
+  "nu_mean": 0.5716940479979052,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.026293712688162305,
+   "F_latent": 0.013992048877790883,
+   "F_measured": 0.14243039890354187
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04702819728380169,
+   "F_latent": 0.01808751455645588,
+   "F_measured": 0.18744364123400362
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "CDK6|ifng",
+  "target": "CDK6",
+  "condition": "ifng",
+  "n_adapt": 49,
+  "nu_mean": 0.5544057184796094,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.027512500455264797,
+   "F_latent": 0.01272985342869524,
+   "F_measured": 0.12334353565826081
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.040951489300000414,
+   "F_latent": 0.017268957157944746,
+   "F_measured": 0.16864523856729907
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "CGAS|coculture",
+  "target": "CGAS",
+  "condition": "coculture",
+  "n_adapt": 108,
+  "nu_mean": 0.568156817860617,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.03048135543806736,
+   "F_latent": 0.018949077117090672,
+   "F_measured": 0.1634484871465231
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04693581545455554,
+   "F_latent": 0.030108442587399073,
+   "F_measured": 0.27146687319297336
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "CGAS|control",
+  "target": "CGAS",
+  "condition": "control",
+  "n_adapt": 66,
+  "nu_mean": 0.5957979448870849,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.006293612723324922,
+   "F_latent": 0.011106299989404128,
+   "F_measured": 0.019679889720094445
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.015106506705847653,
+   "F_latent": 0.016067222316326967,
+   "F_measured": 0.02730216466036933
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "CGAS|ifng",
+  "target": "CGAS",
+  "condition": "ifng",
+  "n_adapt": 116,
+  "nu_mean": 0.5930035445449208,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.02571755537467201,
+   "F_latent": 0.018368600540674903,
+   "F_measured": 0.1855156848385346
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04561607372648512,
+   "F_latent": 0.02567476972806799,
+   "F_measured": 0.255527413124452
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "CITED1|coculture",
+  "target": "CITED1",
+  "condition": "coculture",
+  "n_adapt": 118,
+  "nu_mean": 0.5776254159217244,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.03612286211509015,
+   "F_latent": 0.020379627112373008,
+   "F_measured": 0.13798041072025025
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04763363613200108,
+   "F_latent": 0.02755280674243338,
+   "F_measured": 0.2667627765370589
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "CITED1|control",
+  "target": "CITED1",
+  "condition": "control",
+  "n_adapt": 73,
+  "nu_mean": 0.5929185035467416,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.006590064573671004,
+   "F_latent": 0.010986043371750449,
+   "F_measured": 0.02199284075056137
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.013672091604926318,
+   "F_latent": 0.017014136041127684,
+   "F_measured": 0.03426716027814386
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "CITED1|ifng",
+  "target": "CITED1",
+  "condition": "ifng",
+  "n_adapt": 108,
+  "nu_mean": 0.5960793004389275,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.022421771530195426,
+   "F_latent": 0.01585384963810077,
+   "F_measured": 0.15219901606728609
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04165915230729562,
+   "F_latent": 0.021420819181311192,
+   "F_measured": 0.21125129850097416
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "CORO1A|coculture",
+  "target": "CORO1A",
+  "condition": "coculture",
+  "n_adapt": 83,
+  "nu_mean": 0.5909579635934485,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.04149687536929826,
+   "F_latent": 0.02095886226602286,
+   "F_measured": 0.1600201583161471
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.05602963846205711,
+   "F_latent": 0.03376407781149538,
+   "F_measured": 0.32172663219667164
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "CORO1A|control",
+  "target": "CORO1A",
+  "condition": "control",
+  "n_adapt": 68,
+  "nu_mean": 0.573122699475445,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.009719758755831519,
+   "F_latent": 0.01388053021208835,
+   "F_measured": 0.05350419600596892
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.01990137396184725,
+   "F_latent": 0.022191344108250445,
+   "F_measured": 0.20361378153919119
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "CORO1A|ifng",
+  "target": "CORO1A",
+  "condition": "ifng",
+  "n_adapt": 101,
+  "nu_mean": 0.6113764628610088,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.025143464369042145,
+   "F_latent": 0.016352121504138242,
+   "F_measured": 0.16094213615737815
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04655188295679558,
+   "F_latent": 0.02348476204290198,
+   "F_measured": 0.23221741869925727
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "CST3|coculture",
+  "target": "CST3",
+  "condition": "coculture",
+  "n_adapt": 77,
+  "nu_mean": 0.5778175846539122,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.030505503574811934,
+   "F_latent": 0.01900530248629712,
+   "F_measured": 0.14151386683133632
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.044969176270837234,
+   "F_latent": 0.026132841999013553,
+   "F_measured": 0.17357875917730073
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "CST3|control",
+  "target": "CST3",
+  "condition": "control",
+  "n_adapt": 47,
+  "nu_mean": 0.6359097908714593,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.007963925520569357,
+   "F_latent": 0.010500809084123175,
+   "F_measured": 0.017031699964107715
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.016258881355614832,
+   "F_latent": 0.01642809345377152,
+   "F_measured": 0.025466923838220266
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "CST3|ifng",
+  "target": "CST3",
+  "condition": "ifng",
+  "n_adapt": 81,
+  "nu_mean": 0.559488437835019,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.02909759532014716,
+   "F_latent": 0.015546235804542544,
+   "F_measured": 0.14577848522922507
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.046817515080939384,
+   "F_latent": 0.020524272759103866,
+   "F_measured": 0.19946415273088644
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "CTSL|coculture",
+  "target": "CTSL",
+  "condition": "coculture",
+  "n_adapt": 97,
+  "nu_mean": 0.5546428284071427,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.04413723912203595,
+   "F_latent": 0.021146320678869276,
+   "F_measured": 0.14369509193404711
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.06233790602662861,
+   "F_latent": 0.03184028109068201,
+   "F_measured": 0.23503649510533473
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "CTSL|control",
+  "target": "CTSL",
+  "condition": "control",
+  "n_adapt": 69,
+  "nu_mean": 0.6264307911523224,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.0067503607321040505,
+   "F_latent": 0.012035051926454812,
+   "F_measured": 0.026493455948568344
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.014671405309786336,
+   "F_latent": 0.018212461666497422,
+   "F_measured": 0.03989928812330163
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "CTSL|ifng",
+  "target": "CTSL",
+  "condition": "ifng",
+  "n_adapt": 94,
+  "nu_mean": 0.5929314981567595,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.016399590539274967,
+   "F_latent": 0.015036339067492991,
+   "F_measured": 0.14233092806820044
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.03778702491143929,
+   "F_latent": 0.022499492692760956,
+   "F_measured": 0.21620092026982013
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "CTSO|coculture",
+  "target": "CTSO",
+  "condition": "coculture",
+  "n_adapt": 94,
+  "nu_mean": 0.5875642296183472,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.03807444123589835,
+   "F_latent": 0.0166970048519319,
+   "F_measured": 0.13135898846071087
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.052352316192498284,
+   "F_latent": 0.03199560742079058,
+   "F_measured": 0.24698910309764624
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "CTSO|control",
+  "target": "CTSO",
+  "condition": "control",
+  "n_adapt": 84,
+  "nu_mean": 0.6018602838486257,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.007715703213112471,
+   "F_latent": 0.011102311861830076,
+   "F_measured": 0.023436708593851763
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.01686195811546843,
+   "F_latent": 0.020196122949042526,
+   "F_measured": 0.049194877047061006
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "CTSO|ifng",
+  "target": "CTSO",
+  "condition": "ifng",
+  "n_adapt": 120,
+  "nu_mean": 0.5617718784669894,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.021509190126576715,
+   "F_latent": 0.015239333323429709,
+   "F_measured": 0.15058665241194247
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04371024629303554,
+   "F_latent": 0.02347658152812935,
+   "F_measured": 0.22282609871753908
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "CYP27A1|coculture",
+  "target": "CYP27A1",
+  "condition": "coculture",
+  "n_adapt": 105,
+  "nu_mean": 0.5524273980335842,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.0379520945752726,
+   "F_latent": 0.021631663975265288,
+   "F_measured": 0.17907586519861024
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04963679441600004,
+   "F_latent": 0.03419635520766213,
+   "F_measured": 0.3113593360897729
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "CYP27A1|control",
+  "target": "CYP27A1",
+  "condition": "control",
+  "n_adapt": 74,
+  "nu_mean": 0.6032021800508973,
+  "benchmark_lambda": 100.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.008031218261587663,
+   "F_latent": 0.012142988412382637,
+   "F_measured": 0.021610108890516098
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.017970281012195402,
+   "F_latent": 0.018484960687344367,
+   "F_measured": 0.032204404411677344
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "CYP27A1|ifng",
+  "target": "CYP27A1",
+  "condition": "ifng",
+  "n_adapt": 111,
+  "nu_mean": 0.5700307856663127,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.021819515216785792,
+   "F_latent": 0.016791040324938965,
+   "F_measured": 0.16816162692172118
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.038084287630361556,
+   "F_latent": 0.02300064977322767,
+   "F_measured": 0.23037735542832577
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "EIF3K|coculture",
+  "target": "EIF3K",
+  "condition": "coculture",
+  "n_adapt": 70,
+  "nu_mean": 0.5963728348797058,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.030609964052107436,
+   "F_latent": 0.01610160879945482,
+   "F_measured": 0.11268781427142018
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04723999794108865,
+   "F_latent": 0.025454183207203964,
+   "F_measured": 0.23172893757702467
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "EIF3K|control",
+  "target": "EIF3K",
+  "condition": "control",
+  "n_adapt": 58,
+  "nu_mean": 0.5798357565143759,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.007752120039631773,
+   "F_latent": 0.01084734438766625,
+   "F_measured": 0.02222648007557977
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.017373507139719305,
+   "F_latent": 0.01818994160131773,
+   "F_measured": 0.03871150369967019
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "EIF3K|ifng",
+  "target": "EIF3K",
+  "condition": "ifng",
+  "n_adapt": 91,
+  "nu_mean": 0.574906009310887,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.02215821794346129,
+   "F_latent": 0.01731724462006533,
+   "F_measured": 0.15910782727190903
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04148972747151628,
+   "F_latent": 0.024927686151575864,
+   "F_measured": 0.24200307276335442
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "FKBP4|coculture",
+  "target": "FKBP4",
+  "condition": "coculture",
+  "n_adapt": 70,
+  "nu_mean": 0.5835836508349612,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.031451047447465526,
+   "F_latent": 0.01659849623485049,
+   "F_measured": 0.1326938225482253
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04345674535049286,
+   "F_latent": 0.024890935318090446,
+   "F_measured": 0.20933605200981764
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "FKBP4|control",
+  "target": "FKBP4",
+  "condition": "control",
+  "n_adapt": 53,
+  "nu_mean": 0.580644606657884,
+  "benchmark_lambda": 100.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.00669384783883732,
+   "F_latent": 0.010858843659206311,
+   "F_measured": 0.01630906847383022
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.015158867890622024,
+   "F_latent": 0.017136075333848134,
+   "F_measured": 0.02507965636928939
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "FKBP4|ifng",
+  "target": "FKBP4",
+  "condition": "ifng",
+  "n_adapt": 84,
+  "nu_mean": 0.603719761883208,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.01956526276287772,
+   "F_latent": 0.013724358615875969,
+   "F_measured": 0.1342073632616191
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.038521485604636835,
+   "F_latent": 0.020255147158318776,
+   "F_measured": 0.1947221453506617
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "FMN1|coculture",
+  "target": "FMN1",
+  "condition": "coculture",
+  "n_adapt": 117,
+  "nu_mean": 0.5732014651968071,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.03721770090348403,
+   "F_latent": 0.019876422840680467,
+   "F_measured": 0.15518373065893334
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.05430480355209269,
+   "F_latent": 0.030713078380040854,
+   "F_measured": 0.2836373330066425
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "FMN1|control",
+  "target": "FMN1",
+  "condition": "control",
+  "n_adapt": 71,
+  "nu_mean": 0.6108245644532745,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.007362486512648885,
+   "F_latent": 0.009742830523770526,
+   "F_measured": 0.01573498833973249
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.014360529366236075,
+   "F_latent": 0.015040530677431756,
+   "F_measured": 0.023692575696025408
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "FMN1|ifng",
+  "target": "FMN1",
+  "condition": "ifng",
+  "n_adapt": 138,
+  "nu_mean": 0.5299480782303444,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.02771727126824386,
+   "F_latent": 0.018682747862392674,
+   "F_measured": 0.1831934897416193
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.05402849339921432,
+   "F_latent": 0.02444703683864994,
+   "F_measured": 0.2558358383144266
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "FRZB|coculture",
+  "target": "FRZB",
+  "condition": "coculture",
+  "n_adapt": 75,
+  "nu_mean": 0.5999412334682908,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.038583073291936276,
+   "F_latent": 0.018921349888354852,
+   "F_measured": 0.1513062703245385
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.051724337101299804,
+   "F_latent": 0.02868516867461164,
+   "F_measured": 0.23189407133344045
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "FRZB|control",
+  "target": "FRZB",
+  "condition": "control",
+  "n_adapt": 57,
+  "nu_mean": 0.6105665116166478,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.0055992193973180854,
+   "F_latent": 0.009387435993974126,
+   "F_measured": 0.014956172827096856
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.011579050143487726,
+   "F_latent": 0.01615373922476755,
+   "F_measured": 0.0244115144580328
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "FRZB|ifng",
+  "target": "FRZB",
+  "condition": "ifng",
+  "n_adapt": 84,
+  "nu_mean": 0.6010289681880782,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.01965286189608021,
+   "F_latent": 0.013753464929813284,
+   "F_measured": 0.13231201058875827
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.03624041188148872,
+   "F_latent": 0.023112123613744564,
+   "F_measured": 0.21339237441677647
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "HLA-C|coculture",
+  "target": "HLA-C",
+  "condition": "coculture",
+  "n_adapt": 78,
+  "nu_mean": 0.5778806307139128,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.02605835513943721,
+   "F_latent": 0.01656510540958886,
+   "F_measured": 0.1420215063455721
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.039472793055639784,
+   "F_latent": 0.024728412490975245,
+   "F_measured": 0.2085597611247278
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "HLA-C|control",
+  "target": "HLA-C",
+  "condition": "control",
+  "n_adapt": 47,
+  "nu_mean": 0.5786888882949429,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.007635688255854036,
+   "F_latent": 0.012013289921151499,
+   "F_measured": 0.020516581423533856
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.014896230453639725,
+   "F_latent": 0.01993165625787874,
+   "F_measured": 0.03287981470780393
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "HLA-C|ifng",
+  "target": "HLA-C",
+  "condition": "ifng",
+  "n_adapt": 82,
+  "nu_mean": 0.6130813333684664,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.023862758271023094,
+   "F_latent": 0.014968162193080562,
+   "F_measured": 0.14582431584341396
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04589463851257708,
+   "F_latent": 0.02115397931415088,
+   "F_measured": 0.20783018669088268
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "HLA-H|coculture",
+  "target": "HLA-H",
+  "condition": "coculture",
+  "n_adapt": 113,
+  "nu_mean": 0.5551254007951818,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.03395327459298344,
+   "F_latent": 0.018819030983494207,
+   "F_measured": 0.1439293913817657
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.05194414501510981,
+   "F_latent": 0.03079846266528282,
+   "F_measured": 0.28834139144777493
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "HLA-H|control",
+  "target": "HLA-H",
+  "condition": "control",
+  "n_adapt": 65,
+  "nu_mean": 0.612320598248756,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.008617980781169222,
+   "F_latent": 0.011148795378602416,
+   "F_measured": 0.026242663235657545
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.017097685922352463,
+   "F_latent": 0.019438652531654787,
+   "F_measured": 0.04459245618533478
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "HLA-H|ifng",
+  "target": "HLA-H",
+  "condition": "ifng",
+  "n_adapt": 112,
+  "nu_mean": 0.5722389186760577,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.020470213302922317,
+   "F_latent": 0.017859436347653374,
+   "F_measured": 0.1796203744157116
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04279927750356081,
+   "F_latent": 0.02595475975537248,
+   "F_measured": 0.2639070566881954
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "KCNN4|coculture",
+  "target": "KCNN4",
+  "condition": "coculture",
+  "n_adapt": 99,
+  "nu_mean": 0.5701316239996119,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.035341819838544626,
+   "F_latent": 0.017132228057489957,
+   "F_measured": 0.13244904238301383
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04941844378390533,
+   "F_latent": 0.0248195448963236,
+   "F_measured": 0.2044128914941339
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "KCNN4|control",
+  "target": "KCNN4",
+  "condition": "control",
+  "n_adapt": 60,
+  "nu_mean": 0.6006428239396588,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.0074073068845278995,
+   "F_latent": 0.010134435844545807,
+   "F_measured": 0.02108535592106699
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.016176324735218246,
+   "F_latent": 0.016413818008259782,
+   "F_measured": 0.035377423394346144
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "KCNN4|ifng",
+  "target": "KCNN4",
+  "condition": "ifng",
+  "n_adapt": 127,
+  "nu_mean": 0.6085909490984232,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.02557219720742668,
+   "F_latent": 0.017405247456703743,
+   "F_measured": 0.17976205169013024
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04782322942284561,
+   "F_latent": 0.024235824823857263,
+   "F_measured": 0.24758460680901784
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "KLF4|coculture",
+  "target": "KLF4",
+  "condition": "coculture",
+  "n_adapt": 84,
+  "nu_mean": 0.5744047862664966,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.031543747720679735,
+   "F_latent": 0.017341381220958636,
+   "F_measured": 0.13007229699377176
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04825849979561499,
+   "F_latent": 0.028589307754152832,
+   "F_measured": 0.2637955228631394
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "KLF4|control",
+  "target": "KLF4",
+  "condition": "control",
+  "n_adapt": 60,
+  "nu_mean": 0.6311191258542155,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.008376943877839526,
+   "F_latent": 0.01170274422334457,
+   "F_measured": 0.02425050567696084
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.015122538302997863,
+   "F_latent": 0.01824401281027488,
+   "F_measured": 0.04067331955440399
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "KLF4|ifng",
+  "target": "KLF4",
+  "condition": "ifng",
+  "n_adapt": 97,
+  "nu_mean": 0.6350940939364621,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.024036548980923222,
+   "F_latent": 0.01773267232005208,
+   "F_measured": 0.15407074706630974
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04778218992404281,
+   "F_latent": 0.02402639843474581,
+   "F_measured": 0.19118051847808248
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "LRRC75A-AS1|coculture",
+  "target": "LRRC75A-AS1",
+  "condition": "coculture",
+  "n_adapt": 99,
+  "nu_mean": 0.5513469316212936,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.039527215782357676,
+   "F_latent": 0.020835345692473067,
+   "F_measured": 0.15935865132524452
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.05316157556727128,
+   "F_latent": 0.02898470959434606,
+   "F_measured": 0.2722659295285239
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "LRRC75A-AS1|control",
+  "target": "LRRC75A-AS1",
+  "condition": "control",
+  "n_adapt": 59,
+  "nu_mean": 0.610599295252201,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.006199154342960034,
+   "F_latent": 0.009771288729364764,
+   "F_measured": 0.01605666640341095
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.014353333418655669,
+   "F_latent": 0.016666789772084953,
+   "F_measured": 0.02578442196619496
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "LRRC75A-AS1|ifng",
+  "target": "LRRC75A-AS1",
+  "condition": "ifng",
+  "n_adapt": 96,
+  "nu_mean": 0.582671479815702,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.024010578693532528,
+   "F_latent": 0.015093704795864816,
+   "F_measured": 0.1466531233431788
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04576660105956876,
+   "F_latent": 0.0223909453715559,
+   "F_measured": 0.219353765571929
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "MFGE8|coculture",
+  "target": "MFGE8",
+  "condition": "coculture",
+  "n_adapt": 129,
+  "nu_mean": 0.553885335525074,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.038698192266709106,
+   "F_latent": 0.02461655986102421,
+   "F_measured": 0.16490756367868217
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.05701011419304745,
+   "F_latent": 0.03479710740172918,
+   "F_measured": 0.3363504848853187
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "MFGE8|control",
+  "target": "MFGE8",
+  "condition": "control",
+  "n_adapt": 81,
+  "nu_mean": 0.5256136544131071,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.009149931371233447,
+   "F_latent": 0.011246324357530023,
+   "F_measured": 0.01864846299068024
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.014077296658618833,
+   "F_latent": 0.017419584327460363,
+   "F_measured": 0.0285571526394347
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "MFGE8|ifng",
+  "target": "MFGE8",
+  "condition": "ifng",
+  "n_adapt": 159,
+  "nu_mean": 0.5524272257501912,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.02962757782804791,
+   "F_latent": 0.01822330172649102,
+   "F_measured": 0.19358750782876022
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.05114836849227121,
+   "F_latent": 0.024578557451505157,
+   "F_measured": 0.26696009427942
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "NME1|coculture",
+  "target": "NME1",
+  "condition": "coculture",
+  "n_adapt": 83,
+  "nu_mean": 0.5896265669622123,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.03366414584585581,
+   "F_latent": 0.0211234532643437,
+   "F_measured": 0.15431118032654112
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04763803110654678,
+   "F_latent": 0.031606202789655584,
+   "F_measured": 0.25278236649912933
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "NME1|control",
+  "target": "NME1",
+  "condition": "control",
+  "n_adapt": 57,
+  "nu_mean": 0.5671362461787496,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.007385637446420447,
+   "F_latent": 0.009267184232137113,
+   "F_measured": 0.01534792618904835
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.014822506092712257,
+   "F_latent": 0.014596090565975134,
+   "F_measured": 0.023342123132194498
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "NME1|ifng",
+  "target": "NME1",
+  "condition": "ifng",
+  "n_adapt": 104,
+  "nu_mean": 0.583061339048404,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.024319848648710677,
+   "F_latent": 0.014980698936706137,
+   "F_measured": 0.14663283275235106
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04473151728004209,
+   "F_latent": 0.02132563398570405,
+   "F_measured": 0.2152392591836384
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "NMRK1|coculture",
+  "target": "NMRK1",
+  "condition": "coculture",
+  "n_adapt": 97,
+  "nu_mean": 0.6006421084465573,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.03903295793465433,
+   "F_latent": 0.01769562325759017,
+   "F_measured": 0.16122688831784432
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.051654717554995434,
+   "F_latent": 0.03221159819667771,
+   "F_measured": 0.29733916239596664
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "NMRK1|control",
+  "target": "NMRK1",
+  "condition": "control",
+  "n_adapt": 69,
+  "nu_mean": 0.5769834398687114,
+  "benchmark_lambda": 100.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.00839503659265948,
+   "F_latent": 0.010960285314522025,
+   "F_measured": 0.019544818829016423
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.012713534989341397,
+   "F_latent": 0.018395773929793247,
+   "F_measured": 0.03379060255494915
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "NMRK1|ifng",
+  "target": "NMRK1",
+  "condition": "ifng",
+  "n_adapt": 105,
+  "nu_mean": 0.6108358364643884,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.021856929341464656,
+   "F_latent": 0.015559730633862888,
+   "F_measured": 0.15366295859710205
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.040999349253009465,
+   "F_latent": 0.022811436600111853,
+   "F_measured": 0.22392281784710394
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "P2RX4|ifng",
+  "target": "P2RX4",
+  "condition": "ifng",
+  "n_adapt": 51,
+  "nu_mean": 0.6023438816760289,
+  "benchmark_lambda": 100.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.024533091831900757,
+   "F_latent": 0.01067993118363229,
+   "F_measured": 0.09926306269071737
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.040720519668775844,
+   "F_latent": 0.015560847488221632,
+   "F_measured": 0.1540504216563112
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "PFDN4|coculture",
+  "target": "PFDN4",
+  "condition": "coculture",
+  "n_adapt": 87,
+  "nu_mean": 0.5909491344229104,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.0367888918622362,
+   "F_latent": 0.016823674997517756,
+   "F_measured": 0.11927536040130328
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.0520712120868879,
+   "F_latent": 0.025060683037279416,
+   "F_measured": 0.19031647054930306
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "PFDN4|control",
+  "target": "PFDN4",
+  "condition": "control",
+  "n_adapt": 80,
+  "nu_mean": 0.5618008936798651,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.007746848980590538,
+   "F_latent": 0.010300338907482496,
+   "F_measured": 0.02364263166018964
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.01579898975646494,
+   "F_latent": 0.018013596574229934,
+   "F_measured": 0.04746971782543613
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "PFDN4|ifng",
+  "target": "PFDN4",
+  "condition": "ifng",
+  "n_adapt": 111,
+  "nu_mean": 0.5696386899780032,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.0224086121094459,
+   "F_latent": 0.01637736272595897,
+   "F_measured": 0.145314199845138
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04711971050508474,
+   "F_latent": 0.024377719091774018,
+   "F_measured": 0.17881274327976346
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "PFN1|coculture",
+  "target": "PFN1",
+  "condition": "coculture",
+  "n_adapt": 46,
+  "nu_mean": 0.56308442977962,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.029004060731566264,
+   "F_latent": 0.013668935669695166,
+   "F_measured": 0.10783681464117077
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.05087328347724112,
+   "F_latent": 0.025073038301083657,
+   "F_measured": 0.17053962234654726
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "PFN1|ifng",
+  "target": "PFN1",
+  "condition": "ifng",
+  "n_adapt": 49,
+  "nu_mean": 0.6656097990177412,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.021960466039061165,
+   "F_latent": 0.012063969412093978,
+   "F_measured": 0.10340478070052322
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.03881470830573634,
+   "F_latent": 0.01768610161873065,
+   "F_measured": 0.15091027853493066
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "PSAP|coculture",
+  "target": "PSAP",
+  "condition": "coculture",
+  "n_adapt": 125,
+  "nu_mean": 0.5685187966820368,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.03543282019542936,
+   "F_latent": 0.023563733946302404,
+   "F_measured": 0.16497829475793582
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.050524034240441794,
+   "F_latent": 0.037123306845896376,
+   "F_measured": 0.33841238148364894
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "PSAP|control",
+  "target": "PSAP",
+  "condition": "control",
+  "n_adapt": 83,
+  "nu_mean": 0.5987274516379992,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.005926441977876147,
+   "F_latent": 0.010545881087917366,
+   "F_measured": 0.016788256830413274
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.013312776851422167,
+   "F_latent": 0.015759933201853538,
+   "F_measured": 0.025158393327540177
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "PSAP|ifng",
+  "target": "PSAP",
+  "condition": "ifng",
+  "n_adapt": 132,
+  "nu_mean": 0.5481936702482545,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.02535741066913143,
+   "F_latent": 0.016985913162969133,
+   "F_measured": 0.17810139915847814
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.044952538156819474,
+   "F_latent": 0.023617257408931558,
+   "F_measured": 0.24865110363328777
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "PTMA|coculture",
+  "target": "PTMA",
+  "condition": "coculture",
+  "n_adapt": 108,
+  "nu_mean": 0.5884676382022209,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.02899531399264837,
+   "F_latent": 0.01829370756412274,
+   "F_measured": 0.1540563660191781
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04604147885457287,
+   "F_latent": 0.029389760680753284,
+   "F_measured": 0.2623338096262613
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "PTMA|control",
+  "target": "PTMA",
+  "condition": "control",
+  "n_adapt": 54,
+  "nu_mean": 0.6305232460471861,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.0064985699429664645,
+   "F_latent": 0.011865920859639677,
+   "F_measured": 0.025508516771034027
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.014325406259248013,
+   "F_latent": 0.01897749422009906,
+   "F_measured": 0.04007503247940894
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "PTMA|ifng",
+  "target": "PTMA",
+  "condition": "ifng",
+  "n_adapt": 92,
+  "nu_mean": 0.6051311746444413,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.019977262572511315,
+   "F_latent": 0.015209775816406873,
+   "F_measured": 0.14641961460945382
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.035913741310904544,
+   "F_latent": 0.019278047396439145,
+   "F_measured": 0.1881669582460334
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "PUF60|ifng",
+  "target": "PUF60",
+  "condition": "ifng",
+  "n_adapt": 42,
+  "nu_mean": 0.6073316815237224,
+  "benchmark_lambda": 100.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.0219233882947237,
+   "F_latent": 0.015319243074059094,
+   "F_measured": 0.1372248227112758
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.03347552056197846,
+   "F_latent": 0.019844291867425846,
+   "F_measured": 0.1365822433811189
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "RBP7|coculture",
+  "target": "RBP7",
+  "condition": "coculture",
+  "n_adapt": 103,
+  "nu_mean": 0.5676968017537631,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.02685948203237661,
+   "F_latent": 0.018778421809671146,
+   "F_measured": 0.15475646932295675
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.044926762269952,
+   "F_latent": 0.03263165533564147,
+   "F_measured": 0.26463252299970175
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "RBP7|control",
+  "target": "RBP7",
+  "condition": "control",
+  "n_adapt": 64,
+  "nu_mean": 0.5919887111262649,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.006282513651253766,
+   "F_latent": 0.008599267822786229,
+   "F_measured": 0.022751018338919807
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.015415458451553425,
+   "F_latent": 0.015426316606773873,
+   "F_measured": 0.0434938586179992
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "RBP7|ifng",
+  "target": "RBP7",
+  "condition": "ifng",
+  "n_adapt": 117,
+  "nu_mean": 0.5617217748393636,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.025488123585661063,
+   "F_latent": 0.016900810819199946,
+   "F_measured": 0.1727706677406842
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04310958801539364,
+   "F_latent": 0.022063427625478818,
+   "F_measured": 0.22974315205004042
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "RNASEH2A|ifng",
+  "target": "RNASEH2A",
+  "condition": "ifng",
+  "n_adapt": 63,
+  "nu_mean": 0.6090184318506547,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.025063787653831132,
+   "F_latent": 0.014747978381908045,
+   "F_measured": 0.14041629920553397
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04374794969155995,
+   "F_latent": 0.02060072365900245,
+   "F_measured": 0.20455153387687405
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "S100A6|coculture",
+  "target": "S100A6",
+  "condition": "coculture",
+  "n_adapt": 104,
+  "nu_mean": 0.5843040053855585,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.03601771751471239,
+   "F_latent": 0.019825086484700983,
+   "F_measured": 0.13864651949165518
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.053192634845678474,
+   "F_latent": 0.030711947482973345,
+   "F_measured": 0.2918957187055004
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "S100A6|control",
+  "target": "S100A6",
+  "condition": "control",
+  "n_adapt": 62,
+  "nu_mean": 0.6059943686839118,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.007840586878284317,
+   "F_latent": 0.010107849259591779,
+   "F_measured": 0.014773429462507716
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.014959260610661008,
+   "F_latent": 0.016041310086183706,
+   "F_measured": 0.02326738857879494
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "S100A6|ifng",
+  "target": "S100A6",
+  "condition": "ifng",
+  "n_adapt": 106,
+  "nu_mean": 0.5295936253617335,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.030003144976013463,
+   "F_latent": 0.015870863933152332,
+   "F_measured": 0.15989826027925785
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04876366267233249,
+   "F_latent": 0.022287841321667893,
+   "F_measured": 0.2259083497655395
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "S100B|coculture",
+  "target": "S100B",
+  "condition": "coculture",
+  "n_adapt": 88,
+  "nu_mean": 0.5697223721564153,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.03934618042945834,
+   "F_latent": 0.019896336918623424,
+   "F_measured": 0.1437052793282994
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.05505904620606249,
+   "F_latent": 0.028908242972226612,
+   "F_measured": 0.26812809819935424
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "S100B|control",
+  "target": "S100B",
+  "condition": "control",
+  "n_adapt": 73,
+  "nu_mean": 0.5915117225188369,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.013388224234336851,
+   "F_latent": 0.012149946947671497,
+   "F_measured": 0.04158592334392279
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.02510917287897595,
+   "F_latent": 0.022861168812812752,
+   "F_measured": 0.13324106375208428
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "S100B|ifng",
+  "target": "S100B",
+  "condition": "ifng",
+  "n_adapt": 112,
+  "nu_mean": 0.5884133596315251,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.03184378458675844,
+   "F_latent": 0.019172595782664798,
+   "F_measured": 0.1893114628409245
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.049475259607803794,
+   "F_latent": 0.027280050674283282,
+   "F_measured": 0.2723087391284586
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "SAT1|coculture",
+  "target": "SAT1",
+  "condition": "coculture",
+  "n_adapt": 89,
+  "nu_mean": 0.5528684288563133,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.03248864375248182,
+   "F_latent": 0.019158079793476675,
+   "F_measured": 0.1645471850020115
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.05125954389782989,
+   "F_latent": 0.028795984724007767,
+   "F_measured": 0.26863622633682027
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "SAT1|control",
+  "target": "SAT1",
+  "condition": "control",
+  "n_adapt": 68,
+  "nu_mean": 0.6269321085567388,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.009682599109168117,
+   "F_latent": 0.010796695830935104,
+   "F_measured": 0.019759296620539518
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.018432813557467995,
+   "F_latent": 0.017669211406258004,
+   "F_measured": 0.03197654492521441
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "SAT1|ifng",
+  "target": "SAT1",
+  "condition": "ifng",
+  "n_adapt": 100,
+  "nu_mean": 0.6115118249977233,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.026672309244108322,
+   "F_latent": 0.016749963329974034,
+   "F_measured": 0.16154742040472345
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.046130152717582196,
+   "F_latent": 0.022628762682100713,
+   "F_measured": 0.22184423285946392
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "SCARB2|coculture",
+  "target": "SCARB2",
+  "condition": "coculture",
+  "n_adapt": 89,
+  "nu_mean": 0.5808636567632753,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.03579986214455478,
+   "F_latent": 0.019584556820133422,
+   "F_measured": 0.12203771692373026
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.05546203278291112,
+   "F_latent": 0.02943942628764762,
+   "F_measured": 0.2754734703660717
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "SCARB2|control",
+  "target": "SCARB2",
+  "condition": "control",
+  "n_adapt": 70,
+  "nu_mean": 0.6010225789493177,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.0074551064045974514,
+   "F_latent": 0.011333921164404489,
+   "F_measured": 0.01712061243668226
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.014500242854320338,
+   "F_latent": 0.01625359055929011,
+   "F_measured": 0.02502652956091389
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "SCARB2|ifng",
+  "target": "SCARB2",
+  "condition": "ifng",
+  "n_adapt": 103,
+  "nu_mean": 0.5793322951318792,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.02461333516306638,
+   "F_latent": 0.017126684175995364,
+   "F_measured": 0.16170906131370066
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04097330666270038,
+   "F_latent": 0.024320354317993592,
+   "F_measured": 0.23012985751776954
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "SGK1|coculture",
+  "target": "SGK1",
+  "condition": "coculture",
+  "n_adapt": 95,
+  "nu_mean": 0.5969999806594463,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.03598511798080943,
+   "F_latent": 0.01872553581119513,
+   "F_measured": 0.13982929801268557
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.05975109573790834,
+   "F_latent": 0.03318851526963353,
+   "F_measured": 0.29335386042545025
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "SGK1|control",
+  "target": "SGK1",
+  "condition": "control",
+  "n_adapt": 53,
+  "nu_mean": 0.6014915288409146,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.0062934048390756,
+   "F_latent": 0.010613102226562275,
+   "F_measured": 0.02107618977616993
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.014926143501516593,
+   "F_latent": 0.015036210180961017,
+   "F_measured": 0.03046073889487157
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "SGK1|ifng",
+  "target": "SGK1",
+  "condition": "ifng",
+  "n_adapt": 115,
+  "nu_mean": 0.5656211185524709,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.02424701563965273,
+   "F_latent": 0.014984836296561103,
+   "F_measured": 0.15368947017382534
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04341401239464225,
+   "F_latent": 0.023379101540938876,
+   "F_measured": 0.23874039296822697
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "SINHCAF|coculture",
+  "target": "SINHCAF",
+  "condition": "coculture",
+  "n_adapt": 43,
+  "nu_mean": 0.5978071761414205,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.024432973756428528,
+   "F_latent": 0.014388722345259446,
+   "F_measured": 0.11659168863815138
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.03627727918149979,
+   "F_latent": 0.024516297315730542,
+   "F_measured": 0.20577384797678866
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "SINHCAF|ifng",
+  "target": "SINHCAF",
+  "condition": "ifng",
+  "n_adapt": 51,
+  "nu_mean": 0.5875853107688542,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.01873569473094016,
+   "F_latent": 0.013393057641991977,
+   "F_measured": 0.130702970835499
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.03481017824909171,
+   "F_latent": 0.0198284921926323,
+   "F_measured": 0.19774320517508634
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "SNHG6|coculture",
+  "target": "SNHG6",
+  "condition": "coculture",
+  "n_adapt": 88,
+  "nu_mean": 0.5759081421372357,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.036510284373213936,
+   "F_latent": 0.0190279870049977,
+   "F_measured": 0.10665449788353693
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04982998857170004,
+   "F_latent": 0.02784648879874744,
+   "F_measured": 0.1426066478815059
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "SNHG6|control",
+  "target": "SNHG6",
+  "condition": "control",
+  "n_adapt": 56,
+  "nu_mean": 0.6217605138220358,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.008039907697448258,
+   "F_latent": 0.011148678059920095,
+   "F_measured": 0.02119815446044557
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.01326026942105302,
+   "F_latent": 0.01791726220735774,
+   "F_measured": 0.03627956903842526
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "SNHG6|ifng",
+  "target": "SNHG6",
+  "condition": "ifng",
+  "n_adapt": 88,
+  "nu_mean": 0.5577445096271748,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.023645365855720378,
+   "F_latent": 0.015885429475897106,
+   "F_measured": 0.15494412625185064
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04006640321382683,
+   "F_latent": 0.020997814460194057,
+   "F_measured": 0.2177375815164614
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "SPINT1|coculture",
+  "target": "SPINT1",
+  "condition": "coculture",
+  "n_adapt": 108,
+  "nu_mean": 0.5573941796714341,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.034729157089620294,
+   "F_latent": 0.019992351270158516,
+   "F_measured": 0.14038820285877132
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.05003479136099819,
+   "F_latent": 0.029076088521422537,
+   "F_measured": 0.284689968125019
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "SPINT1|control",
+  "target": "SPINT1",
+  "condition": "control",
+  "n_adapt": 69,
+  "nu_mean": 0.6328383146943132,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.0049148695506146265,
+   "F_latent": 0.011247940433808487,
+   "F_measured": 0.019405287752031982
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.01209206423005506,
+   "F_latent": 0.018222680993117368,
+   "F_measured": 0.02981219145979809
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "SPINT1|ifng",
+  "target": "SPINT1",
+  "condition": "ifng",
+  "n_adapt": 105,
+  "nu_mean": 0.598383406176448,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.021963616040128347,
+   "F_latent": 0.015366504486130219,
+   "F_measured": 0.1447025317239978
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.0415174107270796,
+   "F_latent": 0.022908209060826672,
+   "F_measured": 0.22176407464808065
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "STAT1|coculture",
+  "target": "STAT1",
+  "condition": "coculture",
+  "n_adapt": 180,
+  "nu_mean": 0.6083340192039006,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.055145945363060556,
+   "F_latent": 0.023155827332971803,
+   "F_measured": 0.1243056306632969
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.06235453366333101,
+   "F_latent": 0.0322616164087708,
+   "F_measured": 0.30716447882226644
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "STAT1|control",
+  "target": "STAT1",
+  "condition": "control",
+  "n_adapt": 55,
+  "nu_mean": 0.5794609319257278,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.005847443662515103,
+   "F_latent": 0.009934575493092864,
+   "F_measured": 0.03209241514523803
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.014013187808973716,
+   "F_latent": 0.014246280678938107,
+   "F_measured": 0.10605579515200646
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "STAT1|ifng",
+  "target": "STAT1",
+  "condition": "ifng",
+  "n_adapt": 94,
+  "nu_mean": 0.5532298042195739,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.055820755160484424,
+   "F_latent": 0.015234227967284294,
+   "F_measured": 0.11965939964880438
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.07929740622957518,
+   "F_latent": 0.02509608141757023,
+   "F_measured": 0.21326662331423996
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "STAT3|coculture",
+  "target": "STAT3",
+  "condition": "coculture",
+  "n_adapt": 88,
+  "nu_mean": 0.5480250576556803,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.028034927735648574,
+   "F_latent": 0.017155532324591036,
+   "F_measured": 0.12687780010147406
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04382337071468779,
+   "F_latent": 0.026639861715250214,
+   "F_measured": 0.16847801310749594
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "STAT3|control",
+  "target": "STAT3",
+  "condition": "control",
+  "n_adapt": 61,
+  "nu_mean": 0.5793321225318477,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.026674899059996055,
+   "F_latent": 0.011597192805723308,
+   "F_measured": 0.050549882525757296
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.039000515735014486,
+   "F_latent": 0.01999557596202174,
+   "F_measured": 0.16397167683786762
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "STAT3|ifng",
+  "target": "STAT3",
+  "condition": "ifng",
+  "n_adapt": 93,
+  "nu_mean": 0.5655219483794423,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.03656944813712202,
+   "F_latent": 0.016050147896221695,
+   "F_measured": 0.14948603187637746
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.05766288325122562,
+   "F_latent": 0.026114831320905384,
+   "F_measured": 0.23893168470316276
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "STX7|coculture",
+  "target": "STX7",
+  "condition": "coculture",
+  "n_adapt": 98,
+  "nu_mean": 0.555685643079988,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.03220934884560165,
+   "F_latent": 0.016512301041260172,
+   "F_measured": 0.12637013445188747
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04536747611910197,
+   "F_latent": 0.02602003162612668,
+   "F_measured": 0.20178474813236358
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "STX7|control",
+  "target": "STX7",
+  "condition": "control",
+  "n_adapt": 67,
+  "nu_mean": 0.5962013733413962,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.009049861997580759,
+   "F_latent": 0.00998196782528308,
+   "F_measured": 0.018550845267363014
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.014850831291954351,
+   "F_latent": 0.016993795013892962,
+   "F_measured": 0.03223731985001403
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "STX7|ifng",
+  "target": "STX7",
+  "condition": "ifng",
+  "n_adapt": 113,
+  "nu_mean": 0.5947401840588129,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.02293946412693043,
+   "F_latent": 0.014113985262313293,
+   "F_measured": 0.14209986291362697
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04443085736114415,
+   "F_latent": 0.01849583569540005,
+   "F_measured": 0.18634008416976774
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "TFAP2A|coculture",
+  "target": "TFAP2A",
+  "condition": "coculture",
+  "n_adapt": 106,
+  "nu_mean": 0.5708288150780105,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.039919916834374236,
+   "F_latent": 0.016878207838854072,
+   "F_measured": 0.16311347956117117
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.05906945243871591,
+   "F_latent": 0.028351476240758348,
+   "F_measured": 0.25934074522824974
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "TFAP2A|control",
+  "target": "TFAP2A",
+  "condition": "control",
+  "n_adapt": 61,
+  "nu_mean": 0.6054683050414509,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.007589999695620478,
+   "F_latent": 0.01077056864513064,
+   "F_measured": 0.01678524443154786
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.014533398646817875,
+   "F_latent": 0.01774474276609161,
+   "F_measured": 0.027408271691410215
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "TFAP2A|ifng",
+  "target": "TFAP2A",
+  "condition": "ifng",
+  "n_adapt": 109,
+  "nu_mean": 0.5618453473538306,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.025743072805652342,
+   "F_latent": 0.015962585145419962,
+   "F_measured": 0.15848200298631965
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04383107458365764,
+   "F_latent": 0.022596578123280763,
+   "F_measured": 0.23500577354108684
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "TGFB1|coculture",
+  "target": "TGFB1",
+  "condition": "coculture",
+  "n_adapt": 123,
+  "nu_mean": 0.5320919842718357,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.03670996338501941,
+   "F_latent": 0.021634207767432398,
+   "F_measured": 0.1571511975425293
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.051010635736854194,
+   "F_latent": 0.03095188948177275,
+   "F_measured": 0.29823672042771504
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "TGFB1|control",
+  "target": "TGFB1",
+  "condition": "control",
+  "n_adapt": 82,
+  "nu_mean": 0.5885717511334231,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.008300106011498214,
+   "F_latent": 0.012411111593221206,
+   "F_measured": 0.030113836646374688
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.01814719041842742,
+   "F_latent": 0.01868798326990843,
+   "F_measured": 0.04926087825489362
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "TGFB1|ifng",
+  "target": "TGFB1",
+  "condition": "ifng",
+  "n_adapt": 125,
+  "nu_mean": 0.586703219688379,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.019515151820993736,
+   "F_latent": 0.017176427110261832,
+   "F_measured": 0.17594749899089507
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.042685041601355736,
+   "F_latent": 0.022283764017509332,
+   "F_measured": 0.23361751288935337
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "TIMP3|coculture",
+  "target": "TIMP3",
+  "condition": "coculture",
+  "n_adapt": 97,
+  "nu_mean": 0.5578978073861911,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.03135866975283626,
+   "F_latent": 0.01940412404026099,
+   "F_measured": 0.14657853452819397
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04441986661420835,
+   "F_latent": 0.030103104615214708,
+   "F_measured": 0.27441949076572003
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "TIMP3|control",
+  "target": "TIMP3",
+  "condition": "control",
+  "n_adapt": 57,
+  "nu_mean": 0.5870108210044404,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.012259610201019419,
+   "F_latent": 0.015751802714545186,
+   "F_measured": 0.03340802624715654
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.01951078970707683,
+   "F_latent": 0.022621114989646487,
+   "F_measured": 0.053550586920252115
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "TIMP3|ifng",
+  "target": "TIMP3",
+  "condition": "ifng",
+  "n_adapt": 88,
+  "nu_mean": 0.5756454632207401,
+  "benchmark_lambda": 100.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.02774015169616481,
+   "F_latent": 0.01825328487508217,
+   "F_measured": 0.18237904865735227
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04874095561361103,
+   "F_latent": 0.022435864388597706,
+   "F_measured": 0.22863441242071397
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "TM4SF1|coculture",
+  "target": "TM4SF1",
+  "condition": "coculture",
+  "n_adapt": 105,
+  "nu_mean": 0.5807163290899787,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.037180556226843915,
+   "F_latent": 0.023051835908315946,
+   "F_measured": 0.13619706194055622
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.05061442900165127,
+   "F_latent": 0.03569939669105905,
+   "F_measured": 0.3228258491264972
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "TM4SF1|control",
+  "target": "TM4SF1",
+  "condition": "control",
+  "n_adapt": 73,
+  "nu_mean": 0.5794937169609906,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.00885798518898516,
+   "F_latent": 0.009670704416776046,
+   "F_measured": 0.020764348612775065
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.018108294587583944,
+   "F_latent": 0.016202416196608248,
+   "F_measured": 0.03542978845891825
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "TM4SF1|ifng",
+  "target": "TM4SF1",
+  "condition": "ifng",
+  "n_adapt": 106,
+  "nu_mean": 0.5921592599093468,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.020635548580334746,
+   "F_latent": 0.0148013918567609,
+   "F_measured": 0.14767316680674705
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04191444246090407,
+   "F_latent": 0.019285070372111576,
+   "F_measured": 0.20158216438740345
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "TXNDC17|coculture",
+  "target": "TXNDC17",
+  "condition": "coculture",
+  "n_adapt": 70,
+  "nu_mean": 0.5966778674587833,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.037320379571111756,
+   "F_latent": 0.02066727453529478,
+   "F_measured": 0.13541451740660299
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.045024568063505244,
+   "F_latent": 0.02834037857638897,
+   "F_measured": 0.18823017413684978
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "TXNDC17|control",
+  "target": "TXNDC17",
+  "condition": "control",
+  "n_adapt": 66,
+  "nu_mean": 0.565821452435309,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.008965413009566027,
+   "F_latent": 0.011732879180021841,
+   "F_measured": 0.01884261671418458
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.01902197714412592,
+   "F_latent": 0.017841865977955677,
+   "F_measured": 0.02830131529436018
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "TXNDC17|ifng",
+  "target": "TXNDC17",
+  "condition": "ifng",
+  "n_adapt": 100,
+  "nu_mean": 0.5799423351824241,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.023022583313445973,
+   "F_latent": 0.01459044012375399,
+   "F_measured": 0.14402390459144118
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04230949159659308,
+   "F_latent": 0.02021210056954759,
+   "F_measured": 0.20423815941757634
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "UBC|ifng",
+  "target": "UBC",
+  "condition": "ifng",
+  "n_adapt": 47,
+  "nu_mean": 0.6093527201544074,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.019932299035163643,
+   "F_latent": 0.012714123071350449,
+   "F_measured": 0.1262069123882996
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.03354641521805302,
+   "F_latent": 0.01947051995422604,
+   "F_measured": 0.19381972522197077
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "WNT7A|coculture",
+  "target": "WNT7A",
+  "condition": "coculture",
+  "n_adapt": 93,
+  "nu_mean": 0.5856355229567954,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.03606919527002568,
+   "F_latent": 0.020274907133381485,
+   "F_measured": 0.14982197550844523
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04764583559395992,
+   "F_latent": 0.03324545992085495,
+   "F_measured": 0.2474917344729504
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "WNT7A|control",
+  "target": "WNT7A",
+  "condition": "control",
+  "n_adapt": 75,
+  "nu_mean": 0.5775729025650223,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.006282835078662298,
+   "F_latent": 0.010486768100822547,
+   "F_measured": 0.02424029128535254
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.015808288380811504,
+   "F_latent": 0.018607666899714236,
+   "F_measured": 0.053244314491041014
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "WNT7A|ifng",
+  "target": "WNT7A",
+  "condition": "ifng",
+  "n_adapt": 132,
+  "nu_mean": 0.5781982003170578,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.026941700279395922,
+   "F_latent": 0.020765790238337852,
+   "F_measured": 0.21940824511649032
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.04616846871229395,
+   "F_latent": 0.02650423556194379,
+   "F_measured": 0.28000373010308294
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "XAGE1A|coculture",
+  "target": "XAGE1A",
+  "condition": "coculture",
+  "n_adapt": 70,
+  "nu_mean": 0.567617666346189,
+  "benchmark_lambda": 100.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.03710730682578874,
+   "F_latent": 0.01987725704003602,
+   "F_measured": 0.11696608985270897
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.05521707182685764,
+   "F_latent": 0.028596444223147388,
+   "F_measured": 0.2092299888995723
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "XAGE1A|control",
+  "target": "XAGE1A",
+  "condition": "control",
+  "n_adapt": 49,
+  "nu_mean": 0.6275045325277702,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.007368327927647206,
+   "F_latent": 0.012724099182681962,
+   "F_measured": 0.019888118032535883
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.015023099054793976,
+   "F_latent": 0.01783979641438103,
+   "F_measured": 0.027317159177202996
+  }
+ },
+ {
+  "part": "heldout",
+  "key": "XAGE1A|ifng",
+  "target": "XAGE1A",
+  "condition": "ifng",
+  "n_adapt": 79,
+  "nu_mean": 0.6321004799588024,
+  "benchmark_lambda": 10.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.021734925595098938,
+   "F_latent": 0.015232851577261682,
+   "F_measured": 0.14469068589896117
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.040866482067690724,
+   "F_latent": 0.019315036645324104,
+   "F_measured": 0.18799075929701264
+  }
+ },
+ {
+  "part": "nt",
+  "key": "NT|coculture",
+  "target": "NT",
+  "condition": "coculture",
+  "n_adapt": 2948,
+  "nu_mean": 0.543108266995126,
+  "benchmark_lambda": 1.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.05081991315768755,
+   "F_latent": 0.09455679280550416,
+   "F_measured": 0.40818001577687124
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.07215762542631066,
+   "F_latent": 0.10661920729736524,
+   "F_measured": 0.607230075216928
+  }
+ },
+ {
+  "part": "nt",
+  "key": "NT|control",
+  "target": "NT",
+  "condition": "control",
+  "n_adapt": 1989,
+  "nu_mean": 0.5575172808101029,
+  "benchmark_lambda": 1.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.010061465412708966,
+   "F_latent": 0.017507519351149296,
+   "F_measured": 0.26690757181936764
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.01845997334643582,
+   "F_latent": 0.029455714876327768,
+   "F_measured": 0.41210496102879807
+  }
+ },
+ {
+  "part": "nt",
+  "key": "NT|ifng",
+  "target": "NT",
+  "condition": "ifng",
+  "n_adapt": 3222,
+  "nu_mean": 0.5662501264456056,
+  "benchmark_lambda": 1.0,
+  "pf_within": {
+   "dim_S": 1,
+   "coverage": 0.036404021646629876,
+   "F_latent": 0.0652979137168791,
+   "F_measured": 0.3574561116648314
+  },
+  "pf": {
+   "dim_S": 2,
+   "coverage": 0.06405818115927911,
+   "F_latent": 0.08300803733769055,
+   "F_measured": 0.4744380062048531
+  }
+ }
+]

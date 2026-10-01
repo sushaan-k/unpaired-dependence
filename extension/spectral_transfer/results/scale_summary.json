@@ -1,0 +1,346 @@
+{
+  "D1_leave_one_donor_out": {
+    "donors": [
+      "XAUT1-HS1",
+      "XAUT1-HS10",
+      "XAUT1-HS11",
+      "XAUT1-HS12",
+      "XAUT1-HS2",
+      "XAUT1-HS3",
+      "XAUT1-HS4",
+      "XAUT1-HS5",
+      "XAUT1-HS6",
+      "XAUT1-HS7",
+      "XAUT1-HS8",
+      "XAUT1-HS9"
+    ],
+    "genes": 209,
+    "proteins": 177,
+    "mean": {
+      "cov_rel_error": {
+        "independence": 1.0,
+        "reference_cov": 0.6691099346124405,
+        "reference_corr": 0.4769448922505693,
+        "regression": 0.3802053243559695,
+        "first_order": 678.3427929262592,
+        "variances_only": 0.9357143558687394,
+        "closed_form": 0.3407570098245421,
+        "cell_coupling": 0.37095659077875304,
+        "oracle": 0.36730868421439505,
+        "pf_means_regression": 0.740223869284416,
+        "pf_means_closed_form": 0.5357345034566808,
+        "pf_lowrank_regression": 0.515397390022689,
+        "pf_lowrank_closed_form": 0.45973908822687704
+      },
+      "cov_corr": {
+        "independence": 0.0,
+        "reference_cov": 0.8223996407590676,
+        "reference_corr": 0.8818317161120047,
+        "regression": 0.9218407992728762,
+        "first_order": 0.7076020488413134,
+        "variances_only": 0.4384274422040734,
+        "closed_form": 0.9340026482225863,
+        "cell_coupling": 0.9265919547832911,
+        "oracle": 0.9239871481551786,
+        "pf_means_regression": 0.7305602279459481,
+        "pf_means_closed_form": 0.8404877597242763,
+        "pf_lowrank_regression": 0.8550715567533834,
+        "pf_lowrank_closed_form": 0.8809340851985076
+      },
+      "r2": {
+        "independence": 0.0,
+        "reference_cov": -179.59363893884566,
+        "reference_corr": -6.523146406249951,
+        "regression": 0.28348095773467136,
+        "first_order": -125313.36786443957,
+        "variances_only": -0.39329866591955914,
+        "closed_form": 0.2853358412471907,
+        "cell_coupling": 0.15993197800239067,
+        "oracle": 0.017929381131766203,
+        "pf_means_regression": 0.01396169556853454,
+        "pf_means_closed_form": 0.0890415437596342,
+        "pf_lowrank_regression": 0.11618975950333703,
+        "pf_lowrank_closed_form": 0.115081562770516
+      }
+    },
+    "primary_contrasts": {
+      "variances_only": {
+        "mean_difference": -0.5949573460441973,
+        "bootstrap_95": [
+          -0.6569142033756713,
+          -0.5215211165438388
+        ],
+        "bootstrap_familywise": [
+          -0.6701415553595441,
+          -0.4969966402727105
+        ],
+        "donors_favouring_target": 12
+      },
+      "regression": {
+        "mean_difference": -0.03944831453142728,
+        "bootstrap_95": [
+          -0.052266839990225356,
+          -0.027227743053412107
+        ],
+        "bootstrap_familywise": [
+          -0.055850229664859155,
+          -0.02385992946751435
+        ],
+        "donors_favouring_target": 12
+      },
+      "reference_corr": {
+        "mean_difference": -0.1361878824260272,
+        "bootstrap_95": [
+          -0.17487607005884495,
+          -0.09950462035509286
+        ],
+        "bootstrap_familywise": [
+          -0.18639548133677858,
+          -0.08962784828288042
+        ],
+        "donors_favouring_target": 12
+      },
+      "reference_cov": {
+        "mean_difference": -0.3283529247878985,
+        "bootstrap_95": [
+          -0.38552278359193554,
+          -0.27037958784069904
+        ],
+        "bootstrap_familywise": [
+          -0.40132033406726497,
+          -0.2559720899325901
+        ],
+        "donors_favouring_target": 12
+      }
+    },
+    "pairing_free_vs_paired": {
+      "pf_lowrank_closed_form": {
+        "closed_form": {
+          "mean_difference": 0.11898207840233495,
+          "bootstrap_95": [
+            0.09624652713853944,
+            0.14659444631919255
+          ],
+          "bootstrap_familywise": [
+            0.09139404527457103,
+            0.1545005510884085
+          ],
+          "donors_favouring_target": 0
+        },
+        "regression": {
+          "mean_difference": 0.07953376387090766,
+          "bootstrap_95": [
+            0.05076412884440145,
+            0.1073975242640089
+          ],
+          "bootstrap_familywise": [
+            0.042309741144964504,
+            0.11468490051967037
+          ],
+          "donors_favouring_target": 1
+        },
+        "variances_only": {
+          "mean_difference": -0.47597526764186243,
+          "bootstrap_95": [
+            -0.5451522407919389,
+            -0.40303278858191594
+          ],
+          "bootstrap_familywise": [
+            -0.5610570335557604,
+            -0.3814072726096554
+          ],
+          "donors_favouring_target": 12
+        },
+        "independence": {
+          "mean_difference": -0.540260911773123,
+          "bootstrap_95": [
+            -0.6033532607314549,
+            -0.46949746945349585
+          ],
+          "bootstrap_familywise": [
+            -0.6184339759523758,
+            -0.4483746065344037
+          ],
+          "donors_favouring_target": 12
+        }
+      },
+      "pf_means_closed_form": {
+        "closed_form": {
+          "mean_difference": 0.19497749363213882,
+          "bootstrap_95": [
+            0.1778990600494543,
+            0.212787936421751
+          ],
+          "bootstrap_familywise": [
+            0.17342466055536773,
+            0.21704287470324735
+          ],
+          "donors_favouring_target": 0
+        },
+        "regression": {
+          "mean_difference": 0.15552917910071154,
+          "bootstrap_95": [
+            0.13402684624685562,
+            0.17891107202360454
+          ],
+          "bootstrap_familywise": [
+            0.1289320713381013,
+            0.1855188304658032
+          ],
+          "donors_favouring_target": 0
+        },
+        "variances_only": {
+          "mean_difference": -0.3999798524120585,
+          "bootstrap_95": [
+            -0.46918096305972246,
+            -0.3257508175348432
+          ],
+          "bootstrap_familywise": [
+            -0.48542769486679155,
+            -0.3053908517542027
+          ],
+          "donors_favouring_target": 12
+        },
+        "independence": {
+          "mean_difference": -0.46426549654331906,
+          "bootstrap_95": [
+            -0.5279792080812565,
+            -0.39399850492555194
+          ],
+          "bootstrap_familywise": [
+            -0.5411268538830349,
+            -0.37255083396936844
+          ],
+          "donors_favouring_target": 12
+        }
+      }
+    },
+    "cells_vs_closed_form": {
+      "closed_form": {
+        "mean_difference": 0.03019958095421091,
+        "bootstrap_95": [
+          0.020239637986555748,
+          0.04031591593691898
+        ],
+        "bootstrap_familywise": [
+          0.020239637986555748,
+          0.04031591593691898
+        ],
+        "donors_favouring_target": 0
+      }
+    }
+  },
+  "D2_healthy_to_colitis": {
+    "donors": [
+      "XAUT1-HS10",
+      "XAUT1-HS11",
+      "XAUT1-HS12",
+      "XAUT1-HS5",
+      "XAUT1-HS6",
+      "XAUT1-HS7",
+      "XAUT1-HS8",
+      "XAUT1-HS9"
+    ],
+    "genes": 209,
+    "proteins": 177,
+    "mean": {
+      "cov_rel_error": {
+        "independence": 1.0,
+        "reference_cov": 0.7046558753886868,
+        "reference_corr": 0.5095435273193196,
+        "regression": 0.4238672565374626,
+        "first_order": 1040.5624408203503,
+        "variances_only": 0.9429097778281921,
+        "closed_form": 0.3666780694710261,
+        "cell_coupling": 0.3973175243385439,
+        "oracle": 0.3836896884127963
+      },
+      "cov_corr": {
+        "independence": 0.0,
+        "reference_cov": 0.7935895534719773,
+        "reference_corr": 0.8627258232320328,
+        "regression": 0.9014933692922105,
+        "first_order": 0.7054049417640027,
+        "variances_only": 0.3807717949142686,
+        "closed_form": 0.9223143326068372,
+        "cell_coupling": 0.9109765472843441,
+        "oracle": 0.9145948686299109
+      },
+      "r2": {
+        "independence": 0.0,
+        "reference_cov": -258.3928050529762,
+        "reference_corr": -9.617738779581247,
+        "regression": 0.2593855810774223,
+        "first_order": -351680.742521771,
+        "variances_only": -0.79934244965044,
+        "closed_form": 0.2629417083626063,
+        "cell_coupling": 0.10204310435874647,
+        "oracle": -0.02798541343804506
+      }
+    },
+    "primary_contrasts": {
+      "variances_only": {
+        "mean_difference": -0.576231708357166,
+        "bootstrap_95": [
+          -0.6562409673105207,
+          -0.476166234191694
+        ],
+        "bootstrap_familywise": [
+          -0.6700675978537881,
+          -0.44420515599649923
+        ],
+        "donors_favouring_target": 8
+      },
+      "regression": {
+        "mean_difference": -0.0571891870664365,
+        "bootstrap_95": [
+          -0.07671362408157571,
+          -0.03650581153890578
+        ],
+        "bootstrap_familywise": [
+          -0.08173801720105475,
+          -0.030836736113075438
+        ],
+        "donors_favouring_target": 8
+      },
+      "reference_corr": {
+        "mean_difference": -0.14286545784829352,
+        "bootstrap_95": [
+          -0.1949535999982015,
+          -0.09555519008921012
+        ],
+        "bootstrap_familywise": [
+          -0.20860853641793697,
+          -0.08481711712090037
+        ],
+        "donors_favouring_target": 8
+      },
+      "reference_cov": {
+        "mean_difference": -0.3379778059176607,
+        "bootstrap_95": [
+          -0.4001007420148368,
+          -0.2729792030148842
+        ],
+        "bootstrap_familywise": [
+          -0.41454450742160665,
+          -0.25603076380761414
+        ],
+        "donors_favouring_target": 8
+      }
+    },
+    "cells_vs_closed_form": {
+      "closed_form": {
+        "mean_difference": 0.030639454867517787,
+        "bootstrap_95": [
+          0.018408277339685933,
+          0.043593992810732084
+        ],
+        "bootstrap_familywise": [
+          0.018408277339685933,
+          0.043593992810732084
+        ],
+        "donors_favouring_target": 0
+      }
+    }
+  }
+}

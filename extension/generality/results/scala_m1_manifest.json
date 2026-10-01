@@ -1,0 +1,9 @@
+{
+ "predictions": "66c1ebcb11709d42fd9db3fb616473e9258d09bc23667db136832782b3dea931",
+ "msq": "6c8a12125dbc9b12a0cf8aa90a5dc64f689fe6b76ee648b6bd20fa6cfe28e259",
+ "info": "74cc9e3e64e27b924d4d4817d69bdf7a9843c1255affac19f4709b10bd1bf81b",
+ "plan": "0126f462ed8a60c12183c376ecd838fc1dd4f74cd9b6e538a4917a3a31c2d553",
+ "freeze": "df538f61ce2d8e487ed065c892ddcfa0beb1479970fdef57f2fd381c577ae33a",
+ "written_at": "2026-09-27T18:01:53-0400",
+ "note": "written after all predictions and before any held-out statistic was computed"
+}

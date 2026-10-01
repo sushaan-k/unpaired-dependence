@@ -1,0 +1,113 @@
+{
+ "0.5": {
+  "50": {
+   "problems": 29,
+   "median_achieved": 0.5415263693817106,
+   "share_reaching_target": 0.6420689655172415,
+   "share_within_0.05": 0.7234482758620688,
+   "share_flagged": 0.052068965517241377,
+   "median_total": 84.0,
+   "median_total_over_needed": 1.1645234997437655,
+   "problems_with_needed": 14
+  },
+  "100": {
+   "problems": 29,
+   "median_achieved": 0.5292566548592288,
+   "share_reaching_target": 0.6527586206896552,
+   "share_within_0.05": 0.7482758620689655,
+   "share_flagged": 0.08241379310344828,
+   "median_total": 100.0,
+   "median_total_over_needed": 1.124044670643496,
+   "problems_with_needed": 14
+  },
+  "200": {
+   "problems": 29,
+   "median_achieved": 0.5254719796312725,
+   "share_reaching_target": 0.6513793103448274,
+   "share_within_0.05": 0.7744827586206895,
+   "share_flagged": 0.09827586206896552,
+   "median_total": 200.0,
+   "median_total_over_needed": 0.8711445959772924,
+   "problems_with_needed": 14
+  },
+  "reservoir_law": {
+   "problems": 29,
+   "median_achieved": 0.4598790214300851,
+   "share_reaching_target": 0.26172413793103444
+  }
+ },
+ "0.3": {
+  "50": {
+   "problems": 29,
+   "median_achieved": 0.41252946834492454,
+   "share_reaching_target": 0.7282758620689656,
+   "share_within_0.05": 0.7755172413793102,
+   "share_flagged": 0.003448275862068965,
+   "median_total": 50.0,
+   "median_total_over_needed": 0.9947219906174894,
+   "problems_with_needed": 14
+  },
+  "100": {
+   "problems": 29,
+   "median_achieved": 0.4114898211548779,
+   "share_reaching_target": 0.7731034482758621,
+   "share_within_0.05": 0.8193103448275864,
+   "share_flagged": 0.010000000000000002,
+   "median_total": 100.0,
+   "median_total_over_needed": 1.0223327312693686,
+   "problems_with_needed": 14
+  },
+  "200": {
+   "problems": 29,
+   "median_achieved": 0.48095650544771174,
+   "share_reaching_target": 0.8282758620689656,
+   "share_within_0.05": 0.8693103448275863,
+   "share_flagged": 0.014482758620689656,
+   "median_total": 200.0,
+   "median_total_over_needed": 1.1628910350646242,
+   "problems_with_needed": 14
+  },
+  "reservoir_law": {
+   "problems": 29,
+   "median_achieved": 0.22569487286846715,
+   "share_reaching_target": 0.33689655172413796
+  }
+ },
+ "0.7": {
+  "50": {
+   "problems": 29,
+   "median_achieved": 0.6764852057759642,
+   "share_reaching_target": 0.4617241379310345,
+   "share_within_0.05": 0.5579310344827586,
+   "share_flagged": 0.2186206896551724,
+   "median_total": 181.0,
+   "median_total_over_needed": 0.8228373178927226,
+   "problems_with_needed": 11
+  },
+  "100": {
+   "problems": 29,
+   "median_achieved": 0.6910285097543439,
+   "share_reaching_target": 0.48241379310344823,
+   "share_within_0.05": 0.5910344827586207,
+   "share_flagged": 0.23896551724137935,
+   "median_total": 181.0,
+   "median_total_over_needed": 0.850810426650831,
+   "problems_with_needed": 11
+  },
+  "200": {
+   "problems": 29,
+   "median_achieved": 0.6975761486302678,
+   "share_reaching_target": 0.5593103448275861,
+   "share_within_0.05": 0.6096551724137932,
+   "share_flagged": 0.2493103448275862,
+   "median_total": 200.0,
+   "median_total_over_needed": 0.9880293902051622,
+   "problems_with_needed": 11
+  },
+  "reservoir_law": {
+   "problems": 29,
+   "median_achieved": 0.669975392582702,
+   "share_reaching_target": 0.22586206896551728
+  }
+ }
+}

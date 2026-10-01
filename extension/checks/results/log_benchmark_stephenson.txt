@@ -1,0 +1,48 @@
+[07:50:08] fold 0 B=25 (bjs2 42, selftune 5, js 28, scose 3, fcose 3, lowrank 212, semicca 1139, ridge_p 74, ridge_u 76 ms/fit)
+[07:50:49] fold 0 B=50 (bjs2 54, selftune 6, js 39, scose 4, fcose 3, lowrank 207, semicca 1150, ridge_p 74, ridge_u 77 ms/fit)
+[07:51:41] fold 0 B=100 (bjs2 85, selftune 6, js 72, scose 5, fcose 6, lowrank 223, semicca 1180, ridge_p 76, ridge_u 75 ms/fit)
+[07:52:37] fold 0 B=200 (bjs2 145, selftune 7, js 143, scose 9, fcose 11, lowrank 242, semicca 1199, ridge_p 78, ridge_u 76 ms/fit)
+[07:53:46] fold 0 B=400 (bjs2 246, selftune 9, js 262, scose 13, fcose 28, lowrank 268, semicca 1231, ridge_p 80, ridge_u 77 ms/fit)
+[07:55:26] fold 0 B=800 (bjs2 427, selftune 11, js 462, scose 22, fcose 106, lowrank 319, semicca 1267, ridge_p 85, ridge_u 82 ms/fit)
+[07:55:27] stephenson fold 0 regenerated [347s]
+[07:56:09] {
+ "test": "benchmark/stephenson",
+ "units_regenerated": 1,
+ "units": 3,
+ "budgets": [
+  25,
+  50,
+  100,
+  200,
+  400,
+  800
+ ],
+ "draws": [
+  5
+ ],
+ "curve_points_compared": 0,
+ "max_abs_difference_per_draw_vs_published": null,
+ "max_abs_difference_per_draw_vs_stored_unit_terms": 1.9343962261462978e-16,
+ "max_abs_difference_stored_form_vs_published": 2.7755575615628914e-16,
+ "averaged_prediction_minus_published": {
+  "min": 0.0,
+  "median": 0.05122141161766115,
+  "max": 0.3924522162971018,
+  "points": 156
+ },
+ "stored_vs_regenerated": {
+  "compared": 1872,
+  "draws_per_key": [
+   5
+  ],
+  "max_abs_mean_difference": 4.996003610813204e-16,
+  "max_rel_msq_difference": 4.1068293159664e-16,
+  "rerun_fold_outputs": {
+   "keys": 612,
+   "max_abs_difference_means_and_maps": 0.0,
+   "max_rel_difference_msq": 0.0
+  }
+ },
+ "seconds": 388,
+ "passed": true
+}

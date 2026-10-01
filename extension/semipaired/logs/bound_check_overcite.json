@@ -1,0 +1,146 @@
+{
+ "reservoir_cells": 457,
+ "theta_norm2": 15.588592437483076,
+ "blocks": [
+  {
+   "rows": 5,
+   "cols": 3,
+   "signal_share": 0.30525816052524063,
+   "noise_share": 0.05600973036502102,
+   "effective_dimension": 6.379421660318957,
+   "null_direction": false
+  },
+  {
+   "rows": 5,
+   "cols": 11,
+   "signal_share": 0.1274006703415611,
+   "noise_share": 0.0917827278100093,
+   "effective_dimension": 12.163013219975634,
+   "null_direction": false
+  },
+  {
+   "rows": 15,
+   "cols": 3,
+   "signal_share": 0.06588516832603199,
+   "noise_share": 0.037340308306120874,
+   "effective_dimension": 10.453602048400798,
+   "null_direction": false
+  },
+  {
+   "rows": 15,
+   "cols": 11,
+   "signal_share": 0.044633984223869945,
+   "noise_share": 0.06016004978386729,
+   "effective_dimension": 19.691330016997796,
+   "null_direction": false
+  },
+  {
+   "rows": 40,
+   "cols": 3,
+   "signal_share": 0.06212558451847387,
+   "noise_share": 0.07528894944248014,
+   "effective_dimension": 17.76281357461848,
+   "null_direction": false
+  },
+  {
+   "rows": 40,
+   "cols": 11,
+   "signal_share": 0.06880907698349226,
+   "noise_share": 0.12217616585379225,
+   "effective_dimension": 31.623495600409527,
+   "null_direction": false
+  },
+  {
+   "rows": 140,
+   "cols": 3,
+   "signal_share": 0.13216322879540587,
+   "noise_share": 0.213922032997458,
+   "effective_dimension": 13.534881075219646,
+   "null_direction": false
+  },
+  {
+   "rows": 140,
+   "cols": 11,
+   "signal_share": 0.1937241262859243,
+   "noise_share": 0.34332003544125106,
+   "effective_dimension": 22.89440105301986,
+   "null_direction": false
+  }
+ ],
+ "budgets": {
+  "25": {
+   "bound": 49.45536361306561,
+   "risk_implemented": 14.812942525619237,
+   "risk_idealized": 29.898213752548603,
+   "risk_unshrunk": 144.60660422315092,
+   "bound_covers_implemented": true,
+   "bound_covers_idealized": true,
+   "relative_to_theta": {
+    "bound": 3.172535545553761,
+    "implemented": 0.9502424664077577,
+    "idealized": 1.9179546756676864,
+    "unshrunk": 9.276437549001635
+   }
+  },
+  "50": {
+   "bound": 29.65330351316064,
+   "risk_implemented": 12.662715278488221,
+   "risk_idealized": 16.531627804630535,
+   "risk_unshrunk": 73.52142149084578,
+   "bound_covers_implemented": true,
+   "bound_covers_idealized": true,
+   "relative_to_theta": {
+    "bound": 1.902243812716451,
+    "implemented": 0.8123065202500563,
+    "idealized": 1.060495222447404,
+    "unshrunk": 4.716360491538805
+   }
+  },
+  "100": {
+   "bound": 18.59323669142623,
+   "risk_implemented": 10.134018735019522,
+   "risk_idealized": 11.050714544891992,
+   "risk_unshrunk": 36.3281795479152,
+   "bound_covers_implemented": true,
+   "bound_covers_idealized": true,
+   "relative_to_theta": {
+    "bound": 1.1927463474327822,
+    "implemented": 0.6500919679349674,
+    "idealized": 0.708897521646684,
+    "unshrunk": 2.330433597106778
+   }
+  },
+  "200": {
+   "bound": 11.861027339058499,
+   "risk_implemented": 7.588596196548458,
+   "risk_idealized": 7.870637901988697,
+   "risk_unshrunk": 18.360557804531556,
+   "bound_covers_implemented": true,
+   "bound_covers_idealized": true,
+   "relative_to_theta": {
+    "bound": 0.7608786608942592,
+    "implemented": 0.48680445184399906,
+    "idealized": 0.5048972787987961,
+    "unshrunk": 1.1778201193061688
+   }
+  },
+  "400": {
+   "bound": 7.414709948231556,
+   "risk_implemented": 5.275419226831566,
+   "risk_idealized": 5.359116433189554,
+   "risk_unshrunk": 9.162170678325271,
+   "bound_covers_implemented": true,
+   "bound_covers_idealized": true,
+   "relative_to_theta": {
+    "bound": 0.47564974053736503,
+    "implemented": 0.3384153667490028,
+    "idealized": 0.3437844984838691,
+    "unshrunk": 0.5877484266183426
+   }
+  }
+ },
+ "condition_tau_ge_4rho": true,
+ "min_effective_dimension": 6.379421660318957,
+ "dataset": "overcite",
+ "draws": 200
+}

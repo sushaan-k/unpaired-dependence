@@ -1,0 +1,17 @@
+[17:39:42] champollion pools: B 2000/2000, CD4 T 2000/2000, CD8 T 2000/2000, NK 2000/2000, CD14 Mono 2000/2000
+[17:39:44] global BH threshold at q=0.05: P <= 0.00106 (80156 of 3774000 pairs)
+[17:47:37] champollion fold 4 (XHLT2-HS24-AAE6) done [474s; fits 71.9s]
+[18:00:58] champollion fold 6 (XHLT2-HS88-BLE1) done [800s; fits 121.0s]
+[18:17:08] champollion fold 8 (XHLT2-HS10-BLE1) done [970s; fits 150.8s]
+[18:19:37] champollion fold 10 (XHLT2-HS24-BLE1) done [149s; fits 20.3s]
+[18:22:09] champollion fold 12 (XHLT2-HS93-AAE6) done [152s; fits 20.9s]
+[18:24:37] champollion fold 14 (XHLT2-HS22-AAE6) done [148s; fits 20.1s]
+[18:27:10] champollion fold 16 (XHLT2-HS75-BLE1) done [153s; fits 20.9s]
+[18:29:41] champollion fold 18 (XHLT2-HS28-BLE1) done [151s; fits 20.7s]
+[18:32:09] champollion fold 20 (XHLT2-HS93-BLE1) done [148s; fits 20.3s]
+[18:34:43] champollion fold 22 (XHLT2-HS16-BLE1) done [154s; fits 21.0s]
+[18:37:10] champollion fold 24 (XHLT2-HS22-BLE1) done [148s; fits 20.1s]
+[18:39:40] champollion fold 26 (XHLT2-HS48-BLE1) done [150s; fits 20.5s]
+[18:42:12] champollion fold 28 (XHLT2-HS12-AAE6) done [152s; fits 20.8s]
+[18:44:44] champollion fold 30 (XHLT2-HS94-BLE1) done [152s; fits 20.8s]
+[18:47:14] champollion fold 32 (XHLT2-HS28-AAE6) done [150s; fits 20.5s]

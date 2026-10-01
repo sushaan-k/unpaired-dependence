@@ -1,0 +1,6 @@
+[16:35:50] champollion pools: B 2000/2000, CD4 T 2000/2000, CD8 T 2000/2000, NK 2000/2000, CD14 Mono 2000/2000
+[16:36:00] global BH threshold at q=0.05: P <= 0.00106 (80156 of 3774000 pairs)
+[16:51:02] champollion fold 0 (XHLT2-HS6-BLE1) done [902s; fits 135.0s]
+[17:05:30] champollion fold 1 (XHLT2-HS32-BLE1) done [868s; fits 130.4s]
+[17:20:22] champollion fold 2 (XHLT2-HS94-AAE6) done [891s; fits 135.1s]
+[17:35:53] champollion fold 3 (XHLT2-HS86-AAE6) done [931s; fits 140.6s]

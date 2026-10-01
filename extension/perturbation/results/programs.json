@@ -1,0 +1,1791 @@
+{
+ "gene_sets_sha256": {
+  "HALLMARK_INTERFERON_GAMMA_RESPONSE.json": "845aabdb9ff04fb62bbb1bc8a527654c549075852c84f31d64f50d9e43134353",
+  "HALLMARK_INTERFERON_ALPHA_RESPONSE.json": "2a3d93f3170bc9866ced1135bdde9870f18294f7ad3ae6cb3732dc3680483455",
+  "HALLMARK_TNFA_SIGNALING_VIA_NFKB.json": "ade1ab9b67e047ceb70f8b8a06c65c6631e17f06b10c1b0283f962be848d2954",
+  "HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION.json": "b4f4872e065400c48c6b16f191c59078a3b5bc549c740b3dbbf89a016bf126dd",
+  "HALLMARK_G2M_CHECKPOINT.json": "a246146297b9fd928560d727724311e4cf4f8ec76158acb2704606fe1a5950b3",
+  "HALLMARK_E2F_TARGETS.json": "8007be6789c45bd70192940322d69b137bddfe8e2a7b2f93ef33773ed981f1c1",
+  "HALLMARK_HYPOXIA.json": "ff32259a58f8ffc8266bbc783f6f40bfb18b9dc3719df00fce0e8f8cfc79e29d",
+  "HALLMARK_MYC_TARGETS_V1.json": "445c9cde22413cb1695127198ab21a73ed075488dd60b78414095d1253c4103c",
+  "HALLMARK_OXIDATIVE_PHOSPHORYLATION.json": "c4836d2a970fdd1ce70afa2b41407395f0e77099677f1c25c222e050afb7b246"
+ },
+ "blocks": {
+  "ifn": {
+   "genes": [
+    "CD274",
+    "CD47",
+    "HLA-A",
+    "HLA-B",
+    "HLA-C",
+    "B2M",
+    "CXCL9",
+    "CXCL10",
+    "CCL2",
+    "CXCL11",
+    "TXNIP",
+    "CD74",
+    "IDO1",
+    "TNFSF10",
+    "HLA-DRB1",
+    "PTGS2",
+    "SECTM1",
+    "OASL",
+    "SOCS1",
+    "RNF213",
+    "CIITA",
+    "IL6",
+    "EPSTI1",
+    "ISG20",
+    "GBP4",
+    "SAMD9L",
+    "GBP2",
+    "CDKN1A",
+    "ARID5B",
+    "LPAR6",
+    "HLA-DMA",
+    "IFI27",
+    "BATF2",
+    "APOL6"
+   ],
+   "proteins": [
+    "CD274",
+    "CD47",
+    "HLA_A"
+   ]
+  },
+  "ifn_genes": {
+   "genes": [
+    "CD274",
+    "CD47",
+    "HLA-A",
+    "HLA-B",
+    "HLA-C",
+    "B2M",
+    "CXCL9",
+    "CXCL10",
+    "CCL2",
+    "CXCL11",
+    "TXNIP",
+    "CD74",
+    "IDO1",
+    "TNFSF10",
+    "HLA-DRB1",
+    "PTGS2",
+    "SECTM1",
+    "OASL",
+    "SOCS1",
+    "RNF213",
+    "CIITA",
+    "IL6",
+    "EPSTI1",
+    "ISG20",
+    "GBP4",
+    "SAMD9L",
+    "GBP2",
+    "CDKN1A",
+    "ARID5B",
+    "LPAR6",
+    "HLA-DMA",
+    "IFI27",
+    "BATF2",
+    "APOL6"
+   ],
+   "proteins": [
+    "CD117",
+    "CD119",
+    "CD140a",
+    "CD140b",
+    "CD172a",
+    "CD184",
+    "CD202b",
+    "CD274",
+    "CD29",
+    "CD309",
+    "CD44",
+    "CD47",
+    "CD49f",
+    "CD58",
+    "CD59",
+    "CD61",
+    "HLA_A",
+    "HLA_E",
+    "CD9",
+    "CD279"
+   ]
+  },
+  "complement": {
+   "genes": [
+    "IFNGR1",
+    "PDGFRA",
+    "PDGFRB",
+    "SIRPA",
+    "ITGB1",
+    "KDR",
+    "CD44",
+    "ITGA6",
+    "CD58",
+    "CD59",
+    "ITGB3",
+    "HLA-E",
+    "CD9",
+    "S100A9",
+    "KRT17",
+    "MSMP",
+    "KRTAP2-3",
+    "KRT81",
+    "INHBA",
+    "MMP3",
+    "SPANXD",
+    "TAGLN",
+    "G0S2",
+    "KYNU",
+    "EGR1",
+    "GDF15",
+    "IGFBP5",
+    "GBP5",
+    "HMOX1",
+    "MAFB",
+    "AKR1C1",
+    "AREG",
+    "IL1B",
+    "TEX29",
+    "BCL2A1",
+    "IGFN1",
+    "HIST1H1B",
+    "HLA-DPA1",
+    "EDN1",
+    "PLAC8",
+    "MMP1",
+    "PRSS3",
+    "HIST1H1D",
+    "CXCL1",
+    "SNAI1",
+    "AKR1B10",
+    "CTGF",
+    "F3",
+    "PTGES",
+    "CXCL8",
+    "TRIB3",
+    "CD163L1",
+    "HAPLN3",
+    "CXCL3",
+    "DIO2",
+    "CXCL2",
+    "ID2",
+    "CDC20",
+    "IGFBP2",
+    "COL1A1",
+    "ATF3",
+    "DKK1",
+    "HTRA3",
+    "IL13RA2",
+    "TPX2",
+    "CCNA1",
+    "UBE2C",
+    "HLA-DRA",
+    "SLC16A6",
+    "TOP2A",
+    "GALNT6",
+    "PTHLH",
+    "CENPF",
+    "LRRC17",
+    "VGF",
+    "AC105999.2",
+    "DLGAP5",
+    "SCN9A",
+    "RRM2",
+    "FBXO32",
+    "AC003092.1",
+    "BEX1",
+    "CD7",
+    "PLK1",
+    "AKR1C3",
+    "CCNB1",
+    "KRT8",
+    "CENPE",
+    "SPP1",
+    "HMMR",
+    "SAA1",
+    "FAM111B",
+    "PTTG1",
+    "CEBPD",
+    "DDIT4",
+    "CYP1B1",
+    "HIST1H2AC",
+    "CYR61",
+    "IGFBP3",
+    "AC023157.3",
+    "HIST3H2A",
+    "AKR1C2",
+    "VSNL1",
+    "PTPRN2",
+    "FAM83D",
+    "AURKA",
+    "HAS1",
+    "ARL6IP1",
+    "HBEGF",
+    "DUSP1",
+    "HJURP",
+    "ADAMTS6",
+    "ASPM",
+    "AL355916.1",
+    "SGO2",
+    "HMGB2",
+    "BATF3",
+    "NUSAP1",
+    "HEY1",
+    "SERPINE1",
+    "DSP",
+    "HIST2H2AC",
+    "KCNE4",
+    "PEG10",
+    "AKAP12",
+    "ARL4C",
+    "MKI67",
+    "STC1",
+    "NDN",
+    "HIST1H2BC",
+    "CDKN3",
+    "DDIT3",
+    "CCL20",
+    "NOX5",
+    "CCNB2",
+    "FGF5",
+    "HIST1H1E",
+    "NEFL",
+    "GGT5",
+    "HIST1H2BJ",
+    "ETV7",
+    "GBP1",
+    "HLA-DPB1",
+    "CKS2",
+    "SERINC2",
+    "PBK",
+    "PCLO",
+    "BMP2",
+    "CDKN2B",
+    "AP002884.1",
+    "JUNB",
+    "VIPR1",
+    "QPRT",
+    "TNFRSF11B",
+    "NEK2",
+    "HIST1H4H",
+    "KIAA0040",
+    "CLSPN",
+    "CENPA",
+    "CKB",
+    "CLGN",
+    "CLEC2B",
+    "EREG",
+    "TBX2",
+    "RGS2",
+    "GADD45B"
+   ],
+   "proteins": [
+    "CD117",
+    "CD119",
+    "CD140a",
+    "CD140b",
+    "CD172a",
+    "CD184",
+    "CD202b",
+    "CD29",
+    "CD309",
+    "CD44",
+    "CD49f",
+    "CD58",
+    "CD59",
+    "CD61",
+    "HLA_E",
+    "CD9",
+    "CD279"
+   ]
+  },
+  "along_S": {
+   "genes": "supported direction",
+   "proteins": [
+    "CD117",
+    "CD119",
+    "CD140a",
+    "CD140b",
+    "CD172a",
+    "CD184",
+    "CD202b",
+    "CD274",
+    "CD29",
+    "CD309",
+    "CD44",
+    "CD47",
+    "CD49f",
+    "CD58",
+    "CD59",
+    "CD61",
+    "HLA_A",
+    "HLA_E",
+    "CD9",
+    "CD279"
+   ]
+  },
+  "e2f_targets": {
+   "genes": [
+    "CDC20",
+    "TOP2A",
+    "DLGAP5",
+    "RRM2",
+    "PLK1",
+    "CENPE",
+    "HMMR",
+    "PTTG1",
+    "AURKA",
+    "HMGB2",
+    "MKI67",
+    "CDKN3",
+    "CCNB2",
+    "CKS2",
+    "CDKN1A"
+   ],
+   "proteins": [
+    "CD117",
+    "CD119",
+    "CD140a",
+    "CD140b",
+    "CD172a",
+    "CD184",
+    "CD202b",
+    "CD274",
+    "CD29",
+    "CD309",
+    "CD44",
+    "CD47",
+    "CD49f",
+    "CD58",
+    "CD59",
+    "CD61",
+    "HLA_A",
+    "HLA_E",
+    "CD9",
+    "CD279"
+   ]
+  },
+  "epithelial_mesenchymal_transition": {
+   "genes": [
+    "PDGFRB",
+    "ITGB1",
+    "CD44",
+    "CD59",
+    "ITGB3",
+    "INHBA",
+    "MMP3",
+    "TAGLN",
+    "AREG",
+    "MMP1",
+    "CXCL1",
+    "CXCL8",
+    "ID2",
+    "IGFBP2",
+    "COL1A1",
+    "DKK1",
+    "PTHLH",
+    "SPP1",
+    "IGFBP3",
+    "SERPINE1",
+    "IL6",
+    "TNFRSF11B",
+    "GADD45B"
+   ],
+   "proteins": [
+    "CD117",
+    "CD119",
+    "CD140a",
+    "CD140b",
+    "CD172a",
+    "CD184",
+    "CD202b",
+    "CD274",
+    "CD29",
+    "CD309",
+    "CD44",
+    "CD47",
+    "CD49f",
+    "CD58",
+    "CD59",
+    "CD61",
+    "HLA_A",
+    "HLA_E",
+    "CD9",
+    "CD279"
+   ]
+  },
+  "g2m_checkpoint": {
+   "genes": [
+    "CDC20",
+    "TPX2",
+    "UBE2C",
+    "TOP2A",
+    "CENPF",
+    "PLK1",
+    "CENPE",
+    "HMMR",
+    "PTTG1",
+    "AURKA",
+    "NUSAP1",
+    "MKI67",
+    "CDKN3",
+    "CCNB2",
+    "CKS2",
+    "PBK",
+    "NEK2",
+    "CENPA"
+   ],
+   "proteins": [
+    "CD117",
+    "CD119",
+    "CD140a",
+    "CD140b",
+    "CD172a",
+    "CD184",
+    "CD202b",
+    "CD274",
+    "CD29",
+    "CD309",
+    "CD44",
+    "CD47",
+    "CD49f",
+    "CD58",
+    "CD59",
+    "CD61",
+    "HLA_A",
+    "HLA_E",
+    "CD9",
+    "CD279"
+   ]
+  },
+  "hypoxia": {
+   "genes": [
+    "HMOX1",
+    "PLAC8",
+    "F3",
+    "ATF3",
+    "DDIT4",
+    "IGFBP3",
+    "HAS1",
+    "DUSP1",
+    "SERPINE1",
+    "IL6",
+    "AKAP12",
+    "ISG20",
+    "STC1",
+    "DDIT3",
+    "CDKN1A"
+   ],
+   "proteins": [
+    "CD117",
+    "CD119",
+    "CD140a",
+    "CD140b",
+    "CD172a",
+    "CD184",
+    "CD202b",
+    "CD274",
+    "CD29",
+    "CD309",
+    "CD44",
+    "CD47",
+    "CD49f",
+    "CD58",
+    "CD59",
+    "CD61",
+    "HLA_A",
+    "HLA_E",
+    "CD9",
+    "CD279"
+   ]
+  },
+  "tnfa_signaling_via_nfkb": {
+   "genes": [
+    "CD44",
+    "CXCL10",
+    "INHBA",
+    "G0S2",
+    "CCL2",
+    "KYNU",
+    "EGR1",
+    "CXCL11",
+    "AREG",
+    "IL1B",
+    "BCL2A1",
+    "EDN1",
+    "CXCL1",
+    "F3",
+    "CXCL3",
+    "CXCL2",
+    "ID2",
+    "PTGS2",
+    "ATF3",
+    "SLC16A6",
+    "CEBPD",
+    "HBEGF",
+    "DUSP1",
+    "SERPINE1",
+    "IL6",
+    "CCL20",
+    "CDKN1A",
+    "BMP2",
+    "JUNB",
+    "GADD45B"
+   ],
+   "proteins": [
+    "CD117",
+    "CD119",
+    "CD140a",
+    "CD140b",
+    "CD172a",
+    "CD184",
+    "CD202b",
+    "CD274",
+    "CD29",
+    "CD309",
+    "CD44",
+    "CD47",
+    "CD49f",
+    "CD58",
+    "CD59",
+    "CD61",
+    "HLA_A",
+    "HLA_E",
+    "CD9",
+    "CD279"
+   ]
+  }
+ },
+ "heldout": {
+  "ifn": {
+   "rf": {
+    "pf_within_measured": 0.42522167435963226,
+    "paired_closed_form": 0.6416869988633163,
+    "transferred_correlation": 0.9404550179512419,
+    "reference_regression": 0.6880832875468922,
+    "benchmark": 0.48328915631518016,
+    "replicate": -0.24275153542482894
+   },
+   "reliability": 0.2900496918677144,
+   "support": 0.09356468011475581,
+   "share_paired": 0.6626621314018666,
+   "share_transferred": 0.45214461749161294,
+   "by_condition": {
+    "control": {
+     "pf_within_measured": 0.18719299522267943,
+     "paired_closed_form": 0.1602685423130759,
+     "transferred_correlation": 0.9050873442523997,
+     "replicate": -1.9556670815204606
+    },
+    "ifng": {
+     "pf_within_measured": 0.6512152513766089,
+     "paired_closed_form": 0.786986548795677,
+     "transferred_correlation": 0.9849543608279876,
+     "replicate": 0.12182583087053371
+    },
+    "coculture": {
+     "pf_within_measured": 0.19438755966139912,
+     "paired_closed_form": 0.6247749663100116,
+     "transferred_correlation": 0.8903968123746471,
+     "replicate": -0.08297273719407687
+    }
+   }
+  },
+  "ifn_genes": {
+   "rf": {
+    "pf_within_measured": 0.16416809787216155,
+    "paired_closed_form": 0.33490824490171284,
+    "transferred_correlation": 0.9232404611327948,
+    "reference_regression": 0.4914127980050489,
+    "benchmark": 0.23921516973920406,
+    "replicate": -2.8130987945386656
+   },
+   "reliability": 0.1198467034469875,
+   "support": 0.09356468011475581,
+   "share_paired": 0.4901882840189281,
+   "share_transferred": 0.1778172694800779,
+   "by_condition": {
+    "control": {
+     "pf_within_measured": 0.10030557111875757,
+     "paired_closed_form": -0.8683513070442954,
+     "transferred_correlation": 1.2535646233609339,
+     "replicate": -12.552202717328681
+    },
+    "ifng": {
+     "pf_within_measured": 0.4736722761150099,
+     "paired_closed_form": 0.5323515054043548,
+     "transferred_correlation": 0.953637584520409,
+     "replicate": -1.979470829755102
+    },
+    "coculture": {
+     "pf_within_measured": -0.1196396059695553,
+     "paired_closed_form": 0.39080275016915594,
+     "transferred_correlation": 0.8267618874560028,
+     "replicate": -1.627546645748306
+    }
+   }
+  },
+  "complement": {
+   "rf": {
+    "pf_within_measured": 0.056617126711805514,
+    "paired_closed_form": 0.3617279084242048,
+    "transferred_correlation": 0.9786573242660974,
+    "reference_regression": 0.5466482076583299,
+    "benchmark": 0.18660834594539458,
+    "replicate": -3.0826194628935593
+   },
+   "reliability": 0.10946315682815741,
+   "support": 0.020256348897113412,
+   "share_paired": 0.156518547209826,
+   "share_transferred": 0.057851839768596355,
+   "by_condition": {
+    "control": {
+     "pf_within_measured": 0.13728225449061968,
+     "paired_closed_form": 0.283884627031113,
+     "transferred_correlation": 0.9621322214764805,
+     "replicate": -3.6412810194942504
+    },
+    "ifng": {
+     "pf_within_measured": 0.078861683405579,
+     "paired_closed_form": 0.4059429759430346,
+     "transferred_correlation": 0.9884867457694636,
+     "replicate": -3.3977519562025256
+    },
+    "coculture": {
+     "pf_within_measured": -0.037795023374359124,
+     "paired_closed_form": 0.3976052280083075,
+     "transferred_correlation": 0.9859009618176189,
+     "replicate": -2.293302171680063
+    }
+   }
+  },
+  "along_S": {
+   "rf": {
+    "pf_within_measured": 0.2730274578036544,
+    "paired_closed_form": 0.6933236404586918,
+    "transferred_correlation": 0.869789324199758,
+    "reference_regression": 0.7626665082849532,
+    "benchmark": 0.4742562789251527,
+    "replicate": 0.0655644926028907
+   },
+   "reliability": 0.3450638018938537,
+   "support": null,
+   "share_paired": 0.3937951078994275,
+   "share_transferred": 0.31390067710344793,
+   "by_condition": {
+    "control": {
+     "pf_within_measured": 0.1758163984483753,
+     "paired_closed_form": 0.25974108797421847,
+     "transferred_correlation": 0.7189640538232442,
+     "replicate": -1.0703039679427142
+    },
+    "ifng": {
+     "pf_within_measured": 0.7988772819094022,
+     "paired_closed_form": 0.8301843945534153,
+     "transferred_correlation": 0.9256264730642586,
+     "replicate": 0.2983283333775132
+    },
+    "coculture": {
+     "pf_within_measured": -0.29794625750333664,
+     "paired_closed_form": 0.647407202725194,
+     "transferred_correlation": 0.8444991483419543,
+     "replicate": 0.08769089460320739
+    }
+   }
+  },
+  "e2f_targets": {
+   "rf": {
+    "pf_within_measured": -0.05119679532200103,
+    "paired_closed_form": -0.18629308404165615,
+    "transferred_correlation": 1.0062098453954522,
+    "reference_regression": 0.04638020749370041,
+    "benchmark": -0.43917061550436254,
+    "replicate": -5.545423585671016
+   },
+   "reliability": 0.06793331648542206,
+   "support": 0.012999753740536801,
+   "share_paired": NaN,
+   "share_transferred": -0.05088083321414937,
+   "by_condition": {
+    "control": {
+     "pf_within_measured": 0.06254001281016316,
+     "paired_closed_form": -0.19334215517623163,
+     "transferred_correlation": 0.8060805510032262,
+     "replicate": -4.404714540458053
+    },
+    "ifng": {
+     "pf_within_measured": 0.012907648584484566,
+     "paired_closed_form": -0.40916388553780436,
+     "transferred_correlation": 0.9978932310929224,
+     "replicate": -8.098594252766762
+    },
+    "coculture": {
+     "pf_within_measured": -0.3058614794960337,
+     "paired_closed_form": 0.021952974630998025,
+     "transferred_correlation": 1.3624504568776035,
+     "replicate": -5.289428424094096
+    }
+   }
+  },
+  "epithelial_mesenchymal_transition": {
+   "rf": {
+    "pf_within_measured": 0.07782237917310728,
+    "paired_closed_form": 0.5613930983106379,
+    "transferred_correlation": 0.9628510272448346,
+    "reference_regression": 0.6866535346946835,
+    "benchmark": 0.38701299412226703,
+    "replicate": -1.2324428040864863
+   },
+   "reliability": 0.1840830241356973,
+   "support": 0.016972527813166712,
+   "share_paired": 0.1386236834889721,
+   "share_transferred": 0.08082494277000811,
+   "by_condition": {
+    "control": {
+     "pf_within_measured": 0.13871748953403046,
+     "paired_closed_form": 0.5290189272880107,
+     "transferred_correlation": 0.962525162532285,
+     "replicate": -1.4368835744110935
+    },
+    "ifng": {
+     "pf_within_measured": 0.09145271540133697,
+     "paired_closed_form": 0.6374233657090065,
+     "transferred_correlation": 0.967538867130091,
+     "replicate": -1.1143190316162903
+    },
+    "coculture": {
+     "pf_within_measured": -0.007021451511377954,
+     "paired_closed_form": 0.5127146227362949,
+     "transferred_correlation": 0.9579435431003206,
+     "replicate": -1.1321635751754446
+    }
+   }
+  },
+  "g2m_checkpoint": {
+   "rf": {
+    "pf_within_measured": -0.07531305827788337,
+    "paired_closed_form": -0.09354972109401233,
+    "transferred_correlation": 1.01333559041638,
+    "reference_regression": 0.12270019956869754,
+    "benchmark": -0.4378240383954075,
+    "replicate": -5.252448041431562
+   },
+   "reliability": 0.07164361115393562,
+   "support": 0.011400891902999068,
+   "share_paired": NaN,
+   "share_transferred": -0.07432193144122887,
+   "by_condition": {
+    "control": {
+     "pf_within_measured": 0.049350584303290805,
+     "paired_closed_form": -0.10043432457023922,
+     "transferred_correlation": 0.8843899851250056,
+     "replicate": -4.274868015209828
+    },
+    "ifng": {
+     "pf_within_measured": -0.0061336093127564864,
+     "paired_closed_form": -0.3560948098141606,
+     "transferred_correlation": 0.8911693583577486,
+     "replicate": -7.566614041076217
+    },
+    "coculture": {
+     "pf_within_measured": -0.34222673026134004,
+     "paired_closed_form": 0.15117708929895096,
+     "transferred_correlation": 1.3344061956295765,
+     "replicate": -4.806169821575093
+    }
+   }
+  },
+  "hypoxia": {
+   "rf": {
+    "pf_within_measured": 0.03882957732312665,
+    "paired_closed_form": 0.3285538819969959,
+    "transferred_correlation": 0.9433878693609871,
+    "reference_regression": 0.5019775755817716,
+    "benchmark": 0.24178345915175783,
+    "replicate": -2.7510466731331427
+   },
+   "reliability": 0.1199854965188744,
+   "support": 0.02135101532753754,
+   "share_paired": 0.11818328575853405,
+   "share_transferred": 0.041159716574931414,
+   "by_condition": {
+    "control": {
+     "pf_within_measured": 0.06113533170183862,
+     "paired_closed_form": 0.14064762961675073,
+     "transferred_correlation": 0.9390142249078484,
+     "replicate": -3.81346516978764
+    },
+    "ifng": {
+     "pf_within_measured": 0.10706429882899236,
+     "paired_closed_form": 0.4389951960538419,
+     "transferred_correlation": 0.9607409230668592,
+     "replicate": -2.4522217119956182
+    },
+    "coculture": {
+     "pf_within_measured": -0.05743119415688503,
+     "paired_closed_form": 0.3846134952011431,
+     "transferred_correlation": 0.9284089539981899,
+     "replicate": -2.075410204650377
+    }
+   }
+  },
+  "tnfa_signaling_via_nfkb": {
+   "rf": {
+    "pf_within_measured": 0.05429738809567451,
+    "paired_closed_form": 0.41010731219520974,
+    "transferred_correlation": 0.990973590526416,
+    "reference_regression": 0.5740214414558449,
+    "benchmark": 0.28953005642348845,
+    "replicate": -2.38247700603047
+   },
+   "reliability": 0.13029403032275408,
+   "support": 0.01730323008159226,
+   "share_paired": 0.13239800042831018,
+   "share_transferred": 0.054791962787657286,
+   "by_condition": {
+    "control": {
+     "pf_within_measured": 0.07661972170120608,
+     "paired_closed_form": 0.18482791933054693,
+     "transferred_correlation": 1.0417102913733207,
+     "replicate": -4.237301863809867
+    },
+    "ifng": {
+     "pf_within_measured": 0.10476619467311658,
+     "paired_closed_form": 0.47864963206769434,
+     "transferred_correlation": 1.01940535801764,
+     "replicate": -2.2650123907347957
+    },
+    "coculture": {
+     "pf_within_measured": 0.00029454697445627763,
+     "paired_closed_form": 0.48131122753772265,
+     "transferred_correlation": 0.9389697011542749,
+     "replicate": -1.429834577229588
+    }
+   }
+  },
+  "intervals": {
+   "ifn/rf/pf_within_measured": {
+    "value": 0.42522167435963226,
+    "ci": [
+     0.3236771803452578,
+     0.5143828424530937
+    ]
+   },
+   "ifn/rf/paired_closed_form": {
+    "value": 0.6416869988633163,
+    "ci": [
+     0.5830193228298148,
+     0.6991593528252796
+    ]
+   },
+   "ifn/rf/transferred_correlation": {
+    "value": 0.9404550179512419,
+    "ci": [
+     0.8773845787223926,
+     1.0151137021164518
+    ]
+   },
+   "ifn/rf/reference_regression": {
+    "value": 0.6880832875468922,
+    "ci": [
+     0.6349257912430127,
+     0.741989953111758
+    ]
+   },
+   "ifn/rf/benchmark": {
+    "value": 0.48328915631518016,
+    "ci": [
+     0.4396330423025429,
+     0.531994445042989
+    ]
+   },
+   "ifn/rf/replicate": {
+    "value": -0.24275153542482894,
+    "ci": [
+     -0.3981804940785032,
+     -0.10210368325671161
+    ]
+   },
+   "ifn/share_paired": {
+    "value": 0.6626621314018666,
+    "ci": [
+     0.5356986763675331,
+     0.7665124877442446
+    ]
+   },
+   "ifn/share_transferred": {
+    "value": 0.45214461749161294,
+    "ci": [
+     0.3497125405825055,
+     0.5417933678791378
+    ]
+   },
+   "ifn/reliability": {
+    "value": 0.2900496918677144,
+    "ci": [
+     0.256892226795186,
+     0.32167863666811963
+    ]
+   },
+   "ifn_genes/rf/pf_within_measured": {
+    "value": 0.16416809787216155,
+    "ci": [
+     0.061681208285234546,
+     0.25862915620462806
+    ]
+   },
+   "ifn_genes/rf/paired_closed_form": {
+    "value": 0.33490824490171284,
+    "ci": [
+     0.25785384113494936,
+     0.41143175267769205
+    ]
+   },
+   "ifn_genes/rf/transferred_correlation": {
+    "value": 0.9232404611327948,
+    "ci": [
+     0.8522164423659742,
+     1.0046559892029205
+    ]
+   },
+   "ifn_genes/rf/reference_regression": {
+    "value": 0.4914127980050489,
+    "ci": [
+     0.4272031748387357,
+     0.5595013485018192
+    ]
+   },
+   "ifn_genes/rf/benchmark": {
+    "value": 0.23921516973920406,
+    "ci": [
+     0.1923653736706577,
+     0.28870226100086566
+    ]
+   },
+   "ifn_genes/rf/replicate": {
+    "value": -2.8130987945386656,
+    "ci": [
+     -3.3054430936247354,
+     -2.431418580310665
+    ]
+   },
+   "ifn_genes/share_paired": {
+    "value": 0.4901882840189281,
+    "ci": [
+     0.2037002080007522,
+     0.7180723274027101
+    ]
+   },
+   "ifn_genes/share_transferred": {
+    "value": 0.1778172694800779,
+    "ci": [
+     0.06541558460923066,
+     0.2788901113008739
+    ]
+   },
+   "ifn_genes/reliability": {
+    "value": 0.1198467034469875,
+    "ci": [
+     0.10544455856373769,
+     0.13434539268321477
+    ]
+   },
+   "complement/rf/pf_within_measured": {
+    "value": 0.056617126711805514,
+    "ci": [
+     0.039305748192602616,
+     0.0728971731895033
+    ]
+   },
+   "complement/rf/paired_closed_form": {
+    "value": 0.3617279084242048,
+    "ci": [
+     0.2919952009832049,
+     0.4251374660756253
+    ]
+   },
+   "complement/rf/transferred_correlation": {
+    "value": 0.9786573242660974,
+    "ci": [
+     0.9178601854438443,
+     1.0419860725655254
+    ]
+   },
+   "complement/rf/reference_regression": {
+    "value": 0.5466482076583299,
+    "ci": [
+     0.49500856143447375,
+     0.5957992265823437
+    ]
+   },
+   "complement/rf/benchmark": {
+    "value": 0.18660834594539458,
+    "ci": [
+     0.13656748948652694,
+     0.2348766702404972
+    ]
+   },
+   "complement/rf/replicate": {
+    "value": -3.0826194628935593,
+    "ci": [
+     -3.4971828460790224,
+     -2.733562359002682
+    ]
+   },
+   "complement/share_paired": {
+    "value": 0.156518547209826,
+    "ci": [
+     0.11249695774317997,
+     0.19970264516999728
+    ]
+   },
+   "complement/share_transferred": {
+    "value": 0.057851839768596355,
+    "ci": [
+     0.04066521544021293,
+     0.07448222112071069
+    ]
+   },
+   "complement/reliability": {
+    "value": 0.10946315682815741,
+    "ci": [
+     0.10005650227207466,
+     0.11920692915846061
+    ]
+   },
+   "along_S/rf/pf_within_measured": {
+    "value": 0.2730274578036544,
+    "ci": [
+     -0.008020389575560508,
+     0.4982356317612353
+    ]
+   },
+   "along_S/rf/paired_closed_form": {
+    "value": 0.6933236404586918,
+    "ci": [
+     0.5628242114881645,
+     0.8448210278063276
+    ]
+   },
+   "along_S/rf/transferred_correlation": {
+    "value": 0.869789324199758,
+    "ci": [
+     0.7610921598161449,
+     1.0208945802499607
+    ]
+   },
+   "along_S/rf/reference_regression": {
+    "value": 0.7626665082849532,
+    "ci": [
+     0.6418958386576795,
+     0.9078461620819185
+    ]
+   },
+   "along_S/rf/benchmark": {
+    "value": 0.4742562789251527,
+    "ci": [
+     0.39328052154682686,
+     0.5719937088914545
+    ]
+   },
+   "along_S/rf/replicate": {
+    "value": 0.0655644926028907,
+    "ci": [
+     -0.1974458526424624,
+     0.2605712163844496
+    ]
+   },
+   "along_S/share_paired": {
+    "value": 0.3937951078994275,
+    "ci": [
+     -0.01212321991112146,
+     0.6517832911170542
+    ]
+   },
+   "along_S/share_transferred": {
+    "value": 0.31390067710344793,
+    "ci": [
+     -0.009420745200472787,
+     0.5487711156237686
+    ]
+   },
+   "along_S/reliability": {
+    "value": 0.3450638018938537,
+    "ci": [
+     0.2791098290467431,
+     0.40653718574050435
+    ]
+   },
+   "e2f_targets/rf/pf_within_measured": {
+    "value": -0.05119679532200103,
+    "ci": [
+     -0.1610155756628638,
+     0.04760817499558763
+    ]
+   },
+   "e2f_targets/rf/paired_closed_form": {
+    "value": -0.18629308404165615,
+    "ci": [
+     -0.523997476481795,
+     0.0361471772228448
+    ]
+   },
+   "e2f_targets/rf/transferred_correlation": {
+    "value": 1.0062098453954522,
+    "ci": [
+     0.7353182183480687,
+     1.5734601704829474
+    ]
+   },
+   "e2f_targets/rf/reference_regression": {
+    "value": 0.04638020749370041,
+    "ci": [
+     -0.17024807274052148,
+     0.2309851647032901
+    ]
+   },
+   "e2f_targets/rf/benchmark": {
+    "value": -0.43917061550436254,
+    "ci": [
+     -0.8739058863338575,
+     -0.17754232807440143
+    ]
+   },
+   "e2f_targets/rf/replicate": {
+    "value": -5.545423585671016,
+    "ci": [
+     -9.249253563906114,
+     -3.8768831918387985
+    ]
+   },
+   "e2f_targets/share_paired": {
+    "value": NaN,
+    "ci": [
+     -49.13903554970618,
+     2.83353775141652
+    ]
+   },
+   "e2f_targets/share_transferred": {
+    "value": -0.05088083321414937,
+    "ci": [
+     -0.15442300674705342,
+     0.0452064931631795
+    ]
+   },
+   "e2f_targets/reliability": {
+    "value": 0.06793331648542206,
+    "ci": [
+     0.041763785086784425,
+     0.09323622206365827
+    ]
+   },
+   "epithelial_mesenchymal_transition/rf/pf_within_measured": {
+    "value": 0.07782237917310728,
+    "ci": [
+     0.06262827879902767,
+     0.09480172212012415
+    ]
+   },
+   "epithelial_mesenchymal_transition/rf/paired_closed_form": {
+    "value": 0.5613930983106379,
+    "ci": [
+     0.5080477765932329,
+     0.613186879132487
+    ]
+   },
+   "epithelial_mesenchymal_transition/rf/transferred_correlation": {
+    "value": 0.9628510272448346,
+    "ci": [
+     0.8997165455725039,
+     1.0311562297961987
+    ]
+   },
+   "epithelial_mesenchymal_transition/rf/reference_regression": {
+    "value": 0.6866535346946835,
+    "ci": [
+     0.6346961756207423,
+     0.7400579832151707
+    ]
+   },
+   "epithelial_mesenchymal_transition/rf/benchmark": {
+    "value": 0.38701299412226703,
+    "ci": [
+     0.34692751222809814,
+     0.42748129419079656
+    ]
+   },
+   "epithelial_mesenchymal_transition/rf/replicate": {
+    "value": -1.2324428040864863,
+    "ci": [
+     -1.43527716201908,
+     -1.073425665039622
+    ]
+   },
+   "epithelial_mesenchymal_transition/share_paired": {
+    "value": 0.1386236834889721,
+    "ci": [
+     0.1141399672750202,
+     0.1658870114870981
+    ]
+   },
+   "epithelial_mesenchymal_transition/share_transferred": {
+    "value": 0.08082494277000811,
+    "ci": [
+     0.06692468886638106,
+     0.09513515831174084
+    ]
+   },
+   "epithelial_mesenchymal_transition/reliability": {
+    "value": 0.1840830241356973,
+    "ci": [
+     0.1681206801224208,
+     0.1997740021263436
+    ]
+   },
+   "g2m_checkpoint/rf/pf_within_measured": {
+    "value": -0.07531305827788337,
+    "ci": [
+     -0.19978790764304757,
+     0.027603369834636377
+    ]
+   },
+   "g2m_checkpoint/rf/paired_closed_form": {
+    "value": -0.09354972109401233,
+    "ci": [
+     -0.43353823052035695,
+     0.14154318554203135
+    ]
+   },
+   "g2m_checkpoint/rf/transferred_correlation": {
+    "value": 1.01333559041638,
+    "ci": [
+     0.7321759215623171,
+     1.5856661870585376
+    ]
+   },
+   "g2m_checkpoint/rf/reference_regression": {
+    "value": 0.12270019956869754,
+    "ci": [
+     -0.10205009499497741,
+     0.32215074448792186
+    ]
+   },
+   "g2m_checkpoint/rf/benchmark": {
+    "value": -0.4378240383954075,
+    "ci": [
+     -0.9239912686860899,
+     -0.16271334047059446
+    ]
+   },
+   "g2m_checkpoint/rf/replicate": {
+    "value": -5.252448041431562,
+    "ci": [
+     -8.906718647010232,
+     -3.565646763598266
+    ]
+   },
+   "g2m_checkpoint/share_paired": {
+    "value": NaN,
+    "ci": [
+     -34.47828660377286,
+     1.1631465169390454
+    ]
+   },
+   "g2m_checkpoint/share_transferred": {
+    "value": -0.07432193144122887,
+    "ci": [
+     -0.19052999547974486,
+     0.028386987302633008
+    ]
+   },
+   "g2m_checkpoint/reliability": {
+    "value": 0.07164361115393562,
+    "ci": [
+     0.04259791434722728,
+     0.0998913960398242
+    ]
+   },
+   "hypoxia/rf/pf_within_measured": {
+    "value": 0.03882957732312665,
+    "ci": [
+     0.00327421668628238,
+     0.07221639574696645
+    ]
+   },
+   "hypoxia/rf/paired_closed_form": {
+    "value": 0.3285538819969959,
+    "ci": [
+     0.2425745715664358,
+     0.41635294183866867
+    ]
+   },
+   "hypoxia/rf/transferred_correlation": {
+    "value": 0.9433878693609871,
+    "ci": [
+     0.836505242123736,
+     1.0704516271505842
+    ]
+   },
+   "hypoxia/rf/reference_regression": {
+    "value": 0.5019775755817716,
+    "ci": [
+     0.4260479200564547,
+     0.5855900993264039
+    ]
+   },
+   "hypoxia/rf/benchmark": {
+    "value": 0.24178345915175783,
+    "ci": [
+     0.18934718071499732,
+     0.29823262827151936
+    ]
+   },
+   "hypoxia/rf/replicate": {
+    "value": -2.7510466731331427,
+    "ci": [
+     -3.3559564586102013,
+     -2.2877495509122334
+    ]
+   },
+   "hypoxia/share_paired": {
+    "value": 0.11818328575853405,
+    "ci": [
+     0.011589245150429068,
+     0.21250919478924202
+    ]
+   },
+   "hypoxia/share_transferred": {
+    "value": 0.041159716574931414,
+    "ci": [
+     0.0036490581629397855,
+     0.07777391983127668
+    ]
+   },
+   "hypoxia/reliability": {
+    "value": 0.1199854965188744,
+    "ci": [
+     0.1026980670928885,
+     0.1388683099069069
+    ]
+   },
+   "tnfa_signaling_via_nfkb/rf/pf_within_measured": {
+    "value": 0.05429738809567451,
+    "ci": [
+     0.03147765294335125,
+     0.07859857993789861
+    ]
+   },
+   "tnfa_signaling_via_nfkb/rf/paired_closed_form": {
+    "value": 0.41010731219520974,
+    "ci": [
+     0.3465472446825614,
+     0.4664588102692343
+    ]
+   },
+   "tnfa_signaling_via_nfkb/rf/transferred_correlation": {
+    "value": 0.990973590526416,
+    "ci": [
+     0.9287602400676309,
+     1.0687413559511694
+    ]
+   },
+   "tnfa_signaling_via_nfkb/rf/reference_regression": {
+    "value": 0.5740214414558449,
+    "ci": [
+     0.5261086049751263,
+     0.6244422958416161
+    ]
+   },
+   "tnfa_signaling_via_nfkb/rf/benchmark": {
+    "value": 0.28953005642348845,
+    "ci": [
+     0.25200677444673897,
+     0.32532035726909425
+    ]
+   },
+   "tnfa_signaling_via_nfkb/rf/replicate": {
+    "value": -2.38247700603047,
+    "ci": [
+     -2.7483491258311714,
+     -2.112209316461991
+    ]
+   },
+   "tnfa_signaling_via_nfkb/share_paired": {
+    "value": 0.13239800042831018,
+    "ci": [
+     0.08044736980446968,
+     0.19536676322685606
+    ]
+   },
+   "tnfa_signaling_via_nfkb/share_transferred": {
+    "value": 0.054791962787657286,
+    "ci": [
+     0.0319475097411159,
+     0.07936604400655348
+    ]
+   },
+   "tnfa_signaling_via_nfkb/reliability": {
+    "value": 0.13029403032275408,
+    "ci": [
+     0.11763110785926637,
+     0.14165418513526107
+    ]
+   },
+   "ifn_minus_complement/pf": {
+    "value": 0.36860454764782674,
+    "ci": [
+     0.2637383253403791,
+     0.4601890998514149
+    ]
+   },
+   "along_S_minus_complement/pf": {
+    "value": 0.21641033109184887,
+    "ci": [
+     -0.06006333078818829,
+     0.43503454589340496
+    ]
+   }
+  },
+  "support_vs_recovery": {
+   "programs": [
+    "e2f_targets",
+    "epithelial_mesenchymal_transition",
+    "g2m_checkpoint",
+    "hypoxia",
+    "tnfa_signaling_via_nfkb"
+   ],
+   "support": [
+    0.012999753740536801,
+    0.016972527813166712,
+    0.011400891902999068,
+    0.02135101532753754,
+    0.01730323008159226
+   ],
+   "recovery": [
+    -0.05119679532200103,
+    0.07782237917310728,
+    -0.07531305827788337,
+    0.03882957732312665,
+    0.05429738809567451
+   ],
+   "spearman": 0.6
+  },
+  "verdict": {
+   "P1_ifn_share_above_half": true,
+   "P2_along_S_share_above_half": false,
+   "P3_ifn_above_complement": true
+  }
+ },
+ "nt": {
+  "ifn": {
+   "rf": {
+    "pf_within_measured": 0.6126025333448722,
+    "paired_closed_form": 0.9267207637160422,
+    "transferred_correlation": 0.9793770396550843,
+    "reference_regression": 0.9078760149202523,
+    "benchmark": 0.8929851239521265,
+    "replicate": 0.9416199976114131
+   },
+   "reliability": 0.9456893821949449,
+   "support": 0.08705926370993843,
+   "share_paired": 0.661043280058178,
+   "share_transferred": 0.625502241262076,
+   "by_condition": {
+    "control": {
+     "pf_within_measured": 0.26478075916777694,
+     "paired_closed_form": 0.6776748153507125,
+     "transferred_correlation": 0.9266322312102658,
+     "replicate": 0.7855371344779096
+    },
+    "ifng": {
+     "pf_within_measured": 0.7267482342400913,
+     "paired_closed_form": 0.9551015134848437,
+     "transferred_correlation": 0.9905894613452979,
+     "replicate": 0.9631298566860255
+    },
+    "coculture": {
+     "pf_within_measured": 0.5832310047210195,
+     "paired_closed_form": 0.972957565425606,
+     "transferred_correlation": 0.982610641312076,
+     "replicate": 0.9659034265183127
+    }
+   }
+  },
+  "ifn_genes": {
+   "rf": {
+    "pf_within_measured": 0.3778516209406397,
+    "paired_closed_form": 0.9061842587084507,
+    "transferred_correlation": 0.9714031032550404,
+    "reference_regression": 0.870097280214153,
+    "benchmark": 0.8652323301328672,
+    "replicate": 0.8518436564497607
+   },
+   "reliability": 0.8327279538343457,
+   "support": 0.08705926370993843,
+   "share_paired": 0.4169699675418959,
+   "share_transferred": 0.3889751017620903,
+   "by_condition": {
+    "control": {
+     "pf_within_measured": 0.22803092467299166,
+     "paired_closed_form": 0.6393403392939976,
+     "transferred_correlation": 0.9310336729344225,
+     "replicate": 0.5063041829266491
+    },
+    "ifng": {
+     "pf_within_measured": 0.5798727450911197,
+     "paired_closed_form": 0.9351990605220637,
+     "transferred_correlation": 0.9742787065290998,
+     "replicate": 0.8775757402363112
+    },
+    "coculture": {
+     "pf_within_measured": 0.23158358593728026,
+     "paired_closed_form": 0.9453491043026084,
+     "transferred_correlation": 0.9786996191062948,
+     "replicate": 0.9132843863819946
+    }
+   }
+  },
+  "complement": {
+   "rf": {
+    "pf_within_measured": 0.12379087429088108,
+    "paired_closed_form": 0.9528615798291561,
+    "transferred_correlation": 0.9861660737845256,
+    "reference_regression": 0.9233977653490766,
+    "benchmark": 0.8918016958381872,
+    "replicate": 0.8754278509397179
+   },
+   "reliability": 0.795894199125511,
+   "support": 0.009779324944330887,
+   "share_paired": 0.1299148553277552,
+   "share_transferred": 0.12552741123593858,
+   "by_condition": {
+    "control": {
+     "pf_within_measured": 0.1616623476804625,
+     "paired_closed_form": 0.9554159009374866,
+     "transferred_correlation": 0.9809519335735297,
+     "replicate": 0.8329531785186916
+    },
+    "ifng": {
+     "pf_within_measured": 0.1455962887344099,
+     "paired_closed_form": 0.9730644961290233,
+     "transferred_correlation": 1.001620558851435,
+     "replicate": 0.8972291798087852
+    },
+    "coculture": {
+     "pf_within_measured": 0.07042439657128478,
+     "paired_closed_form": 0.9342657035950718,
+     "transferred_correlation": 0.9787377016078408,
+     "replicate": 0.898248777434368
+    }
+   }
+  },
+  "along_S": {
+   "rf": {
+    "pf_within_measured": 0.6007147856284436,
+    "paired_closed_form": 0.9276695599866803,
+    "transferred_correlation": 0.9842222344627064,
+    "reference_regression": 0.8928109669964792,
+    "benchmark": 0.8740367431703543,
+    "replicate": 0.9588745513725819
+   },
+   "reliability": 0.9713917483043787,
+   "support": null,
+   "share_paired": 0.6475525462289274,
+   "share_transferred": 0.6103446605800141,
+   "by_condition": {
+    "control": {
+     "pf_within_measured": 0.35859798038942026,
+     "paired_closed_form": 0.7665509448078276,
+     "transferred_correlation": 1.0462714725908178,
+     "replicate": 1.0417743928065952
+    },
+    "ifng": {
+     "pf_within_measured": 0.8872468471410511,
+     "paired_closed_form": 0.9338327663109594,
+     "transferred_correlation": 0.9820689717254327,
+     "replicate": 0.9491581668106907
+    },
+    "coculture": {
+     "pf_within_measured": 0.36119262136427105,
+     "paired_closed_form": 0.9504242544773116,
+     "transferred_correlation": 0.9752415959259553,
+     "replicate": 0.9536279994467666
+    }
+   }
+  },
+  "e2f_targets": {
+   "rf": {
+    "pf_within_measured": 0.18733339783310574,
+    "paired_closed_form": 0.916646610629991,
+    "transferred_correlation": 1.006465066382832,
+    "reference_regression": 0.8394745011264859,
+    "benchmark": 0.9089717376955592,
+    "replicate": 0.8280659562385037
+   },
+   "reliability": 0.7334764359451127,
+   "support": 0.003065097231729404,
+   "share_paired": 0.20436817816230796,
+   "share_transferred": 0.18613005467379945,
+   "by_condition": {
+    "control": {
+     "pf_within_measured": 0.16972463461858905,
+     "paired_closed_form": 0.8778282037377928,
+     "transferred_correlation": 0.9782507379204616,
+     "replicate": 0.7466089375320986
+    },
+    "ifng": {
+     "pf_within_measured": 0.4159471833532421,
+     "paired_closed_form": 0.9913363231854827,
+     "transferred_correlation": 1.0216531792559551,
+     "replicate": 0.8650864506066763
+    },
+    "coculture": {
+     "pf_within_measured": 0.028033712774340743,
+     "paired_closed_form": 0.900102306405316,
+     "transferred_correlation": 1.024917560834388,
+     "replicate": 0.8866628447861511
+    }
+   }
+  },
+  "epithelial_mesenchymal_transition": {
+   "rf": {
+    "pf_within_measured": 0.1262831876494892,
+    "paired_closed_form": 0.9716865089610531,
+    "transferred_correlation": 0.9918619759809301,
+    "reference_regression": 0.9504555165458509,
+    "benchmark": 0.9009022779379553,
+    "replicate": 0.9290678166356277
+   },
+   "reliability": 0.8738168119074068,
+   "support": 0.0057437917542792,
+   "share_paired": 0.1299628907933627,
+   "share_transferred": 0.12731931529545515,
+   "by_condition": {
+    "control": {
+     "pf_within_measured": 0.15613087341252668,
+     "paired_closed_form": 0.9797688228055113,
+     "transferred_correlation": 0.992428947031219,
+     "replicate": 0.9170110474241485
+    },
+    "ifng": {
+     "pf_within_measured": 0.1342832567631015,
+     "paired_closed_form": 0.9798182450494359,
+     "transferred_correlation": 0.9983463654171,
+     "replicate": 0.9486019890605618
+    },
+    "coculture": {
+     "pf_within_measured": 0.08312900746995504,
+     "paired_closed_form": 0.9537218399059835,
+     "transferred_correlation": 0.9843768004778177,
+     "replicate": 0.9225366760945377
+    }
+   }
+  },
+  "g2m_checkpoint": {
+   "rf": {
+    "pf_within_measured": 0.17383439866295278,
+    "paired_closed_form": 0.9233410858831506,
+    "transferred_correlation": 1.021714006204107,
+    "reference_regression": 0.8434394587457628,
+    "benchmark": 0.9327912838738909,
+    "replicate": 0.857282603442989
+   },
+   "reliability": 0.7307300350775393,
+   "support": 0.003017911569187086,
+   "share_paired": 0.1882667210640637,
+   "share_transferred": 0.1701399781224356,
+   "by_condition": {
+    "control": {
+     "pf_within_measured": 0.16932506848165027,
+     "paired_closed_form": 0.9079431133055375,
+     "transferred_correlation": 1.0222195155311757,
+     "replicate": 0.770222658259746
+    },
+    "ifng": {
+     "pf_within_measured": 0.4424440259026004,
+     "paired_closed_form": 1.006834764995819,
+     "transferred_correlation": 1.0217376716311046,
+     "replicate": 0.9037656194128612
+    },
+    "coculture": {
+     "pf_within_measured": -0.026231924122210298,
+     "paired_closed_form": 0.8751277075739815,
+     "transferred_correlation": 1.0211912599135038,
+     "replicate": 0.9088064473258033
+    }
+   }
+  },
+  "hypoxia": {
+   "rf": {
+    "pf_within_measured": 0.13138961662639062,
+    "paired_closed_form": 0.9438217936058626,
+    "transferred_correlation": 0.985436160807114,
+    "reference_regression": 0.9258669508861078,
+    "benchmark": 0.8929305924216783,
+    "replicate": 0.8890151365513794
+   },
+   "reliability": 0.8189465487450797,
+   "support": 0.00925875081062319,
+   "share_paired": 0.1392101957345335,
+   "share_transferred": 0.13333143419333926,
+   "by_condition": {
+    "control": {
+     "pf_within_measured": 0.08544935424197138,
+     "paired_closed_form": 0.9253666283852406,
+     "transferred_correlation": 0.9548004155987347,
+     "replicate": 0.814798728768145
+    },
+    "ifng": {
+     "pf_within_measured": 0.18570108979970668,
+     "paired_closed_form": 0.9659187446535087,
+     "transferred_correlation": 1.003768215681353,
+     "replicate": 0.9049256110896385
+    },
+    "coculture": {
+     "pf_within_measured": 0.12315255976971981,
+     "paired_closed_form": 0.9402445802666992,
+     "transferred_correlation": 0.9971443799566035,
+     "replicate": 0.9447871439076165
+    }
+   }
+  },
+  "tnfa_signaling_via_nfkb": {
+   "rf": {
+    "pf_within_measured": 0.13627892367156483,
+    "paired_closed_form": 0.9454587512286426,
+    "transferred_correlation": 0.9833533339604257,
+    "reference_regression": 0.9309191840406351,
+    "benchmark": 0.9146475270183033,
+    "replicate": 0.915689884303962
+   },
+   "reliability": 0.8281912854943435,
+   "support": 0.0066010568514098,
+   "share_paired": 0.14414052807112698,
+   "share_transferred": 0.13858591715218538,
+   "by_condition": {
+    "control": {
+     "pf_within_measured": 0.10977966896091622,
+     "paired_closed_form": 0.9158193084597765,
+     "transferred_correlation": 0.9671551177631064,
+     "replicate": 0.8765985551224976
+    },
+    "ifng": {
+     "pf_within_measured": 0.16500163543697727,
+     "paired_closed_form": 0.9746550554750137,
+     "transferred_correlation": 1.0015289672193903,
+     "replicate": 0.9135553409397102
+    },
+    "coculture": {
+     "pf_within_measured": 0.13245450076415513,
+     "paired_closed_form": 0.9434056356428395,
+     "transferred_correlation": 0.9805461780667867,
+     "replicate": 0.9438368721107734
+    }
+   }
+  }
+ }
+}

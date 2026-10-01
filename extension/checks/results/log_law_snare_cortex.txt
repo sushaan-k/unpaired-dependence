@@ -1,0 +1,36 @@
+[07:09:15] p100: n {'pool_x': 2362, 'pool_y': 2325, 'reservoir': 3087, 'truth': 2535, 'populations': 12, 'p': 100, 'q': 200}, pilot 200, budgets 25-1600, law saving at 0.5 28.25
+[07:09:19] p200: n {'pool_x': 2362, 'pool_y': 2325, 'reservoir': 3087, 'truth': 2535, 'populations': 12, 'p': 200, 'q': 200}, pilot 200, budgets 25-1600, law saving at 0.5 40.71
+[07:09:27] p400: n {'pool_x': 2362, 'pool_y': 2325, 'reservoir': 3087, 'truth': 2535, 'populations': 12, 'p': 400, 'q': 200}, pilot 200, budgets 25-1600, law saving at 0.5 51.91
+[07:09:28] predictions hashed
+[07:09:29] {
+ "test": "law/snare_cortex",
+ "problems": [
+  "p100",
+  "p200",
+  "p400"
+ ],
+ "curve_points_compared": 63,
+ "max_abs_difference_per_draw_vs_published": 6.661338147750939e-16,
+ "max_abs_difference_stored_form_vs_published": 0.0,
+ "averaged_prediction_minus_published": {
+  "min": 0.005648715081906381,
+  "median": 0.04963944612937078,
+  "max": 0.8160427803213841,
+  "points": 63
+ },
+ "regenerated_files_identical": {
+  "snare_cortex_estimates.npz": true,
+  "snare_cortex_msq.json": true,
+  "snare_cortex_predictions.json": true
+ },
+ "stored_vs_regenerated": {
+  "compared": 63,
+  "draws_per_key": [
+   20
+  ],
+  "max_abs_mean_difference": 2.220446049250313e-16,
+  "max_rel_msq_difference": 4.2035639518901684e-16
+ },
+ "seconds": 18,
+ "passed": true
+}

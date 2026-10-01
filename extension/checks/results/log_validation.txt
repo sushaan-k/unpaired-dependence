@@ -1,0 +1,36 @@
+[09:38:08] {
+ "test": "validation",
+ "units_regenerated": 34,
+ "units": 34,
+ "budgets": [
+  25,
+  50,
+  100,
+  200,
+  400,
+  800
+ ],
+ "draws": [
+  5
+ ],
+ "curve_points_compared": 66,
+ "max_abs_difference_per_draw_vs_published": 3.0124659711194823e-10,
+ "max_abs_difference_per_draw_vs_stored_unit_terms": 4.471417270782999e-09,
+ "max_abs_difference_stored_form_vs_published": 1.7763568394002505e-15,
+ "averaged_prediction_minus_published": {
+  "min": 0.0,
+  "median": 0.09065187052177345,
+  "max": 3.60088998197441,
+  "points": 78
+ },
+ "stored_vs_regenerated": {
+  "compared": 11220,
+  "max_abs_mean_difference": 1.187764047116957e-07,
+  "max_rel_msq_difference": 0.0,
+  "draws_per_key": [
+   5
+  ]
+ },
+ "source": "second_review/validation_review.py",
+ "passed": true
+}

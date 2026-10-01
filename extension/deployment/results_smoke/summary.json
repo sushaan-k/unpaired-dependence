@@ -1,0 +1,426 @@
+{
+ "budgets": [
+  25,
+  100
+ ],
+ "folds": {
+  "0": {
+   "heldout": "s1d1",
+   "site": "s1",
+   "reservoir": 233,
+   "pool_cells": {
+    "same": 523,
+    "other": 2342,
+    "assay": 3974
+   }
+  },
+  "4": {
+   "heldout": "s2d4",
+   "site": "s2",
+   "reservoir": 192,
+   "pool_cells": {
+    "same": 602,
+    "other": 2308,
+    "assay": 4362
+   }
+  }
+ },
+ "rf": {
+  "js/pooled": [
+   0.22995682769400788,
+   0.662854914044156
+  ],
+  "js/percond": [
+   -0.09857035964454433,
+   -0.015197888140930132
+  ],
+  "scose/pooled": [
+   0.24138676491620104,
+   0.6633112200172219
+  ],
+  "scose/percond": [
+   -0.07234749826801133,
+   0.05531093526407857
+  ],
+  "fcose/pooled": [
+   0.27364750112089853,
+   0.6361543206106867
+  ],
+  "fcose/percond": [
+   -0.10643637121652508,
+   0.10050557447747346
+  ],
+  "lowrank/pooled": [
+   0.0,
+   0.5943381811035634
+  ],
+  "lowrank/percond": [
+   0.0,
+   0.020094186834745408
+  ],
+  "proposed_same": [
+   -130.61184450788696,
+   -26.53676576102318
+  ],
+  "proposed_other": [
+   0.017240981820114278,
+   0.769692196835803
+  ],
+  "proposed_assay": [
+   -4.189462233335375,
+   -4.025592127756686
+  ],
+  "proposed_other_poolstd": [
+   0.6287809571397819,
+   0.6096494803008387
+  ],
+  "proposed_same_poolstd": [
+   -7.672177921670313,
+   -33.085565246508615
+  ],
+  "paired_only": [
+   0.27364750112089853,
+   0.6633112200172219
+  ]
+ },
+ "targets": {
+  "0.5": {
+   "level": 0.769692196835803,
+   "target": 0.3848460984179015,
+   "cells": {
+    "paired_only": {
+     "cells": 37.1321651147649,
+     "relation": "="
+    },
+    "proposed_same": {
+     "cells": 100.0,
+     "relation": ">"
+    },
+    "proposed_other": {
+     "cells": 49.21216564995957,
+     "relation": "="
+    },
+    "proposed_assay": {
+     "cells": 100.0,
+     "relation": ">"
+    },
+    "proposed_other_poolstd": {
+     "cells": 25.0,
+     "relation": "<="
+    },
+    "proposed_same_poolstd": {
+     "cells": 100.0,
+     "relation": ">"
+    }
+   },
+   "D1_other_vs_paired_only": {
+    "ratio": 0.7545322304830413,
+    "ci": [
+     0.7545322304830413,
+     0.7545322304830413
+    ],
+    "numerator_relation": "=",
+    "denominator_relation": "="
+   },
+   "D2_assay_vs_paired_only": {
+    "ratio": 0.37132165114764903,
+    "ci": [
+     0.37132165114764903,
+     0.37132165114764903
+    ],
+    "numerator_relation": "=",
+    "denominator_relation": ">"
+   },
+   "D3_other_over_same": {
+    "ratio": 0.4921216564995957,
+    "ci": [
+     0.4921216564995957,
+     0.4921216564995957
+    ],
+    "numerator_relation": "=",
+    "denominator_relation": ">"
+   },
+   "same_vs_paired_only": {
+    "ratio": 0.37132165114764903,
+    "ci": [
+     0.37132165114764903,
+     0.37132165114764903
+    ],
+    "numerator_relation": "=",
+    "denominator_relation": ">"
+   },
+   "other_poolstd_vs_paired_only": {
+    "ratio": 1.4852866045905961,
+    "ci": [
+     1.4852866045905961,
+     1.4852866045905961
+    ],
+    "numerator_relation": "=",
+    "denominator_relation": "<="
+   },
+   "same_poolstd_vs_paired_only": {
+    "ratio": 0.37132165114764903,
+    "ci": [
+     0.37132165114764903,
+     0.37132165114764903
+    ],
+    "numerator_relation": "=",
+    "denominator_relation": ">"
+   }
+  },
+  "0.25": {
+   "level": 0.769692196835803,
+   "target": 0.19242304920895076,
+   "cells": {
+    "paired_only": {
+     "cells": 25.0,
+     "relation": "<="
+    },
+    "proposed_same": {
+     "cells": 100.0,
+     "relation": ">"
+    },
+    "proposed_other": {
+     "cells": 34.52301490655233,
+     "relation": "="
+    },
+    "proposed_assay": {
+     "cells": 100.0,
+     "relation": ">"
+    },
+    "proposed_other_poolstd": {
+     "cells": 25.0,
+     "relation": "<="
+    },
+    "proposed_same_poolstd": {
+     "cells": 100.0,
+     "relation": ">"
+    }
+   },
+   "D1_other_vs_paired_only": {
+    "ratio": 0.7241545985387011,
+    "ci": [
+     0.7241545985387011,
+     0.7241545985387011
+    ],
+    "numerator_relation": "<=",
+    "denominator_relation": "="
+   },
+   "D2_assay_vs_paired_only": {
+    "ratio": 0.25,
+    "ci": [
+     0.25,
+     0.25
+    ],
+    "numerator_relation": "<=",
+    "denominator_relation": ">"
+   },
+   "D3_other_over_same": {
+    "ratio": 0.34523014906552335,
+    "ci": [
+     0.34523014906552335,
+     0.34523014906552335
+    ],
+    "numerator_relation": "=",
+    "denominator_relation": ">"
+   },
+   "same_vs_paired_only": {
+    "ratio": 0.25,
+    "ci": [
+     0.25,
+     0.25
+    ],
+    "numerator_relation": "<=",
+    "denominator_relation": ">"
+   },
+   "other_poolstd_vs_paired_only": {
+    "ratio": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "numerator_relation": "<=",
+    "denominator_relation": "<="
+   },
+   "same_poolstd_vs_paired_only": {
+    "ratio": 0.25,
+    "ci": [
+     0.25,
+     0.25
+    ],
+    "numerator_relation": "<=",
+    "denominator_relation": ">"
+   }
+  },
+  "0.75": {
+   "level": 0.769692196835803,
+   "target": 0.5772691476268523,
+   "cells": {
+    "paired_only": {
+     "cells": 73.6306228353377,
+     "relation": "="
+    },
+    "proposed_same": {
+     "cells": 100.0,
+     "relation": ">"
+    },
+    "proposed_other": {
+     "cells": 70.15138320087466,
+     "relation": "="
+    },
+    "proposed_assay": {
+     "cells": 100.0,
+     "relation": ">"
+    },
+    "proposed_other_poolstd": {
+     "cells": 25.0,
+     "relation": "<="
+    },
+    "proposed_same_poolstd": {
+     "cells": 100.0,
+     "relation": ">"
+    }
+   },
+   "D1_other_vs_paired_only": {
+    "ratio": 1.0495961658304074,
+    "ci": [
+     1.0495961658304074,
+     1.0495961658304074
+    ],
+    "numerator_relation": "=",
+    "denominator_relation": "="
+   },
+   "D2_assay_vs_paired_only": {
+    "ratio": 0.736306228353377,
+    "ci": [
+     0.736306228353377,
+     0.736306228353377
+    ],
+    "numerator_relation": "=",
+    "denominator_relation": ">"
+   },
+   "D3_other_over_same": {
+    "ratio": 0.7015138320087466,
+    "ci": [
+     0.7015138320087466,
+     0.7015138320087466
+    ],
+    "numerator_relation": "=",
+    "denominator_relation": ">"
+   },
+   "same_vs_paired_only": {
+    "ratio": 0.736306228353377,
+    "ci": [
+     0.736306228353377,
+     0.736306228353377
+    ],
+    "numerator_relation": "=",
+    "denominator_relation": ">"
+   },
+   "other_poolstd_vs_paired_only": {
+    "ratio": 2.945224913413508,
+    "ci": [
+     2.945224913413508,
+     2.945224913413508
+    ],
+    "numerator_relation": "=",
+    "denominator_relation": "<="
+   },
+   "same_poolstd_vs_paired_only": {
+    "ratio": 0.736306228353377,
+    "ci": [
+     0.736306228353377,
+     0.736306228353377
+    ],
+    "numerator_relation": "=",
+    "denominator_relation": ">"
+   }
+  }
+ },
+ "hypotheses": {
+  "D1": false,
+  "D2": false,
+  "D3": true
+ },
+ "sites": {
+  "s1": {
+   "rf": {
+    "paired_only": [
+     0.3450231965621731,
+     0.65425564988695
+    ],
+    "proposed_same": [
+     -94.52463798748813,
+     -35.56198278915877
+    ],
+    "proposed_other": [
+     0.26448045769637973,
+     0.7219432700815049
+    ],
+    "proposed_assay": [
+     -3.7892944790849628,
+     -4.40152795131505
+    ],
+    "proposed_other_poolstd": [
+     0.5742552947174187,
+     0.4177468814460864
+    ],
+    "proposed_same_poolstd": [
+     -13.99382170277588,
+     -51.9231184311061
+    ]
+   },
+   "level": 0.7219432700815049,
+   "other_vs_paired_only": 0.8017892046623616,
+   "assay_vs_paired_only": 0.26852876475273757,
+   "relations": {
+    "paired_only": "=",
+    "proposed_same": ">",
+    "proposed_other": "=",
+    "proposed_assay": ">",
+    "proposed_other_poolstd": "<=",
+    "proposed_same_poolstd": ">"
+   }
+  },
+  "s2": {
+   "rf": {
+    "paired_only": [
+     0.19407358970414657,
+     0.6735781276439529
+    ],
+    "proposed_same": [
+     -171.5263325546566,
+     -16.304271483350984
+    ],
+    "proposed_other": [
+     -0.2630710056070928,
+     0.8238283597951193
+    ],
+    "proposed_assay": [
+     -4.643159273828833,
+     -3.59936845342942
+    ],
+    "proposed_other_poolstd": [
+     0.6906003601506778,
+     0.8272223362809367
+    ],
+    "proposed_same_poolstd": [
+     -0.5049060861023342,
+     -11.728166907406484
+    ]
+   },
+   "level": 0.8272223362809367,
+   "other_vs_paired_only": 0.7958257122887857,
+   "assay_vs_paired_only": 0.47161617092501534,
+   "relations": {
+    "paired_only": "=",
+    "proposed_same": ">",
+    "proposed_other": "=",
+    "proposed_assay": ">",
+    "proposed_other_poolstd": "<=",
+    "proposed_same_poolstd": ">"
+   }
+  }
+ },
+ "evaluated": "2026-09-28 19:33:12 EDT"
+}

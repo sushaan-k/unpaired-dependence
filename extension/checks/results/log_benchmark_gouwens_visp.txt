@@ -1,0 +1,46 @@
+[07:10:06] fold 0 B=25 (bjs2 16, selftune 3, js 14, scose 1, fcose 3, lowrank 27, semicca 616, ridge_p 37, ridge_u 38 ms/fit)
+[07:10:22] fold 0 B=50 (bjs2 22, selftune 3, js 17, scose 2, fcose 4, lowrank 27, semicca 590, ridge_p 41, ridge_u 37 ms/fit)
+[07:10:41] fold 0 B=100 (bjs2 31, selftune 4, js 27, scose 4, fcose 7, lowrank 28, semicca 587, ridge_p 39, ridge_u 38 ms/fit)
+[07:11:03] fold 0 B=200 (bjs2 45, selftune 5, js 46, scose 5, fcose 11, lowrank 31, semicca 609, ridge_p 41, ridge_u 39 ms/fit)
+[07:11:29] fold 0 B=400 (bjs2 77, selftune 5, js 82, scose 7, fcose 30, lowrank 36, semicca 625, ridge_p 41, ridge_u 41 ms/fit)
+[07:11:29] gouwens_visp fold 0 regenerated [93s]
+[07:11:53] {
+ "test": "benchmark/gouwens_visp",
+ "units_regenerated": 1,
+ "units": 3,
+ "budgets": [
+  25,
+  50,
+  100,
+  200,
+  400
+ ],
+ "draws": [
+  5
+ ],
+ "curve_points_compared": 0,
+ "max_abs_difference_per_draw_vs_published": null,
+ "max_abs_difference_per_draw_vs_stored_unit_terms": 1.4857525064642993e-16,
+ "max_abs_difference_stored_form_vs_published": 1.6653345369377348e-16,
+ "averaged_prediction_minus_published": {
+  "min": 0.0,
+  "median": 0.06191820630851946,
+  "max": 0.15819747357780234,
+  "points": 130
+ },
+ "stored_vs_regenerated": {
+  "compared": 650,
+  "draws_per_key": [
+   5
+  ],
+  "max_abs_mean_difference": 7.771561172376096e-16,
+  "max_rel_msq_difference": 3.4389832030164693e-16,
+  "rerun_fold_outputs": {
+   "keys": 245,
+   "max_abs_difference_means_and_maps": 0.0,
+   "max_rel_difference_msq": 0.0
+  }
+ },
+ "seconds": 117,
+ "passed": true
+}

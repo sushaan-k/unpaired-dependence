@@ -1,0 +1,51 @@
+s1d1/total 2613 frozen F 0.941 coverage 0.512
+s1d1/within_coarse 2613 frozen F 0.435 coverage 0.213
+s1d1/within_fine 2565 frozen F 0.345 coverage 0.176
+s1d2/total 2489 frozen F 0.792 coverage 0.518
+s1d2/within_coarse 2489 frozen F 0.493 coverage 0.225
+s1d2/within_fine 2454 frozen F 0.396 coverage 0.179
+s1d3/total 3053 frozen F 0.605 coverage 0.5
+s1d3/within_coarse 3053 frozen F 0.324 coverage 0.229
+s1d3/within_fine 3023 frozen F 0.257 coverage 0.155
+s2d1/total 5232 frozen F 0.394 coverage 0.494
+s2d1/within_coarse 5232 frozen F 0.275 coverage 0.21
+s2d1/within_fine 5213 frozen F 0.258 coverage 0.157
+s2d4/total 2792 frozen F 0.487 coverage 0.474
+s2d4/within_coarse 2792 frozen F 0.296 coverage 0.192
+s2d4/within_fine 2754 frozen F 0.264 coverage 0.169
+s2d5/total 4561 frozen F 0.506 coverage 0.524
+s2d5/within_coarse 4561 frozen F 0.318 coverage 0.194
+s2d5/within_fine 4509 frozen F 0.283 coverage 0.154
+s3d1/total 4760 frozen F 0.224 coverage 0.439
+s3d1/within_coarse 4760 frozen F 0.156 coverage 0.216
+s3d1/within_fine 4738 frozen F 0.152 coverage 0.167
+s3d6/total 5517 frozen F 0.549 coverage 0.458
+s3d6/within_coarse 5517 frozen F 0.325 coverage 0.212
+s3d6/within_fine 5517 frozen F 0.29 coverage 0.169
+s3d7/total 5736 frozen F 0.452 coverage 0.455
+s3d7/within_coarse 5736 frozen F 0.35 coverage 0.205
+s3d7/within_fine 5705 frozen F 0.31 coverage 0.166
+s4d1/total 2728 frozen F 0.455 coverage 0.516
+s4d1/within_coarse 2728 frozen F 0.317 coverage 0.227
+s4d1/within_fine 2668 frozen F 0.275 coverage 0.17
+s4d8/total 1964 frozen F 0.539 coverage 0.511
+s4d8/within_coarse 1964 frozen F 0.355 coverage 0.209
+s4d8/within_fine 1934 frozen F 0.265 coverage 0.154
+s4d9/total 3682 frozen F 0.564 coverage 0.455
+s4d9/within_coarse 3682 frozen F 0.337 coverage 0.211
+s4d9/within_fine 3669 frozen F 0.273 coverage 0.155
+{
+ "bmmc_predictions.npz": "4998c877ea098ef5288bc97067200fad38dc28b1ec6d32622755d3c40d1cc7c0",
+ "bmmc_bounds.npz": "8cc8eec54075854c5a8605e1001ebdc1102c248a30ab8be72a73e5f0dcf067da",
+ "bmmc_selections.npz": "a69658d1412cd4e76896fa9c5e45753b2e65660ad41fe64ab2de6f4874bda299",
+ "bmmc_diagnostics.json": "ff4fbe797c1e34c20cd6d797cc8cef403a70be49fe20388ab4ad1d6d20551bb3",
+ "bmmc_digests.json": "e8d54d8d9e3419d0c0dae1435ca3ed119cb804ebc5e355d0bd364c906df83434",
+ "bmmc_channels.npz": "fcf6a118ee8bba2029ce33e427c896a65de320f1524d1612ef27a4728d7f5a7f",
+ "bmmc_channels.json": "2614e7b7791473ae9465c83088a87d51e022f3293022f3764b4558c4613c178e",
+ "bmmc_units.json": "23223410fcbc50b0cee91bdb36bed56f7875d3ac7bf7ca1e216195a3908839bc",
+ "bmmc_seal.json": "b9468fa0ce168372987879aa1af1815705e80ea0e1058e9bfca226de664cddd4",
+ "failure_model.json": "80082380948eae37ae6107aea0d2b75982f0aff265423f215560651575ecb4c7",
+ "freeze.json": "028c1958394706109798fed9bc9b18d546314d7115c60d517658a2302dbbfcaa",
+ "frozen_at": "2026-09-26T23:28:09-04:00",
+ "note": "written before the scoring file was opened"
+}

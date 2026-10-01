@@ -1,0 +1,179 @@
+505 populations; channels fitted (63s)
+  ridge 0.0001 fold 0: 149 it, CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH
+  ridge 0.0001 fold 1: 141 it, CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH
+  ridge 0.0001 fold 2: 144 it, CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH
+  ridge 0.001 fold 0: 87 it, CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH
+  ridge 0.001 fold 1: 84 it, CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH
+  ridge 0.001 fold 2: 82 it, CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH
+  ridge 0.01 fold 0: 101 it, CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH
+  ridge 0.01 fold 1: 100 it, CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH
+  ridge 0.01 fold 2: 103 it, CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH
+  ridge 0.1 fold 0: 76 it, CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH
+  ridge 0.1 fold 1: 75 it, CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH
+  ridge 0.1 fold 2: 72 it, CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH
+  ridge 1 fold 0: 34 it, CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH
+  ridge 1 fold 1: 35 it, CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH
+  ridge 1 fold 2: 34 it, CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH
+paired comparators fitted (288s)
+{
+ "channels": {
+  "pf_within": {
+   "scale": 0.1,
+   "ridge": 0.43789852179518896,
+   "at_edge": false,
+   "n_train": 505,
+   "dim_S": 1
+  },
+  "pf": {
+   "scale": 0.01,
+   "ridge": 0.34871939418754877,
+   "at_edge": false,
+   "n_train": 505,
+   "dim_S": 2
+  },
+  "within_pseudo00": {
+   "scale": 1.0,
+   "ridge": 2.435219001036019,
+   "at_edge": false,
+   "n_train": 505,
+   "dim_S": 0
+  },
+  "within_pseudo01": {
+   "scale": 1000.0,
+   "ridge": 2401.7033712551097,
+   "at_edge": true,
+   "n_train": 505,
+   "dim_S": 0
+  },
+  "within_pseudo02": {
+   "scale": 10.0,
+   "ridge": 23.510562875353255,
+   "at_edge": false,
+   "n_train": 505,
+   "dim_S": 0
+  },
+  "within_pseudo03": {
+   "scale": 1000.0,
+   "ridge": 2435.7205448326495,
+   "at_edge": true,
+   "n_train": 505,
+   "dim_S": 0
+  },
+  "within_pseudo04": {
+   "scale": 10.0,
+   "ridge": 24.19237836337261,
+   "at_edge": false,
+   "n_train": 505,
+   "dim_S": 0
+  },
+  "within_pseudo05": {
+   "scale": 1000.0,
+   "ridge": 2377.8870081006335,
+   "at_edge": true,
+   "n_train": 505,
+   "dim_S": 0
+  },
+  "within_pseudo06": {
+   "scale": 1000.0,
+   "ridge": 2413.280183193371,
+   "at_edge": true,
+   "n_train": 505,
+   "dim_S": 0
+  },
+  "within_pseudo07": {
+   "scale": 1000.0,
+   "ridge": 2437.9564794401604,
+   "at_edge": true,
+   "n_train": 505,
+   "dim_S": 0
+  },
+  "within_pseudo08": {
+   "scale": 1.0,
+   "ridge": 2.4047371107478424,
+   "at_edge": false,
+   "n_train": 505,
+   "dim_S": 0
+  },
+  "within_pseudo09": {
+   "scale": 1000.0,
+   "ridge": 2408.4159330278962,
+   "at_edge": true,
+   "n_train": 505,
+   "dim_S": 0
+  },
+  "within_derange00": {
+   "scale": 1000.0,
+   "ridge": 4401.073598195216,
+   "at_edge": true,
+   "n_train": 505,
+   "dim_S": 0
+  },
+  "within_derange01": {
+   "scale": 1000.0,
+   "ridge": 4332.224857023171,
+   "at_edge": true,
+   "n_train": 505,
+   "dim_S": 0
+  },
+  "within_derange02": {
+   "scale": 1.0,
+   "ridge": 4.399440099442881,
+   "at_edge": false,
+   "n_train": 505,
+   "dim_S": 0
+  },
+  "within_derange03": {
+   "scale": 0.1,
+   "ridge": 0.443602084218034,
+   "at_edge": false,
+   "n_train": 505,
+   "dim_S": 1
+  },
+  "within_derange04": {
+   "scale": 1000.0,
+   "ridge": 4330.1859743393225,
+   "at_edge": true,
+   "n_train": 505,
+   "dim_S": 0
+  },
+  "within_derange05": {
+   "scale": 1000.0,
+   "ridge": 4296.064327722786,
+   "at_edge": true,
+   "n_train": 505,
+   "dim_S": 0
+  },
+  "within_derange06": {
+   "scale": 1000.0,
+   "ridge": 4086.9995490988654,
+   "at_edge": true,
+   "n_train": 505,
+   "dim_S": 0
+  },
+  "within_derange07": {
+   "scale": 1.0,
+   "ridge": 4.248504750345852,
+   "at_edge": false,
+   "n_train": 505,
+   "dim_S": 0
+  },
+  "within_derange08": {
+   "scale": 1000.0,
+   "ridge": 4424.454790223571,
+   "at_edge": true,
+   "n_train": 505,
+   "dim_S": 0
+  },
+  "within_derange09": {
+   "scale": 1000.0,
+   "ridge": 4279.878240381812,
+   "at_edge": true,
+   "n_train": 505,
+   "dim_S": 0
+  },
+  "pseudo00": {
+   "scale": 0.01,
+   "ridge": 0.3065881509388057,
+   "at_edge": false,
+   
+done (294s)

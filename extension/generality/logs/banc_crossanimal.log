@@ -1,0 +1,21 @@
+[    25s] banc_crossanimal: fold 0 B=25 (bjs2 46, selftune 7, js 30, scose 4, fcose 4, lowrank 87, semicca 1250, ridge_p 84, ridge_u 86 ms/fit)
+[    49s] banc_crossanimal: fold 0 B=50 (bjs2 59, selftune 7, js 45, scose 4, fcose 5, lowrank 90, semicca 1242, ridge_p 89, ridge_u 83 ms/fit)
+[    76s] banc_crossanimal: fold 0 B=100 (bjs2 85, selftune 7, js 79, scose 6, fcose 8, lowrank 94, semicca 1259, ridge_p 87, ridge_u 88 ms/fit)
+[   107s] banc_crossanimal: fold 0 B=200 (bjs2 150, selftune 8, js 149, scose 9, fcose 17, lowrank 105, semicca 1280, ridge_p 90, ridge_u 91 ms/fit)
+[   149s] banc_crossanimal: fold 0 B=400 (bjs2 249, selftune 10, js 266, scose 15, fcose 53, lowrank 127, semicca 1312, ridge_p 92, ridge_u 97 ms/fit)
+[   173s] banc_crossanimal: fold 1 B=25 (bjs2 49, selftune 7, js 30, scose 3, fcose 4, lowrank 73, semicca 1188, ridge_p 102, ridge_u 79 ms/fit)
+[   197s] banc_crossanimal: fold 1 B=50 (bjs2 59, selftune 7, js 47, scose 4, fcose 6, lowrank 82, semicca 1199, ridge_p 96, ridge_u 82 ms/fit)
+[   223s] banc_crossanimal: fold 1 B=100 (bjs2 90, selftune 8, js 80, scose 6, fcose 10, lowrank 92, semicca 1205, ridge_p 95, ridge_u 88 ms/fit)
+[   257s] banc_crossanimal: fold 1 B=200 (bjs2 153, selftune 9, js 148, scose 10, fcose 20, lowrank 109, semicca 1263, ridge_p 98, ridge_u 93 ms/fit)
+[   299s] banc_crossanimal: fold 1 B=400 (bjs2 268, selftune 10, js 273, scose 15, fcose 56, lowrank 128, semicca 1284, ridge_p 101, ridge_u 94 ms/fit)
+[   324s] banc_crossanimal: fold 2 B=25 (bjs2 48, selftune 6, js 35, scose 3, fcose 4, lowrank 87, semicca 1219, ridge_p 89, ridge_u 82 ms/fit)
+[   349s] banc_crossanimal: fold 2 B=50 (bjs2 61, selftune 7, js 48, scose 5, fcose 6, lowrank 93, semicca 1251, ridge_p 91, ridge_u 87 ms/fit)
+[   375s] banc_crossanimal: fold 2 B=100 (bjs2 84, selftune 7, js 80, scose 7, fcose 8, lowrank 95, semicca 1253, ridge_p 93, ridge_u 89 ms/fit)
+[   405s] banc_crossanimal: fold 2 B=200 (bjs2 137, selftune 8, js 147, scose 9, fcose 17, lowrank 109, semicca 1266, ridge_p 94, ridge_u 91 ms/fit)
+[   446s] banc_crossanimal: fold 2 B=400 (bjs2 241, selftune 10, js 261, scose 15, fcose 55, lowrank 129, semicca 1298, ridge_p 101, ridge_u 90 ms/fit)
+[   451s] banc_crossanimal: predictions hashed
+[   635s] banc_crossanimal: bootstrap 500/2000
+[   752s] banc_crossanimal: bootstrap 1000/2000
+[   860s] banc_crossanimal: bootstrap 1500/2000
+[   969s] banc_crossanimal: bootstrap 2000/2000
+[   971s] banc_crossanimal: done: proposed -30.3, -112.8, -77.6, -101.3, -109.0; saving vs paired-only at 0.5: 1.00 [1.0, 1.0]

@@ -1,0 +1,3054 @@
+{
+ "folds": {
+  "0": {
+   "heldout": "XHLT2-HS6-BLE1",
+   "pool": "DB8",
+   "donor": "HS6",
+   "paired": [
+    "XHLT2-HS32-BLE1",
+    "XHLT2-HS94-AAE6"
+   ],
+   "other": [
+    "XHLT2-HS10-AAE6",
+    "XHLT2-HS10-BLE1",
+    "XHLT2-HS12-AAE6",
+    "XHLT2-HS16-AAE6",
+    "XHLT2-HS16-BLE1",
+    "XHLT2-HS22-AAE6",
+    "XHLT2-HS22-BLE1",
+    "XHLT2-HS24-AAE6",
+    "XHLT2-HS24-BLE1",
+    "XHLT2-HS28-AAE6",
+    "XHLT2-HS28-BLE1",
+    "XHLT2-HS30-AAE6",
+    "XHLT2-HS30-BLE1",
+    "XHLT2-HS46-AAE6",
+    "XHLT2-HS46-BLE1",
+    "XHLT2-HS47-AAE6",
+    "XHLT2-HS47-BLE1",
+    "XHLT2-HS48-BLE1",
+    "XHLT2-HS68-AAE6",
+    "XHLT2-HS68-BLE1",
+    "XHLT2-HS75-AAE6",
+    "XHLT2-HS75-BLE1",
+    "XHLT2-HS86-AAE6",
+    "XHLT2-HS86-BLE1",
+    "XHLT2-HS88-AAE6",
+    "XHLT2-HS88-BLE1",
+    "XHLT2-HS93-AAE6",
+    "XHLT2-HS93-BLE1"
+   ],
+   "reservoir": 2062,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 105238,
+    "own": 6262
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 140,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.9768603129206922,
+     "CD14 Mono": 0.9904093616576782,
+     "CD4 T": 0.9871238592835386,
+     "CD8 T": 0.9942696973557708,
+     "NK": 0.9812229270755268
+    },
+    "own": {
+     "B": 0.6726985956993774,
+     "CD14 Mono": 0.8331313359799352,
+     "CD4 T": 0.8295983015636414,
+     "CD8 T": 0.8887460304936383,
+     "NK": 0.6320826096244687
+    }
+   }
+  },
+  "1": {
+   "heldout": "XHLT2-HS32-BLE1",
+   "pool": "DB8",
+   "donor": "HS32",
+   "paired": [
+    "XHLT2-HS94-AAE6",
+    "XHLT2-HS6-BLE1"
+   ],
+   "other": [
+    "XHLT2-HS10-AAE6",
+    "XHLT2-HS10-BLE1",
+    "XHLT2-HS12-AAE6",
+    "XHLT2-HS16-AAE6",
+    "XHLT2-HS16-BLE1",
+    "XHLT2-HS22-AAE6",
+    "XHLT2-HS22-BLE1",
+    "XHLT2-HS24-AAE6",
+    "XHLT2-HS24-BLE1",
+    "XHLT2-HS28-AAE6",
+    "XHLT2-HS28-BLE1",
+    "XHLT2-HS30-AAE6",
+    "XHLT2-HS30-BLE1",
+    "XHLT2-HS46-AAE6",
+    "XHLT2-HS46-BLE1",
+    "XHLT2-HS47-AAE6",
+    "XHLT2-HS47-BLE1",
+    "XHLT2-HS48-BLE1",
+    "XHLT2-HS68-AAE6",
+    "XHLT2-HS68-BLE1",
+    "XHLT2-HS75-AAE6",
+    "XHLT2-HS75-BLE1",
+    "XHLT2-HS86-AAE6",
+    "XHLT2-HS86-BLE1",
+    "XHLT2-HS88-AAE6",
+    "XHLT2-HS88-BLE1",
+    "XHLT2-HS93-AAE6",
+    "XHLT2-HS93-BLE1"
+   ],
+   "reservoir": 2091,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 105238,
+    "own": 6505
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 140,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.9768603129206922,
+     "CD14 Mono": 0.9904093616576782,
+     "CD4 T": 0.9871238592835386,
+     "CD8 T": 0.9942696973557708,
+     "NK": 0.9812229270755268
+    },
+    "own": {
+     "B": 0.6511034141841592,
+     "CD14 Mono": 0.8837502459154108,
+     "CD4 T": 0.8182703536562866,
+     "CD8 T": 0.9008169081472924,
+     "NK": 0.7269219950910197
+    }
+   }
+  },
+  "2": {
+   "heldout": "XHLT2-HS94-AAE6",
+   "pool": "DB8",
+   "donor": "HS94",
+   "paired": [
+    "XHLT2-HS6-BLE1",
+    "XHLT2-HS32-BLE1"
+   ],
+   "other": [
+    "XHLT2-HS10-AAE6",
+    "XHLT2-HS10-BLE1",
+    "XHLT2-HS12-AAE6",
+    "XHLT2-HS16-AAE6",
+    "XHLT2-HS16-BLE1",
+    "XHLT2-HS22-AAE6",
+    "XHLT2-HS22-BLE1",
+    "XHLT2-HS24-AAE6",
+    "XHLT2-HS24-BLE1",
+    "XHLT2-HS28-AAE6",
+    "XHLT2-HS28-BLE1",
+    "XHLT2-HS30-AAE6",
+    "XHLT2-HS30-BLE1",
+    "XHLT2-HS46-AAE6",
+    "XHLT2-HS46-BLE1",
+    "XHLT2-HS47-AAE6",
+    "XHLT2-HS47-BLE1",
+    "XHLT2-HS48-BLE1",
+    "XHLT2-HS68-AAE6",
+    "XHLT2-HS68-BLE1",
+    "XHLT2-HS75-AAE6",
+    "XHLT2-HS75-BLE1",
+    "XHLT2-HS86-AAE6",
+    "XHLT2-HS86-BLE1",
+    "XHLT2-HS88-AAE6",
+    "XHLT2-HS88-BLE1",
+    "XHLT2-HS93-AAE6",
+    "XHLT2-HS93-BLE1"
+   ],
+   "reservoir": 2179,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 105238,
+    "own": 6679
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 140,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.9768603129206922,
+     "CD14 Mono": 0.9904093616576782,
+     "CD4 T": 0.9871238592835386,
+     "CD8 T": 0.9942696973557708,
+     "NK": 0.9812229270755268
+    },
+    "own": {
+     "B": 0.6144877006571724,
+     "CD14 Mono": 0.8799337857150656,
+     "CD4 T": 0.8509612991492465,
+     "CD8 T": 0.9329254644031763,
+     "NK": 0.7300136861472133
+    }
+   }
+  },
+  "3": {
+   "heldout": "XHLT2-HS86-AAE6",
+   "pool": "DB9",
+   "donor": "HS86",
+   "paired": [
+    "XHLT2-HS24-AAE6",
+    "XHLT2-HS46-BLE1"
+   ],
+   "other": [
+    "XHLT2-HS12-AAE6",
+    "XHLT2-HS22-AAE6",
+    "XHLT2-HS22-BLE1",
+    "XHLT2-HS28-AAE6",
+    "XHLT2-HS28-BLE1",
+    "XHLT2-HS30-AAE6",
+    "XHLT2-HS30-BLE1",
+    "XHLT2-HS32-AAE6",
+    "XHLT2-HS32-BLE1",
+    "XHLT2-HS47-AAE6",
+    "XHLT2-HS47-BLE1",
+    "XHLT2-HS48-BLE1",
+    "XHLT2-HS6-AAE6",
+    "XHLT2-HS6-BLE1",
+    "XHLT2-HS68-AAE6",
+    "XHLT2-HS68-BLE1",
+    "XHLT2-HS75-AAE6",
+    "XHLT2-HS75-BLE1",
+    "XHLT2-HS93-AAE6",
+    "XHLT2-HS93-BLE1",
+    "XHLT2-HS94-AAE6",
+    "XHLT2-HS94-BLE1"
+   ],
+   "reservoir": 1714,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 83929,
+    "own": 5294
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 110,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.9699796545278588,
+     "CD14 Mono": 0.9880332341095108,
+     "CD4 T": 0.987333599622716,
+     "CD8 T": 0.992044286489782,
+     "NK": 0.9750834875119545
+    },
+    "own": {
+     "B": 0.6331498380302976,
+     "CD14 Mono": 0.813267652288848,
+     "CD4 T": 0.7982577608106414,
+     "CD8 T": 0.8130775568636952,
+     "NK": 0.7653747306831534
+    }
+   }
+  },
+  "4": {
+   "heldout": "XHLT2-HS24-AAE6",
+   "pool": "DB9",
+   "donor": "HS24",
+   "paired": [
+    "XHLT2-HS46-BLE1",
+    "XHLT2-HS88-BLE1"
+   ],
+   "other": [
+    "XHLT2-HS12-AAE6",
+    "XHLT2-HS22-AAE6",
+    "XHLT2-HS22-BLE1",
+    "XHLT2-HS28-AAE6",
+    "XHLT2-HS28-BLE1",
+    "XHLT2-HS30-AAE6",
+    "XHLT2-HS30-BLE1",
+    "XHLT2-HS32-AAE6",
+    "XHLT2-HS32-BLE1",
+    "XHLT2-HS47-AAE6",
+    "XHLT2-HS47-BLE1",
+    "XHLT2-HS48-BLE1",
+    "XHLT2-HS6-AAE6",
+    "XHLT2-HS6-BLE1",
+    "XHLT2-HS68-AAE6",
+    "XHLT2-HS68-BLE1",
+    "XHLT2-HS75-AAE6",
+    "XHLT2-HS75-BLE1",
+    "XHLT2-HS93-AAE6",
+    "XHLT2-HS93-BLE1",
+    "XHLT2-HS94-AAE6",
+    "XHLT2-HS94-BLE1"
+   ],
+   "reservoir": 1938,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 83929,
+    "own": 5749
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 110,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.9699796545278588,
+     "CD14 Mono": 0.9880332341095108,
+     "CD4 T": 0.987333599622716,
+     "CD8 T": 0.992044286489782,
+     "NK": 0.9750834875119545
+    },
+    "own": {
+     "B": 0.6586329127404671,
+     "CD14 Mono": 0.8427593000352892,
+     "CD4 T": 0.8582618853076038,
+     "CD8 T": 0.9066596779818892,
+     "NK": 0.7535087064791567
+    }
+   }
+  },
+  "5": {
+   "heldout": "XHLT2-HS46-BLE1",
+   "pool": "DB9",
+   "donor": "HS46",
+   "paired": [
+    "XHLT2-HS88-BLE1",
+    "XHLT2-HS16-AAE6"
+   ],
+   "other": [
+    "XHLT2-HS12-AAE6",
+    "XHLT2-HS22-AAE6",
+    "XHLT2-HS22-BLE1",
+    "XHLT2-HS28-AAE6",
+    "XHLT2-HS28-BLE1",
+    "XHLT2-HS30-AAE6",
+    "XHLT2-HS30-BLE1",
+    "XHLT2-HS32-AAE6",
+    "XHLT2-HS32-BLE1",
+    "XHLT2-HS47-AAE6",
+    "XHLT2-HS47-BLE1",
+    "XHLT2-HS48-BLE1",
+    "XHLT2-HS6-AAE6",
+    "XHLT2-HS6-BLE1",
+    "XHLT2-HS68-AAE6",
+    "XHLT2-HS68-BLE1",
+    "XHLT2-HS75-AAE6",
+    "XHLT2-HS75-BLE1",
+    "XHLT2-HS93-AAE6",
+    "XHLT2-HS93-BLE1",
+    "XHLT2-HS94-AAE6",
+    "XHLT2-HS94-BLE1"
+   ],
+   "reservoir": 1934,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 83929,
+    "own": 5557
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 110,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.9699796545278588,
+     "CD14 Mono": 0.9880332341095108,
+     "CD4 T": 0.987333599622716,
+     "CD8 T": 0.992044286489782,
+     "NK": 0.9750834875119545
+    },
+    "own": {
+     "B": 0.6082892149573657,
+     "CD14 Mono": 0.8443997477118246,
+     "CD4 T": 0.8361502532199931,
+     "CD8 T": 0.9153303228327256,
+     "NK": 0.7294684654976578
+    }
+   }
+  },
+  "6": {
+   "heldout": "XHLT2-HS88-BLE1",
+   "pool": "DB9",
+   "donor": "HS88",
+   "paired": [
+    "XHLT2-HS16-AAE6",
+    "XHLT2-HS10-BLE1"
+   ],
+   "other": [
+    "XHLT2-HS12-AAE6",
+    "XHLT2-HS22-AAE6",
+    "XHLT2-HS22-BLE1",
+    "XHLT2-HS28-AAE6",
+    "XHLT2-HS28-BLE1",
+    "XHLT2-HS30-AAE6",
+    "XHLT2-HS30-BLE1",
+    "XHLT2-HS32-AAE6",
+    "XHLT2-HS32-BLE1",
+    "XHLT2-HS47-AAE6",
+    "XHLT2-HS47-BLE1",
+    "XHLT2-HS48-BLE1",
+    "XHLT2-HS6-AAE6",
+    "XHLT2-HS6-BLE1",
+    "XHLT2-HS68-AAE6",
+    "XHLT2-HS68-BLE1",
+    "XHLT2-HS75-AAE6",
+    "XHLT2-HS75-BLE1",
+    "XHLT2-HS93-AAE6",
+    "XHLT2-HS93-BLE1",
+    "XHLT2-HS94-AAE6",
+    "XHLT2-HS94-BLE1"
+   ],
+   "reservoir": 1770,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 83929,
+    "own": 5268
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 110,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.9699796545278588,
+     "CD14 Mono": 0.9880332341095108,
+     "CD4 T": 0.987333599622716,
+     "CD8 T": 0.992044286489782,
+     "NK": 0.9750834875119545
+    },
+    "own": {
+     "B": 0.7185066963757097,
+     "CD14 Mono": 0.8147222428428251,
+     "CD4 T": 0.8044278259733249,
+     "CD8 T": 0.9031945018063531,
+     "NK": 0.7382704341692217
+    }
+   }
+  },
+  "7": {
+   "heldout": "XHLT2-HS16-AAE6",
+   "pool": "DB9",
+   "donor": "HS16",
+   "paired": [
+    "XHLT2-HS10-BLE1",
+    "XHLT2-HS86-AAE6"
+   ],
+   "other": [
+    "XHLT2-HS12-AAE6",
+    "XHLT2-HS22-AAE6",
+    "XHLT2-HS22-BLE1",
+    "XHLT2-HS28-AAE6",
+    "XHLT2-HS28-BLE1",
+    "XHLT2-HS30-AAE6",
+    "XHLT2-HS30-BLE1",
+    "XHLT2-HS32-AAE6",
+    "XHLT2-HS32-BLE1",
+    "XHLT2-HS47-AAE6",
+    "XHLT2-HS47-BLE1",
+    "XHLT2-HS48-BLE1",
+    "XHLT2-HS6-AAE6",
+    "XHLT2-HS6-BLE1",
+    "XHLT2-HS68-AAE6",
+    "XHLT2-HS68-BLE1",
+    "XHLT2-HS75-AAE6",
+    "XHLT2-HS75-BLE1",
+    "XHLT2-HS93-AAE6",
+    "XHLT2-HS93-BLE1",
+    "XHLT2-HS94-AAE6",
+    "XHLT2-HS94-BLE1"
+   ],
+   "reservoir": 1849,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 83929,
+    "own": 5467
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 110,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.9699796545278588,
+     "CD14 Mono": 0.9880332341095108,
+     "CD4 T": 0.987333599622716,
+     "CD8 T": 0.992044286489782,
+     "NK": 0.9750834875119545
+    },
+    "own": {
+     "B": 0.7554298853663716,
+     "CD14 Mono": 0.8473537664892208,
+     "CD4 T": 0.8160187388620493,
+     "CD8 T": 0.9263270493254595,
+     "NK": 0.7126577640175832
+    }
+   }
+  },
+  "8": {
+   "heldout": "XHLT2-HS10-BLE1",
+   "pool": "DB9",
+   "donor": "HS10",
+   "paired": [
+    "XHLT2-HS86-AAE6",
+    "XHLT2-HS24-AAE6"
+   ],
+   "other": [
+    "XHLT2-HS12-AAE6",
+    "XHLT2-HS22-AAE6",
+    "XHLT2-HS22-BLE1",
+    "XHLT2-HS28-AAE6",
+    "XHLT2-HS28-BLE1",
+    "XHLT2-HS30-AAE6",
+    "XHLT2-HS30-BLE1",
+    "XHLT2-HS32-AAE6",
+    "XHLT2-HS32-BLE1",
+    "XHLT2-HS47-AAE6",
+    "XHLT2-HS47-BLE1",
+    "XHLT2-HS48-BLE1",
+    "XHLT2-HS6-AAE6",
+    "XHLT2-HS6-BLE1",
+    "XHLT2-HS68-AAE6",
+    "XHLT2-HS68-BLE1",
+    "XHLT2-HS75-AAE6",
+    "XHLT2-HS75-BLE1",
+    "XHLT2-HS93-AAE6",
+    "XHLT2-HS93-BLE1",
+    "XHLT2-HS94-AAE6",
+    "XHLT2-HS94-BLE1"
+   ],
+   "reservoir": 1789,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 83929,
+    "own": 5301
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 110,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.9699796545278588,
+     "CD14 Mono": 0.9880332341095108,
+     "CD4 T": 0.987333599622716,
+     "CD8 T": 0.992044286489782,
+     "NK": 0.9750834875119545
+    },
+    "own": {
+     "B": 0.6456389044065662,
+     "CD14 Mono": 0.8634783566961345,
+     "CD4 T": 0.8227846770002214,
+     "CD8 T": 0.8921345097602021,
+     "NK": 0.7343588914669056
+    }
+   }
+  },
+  "9": {
+   "heldout": "XHLT2-HS68-BLE1",
+   "pool": "DB10",
+   "donor": "HS68",
+   "paired": [
+    "XHLT2-HS24-BLE1",
+    "XHLT2-HS47-AAE6"
+   ],
+   "other": [
+    "XHLT2-HS10-AAE6",
+    "XHLT2-HS10-BLE1",
+    "XHLT2-HS12-AAE6",
+    "XHLT2-HS16-AAE6",
+    "XHLT2-HS16-BLE1",
+    "XHLT2-HS22-AAE6",
+    "XHLT2-HS22-BLE1",
+    "XHLT2-HS28-AAE6",
+    "XHLT2-HS28-BLE1",
+    "XHLT2-HS30-AAE6",
+    "XHLT2-HS30-BLE1",
+    "XHLT2-HS32-AAE6",
+    "XHLT2-HS32-BLE1",
+    "XHLT2-HS46-AAE6",
+    "XHLT2-HS46-BLE1",
+    "XHLT2-HS48-BLE1",
+    "XHLT2-HS6-AAE6",
+    "XHLT2-HS6-BLE1",
+    "XHLT2-HS75-AAE6",
+    "XHLT2-HS75-BLE1",
+    "XHLT2-HS86-AAE6",
+    "XHLT2-HS86-BLE1",
+    "XHLT2-HS88-AAE6",
+    "XHLT2-HS88-BLE1",
+    "XHLT2-HS94-AAE6",
+    "XHLT2-HS94-BLE1"
+   ],
+   "reservoir": 1719,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 99582,
+    "own": 5021
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 130,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.9761968886717335,
+     "CD14 Mono": 0.9875559457958999,
+     "CD4 T": 0.9867067048762251,
+     "CD8 T": 0.9936904550549567,
+     "NK": 0.9794040148994271
+    },
+    "own": {
+     "B": 0.7170014370929364,
+     "CD14 Mono": 0.7880872944549876,
+     "CD4 T": 0.7386573575003972,
+     "CD8 T": 0.8627376998382384,
+     "NK": 0.7394807998618077
+    }
+   }
+  },
+  "10": {
+   "heldout": "XHLT2-HS24-BLE1",
+   "pool": "DB10",
+   "donor": "HS24",
+   "paired": [
+    "XHLT2-HS47-AAE6",
+    "XHLT2-HS93-AAE6"
+   ],
+   "other": [
+    "XHLT2-HS10-AAE6",
+    "XHLT2-HS10-BLE1",
+    "XHLT2-HS12-AAE6",
+    "XHLT2-HS16-AAE6",
+    "XHLT2-HS16-BLE1",
+    "XHLT2-HS22-AAE6",
+    "XHLT2-HS22-BLE1",
+    "XHLT2-HS28-AAE6",
+    "XHLT2-HS28-BLE1",
+    "XHLT2-HS30-AAE6",
+    "XHLT2-HS30-BLE1",
+    "XHLT2-HS32-AAE6",
+    "XHLT2-HS32-BLE1",
+    "XHLT2-HS46-AAE6",
+    "XHLT2-HS46-BLE1",
+    "XHLT2-HS48-BLE1",
+    "XHLT2-HS6-AAE6",
+    "XHLT2-HS6-BLE1",
+    "XHLT2-HS75-AAE6",
+    "XHLT2-HS75-BLE1",
+    "XHLT2-HS86-AAE6",
+    "XHLT2-HS86-BLE1",
+    "XHLT2-HS88-AAE6",
+    "XHLT2-HS88-BLE1",
+    "XHLT2-HS94-AAE6",
+    "XHLT2-HS94-BLE1"
+   ],
+   "reservoir": 1543,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 99582,
+    "own": 4770
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 130,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.9761968886717335,
+     "CD14 Mono": 0.9875559457958999,
+     "CD4 T": 0.9867067048762251,
+     "CD8 T": 0.9936904550549567,
+     "NK": 0.9794040148994271
+    },
+    "own": {
+     "B": 0.7317571366274871,
+     "CD14 Mono": 0.7774694475004883,
+     "CD4 T": 0.79738202886688,
+     "CD8 T": 0.8832698757102805,
+     "NK": 0.7011497419031661
+    }
+   }
+  },
+  "11": {
+   "heldout": "XHLT2-HS47-AAE6",
+   "pool": "DB10",
+   "donor": "HS47",
+   "paired": [
+    "XHLT2-HS93-AAE6",
+    "XHLT2-HS68-BLE1"
+   ],
+   "other": [
+    "XHLT2-HS10-AAE6",
+    "XHLT2-HS10-BLE1",
+    "XHLT2-HS12-AAE6",
+    "XHLT2-HS16-AAE6",
+    "XHLT2-HS16-BLE1",
+    "XHLT2-HS22-AAE6",
+    "XHLT2-HS22-BLE1",
+    "XHLT2-HS28-AAE6",
+    "XHLT2-HS28-BLE1",
+    "XHLT2-HS30-AAE6",
+    "XHLT2-HS30-BLE1",
+    "XHLT2-HS32-AAE6",
+    "XHLT2-HS32-BLE1",
+    "XHLT2-HS46-AAE6",
+    "XHLT2-HS46-BLE1",
+    "XHLT2-HS48-BLE1",
+    "XHLT2-HS6-AAE6",
+    "XHLT2-HS6-BLE1",
+    "XHLT2-HS75-AAE6",
+    "XHLT2-HS75-BLE1",
+    "XHLT2-HS86-AAE6",
+    "XHLT2-HS86-BLE1",
+    "XHLT2-HS88-AAE6",
+    "XHLT2-HS88-BLE1",
+    "XHLT2-HS94-AAE6",
+    "XHLT2-HS94-BLE1"
+   ],
+   "reservoir": 1807,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 99582,
+    "own": 5526
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 130,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.9761968886717335,
+     "CD14 Mono": 0.9875559457958999,
+     "CD4 T": 0.9867067048762251,
+     "CD8 T": 0.9936904550549567,
+     "NK": 0.9794040148994271
+    },
+    "own": {
+     "B": 0.6771476164918957,
+     "CD14 Mono": 0.8352462390522171,
+     "CD4 T": 0.8120581382328453,
+     "CD8 T": 0.8634556894367649,
+     "NK": 0.6874036136150503
+    }
+   }
+  },
+  "12": {
+   "heldout": "XHLT2-HS93-AAE6",
+   "pool": "DB10",
+   "donor": "HS93",
+   "paired": [
+    "XHLT2-HS68-BLE1",
+    "XHLT2-HS24-BLE1"
+   ],
+   "other": [
+    "XHLT2-HS10-AAE6",
+    "XHLT2-HS10-BLE1",
+    "XHLT2-HS12-AAE6",
+    "XHLT2-HS16-AAE6",
+    "XHLT2-HS16-BLE1",
+    "XHLT2-HS22-AAE6",
+    "XHLT2-HS22-BLE1",
+    "XHLT2-HS28-AAE6",
+    "XHLT2-HS28-BLE1",
+    "XHLT2-HS30-AAE6",
+    "XHLT2-HS30-BLE1",
+    "XHLT2-HS32-AAE6",
+    "XHLT2-HS32-BLE1",
+    "XHLT2-HS46-AAE6",
+    "XHLT2-HS46-BLE1",
+    "XHLT2-HS48-BLE1",
+    "XHLT2-HS6-AAE6",
+    "XHLT2-HS6-BLE1",
+    "XHLT2-HS75-AAE6",
+    "XHLT2-HS75-BLE1",
+    "XHLT2-HS86-AAE6",
+    "XHLT2-HS86-BLE1",
+    "XHLT2-HS88-AAE6",
+    "XHLT2-HS88-BLE1",
+    "XHLT2-HS94-AAE6",
+    "XHLT2-HS94-BLE1"
+   ],
+   "reservoir": 1983,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 99582,
+    "own": 5777
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 130,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.9761968886717335,
+     "CD14 Mono": 0.9875559457958999,
+     "CD4 T": 0.9867067048762251,
+     "CD8 T": 0.9936904550549567,
+     "NK": 0.9794040148994271
+    },
+    "own": {
+     "B": 0.6381595058405338,
+     "CD14 Mono": 0.8323275747856195,
+     "CD4 T": 0.7491702424856621,
+     "CD8 T": 0.8098480703508262,
+     "NK": 0.7653457391677186
+    }
+   }
+  },
+  "13": {
+   "heldout": "XHLT2-HS46-AAE6",
+   "pool": "DB11",
+   "donor": "HS46",
+   "paired": [
+    "XHLT2-HS22-AAE6",
+    "XHLT2-HS68-AAE6"
+   ],
+   "other": [
+    "XHLT2-HS10-AAE6",
+    "XHLT2-HS10-BLE1",
+    "XHLT2-HS12-AAE6",
+    "XHLT2-HS16-AAE6",
+    "XHLT2-HS16-BLE1",
+    "XHLT2-HS24-AAE6",
+    "XHLT2-HS24-BLE1",
+    "XHLT2-HS30-AAE6",
+    "XHLT2-HS30-BLE1",
+    "XHLT2-HS32-AAE6",
+    "XHLT2-HS32-BLE1",
+    "XHLT2-HS47-AAE6",
+    "XHLT2-HS47-BLE1",
+    "XHLT2-HS48-BLE1",
+    "XHLT2-HS6-AAE6",
+    "XHLT2-HS6-BLE1",
+    "XHLT2-HS86-AAE6",
+    "XHLT2-HS86-BLE1",
+    "XHLT2-HS93-AAE6",
+    "XHLT2-HS93-BLE1",
+    "XHLT2-HS94-AAE6",
+    "XHLT2-HS94-BLE1"
+   ],
+   "reservoir": 2131,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 81772,
+    "own": 6346
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 110,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.9723166679099132,
+     "CD14 Mono": 0.9849032854989945,
+     "CD4 T": 0.9823402944425652,
+     "CD8 T": 0.9935248350009793,
+     "NK": 0.9746677231312209
+    },
+    "own": {
+     "B": 0.6576216532404828,
+     "CD14 Mono": 0.851651325606051,
+     "CD4 T": 0.8159501326988863,
+     "CD8 T": 0.8139855490224576,
+     "NK": 0.7422662886278143
+    }
+   }
+  },
+  "14": {
+   "heldout": "XHLT2-HS22-AAE6",
+   "pool": "DB11",
+   "donor": "HS22",
+   "paired": [
+    "XHLT2-HS68-AAE6",
+    "XHLT2-HS75-BLE1"
+   ],
+   "other": [
+    "XHLT2-HS10-AAE6",
+    "XHLT2-HS10-BLE1",
+    "XHLT2-HS12-AAE6",
+    "XHLT2-HS16-AAE6",
+    "XHLT2-HS16-BLE1",
+    "XHLT2-HS24-AAE6",
+    "XHLT2-HS24-BLE1",
+    "XHLT2-HS30-AAE6",
+    "XHLT2-HS30-BLE1",
+    "XHLT2-HS32-AAE6",
+    "XHLT2-HS32-BLE1",
+    "XHLT2-HS47-AAE6",
+    "XHLT2-HS47-BLE1",
+    "XHLT2-HS48-BLE1",
+    "XHLT2-HS6-AAE6",
+    "XHLT2-HS6-BLE1",
+    "XHLT2-HS86-AAE6",
+    "XHLT2-HS86-BLE1",
+    "XHLT2-HS93-AAE6",
+    "XHLT2-HS93-BLE1",
+    "XHLT2-HS94-AAE6",
+    "XHLT2-HS94-BLE1"
+   ],
+   "reservoir": 1925,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 81772,
+    "own": 5771
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 110,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.9723166679099132,
+     "CD14 Mono": 0.9849032854989945,
+     "CD4 T": 0.9823402944425652,
+     "CD8 T": 0.9935248350009793,
+     "NK": 0.9746677231312209
+    },
+    "own": {
+     "B": 0.6745055470568283,
+     "CD14 Mono": 0.8285184876785225,
+     "CD4 T": 0.800622086596575,
+     "CD8 T": 0.8730632800165953,
+     "NK": 0.5195179172688751
+    }
+   }
+  },
+  "15": {
+   "heldout": "XHLT2-HS68-AAE6",
+   "pool": "DB11",
+   "donor": "HS68",
+   "paired": [
+    "XHLT2-HS75-BLE1",
+    "XHLT2-HS88-AAE6"
+   ],
+   "other": [
+    "XHLT2-HS10-AAE6",
+    "XHLT2-HS10-BLE1",
+    "XHLT2-HS12-AAE6",
+    "XHLT2-HS16-AAE6",
+    "XHLT2-HS16-BLE1",
+    "XHLT2-HS24-AAE6",
+    "XHLT2-HS24-BLE1",
+    "XHLT2-HS30-AAE6",
+    "XHLT2-HS30-BLE1",
+    "XHLT2-HS32-AAE6",
+    "XHLT2-HS32-BLE1",
+    "XHLT2-HS47-AAE6",
+    "XHLT2-HS47-BLE1",
+    "XHLT2-HS48-BLE1",
+    "XHLT2-HS6-AAE6",
+    "XHLT2-HS6-BLE1",
+    "XHLT2-HS86-AAE6",
+    "XHLT2-HS86-BLE1",
+    "XHLT2-HS93-AAE6",
+    "XHLT2-HS93-BLE1",
+    "XHLT2-HS94-AAE6",
+    "XHLT2-HS94-BLE1"
+   ],
+   "reservoir": 1925,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 81772,
+    "own": 5914
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 110,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.9723166679099132,
+     "CD14 Mono": 0.9849032854989945,
+     "CD4 T": 0.9823402944425652,
+     "CD8 T": 0.9935248350009793,
+     "NK": 0.9746677231312209
+    },
+    "own": {
+     "B": 0.6652560373813913,
+     "CD14 Mono": 0.8201874212454204,
+     "CD4 T": 0.8418922721128579,
+     "CD8 T": 0.905103215342373,
+     "NK": 0.6555599625777977
+    }
+   }
+  },
+  "16": {
+   "heldout": "XHLT2-HS75-BLE1",
+   "pool": "DB11",
+   "donor": "HS75",
+   "paired": [
+    "XHLT2-HS88-AAE6",
+    "XHLT2-HS28-BLE1"
+   ],
+   "other": [
+    "XHLT2-HS10-AAE6",
+    "XHLT2-HS10-BLE1",
+    "XHLT2-HS12-AAE6",
+    "XHLT2-HS16-AAE6",
+    "XHLT2-HS16-BLE1",
+    "XHLT2-HS24-AAE6",
+    "XHLT2-HS24-BLE1",
+    "XHLT2-HS30-AAE6",
+    "XHLT2-HS30-BLE1",
+    "XHLT2-HS32-AAE6",
+    "XHLT2-HS32-BLE1",
+    "XHLT2-HS47-AAE6",
+    "XHLT2-HS47-BLE1",
+    "XHLT2-HS48-BLE1",
+    "XHLT2-HS6-AAE6",
+    "XHLT2-HS6-BLE1",
+    "XHLT2-HS86-AAE6",
+    "XHLT2-HS86-BLE1",
+    "XHLT2-HS93-AAE6",
+    "XHLT2-HS93-BLE1",
+    "XHLT2-HS94-AAE6",
+    "XHLT2-HS94-BLE1"
+   ],
+   "reservoir": 2008,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 81772,
+    "own": 5983
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 110,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.9723166679099132,
+     "CD14 Mono": 0.9849032854989945,
+     "CD4 T": 0.9823402944425652,
+     "CD8 T": 0.9935248350009793,
+     "NK": 0.9746677231312209
+    },
+    "own": {
+     "B": 0.6684121996177195,
+     "CD14 Mono": 0.8138781115578954,
+     "CD4 T": 0.8044914509018397,
+     "CD8 T": 0.8849971374162691,
+     "NK": 0.6971954678667706
+    }
+   }
+  },
+  "17": {
+   "heldout": "XHLT2-HS88-AAE6",
+   "pool": "DB11",
+   "donor": "HS88",
+   "paired": [
+    "XHLT2-HS28-BLE1",
+    "XHLT2-HS46-AAE6"
+   ],
+   "other": [
+    "XHLT2-HS10-AAE6",
+    "XHLT2-HS10-BLE1",
+    "XHLT2-HS12-AAE6",
+    "XHLT2-HS16-AAE6",
+    "XHLT2-HS16-BLE1",
+    "XHLT2-HS24-AAE6",
+    "XHLT2-HS24-BLE1",
+    "XHLT2-HS30-AAE6",
+    "XHLT2-HS30-BLE1",
+    "XHLT2-HS32-AAE6",
+    "XHLT2-HS32-BLE1",
+    "XHLT2-HS47-AAE6",
+    "XHLT2-HS47-BLE1",
+    "XHLT2-HS48-BLE1",
+    "XHLT2-HS6-AAE6",
+    "XHLT2-HS6-BLE1",
+    "XHLT2-HS86-AAE6",
+    "XHLT2-HS86-BLE1",
+    "XHLT2-HS93-AAE6",
+    "XHLT2-HS93-BLE1",
+    "XHLT2-HS94-AAE6",
+    "XHLT2-HS94-BLE1"
+   ],
+   "reservoir": 1770,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 81772,
+    "own": 5273
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 110,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.9723166679099132,
+     "CD14 Mono": 0.9849032854989945,
+     "CD4 T": 0.9823402944425652,
+     "CD8 T": 0.9935248350009793,
+     "NK": 0.9746677231312209
+    },
+    "own": {
+     "B": 0.6950409254109176,
+     "CD14 Mono": 0.813412178059838,
+     "CD4 T": 0.7817652803614944,
+     "CD8 T": 0.8566115840240944,
+     "NK": 0.7148948233509056
+    }
+   }
+  },
+  "18": {
+   "heldout": "XHLT2-HS28-BLE1",
+   "pool": "DB11",
+   "donor": "HS28",
+   "paired": [
+    "XHLT2-HS46-AAE6",
+    "XHLT2-HS22-AAE6"
+   ],
+   "other": [
+    "XHLT2-HS10-AAE6",
+    "XHLT2-HS10-BLE1",
+    "XHLT2-HS12-AAE6",
+    "XHLT2-HS16-AAE6",
+    "XHLT2-HS16-BLE1",
+    "XHLT2-HS24-AAE6",
+    "XHLT2-HS24-BLE1",
+    "XHLT2-HS30-AAE6",
+    "XHLT2-HS30-BLE1",
+    "XHLT2-HS32-AAE6",
+    "XHLT2-HS32-BLE1",
+    "XHLT2-HS47-AAE6",
+    "XHLT2-HS47-BLE1",
+    "XHLT2-HS48-BLE1",
+    "XHLT2-HS6-AAE6",
+    "XHLT2-HS6-BLE1",
+    "XHLT2-HS86-AAE6",
+    "XHLT2-HS86-BLE1",
+    "XHLT2-HS93-AAE6",
+    "XHLT2-HS93-BLE1",
+    "XHLT2-HS94-AAE6",
+    "XHLT2-HS94-BLE1"
+   ],
+   "reservoir": 1893,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 81772,
+    "own": 5779
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 110,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.9723166679099132,
+     "CD14 Mono": 0.9849032854989945,
+     "CD4 T": 0.9823402944425652,
+     "CD8 T": 0.9935248350009793,
+     "NK": 0.9746677231312209
+    },
+    "own": {
+     "B": 0.6359946398327722,
+     "CD14 Mono": 0.8543038069006212,
+     "CD4 T": 0.8286785386759101,
+     "CD8 T": 0.83971132924598,
+     "NK": 0.7971410015999643
+    }
+   }
+  },
+  "19": {
+   "heldout": "XHLT2-HS10-AAE6",
+   "pool": "DB12",
+   "donor": "HS10",
+   "paired": [
+    "XHLT2-HS93-BLE1",
+    "XHLT2-HS47-BLE1"
+   ],
+   "other": [
+    "XHLT2-HS12-AAE6",
+    "XHLT2-HS22-AAE6",
+    "XHLT2-HS22-BLE1",
+    "XHLT2-HS24-AAE6",
+    "XHLT2-HS24-BLE1",
+    "XHLT2-HS28-AAE6",
+    "XHLT2-HS28-BLE1",
+    "XHLT2-HS30-AAE6",
+    "XHLT2-HS30-BLE1",
+    "XHLT2-HS32-AAE6",
+    "XHLT2-HS32-BLE1",
+    "XHLT2-HS46-AAE6",
+    "XHLT2-HS46-BLE1",
+    "XHLT2-HS48-BLE1",
+    "XHLT2-HS6-AAE6",
+    "XHLT2-HS6-BLE1",
+    "XHLT2-HS68-AAE6",
+    "XHLT2-HS68-BLE1",
+    "XHLT2-HS86-AAE6",
+    "XHLT2-HS86-BLE1",
+    "XHLT2-HS88-AAE6",
+    "XHLT2-HS88-BLE1",
+    "XHLT2-HS94-AAE6",
+    "XHLT2-HS94-BLE1"
+   ],
+   "reservoir": 1885,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 92020,
+    "own": 5719
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 120,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.9684411604796034,
+     "CD14 Mono": 0.9890467433129874,
+     "CD4 T": 0.9882733960988024,
+     "CD8 T": 0.992159231290842,
+     "NK": 0.9710983738224747
+    },
+    "own": {
+     "B": 0.739022602221635,
+     "CD14 Mono": 0.7552398353178761,
+     "CD4 T": 0.7533381910334311,
+     "CD8 T": 0.8429100952078189,
+     "NK": 0.7159565205725822
+    }
+   }
+  },
+  "20": {
+   "heldout": "XHLT2-HS93-BLE1",
+   "pool": "DB12",
+   "donor": "HS93",
+   "paired": [
+    "XHLT2-HS47-BLE1",
+    "XHLT2-HS16-BLE1"
+   ],
+   "other": [
+    "XHLT2-HS12-AAE6",
+    "XHLT2-HS22-AAE6",
+    "XHLT2-HS22-BLE1",
+    "XHLT2-HS24-AAE6",
+    "XHLT2-HS24-BLE1",
+    "XHLT2-HS28-AAE6",
+    "XHLT2-HS28-BLE1",
+    "XHLT2-HS30-AAE6",
+    "XHLT2-HS30-BLE1",
+    "XHLT2-HS32-AAE6",
+    "XHLT2-HS32-BLE1",
+    "XHLT2-HS46-AAE6",
+    "XHLT2-HS46-BLE1",
+    "XHLT2-HS48-BLE1",
+    "XHLT2-HS6-AAE6",
+    "XHLT2-HS6-BLE1",
+    "XHLT2-HS68-AAE6",
+    "XHLT2-HS68-BLE1",
+    "XHLT2-HS86-AAE6",
+    "XHLT2-HS86-BLE1",
+    "XHLT2-HS88-AAE6",
+    "XHLT2-HS88-BLE1",
+    "XHLT2-HS94-AAE6",
+    "XHLT2-HS94-BLE1"
+   ],
+   "reservoir": 1906,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 92020,
+    "own": 5780
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 120,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.9684411604796034,
+     "CD14 Mono": 0.9890467433129874,
+     "CD4 T": 0.9882733960988024,
+     "CD8 T": 0.992159231290842,
+     "NK": 0.9710983738224747
+    },
+    "own": {
+     "B": 0.7016354123221726,
+     "CD14 Mono": 0.8242875342813425,
+     "CD4 T": 0.8025283438745547,
+     "CD8 T": 0.8652936343115891,
+     "NK": 0.7106419607429245
+    }
+   }
+  },
+  "21": {
+   "heldout": "XHLT2-HS47-BLE1",
+   "pool": "DB12",
+   "donor": "HS47",
+   "paired": [
+    "XHLT2-HS16-BLE1",
+    "XHLT2-HS75-AAE6"
+   ],
+   "other": [
+    "XHLT2-HS12-AAE6",
+    "XHLT2-HS22-AAE6",
+    "XHLT2-HS22-BLE1",
+    "XHLT2-HS24-AAE6",
+    "XHLT2-HS24-BLE1",
+    "XHLT2-HS28-AAE6",
+    "XHLT2-HS28-BLE1",
+    "XHLT2-HS30-AAE6",
+    "XHLT2-HS30-BLE1",
+    "XHLT2-HS32-AAE6",
+    "XHLT2-HS32-BLE1",
+    "XHLT2-HS46-AAE6",
+    "XHLT2-HS46-BLE1",
+    "XHLT2-HS48-BLE1",
+    "XHLT2-HS6-AAE6",
+    "XHLT2-HS6-BLE1",
+    "XHLT2-HS68-AAE6",
+    "XHLT2-HS68-BLE1",
+    "XHLT2-HS86-AAE6",
+    "XHLT2-HS86-BLE1",
+    "XHLT2-HS88-AAE6",
+    "XHLT2-HS88-BLE1",
+    "XHLT2-HS94-AAE6",
+    "XHLT2-HS94-BLE1"
+   ],
+   "reservoir": 1806,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 92020,
+    "own": 5386
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 120,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.9684411604796034,
+     "CD14 Mono": 0.9890467433129874,
+     "CD4 T": 0.9882733960988024,
+     "CD8 T": 0.992159231290842,
+     "NK": 0.9710983738224747
+    },
+    "own": {
+     "B": 0.644717837755678,
+     "CD14 Mono": 0.8466115655260837,
+     "CD4 T": 0.8222003622358102,
+     "CD8 T": 0.913173309641986,
+     "NK": 0.652500163707367
+    }
+   }
+  },
+  "22": {
+   "heldout": "XHLT2-HS16-BLE1",
+   "pool": "DB12",
+   "donor": "HS16",
+   "paired": [
+    "XHLT2-HS75-AAE6",
+    "XHLT2-HS10-AAE6"
+   ],
+   "other": [
+    "XHLT2-HS12-AAE6",
+    "XHLT2-HS22-AAE6",
+    "XHLT2-HS22-BLE1",
+    "XHLT2-HS24-AAE6",
+    "XHLT2-HS24-BLE1",
+    "XHLT2-HS28-AAE6",
+    "XHLT2-HS28-BLE1",
+    "XHLT2-HS30-AAE6",
+    "XHLT2-HS30-BLE1",
+    "XHLT2-HS32-AAE6",
+    "XHLT2-HS32-BLE1",
+    "XHLT2-HS46-AAE6",
+    "XHLT2-HS46-BLE1",
+    "XHLT2-HS48-BLE1",
+    "XHLT2-HS6-AAE6",
+    "XHLT2-HS6-BLE1",
+    "XHLT2-HS68-AAE6",
+    "XHLT2-HS68-BLE1",
+    "XHLT2-HS86-AAE6",
+    "XHLT2-HS86-BLE1",
+    "XHLT2-HS88-AAE6",
+    "XHLT2-HS88-BLE1",
+    "XHLT2-HS94-AAE6",
+    "XHLT2-HS94-BLE1"
+   ],
+   "reservoir": 2008,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 92020,
+    "own": 5910
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 120,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.9684411604796034,
+     "CD14 Mono": 0.9890467433129874,
+     "CD4 T": 0.9882733960988024,
+     "CD8 T": 0.992159231290842,
+     "NK": 0.9710983738224747
+    },
+    "own": {
+     "B": 0.7633988543760193,
+     "CD14 Mono": 0.848905877983615,
+     "CD4 T": 0.8042190271746822,
+     "CD8 T": 0.9110365621862778,
+     "NK": 0.738832351523678
+    }
+   }
+  },
+  "23": {
+   "heldout": "XHLT2-HS75-AAE6",
+   "pool": "DB12",
+   "donor": "HS75",
+   "paired": [
+    "XHLT2-HS10-AAE6",
+    "XHLT2-HS93-BLE1"
+   ],
+   "other": [
+    "XHLT2-HS12-AAE6",
+    "XHLT2-HS22-AAE6",
+    "XHLT2-HS22-BLE1",
+    "XHLT2-HS24-AAE6",
+    "XHLT2-HS24-BLE1",
+    "XHLT2-HS28-AAE6",
+    "XHLT2-HS28-BLE1",
+    "XHLT2-HS30-AAE6",
+    "XHLT2-HS30-BLE1",
+    "XHLT2-HS32-AAE6",
+    "XHLT2-HS32-BLE1",
+    "XHLT2-HS46-AAE6",
+    "XHLT2-HS46-BLE1",
+    "XHLT2-HS48-BLE1",
+    "XHLT2-HS6-AAE6",
+    "XHLT2-HS6-BLE1",
+    "XHLT2-HS68-AAE6",
+    "XHLT2-HS68-BLE1",
+    "XHLT2-HS86-AAE6",
+    "XHLT2-HS86-BLE1",
+    "XHLT2-HS88-AAE6",
+    "XHLT2-HS88-BLE1",
+    "XHLT2-HS94-AAE6",
+    "XHLT2-HS94-BLE1"
+   ],
+   "reservoir": 2007,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 92020,
+    "own": 6161
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 120,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.9684411604796034,
+     "CD14 Mono": 0.9890467433129874,
+     "CD4 T": 0.9882733960988024,
+     "CD8 T": 0.992159231290842,
+     "NK": 0.9710983738224747
+    },
+    "own": {
+     "B": 0.7634168450723183,
+     "CD14 Mono": 0.8000607932334993,
+     "CD4 T": 0.7802512593650481,
+     "CD8 T": 0.9055587145902159,
+     "NK": 0.7063174536458219
+    }
+   }
+  },
+  "24": {
+   "heldout": "XHLT2-HS22-BLE1",
+   "pool": "DB13",
+   "donor": "HS22",
+   "paired": [
+    "XHLT2-HS6-AAE6",
+    "XHLT2-HS48-BLE1"
+   ],
+   "other": [
+    "XHLT2-HS10-AAE6",
+    "XHLT2-HS10-BLE1",
+    "XHLT2-HS12-AAE6",
+    "XHLT2-HS16-AAE6",
+    "XHLT2-HS16-BLE1",
+    "XHLT2-HS24-AAE6",
+    "XHLT2-HS24-BLE1",
+    "XHLT2-HS28-AAE6",
+    "XHLT2-HS28-BLE1",
+    "XHLT2-HS32-AAE6",
+    "XHLT2-HS32-BLE1",
+    "XHLT2-HS46-AAE6",
+    "XHLT2-HS46-BLE1",
+    "XHLT2-HS47-AAE6",
+    "XHLT2-HS47-BLE1",
+    "XHLT2-HS68-AAE6",
+    "XHLT2-HS68-BLE1",
+    "XHLT2-HS75-AAE6",
+    "XHLT2-HS75-BLE1",
+    "XHLT2-HS86-AAE6",
+    "XHLT2-HS86-BLE1",
+    "XHLT2-HS88-AAE6",
+    "XHLT2-HS88-BLE1",
+    "XHLT2-HS93-AAE6",
+    "XHLT2-HS93-BLE1",
+    "XHLT2-HS94-AAE6",
+    "XHLT2-HS94-BLE1"
+   ],
+   "reservoir": 1839,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 100636,
+    "own": 5759
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 135,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.975865712015362,
+     "CD14 Mono": 0.9873616868373537,
+     "CD4 T": 0.9783081396377961,
+     "CD8 T": 0.9921607382869152,
+     "NK": 0.9788996332326505
+    },
+    "own": {
+     "B": 0.6768358936441625,
+     "CD14 Mono": 0.8337793673644666,
+     "CD4 T": 0.8368594197772475,
+     "CD8 T": 0.8993158894234456,
+     "NK": 0.7500491760009794
+    }
+   }
+  },
+  "25": {
+   "heldout": "XHLT2-HS6-AAE6",
+   "pool": "DB13",
+   "donor": "HS6",
+   "paired": [
+    "XHLT2-HS48-BLE1",
+    "XHLT2-HS30-AAE6"
+   ],
+   "other": [
+    "XHLT2-HS10-AAE6",
+    "XHLT2-HS10-BLE1",
+    "XHLT2-HS12-AAE6",
+    "XHLT2-HS16-AAE6",
+    "XHLT2-HS16-BLE1",
+    "XHLT2-HS24-AAE6",
+    "XHLT2-HS24-BLE1",
+    "XHLT2-HS28-AAE6",
+    "XHLT2-HS28-BLE1",
+    "XHLT2-HS32-AAE6",
+    "XHLT2-HS32-BLE1",
+    "XHLT2-HS46-AAE6",
+    "XHLT2-HS46-BLE1",
+    "XHLT2-HS47-AAE6",
+    "XHLT2-HS47-BLE1",
+    "XHLT2-HS68-AAE6",
+    "XHLT2-HS68-BLE1",
+    "XHLT2-HS75-AAE6",
+    "XHLT2-HS75-BLE1",
+    "XHLT2-HS86-AAE6",
+    "XHLT2-HS86-BLE1",
+    "XHLT2-HS88-AAE6",
+    "XHLT2-HS88-BLE1",
+    "XHLT2-HS93-AAE6",
+    "XHLT2-HS93-BLE1",
+    "XHLT2-HS94-AAE6",
+    "XHLT2-HS94-BLE1"
+   ],
+   "reservoir": 1927,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 100636,
+    "own": 5669
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 135,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.975865712015362,
+     "CD14 Mono": 0.9873616868373537,
+     "CD4 T": 0.9783081396377961,
+     "CD8 T": 0.9921607382869152,
+     "NK": 0.9788996332326505
+    },
+    "own": {
+     "B": 0.6685677935248115,
+     "CD14 Mono": 0.8340535243572946,
+     "CD4 T": 0.800440892994436,
+     "CD8 T": 0.8677132395321949,
+     "NK": 0.7142941023815434
+    }
+   }
+  },
+  "26": {
+   "heldout": "XHLT2-HS48-BLE1",
+   "pool": "DB13",
+   "donor": "HS48",
+   "paired": [
+    "XHLT2-HS30-AAE6",
+    "XHLT2-HS22-BLE1"
+   ],
+   "other": [
+    "XHLT2-HS10-AAE6",
+    "XHLT2-HS10-BLE1",
+    "XHLT2-HS12-AAE6",
+    "XHLT2-HS16-AAE6",
+    "XHLT2-HS16-BLE1",
+    "XHLT2-HS24-AAE6",
+    "XHLT2-HS24-BLE1",
+    "XHLT2-HS28-AAE6",
+    "XHLT2-HS28-BLE1",
+    "XHLT2-HS32-AAE6",
+    "XHLT2-HS32-BLE1",
+    "XHLT2-HS46-AAE6",
+    "XHLT2-HS46-BLE1",
+    "XHLT2-HS47-AAE6",
+    "XHLT2-HS47-BLE1",
+    "XHLT2-HS68-AAE6",
+    "XHLT2-HS68-BLE1",
+    "XHLT2-HS75-AAE6",
+    "XHLT2-HS75-BLE1",
+    "XHLT2-HS86-AAE6",
+    "XHLT2-HS86-BLE1",
+    "XHLT2-HS88-AAE6",
+    "XHLT2-HS88-BLE1",
+    "XHLT2-HS93-AAE6",
+    "XHLT2-HS93-BLE1",
+    "XHLT2-HS94-AAE6",
+    "XHLT2-HS94-BLE1"
+   ],
+   "reservoir": 1932,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 100636,
+    "own": 5546
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 135,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.975865712015362,
+     "CD14 Mono": 0.9873616868373537,
+     "CD4 T": 0.9783081396377961,
+     "CD8 T": 0.9921607382869152,
+     "NK": 0.9788996332326505
+    },
+    "own": {
+     "B": 0.5853224016044462,
+     "CD14 Mono": 0.8266971140050607,
+     "CD4 T": 0.8046789592247321,
+     "CD8 T": 0.8672588020842067,
+     "NK": 0.7398470846694698
+    }
+   }
+  },
+  "27": {
+   "heldout": "XHLT2-HS30-AAE6",
+   "pool": "DB13",
+   "donor": "HS30",
+   "paired": [
+    "XHLT2-HS22-BLE1",
+    "XHLT2-HS6-AAE6"
+   ],
+   "other": [
+    "XHLT2-HS10-AAE6",
+    "XHLT2-HS10-BLE1",
+    "XHLT2-HS12-AAE6",
+    "XHLT2-HS16-AAE6",
+    "XHLT2-HS16-BLE1",
+    "XHLT2-HS24-AAE6",
+    "XHLT2-HS24-BLE1",
+    "XHLT2-HS28-AAE6",
+    "XHLT2-HS28-BLE1",
+    "XHLT2-HS32-AAE6",
+    "XHLT2-HS32-BLE1",
+    "XHLT2-HS46-AAE6",
+    "XHLT2-HS46-BLE1",
+    "XHLT2-HS47-AAE6",
+    "XHLT2-HS47-BLE1",
+    "XHLT2-HS68-AAE6",
+    "XHLT2-HS68-BLE1",
+    "XHLT2-HS75-AAE6",
+    "XHLT2-HS75-BLE1",
+    "XHLT2-HS86-AAE6",
+    "XHLT2-HS86-BLE1",
+    "XHLT2-HS88-AAE6",
+    "XHLT2-HS88-BLE1",
+    "XHLT2-HS93-AAE6",
+    "XHLT2-HS93-BLE1",
+    "XHLT2-HS94-AAE6",
+    "XHLT2-HS94-BLE1"
+   ],
+   "reservoir": 1844,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 100636,
+    "own": 5636
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 135,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.975865712015362,
+     "CD14 Mono": 0.9873616868373537,
+     "CD4 T": 0.9783081396377961,
+     "CD8 T": 0.9921607382869152,
+     "NK": 0.9788996332326505
+    },
+    "own": {
+     "B": 0.6441270093402115,
+     "CD14 Mono": 0.8562807994464313,
+     "CD4 T": 0.8296104587664448,
+     "CD8 T": 0.9147652286895862,
+     "NK": 0.7560651716984627
+    }
+   }
+  },
+  "28": {
+   "heldout": "XHLT2-HS12-AAE6",
+   "pool": "DB14",
+   "donor": "HS12",
+   "paired": [
+    "XHLT2-HS30-BLE1",
+    "XHLT2-HS94-BLE1"
+   ],
+   "other": [
+    "XHLT2-HS10-AAE6",
+    "XHLT2-HS10-BLE1",
+    "XHLT2-HS16-AAE6",
+    "XHLT2-HS16-BLE1",
+    "XHLT2-HS22-AAE6",
+    "XHLT2-HS22-BLE1",
+    "XHLT2-HS24-AAE6",
+    "XHLT2-HS24-BLE1",
+    "XHLT2-HS46-AAE6",
+    "XHLT2-HS46-BLE1",
+    "XHLT2-HS47-AAE6",
+    "XHLT2-HS47-BLE1",
+    "XHLT2-HS48-BLE1",
+    "XHLT2-HS6-AAE6",
+    "XHLT2-HS6-BLE1",
+    "XHLT2-HS68-AAE6",
+    "XHLT2-HS68-BLE1",
+    "XHLT2-HS75-AAE6",
+    "XHLT2-HS75-BLE1",
+    "XHLT2-HS88-AAE6",
+    "XHLT2-HS88-BLE1",
+    "XHLT2-HS93-AAE6",
+    "XHLT2-HS93-BLE1"
+   ],
+   "reservoir": 1723,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 86518,
+    "own": 4861
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 115,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.9741528278791823,
+     "CD14 Mono": 0.9886461363672415,
+     "CD4 T": 0.987848221090139,
+     "CD8 T": 0.9929447313100276,
+     "NK": 0.9794637181216682
+    },
+    "own": {
+     "B": 0.6441810424669663,
+     "CD14 Mono": 0.8644682184276844,
+     "CD4 T": 0.8024894830157226,
+     "CD8 T": 0.8907593978054197,
+     "NK": 0.6043615997922273
+    }
+   }
+  },
+  "29": {
+   "heldout": "XHLT2-HS30-BLE1",
+   "pool": "DB14",
+   "donor": "HS30",
+   "paired": [
+    "XHLT2-HS94-BLE1",
+    "XHLT2-HS86-BLE1"
+   ],
+   "other": [
+    "XHLT2-HS10-AAE6",
+    "XHLT2-HS10-BLE1",
+    "XHLT2-HS16-AAE6",
+    "XHLT2-HS16-BLE1",
+    "XHLT2-HS22-AAE6",
+    "XHLT2-HS22-BLE1",
+    "XHLT2-HS24-AAE6",
+    "XHLT2-HS24-BLE1",
+    "XHLT2-HS46-AAE6",
+    "XHLT2-HS46-BLE1",
+    "XHLT2-HS47-AAE6",
+    "XHLT2-HS47-BLE1",
+    "XHLT2-HS48-BLE1",
+    "XHLT2-HS6-AAE6",
+    "XHLT2-HS6-BLE1",
+    "XHLT2-HS68-AAE6",
+    "XHLT2-HS68-BLE1",
+    "XHLT2-HS75-AAE6",
+    "XHLT2-HS75-BLE1",
+    "XHLT2-HS88-AAE6",
+    "XHLT2-HS88-BLE1",
+    "XHLT2-HS93-AAE6",
+    "XHLT2-HS93-BLE1"
+   ],
+   "reservoir": 1722,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 86518,
+    "own": 5029
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 115,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.9741528278791823,
+     "CD14 Mono": 0.9886461363672415,
+     "CD4 T": 0.987848221090139,
+     "CD8 T": 0.9929447313100276,
+     "NK": 0.9794637181216682
+    },
+    "own": {
+     "B": 0.6036773162327215,
+     "CD14 Mono": 0.8061519192617566,
+     "CD4 T": 0.8433654721091789,
+     "CD8 T": 0.8867706802772078,
+     "NK": 0.5682859148348722
+    }
+   }
+  },
+  "30": {
+   "heldout": "XHLT2-HS94-BLE1",
+   "pool": "DB14",
+   "donor": "HS94",
+   "paired": [
+    "XHLT2-HS86-BLE1",
+    "XHLT2-HS28-AAE6"
+   ],
+   "other": [
+    "XHLT2-HS10-AAE6",
+    "XHLT2-HS10-BLE1",
+    "XHLT2-HS16-AAE6",
+    "XHLT2-HS16-BLE1",
+    "XHLT2-HS22-AAE6",
+    "XHLT2-HS22-BLE1",
+    "XHLT2-HS24-AAE6",
+    "XHLT2-HS24-BLE1",
+    "XHLT2-HS46-AAE6",
+    "XHLT2-HS46-BLE1",
+    "XHLT2-HS47-AAE6",
+    "XHLT2-HS47-BLE1",
+    "XHLT2-HS48-BLE1",
+    "XHLT2-HS6-AAE6",
+    "XHLT2-HS6-BLE1",
+    "XHLT2-HS68-AAE6",
+    "XHLT2-HS68-BLE1",
+    "XHLT2-HS75-AAE6",
+    "XHLT2-HS75-BLE1",
+    "XHLT2-HS88-AAE6",
+    "XHLT2-HS88-BLE1",
+    "XHLT2-HS93-AAE6",
+    "XHLT2-HS93-BLE1"
+   ],
+   "reservoir": 2016,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 86518,
+    "own": 6041
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 115,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.9741528278791823,
+     "CD14 Mono": 0.9886461363672415,
+     "CD4 T": 0.987848221090139,
+     "CD8 T": 0.9929447313100276,
+     "NK": 0.9794637181216682
+    },
+    "own": {
+     "B": 0.6666384495150084,
+     "CD14 Mono": 0.8237778134289415,
+     "CD4 T": 0.8393909137321331,
+     "CD8 T": 0.91878638320553,
+     "NK": 0.6585565026425867
+    }
+   }
+  },
+  "31": {
+   "heldout": "XHLT2-HS86-BLE1",
+   "pool": "DB14",
+   "donor": "HS86",
+   "paired": [
+    "XHLT2-HS28-AAE6",
+    "XHLT2-HS32-AAE6"
+   ],
+   "other": [
+    "XHLT2-HS10-AAE6",
+    "XHLT2-HS10-BLE1",
+    "XHLT2-HS16-AAE6",
+    "XHLT2-HS16-BLE1",
+    "XHLT2-HS22-AAE6",
+    "XHLT2-HS22-BLE1",
+    "XHLT2-HS24-AAE6",
+    "XHLT2-HS24-BLE1",
+    "XHLT2-HS46-AAE6",
+    "XHLT2-HS46-BLE1",
+    "XHLT2-HS47-AAE6",
+    "XHLT2-HS47-BLE1",
+    "XHLT2-HS48-BLE1",
+    "XHLT2-HS6-AAE6",
+    "XHLT2-HS6-BLE1",
+    "XHLT2-HS68-AAE6",
+    "XHLT2-HS68-BLE1",
+    "XHLT2-HS75-AAE6",
+    "XHLT2-HS75-BLE1",
+    "XHLT2-HS88-AAE6",
+    "XHLT2-HS88-BLE1",
+    "XHLT2-HS93-AAE6",
+    "XHLT2-HS93-BLE1"
+   ],
+   "reservoir": 1945,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 86518,
+    "own": 5775
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 115,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.9741528278791823,
+     "CD14 Mono": 0.9886461363672415,
+     "CD4 T": 0.987848221090139,
+     "CD8 T": 0.9929447313100276,
+     "NK": 0.9794637181216682
+    },
+    "own": {
+     "B": 0.6977349167160429,
+     "CD14 Mono": 0.7970092307825242,
+     "CD4 T": 0.8189667488757834,
+     "CD8 T": 0.9178851072814724,
+     "NK": 0.6955063962918808
+    }
+   }
+  },
+  "32": {
+   "heldout": "XHLT2-HS28-AAE6",
+   "pool": "DB14",
+   "donor": "HS28",
+   "paired": [
+    "XHLT2-HS32-AAE6",
+    "XHLT2-HS12-AAE6"
+   ],
+   "other": [
+    "XHLT2-HS10-AAE6",
+    "XHLT2-HS10-BLE1",
+    "XHLT2-HS16-AAE6",
+    "XHLT2-HS16-BLE1",
+    "XHLT2-HS22-AAE6",
+    "XHLT2-HS22-BLE1",
+    "XHLT2-HS24-AAE6",
+    "XHLT2-HS24-BLE1",
+    "XHLT2-HS46-AAE6",
+    "XHLT2-HS46-BLE1",
+    "XHLT2-HS47-AAE6",
+    "XHLT2-HS47-BLE1",
+    "XHLT2-HS48-BLE1",
+    "XHLT2-HS6-AAE6",
+    "XHLT2-HS6-BLE1",
+    "XHLT2-HS68-AAE6",
+    "XHLT2-HS68-BLE1",
+    "XHLT2-HS75-AAE6",
+    "XHLT2-HS75-BLE1",
+    "XHLT2-HS88-AAE6",
+    "XHLT2-HS88-BLE1",
+    "XHLT2-HS93-AAE6",
+    "XHLT2-HS93-BLE1"
+   ],
+   "reservoir": 1819,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 86518,
+    "own": 5468
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 115,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.9741528278791823,
+     "CD14 Mono": 0.9886461363672415,
+     "CD4 T": 0.987848221090139,
+     "CD8 T": 0.9929447313100276,
+     "NK": 0.9794637181216682
+    },
+    "own": {
+     "B": 0.6580233437617916,
+     "CD14 Mono": 0.8111708993004301,
+     "CD4 T": 0.8209358486816872,
+     "CD8 T": 0.8963341538942733,
+     "NK": 0.7002535984637822
+    }
+   }
+  },
+  "33": {
+   "heldout": "XHLT2-HS32-AAE6",
+   "pool": "DB14",
+   "donor": "HS32",
+   "paired": [
+    "XHLT2-HS12-AAE6",
+    "XHLT2-HS30-BLE1"
+   ],
+   "other": [
+    "XHLT2-HS10-AAE6",
+    "XHLT2-HS10-BLE1",
+    "XHLT2-HS16-AAE6",
+    "XHLT2-HS16-BLE1",
+    "XHLT2-HS22-AAE6",
+    "XHLT2-HS22-BLE1",
+    "XHLT2-HS24-AAE6",
+    "XHLT2-HS24-BLE1",
+    "XHLT2-HS46-AAE6",
+    "XHLT2-HS46-BLE1",
+    "XHLT2-HS47-AAE6",
+    "XHLT2-HS47-BLE1",
+    "XHLT2-HS48-BLE1",
+    "XHLT2-HS6-AAE6",
+    "XHLT2-HS6-BLE1",
+    "XHLT2-HS68-AAE6",
+    "XHLT2-HS68-BLE1",
+    "XHLT2-HS75-AAE6",
+    "XHLT2-HS75-BLE1",
+    "XHLT2-HS88-AAE6",
+    "XHLT2-HS88-BLE1",
+    "XHLT2-HS93-AAE6",
+    "XHLT2-HS93-BLE1"
+   ],
+   "reservoir": 1891,
+   "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+   ],
+   "pool_cells": {
+    "atlas": 63796,
+    "other": 86518,
+    "own": 5566
+   },
+   "pool_keys": {
+    "atlas": 566,
+    "other": 115,
+    "own": 10
+   },
+   "map_reliability": {
+    "atlas": {
+     "B": 0.9648877961660545,
+     "CD14 Mono": 0.9736538040472368,
+     "CD4 T": 0.9767489969336483,
+     "CD8 T": 0.9853426093299497,
+     "NK": 0.9599971118339448
+    },
+    "other": {
+     "B": 0.9741528278791823,
+     "CD14 Mono": 0.9886461363672415,
+     "CD4 T": 0.987848221090139,
+     "CD8 T": 0.9929447313100276,
+     "NK": 0.9794637181216682
+    },
+    "own": {
+     "B": 0.6828096142481876,
+     "CD14 Mono": 0.8874889885278158,
+     "CD4 T": 0.7870055482779881,
+     "CD8 T": 0.8861621473875573,
+     "NK": 0.673252230559001
+    }
+   }
+  }
+ },
+ "panels": {
+  "genes": [
+   "ISG15",
+   "STMN1",
+   "FGR",
+   "IFI6",
+   "IFI44L",
+   "GBP1",
+   "RHOC",
+   "NBPF26",
+   "AC245014.3",
+   "CTSS",
+   "S100A11",
+   "S100A9",
+   "S100A12",
+   "S100A8",
+   "SH2D2A",
+   "MNDA",
+   "PYHIN1",
+   "FCER1G",
+   "FCGR3A",
+   "CD247",
+   "NCF2",
+   "RGS2",
+   "ATP2B4",
+   "ID2",
+   "RHOB",
+   "PELI1",
+   "PLEK",
+   "CAPG",
+   "GNLY",
+   "CD8A",
+   "CD8B",
+   "IGKC",
+   "DUSP2",
+   "GCA",
+   "BHLHE40",
+   "CMC1",
+   "RBM5",
+   "MTRNR2L12",
+   "IFT57",
+   "CSTA",
+   "TNFSF10",
+   "SPON2",
+   "SH3BP2",
+   "LYAR",
+   "FGFBP2",
+   "SMIM14",
+   "HOPX",
+   "IGFBP7",
+   "AREG",
+   "HERC5",
+   "LEF1",
+   "CAMK2D",
+   "IL7R",
+   "RICTOR",
+   "GZMA",
+   "PDE4D",
+   "VCAN",
+   "MEF2C",
+   "ANKHD1",
+   "CD14",
+   "DCTN4",
+   "RNF130",
+   "LY86",
+   "CD83",
+   "LTB",
+   "LST1",
+   "NCR3",
+   "AIF1",
+   "HLA-DRA",
+   "HLA-DRB5",
+   "HLA-DRB1",
+   "HLA-DQA1",
+   "HLA-DQB1",
+   "TAP2",
+   "HLA-DMB",
+   "HLA-DMA",
+   "HLA-DPA1",
+   "HLA-DPB1",
+   "CDKN1A",
+   "ASCC3",
+   "PRDM1",
+   "CALHM6",
+   "STX7",
+   "SGK1",
+   "STX11",
+   "CHST12",
+   "AOAH",
+   "BLVRA",
+   "NCF1",
+   "FGL2",
+   "NAMPT",
+   "TRBC1",
+   "GIMAP5",
+   "CYBB",
+   "USP11",
+   "TIMP1",
+   "CFP",
+   "TSPYL2",
+   "HUWE1",
+   "IL2RG",
+   "RAB11FIP1",
+   "PLPP5",
+   "CEBPD",
+   "KLF10",
+   "MTSS1",
+   "PLEC",
+   "AQP3",
+   "CEMIP2",
+   "TUT7",
+   "SYK",
+   "KLF4",
+   "FCN1",
+   "CLIC3",
+   "IFITM3",
+   "CTSD",
+   "HBB",
+   "MTRNR2L8",
+   "SPI1",
+   "MS4A6A",
+   "CYB561A3",
+   "CTSW",
+   "JAML",
+   "APLP2",
+   "PRF1",
+   "KLRG1",
+   "KLRB1",
+   "KLRF1",
+   "KLRD1",
+   "KLRK1",
+   "CCNT1",
+   "STAT2",
+   "LYZ",
+   "DUSP6",
+   "ATP2B1-AS1",
+   "EEA1",
+   "GNPTAB",
+   "HVCN1",
+   "OAS1",
+   "OAS2",
+   "RGCC",
+   "EPSTI1",
+   "GPR183",
+   "TNFSF13B",
+   "IRF9",
+   "GZMH",
+   "GZMB",
+   "LGALS3",
+   "SYNE2",
+   "SPTLC2",
+   "SERPINA1",
+   "PATL2",
+   "ANXA2",
+   "HERC1",
+   "BCL2A1",
+   "IL32",
+   "CORO7",
+   "IL4R",
+   "PYCARD",
+   "ITGAM",
+   "ADGRG1",
+   "XAF1",
+   "CD68",
+   "CCL5",
+   "CCL3",
+   "CCL4",
+   "GRN",
+   "CLTC",
+   "CD79B",
+   "ERN1",
+   "PECAM1",
+   "CD300A",
+   "RRBP1",
+   "CST3",
+   "CST7",
+   "APMAP",
+   "CTSZ",
+   "GZMM",
+   "CFD",
+   "MATK",
+   "STXBP2",
+   "HSH2D",
+   "MYO9B",
+   "IFI30",
+   "TYROBP",
+   "BLVRB",
+   "CD79A",
+   "FCGRT",
+   "NKG7",
+   "LILRB1",
+   "NCF4",
+   "IL2RB",
+   "LGALS1",
+   "TTC38",
+   "TYMP",
+   "ODF3B",
+   "BACH1",
+   "IFNAR2",
+   "IFNGR2",
+   "MX1",
+   "DIP2A"
+  ],
+  "proteins_new": [
+   "anti-human-CD86-TotalSeqC",
+   "anti-human-CD274-(B7-H1,-PD-L1)-TotalSeqC",
+   "anti-human-CD11b-TotalSeqC",
+   "anti-human-CD155-(PVR)-TotalSeqC",
+   "anti-human-CD112-(Nectin-2)-TotalSeqC",
+   "anti-human-CD47-TotalSeqC",
+   "anti-human-CD40-TotalSeqC",
+   "anti-human-CD154-TotalSeqC",
+   "anti-human-CD52-TotalSeqC",
+   "anti-human-CD3-TotalSeqC",
+   "anti-human-CD8-TotalSeqC",
+   "anti-human-CD56-TotalSeqC",
+   "anti-human-CD19-TotalSeqC",
+   "anti-human-CD33-TotalSeqC",
+   "anti-human-CD11c-TotalSeqC",
+   "anti-human-CD45RA-TotalSeqC",
+   "anti-human-CD123-TotalSeqC",
+   "anti-human-CD7-TotalSeqC",
+   "anti-human/mouse-CD49f-TotalSeqC",
+   "anti-human-CD194-(CCR4)-TotalSeqC",
+   "anti-human-CD4-TotalSeqC",
+   "anti-mouse/human-CD44-TotalSeqC",
+   "anti-human-CD14-TotalSeqC",
+   "anti-human-CD16-TotalSeqC",
+   "anti-human-CD25-TotalSeqC",
+   "anti-human-CD45RO-TotalSeqC",
+   "anti-human-TIGIT-(VSTM3)-TotalSeqC",
+   "anti-human-CD20-TotalSeqC",
+   "anti-human-CD335-(NKp46)-TotalSeqC",
+   "anti-human-CD31-TotalSeqC",
+   "anti-human-CD146-TotalSeqC",
+   "anti-human-IgM-TotalSeqC",
+   "anti-human-CD5-TotalSeqC",
+   "anti-human-CD183-(CXCR3)-TotalSeqC",
+   "anti-human-CD195-(CCR5)-TotalSeqC",
+   "anti-human-CD32-TotalSeqC",
+   "anti-human-CD196-(CCR6)-TotalSeqC",
+   "anti-human-CD185-(CXCR5)-TotalSeqC",
+   "anti-human-CD103-(Integrin-alphaE)-TotalSeqC",
+   "anti-human-CD69-TotalSeqC",
+   "anti-human-CD62L-TotalSeqC",
+   "anti-human-CD161-TotalSeqC",
+   "anti-human-CD152-(CTLA-4)-TotalSeqC",
+   "anti-human-CD223-(LAG-3)-TotalSeqC",
+   "anti-human-KLRG1-(MAFA)-TotalSeqC",
+   "anti-human-CD27-TotalSeqC",
+   "anti-human-CD107a-(LAMP-1)-TotalSeqC",
+   "anti-human-CD95-(Fas)-TotalSeqC",
+   "anti-human-HLA-DR-TotalSeqC",
+   "anti-human-CD1c-TotalSeqC",
+   "anti-human-CD64-TotalSeqC",
+   "anti-human-CD141-(Thrombomodulin)-TotalSeqC",
+   "anti-human-CD1d-TotalSeqC",
+   "anti-human-CD314-(NKG2D)-TotalSeqC",
+   "anti-human-CD35-TotalSeqC",
+   "anti-human-CD57-Recombinant-TotalSeqC",
+   "anti-human-CD272-(BTLA)-TotalSeqC",
+   "anti-human/mouse/rat-CD278-(ICOS)-TotalSeqC",
+   "anti-human-CD58-(LFA-3)-TotalSeqC",
+   "anti-human-CD39-TotalSeqC",
+   "anti-human-CX3CR1-TotalSeqC",
+   "anti-human-CD24-TotalSeqC",
+   "anti-human-CD21-TotalSeqC",
+   "anti-human-CD11a-TotalSeqC",
+   "anti-human-CD79b-(IgBeta)-TotalSeqC",
+   "anti-human-CD244-(2B4)-TotalSeqC",
+   "anti-human-CD169-(Sialoadhesin,-Siglec-1)-TotalSeqC",
+   "anti-human/mouse-integrin-beta7-TotalSeqC",
+   "anti-human-CD54-TotalSeqC",
+   "anti-human-CD62P-(P-Selectin)-TotalSeqC",
+   "anti-human-CD122-(IL-2Rbeta)-TotalSeqC",
+   "anti-human-CD41-TotalSeqC",
+   "anti-human-CD137-(4-1BB)-TotalSeqC",
+   "anti-human-CD163-TotalSeqC",
+   "anti-human-CD83-TotalSeqC",
+   "anti-human-CD124-(IL-4Ralpha)-TotalSeqC",
+   "anti-human-CD2-TotalSeqC",
+   "anti-human-CD226-(DNAM-1)-TotalSeqC",
+   "anti-human-CD29-TotalSeqC",
+   "anti-human-CD303-(BDCA-2)-TotalSeqC",
+   "anti-human-CD49b-TotalSeqC",
+   "anti-human-CD81-(TAPA-1)-TotalSeqC",
+   "anti-human-IgD-TotalSeqC",
+   "anti-human-CD18-TotalSeqC",
+   "anti-human-CD28-TotalSeqC",
+   "anti-human-CD38-TotalSeqC",
+   "anti-human-CD127-(IL-7Ralpha)-TotalSeqC",
+   "anti-human-CD45-TotalSeqC",
+   "anti-human-CD22-TotalSeqC",
+   "anti-human-CD71-TotalSeqC",
+   "anti-human-CD26-TotalSeqC",
+   "anti-human-CD204-TotalSeqC",
+   "anti-human-CD36-TotalSeqC",
+   "anti-human-CD158-(KIR2DL1/S1/S3/S5)-TotalSeqC",
+   "anti-human-CD49d-TotalSeqC",
+   "anti-human-CD73-(Ecto-5'-nucleotidase)-TotalSeqC",
+   "anti-human-LOX-1-TotalSeqC",
+   "anti-human-CD158b-(KIR2DL2/L3,-NKAT2)-TotalSeqC",
+   "anti-human-CD209-TotalSeqC",
+   "anti-human-CD158e1-(KIR3DL1,-NKB1)-TotalSeqC",
+   "anti-human-CD319-(CRACC)-TotalSeqC",
+   "anti-human-CD99-TotalSeqC",
+   "anti-human-CLEC12A-TotalSeqC",
+   "anti-human-CD94-TotalSeqC",
+   "anti-human-CD85j-(ILT2)-TotalSeqC",
+   "anti-human-CD23-TotalSeqC",
+   "anti-human-CD328-(Siglec-7)-TotalSeqC",
+   "anti-human-CD82-TotalSeqC",
+   "anti-human-CD101-(BB27)-TotalSeqC",
+   "anti-human-CD88-(C5aR)-TotalSeqC",
+   "anti-human-CD224-TotalSeqC"
+  ],
+  "proteins_atlas": [
+   "AB_CD86",
+   "AB_CD274",
+   "AB_ITGAM",
+   "AB_PVR",
+   "AB_NECTIN2",
+   "AB_CD47",
+   "AB_CD40",
+   "AB_CD40LG",
+   "AB_CD52",
+   "AB_CD3",
+   "AB_CD8",
+   "AB_CD56",
+   "AB_CD19",
+   "AB_CD33",
+   "AB_ITGAX",
+   "AB_CD45RA",
+   "AB_CD123",
+   "AB_CD7",
+   "AB_ITGA6",
+   "AB_CCR4",
+   "AB_CD4",
+   "AB_CD44",
+   "AB_CD14",
+   "AB_CD16",
+   "AB_CD25",
+   "AB_CD45RO",
+   "AB_TIGIT",
+   "AB_CD20",
+   "AB_NCR1",
+   "AB_PECAM1",
+   "AB_MCAM",
+   "AB_IgM",
+   "AB_CD5",
+   "AB_CXCR3",
+   "AB_CCR5",
+   "AB_FCGR2A",
+   "AB_CCR6",
+   "AB_CXCR5",
+   "AB_ITGAE",
+   "AB_CD69",
+   "AB_CD62L",
+   "AB_CD161",
+   "AB_CTLA4",
+   "AB_LAG3",
+   "AB_KLRG1",
+   "AB_CD27",
+   "AB_LAMP1",
+   "AB_FAS",
+   "AB_HLA-DR",
+   "AB_CD1C",
+   "AB_CD64",
+   "AB_CD141",
+   "AB_CD1d",
+   "AB_KLRK1",
+   "AB_CR1",
+   "AB_B3GAT1",
+   "AB_BTLA",
+   "AB_ICOS",
+   "AB_CD58",
+   "AB_ENTPD1",
+   "AB_CX3CR1",
+   "AB_CD24",
+   "AB_CD21",
+   "AB_ITGAL",
+   "AB_CD79b",
+   "AB_CD244",
+   "AB_SIGLEC1",
+   "AB_ITGB7",
+   "AB_ICAM1",
+   "AB_SELP",
+   "AB_IL2RB",
+   "AB_ITGA2B",
+   "AB_TNFRSF9",
+   "AB_CD163",
+   "AB_CD83",
+   "AB_IL4R",
+   "AB_CD2",
+   "AB_CD226",
+   "AB_ITGB1",
+   "AB_CD303",
+   "AB_ITGA2",
+   "AB_CD81",
+   "AB_IgD",
+   "AB_ITGB2",
+   "AB_CD28",
+   "AB_CD38",
+   "AB_IL7R",
+   "AB_CD45",
+   "AB_CD22",
+   "AB_CD71",
+   "AB_DPP4",
+   "AB_MSR1",
+   "AB_CD36",
+   "AB_CD158",
+   "AB_ITGA4",
+   "AB_NT5E",
+   "AB_OLR1",
+   "AB_CD158b",
+   "AB_CD209",
+   "AB_KIR3DL1",
+   "AB_SLAMF7",
+   "AB_CD99",
+   "AB_CLEC12A",
+   "AB_KLRD1",
+   "AB_LILRB1",
+   "AB_FCER2",
+   "AB_SIGLEC7",
+   "AB_CD82",
+   "AB_CD101",
+   "AB_C5AR1",
+   "AB_GGT1"
+  ]
+ }
+}

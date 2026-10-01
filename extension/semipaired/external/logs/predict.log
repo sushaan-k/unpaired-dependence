@@ -1,0 +1,13 @@
+[142s] budget 25
+[311s] budget 50
+[483s] budget 100
+[696s] budget 200
+[997s] budget 400
+{
+ "predictions.npz": "29b555b374674a8ad9287e8d2efd4dc0ec87f8457c0d44e6c7f0561be7035824",
+ "predict_info.json": "e34ddfc0c00793a50785fbe6b0ad368142fcbedc64a1a43178d5d39c64ed5e3c",
+ "freeze.json": "536d621cb6b8a98cf9161aec3cb2240d2cfae15d5a4d15ce313b94461e705adb",
+ "frozen_at": "2026-09-27T14:49:37-0400",
+ "written_at": "2026-09-27T15:06:29-0400",
+ "note": "written before any held-out file was opened"
+}

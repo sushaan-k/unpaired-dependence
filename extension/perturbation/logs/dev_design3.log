@@ -1,0 +1,13 @@
+full {'ifnblock': np.float64(0.511), 'ifn': np.float64(0.256), 'all': np.float64(0.103)}
+k=5 random removal mean {'ifnblock': np.float64(0.442), 'ifn': np.float64(0.181), 'all': np.float64(0.054)} q10 {'ifnblock': np.float64(0.234), 'ifn': np.float64(-0.069), 'all': np.float64(-0.112)}
+   remove top[ifn] dimS 0 {'ifnblock': np.float64(0.068), 'ifn': np.float64(0.055), 'all': np.float64(0.039)} ['JAK2', 'IFNGR2', 'MYC', 'B2M', 'CTPS1']
+   remove top[general] dimS 0 {'ifnblock': np.float64(0.0), 'ifn': np.float64(0.0), 'all': np.float64(0.0)} ['JAK2', 'IFNGR2', 'TMED10', 'CTPS1', 'MYC']
+   remove top[strength] dimS 0 {'ifnblock': np.float64(0.007), 'ifn': np.float64(0.006), 'all': np.float64(0.004)} ['JAK2', 'IFNGR2', 'CTPS1', 'B2M', 'TMED10']
+k=10 random removal mean {'ifnblock': np.float64(0.467), 'ifn': np.float64(0.201), 'all': np.float64(0.059)} q10 {'ifnblock': np.float64(0.489), 'ifn': np.float64(0.229), 'all': np.float64(0.078)}
+   remove top[ifn] dimS 0 {'ifnblock': np.float64(0.0), 'ifn': np.float64(0.0), 'all': np.float64(0.0)} ['JAK2', 'IFNGR2', 'MYC', 'B2M', 'CTPS1', 'PET100', 'FOXM1', 'PABPC1']
+   remove top[general] dimS 0 {'ifnblock': np.float64(0.105), 'ifn': np.float64(0.073), 'all': np.float64(0.039)} ['JAK2', 'IFNGR2', 'TMED10', 'CTPS1', 'MYC', 'DNMT1', 'CTSD', 'CKS1B']
+   remove top[strength] dimS 0 {'ifnblock': np.float64(0.0), 'ifn': np.float64(0.0), 'all': np.float64(0.0)} ['JAK2', 'IFNGR2', 'CTPS1', 'B2M', 'TMED10', 'MYC', 'DNMT1', 'PABPC1']
+k=20 random removal mean {'ifnblock': np.float64(0.399), 'ifn': np.float64(0.146), 'all': np.float64(0.025)} q10 {'ifnblock': np.float64(-0.009), 'ifn': np.float64(-0.205), 'all': np.float64(-0.177)}
+   remove top[ifn] dimS 0 {'ifnblock': np.float64(0.07), 'ifn': np.float64(0.056), 'all': np.float64(0.043)} ['JAK2', 'IFNGR2', 'MYC', 'B2M', 'CTPS1', 'PET100', 'FOXM1', 'PABPC1']
+   remove top[general] dimS 0 {'ifnblock': np.float64(0.114), 'ifn': np.float64(0.08), 'all': np.float64(0.04)} ['JAK2', 'IFNGR2', 'TMED10', 'CTPS1', 'MYC', 'DNMT1', 'CTSD', 'CKS1B']
+   remove top[strength] dimS 0 {'ifnblock': np.float64(0.0), 'ifn': np.float64(0.0), 'all': np.float64(0.0)} ['JAK2', 'IFNGR2', 'CTPS1', 'B2M', 'TMED10', 'MYC', 'DNMT1', 'PABPC1']

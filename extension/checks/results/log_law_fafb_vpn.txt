@@ -1,0 +1,36 @@
+[07:09:34] p100: n {'pool_x': 1613, 'pool_y': 1642, 'reservoir': 2132, 'truth': 1714, 'populations': 2, 'p': 100, 'q': 119}, pilot 200, budgets 25-1600, law saving at 0.5 2.34
+[07:09:37] p200: n {'pool_x': 1613, 'pool_y': 1642, 'reservoir': 2132, 'truth': 1714, 'populations': 2, 'p': 200, 'q': 119}, pilot 200, budgets 25-1600, law saving at 0.5 2.93
+[07:09:41] p400: n {'pool_x': 1613, 'pool_y': 1642, 'reservoir': 2132, 'truth': 1714, 'populations': 2, 'p': 302, 'q': 119}, pilot 200, budgets 25-1600, law saving at 0.5 3.48
+[07:09:42] predictions hashed
+[07:09:42] {
+ "test": "law/fafb_vpn",
+ "problems": [
+  "p100",
+  "p200",
+  "p400"
+ ],
+ "curve_points_compared": 63,
+ "max_abs_difference_per_draw_vs_published": 5.551115123125783e-16,
+ "max_abs_difference_stored_form_vs_published": 0.0,
+ "averaged_prediction_minus_published": {
+  "min": 0.005033332107922006,
+  "median": 0.1359280562566192,
+  "max": 0.2523383658695757,
+  "points": 63
+ },
+ "regenerated_files_identical": {
+  "fafb_vpn_estimates.npz": true,
+  "fafb_vpn_msq.json": true,
+  "fafb_vpn_predictions.json": true
+ },
+ "stored_vs_regenerated": {
+  "compared": 63,
+  "draws_per_key": [
+   20
+  ],
+  "max_abs_mean_difference": 2.6645352591003757e-15,
+  "max_rel_msq_difference": 3.922740399079722e-16
+ },
+ "seconds": 11,
+ "passed": true
+}

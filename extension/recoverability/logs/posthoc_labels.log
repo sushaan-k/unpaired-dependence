@@ -1,0 +1,85 @@
+s1d2 {'rna_accuracy': 0.903, 'protein_accuracy': 0.93, 'assays_agree': 0.923, 'type_means_error_assay_labels': 0.188, 'type_means_error_joint_labels': 0.207, 'frozen_error': 0.461}
+s3d7 {'rna_accuracy': 0.911, 'protein_accuracy': 0.911, 'assays_agree': 0.883, 'type_means_error_assay_labels': 0.201, 'type_means_error_joint_labels': 0.192, 'frozen_error': 0.448}
+s2d4 {'rna_accuracy': 0.951, 'protein_accuracy': 0.913, 'assays_agree': 0.907, 'type_means_error_assay_labels': 0.211, 'type_means_error_joint_labels': 0.214, 'frozen_error': 0.567}
+s4d9 {'rna_accuracy': 0.893, 'protein_accuracy': 0.874, 'assays_agree': 0.882, 'type_means_error_assay_labels': 0.271, 'type_means_error_joint_labels': 0.281, 'frozen_error': 0.595}
+s1d1 {'rna_accuracy': 0.962, 'protein_accuracy': 0.977, 'assays_agree': 0.96, 'type_means_error_assay_labels': 0.159, 'type_means_error_joint_labels': 0.161, 'frozen_error': 0.543}
+s2d1 {'rna_accuracy': 0.949, 'protein_accuracy': 0.972, 'assays_agree': 0.94, 'type_means_error_assay_labels': 0.175, 'type_means_error_joint_labels': 0.172, 'frozen_error': 0.56}
+s3d1 {'rna_accuracy': 0.879, 'protein_accuracy': 0.941, 'assays_agree': 0.881, 'type_means_error_assay_labels': 0.232, 'type_means_error_joint_labels': 0.222, 'frozen_error': 0.58}
+s4d1 {'rna_accuracy': 0.948, 'protein_accuracy': 0.958, 'assays_agree': 0.944, 'type_means_error_assay_labels': 0.2, 'type_means_error_joint_labels': 0.203, 'frozen_error': 0.455}
+s2d5 {'rna_accuracy': 0.942, 'protein_accuracy': 0.973, 'assays_agree': 0.943, 'type_means_error_assay_labels': 0.154, 'type_means_error_joint_labels': 0.153, 'frozen_error': 0.402}
+s1d3 {'rna_accuracy': 0.947, 'protein_accuracy': 0.967, 'assays_agree': 0.959, 'type_means_error_assay_labels': 0.258, 'type_means_error_joint_labels': 0.271, 'frozen_error': 0.641}
+s4d8 {'rna_accuracy': 0.953, 'protein_accuracy': 0.965, 'assays_agree': 0.943, 'type_means_error_assay_labels': 0.221, 'type_means_error_joint_labels': 0.219, 'frozen_error': 0.482}
+s3d6 {'rna_accuracy': 0.899, 'protein_accuracy': 0.863, 'assays_agree': 0.839, 'type_means_error_assay_labels': 0.222, 'type_means_error_joint_labels': 0.223, 'frozen_error': 0.524}
+{
+ "summary": {
+  "rna_accuracy": 0.9280476137647599,
+  "protein_accuracy": 0.936995856398413,
+  "assays_agree": 0.9169744278009371,
+  "type_means_error_assay_labels": 0.2076435771015679,
+  "type_means_error_joint_labels": 0.20986297263554843,
+  "frozen_error": 0.5214469292818461,
+  "assay_minus_joint": {
+   "mean": -0.0022193955339805858,
+   "ci": [
+    -0.008631923669908706,
+    0.0016553985862240701
+   ]
+  },
+  "frozen_minus_assay_label_type_means": {
+   "mean": 0.3138033521802784,
+   "ci": [
+    0.27692402006783934,
+    0.3376285317078796
+   ],
+   "samples_type_means_better": 12
+  }
+ },
+ "failure": {
+  "all_pairs": {
+   "joint_labels": {
+    "value": 0.8729640658082761,
+    "ci": [
+     0.8158722502416169,
+     0.9210674183502658
+    ]
+   },
+   "assay_labels": {
+    "value": 0.8730089554918787,
+    "ci": [
+     0.8070870273571157,
+     0.9218539524991138
+    ]
+   },
+   "difference": {
+    "value": 4.488968360261136e-05,
+    "ci": [
+     -0.0004183638856831401,
+     0.00035440536204948134
+    ]
+   }
+  },
+  "high_coverage": {
+   "joint_labels": {
+    "value": 0.9891107078039928,
+    "ci": [
+     0.9770917550687339,
+     0.9962709080531789
+    ]
+   },
+   "assay_labels": {
+    "value": 0.9893375680580763,
+    "ci": [
+     0.9763910422990413,
+     0.9965818839851212
+    ]
+   },
+   "type_disagreement_assay_labels": {
+    "value": 0.9267241379310345,
+    "ci": [
+     0.898982683982684,
+     0.9470260149140398
+    ]
+   }
+  }
+ }
+}

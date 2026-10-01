@@ -1,0 +1,36 @@
+[07:08:48] p100: n {'pool_x': 1877, 'pool_y': 1894, 'reservoir': 2472, 'truth': 2114, 'populations': 31, 'p': 100, 'q': 200}, pilot 200, budgets 25-1600, law saving at 0.5 3.29
+[07:08:53] p200: n {'pool_x': 1877, 'pool_y': 1894, 'reservoir': 2472, 'truth': 2114, 'populations': 31, 'p': 200, 'q': 200}, pilot 200, budgets 25-1600, law saving at 0.5 4.46
+[07:09:05] p400: n {'pool_x': 1877, 'pool_y': 1894, 'reservoir': 2472, 'truth': 2114, 'populations': 31, 'p': 400, 'q': 200}, pilot 200, budgets 25-1600, law saving at 0.5 5.81
+[07:09:06] predictions hashed
+[07:09:07] {
+ "test": "law/fetal_cortex",
+ "problems": [
+  "p100",
+  "p200",
+  "p400"
+ ],
+ "curve_points_compared": 63,
+ "max_abs_difference_per_draw_vs_published": 1.3877787807814457e-16,
+ "max_abs_difference_stored_form_vs_published": 0.0,
+ "averaged_prediction_minus_published": {
+  "min": 0.00855146522342414,
+  "median": 0.0470126256546643,
+  "max": 0.5106384143400957,
+  "points": 63
+ },
+ "regenerated_files_identical": {
+  "fetal_cortex_estimates.npz": true,
+  "fetal_cortex_msq.json": true,
+  "fetal_cortex_predictions.json": true
+ },
+ "stored_vs_regenerated": {
+  "compared": 63,
+  "draws_per_key": [
+   20
+  ],
+  "max_abs_mean_difference": 1.1102230246251565e-16,
+  "max_rel_msq_difference": 3.670811814127205e-16
+ },
+ "seconds": 24,
+ "passed": true
+}

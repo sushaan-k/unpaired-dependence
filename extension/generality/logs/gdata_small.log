@@ -1,0 +1,23 @@
+=== scala_m1
+{"source": "Scala et al. 2021 mouse motor cortex Patch-seq (github.com/berenslab/mini-atlas); cells without exclusion reasons, with an RNA family and all kept features", "x": "exon read counts", "y": "electrophysiological features (29, <= 10% missing)", "unit": "mouse", "cond": "RNA family", "pop": "condition", "cells": 1297, "units": 264}
+=== gouwens_visp
+{"source": "Gouwens et al. 2020 mouse visual-cortex GABAergic Patch-seq, processed by Gala et al. 2021 (github.com/AllenInstitute/coupledAE-patchseq); expression log CPM (no counts)", "x": "log CPM of 1,252 genes (no counts: latent correlation = measured)", "y": "24 electrophysiological features and 44 sparse principal components of responses", "unit": "recording day", "cond": "subclass (first word of the t-type)", "pop": "condition", "cells": 3395, "units": 362}
+=== colon
+{"source": "Mennillo et al. 2024 colon CITE-seq (Figshare 21919356 v3)", "x": "RNA counts", "y": "ADT counts (177)", "unit": "patient", "cond": "coarse annotation", "pop": "sample", "cells": 15953, "units": 12}
+=== banc
+/home/claude/cbio/cbio-agent-handoff/extension/generality/gdata.py:294: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ok = (Xb.sum(1) >= MIN_SIDE) & (Yv.sum(1) >= MIN_SIDE)
+/home/claude/cbio/cbio-agent-handoff/extension/generality/gdata.py:294: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ok = (Xb.sum(1) >= MIN_SIDE) & (Yv.sum(1) >= MIN_SIDE)
+{"source": "banc connectome, compiled data of the fly connectome tutorial (gs://lee-lab_brain-and-nerve-cord-fly-connectome/compiled_data): banc_888_meta.feather, banc_888_edgelist_simple_v3.feather", "x": "brain-side synapse counts with partner groups (super class : hemilineage, else cell class), inputs and outputs", "y": "nerve-cord-side synapse counts, same groups", "unit": "cell type", "cond": "super class (descending, ascending)", "pop": "condition", "neurons": "descending and ascending neurons with a cell type and >= 50 synapses on each side", "cells": 2489, "units": 913}
+=== hao
+{"source": "Hao et al. 2021 PBMC CITE-seq (GSE164378), 3' data; 606-gene cross-study panel as candidates", "x": "RNA counts", "y": "ADT counts (228)", "unit": "donor", "cond": "celltype.l1", "pop": "donor x time point (sample)", "cells": 72000, "units": 8}
+=== fafb_brain
+/home/claude/cbio/cbio-agent-handoff/extension/generality/gdata.py:325: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ok = D.sum(1) >= MIN_SIDE
+fafb_brain (2767, 608)
+=== manc_vnc
+/home/claude/cbio/cbio-agent-handoff/extension/generality/gdata.py:325: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ok = D.sum(1) >= MIN_SIDE
+manc_vnc (3149, 128)
+done

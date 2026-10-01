@@ -1,0 +1,32 @@
+s1d1/total 2613 frozen F 0.941 coverage 0.512
+s1d1/within_coarse 2613 frozen F 0.435 coverage 0.213
+s1d1/within_fine 2565 frozen F 0.345 coverage 0.176
+s1d2/total 2489 frozen F 0.792 coverage 0.518
+s1d2/within_coarse 2489 frozen F 0.493 coverage 0.225
+s1d2/within_fine 2454 frozen F 0.396 coverage 0.179
+s1d3/total 3053 frozen F 0.605 coverage 0.5
+s1d3/within_coarse 3053 frozen F 0.324 coverage 0.229
+s1d3/within_fine 3023 frozen F 0.257 coverage 0.155
+s2d1/total 5232 frozen F 0.394 coverage 0.494
+s2d1/within_coarse 5232 frozen F 0.275 coverage 0.21
+Traceback (most recent call last):
+  File "/home/claude/cbio/cbio-agent-handoff/extension/recoverability/predict_bmmc.py", line 236, in <module>
+    main()
+  File "/home/claude/cbio/cbio-agent-handoff/extension/recoverability/predict_bmmc.py", line 190, in main
+    for k, C in channel_predictions(a, ch).items():
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/recoverability/predict_bmmc.py", line 135, in channel_predictions
+    return {k: transfer(Marginal(R, a["Ry"]), ch["B"])[0] for k, R in (("measured", a["Rx"]), ("signal", a["Rz"]))}
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/recoverability/predict_bmmc.py", line 135, in <dictcomp>
+    return {k: transfer(Marginal(R, a["Ry"]), ch["B"])[0] for k, R in (("measured", a["Rx"]), ("signal", a["Rz"]))}
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/spectral_transfer/gaussian_transfer.py", line 53, in transfer
+    U, beta, Vt = np.linalg.svd(marginal.Rx @ B @ marginal.Ry, full_matrices=False)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/.venv/lib/python3.11/site-packages/numpy/linalg/_linalg.py", line 1796, in svd
+    u, s, vh = gufunc(a, signature=signature)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/.venv/lib/python3.11/site-packages/numpy/linalg/_linalg.py", line 113, in _raise_linalgerror_svd_nonconvergence
+    raise LinAlgError("SVD did not converge")
+numpy.linalg.LinAlgError: SVD did not converge

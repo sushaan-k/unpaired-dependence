@@ -1,0 +1,63 @@
+{
+  "salt": "blood-colon-v1",
+  "files": {
+    "adaptation": {
+      "cells": 7974,
+      "sha256": "38e5eab1ab983acc1eca88f0751d33eb1c94efbfa3bcce67a5976884153d2e1e"
+    },
+    "scoring": {
+      "cells": 7979,
+      "sha256": "14f0e1b4dfb6a559b770d109615044ab1bb9a298ac72fce9027f85f7bdd4332b"
+    }
+  },
+  "cells_per_donor": {
+    "XAUT1-HS1": [
+      731,
+      731
+    ],
+    "XAUT1-HS10": [
+      216,
+      217
+    ],
+    "XAUT1-HS11": [
+      675,
+      675
+    ],
+    "XAUT1-HS12": [
+      1403,
+      1403
+    ],
+    "XAUT1-HS2": [
+      511,
+      512
+    ],
+    "XAUT1-HS3": [
+      852,
+      852
+    ],
+    "XAUT1-HS4": [
+      865,
+      865
+    ],
+    "XAUT1-HS5": [
+      523,
+      523
+    ],
+    "XAUT1-HS6": [
+      265,
+      266
+    ],
+    "XAUT1-HS7": [
+      778,
+      779
+    ],
+    "XAUT1-HS8": [
+      483,
+      483
+    ],
+    "XAUT1-HS9": [
+      672,
+      673
+    ]
+  }
+}

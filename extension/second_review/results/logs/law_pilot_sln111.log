@@ -1,0 +1,9 @@
+[06:14:54] sln111 p100 target 0.5: observed 275=; m=50: median achieved 0.481, reached 0.45; m=100: median achieved 0.489, reached 0.44; m=200: median achieved 0.493, reached 0.47
+[06:14:56] sln111 p100 target 0.3: observed 87=; m=50: median achieved 0.333, reached 0.59; m=100: median achieved 0.366, reached 0.76; m=200: median achieved 0.461, reached 0.92
+[06:14:59] sln111 p100 target 0.7: observed 1164=; m=50: median achieved 0.660, reached 0.37; m=100: median achieved 0.664, reached 0.29; m=200: median achieved 0.662, reached 0.30
+[06:15:02] sln111 p200 target 0.5: observed 263=; m=50: median achieved 0.506, reached 0.52; m=100: median achieved 0.479, reached 0.43; m=200: median achieved 0.499, reached 0.48
+[06:15:04] sln111 p200 target 0.3: observed 112=; m=50: median achieved 0.341, reached 0.66; m=100: median achieved 0.391, reached 0.88; m=200: median achieved 0.463, reached 0.98
+[06:15:09] sln111 p200 target 0.7: observed 1364=; m=50: median achieved 0.666, reached 0.40; m=100: median achieved 0.660, reached 0.38; m=200: median achieved 0.668, reached 0.33
+[06:15:15] sln111 p400 target 0.5: observed 266=; m=50: median achieved 0.535, reached 0.59; m=100: median achieved 0.496, reached 0.47; m=200: median achieved 0.509, reached 0.58
+[06:15:18] sln111 p400 target 0.3: observed 84=; m=50: median achieved 0.381, reached 0.78; m=100: median achieved 0.375, reached 0.84; m=200: median achieved 0.472, reached 0.99
+[06:15:29] sln111 p400 target 0.7: observed 1423=; m=50: median achieved 0.655, reached 0.34; m=100: median achieved 0.674, reached 0.36; m=200: median achieved 0.667, reached 0.31

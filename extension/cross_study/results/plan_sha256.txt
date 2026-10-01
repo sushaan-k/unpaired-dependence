@@ -1,0 +1,4 @@
+2694fa0b6ce7a48fb634cc36b6c108a481d0ca4b5a6c0eb39587be8bdf0799f1  PLAN.md with amendment 1 (2026-09-26 12:50 EDT, before any recipient prediction)
+26040ae29c1a15924dba1a1f5a307caa6c1620e800c1ac6cf21f6615c2c42fcc  PLAN.md as frozen before extraction (original)
+47e9aefe3a234f28253d3557a895ed40f2e49f6ba097bcbfc2e77eb1bd832686  PLAN.md with post hoc analysis P1 appended (2026-09-26 15:40 EDT, after scoring; before P1 was computed)
+29e4e32c4f8b89fd8cde11a0b0c8f27f2c912621f6541fb0d5a4d287719593e7  PLAN.md with post hoc analysis P2 appended (2026-09-26 16:05 EDT, after P1; before P2 was computed)

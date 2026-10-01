@@ -1,0 +1,57 @@
+hao P1 total 9067 benchmark lambda 0.1
+hao P1 within_l1 9067 benchmark lambda 1.0
+hao P1 within_l2 9055 benchmark lambda 1.0
+hao P2 total 8602 benchmark lambda 0.1
+hao P2 within_l1 8602 benchmark lambda 1.0
+hao P2 within_l2 8579 benchmark lambda 1.0
+hao P3 total 7330 benchmark lambda 1.0
+hao P3 within_l1 7330 benchmark lambda 1.0
+hao P3 within_l2 7297 benchmark lambda 1.0
+hao P4 total 8545 benchmark lambda 0.1
+hao P4 within_l1 8545 benchmark lambda 1.0
+hao P4 within_l2 8513 benchmark lambda 1.0
+hao P5 total 10905 benchmark lambda 0.1
+hao P5 within_l1 10905 benchmark lambda 1.0
+hao P5 within_l2 10873 benchmark lambda 1.0
+hao P6 total 10371 benchmark lambda 0.1
+hao P6 within_l1 10371 benchmark lambda 1.0
+hao P6 within_l2 10340 benchmark lambda 1.0
+hao P7 total 12935 benchmark lambda 0.1
+hao P7 within_l1 12935 benchmark lambda 1.0
+hao P7 within_l2 12903 benchmark lambda 1.0
+hao P8 total 13125 benchmark lambda 0.1
+hao P8 within_l1 13125 benchmark lambda 1.0
+hao P8 within_l2 13097 benchmark lambda 1.0
+colon XAUT1-HS1 total 731 benchmark lambda 1.0
+colon XAUT1-HS1 within_coarse 710 benchmark lambda 10.0
+colon XAUT1-HS10 total 216 benchmark lambda 10.0
+colon XAUT1-HS10 within_coarse 183 benchmark lambda 10.0
+colon XAUT1-HS11 total 675 benchmark lambda 1.0
+colon XAUT1-HS11 within_coarse 654 benchmark lambda 10.0
+colon XAUT1-HS12 total 1403 benchmark lambda 1.0
+colon XAUT1-HS12 within_coarse 1377 benchmark lambda 10.0
+colon XAUT1-HS2 total 511 benchmark lambda 10.0
+colon XAUT1-HS2 within_coarse 486 benchmark lambda 10.0
+colon XAUT1-HS3 total 852 benchmark lambda 1.0
+colon XAUT1-HS3 within_coarse 835 benchmark lambda 10.0
+colon XAUT1-HS4 total 865 benchmark lambda 1.0
+colon XAUT1-HS4 within_coarse 845 benchmark lambda 10.0
+colon XAUT1-HS5 total 523 benchmark lambda 1.0
+colon XAUT1-HS5 within_coarse 499 benchmark lambda 10.0
+colon XAUT1-HS6 total 265 benchmark lambda 10.0
+colon XAUT1-HS6 within_coarse 244 benchmark lambda 10.0
+colon XAUT1-HS7 total 778 benchmark lambda 1.0
+colon XAUT1-HS7 within_coarse 761 benchmark lambda 10.0
+colon XAUT1-HS8 total 483 benchmark lambda 1.0
+colon XAUT1-HS8 within_coarse 459 benchmark lambda 10.0
+colon XAUT1-HS9 total 672 benchmark lambda 1.0
+colon XAUT1-HS9 within_coarse 653 benchmark lambda 10.0
+{
+ "predictions.npz": "b23404d0bc17da48dcbf0e2bc295dcc01c788d9db60777e2af165ad578e7c310",
+ "prediction_info.json": "1ef27df3e169c78d27d278ffab5c8b5fd0cce960c41cd2b6f4775d2a34004668",
+ "reference_fit.npz": "883de364939ee1ed12e0bc5174e9cf88850bfd3774eda967245a5dc9d677842e",
+ "PLAN.md": "2694fa0b6ce7a48fb634cc36b6c108a481d0ca4b5a6c0eb39587be8bdf0799f1",
+ "seal.json": "0c2c99d5ca38d4b86a3e4cbdfc70837f38572186d2745effd3d8bf7b7e208d0c",
+ "hao_seal.json": "862ae36f176f9cadc28491cbeae469549c0a124269b3343a21047fa883a69642",
+ "note": "written before any scoring file was opened"
+}

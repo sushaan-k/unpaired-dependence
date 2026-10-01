@@ -1,0 +1,141 @@
+{
+ "dimension_M": 11,
+ "donors": {
+  "hao/P1/within_l1": {
+   "rho_between": 0.8892850878533594,
+   "rho_within": 0.1264593338037037,
+   "between_variance_share": 0.33935826145103487
+  },
+  "hao/P2/within_l1": {
+   "rho_between": 0.892343578779503,
+   "rho_within": 0.12542877306576375,
+   "between_variance_share": 0.37430449852811165
+  },
+  "hao/P3/within_l1": {
+   "rho_between": 0.8886485755353271,
+   "rho_within": 0.10473054356220002,
+   "between_variance_share": 0.3953705913325547
+  },
+  "hao/P4/within_l1": {
+   "rho_between": 0.8800577376989225,
+   "rho_within": 0.11315436447682299,
+   "between_variance_share": 0.3698769838454771
+  },
+  "hao/P5/within_l1": {
+   "rho_between": 0.8700290281612177,
+   "rho_within": 0.1273154654651154,
+   "between_variance_share": 0.39186265374087376
+  },
+  "hao/P6/within_l1": {
+   "rho_between": 0.8896853163267588,
+   "rho_within": 0.10458351008989761,
+   "between_variance_share": 0.41045023082348564
+  },
+  "hao/P7/within_l1": {
+   "rho_between": 0.8801201908643296,
+   "rho_within": 0.13324116762236207,
+   "between_variance_share": 0.4185681841012653
+  },
+  "hao/P8/within_l1": {
+   "rho_between": 0.8826417889976149,
+   "rho_within": 0.13313353463124525,
+   "between_variance_share": 0.3937074834277544
+  },
+  "colon/XAUT1-HS1/within_coarse": {
+   "rho_between": 0.5861025454694632,
+   "rho_within": 0.0914295096455531,
+   "between_variance_share": 0.2131749562096693
+  },
+  "colon/XAUT1-HS10/within_coarse": {
+   "rho_between": 0.5181606009940583,
+   "rho_within": 0.08158947990554728,
+   "between_variance_share": 0.08510559409612527
+  },
+  "colon/XAUT1-HS11/within_coarse": {
+   "rho_between": 0.5630167782271567,
+   "rho_within": 0.08587747336829818,
+   "between_variance_share": 0.1537865120178455
+  },
+  "colon/XAUT1-HS12/within_coarse": {
+   "rho_between": 0.5029332857873833,
+   "rho_within": 0.07853731662954716,
+   "between_variance_share": 0.14859260310843567
+  },
+  "colon/XAUT1-HS2/within_coarse": {
+   "rho_between": 0.5231986896429021,
+   "rho_within": 0.07501921092841041,
+   "between_variance_share": 0.1578111790402108
+  },
+  "colon/XAUT1-HS3/within_coarse": {
+   "rho_between": 0.5632981170756152,
+   "rho_within": 0.09430107375931937,
+   "between_variance_share": 0.21894447402477185
+  },
+  "colon/XAUT1-HS4/within_coarse": {
+   "rho_between": 0.6048959742849082,
+   "rho_within": 0.08548066598091958,
+   "between_variance_share": 0.25116623435749164
+  },
+  "colon/XAUT1-HS5/within_coarse": {
+   "rho_between": 0.5842356346521922,
+   "rho_within": 0.09609979537898768,
+   "between_variance_share": 0.2599839718543323
+  },
+  "colon/XAUT1-HS6/within_coarse": {
+   "rho_between": 0.5282322572658105,
+   "rho_within": 0.08002407424090645,
+   "between_variance_share": 0.25934407881976546
+  },
+  "colon/XAUT1-HS7/within_coarse": {
+   "rho_between": 0.6474869171130145,
+   "rho_within": 0.0952665658446291,
+   "between_variance_share": 0.23198669782180023
+  },
+  "colon/XAUT1-HS8/within_coarse": {
+   "rho_between": 0.6643787541225942,
+   "rho_within": 0.10114444523602549,
+   "between_variance_share": 0.28203070469714997
+  },
+  "colon/XAUT1-HS9/within_coarse": {
+   "rho_between": 0.4950431268915647,
+   "rho_within": 0.08138628429728337,
+   "between_variance_share": 0.16497433216212365
+  }
+ },
+ "summary": {
+  "hao": {
+   "rho_between": {
+    "mean": 0.8841014130271292,
+    "min": 0.8700290281612177,
+    "max": 0.892343578779503
+   },
+   "rho_within": {
+    "mean": 0.12100583658963884,
+    "min": 0.10458351008989761,
+    "max": 0.13324116762236207
+   },
+   "between_variance_share": {
+    "mean": 0.3866873609063197,
+    "min": 0.33935826145103487,
+    "max": 0.4185681841012653
+   }
+  },
+  "colon": {
+   "rho_between": {
+    "mean": 0.5650818901272219,
+    "min": 0.4950431268915647,
+    "max": 0.6643787541225942
+   },
+   "rho_within": {
+    "mean": 0.08717965793461892,
+    "min": 0.07501921092841041,
+    "max": 0.10114444523602549
+   },
+   "between_variance_share": {
+    "mean": 0.20224177818414346,
+    "min": 0.08510559409612527,
+    "max": 0.28203070469714997
+   }
+  }
+ }
+}

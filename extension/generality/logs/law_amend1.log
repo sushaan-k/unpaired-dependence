@@ -1,0 +1,49 @@
+{
+ "datasets": [
+  "hao",
+  "stephenson",
+  "bmmc_cite",
+  "colon",
+  "bmmc_multiome",
+  "gouwens_visp",
+  "banc",
+  "malecns",
+  "frangieh",
+  "papalexi",
+  "overcite"
+ ],
+ "predicted": {
+  "hao": 5.295936006704191,
+  "stephenson": 5.845213850572565,
+  "bmmc_cite": 5.433685705636178,
+  "colon": 6.011346506827866,
+  "bmmc_multiome": 19.348902684352048,
+  "gouwens_visp": 2.1599652765138817,
+  "banc": 2.7059006876157103,
+  "malecns": 3.58711846433787,
+  "frangieh": 6.941370282803261,
+  "papalexi": 2.7716077438094966,
+  "overcite": 4.337953818598382
+ },
+ "observed": {
+  "hao": 1.9615274724377199,
+  "stephenson": 2.0490909207503574,
+  "bmmc_cite": 4.749528887036605,
+  "colon": 6.361167677359623,
+  "bmmc_multiome": 2.8117441650854955,
+  "gouwens_visp": 1.3917151011155688,
+  "banc": 3.5899478205352255,
+  "malecns": 2.9315586393437165,
+  "frangieh": 5.484412856317674,
+  "papalexi": 2.10078591350396,
+  "overcite": 4.818839694421483
+ },
+ "spearman": 0.41818181818181827,
+ "p_one_sided": 0.103989601039896,
+ "permutations": 10000,
+ "G4_amended_met": false,
+ "complete": false,
+ "not_informative": [
+  "scala_m1"
+ ]
+}

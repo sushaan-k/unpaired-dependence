@@ -1,0 +1,56 @@
+hao/P1/within_l1 {'rho_between': 0.889, 'rho_within': 0.126, 'between_variance_share': 0.339}
+hao/P2/within_l1 {'rho_between': 0.892, 'rho_within': 0.125, 'between_variance_share': 0.374}
+hao/P3/within_l1 {'rho_between': 0.889, 'rho_within': 0.105, 'between_variance_share': 0.395}
+hao/P4/within_l1 {'rho_between': 0.88, 'rho_within': 0.113, 'between_variance_share': 0.37}
+hao/P5/within_l1 {'rho_between': 0.87, 'rho_within': 0.127, 'between_variance_share': 0.392}
+hao/P6/within_l1 {'rho_between': 0.89, 'rho_within': 0.105, 'between_variance_share': 0.41}
+hao/P7/within_l1 {'rho_between': 0.88, 'rho_within': 0.133, 'between_variance_share': 0.419}
+hao/P8/within_l1 {'rho_between': 0.883, 'rho_within': 0.133, 'between_variance_share': 0.394}
+colon/XAUT1-HS1/within_coarse {'rho_between': 0.586, 'rho_within': 0.091, 'between_variance_share': 0.213}
+colon/XAUT1-HS10/within_coarse {'rho_between': 0.518, 'rho_within': 0.082, 'between_variance_share': 0.085}
+colon/XAUT1-HS11/within_coarse {'rho_between': 0.563, 'rho_within': 0.086, 'between_variance_share': 0.154}
+colon/XAUT1-HS12/within_coarse {'rho_between': 0.503, 'rho_within': 0.079, 'between_variance_share': 0.149}
+colon/XAUT1-HS2/within_coarse {'rho_between': 0.523, 'rho_within': 0.075, 'between_variance_share': 0.158}
+colon/XAUT1-HS3/within_coarse {'rho_between': 0.563, 'rho_within': 0.094, 'between_variance_share': 0.219}
+colon/XAUT1-HS4/within_coarse {'rho_between': 0.605, 'rho_within': 0.085, 'between_variance_share': 0.251}
+colon/XAUT1-HS5/within_coarse {'rho_between': 0.584, 'rho_within': 0.096, 'between_variance_share': 0.26}
+colon/XAUT1-HS6/within_coarse {'rho_between': 0.528, 'rho_within': 0.08, 'between_variance_share': 0.259}
+colon/XAUT1-HS7/within_coarse {'rho_between': 0.647, 'rho_within': 0.095, 'between_variance_share': 0.232}
+colon/XAUT1-HS8/within_coarse {'rho_between': 0.664, 'rho_within': 0.101, 'between_variance_share': 0.282}
+colon/XAUT1-HS9/within_coarse {'rho_between': 0.495, 'rho_within': 0.081, 'between_variance_share': 0.165}
+{
+ "hao": {
+  "rho_between": {
+   "mean": 0.8841014130271292,
+   "min": 0.8700290281612177,
+   "max": 0.892343578779503
+  },
+  "rho_within": {
+   "mean": 0.12100583658963884,
+   "min": 0.10458351008989761,
+   "max": 0.13324116762236207
+  },
+  "between_variance_share": {
+   "mean": 0.3866873609063197,
+   "min": 0.33935826145103487,
+   "max": 0.4185681841012653
+  }
+ },
+ "colon": {
+  "rho_between": {
+   "mean": 0.5650818901272219,
+   "min": 0.4950431268915647,
+   "max": 0.6643787541225942
+  },
+  "rho_within": {
+   "mean": 0.08717965793461892,
+   "min": 0.07501921092841041,
+   "max": 0.10114444523602549
+  },
+  "between_variance_share": {
+   "mean": 0.20224177818414346,
+   "min": 0.08510559409612527,
+   "max": 0.28203070469714997
+  }
+ }
+}

@@ -1,0 +1,27 @@
+[2s] fold ATF2: 3 groups, reservoir 2128
+[3s] fold CAV1: 3 groups, reservoir 2151
+[5s] fold CD86: 3 groups, reservoir 2117
+[7s] fold CMTM6: 3 groups, reservoir 2152
+[8s] fold ETV7: 3 groups, reservoir 2137
+[10s] fold IFNGR1: 3 groups, reservoir 2073
+[12s] fold IFNGR2: 3 groups, reservoir 2116
+[14s] fold IRF1: 3 groups, reservoir 2134
+[15s] fold IRF7: 2 groups, reservoir 2168
+[17s] fold JAK2: 3 groups, reservoir 2140
+[19s] fold MARCH8: 3 groups, reservoir 2139
+[20s] fold NFKBIA: 3 groups, reservoir 2164
+[22s] fold PDCD1LG2: 3 groups, reservoir 2184
+[24s] fold POU2F2: 1 groups, reservoir 2158
+[26s] fold SMAD4: 2 groups, reservoir 2165
+[27s] fold STAT1: 1 groups, reservoir 2204
+[29s] fold STAT2: 3 groups, reservoir 2161
+[31s] fold STAT3: 2 groups, reservoir 2181
+[33s] fold STAT5A: 3 groups, reservoir 2173
+[34s] fold TNFRSF14: 3 groups, reservoir 2145
+[36s] fold UBE2L6: 2 groups, reservoir 2188
+[36s]  B=50: bjs 15.3/0.964  bjs_z 14.9/0.965  map 11.6/0.972  cond_direct -6.7/1.016  hier -1.4/1.003  map_hier -17.0/1.040  paired_all 81.2/0.807
+[36s]  B=100: bjs 38.5/0.909  bjs_z 38.4/0.909  map 34.7/0.918  cond_direct 17.1/0.959  hier 32.6/0.923  map_hier 23.8/0.943  paired_all 81.2/0.807
+[36s]  B=200: bjs 53.0/0.874  bjs_z 52.6/0.875  map 52.1/0.876  cond_direct 36.2/0.914  hier 51.9/0.877  map_hier 46.9/0.889  paired_all 81.2/0.807
+[36s]  B=400: bjs 61.5/0.854  bjs_z 61.1/0.855  map 60.6/0.856  cond_direct 50.3/0.880  hier 62.0/0.853  map_hier 57.3/0.864  paired_all 81.2/0.807
+[37s]  B=800: bjs 68.8/0.836  bjs_z 68.5/0.837  map 68.1/0.838  cond_direct 64.7/0.846  hier 70.5/0.833  map_hier 65.2/0.845  paired_all 81.2/0.807
+[37s]  B=1600: bjs 73.4/0.826  bjs_z 73.2/0.826  map 73.6/0.825  cond_direct 74.5/0.823  hier 76.2/0.819  map_hier 70.9/0.832  paired_all 81.2/0.807

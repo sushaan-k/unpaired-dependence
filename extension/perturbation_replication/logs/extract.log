@@ -1,0 +1,76 @@
+{
+ "created": "2026-09-27T08:00:26-04:00",
+ "source": {
+  "PapalexiSatija2021_eccite_RNA.h5ad": "03e9602d124c261281936717d5795445805e6e704a52b0310bcde94225aa0929",
+  "PapalexiSatija2021_eccite_protein.h5ad": "e1e293c75dfebe09301bf32093703cfd5f50c17d6fb53144d8213e52e0e4e150"
+ },
+ "cells": 20729,
+ "used_cells": 20652,
+ "targets": [
+  "ATF2",
+  "BRD4",
+  "CAV1",
+  "CD86",
+  "CMTM6",
+  "CUL3",
+  "ETV7",
+  "IFNGR1",
+  "IFNGR2",
+  "IRF1",
+  "IRF7",
+  "JAK2",
+  "MARCH8",
+  "MYC",
+  "NFKBIA",
+  "PDCD1LG2",
+  "POU2F2",
+  "SMAD4",
+  "SPI1",
+  "STAT1",
+  "STAT2",
+  "STAT3",
+  "STAT5A",
+  "TNFRSF14",
+  "UBE2L6"
+ ],
+ "replicates": [
+  "rep1-tx",
+  "rep3-tx",
+  "rep4-tx"
+ ],
+ "encoding_genes": [
+  "CD86",
+  "CD274",
+  "PDCD1LG2",
+  "HAVCR2"
+ ],
+ "proteins": [
+  "CD86",
+  "PDL1",
+  "PDL2",
+  "CD366"
+ ],
+ "files": {
+  "train": {
+   "sha256": "ceea2a21b376cf043bcc3df4b54fc8839950836c33f60c0ccc01be157c338b74",
+   "cells": 9120
+  },
+  "test_adaptation": {
+   "sha256": "efa2f1a1029fc464b2286609a091fe7a9b61bd819547fc451755ef34505aff02",
+   "cells": 4558
+  },
+  "test_scoring": {
+   "sha256": "84d17cd4dcd2c5b680cfcafc2d61ba12ae27f2b34cfd7fa9bb1e288380a3cae8",
+   "cells": 4599
+  },
+  "nt_adaptation": {
+   "sha256": "d6f20c5e8bb645b6d38001280260533e07812035e8c339e115b930414adc803c",
+   "cells": 1187
+  },
+  "nt_scoring": {
+   "sha256": "71466e63dba1378cca8dfe1902f22cf4bc06c7b392f08efbd9dc0d8b2094b326",
+   "cells": 1188
+  }
+ },
+ "note": "test and non-targeting cells: only library sizes were computed before this seal"
+}

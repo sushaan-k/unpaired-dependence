@@ -1,0 +1,561 @@
+{
+ "prespecified": [
+  {
+   "test": "External test (OverCITE-seq ORF screen)",
+   "frozen": "2026-09-27 14:49",
+   "id": "H1 (primary)",
+   "hypothesis": "Fewer paired cells than paired-only estimation at 30% recovery",
+   "criterion": "95% lower bound of the ratio > 1",
+   "estimate": "4.9 (3.2 to 6.0)",
+   "result": "met",
+   "record": "semipaired/external/results/overcite_plan_estimator.json"
+  },
+  {
+   "test": "External test (OverCITE-seq ORF screen)",
+   "frozen": "2026-09-27 14:49",
+   "id": "H2",
+   "hypothesis": "Fewer paired cells than SemiCCA",
+   "criterion": "95% lower bound > 1",
+   "estimate": "1.7 (1.3 to 2.0)",
+   "result": "met",
+   "record": "semipaired/external/results/overcite_plan_estimator.json"
+  },
+  {
+   "test": "External test (OverCITE-seq ORF screen)",
+   "frozen": "2026-09-27 14:49",
+   "id": "H3",
+   "hypothesis": "No more than 1.25 times the paired cells of Champollion",
+   "criterion": "95% lower bound > 0.8",
+   "estimate": "1.8 (1.2 to 2.2)",
+   "result": "met",
+   "record": "semipaired/external/results/overcite_plan_estimator.json"
+  },
+  {
+   "test": "Benchmark (nine data sets)",
+   "frozen": "2026-09-27 17:26",
+   "id": "G1 (primary)",
+   "hypothesis": "Geometric-mean saving over paired-only estimation at the plan's target (half of the unshrunk estimator's recovery with every training cell paired)",
+   "criterion": "95% lower bound > 1",
+   "estimate": "1.50 (1.40 to 1.55)",
+   "result": "met",
+   "record": "generality/results/summary.json"
+  },
+  {
+   "test": "Benchmark (nine data sets)",
+   "frozen": "2026-09-27 17:26",
+   "id": "G2",
+   "hypothesis": "The same against SemiCCA",
+   "criterion": "95% lower bound > 1",
+   "estimate": "1.34 (1.05 to 1.39)",
+   "result": "met",
+   "record": "generality/results/summary.json"
+  },
+  {
+   "test": "Benchmark (nine data sets)",
+   "frozen": "2026-09-27 17:26",
+   "id": "G3",
+   "hypothesis": "Self-tuning against the fixed estimator (secondary)",
+   "criterion": "two-sided; no threshold",
+   "estimate": "0.77 (0.75 to 0.82)",
+   "result": "reported",
+   "record": "generality/results/summary.json"
+  },
+  {
+   "test": "Benchmark (nine data sets)",
+   "frozen": "2026-09-27 17:26",
+   "id": "G4",
+   "hypothesis": "Predicted and observed savings rank the data sets alike (structural law)",
+   "criterion": "Spearman > 0, one-sided P < 0.05",
+   "estimate": "rho −0.09, P = 0.63",
+   "result": "not met",
+   "record": "generality/results/law.json"
+  },
+  {
+   "test": "Benchmark (nine data sets)",
+   "frozen": "2026-09-27 17:26",
+   "id": "G1 (amended)",
+   "hypothesis": "As G1, at half of the best recovery of any method, over the 8 data sets with recovered dependence (amendment recorded 2026-09-27 18:02, after stephenson, colon and hao had been scored)",
+   "criterion": "95% lower bound > 1",
+   "estimate": "2.90 (2.26 to 3.03)",
+   "result": "met",
+   "record": "generality/results/summary_amend1.json"
+  },
+  {
+   "test": "Benchmark (nine data sets)",
+   "frozen": "2026-09-27 17:26",
+   "id": "G2 (amended)",
+   "hypothesis": "As G2 under the amended rule",
+   "criterion": "95% lower bound > 1",
+   "estimate": "2.29 (1.82 to 2.38)",
+   "result": "met",
+   "record": "generality/results/summary_amend1.json"
+  },
+  {
+   "test": "Benchmark (nine data sets)",
+   "frozen": "2026-09-27 17:26",
+   "id": "G4 (amended)",
+   "hypothesis": "As G4 under the amended rule",
+   "criterion": "Spearman > 0, one-sided P < 0.05",
+   "estimate": "rho 0.42, P = 0.10",
+   "result": "not met",
+   "record": "generality/results/law_amend1.json"
+  },
+  {
+   "test": "Prospective test of the law (ten data sets, 29 problems)",
+   "frozen": "2026-09-27 21:39",
+   "id": "H1 (primary)",
+   "hypothesis": "The law is calibrated (10 of 29 problems with an estimable saving)",
+   "criterion": "median error < 25%",
+   "estimate": "21% (11% to 29%)",
+   "result": "met",
+   "record": "predictability/results/summary.json"
+  },
+  {
+   "test": "Prospective test of the law (ten data sets, 29 problems)",
+   "frozen": "2026-09-27 21:39",
+   "id": "H2",
+   "hypothesis": "The law ranks the problems",
+   "criterion": "Spearman > 0, one-sided P < 0.05",
+   "estimate": "rho 0.98, P < 0.001",
+   "result": "met",
+   "record": "predictability/results/summary.json"
+  },
+  {
+   "test": "Prospective test of the law (ten data sets, 29 problems)",
+   "frozen": "2026-09-27 21:39",
+   "id": "H3",
+   "hypothesis": "No saving in random bases",
+   "criterion": "median saving in [0.8, 1.25]",
+   "estimate": "1.00",
+   "result": "met",
+   "record": "predictability/results/summary.json"
+  },
+  {
+   "test": "Prospective test of the law (ten data sets, 29 problems)",
+   "frozen": "2026-09-27 21:39",
+   "id": "H4",
+   "hypothesis": "A pilot of up to 200 paired cells predicts the saving",
+   "criterion": "median error < 50%",
+   "estimate": "12% (4% to 147%)",
+   "result": "met",
+   "record": "predictability/results/summary.json"
+  },
+  {
+   "test": "Prospective test of the law (ten data sets, 29 problems)",
+   "frozen": "2026-09-27 21:39",
+   "id": "H5",
+   "hypothesis": "Unpaired noise with the development dependence profile predicts it",
+   "criterion": "median error < 50%",
+   "estimate": "40% (31% to 45%)",
+   "result": "met",
+   "record": "predictability/results/summary.json"
+  },
+  {
+   "test": "Prospective test of the law (ten data sets, 29 problems)",
+   "frozen": "2026-09-27 21:39",
+   "id": "H6",
+   "hypothesis": "Every saving lies within the unpaired bounds",
+   "criterion": "all in [0.8, 1.25 / min pi]",
+   "estimate": "0 outside",
+   "result": "met",
+   "record": "predictability/results/summary.json"
+  },
+  {
+   "test": "Bone-marrow test (four sites)",
+   "frozen": "2026-09-28 19:35",
+   "id": "D1 (primary)",
+   "hypothesis": "Saving over paired-only estimation with unpaired cells of other sites",
+   "criterion": "95% lower bound > 1",
+   "estimate": "at least 3.91 (3.29 to 4.45)",
+   "result": "met",
+   "record": "deployment/results/summary.json"
+  },
+  {
+   "test": "Bone-marrow test (four sites)",
+   "frozen": "2026-09-28 19:35",
+   "id": "D2",
+   "hypothesis": "The same with nuclear RNA of other sites",
+   "criterion": "95% lower bound > 1",
+   "estimate": "neither curve reached the target",
+   "result": "not met",
+   "record": "deployment/results/summary.json"
+  },
+  {
+   "test": "Bone-marrow test (four sites)",
+   "frozen": "2026-09-28 19:35",
+   "id": "D3",
+   "hypothesis": "Other sites need no more paired cells than the own site",
+   "criterion": "95% upper bound < 1.25",
+   "estimate": "0.87 (0.81 to 0.96)",
+   "result": "met",
+   "record": "deployment/results/summary.json"
+  },
+  {
+   "test": "Validation test (blood study not analysed before; atlas of another study)",
+   "frozen": "2026-09-28 21:54",
+   "id": "V1 (primary)",
+   "hypothesis": "Saving over paired-only estimation with the atlas",
+   "criterion": "95% lower bound > 1",
+   "estimate": "at least 5.43 (4.82 to 5.96)",
+   "result": "met",
+   "record": "validation/results/summary.json"
+  },
+  {
+   "test": "Validation test (blood study not analysed before; atlas of another study)",
+   "frozen": "2026-09-28 21:54",
+   "id": "V2",
+   "hypothesis": "The atlas arm recovers dependence with 50 and with 100 paired cells",
+   "criterion": "95% lower bounds > 0",
+   "estimate": "11% (8.8% to 14%); 23% (20% to 25%)",
+   "result": "met",
+   "record": "validation/results/summary.json"
+  },
+  {
+   "test": "Validation test (blood study not analysed before; atlas of another study)",
+   "frozen": "2026-09-28 21:54",
+   "id": "V3",
+   "hypothesis": "Saving with the study's other pools and donors",
+   "criterion": "95% lower bound > 1",
+   "estimate": "at least 11.4 (10.3 to 12.8)",
+   "result": "met",
+   "record": "validation/results/summary.json"
+  },
+  {
+   "test": "Validation test (blood study not analysed before; atlas of another study)",
+   "frozen": "2026-09-28 21:54",
+   "id": "V4",
+   "hypothesis": "The atlas needs no more paired cells than the paired samples' own unpaired cells",
+   "criterion": "95% upper bound < 1.25",
+   "estimate": "1.34 (1.15 to 1.56)",
+   "result": "not met",
+   "record": "validation/results/summary.json"
+  },
+  {
+   "test": "Readout of the validation test (specified after V1-V4 were scored)",
+   "frozen": "2026-09-29 07:06",
+   "id": "B1",
+   "hypothesis": "Direction of reproducible within-cell-type associations: atlas minus paired-only",
+   "criterion": "95% lower bound > 0 at 50, 100, 150 paired cells",
+   "estimate": "50: 12.9 points (12.1 to 13.7); 100: 11.2 points (10.3 to 12.0); 150: 9.1 points (8.4 to 9.8)",
+   "result": "met",
+   "record": "validation/readout/results/readout.json"
+  },
+  {
+   "test": "Readout of the validation test (specified after V1-V4 were scored)",
+   "frozen": "2026-09-29 07:06",
+   "id": "B2",
+   "hypothesis": "Top-100 nominations that are reproducible associations: atlas minus paired-only",
+   "criterion": "95% lower bound > 0 at 50, 100, 150 paired cells",
+   "estimate": "50: 20.1 points (18.9 to 21.3); 100: 19.3 points (18.0 to 20.5); 150: 16.8 points (15.6 to 18.0)",
+   "result": "met",
+   "record": "validation/readout/results/readout.json"
+  },
+  {
+   "test": "Readout of the validation test (specified after V1-V4 were scored)",
+   "frozen": "2026-09-29 07:06",
+   "id": "B3",
+   "hypothesis": "Recovered fraction of cognate RNA-protein correlations: atlas minus paired-only",
+   "criterion": "95% lower bound > 0 at 100, 150 paired cells",
+   "estimate": "100: 14.2 points (12.5 to 15.8); 150: 14.4 points (12.9 to 15.3)",
+   "result": "met",
+   "record": "validation/readout/results/readout.json"
+  },
+  {
+   "test": "Other methods given the validation's atlas (specified after V1-V4 and B1-B3 were scored)",
+   "frozen": "2026-09-29 16:31",
+   "id": "K1",
+   "hypothesis": "SemiCCA (best of three forms), given the estimator's paired cells, atlas and tuning information, needs more paired cells than the estimator",
+   "criterion": "95% lower bound of the ratio of paired cells > 1",
+   "estimate": "3.36 (2.41 to 4.63)",
+   "result": "met",
+   "record": "validation/posthoc_review/results/review.json"
+  },
+  {
+   "test": "Other methods given the validation's atlas (specified after V1-V4 and B1-B3 were scored)",
+   "frozen": "2026-09-29 16:31",
+   "id": "K2",
+   "hypothesis": "Reference regression (ridge; best of six forms) likewise",
+   "criterion": "95% lower bound of the ratio of paired cells > 1",
+   "estimate": "1.15 (1.00 to 1.36)",
+   "result": "met",
+   "record": "validation/posthoc_review/results/review.json"
+  },
+  {
+   "test": "Learning without pairs, blood: confirmatory cohort",
+   "frozen": "2026-09-26 12:50",
+   "id": "H1 (primary)",
+   "hypothesis": "Beats a donor-aware permutation null",
+   "criterion": "P < 0.05",
+   "estimate": "error 0.29 against 0.95; P = 0.005",
+   "result": "met",
+   "record": "cross_study/results/summary.json"
+  },
+  {
+   "test": "Learning without pairs, blood: confirmatory cohort",
+   "frozen": "2026-09-26 12:50",
+   "id": "H2 (primary)",
+   "hypothesis": "Recovers most of the paired operator's improvement over independence",
+   "criterion": "95% lower bound of the share > 0.5",
+   "estimate": "82% (80% to 84%)",
+   "result": "met",
+   "record": "cross_study/results/summary.json"
+  },
+  {
+   "test": "Learning without pairs, blood: confirmatory cohort",
+   "frozen": "2026-09-26 12:50",
+   "id": "H3",
+   "hypothesis": "Recovers dependence within cell types",
+   "criterion": "95% upper bound of the error < 1",
+   "estimate": "1.08 (1.01 to 1.16)",
+   "result": "not met",
+   "record": "cross_study/results/summary.json"
+  },
+  {
+   "test": "Learning without pairs, blood: confirmatory cohort",
+   "frozen": "2026-09-26 12:50",
+   "id": "H4",
+   "hypothesis": "The paired closed form beats four matched baselines",
+   "criterion": "Bonferroni intervals exclude zero",
+   "estimate": "4 of 4 baselines",
+   "result": "met",
+   "record": "cross_study/results/summary.json"
+  },
+  {
+   "test": "Learning without pairs, colon cohort (analysed before)",
+   "frozen": "2026-09-26 12:50",
+   "id": "H1 (primary)",
+   "hypothesis": "Beats a donor-aware permutation null",
+   "criterion": "P < 0.05",
+   "estimate": "error 0.99 against 1.17; P = 0.005",
+   "result": "met",
+   "record": "cross_study/results/summary.json"
+  },
+  {
+   "test": "Learning without pairs, colon cohort (analysed before)",
+   "frozen": "2026-09-26 12:50",
+   "id": "H2 (primary)",
+   "hypothesis": "Recovers most of the paired operator's improvement over independence",
+   "criterion": "95% lower bound of the share > 0.5",
+   "estimate": "−12% (−49% to 15%)",
+   "result": "not met",
+   "record": "cross_study/results/summary.json"
+  },
+  {
+   "test": "Learning without pairs, colon cohort (analysed before)",
+   "frozen": "2026-09-26 12:50",
+   "id": "H3",
+   "hypothesis": "Recovers dependence within cell types",
+   "criterion": "95% upper bound of the error < 1",
+   "estimate": "1.27 (1.24 to 1.31)",
+   "result": "not met",
+   "record": "cross_study/results/summary.json"
+  },
+  {
+   "test": "Learning without pairs, colon cohort (analysed before)",
+   "frozen": "2026-09-26 12:50",
+   "id": "H4",
+   "hypothesis": "The paired closed form beats four matched baselines",
+   "criterion": "Bonferroni intervals exclude zero",
+   "estimate": "4 of 4 baselines",
+   "result": "met",
+   "record": "cross_study/results/summary.json"
+  },
+  {
+   "test": "Learning without pairs, melanoma screen",
+   "frozen": "2026-09-27 07:20",
+   "id": "H1",
+   "hypothesis": "Recovery of within-condition dependence in held-out targets",
+   "criterion": "95% lower bound > 0",
+   "estimate": "6.8% (4.1% to 9.4%)",
+   "result": "met",
+   "record": "perturbation/results/evaluation.json"
+  },
+  {
+   "test": "Learning without pairs, melanoma screen",
+   "frozen": "2026-09-27 07:20",
+   "id": "H2a",
+   "hypothesis": "Above the pseudo-population control",
+   "criterion": "difference, lower bound > 0",
+   "estimate": "6.9% (4.2% to 9.5%)",
+   "result": "met",
+   "record": "perturbation/results/evaluation.json"
+  },
+  {
+   "test": "Learning without pairs, melanoma screen",
+   "frozen": "2026-09-27 07:20",
+   "id": "H2b",
+   "hypothesis": "Above the derangement control",
+   "criterion": "difference, lower bound > 0",
+   "estimate": "7.2% (4.6% to 9.7%)",
+   "result": "met",
+   "record": "perturbation/results/evaluation.json"
+  },
+  {
+   "test": "Learning without pairs, melanoma screen",
+   "frozen": "2026-09-27 07:20",
+   "id": "H3",
+   "hypothesis": "Recovery in non-targeting cells",
+   "criterion": "95% lower bound > 0",
+   "estimate": "19% (16% to 21%)",
+   "result": "met",
+   "record": "perturbation/results/evaluation.json"
+  },
+  {
+   "test": "Learning without pairs, melanoma screen",
+   "frozen": "2026-09-27 07:20",
+   "id": "H4",
+   "hypothesis": "Most of what paired cells recover",
+   "criterion": "share, lower bound > 50%",
+   "estimate": "18% (12% to 25%)",
+   "result": "not met",
+   "record": "perturbation/results/evaluation.json"
+  },
+  {
+   "test": "Learning without pairs, monocyte screen (replication)",
+   "frozen": "2026-09-27 08:18",
+   "id": "R1",
+   "hypothesis": "Recovery over all test groups",
+   "criterion": "95% lower bound > 0",
+   "estimate": "−212% (−287% to −157%)",
+   "result": "not met",
+   "record": "perturbation_replication/results/evaluation.json"
+  },
+  {
+   "test": "Learning without pairs, monocyte screen (replication)",
+   "frozen": "2026-09-27 08:18",
+   "id": "R2a",
+   "hypothesis": "Above the pseudo-population control",
+   "criterion": "lower bound > 0",
+   "estimate": "−202% (−275% to −151%)",
+   "result": "not met",
+   "record": "perturbation_replication/results/evaluation.json"
+  },
+  {
+   "test": "Learning without pairs, monocyte screen (replication)",
+   "frozen": "2026-09-27 08:18",
+   "id": "R2b",
+   "hypothesis": "Above the derangement control",
+   "criterion": "lower bound > 0",
+   "estimate": "−167% (−234% to −119%)",
+   "result": "not met",
+   "record": "perturbation_replication/results/evaluation.json"
+  },
+  {
+   "test": "Learning without pairs, monocyte screen (replication)",
+   "frozen": "2026-09-27 08:18",
+   "id": "R3",
+   "hypothesis": "Interferon block: at least half of the paired closed form",
+   "criterion": "lower bound > 50%",
+   "estimate": "−3.5% (−41.3% to 24.3%)",
+   "result": "not met",
+   "record": "perturbation_replication/results/evaluation.json"
+  },
+  {
+   "test": "Learning without pairs, monocyte screen (replication)",
+   "frozen": "2026-09-27 08:18",
+   "id": "R4",
+   "hypothesis": "Recovery in non-targeting cells",
+   "criterion": "lower bound > 0",
+   "estimate": "−90% (−140% to −52%)",
+   "result": "not met",
+   "record": "perturbation_replication/results/evaluation.json"
+  },
+  {
+   "test": "Learning without pairs, monocyte screen (replication)",
+   "frozen": "2026-09-27 08:18",
+   "id": "R5",
+   "hypothesis": "Removing the most exposed targets costs more than random ones",
+   "criterion": "lower bound > 0",
+   "estimate": "−44% (−91% to −3%)",
+   "result": "not met",
+   "record": "perturbation_replication/results/evaluation.json"
+  }
+ ],
+ "after_scoring": [
+  {
+   "analysis": "Development comparisons and ablations (melanoma and monocyte screens)",
+   "reported_in": "Supplementary Note on the estimator",
+   "code": "semipaired/"
+  },
+  {
+   "analysis": "Benchmark amendments: primary target half of the best recovery of any method; data sets without recovered dependence set aside (recorded after three and four of nine data sets were scored)",
+   "reported_in": "Methods; savings table",
+   "code": "generality/DEVIATIONS.md, results/*_amend1.json"
+  },
+  {
+   "analysis": "Summary across test data sets (geometric mean 3.1)",
+   "reported_in": "Results; savings table",
+   "code": "synthesis/savings_summary.py"
+  },
+  {
+   "analysis": "Development of the law on the benchmark data sets",
+   "reported_in": "Supplementary Note on the law",
+   "code": "predictability/"
+  },
+  {
+   "analysis": "External test: the frozen scoring script named the one-sided estimator (deviation; both arms met H1-H3)",
+   "reported_in": "Methods; Supplementary Note on the estimator",
+   "code": "semipaired/external/DEVIATIONS.md"
+  },
+  {
+   "analysis": "Bone-marrow test: centring by contrasts; RNA from nuclei (maps, axes, the law along each pool's axes, principal angles); population sizes; calibration of the noise estimate; paired-only control under both centrings",
+   "reported_in": "Results; Supplementary Note on the bone-marrow test",
+   "code": "deployment/posthoc_*.py"
+  },
+  {
+   "analysis": "Fly connectome: unpaired neurons of other animals with contrasts",
+   "reported_in": "Results; Supplementary Note on the bone-marrow test",
+   "code": "deployment/posthoc_fly_contrasts.py"
+  },
+  {
+   "analysis": "Validation test: budget axis counted in contrasts; results per donor and pool; leaving out each pool; atlas size; skewed or missing cell types in the atlas, and the skewed atlases scored without condition maps",
+   "reported_in": "Results; Supplementary Note on the validation test",
+   "code": "synthesis/make_assets.py; validation/posthoc_robustness.py; validation/posthoc_composition_map.py"
+  },
+  {
+   "analysis": "Validation test: sample, donor and pool allocation of every fold, checked from sample labels (every fold donor-disjoint)",
+   "reported_in": "Methods; Supplementary Note on the validation test",
+   "code": "validation/posthoc_allocation.py"
+  },
+  {
+   "analysis": "Validation test: Champollion given the same paired cells and atlas, on the first draw of every fold and budget (specified with K1-K2, descriptive)",
+   "reported_in": "Results; Supplementary Note on the validation test",
+   "code": "validation/posthoc_review/"
+  },
+  {
+   "analysis": "Readout of the validation test, calibrated: significance thresholds, false-discovery-rate truth sets, majority-sign baselines, weighting of samples and cell types, bootstrap P-values, simultaneous intervals and Holm adjustment (specified with K1-K2)",
+   "reported_in": "Results; Supplementary Note on the validation test",
+   "code": "validation/posthoc_review/"
+  },
+  {
+   "analysis": "Blood test of learning without pairs: dependence split into parts between and within cell types; identification analyses",
+   "reported_in": "Supplementary Note on learning without pairs in blood",
+   "code": "cross_study/"
+  },
+  {
+   "analysis": "Melanoma screen: analyses of the interferon response and of removing perturbations (specified before computation, after the scoring cells were opened)",
+   "reported_in": "Results; Supplementary Note on the perturbation screen",
+   "code": "perturbation/PLAN_programs.md"
+  },
+  {
+   "analysis": "Monocyte screen: a penalty fixed after unsealing",
+   "reported_in": "Supplementary Note on the replication",
+   "code": "perturbation_replication/results/posthoc_penalty.json"
+  },
+  {
+   "analysis": "Check that every recovery curve averages the scores of single draws (every test rerun with its frozen code)",
+   "reported_in": "Methods; Supplementary Note on revision",
+   "code": "checks/draw_scoring.py"
+  },
+  {
+   "analysis": "Analyses added in revision, in one plan hashed before any was computed: calibration of the noise estimate after contrasts; the atlas's axes and condition maps at every budget; maps reweighted to the paired cells' mix of cell types; one draw of paired cells and resampled atlas patients; named within-type relationships; calibration of the association test; finer cell states and technical covariates; the law with data sets as units; a pilot that sets the total budget; savings at fixed accuracy",
+   "reported_in": "Results; Supplementary Note on revision",
+   "code": "second_review/PLAN.md"
+  },
+  {
+   "analysis": "Analyses added in revision, running: the blood COVID-19 data set read through the benchmark's reader for string arrays (its deviation 1); the atlas bootstrap restarted unchanged after the memory limit stopped its first start (deviations; no script, setting or value changed)",
+   "reported_in": "Supplementary Note on revision",
+   "code": "second_review/DEVIATIONS.md"
+  }
+ ]
+}

@@ -1,0 +1,239 @@
+\section{What unpaired data identify}\label{sec:ident}
+Let RNA $x$ and protein $y$ of a cell population have joint law $P$. Separately measured assays reveal only the marginal laws $P_x$ and $P_y$, and paired cells reveal $P$. On finite supports with positive marginal probabilities and finite interaction $S(x,y)$, the law with these marginals that is closest in Kullback--Leibler divergence to the reference $e^{S(x,y)}P_x(x)P_y(y)$ has the form
+\begin{equation}
+ q(x,y)=\exp\{S(x,y)+a(x)+b(y)\},
+ \label{eq:information-projection}
+\end{equation}
+with adjusting functions $a$ and $b$ that enforce the marginals; on finite supports it is computed by matrix scaling\cite{sinkhorn1964}. Proposition~\ref{prop:pairing} states that unpaired data carry no information about the interaction and what a channel shared by populations changes, Proposition~\ref{prop:means} what population means identify, Proposition~\ref{prop:mixture} what they identify when populations differ in cell-type composition, and Proposition~\ref{prop:gaussian} how a channel is transferred to a recipient with its own marginals.
+
+\subsection*{Unpaired data alone}
+\begin{proposition}[Identification without pairs]\label{prop:pairing}
+\begin{enumerate}
+\item On fixed finite supports, under Eq.~\eqref{eq:information-projection} with population-specific adjusting
+functions, every finite interaction is compatible with every collection of strictly positive
+within-assay probability mass functions. Unpaired data from any number of populations
+therefore carry no information about the interaction.
+\item Suppose instead that, across samples $s$, $y\mid x\sim N(Wx+b,\Psi)$
+with $W,b,\Psi$ shared, $\Psi$ positive definite and the RNA law sample-specific. Then
+$\mu_{y,s}=W\mu_{x,s}+b$ and $\Sigma_{y,s}=W\Sigma_{x,s}W^\top+\Psi$. If the
+centred RNA means span $\mathbb R^p$, the separately measured assay moments
+identify $W$, $b$ and then $\Psi$. This model is the special case of the
+Gaussian reconstruction with $B=W^\top\Psi^{-1}$ in which the protein-side
+adjusting function is shared.
+\end{enumerate}
+\end{proposition}
+
+\begin{proof}
+(1) Matrix scaling reaches any positive marginals for any finite interaction.
+(2) The moment equations follow from the law of total expectation and
+variance. With spanning centred means, the mean equations form a full-rank
+linear system for $(W,b)$, and $\Psi$ follows from any covariance equation.
+The joint density of the shared-channel model is proportional to
+$r_s(x)\exp\{-\frac12(y-Wx-b)^\top\Psi^{-1}(y-Wx-b)\}$, whose cross term is
+$x^\top W^\top\Psi^{-1}y$.
+\end{proof}
+
+With fewer samples than RNA features, the mean equations identify $W$ only on
+the span of the sample means (Proposition~\ref{prop:means}). If $\Psi$ is
+also shared, the covariance equations
+$W(\Sigma_{x,s}-\Sigma_{x,t})W^\top=\Sigma_{y,s}-\Sigma_{y,t}$ constrain $W$
+off that span as well. They are quadratic, so they determine $W$ at most up to
+transformations that preserve every between-sample difference of RNA
+covariances. The analyses therefore regularize $W$ and evaluate it on held-out
+paired cells.
+
+\subsection*{What population variation identifies}
+Proposition~\ref{prop:means} states what population means identify, what the
+ridge estimator of the main text recovers, and how far the unidentified
+remainder can move a recipient's cross-covariance. It requires only that the
+conditional mean of protein given RNA is shared; $\Psi$ may differ between
+populations.
+
+\begin{proposition}[Identification from population means]\label{prop:means}
+Let populations $s=1,\dots,S$ share $E(y\mid x,s)=Wx+b$. Let their RNA means
+$\mu_{x,s}$ have weights $w_s>0$ summing to one, weighted mean $\bar\mu_x$, and
+between-population matrix
+$G=\sum_s w_s(\mu_{x,s}-\bar\mu_x)(\mu_{x,s}-\bar\mu_x)^\top$. Let $M$ be the
+column space of $G$, the span of the centred RNA means ($\dim M\le S-1$), with
+orthogonal projector $P_M$.
+\begin{enumerate}
+\item A channel $W'$ reproduces every population's protein mean, with some
+intercept, if and only if $W'P_M=WP_M$.
+\item At the population moments, the weighted ridge regression of protein
+means on RNA means with penalty $\lambda>0$ is
+$W_\lambda=WG(G+\lambda I)^{-1}$. It keeps each eigendirection of $G$ with
+eigenvalue $g$ in proportion $g/(g+\lambda)$, and $W_\lambda\to WP_M$ as
+$\lambda\to0$.
+\item For a recipient with within-assay covariances $\Sigma_x,\Sigma_y$ whose
+channel agrees with $W$ on $M$, the cross-covariance $C=\Sigma_xW^\top$ is the
+sum of $\Sigma_xP_MW^\top$, which the population means fix, and
+$\Sigma_x(I-P_M)W^\top$, about which they carry no information.
+\item Suppose $\Sigma_x$ and $\Sigma_y$ are positive definite. Let $Q_N$ and $Q_\perp$ be orthonormal bases of $N=\Sigma_x^{-1/2}M$ and
+$N^\perp$, and $F=Q_N^\top\Sigma_x^{1/2}W^\top\Sigma_y^{-1/2}$, which depends
+on $W$ only through $WP_M$. The cross-covariances compatible with $WP_M$ and
+with a valid joint law of the recipient's two assays exist if and only if
+$\|F\|_{\mathrm{op}}\le1$, and they are then exactly
+\[
+ \mathcal C=\bigl\{\Sigma_x^{1/2}(Q_NF+Q_\perp\Gamma D)\Sigma_y^{1/2}:
+ \|\Gamma\|_{\mathrm{op}}\le1\bigr\},\qquad D=(I-F^\top F)^{1/2}.
+\]
+$\mathcal C$ is symmetric about $C_0=\Sigma_x^{1/2}Q_NF\Sigma_y^{1/2}$. Its
+Chebyshev radius in Frobenius norm, the smallest worst-case error of any
+estimate that uses only this information, is
+\[
+ r=\Bigl\{\sum_i\sigma_i\bigl(\Sigma_x^{1/2}Q_\perp\bigr)^2
+ \sigma_i\bigl(D\Sigma_y^{1/2}\bigr)^2\Bigr\}^{1/2},
+\]
+with both sets of singular values in decreasing order.
+\end{enumerate}
+\end{proposition}
+
+\begin{proof}
+(1) The centred protein means are $W(\mu_{x,s}-\bar\mu_x)$, so two channels
+give the same means exactly when they agree on every centred RNA mean, that is
+on $M$; the intercept absorbs the rest. (2) The weighted cross-moment of the
+centred protein and RNA means is $WG$, so the ridge solution is
+$WG(G+\lambda I)^{-1}$; diagonalize $G$. (3) Write
+$W^\top=P_MW^\top+(I-P_M)W^\top$ and apply (1). (4) The joint covariance is
+positive semidefinite if and only if $K=\Sigma_x^{-1/2}C\Sigma_y^{-1/2}$ is a
+contraction. For $m\in M$,
+$(\Sigma_x^{-1/2}m)^\top K=(Wm)^\top\Sigma_y^{-1/2}$, so the component of $K$
+along $N$ is $F$. Since $N^\perp=\Sigma_x^{1/2}M^\perp$, the component along
+$N^\perp$ equals a term fixed by $WP_M$ plus
+$Q_\perp^\top\Sigma_x^{1/2}(I-P_M)W^\top\Sigma_y^{-1/2}$, which takes every
+value as $W$ varies off $M$. The stacked matrix with blocks $F$ and $X$ is a
+contraction if and only if $\|F\|_{\mathrm{op}}\le1$ and
+$X^\top X\preceq I-F^\top F$, that is $X=\Gamma D$
+with $\|\Gamma\|_{\mathrm{op}}\le1$ (Douglas' lemma \cite{douglas1966}). Replacing $\Gamma$ by
+$-\Gamma$ gives the symmetry. With $L=\Sigma_x^{1/2}Q_\perp$ and
+$R=D\Sigma_y^{1/2}$, $\|L\Gamma R\|_F^2=\operatorname{tr}(\Gamma^\top
+L^\top L\Gamma RR^\top)\le\sum_i\sigma_i(L)^2\sigma_i(R)^2$ by von Neumann's
+trace inequality and $\sigma_i(\Gamma^\top L^\top L\Gamma)\le\sigma_i(L)^2$.
+Equality holds for the partial isometry that aligns the singular vectors of
+$L$ and $R$. For a set symmetric about $C_0$, every estimate $\hat C$ and
+member $C_0+Z$ satisfy
+$\max(\|\hat C-C_0-Z\|,\|\hat C-C_0+Z\|)\ge\|Z\|$, so the worst-case error is
+smallest at $C_0$ and equals $r$.
+\end{proof}
+
+Two quantities follow. The share of a recipient's RNA variance inside $M$,
+$\operatorname{tr}(P_M\Sigma_xP_M)/\operatorname{tr}\Sigma_x$, needs no paired
+data. After scoring, the relative size of the unidentified term in (3),
+computed with the recipient's own regression on its scoring cells, is the
+error of an oracle that knows the recipient's channel on $M$ and nothing else.
+In the analyses, $M$ is the span of the directions that the fitted ridge
+operator keeps by at least one half ($g\ge\lambda$), in within-population
+standard-deviation units.
+
+\subsection*{Populations that differ in composition}
+Proposition~\ref{prop:means} assumes a channel shared by every cell. Blood
+samples differ from one another mainly in the proportions of cell types, and
+the next result describes what their means identify when nothing is shared
+except the laws of the types themselves.
+
+\begin{proposition}[Populations that differ in composition]\label{prop:mixture}
+Let cells of type $k=1,\dots,K$ have the same joint law of $(x,y)$ in every
+population, with means $\mu_{x,k},\mu_{y,k}$, within-type covariances
+$\Sigma_{xx,k},\Sigma_{yy,k}$ and within-type cross-covariance
+$\Sigma_{xy,k}$. Let population $s$ contain the types in proportions
+$\pi_s$, let the centred proportions $\pi_s-\bar\pi$ span the vectors whose
+entries sum to zero, and let the RNA type means be affinely independent. For
+proportions $\pi$ write $\bar\mu_x(\pi)=\sum_k\pi_k\mu_{x,k}$, and similarly
+for protein, and let
+$\Sigma^{\mathrm b}_x(\pi)=\sum_k\pi_k\{\mu_{x,k}-\bar\mu_x(\pi)\}\{\mu_{x,k}-\bar\mu_x(\pi)\}^\top$
+and $\Sigma^{\mathrm w}_x(\pi)=\sum_k\pi_k\Sigma_{xx,k}$ be the between-type
+and within-type RNA covariances.
+\begin{enumerate}
+\item Let $M$ be the span of the differences $\mu_{x,k}-\mu_{x,l}$. There is
+a unique linear map $W_{\mathrm b}$ on $M$ with
+$W_{\mathrm b}(\mu_{x,k}-\mu_{x,l})=\mu_{y,k}-\mu_{y,l}$ for all $k,l$. $M$ is
+the span of the centred RNA means of the populations, their centred protein
+means satisfy $\mu_{y,s}-\bar\mu_y=W_{\mathrm b}(\mu_{x,s}-\bar\mu_x)$ exactly,
+and the population means determine $W_{\mathrm b}$.
+\item For any proportions $\pi$, observed or not, the between-type part of the
+cross-covariance is
+\[
+ \sum_k\pi_k\{\mu_{x,k}-\bar\mu_x(\pi)\}\{\mu_{y,k}-\bar\mu_y(\pi)\}^\top
+ =\Sigma^{\mathrm b}_x(\pi)W_{\mathrm b}^\top .
+\]
+\item Changing the within-type cross-covariances $\Sigma_{xy,k}$, while keeping
+every type's two marginal laws, changes neither assay's distribution in any
+population. Unpaired data from any number of such populations are therefore
+compatible with every coupling of the types' marginal laws, and carry no
+information about the within-type part $\sum_k\pi_k\Sigma_{xy,k}$ beyond the
+constraints that those marginals impose; for Gaussian types, every
+$\Sigma_{xy,k}$ that keeps the type's joint covariance positive semidefinite
+remains possible.
+\item Let $W$ agree with $W_{\mathrm b}$ on $M$. The channel predicts the
+within-type part as $\Sigma^{\mathrm w}_x(\pi)W^\top$, and this prediction is
+correct for every $\pi$ if and only if $\Sigma_{xy,k}=\Sigma_{xx,k}W^\top$ for
+every type, that is, if every type's regression of protein on RNA has the
+slope $W$.
+\end{enumerate}
+\end{proposition}
+
+\begin{proof}
+(1) Because the centred proportions sum to zero,
+$\mu_{x,s}-\bar\mu_x=\sum_k(\pi_{s,k}-\bar\pi_k)(\mu_{x,k}-\mu_{x,1})$, so the
+centred RNA means lie in $M$, and they span it because the centred proportions
+span the vectors that sum to zero. Affine independence makes
+$v\mapsto\sum_kv_k\mu_{x,k}$ injective on those vectors, so
+$W_{\mathrm b}(\sum_kv_k\mu_{x,k})=\sum_kv_k\mu_{y,k}$ is well defined on $M$;
+it gives $\mu_{y,s}-\bar\mu_y=W_{\mathrm b}(\mu_{x,s}-\bar\mu_x)$.
+Any linear map that reproduces the centred protein means agrees with
+$W_{\mathrm b}$ on their span (Proposition~\ref{prop:means}(1)). (2) Each
+$\mu_{x,k}-\bar\mu_x(\pi)=\sum_l\pi_l(\mu_{x,k}-\mu_{x,l})$ lies in $M$, and its
+image under $W_{\mathrm b}$ is $\mu_{y,k}-\bar\mu_y(\pi)$; substitute. (3) A
+population's RNA law is the mixture $\sum_k\pi_{s,k}L_{x,k}$ of the types' RNA
+laws, and likewise for protein; neither involves how $x$ and $y$ are coupled
+within a type, and any coupling of the type marginals is a valid law. (4) Both
+sides are linear in $\pi$; compare them at the vertices of the simplex.
+\end{proof}
+
+Blood populations fit the shared-channel mean equation of
+Proposition~\ref{prop:means} exactly under this model, but the map they
+identify is the between-type slope, which need not describe any within-cell
+channel. Applied to a
+recipient's total RNA covariance
+$\Sigma_x=\Sigma^{\mathrm b}_x+\Sigma^{\mathrm w}_x$, it predicts the
+between-type part correctly and the within-type part as
+$\Sigma^{\mathrm w}_xW^\top$. When the within-type slopes along $M$ are
+shallower than the between-type slope, this overstates the protein covariance
+along $W_{\mathrm b}M$, and $\|F\|_{\mathrm{op}}$ in
+Proposition~\ref{prop:means}(4) can exceed one although the population means
+fit the channel exactly. This is the ecological fallacy
+\cite{robinson1950,simpson1951} in the form that matters here.
+
+\subsection*{Transfer to a recipient}
+\begin{proposition}[Closed-form transfer]\label{prop:gaussian}
+Let $S_x\succ0$ and $S_y\succ0$, and write
+$S_x^{1/2}BS_y^{1/2}=U\operatorname{diag}(\beta)V^\top$ for a singular value
+decomposition. The reconstruction with interaction $x^\top By$ and marginals
+$N(\mu_x,S_x)$ and $N(\mu_y,S_y)$ is the Gaussian law with cross-covariance
+\[
+ C=S_x^{1/2}U\operatorname{diag}\{g(\beta)\}V^\top S_y^{1/2},\qquad
+ g(\beta)=\frac{\sqrt{1+4\beta^2}-1}{2\beta},\ g(0)=0,
+\]
+and its precision has off-diagonal block $-B$. Moreover $0\le g(\beta)<1$ and
+$C=S_xBS_y-S_xBS_yB^\top S_xBS_y+O(\|B\|^5)$.
+\end{proposition}
+
+\begin{proof}
+A Gaussian law whose precision has off-diagonal block $-B$ has density
+$\exp\{x^\top By+a(x)+b(y)\}$ with quadratic $a,b$, which is the stationarity
+condition for the strictly convex problem in
+Eq.~\eqref{eq:information-projection}; so if such a law has the required
+marginals, it is the reconstruction. Block inversion shows that the precision
+of $\bigl(\begin{smallmatrix}S_x&C\\C^\top&S_y\end{smallmatrix}\bigr)$ has
+off-diagonal block $-S_x^{-1}C(S_y-C^\top S_x^{-1}C)^{-1}$. Setting it to $-B$
+and writing $\hat C=S_x^{-1/2}CS_y^{-1/2}$ gives
+$\hat C=\hat B(I-\hat C^\top\hat C)$ with $\hat B=S_x^{1/2}BS_y^{1/2}$. The
+choice $\hat C=U\operatorname{diag}(\gamma)V^\top$ solves it when
+$\gamma=\beta(1-\gamma^2)$, whose root in $[0,1)$ is $g(\beta)$; then
+$\hat C^\top\hat C\prec I$, so the joint covariance is positive definite.
+Expanding $g(\beta)=\beta-\beta^3+O(\beta^5)$ gives the series.
+\end{proof}
+
+Its linear term, $S_xBS_y$, is the response of the reconstruction to a weak interaction; the second-order term vanishes because Gaussian third central moments are zero, and the cubic term shows how the transferred dependence saturates. The same
+closed form describes entropic optimal transport between Gaussian measures
+\cite{janati2020,mallasto2022}; here it transfers a channel learned without paired cells to a recipient with its own RNA and protein covariances (Supplementary Note~\ref{sec:cross}).

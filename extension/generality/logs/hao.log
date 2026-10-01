@@ -1,0 +1,24 @@
+[    26s] hao: fold 0 B=25 (bjs2 45, selftune 5, js 28, scose 3, fcose 2, lowrank 192, semicca 1149, ridge_p 68, ridge_u 66 ms/fit)
+[    62s] hao: fold 0 B=50 (bjs2 56, selftune 5, js 42, scose 4, fcose 2, lowrank 200, semicca 1151, ridge_p 70, ridge_u 68 ms/fit)
+[   136s] hao: fold 0 B=100 (bjs2 108, selftune 7, js 110, scose 7, fcose 6, lowrank 250, semicca 1352, ridge_p 90, ridge_u 82 ms/fit)
+[   263s] hao: fold 0 B=200 (bjs2 274, selftune 11, js 269, scose 14, fcose 16, lowrank 336, semicca 1647, ridge_p 105, ridge_u 105 ms/fit)
+[   439s] hao: fold 0 B=400 (bjs2 531, selftune 14, js 518, scose 24, fcose 55, lowrank 437, semicca 1876, ridge_p 122, ridge_u 118 ms/fit)
+[   662s] hao: fold 0 B=800 (bjs2 926, selftune 21, js 930, scose 43, fcose 229, lowrank 592, semicca 2039, ridge_p 139, ridge_u 134 ms/fit)
+[   712s] hao: fold 1 B=25 (bjs2 95, selftune 10, js 72, scose 5, fcose 4, lowrank 421, semicca 2372, ridge_p 164, ridge_u 149 ms/fit)
+[   800s] hao: fold 1 B=50 (bjs2 127, selftune 10, js 124, scose 7, fcose 6, lowrank 430, semicca 2385, ridge_p 161, ridge_u 156 ms/fit)
+[   903s] hao: fold 1 B=100 (bjs2 206, selftune 11, js 197, scose 11, fcose 9, lowrank 447, semicca 2399, ridge_p 160, ridge_u 159 ms/fit)
+[  1025s] hao: fold 1 B=200 (bjs2 355, selftune 13, js 330, scose 17, fcose 21, lowrank 486, semicca 2450, ridge_p 161, ridge_u 163 ms/fit)
+[  1191s] hao: fold 1 B=400 (bjs2 588, selftune 16, js 560, scose 29, fcose 56, lowrank 542, semicca 2520, ridge_p 166, ridge_u 166 ms/fit)
+[  1411s] hao: fold 1 B=800 (bjs2 971, selftune 21, js 964, scose 50, fcose 227, lowrank 669, semicca 2575, ridge_p 175, ridge_u 173 ms/fit)
+[  1465s] hao: fold 2 B=25 (bjs2 98, selftune 12, js 63, scose 6, fcose 5, lowrank 409, semicca 2322, ridge_p 154, ridge_u 179 ms/fit)
+[  1537s] hao: fold 2 B=50 (bjs2 128, selftune 12, js 96, scose 8, fcose 6, lowrank 418, semicca 2381, ridge_p 159, ridge_u 167 ms/fit)
+[  1641s] hao: fold 2 B=100 (bjs2 220, selftune 13, js 183, scose 12, fcose 10, lowrank 444, semicca 2379, ridge_p 156, ridge_u 163 ms/fit)
+[  1772s] hao: fold 2 B=200 (bjs2 346, selftune 13, js 315, scose 18, fcose 19, lowrank 476, semicca 2407, ridge_p 160, ridge_u 166 ms/fit)
+[  1906s] hao: fold 2 B=400 (bjs2 519, selftune 15, js 493, scose 27, fcose 53, lowrank 512, semicca 2375, ridge_p 157, ridge_u 158 ms/fit)
+[  2020s] hao: fold 2 B=800 (bjs2 722, selftune 17, js 699, scose 34, fcose 127, lowrank 519, semicca 2218, ridge_p 147, ridge_u 150 ms/fit)
+[  2032s] hao: predictions hashed
+[  2065s] hao: bootstrap 500/2000
+[  2092s] hao: bootstrap 1000/2000
+[  2119s] hao: bootstrap 1500/2000
+[  2149s] hao: bootstrap 2000/2000
+[  2150s] hao: done: proposed -7.1, -9.1, 4.3, 9.9, 17.4, 30.3; saving vs paired-only at 0.5: 1.00 [1.0, 1.0]

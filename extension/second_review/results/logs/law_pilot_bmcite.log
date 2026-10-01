@@ -1,0 +1,9 @@
+[06:16:58] bmcite p100 target 0.5: observed 25<=; m=50: median achieved 0.908, reached 1.00; m=100: median achieved 0.944, reached 1.00; m=200: median achieved 0.967, reached 1.00
+[06:16:59] bmcite p100 target 0.3: observed 25<=; m=50: median achieved 0.921, reached 1.00; m=100: median achieved 0.947, reached 1.00; m=200: median achieved 0.968, reached 1.00
+[06:17:00] bmcite p100 target 0.7: observed 25<=; m=50: median achieved 0.907, reached 1.00; m=100: median achieved 0.948, reached 1.00; m=200: median achieved 0.966, reached 1.00
+[06:17:02] bmcite p200 target 0.5: observed 25<=; m=50: median achieved 0.922, reached 1.00; m=100: median achieved 0.953, reached 1.00; m=200: median achieved 0.971, reached 1.00
+[06:17:03] bmcite p200 target 0.3: observed 25<=; m=50: median achieved 0.921, reached 1.00; m=100: median achieved 0.949, reached 1.00; m=200: median achieved 0.971, reached 1.00
+[06:17:04] bmcite p200 target 0.7: observed 25<=; m=50: median achieved 0.926, reached 1.00; m=100: median achieved 0.952, reached 1.00; m=200: median achieved 0.970, reached 1.00
+[06:17:08] bmcite p400 target 0.5: observed 25<=; m=50: median achieved 0.930, reached 1.00; m=100: median achieved 0.955, reached 1.00; m=200: median achieved 0.975, reached 1.00
+[06:17:10] bmcite p400 target 0.3: observed 25<=; m=50: median achieved 0.934, reached 1.00; m=100: median achieved 0.956, reached 1.00; m=200: median achieved 0.974, reached 1.00
+[06:17:12] bmcite p400 target 0.7: observed 25<=; m=50: median achieved 0.926, reached 1.00; m=100: median achieved 0.954, reached 1.00; m=200: median achieved 0.974, reached 1.00

@@ -1,0 +1,1 @@
+[25s] after fold 0: B=50: bjs 29.6, ridge 16.5, sure 21.2, avg 26.0 | B=100: bjs 39.2, ridge 28.6, sure 32.2, avg 36.8 | B=200: bjs 58.5, ridge 41.6, sure 54.9, avg 54.9 | B=400: bjs 69.4, ridge 61.6, sure 68.7, avg 67.6 | B=800: bjs 77.4, ridge 67.7, sure 77.5, avg 75.1 | B=1600: bjs 83.4, ridge 79.3, sure 83.6, avg 82.5 | B=3200: bjs 86.8, ridge 84.0, sure 86.8, avg 86.3

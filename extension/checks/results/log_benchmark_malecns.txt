@@ -1,0 +1,46 @@
+[07:12:55] fold 0 B=25 (bjs2 28, selftune 5, js 17, scose 2, fcose 2, lowrank 70, semicca 760, ridge_p 58, ridge_u 53 ms/fit)
+[07:13:10] fold 0 B=50 (bjs2 34, selftune 5, js 25, scose 2, fcose 3, lowrank 67, semicca 782, ridge_p 56, ridge_u 57 ms/fit)
+[07:13:26] fold 0 B=100 (bjs2 45, selftune 5, js 40, scose 4, fcose 5, lowrank 73, semicca 788, ridge_p 56, ridge_u 56 ms/fit)
+[07:13:45] fold 0 B=200 (bjs2 75, selftune 6, js 83, scose 6, fcose 12, lowrank 83, semicca 780, ridge_p 56, ridge_u 56 ms/fit)
+[07:14:11] fold 0 B=400 (bjs2 129, selftune 7, js 146, scose 8, fcose 30, lowrank 95, semicca 817, ridge_p 58, ridge_u 56 ms/fit)
+[07:14:11] malecns fold 0 regenerated [92s]
+[07:14:21] {
+ "test": "benchmark/malecns",
+ "units_regenerated": 1,
+ "units": 3,
+ "budgets": [
+  25,
+  50,
+  100,
+  200,
+  400
+ ],
+ "draws": [
+  5
+ ],
+ "curve_points_compared": 0,
+ "max_abs_difference_per_draw_vs_published": null,
+ "max_abs_difference_per_draw_vs_stored_unit_terms": 4.1594331019104314e-16,
+ "max_abs_difference_stored_form_vs_published": 4.440892098500626e-16,
+ "averaged_prediction_minus_published": {
+  "min": 0.0,
+  "median": 0.09533885764634467,
+  "max": 0.32647352190635814,
+  "points": 130
+ },
+ "stored_vs_regenerated": {
+  "compared": 260,
+  "draws_per_key": [
+   5
+  ],
+  "max_abs_mean_difference": 2.6645352591003757e-15,
+  "max_rel_msq_difference": 3.4483415307214027e-16,
+  "rerun_fold_outputs": {
+   "keys": 128,
+   "max_abs_difference_means_and_maps": 0.0,
+   "max_rel_difference_msq": 0.0
+  }
+ },
+ "seconds": 103,
+ "passed": true
+}

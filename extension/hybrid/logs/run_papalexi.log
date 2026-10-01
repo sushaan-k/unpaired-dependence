@@ -1,0 +1,178 @@
+[   127s] papalexi: 67 eligible training populations, test groups 55, nt groups 3, blocks ['all', 'ifn', 'ifn_genes', 'complement', 'e2f_targets', 'epithelial_mesenchymal_transition', 'g2m_checkpoint', 'hypoxia', 'tnfa_signaling_via_nfkb']
+[   127s] test fold ATF2: 3 groups, 64 training populations
+[   146s]   unpaired fits 16s: dims current 20, noise_aware 1 (threshold 0.9549, eigenvalues [2.2838, 0.4925, 0.3628, 0.3248])
+[   161s]   budget 50: paired_corr -3.148, paired_js 0.115, paired_lowrank 0.000, paired_eot -0.306, block_js 0.239, combine_global -0.991, hybrid -0.071, hybrid_current -0.943, hybrid_pc 0.165
+[   172s]   budget 100: paired_corr -1.311, paired_js 0.233, paired_lowrank 0.000, paired_eot -0.364, block_js 0.432, combine_global -0.548, hybrid 0.390, hybrid_current -0.160, hybrid_pc 0.446
+[   184s]   budget 200: paired_corr -0.063, paired_js 0.432, paired_lowrank 0.036, paired_eot -0.193, block_js 0.670, combine_global -0.067, hybrid 0.645, hybrid_current 0.194, hybrid_pc 0.665
+[   202s]   budget 400: paired_corr 0.465, paired_js 0.567, paired_lowrank 0.334, paired_eot 0.016, block_js 0.741, combine_global 0.243, hybrid 0.717, hybrid_current 0.415, hybrid_pc 0.728
+[   215s]   budget 800: paired_corr 0.716, paired_js 0.748, paired_lowrank 0.682, paired_eot 0.129, block_js 0.840, combine_global 0.443, hybrid 0.820, hybrid_current 0.482, hybrid_pc 0.836
+[   229s]   budget 1600: paired_corr 0.815, paired_js 0.820, paired_lowrank 0.815, paired_eot 0.219, block_js 0.865, combine_global 0.507, hybrid 0.841, hybrid_current 0.550, hybrid_pc 0.859
+[   229s] test fold CAV1: 3 groups, 64 training populations
+[   248s]   unpaired fits 16s: dims current 21, noise_aware 1 (threshold 0.9602, eigenvalues [2.2113, 0.4861, 0.3548, 0.3303])
+[   263s]   budget 50: paired_corr -4.553, paired_js 0.101, paired_lowrank 0.000, paired_eot -0.567, block_js 0.193, combine_global -2.118, hybrid -0.402, hybrid_current -1.452, hybrid_pc 0.167
+[   280s]   budget 100: paired_corr -1.418, paired_js 0.270, paired_lowrank 0.000, paired_eot -0.320, block_js 0.502, combine_global -1.298, hybrid 0.185, hybrid_current -0.537, hybrid_pc 0.491
+[   292s]   budget 200: paired_corr -0.320, paired_js 0.367, paired_lowrank 0.000, paired_eot -0.242, block_js 0.573, combine_global -0.673, hybrid 0.502, hybrid_current -0.018, hybrid_pc 0.580
+[   302s]   budget 400: paired_corr 0.199, paired_js 0.499, paired_lowrank 0.176, paired_eot -0.336, block_js 0.633, combine_global -0.366, hybrid 0.572, hybrid_current 0.248, hybrid_pc 0.640
+[   313s]   budget 800: paired_corr 0.519, paired_js 0.636, paired_lowrank 0.334, paired_eot -0.200, block_js 0.708, combine_global -0.087, hybrid 0.696, hybrid_current 0.367, hybrid_pc 0.717
+[   324s]   budget 1600: paired_corr 0.679, paired_js 0.724, paired_lowrank 0.636, paired_eot -0.054, block_js 0.754, combine_global 0.055, hybrid 0.735, hybrid_current 0.480, hybrid_pc 0.754
+[   324s] test fold CD86: 3 groups, 64 training populations
+[   336s]   unpaired fits 11s: dims current 21, noise_aware 1 (threshold 0.9893, eigenvalues [2.3095, 0.4969, 0.3511, 0.3394])
+[   345s]   budget 50: paired_corr -2.973, paired_js 0.115, paired_lowrank 0.000, paired_eot -0.087, block_js 0.270, combine_global -0.689, hybrid 0.151, hybrid_current -0.518, hybrid_pc 0.232
+[   351s]   budget 100: paired_corr -1.359, paired_js 0.171, paired_lowrank 0.000, paired_eot -0.197, block_js 0.325, combine_global -0.485, hybrid 0.325, hybrid_current 0.053, hybrid_pc 0.290
+[   358s]   budget 200: paired_corr -0.321, paired_js 0.267, paired_lowrank 0.000, paired_eot -0.104, block_js 0.435, combine_global -0.275, hybrid 0.417, hybrid_current 0.197, hybrid_pc 0.430
+[   365s]   budget 400: paired_corr 0.158, paired_js 0.410, paired_lowrank 0.439, paired_eot -0.063, block_js 0.557, combine_global -0.133, hybrid 0.514, hybrid_current 0.304, hybrid_pc 0.561
+[   374s]   budget 800: paired_corr 0.434, paired_js 0.516, paired_lowrank 0.602, paired_eot 0.049, block_js 0.623, combine_global -0.005, hybrid 0.566, hybrid_current 0.408, hybrid_pc 0.624
+[   388s]   budget 1600: paired_corr 0.560, paired_js 0.590, paired_lowrank 0.576, paired_eot 0.183, block_js 0.650, combine_global 0.052, hybrid 0.574, hybrid_current 0.462, hybrid_pc 0.652
+[   388s] test fold CMTM6: 3 groups, 64 training populations
+[   407s]   unpaired fits 16s: dims current 21, noise_aware 1 (threshold 0.8946, eigenvalues [2.2807, 0.4776, 0.3511, 0.3267])
+[   422s]   budget 50: paired_corr -3.886, paired_js 0.110, paired_lowrank 0.000, paired_eot -0.561, block_js 0.220, combine_global -2.141, hybrid -0.056, hybrid_current -1.163, hybrid_pc 0.212
+[   435s]   budget 100: paired_corr -1.431, paired_js 0.199, paired_lowrank 0.000, paired_eot -0.548, block_js 0.400, combine_global -1.454, hybrid 0.272, hybrid_current -0.348, hybrid_pc 0.397
+[   448s]   budget 200: paired_corr -0.532, paired_js 0.304, paired_lowrank -0.076, paired_eot -0.768, block_js 0.411, combine_global -1.171, hybrid 0.275, hybrid_current -0.139, hybrid_pc 0.406
+[   458s]   budget 400: paired_corr 0.140, paired_js 0.471, paired_lowrank 0.136, paired_eot -0.748, block_js 0.562, combine_global -0.764, hybrid 0.454, hybrid_current 0.218, hybrid_pc 0.565
+[   471s]   budget 800: paired_corr 0.451, paired_js 0.560, paired_lowrank 0.382, paired_eot -0.543, block_js 0.624, combine_global -0.571, hybrid 0.531, hybrid_current 0.300, hybrid_pc 0.631
+[   483s]   budget 1600: paired_corr 0.592, paired_js 0.641, paired_lowrank 0.592, paired_eot -0.543, block_js 0.664, combine_global -0.464, hybrid 0.563, hybrid_current 0.348, hybrid_pc 0.666
+[   483s] test fold ETV7: 3 groups, 64 training populations
+[   502s]   unpaired fits 17s: dims current 21, noise_aware 1 (threshold 0.9617, eigenvalues [2.2388, 0.4861, 0.3546, 0.3276])
+[   514s]   budget 50: paired_corr -104.428, paired_js -1.467, paired_lowrank 0.000, paired_eot -17.179, block_js -2.224, combine_global -46.895, hybrid -18.590, hybrid_current -37.820, hybrid_pc -2.751
+[   524s]   budget 100: paired_corr -41.712, paired_js 1.136, paired_lowrank 0.000, paired_eot -8.787, block_js 0.731, combine_global -29.421, hybrid -2.989, hybrid_current -17.912, hybrid_pc -0.882
+[   533s]   budget 200: paired_corr -17.490, paired_js 2.441, paired_lowrank -1.506, paired_eot -14.107, block_js 2.557, combine_global -20.452, hybrid 0.984, hybrid_current -10.017, hybrid_pc 1.987
+[   544s]   budget 400: paired_corr -7.892, paired_js 2.518, paired_lowrank -1.698, paired_eot -15.470, block_js 3.128, combine_global -14.076, hybrid 2.210, hybrid_current -4.347, hybrid_pc 2.413
+[   556s]   budget 800: paired_corr -0.805, paired_js 3.854, paired_lowrank 0.744, paired_eot -14.446, block_js 4.045, combine_global -9.526, hybrid 3.234, hybrid_current -2.140, hybrid_pc 3.403
+[   567s]   budget 1600: paired_corr 2.303, paired_js 4.535, paired_lowrank 2.303, paired_eot -11.663, block_js 4.652, combine_global -7.241, hybrid 4.005, hybrid_current -0.643, hybrid_pc 4.026
+[   567s] test fold IFNGR1: 3 groups, 64 training populations
+[   589s]   unpaired fits 19s: dims current 22, noise_aware 1 (threshold 1.0279, eigenvalues [2.0111, 0.4838, 0.3348, 0.3031])
+[   604s]   budget 50: paired_corr -6.931, paired_js -0.047, paired_lowrank 0.000, paired_eot -0.276, block_js -0.180, combine_global -3.351, hybrid -0.400, hybrid_current -1.980, hybrid_pc -0.062
+[   616s]   budget 100: paired_corr -2.681, paired_js 0.197, paired_lowrank 0.000, paired_eot -0.210, block_js 0.281, combine_global -2.243, hybrid 0.171, hybrid_current -0.742, hybrid_pc 0.310
+[   628s]   budget 200: paired_corr -0.903, paired_js 0.369, paired_lowrank -0.145, paired_eot -0.193, block_js 0.388, combine_global -1.386, hybrid 0.522, hybrid_current 0.014, hybrid_pc 0.434
+[   637s]   budget 400: paired_corr -0.199, paired_js 0.446, paired_lowrank -0.135, paired_eot -0.192, block_js 0.422, combine_global -0.924, hybrid 0.602, hybrid_current 0.288, hybrid_pc 0.491
+[   647s]   budget 800: paired_corr 0.295, paired_js 0.565, paired_lowrank 0.143, paired_eot 0.067, block_js 0.511, combine_global -0.500, hybrid 0.699, hybrid_current 0.517, hybrid_pc 0.586
+[   658s]   budget 1600: paired_corr 0.495, paired_js 0.624, paired_lowrank 0.495, paired_eot 0.263, block_js 0.569, combine_global -0.382, hybrid 0.746, hybrid_current 0.609, hybrid_pc 0.635
+[   658s] test fold IFNGR2: 3 groups, 64 training populations
+[   673s]   unpaired fits 12s: dims current 23, noise_aware 1 (threshold 0.9849, eigenvalues [1.9436, 0.4885, 0.3768, 0.3351])
+[   681s]   budget 50: paired_corr -3.550, paired_js 0.071, paired_lowrank 0.000, paired_eot -0.476, block_js 0.130, combine_global -1.250, hybrid -0.064, hybrid_current -0.934, hybrid_pc 0.126
+[   688s]   budget 100: paired_corr -1.394, paired_js 0.171, paired_lowrank 0.000, paired_eot -0.292, block_js 0.255, combine_global -0.814, hybrid 0.250, hybrid_current -0.180, hybrid_pc 0.240
+[   694s]   budget 200: paired_corr -0.349, paired_js 0.291, paired_lowrank 0.042, paired_eot -0.118, block_js 0.364, combine_global -0.485, hybrid 0.405, hybrid_current 0.126, hybrid_pc 0.359
+[   702s]   budget 400: paired_corr 0.078, paired_js 0.353, paired_lowrank 0.227, paired_eot -0.098, block_js 0.399, combine_global -0.231, hybrid 0.445, hybrid_current 0.359, hybrid_pc 0.396
+[   708s]   budget 800: paired_corr 0.284, paired_js 0.414, paired_lowrank 0.348, paired_eot 0.058, block_js 0.429, combine_global -0.058, hybrid 0.487, hybrid_current 0.510, hybrid_pc 0.433
+[   719s]   budget 1600: paired_corr 0.430, paired_js 0.480, paired_lowrank 0.430, paired_eot 0.221, block_js 0.485, combine_global 0.046, hybrid 0.540, hybrid_current 0.581, hybrid_pc 0.494
+[   719s] test fold IRF1: 3 groups, 64 training populations
+[   738s]   unpaired fits 17s: dims current 22, noise_aware 1 (threshold 0.9407, eigenvalues [2.2404, 0.4073, 0.3496, 0.2399])
+[   751s]   budget 50: paired_corr -5.805, paired_js 0.124, paired_lowrank 0.000, paired_eot -0.500, block_js 0.219, combine_global -2.916, hybrid -0.275, hybrid_current -1.431, hybrid_pc 0.174
+[   764s]   budget 100: paired_corr -2.421, paired_js 0.228, paired_lowrank 0.000, paired_eot -0.519, block_js 0.353, combine_global -2.055, hybrid 0.187, hybrid_current -0.616, hybrid_pc 0.367
+[   778s]   budget 200: paired_corr -0.888, paired_js 0.374, paired_lowrank -0.022, paired_eot -0.797, block_js 0.514, combine_global -1.179, hybrid 0.448, hybrid_current -0.370, hybrid_pc 0.485
+[   791s]   budget 400: paired_corr 0.169, paired_js 0.621, paired_lowrank 0.297, paired_eot -0.539, block_js 0.728, combine_global -0.483, hybrid 0.655, hybrid_current 0.237, hybrid_pc 0.733
+[   808s]   budget 800: paired_corr 0.544, paired_js 0.749, paired_lowrank 0.571, paired_eot -0.342, block_js 0.778, combine_global -0.139, hybrid 0.729, hybrid_current 0.314, hybrid_pc 0.781
+[   830s]   budget 1600: paired_corr 0.727, paired_js 0.820, paired_lowrank 0.718, paired_eot -0.214, block_js 0.812, combine_global -0.011, hybrid 0.762, hybrid_current 0.352, hybrid_pc 0.815
+[   830s] test fold IRF7: 2 groups, 64 training populations
+[   851s]   unpaired fits 18s: dims current 21, noise_aware 1 (threshold 0.8784, eigenvalues [2.2262, 0.4761, 0.3403, 0.3226])
+[   865s]   budget 50: paired_corr -3.628, paired_js 0.188, paired_lowrank 0.000, paired_eot -0.222, block_js 0.373, combine_global -1.358, hybrid 0.275, hybrid_current -1.505, hybrid_pc 0.348
+[   880s]   budget 100: paired_corr -1.519, paired_js 0.399, paired_lowrank 0.000, paired_eot -0.337, block_js 0.744, combine_global -0.769, hybrid 0.812, hybrid_current -0.615, hybrid_pc 0.702
+[   890s]   budget 200: paired_corr -0.142, paired_js 0.557, paired_lowrank 0.184, paired_eot -0.347, block_js 0.915, combine_global -0.284, hybrid 0.917, hybrid_current 0.247, hybrid_pc 0.923
+[   902s]   budget 400: paired_corr 0.581, paired_js 0.813, paired_lowrank 0.677, paired_eot -0.386, block_js 1.121, combine_global 0.035, hybrid 1.086, hybrid_current 0.345, hybrid_pc 1.106
+[   917s]   budget 800: paired_corr 0.831, paired_js 0.923, paired_lowrank 0.796, paired_eot -0.378, block_js 1.100, combine_global 0.169, hybrid 1.056, hybrid_current 0.347, hybrid_pc 1.074
+[   924s]   budget 1600: paired_corr 1.036, paired_js 1.066, paired_lowrank 1.036, paired_eot -0.260, block_js 1.168, combine_global 0.317, hybrid 1.107, hybrid_current 0.599, hybrid_pc 1.127
+[   924s] test fold JAK2: 3 groups, 64 training populations
+[   933s]   unpaired fits 8s: dims current 23, noise_aware 1 (threshold 0.8532, eigenvalues [1.9004, 0.4863, 0.3393, 0.3195])
+[   939s]   budget 50: paired_corr -5.100, paired_js -0.061, paired_lowrank 0.000, paired_eot -0.598, block_js -0.159, combine_global -1.723, hybrid -0.397, hybrid_current -1.724, hybrid_pc -0.118
+[   943s]   budget 100: paired_corr -2.607, paired_js 0.073, paired_lowrank 0.000, paired_eot -0.755, block_js -0.010, combine_global -1.165, hybrid -0.059, hybrid_current -0.191, hybrid_pc 0.042
+[   948s]   budget 200: paired_corr -1.011, paired_js 0.212, paired_lowrank -0.067, paired_eot -0.374, block_js 0.191, combine_global -0.705, hybrid 0.272, hybrid_current 0.186, hybrid_pc 0.209
+[   952s]   budget 400: paired_corr -0.166, paired_js 0.313, paired_lowrank -0.042, paired_eot -0.109, block_js 0.275, combine_global -0.364, hybrid 0.345, hybrid_current 0.318, hybrid_pc 0.299
+[   957s]   budget 800: paired_corr 0.189, paired_js 0.406, paired_lowrank 0.103, paired_eot -0.024, block_js 0.351, combine_global -0.123, hybrid 0.433, hybrid_current 0.511, hybrid_pc 0.388
+[   963s]   budget 1600: paired_corr 0.329, paired_js 0.437, paired_lowrank 0.311, paired_eot 0.191, block_js 0.383, combine_global -0.035, hybrid 0.464, hybrid_current 0.551, hybrid_pc 0.426
+[   963s] test fold MARCH8: 3 groups, 64 training populations
+[   981s]   unpaired fits 15s: dims current 20, noise_aware 1 (threshold 0.8915, eigenvalues [2.3142, 0.4928, 0.3635, 0.3282])
+[   995s]   budget 50: paired_corr -3.913, paired_js 0.088, paired_lowrank 0.000, paired_eot -0.392, block_js 0.193, combine_global -2.658, hybrid -0.220, hybrid_current -1.282, hybrid_pc 0.087
+[  1006s]   budget 100: paired_corr -2.143, paired_js 0.205, paired_lowrank 0.000, paired_eot -0.622, block_js 0.334, combine_global -2.370, hybrid -0.083, hybrid_current -0.664, hybrid_pc 0.244
+[  1017s]   budget 200: paired_corr -0.487, paired_js 0.317, paired_lowrank -0.037, paired_eot -0.393, block_js 0.503, combine_global -1.274, hybrid 0.357, hybrid_current -0.223, hybrid_pc 0.465
+[  1033s]   budget 400: paired_corr 0.195, paired_js 0.509, paired_lowrank 0.162, paired_eot -0.409, block_js 0.695, combine_global -0.654, hybrid 0.625, hybrid_current 0.155, hybrid_pc 0.674
+[  1052s]   budget 800: paired_corr 0.499, paired_js 0.620, paired_lowrank 0.427, paired_eot -0.266, block_js 0.720, combine_global -0.343, hybrid 0.717, hybrid_current 0.318, hybrid_pc 0.713
+[  1073s]   budget 1600: paired_corr 0.590, paired_js 0.654, paired_lowrank 0.574, paired_eot -0.227, block_js 0.706, combine_global -0.261, hybrid 0.725, hybrid_current 0.370, hybrid_pc 0.706
+[  1073s] test fold NFKBIA: 3 groups, 64 training populations
+[  1092s]   unpaired fits 16s: dims current 21, noise_aware 1 (threshold 0.9025, eigenvalues [2.2128, 0.49, 0.3471, 0.3311])
+[  1107s]   budget 50: paired_corr -4.756, paired_js 0.112, paired_lowrank 0.000, paired_eot -0.631, block_js 0.270, combine_global -2.240, hybrid 0.059, hybrid_current -1.283, hybrid_pc 0.249
+[  1122s]   budget 100: paired_corr -1.287, paired_js 0.299, paired_lowrank 0.000, paired_eot -0.569, block_js 0.603, combine_global -1.376, hybrid 0.582, hybrid_current -0.698, hybrid_pc 0.614
+[  1129s]   budget 200: paired_corr -0.374, paired_js 0.404, paired_lowrank 0.001, paired_eot -0.618, block_js 0.659, combine_global -0.976, hybrid 0.718, hybrid_current -0.257, hybrid_pc 0.671
+[  1134s]   budget 400: paired_corr 0.232, paired_js 0.541, paired_lowrank 0.209, paired_eot -0.667, block_js 0.726, combine_global -0.656, hybrid 0.745, hybrid_current 0.004, hybrid_pc 0.742
+[  1139s]   budget 800: paired_corr 0.525, paired_js 0.661, paired_lowrank 0.494, paired_eot -0.537, block_js 0.770, combine_global -0.498, hybrid 0.795, hybrid_current 0.146, hybrid_pc 0.796
+[  1145s]   budget 1600: paired_corr 0.743, paired_js 0.785, paired_lowrank 0.724, paired_eot -0.292, block_js 0.848, combine_global -0.336, hybrid 0.841, hybrid_current 0.226, hybrid_pc 0.861
+[  1145s] test fold PDCD1LG2: 3 groups, 64 training populations
+[  1156s]   unpaired fits 10s: dims current 21, noise_aware 1 (threshold 0.8803, eigenvalues [2.196, 0.4818, 0.3556, 0.3274])
+[  1161s]   budget 50: paired_corr -1.879, paired_js 0.126, paired_lowrank 0.000, paired_eot -0.301, block_js 0.281, combine_global -0.597, hybrid 0.138, hybrid_current -0.710, hybrid_pc 0.287
+[  1165s]   budget 100: paired_corr -0.469, paired_js 0.303, paired_lowrank 0.000, paired_eot -0.208, block_js 0.564, combine_global -0.267, hybrid 0.477, hybrid_current -0.101, hybrid_pc 0.561
+[  1170s]   budget 200: paired_corr 0.169, paired_js 0.388, paired_lowrank 0.077, paired_eot -0.204, block_js 0.621, combine_global -0.098, hybrid 0.566, hybrid_current 0.060, hybrid_pc 0.617
+[  1176s]   budget 400: paired_corr 0.489, paired_js 0.518, paired_lowrank 0.433, paired_eot -0.092, block_js 0.697, combine_global 0.062, hybrid 0.629, hybrid_current 0.253, hybrid_pc 0.688
+[  1181s]   budget 800: paired_corr 0.648, paired_js 0.624, paired_lowrank 0.555, paired_eot -0.055, block_js 0.748, combine_global 0.129, hybrid 0.677, hybrid_current 0.366, hybrid_pc 0.732
+[  1186s]   budget 1600: paired_corr 0.752, paired_js 0.727, paired_lowrank 0.752, paired_eot 0.043, block_js 0.797, combine_global 0.180, hybrid 0.718, hybrid_current 0.395, hybrid_pc 0.771
+[  1186s] test fold POU2F2: 1 groups, 64 training populations
+[  1196s]   unpaired fits 8s: dims current 20, noise_aware 1 (threshold 0.8432, eigenvalues [2.2289, 0.4799, 0.3473, 0.3095])
+[  1201s]   budget 50: paired_corr -2.871, paired_js 0.062, paired_lowrank 0.000, paired_eot -0.287, block_js 0.188, combine_global -1.623, hybrid -0.419, hybrid_current -0.836, hybrid_pc 0.080
+[  1207s]   budget 100: paired_corr -0.849, paired_js 0.257, paired_lowrank 0.000, paired_eot -0.099, block_js 0.547, combine_global -1.073, hybrid 0.324, hybrid_current 0.090, hybrid_pc 0.497
+[  1212s]   budget 200: paired_corr 0.089, paired_js 0.430, paired_lowrank 0.000, paired_eot -0.067, block_js 0.750, combine_global -0.643, hybrid 0.611, hybrid_current 0.229, hybrid_pc 0.709
+[  1228s]   budget 400: paired_corr 0.455, paired_js 0.541, paired_lowrank 0.480, paired_eot 0.066, block_js 0.774, combine_global -0.360, hybrid 0.705, hybrid_current 0.355, hybrid_pc 0.759
+[  1247s]   budget 800: paired_corr 0.654, paired_js 0.661, paired_lowrank 0.656, paired_eot 0.116, block_js 0.828, combine_global -0.167, hybrid 0.778, hybrid_current 0.488, hybrid_pc 0.818
+[  1264s]   budget 1600: paired_corr 0.718, paired_js 0.713, paired_lowrank 0.718, paired_eot 0.112, block_js 0.817, combine_global -0.136, hybrid 0.793, hybrid_current 0.505, hybrid_pc 0.814
+[  1264s] test fold SMAD4: 2 groups, 64 training populations
+[  1281s]   unpaired fits 14s: dims current 22, noise_aware 1 (threshold 0.9218, eigenvalues [2.2628, 0.411, 0.3416, 0.2072])
+[  1297s]   budget 50: paired_corr -2.920, paired_js -0.010, paired_lowrank 0.000, paired_eot -0.408, block_js -0.014, combine_global -2.498, hybrid -0.568, hybrid_current -1.147, hybrid_pc 0.016
+[  1311s]   budget 100: paired_corr -1.707, paired_js -0.019, paired_lowrank -0.139, paired_eot -0.663, block_js -0.026, combine_global -2.302, hybrid -0.415, hybrid_current -0.592, hybrid_pc -0.032
+[  1324s]   budget 200: paired_corr -0.594, paired_js 0.098, paired_lowrank -0.038, paired_eot -0.427, block_js 0.150, combine_global -1.455, hybrid 0.111, hybrid_current 0.024, hybrid_pc 0.177
+[  1335s]   budget 400: paired_corr -0.227, paired_js 0.098, paired_lowrank -0.127, paired_eot -0.537, block_js 0.109, combine_global -1.174, hybrid 0.072, hybrid_current 0.051, hybrid_pc 0.133
+[  1345s]   budget 800: paired_corr 0.021, paired_js 0.159, paired_lowrank -0.053, paired_eot -0.346, block_js 0.155, combine_global -0.895, hybrid 0.166, hybrid_current 0.254, hybrid_pc 0.178
+[  1360s]   budget 1600: paired_corr 0.055, paired_js 0.132, paired_lowrank 0.055, paired_eot -0.370, block_js 0.125, combine_global -0.843, hybrid 0.148, hybrid_current 0.256, hybrid_pc 0.147
+[  1360s] test fold STAT1: 1 groups, 64 training populations
+[  1378s]   unpaired fits 14s: dims current 21, noise_aware 1 (threshold 0.6504, eigenvalues [1.6707, 0.4731, 0.3262, 0.2555])
+[  1392s]   budget 50: paired_corr -1.899, paired_js 0.034, paired_lowrank 0.000, paired_eot -0.121, block_js 0.046, combine_global -0.630, hybrid 0.029, hybrid_current -0.401, hybrid_pc -0.022
+[  1403s]   budget 100: paired_corr -0.844, paired_js 0.085, paired_lowrank 0.000, paired_eot -0.099, block_js 0.153, combine_global -0.397, hybrid 0.219, hybrid_current 0.074, hybrid_pc 0.157
+[  1415s]   budget 200: paired_corr -0.338, paired_js 0.106, paired_lowrank -0.017, paired_eot -0.012, block_js 0.140, combine_global -0.349, hybrid 0.224, hybrid_current 0.158, hybrid_pc 0.143
+[  1430s]   budget 400: paired_corr -0.088, paired_js 0.135, paired_lowrank -0.048, paired_eot -0.105, block_js 0.161, combine_global -0.272, hybrid 0.239, hybrid_current 0.219, hybrid_pc 0.155
+[  1440s]   budget 800: paired_corr 0.037, paired_js 0.146, paired_lowrank 0.001, paired_eot -0.069, block_js 0.149, combine_global -0.213, hybrid 0.230, hybrid_current 0.297, hybrid_pc 0.136
+[  1453s]   budget 1600: paired_corr 0.106, paired_js 0.159, paired_lowrank 0.110, paired_eot 0.023, block_js 0.159, combine_global -0.178, hybrid 0.217, hybrid_current 0.287, hybrid_pc 0.135
+[  1453s] test fold STAT2: 3 groups, 64 training populations
+[  1472s]   unpaired fits 15s: dims current 20, noise_aware 1 (threshold 0.9661, eigenvalues [2.2416, 0.4797, 0.353, 0.3227])
+[  1482s]   budget 50: paired_corr -2.581, paired_js 0.149, paired_lowrank 0.000, paired_eot -0.341, block_js 0.326, combine_global -0.988, hybrid 0.163, hybrid_current -0.650, hybrid_pc 0.291
+[  1486s]   budget 100: paired_corr -0.887, paired_js 0.298, paired_lowrank 0.000, paired_eot -0.410, block_js 0.566, combine_global -0.564, hybrid 0.481, hybrid_current -0.183, hybrid_pc 0.560
+[  1492s]   budget 200: paired_corr 0.005, paired_js 0.414, paired_lowrank 0.026, paired_eot -0.338, block_js 0.650, combine_global -0.193, hybrid 0.663, hybrid_current 0.179, hybrid_pc 0.640
+[  1496s]   budget 400: paired_corr 0.510, paired_js 0.607, paired_lowrank 0.454, paired_eot -0.269, block_js 0.810, combine_global 0.097, hybrid 0.803, hybrid_current 0.416, hybrid_pc 0.800
+[  1501s]   budget 800: paired_corr 0.783, paired_js 0.775, paired_lowrank 0.617, paired_eot -0.137, block_js 0.894, combine_global 0.289, hybrid 0.870, hybrid_current 0.515, hybrid_pc 0.884
+[  1507s]   budget 1600: paired_corr 0.879, paired_js 0.864, paired_lowrank 0.879, paired_eot -0.033, block_js 0.927, combine_global 0.365, hybrid 0.897, hybrid_current 0.557, hybrid_pc 0.910
+[  1507s] test fold STAT3: 2 groups, 64 training populations
+[  1516s]   unpaired fits 8s: dims current 21, noise_aware 1 (threshold 0.9412, eigenvalues [2.2155, 0.4788, 0.3435, 0.3196])
+[  1522s]   budget 50: paired_corr -2.385, paired_js 0.055, paired_lowrank 0.000, paired_eot -0.509, block_js 0.103, combine_global -1.466, hybrid 0.076, hybrid_current -1.166, hybrid_pc 0.107
+[  1527s]   budget 100: paired_corr -0.896, paired_js 0.151, paired_lowrank 0.000, paired_eot -0.445, block_js 0.211, combine_global -1.168, hybrid 0.206, hybrid_current -0.441, hybrid_pc 0.207
+[  1532s]   budget 200: paired_corr -0.151, paired_js 0.244, paired_lowrank 0.023, paired_eot -0.530, block_js 0.343, combine_global -0.842, hybrid 0.285, hybrid_current -0.159, hybrid_pc 0.339
+[  1537s]   budget 400: paired_corr 0.206, paired_js 0.343, paired_lowrank 0.277, paired_eot -0.459, block_js 0.419, combine_global -0.691, hybrid 0.361, hybrid_current -0.038, hybrid_pc 0.416
+[  1541s]   budget 800: paired_corr 0.370, paired_js 0.428, paired_lowrank 0.425, paired_eot -0.447, block_js 0.464, combine_global -0.563, hybrid 0.390, hybrid_current 0.064, hybrid_pc 0.458
+[  1547s]   budget 1600: paired_corr 0.463, paired_js 0.484, paired_lowrank 0.461, paired_eot -0.346, block_js 0.503, combine_global -0.493, hybrid 0.415, hybrid_current 0.140, hybrid_pc 0.492
+[  1547s] test fold STAT5A: 3 groups, 64 training populations
+[  1561s]   unpaired fits 12s: dims current 20, noise_aware 1 (threshold 0.8907, eigenvalues [2.2561, 0.4737, 0.3544, 0.3274])
+[  1580s]   budget 50: paired_corr -22.150, paired_js 1.246, paired_lowrank 0.000, paired_eot -2.820, block_js 2.520, combine_global -13.678, hybrid -1.712, hybrid_current -10.087, hybrid_pc 1.824
+[  1598s]   budget 100: paired_corr -9.090, paired_js 1.983, paired_lowrank -0.277, paired_eot -4.499, block_js 4.192, combine_global -8.366, hybrid 1.720, hybrid_current -5.143, hybrid_pc 3.243
+[  1615s]   budget 200: paired_corr 1.259, paired_js 4.755, paired_lowrank 0.719, paired_eot -2.509, block_js 6.794, combine_global -3.648, hybrid 6.128, hybrid_current -0.086, hybrid_pc 6.739
+[  1620s]   budget 400: paired_corr 4.527, paired_js 5.152, paired_lowrank 3.749, paired_eot -1.549, block_js 6.763, combine_global -1.651, hybrid 6.409, hybrid_current 2.205, hybrid_pc 6.489
+[  1625s]   budget 800: paired_corr 6.830, paired_js 6.833, paired_lowrank 6.314, paired_eot -0.338, block_js 7.682, combine_global 0.091, hybrid 7.262, hybrid_current 3.297, hybrid_pc 7.593
+[  1630s]   budget 1600: paired_corr 7.906, paired_js 7.799, paired_lowrank 7.906, paired_eot 0.838, block_js 8.164, combine_global 1.191, hybrid 7.765, hybrid_current 4.280, hybrid_pc 8.089
+[  1630s] test fold TNFRSF14: 3 groups, 64 training populations
+[  1640s]   unpaired fits 8s: dims current 20, noise_aware 1 (threshold 0.9436, eigenvalues [2.2499, 0.4849, 0.3529, 0.322])
+[  1645s]   budget 50: paired_corr -3.570, paired_js 0.091, paired_lowrank 0.000, paired_eot -0.146, block_js 0.217, combine_global -2.210, hybrid -0.168, hybrid_current -1.616, hybrid_pc 0.126
+[  1649s]   budget 100: paired_corr -1.596, paired_js 0.250, paired_lowrank 0.000, paired_eot -0.462, block_js 0.391, combine_global -1.540, hybrid 0.176, hybrid_current -0.395, hybrid_pc 0.369
+[  1654s]   budget 200: paired_corr -0.107, paired_js 0.451, paired_lowrank 0.000, paired_eot -0.115, block_js 0.644, combine_global -0.792, hybrid 0.570, hybrid_current 0.096, hybrid_pc 0.641
+[  1659s]   budget 400: paired_corr 0.330, paired_js 0.584, paired_lowrank 0.294, paired_eot -0.146, block_js 0.718, combine_global -0.537, hybrid 0.651, hybrid_current 0.298, hybrid_pc 0.720
+[  1664s]   budget 800: paired_corr 0.632, paired_js 0.726, paired_lowrank 0.612, paired_eot -0.065, block_js 0.794, combine_global -0.287, hybrid 0.731, hybrid_current 0.460, hybrid_pc 0.791
+[  1670s]   budget 1600: paired_corr 0.772, paired_js 0.802, paired_lowrank 0.772, paired_eot 0.130, block_js 0.835, combine_global -0.170, hybrid 0.773, hybrid_current 0.570, hybrid_pc 0.831
+[  1670s] test fold UBE2L6: 2 groups, 64 training populations
+[  1679s]   unpaired fits 8s: dims current 20, noise_aware 1 (threshold 0.9069, eigenvalues [2.2074, 0.4773, 0.3533, 0.3208])
+[  1685s]   budget 50: paired_corr -2.268, paired_js 0.066, paired_lowrank 0.000, paired_eot -0.153, block_js 0.157, combine_global -1.191, hybrid 0.091, hybrid_current -0.664, hybrid_pc 0.182
+[  1690s]   budget 100: paired_corr -0.660, paired_js 0.195, paired_lowrank 0.000, paired_eot -0.211, block_js 0.367, combine_global -0.765, hybrid 0.235, hybrid_current -0.120, hybrid_pc 0.325
+[  1695s]   budget 200: paired_corr -0.034, paired_js 0.319, paired_lowrank 0.092, paired_eot -0.305, block_js 0.500, combine_global -0.390, hybrid 0.460, hybrid_current 0.164, hybrid_pc 0.499
+[  1700s]   budget 400: paired_corr 0.326, paired_js 0.411, paired_lowrank 0.185, paired_eot -0.126, block_js 0.558, combine_global -0.091, hybrid 0.572, hybrid_current 0.299, hybrid_pc 0.554
+[  1706s]   budget 800: paired_corr 0.517, paired_js 0.542, paired_lowrank 0.463, paired_eot -0.136, block_js 0.639, combine_global 0.077, hybrid 0.658, hybrid_current 0.404, hybrid_pc 0.644
+[  1711s]   budget 1600: paired_corr 0.602, paired_js 0.600, paired_lowrank 0.604, paired_eot -0.035, block_js 0.660, combine_global 0.167, hybrid 0.687, hybrid_current 0.448, hybrid_pc 0.665
+[  1711s] nt fold None: 3 groups, 67 training populations
+[  1721s]   unpaired fits 9s: dims current 21, noise_aware 1 (threshold 0.8423, eigenvalues [2.174, 0.4646, 0.3415, 0.3149])
+[  1727s]   budget 50: paired_corr -3.257, paired_js 0.119, paired_lowrank 0.000, paired_eot 0.067, block_js 0.265, combine_global -1.035, hybrid 0.078, hybrid_current -0.155, hybrid_pc 0.227
+[  1732s]   budget 100: paired_corr -1.413, paired_js 0.246, paired_lowrank 0.000, paired_eot 0.126, block_js 0.392, combine_global -0.571, hybrid 0.311, hybrid_current 0.053, hybrid_pc 0.392
+[  1737s]   budget 200: paired_corr -0.313, paired_js 0.329, paired_lowrank 0.000, paired_eot 0.217, block_js 0.482, combine_global -0.147, hybrid 0.455, hybrid_current 0.385, hybrid_pc 0.476
+[  1742s]   budget 400: paired_corr 0.277, paired_js 0.522, paired_lowrank 0.294, paired_eot 0.415, block_js 0.652, combine_global 0.243, hybrid 0.649, hybrid_current 0.578, hybrid_pc 0.651
+[  1747s]   budget 800: paired_corr 0.551, paired_js 0.632, paired_lowrank 0.514, paired_eot 0.548, block_js 0.706, combine_global 0.473, hybrid 0.712, hybrid_current 0.684, hybrid_pc 0.710
+[  1753s]   budget 1600: paired_corr 0.687, paired_js 0.715, paired_lowrank 0.687, paired_eot 0.655, block_js 0.752, combine_global 0.576, hybrid 0.762, hybrid_current 0.740, hybrid_pc 0.758
+[  1753s] wrote results/papalexi.json

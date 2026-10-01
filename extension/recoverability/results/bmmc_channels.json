@@ -1,0 +1,317 @@
+{
+ "frozen": {
+  "scale": 0.01,
+  "at_edge": false,
+  "n_train": 118
+ },
+ "P1": {
+  "scale": 0.001,
+  "at_edge": false,
+  "n_train": 512
+ },
+ "lc00": {
+  "scale": 0.01,
+  "at_edge": false,
+  "n_train": 8
+ },
+ "lc01": {
+  "scale": 0.1,
+  "at_edge": false,
+  "n_train": 8
+ },
+ "lc02": {
+  "scale": 0.01,
+  "at_edge": false,
+  "n_train": 8
+ },
+ "lc03": {
+  "scale": 0.1,
+  "at_edge": false,
+  "n_train": 8
+ },
+ "lc04": {
+  "scale": 0.1,
+  "at_edge": false,
+  "n_train": 8
+ },
+ "lc05": {
+  "scale": 1.0,
+  "at_edge": false,
+  "n_train": 8
+ },
+ "lc06": {
+  "scale": 10.0,
+  "at_edge": false,
+  "n_train": 8
+ },
+ "lc07": {
+  "scale": 0.1,
+  "at_edge": false,
+  "n_train": 8
+ },
+ "lc08": {
+  "scale": 0.1,
+  "at_edge": false,
+  "n_train": 8
+ },
+ "lc09": {
+  "scale": 0.01,
+  "at_edge": false,
+  "n_train": 8
+ },
+ "lc10": {
+  "scale": 0.1,
+  "at_edge": false,
+  "n_train": 16
+ },
+ "lc11": {
+  "scale": 0.1,
+  "at_edge": false,
+  "n_train": 16
+ },
+ "lc12": {
+  "scale": 0.1,
+  "at_edge": false,
+  "n_train": 16
+ },
+ "lc13": {
+  "scale": 0.01,
+  "at_edge": false,
+  "n_train": 16
+ },
+ "lc14": {
+  "scale": 0.1,
+  "at_edge": false,
+  "n_train": 16
+ },
+ "lc15": {
+  "scale": 0.01,
+  "at_edge": false,
+  "n_train": 16
+ },
+ "lc16": {
+  "scale": 0.01,
+  "at_edge": false,
+  "n_train": 16
+ },
+ "lc17": {
+  "scale": 0.1,
+  "at_edge": false,
+  "n_train": 16
+ },
+ "lc18": {
+  "scale": 0.1,
+  "at_edge": false,
+  "n_train": 16
+ },
+ "lc19": {
+  "scale": 1.0,
+  "at_edge": false,
+  "n_train": 16
+ },
+ "lc20": {
+  "scale": 0.01,
+  "at_edge": false,
+  "n_train": 32
+ },
+ "lc21": {
+  "scale": 0.1,
+  "at_edge": false,
+  "n_train": 32
+ },
+ "lc22": {
+  "scale": 0.01,
+  "at_edge": false,
+  "n_train": 32
+ },
+ "lc23": {
+  "scale": 0.01,
+  "at_edge": false,
+  "n_train": 32
+ },
+ "lc24": {
+  "scale": 0.1,
+  "at_edge": false,
+  "n_train": 32
+ },
+ "lc25": {
+  "scale": 0.1,
+  "at_edge": false,
+  "n_train": 32
+ },
+ "lc26": {
+  "scale": 0.1,
+  "at_edge": false,
+  "n_train": 32
+ },
+ "lc27": {
+  "scale": 0.01,
+  "at_edge": false,
+  "n_train": 32
+ },
+ "lc28": {
+  "scale": 0.1,
+  "at_edge": false,
+  "n_train": 32
+ },
+ "lc29": {
+  "scale": 0.1,
+  "at_edge": false,
+  "n_train": 32
+ },
+ "lc30": {
+  "scale": 0.01,
+  "at_edge": false,
+  "n_train": 64
+ },
+ "lc31": {
+  "scale": 0.01,
+  "at_edge": false,
+  "n_train": 64
+ },
+ "lc32": {
+  "scale": 0.01,
+  "at_edge": false,
+  "n_train": 64
+ },
+ "lc33": {
+  "scale": 0.01,
+  "at_edge": false,
+  "n_train": 64
+ },
+ "lc34": {
+  "scale": 0.001,
+  "at_edge": false,
+  "n_train": 64
+ },
+ "lc35": {
+  "scale": 0.01,
+  "at_edge": false,
+  "n_train": 64
+ },
+ "lc36": {
+  "scale": 0.01,
+  "at_edge": false,
+  "n_train": 64
+ },
+ "lc37": {
+  "scale": 0.01,
+  "at_edge": false,
+  "n_train": 64
+ },
+ "lc38": {
+  "scale": 0.01,
+  "at_edge": false,
+  "n_train": 64
+ },
+ "lc39": {
+  "scale": 0.01,
+  "at_edge": false,
+  "n_train": 64
+ },
+ "perm00": {
+  "scale": 1.0,
+  "at_edge": false,
+  "n_train": 118
+ },
+ "perm01": {
+  "scale": 1.0,
+  "at_edge": false,
+  "n_train": 118
+ },
+ "perm02": {
+  "scale": 1.0,
+  "at_edge": false,
+  "n_train": 118
+ },
+ "perm03": {
+  "scale": 0.1,
+  "at_edge": false,
+  "n_train": 118
+ },
+ "perm04": {
+  "scale": 1000.0,
+  "at_edge": true,
+  "n_train": 118
+ },
+ "perm05": {
+  "scale": 1000.0,
+  "at_edge": true,
+  "n_train": 118
+ },
+ "perm06": {
+  "scale": 1000.0,
+  "at_edge": true,
+  "n_train": 118
+ },
+ "perm07": {
+  "scale": 1.0,
+  "at_edge": false,
+  "n_train": 118
+ },
+ "perm08": {
+  "scale": 1.0,
+  "at_edge": false,
+  "n_train": 118
+ },
+ "perm09": {
+  "scale": 1000.0,
+  "at_edge": true,
+  "n_train": 118
+ },
+ "perm10": {
+  "scale": 1.0,
+  "at_edge": false,
+  "n_train": 118
+ },
+ "perm11": {
+  "scale": 10.0,
+  "at_edge": false,
+  "n_train": 118
+ },
+ "perm12": {
+  "scale": 1000.0,
+  "at_edge": true,
+  "n_train": 118
+ },
+ "perm13": {
+  "scale": 10.0,
+  "at_edge": false,
+  "n_train": 118
+ },
+ "perm14": {
+  "scale": 1.0,
+  "at_edge": false,
+  "n_train": 118
+ },
+ "perm15": {
+  "scale": 1.0,
+  "at_edge": false,
+  "n_train": 118
+ },
+ "perm16": {
+  "scale": 10.0,
+  "at_edge": false,
+  "n_train": 118
+ },
+ "perm17": {
+  "scale": 10.0,
+  "at_edge": false,
+  "n_train": 118
+ },
+ "perm18": {
+  "scale": 1000.0,
+  "at_edge": true,
+  "n_train": 118
+ },
+ "perm19": {
+  "scale": 1000.0,
+  "at_edge": true,
+  "n_train": 118
+ },
+ "colon": {
+  "scale": 0.01,
+  "at_edge": false,
+  "n_train": 21
+ }
+}

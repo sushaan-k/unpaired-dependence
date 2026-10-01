@@ -1,0 +1,796 @@
+{
+ "donors": {
+  "hao/P1/within_l1": {
+   "tag": "hao/P1/within_l1",
+   "types": [
+    "B",
+    "CD4 T",
+    "CD8 T",
+    "DC",
+    "Mono",
+    "NK",
+    "other",
+    "other T"
+   ],
+   "scoring_cells": 9068,
+   "adaptation_cells": 9067,
+   "truth": {
+    "between_share": 0.959601059908818,
+    "within_share": 0.1435866391829694,
+    "cosine_between_within": 0.21246254744187346
+   },
+   "between": {
+    "E": 0.7587035671276408,
+    "entry_correlation": 0.71020285277414
+   },
+   "within": {
+    "E": 1.6535076588606035,
+    "entry_correlation": 0.18091687019991945
+   },
+   "total_direct": {
+    "E": 0.7964028826595854,
+    "entry_correlation": 0.6936944231383875
+   },
+   "predicted_norm_ratio": {
+    "between": 0.9916470868896987,
+    "within": 1.5101201019410226
+   }
+  },
+  "hao/P2/within_l1": {
+   "tag": "hao/P2/within_l1",
+   "types": [
+    "B",
+    "CD4 T",
+    "CD8 T",
+    "DC",
+    "Mono",
+    "NK",
+    "other",
+    "other T"
+   ],
+   "scoring_cells": 8603,
+   "adaptation_cells": 8602,
+   "truth": {
+    "between_share": 0.9627174541602037,
+    "within_share": 0.12397933806209457,
+    "cosine_between_within": 0.24214831127178263
+   },
+   "between": {
+    "E": 0.6901666218666468,
+    "entry_correlation": 0.7613034744026732
+   },
+   "within": {
+    "E": 1.8537315902497815,
+    "entry_correlation": 0.1976028161239936
+   },
+   "total_direct": {
+    "E": 0.7266283574760681,
+    "entry_correlation": 0.7462194331800005
+   },
+   "predicted_norm_ratio": {
+    "between": 0.9944368199274466,
+    "within": 1.7708682567208596
+   }
+  },
+  "hao/P3/within_l1": {
+   "tag": "hao/P3/within_l1",
+   "types": [
+    "B",
+    "CD4 T",
+    "CD8 T",
+    "DC",
+    "Mono",
+    "NK",
+    "other",
+    "other T"
+   ],
+   "scoring_cells": 7330,
+   "adaptation_cells": 7330,
+   "truth": {
+    "between_share": 0.9728283409583132,
+    "within_share": 0.10524160211211399,
+    "cosine_between_within": 0.2076987104041007
+   },
+   "between": {
+    "E": 0.6532649549217926,
+    "entry_correlation": 0.7741770026231721
+   },
+   "within": {
+    "E": 2.0413492655948335,
+    "entry_correlation": 0.039718575331239896
+   },
+   "total_direct": {
+    "E": 0.6897555928342575,
+    "entry_correlation": 0.7557309485269315
+   },
+   "predicted_norm_ratio": {
+    "between": 0.9327808849364453,
+    "within": 1.820064430587861
+   }
+  },
+  "hao/P4/within_l1": {
+   "tag": "hao/P4/within_l1",
+   "types": [
+    "B",
+    "CD4 T",
+    "CD8 T",
+    "DC",
+    "Mono",
+    "NK",
+    "other",
+    "other T"
+   ],
+   "scoring_cells": 8545,
+   "adaptation_cells": 8545,
+   "truth": {
+    "between_share": 0.9789806588328258,
+    "within_share": 0.10110583768791674,
+    "cosine_between_within": 0.15848792757158886
+   },
+   "between": {
+    "E": 0.7262810288348278,
+    "entry_correlation": 0.7480982058150586
+   },
+   "within": {
+    "E": 2.557167635965885,
+    "entry_correlation": 0.03753030027063314
+   },
+   "total_direct": {
+    "E": 0.7880220309191007,
+    "entry_correlation": 0.7215680614988689
+   },
+   "predicted_norm_ratio": {
+    "between": 1.0400132691995656,
+    "within": 2.391514457293331
+   }
+  },
+  "hao/P5/within_l1": {
+   "tag": "hao/P5/within_l1",
+   "types": [
+    "B",
+    "CD4 T",
+    "CD8 T",
+    "DC",
+    "Mono",
+    "NK",
+    "other",
+    "other T"
+   ],
+   "scoring_cells": 10906,
+   "adaptation_cells": 10905,
+   "truth": {
+    "between_share": 0.9665710316886829,
+    "within_share": 0.11917804561253695,
+    "cosine_between_within": 0.22369660459492444
+   },
+   "between": {
+    "E": 0.6586797656262467,
+    "entry_correlation": 0.7655455373227834
+   },
+   "within": {
+    "E": 1.5532106182348868,
+    "entry_correlation": 0.2306542544056733
+   },
+   "total_direct": {
+    "E": 0.6874259414266104,
+    "entry_correlation": 0.7507614250302319
+   },
+   "predicted_norm_ratio": {
+    "between": 0.9054510193493246,
+    "within": 1.4413084627579427
+   }
+  },
+  "hao/P6/within_l1": {
+   "tag": "hao/P6/within_l1",
+   "types": [
+    "B",
+    "CD4 T",
+    "CD8 T",
+    "DC",
+    "Mono",
+    "NK",
+    "other",
+    "other T"
+   ],
+   "scoring_cells": 10371,
+   "adaptation_cells": 10371,
+   "truth": {
+    "between_share": 0.9771602996776407,
+    "within_share": 0.09524267566545826,
+    "cosine_between_within": 0.19387345298161948
+   },
+   "between": {
+    "E": 0.726394865957403,
+    "entry_correlation": 0.7017142095143089
+   },
+   "within": {
+    "E": 1.706816521947566,
+    "entry_correlation": 0.10917562174872004
+   },
+   "total_direct": {
+    "E": 0.7394115679400911,
+    "entry_correlation": 0.6949596433312661
+   },
+   "predicted_norm_ratio": {
+    "between": 0.8446373333502807,
+    "within": 1.4968621315287938
+   }
+  },
+  "hao/P7/within_l1": {
+   "tag": "hao/P7/within_l1",
+   "types": [
+    "B",
+    "CD4 T",
+    "CD8 T",
+    "DC",
+    "Mono",
+    "NK",
+    "other",
+    "other T"
+   ],
+   "scoring_cells": 12936,
+   "adaptation_cells": 12935,
+   "truth": {
+    "between_share": 0.9747093984220311,
+    "within_share": 0.10689035069915027,
+    "cosine_between_within": 0.18484086631018426
+   },
+   "between": {
+    "E": 0.7272456520001173,
+    "entry_correlation": 0.7555508737221565
+   },
+   "within": {
+    "E": 1.7664040591112986,
+    "entry_correlation": 0.19029032863020334
+   },
+   "total_direct": {
+    "E": 0.772808481793265,
+    "entry_correlation": 0.7400640884634683
+   },
+   "predicted_norm_ratio": {
+    "between": 1.0716548103361025,
+    "within": 1.6588820069124182
+   }
+  },
+  "hao/P8/within_l1": {
+   "tag": "hao/P8/within_l1",
+   "types": [
+    "B",
+    "CD4 T",
+    "CD8 T",
+    "DC",
+    "Mono",
+    "NK",
+    "other",
+    "other T"
+   ],
+   "scoring_cells": 13125,
+   "adaptation_cells": 13125,
+   "truth": {
+    "between_share": 0.9761921302884854,
+    "within_share": 0.11186884664351901,
+    "cosine_between_within": 0.15811607381261558
+   },
+   "between": {
+    "E": 0.7414006005039878,
+    "entry_correlation": 0.7588051491921312
+   },
+   "within": {
+    "E": 2.2262938578313665,
+    "entry_correlation": 0.21808320716321772
+   },
+   "total_direct": {
+    "E": 0.8109651182747282,
+    "entry_correlation": 0.7342957639282154
+   },
+   "predicted_norm_ratio": {
+    "between": 1.1116483906723302,
+    "within": 2.2189556427049277
+   }
+  },
+  "colon/XAUT1-HS1/within_coarse": {
+   "tag": "colon/XAUT1-HS1/within_coarse",
+   "types": [
+    "01-Plasma cells",
+    "02-B",
+    "03-CD4 T",
+    "04-CD8 T",
+    "05-ILC2 and ILC3",
+    "08-MNP",
+    "10-Epithelial",
+    "11-Stromal-fibroblast",
+    "14-Mito Hi immune"
+   ],
+   "scoring_cells": 702,
+   "adaptation_cells": 710,
+   "truth": {
+    "between_share": 0.8210881600275355,
+    "within_share": 0.42325403312723875,
+    "cosine_between_within": 0.21101880639986753
+   },
+   "between": {
+    "E": 1.2597310156940205,
+    "entry_correlation": 0.3784248550005611
+   },
+   "within": {
+    "E": 1.463335168349685,
+    "entry_correlation": 0.077956022877093
+   },
+   "total_direct": {
+    "E": 1.3419553357577259,
+    "entry_correlation": 0.33814753180513135
+   },
+   "predicted_norm_ratio": {
+    "between": 1.2328428003929683,
+    "within": 1.149926915315887
+   }
+  },
+  "colon/XAUT1-HS10/within_coarse": {
+   "tag": "colon/XAUT1-HS10/within_coarse",
+   "types": [
+    "01-Plasma cells",
+    "03-CD4 T",
+    "04-CD8 T",
+    "14-Mito Hi immune"
+   ],
+   "scoring_cells": 185,
+   "adaptation_cells": 183,
+   "truth": {
+    "between_share": 0.4497528714947288,
+    "within_share": 0.841915239427597,
+    "cosine_between_within": 0.11739098488703201
+   },
+   "between": {
+    "E": 1.2914985875411227,
+    "entry_correlation": 0.2554196069985344
+   },
+   "within": {
+    "E": 1.210675795962131,
+    "entry_correlation": 0.05210870658298627
+   },
+   "total_direct": {
+    "E": 1.224625301548197,
+    "entry_correlation": 0.15016611237784985
+   },
+   "predicted_norm_ratio": {
+    "between": 1.1108165372672811,
+    "within": 0.7365771750511678
+   }
+  },
+  "colon/XAUT1-HS11/within_coarse": {
+   "tag": "colon/XAUT1-HS11/within_coarse",
+   "types": [
+    "01-Plasma cells",
+    "02-B",
+    "03-CD4 T",
+    "04-CD8 T",
+    "09-Cycling",
+    "10-Epithelial",
+    "11-Stromal-fibroblast",
+    "14-Mito Hi immune"
+   ],
+   "scoring_cells": 650,
+   "adaptation_cells": 644,
+   "truth": {
+    "between_share": 0.8296447421223558,
+    "within_share": 0.4147079337532158,
+    "cosine_between_within": 0.20302683731710397
+   },
+   "between": {
+    "E": 1.016315437765358,
+    "entry_correlation": 0.40878538259317565
+   },
+   "within": {
+    "E": 1.42792921950561,
+    "entry_correlation": 0.05534369543771828
+   },
+   "total_direct": {
+    "E": 1.1109443149424936,
+    "entry_correlation": 0.3394110448427386
+   },
+   "predicted_norm_ratio": {
+    "between": 0.8567454249449541,
+    "within": 1.0767378668002625
+   }
+  },
+  "colon/XAUT1-HS12/within_coarse": {
+   "tag": "colon/XAUT1-HS12/within_coarse",
+   "types": [
+    "01-Plasma cells",
+    "02-B",
+    "03-CD4 T",
+    "04-CD8 T",
+    "10-Epithelial",
+    "11-Stromal-fibroblast",
+    "12-Endothelial",
+    "14-Mito Hi immune"
+   ],
+   "scoring_cells": 1371,
+   "adaptation_cells": 1366,
+   "truth": {
+    "between_share": 0.8458487311993083,
+    "within_share": 0.3820946191951654,
+    "cosine_between_within": 0.21433491840592794
+   },
+   "between": {
+    "E": 1.211299671273162,
+    "entry_correlation": 0.18088775099350357
+   },
+   "within": {
+    "E": 1.5322697388870141,
+    "entry_correlation": 0.08132596830239998
+   },
+   "total_direct": {
+    "E": 1.297852858904063,
+    "entry_correlation": 0.17024294797299938
+   },
+   "predicted_norm_ratio": {
+    "between": 0.8884867440031748,
+    "within": 1.2459639086220595
+   }
+  },
+  "colon/XAUT1-HS2/within_coarse": {
+   "tag": "colon/XAUT1-HS2/within_coarse",
+   "types": [
+    "01-Plasma cells",
+    "02-B",
+    "03-CD4 T",
+    "04-CD8 T",
+    "10-Epithelial",
+    "11-Stromal-fibroblast",
+    "14-Mito Hi immune"
+   ],
+   "scoring_cells": 475,
+   "adaptation_cells": 486,
+   "truth": {
+    "between_share": 0.7490913537051382,
+    "within_share": 0.53454651325312,
+    "cosine_between_within": 0.19119995741309453
+   },
+   "between": {
+    "E": 1.1092251978621148,
+    "entry_correlation": 0.34096216777956695
+   },
+   "within": {
+    "E": 1.325831192595783,
+    "entry_correlation": 0.03855616578693639
+   },
+   "total_direct": {
+    "E": 1.1968925874204102,
+    "entry_correlation": 0.2388533667879469
+   },
+   "predicted_norm_ratio": {
+    "between": 0.9297909337183373,
+    "within": 0.9099995879893316
+   }
+  },
+  "colon/XAUT1-HS3/within_coarse": {
+   "tag": "colon/XAUT1-HS3/within_coarse",
+   "types": [
+    "01-Plasma cells",
+    "02-B",
+    "03-CD4 T",
+    "04-CD8 T",
+    "05-ILC2 and ILC3",
+    "08-MNP",
+    "09-Cycling",
+    "10-Epithelial",
+    "11-Stromal-fibroblast",
+    "14-Mito Hi immune"
+   ],
+   "scoring_cells": 821,
+   "adaptation_cells": 835,
+   "truth": {
+    "between_share": 0.8762805681854835,
+    "within_share": 0.3193993889156513,
+    "cosine_between_within": 0.23244744047053303
+   },
+   "between": {
+    "E": 1.0779136799408637,
+    "entry_correlation": 0.36387385467178135
+   },
+   "within": {
+    "E": 1.507651370881535,
+    "entry_correlation": 0.0859656532163298
+   },
+   "total_direct": {
+    "E": 1.168179754002021,
+    "entry_correlation": 0.33086509404391296
+   },
+   "predicted_norm_ratio": {
+    "between": 0.9060515844760985,
+    "within": 1.2183846067258837
+   }
+  },
+  "colon/XAUT1-HS4/within_coarse": {
+   "tag": "colon/XAUT1-HS4/within_coarse",
+   "types": [
+    "01-Plasma cells",
+    "02-B",
+    "03-CD4 T",
+    "04-CD8 T",
+    "08-MNP",
+    "10-Epithelial",
+    "11-Stromal-fibroblast",
+    "14-Mito Hi immune"
+   ],
+   "scoring_cells": 830,
+   "adaptation_cells": 833,
+   "truth": {
+    "between_share": 0.868627783120561,
+    "within_share": 0.3446718173742567,
+    "cosine_between_within": 0.21157431934783133
+   },
+   "between": {
+    "E": 1.2769042056797668,
+    "entry_correlation": 0.3617385346728064
+   },
+   "within": {
+    "E": 1.399706983440297,
+    "entry_correlation": 0.09476667636239897
+   },
+   "total_direct": {
+    "E": 1.2980538753967208,
+    "entry_correlation": 0.34712108899278543
+   },
+   "predicted_norm_ratio": {
+    "between": 1.2344032433724403,
+    "within": 1.0799141360880364
+   }
+  },
+  "colon/XAUT1-HS5/within_coarse": {
+   "tag": "colon/XAUT1-HS5/within_coarse",
+   "types": [
+    "01-Plasma cells",
+    "02-B",
+    "03-CD4 T",
+    "04-CD8 T",
+    "08-MNP",
+    "10-Epithelial",
+    "11-Stromal-fibroblast",
+    "14-Mito Hi immune"
+   ],
+   "scoring_cells": 498,
+   "adaptation_cells": 489,
+   "truth": {
+    "between_share": 0.8597642557055474,
+    "within_share": 0.3670149404464325,
+    "cosine_between_within": 0.19982083020400404
+   },
+   "between": {
+    "E": 1.2424951163789804,
+    "entry_correlation": 0.33351311686811724
+   },
+   "within": {
+    "E": 1.3129423408412437,
+    "entry_correlation": 0.08731583487367053
+   },
+   "total_direct": {
+    "E": 1.2753444762177473,
+    "entry_correlation": 0.31471947994238625
+   },
+   "predicted_norm_ratio": {
+    "between": 1.1437040670427778,
+    "within": 0.9430703598265314
+   }
+  },
+  "colon/XAUT1-HS6/within_coarse": {
+   "tag": "colon/XAUT1-HS6/within_coarse",
+   "types": [
+    "01-Plasma cells",
+    "02-B",
+    "03-CD4 T",
+    "04-CD8 T",
+    "06-NK",
+    "07-Mast",
+    "11-Stromal-fibroblast",
+    "14-Mito Hi immune"
+   ],
+   "scoring_cells": 233,
+   "adaptation_cells": 233,
+   "truth": {
+    "between_share": 0.8418926834199787,
+    "within_share": 0.4749138941947974,
+    "cosine_between_within": 0.08212749445176802
+   },
+   "between": {
+    "E": 1.118160976628065,
+    "entry_correlation": 0.28202656224164624
+   },
+   "within": {
+    "E": 1.2659680902874777,
+    "entry_correlation": 0.025389952717784343
+   },
+   "total_direct": {
+    "E": 1.1710375318641928,
+    "entry_correlation": 0.2255272166331573
+   },
+   "predicted_norm_ratio": {
+    "between": 0.8562803346562936,
+    "within": 0.8024283359171555
+   }
+  },
+  "colon/XAUT1-HS7/within_coarse": {
+   "tag": "colon/XAUT1-HS7/within_coarse",
+   "types": [
+    "01-Plasma cells",
+    "02-B",
+    "03-CD4 T",
+    "04-CD8 T",
+    "08-MNP",
+    "09-Cycling",
+    "10-Epithelial",
+    "11-Stromal-fibroblast",
+    "14-Mito Hi immune"
+   ],
+   "scoring_cells": 761,
+   "adaptation_cells": 761,
+   "truth": {
+    "between_share": 0.8233963852112779,
+    "within_share": 0.3810328103912353,
+    "cosine_between_within": 0.28181265502607855
+   },
+   "between": {
+    "E": 1.150444215449524,
+    "entry_correlation": 0.45941658880380215
+   },
+   "within": {
+    "E": 1.4274788858582323,
+    "entry_correlation": 0.10639230175985254
+   },
+   "total_direct": {
+    "E": 1.2149204844109434,
+    "entry_correlation": 0.4124215539803397
+   },
+   "predicted_norm_ratio": {
+    "between": 1.1906407013126943,
+    "within": 1.1320116053323244
+   }
+  },
+  "colon/XAUT1-HS8/within_coarse": {
+   "tag": "colon/XAUT1-HS8/within_coarse",
+   "types": [
+    "01-Plasma cells",
+    "02-B",
+    "03-CD4 T",
+    "04-CD8 T",
+    "08-MNP",
+    "11-Stromal-fibroblast",
+    "12-Endothelial",
+    "14-Mito Hi immune"
+   ],
+   "scoring_cells": 454,
+   "adaptation_cells": 459,
+   "truth": {
+    "between_share": 0.9382184934334584,
+    "within_share": 0.27210427921197544,
+    "cosine_between_within": 0.0895153255883844
+   },
+   "between": {
+    "E": 0.849851610615234,
+    "entry_correlation": 0.6021063214593616
+   },
+   "within": {
+    "E": 1.3212425879289138,
+    "entry_correlation": 0.10425140391968862
+   },
+   "total_direct": {
+    "E": 0.9052008764902982,
+    "entry_correlation": 0.569135601237268
+   },
+   "predicted_norm_ratio": {
+    "between": 0.8990655305671499,
+    "within": 0.9753542606860319
+   }
+  },
+  "colon/XAUT1-HS9/within_coarse": {
+   "tag": "colon/XAUT1-HS9/within_coarse",
+   "types": [
+    "01-Plasma cells",
+    "02-B",
+    "03-CD4 T",
+    "04-CD8 T",
+    "10-Epithelial",
+    "11-Stromal-fibroblast",
+    "14-Mito Hi immune"
+   ],
+   "scoring_cells": 628,
+   "adaptation_cells": 628,
+   "truth": {
+    "between_share": 0.8584177402323068,
+    "within_share": 0.4058175079667082,
+    "cosine_between_within": 0.1412775082984728
+   },
+   "between": {
+    "E": 1.099888061696572,
+    "entry_correlation": 0.24873682316798054
+   },
+   "within": {
+    "E": 1.342815288145689,
+    "entry_correlation": 0.07593821738984399
+   },
+   "total_direct": {
+    "E": 1.1705732748872746,
+    "entry_correlation": 0.2184619834112819
+   },
+   "predicted_norm_ratio": {
+    "between": 0.7700552801898228,
+    "within": 0.9754203877187418
+   }
+  }
+ },
+ "summary": {
+  "hao": {
+   "donors": 8,
+   "between_share": {
+    "mean": 0.9710950467421251,
+    "min": 0.959601059908818,
+    "max": 0.9789806588328258
+   },
+   "within_share": {
+    "mean": 0.1133866669582199,
+    "min": 0.09524267566545826,
+    "max": 0.1435866391829694
+   },
+   "E_between": {
+    "mean": 0.7102671321048328,
+    "min": 0.6532649549217926,
+    "max": 0.7587035671276408,
+    "donors_below_1": 8
+   },
+   "E_within": {
+    "mean": 1.9198101509745276,
+    "min": 1.5532106182348868,
+    "max": 2.557167635965885,
+    "donors_below_1": 0
+   },
+   "E_total_direct": {
+    "mean": 0.7514274966654634,
+    "min": 0.6874259414266104,
+    "max": 0.8109651182747282,
+    "donors_below_1": 8
+   },
+   "r_between": 0.746924663170803,
+   "r_within": 0.15049649673420007,
+   "r_total_direct": 0.7296617233871713,
+   "norm_ratio_within": 1.7885719363058947,
+   "norm_ratio_between": 0.9865337018326492
+  },
+  "colon": {
+   "donors": 12,
+   "between_share": {
+    "mean": 0.8135019806548067,
+    "min": 0.4497528714947288,
+    "max": 0.9382184934334584
+   },
+   "within_share": {
+    "mean": 0.43012274810478285,
+    "min": 0.27210427921197544,
+    "max": 0.841915239427597
+   },
+   "E_between": {
+    "mean": 1.1419773147103986,
+    "min": 0.849851610615234,
+    "max": 1.2914985875411227,
+    "donors_below_1": 1
+   },
+   "E_within": {
+    "mean": 1.3781538885569677,
+    "min": 1.210675795962131,
+    "max": 1.5322697388870141,
+    "donors_below_1": 0
+   },
+   "E_total_direct": {
+    "mean": 1.1979650559868407,
+    "min": 0.9052008764902982,
+    "max": 1.3419553357577259,
+    "donors_below_1": 1
+   },
+   "r_between": 0.35132429710423646,
+   "r_within": 0.0737758832688919,
+   "r_total_direct": 0.3045894185023164,
+   "norm_ratio_within": 1.0204824288394512,
+   "norm_ratio_between": 1.0015735984953327
+  }
+ }
+}

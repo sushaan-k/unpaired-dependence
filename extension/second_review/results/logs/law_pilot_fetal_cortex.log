@@ -1,0 +1,9 @@
+[06:17:25] fetal_cortex p100 target 0.5: observed 1600>; m=50: median achieved 0.268, reached 0.00; m=100: median achieved 0.366, reached 0.00; m=200: median achieved 0.405, reached 0.00
+[06:17:34] fetal_cortex p100 target 0.3: observed 1426=; m=50: median achieved 0.078, reached 0.04; m=100: median achieved 0.194, reached 0.22; m=200: median achieved 0.274, reached 0.41
+[06:17:48] fetal_cortex p100 target 0.7: observed 1600>; m=50: median achieved 0.405, reached 0.00; m=100: median achieved 0.405, reached 0.00; m=200: median achieved 0.405, reached 0.00
+[06:18:02] fetal_cortex p200 target 0.5: observed 1600>; m=50: median achieved 0.366, reached 0.00; m=100: median achieved 0.484, reached 0.00; m=200: median achieved 0.484, reached 0.00
+[06:18:09] fetal_cortex p200 target 0.3: observed 1012=; m=50: median achieved 0.159, reached 0.14; m=100: median achieved 0.238, reached 0.35; m=200: median achieved 0.328, reached 0.59
+[06:18:21] fetal_cortex p200 target 0.7: observed 1600>; m=50: median achieved 0.484, reached 0.00; m=100: median achieved 0.484, reached 0.00; m=200: median achieved 0.484, reached 0.00
+[06:18:43] fetal_cortex p400 target 0.5: observed 1600>; m=50: median achieved 0.379, reached 0.00; m=100: median achieved 0.474, reached 0.00; m=200: median achieved 0.474, reached 0.00
+[06:18:54] fetal_cortex p400 target 0.3: observed 928=; m=50: median achieved 0.220, reached 0.33; m=100: median achieved 0.262, reached 0.33; m=200: median achieved 0.321, reached 0.55
+[06:19:17] fetal_cortex p400 target 0.7: observed 1600>; m=50: median achieved 0.474, reached 0.00; m=100: median achieved 0.474, reached 0.00; m=200: median achieved 0.474, reached 0.00

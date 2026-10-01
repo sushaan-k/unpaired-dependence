@@ -1,0 +1,5 @@
+[   137s] malecns: bootstrap 500/2000
+[   273s] malecns: bootstrap 1000/2000
+[   407s] malecns: bootstrap 1500/2000
+[   541s] malecns: bootstrap 2000/2000
+[   544s] malecns: amended: level 68.5 (ridge_p/mapped); saving vs paired-only 2.93 (2.63-3.13); proposed <=25, paired-only =73

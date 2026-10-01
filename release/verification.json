@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "pdfs": {
+    "paper.pdf": {
+      "pages": 11,
+      "sha256": "35f282e6ca01939c154b5692bbe45e244aa118c906c31471fcc99cb7fb4e1704",
+      "clean_rebuild_text_and_render_match": true
+    },
+    "submission.pdf": {
+      "pages": 15,
+      "sha256": "81a8fe5320b78598aecdde1a7acaf80b1cb85ab46217aaeef1123d43327e2044",
+      "clean_rebuild_text_and_render_match": true
+    },
+    "additional-file-1.pdf": {
+      "pages": 7,
+      "sha256": "9083c886bfe46a3510224d388a9c992fe8d97e1e8ff897e90ac8503ad2761df8",
+      "clean_rebuild_text_and_render_match": true
+    }
+  },
+  "pdf_layout_review": "all-page contact sheets and revised pages at reading scale",
+  "colon_independent_numerical_verification": {
+    "status": "passed",
+    "donors": 11,
+    "independent_predictions": 55,
+    "maximum_prediction_difference": 6.322942169845192e-11,
+    "maximum_loss_difference": 1.3877787807814457e-17,
+    "truth_tables_exactly_recounted": 891,
+    "within_assay_permutation_invariant": true,
+    "bootstrap_comparisons_verified": 3
+  },
+  "clean_colon_reconstruction": {
+    "predictions": 55,
+    "maximum_difference": 0.0
+  },
+  "recomputed_bootstrap_comparisons": {
+    "retrospective": 36,
+    "colon": 3
+  },
+  "unit_tests": {
+    "protocol": 4,
+    "reconstruction": 4
+  },
+  "website_viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "raw_cell_counts_or_barcodes_included": false
+}

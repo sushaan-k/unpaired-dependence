@@ -1,0 +1,21 @@
+[     9s] gouwens_visp: fold 0 B=25 (bjs2 15, selftune 3, js 10, scose 1, fcose 2, lowrank 19, semicca 501, ridge_p 32, ridge_u 32 ms/fit)
+[    22s] gouwens_visp: fold 0 B=50 (bjs2 19, selftune 3, js 15, scose 2, fcose 3, lowrank 20, semicca 511, ridge_p 34, ridge_u 35 ms/fit)
+[    39s] gouwens_visp: fold 0 B=100 (bjs2 26, selftune 3, js 23, scose 2, fcose 4, lowrank 22, semicca 512, ridge_p 34, ridge_u 34 ms/fit)
+[    57s] gouwens_visp: fold 0 B=200 (bjs2 39, selftune 3, js 42, scose 3, fcose 9, lowrank 25, semicca 525, ridge_p 35, ridge_u 34 ms/fit)
+[    80s] gouwens_visp: fold 0 B=400 (bjs2 71, selftune 4, js 83, scose 5, fcose 27, lowrank 29, semicca 537, ridge_p 37, ridge_u 35 ms/fit)
+[    88s] gouwens_visp: fold 1 B=25 (bjs2 14, selftune 2, js 9, scose 1, fcose 2, lowrank 19, semicca 499, ridge_p 41, ridge_u 31 ms/fit)
+[   101s] gouwens_visp: fold 1 B=50 (bjs2 18, selftune 2, js 13, scose 2, fcose 3, lowrank 22, semicca 497, ridge_p 37, ridge_u 35 ms/fit)
+[   116s] gouwens_visp: fold 1 B=100 (bjs2 25, selftune 3, js 23, scose 3, fcose 4, lowrank 22, semicca 507, ridge_p 37, ridge_u 35 ms/fit)
+[   134s] gouwens_visp: fold 1 B=200 (bjs2 38, selftune 3, js 40, scose 3, fcose 9, lowrank 25, semicca 521, ridge_p 37, ridge_u 35 ms/fit)
+[   156s] gouwens_visp: fold 1 B=400 (bjs2 68, selftune 4, js 77, scose 5, fcose 26, lowrank 30, semicca 529, ridge_p 37, ridge_u 35 ms/fit)
+[   166s] gouwens_visp: fold 2 B=25 (bjs2 15, selftune 2, js 9, scose 1, fcose 2, lowrank 19, semicca 484, ridge_p 36, ridge_u 33 ms/fit)
+[   178s] gouwens_visp: fold 2 B=50 (bjs2 19, selftune 2, js 13, scose 2, fcose 2, lowrank 19, semicca 486, ridge_p 38, ridge_u 33 ms/fit)
+[   193s] gouwens_visp: fold 2 B=100 (bjs2 25, selftune 3, js 21, scose 2, fcose 4, lowrank 20, semicca 494, ridge_p 38, ridge_u 34 ms/fit)
+[   212s] gouwens_visp: fold 2 B=200 (bjs2 37, selftune 3, js 36, scose 3, fcose 9, lowrank 24, semicca 507, ridge_p 38, ridge_u 35 ms/fit)
+[   234s] gouwens_visp: fold 2 B=400 (bjs2 68, selftune 4, js 72, scose 5, fcose 28, lowrank 29, semicca 519, ridge_p 38, ridge_u 35 ms/fit)
+[   236s] gouwens_visp: predictions hashed
+[   326s] gouwens_visp: bootstrap 500/2000
+[   413s] gouwens_visp: bootstrap 1000/2000
+[   503s] gouwens_visp: bootstrap 1500/2000
+[   591s] gouwens_visp: bootstrap 2000/2000
+[   592s] gouwens_visp: done: proposed 3.6, 6.5, 14.5, 24.1, 31.6; saving vs paired-only at 0.5: 1.39 [1.1721930878746978, 1.6009413374231887]

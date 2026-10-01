@@ -1,0 +1,39 @@
+[07:08:33] atlas reference: 63796 cells; cognate pairs 16
+[07:09:51] fold 0 (XHLT2-HS6-BLE1) done [78s]; integrity {'max_abs_P': 5.931169688722093e-08, 'max_rel_msq': 0.0, 'compared': 330}
+[07:10:52] fold 1 (XHLT2-HS32-BLE1) done [139s]; integrity {'max_abs_P': 5.958598570110496e-08, 'max_rel_msq': 0.0, 'compared': 660}
+[07:11:51] fold 2 (XHLT2-HS94-AAE6) done [198s]; integrity {'max_abs_P': 7.027058224196026e-08, 'max_rel_msq': 0.0, 'compared': 990}
+[07:13:13] fold 3 (XHLT2-HS86-AAE6) done [280s]; integrity {'max_abs_P': 7.027058224196026e-08, 'max_rel_msq': 0.0, 'compared': 1320}
+[07:14:10] fold 4 (XHLT2-HS24-AAE6) done [337s]; integrity {'max_abs_P': 1.1369750518852584e-07, 'max_rel_msq': 0.0, 'compared': 1650}
+[07:15:13] fold 5 (XHLT2-HS46-BLE1) done [400s]; integrity {'max_abs_P': 1.187764047116957e-07, 'max_rel_msq': 0.0, 'compared': 1980}
+[07:16:18] fold 6 (XHLT2-HS88-BLE1) done [465s]; integrity {'max_abs_P': 1.187764047116957e-07, 'max_rel_msq': 0.0, 'compared': 2310}
+[07:17:16] fold 7 (XHLT2-HS16-AAE6) done [523s]; integrity {'max_abs_P': 1.187764047116957e-07, 'max_rel_msq': 0.0, 'compared': 2640}
+[07:18:14] fold 8 (XHLT2-HS10-BLE1) done [581s]; integrity {'max_abs_P': 1.187764047116957e-07, 'max_rel_msq': 0.0, 'compared': 2970}
+[07:19:39] fold 9 (XHLT2-HS68-BLE1) done [666s]; integrity {'max_abs_P': 1.187764047116957e-07, 'max_rel_msq': 0.0, 'compared': 3300}
+[07:20:39] fold 10 (XHLT2-HS24-BLE1) done [726s]; integrity {'max_abs_P': 1.187764047116957e-07, 'max_rel_msq': 0.0, 'compared': 3630}
+[07:21:37] fold 11 (XHLT2-HS47-AAE6) done [784s]; integrity {'max_abs_P': 1.187764047116957e-07, 'max_rel_msq': 0.0, 'compared': 3960}
+[07:22:44] fold 12 (XHLT2-HS93-AAE6) done [851s]; integrity {'max_abs_P': 1.187764047116957e-07, 'max_rel_msq': 0.0, 'compared': 4290}
+[07:24:06] fold 13 (XHLT2-HS46-AAE6) done [933s]; integrity {'max_abs_P': 1.187764047116957e-07, 'max_rel_msq': 0.0, 'compared': 4620}
+[07:25:02] fold 14 (XHLT2-HS22-AAE6) done [989s]; integrity {'max_abs_P': 1.187764047116957e-07, 'max_rel_msq': 0.0, 'compared': 4950}
+[07:26:05] fold 15 (XHLT2-HS68-AAE6) done [1052s]; integrity {'max_abs_P': 1.187764047116957e-07, 'max_rel_msq': 0.0, 'compared': 5280}
+[07:27:18] fold 16 (XHLT2-HS75-BLE1) done [1125s]; integrity {'max_abs_P': 1.187764047116957e-07, 'max_rel_msq': 0.0, 'compared': 5610}
+[07:28:20] fold 17 (XHLT2-HS88-AAE6) done [1187s]; integrity {'max_abs_P': 1.187764047116957e-07, 'max_rel_msq': 0.0, 'compared': 5940}
+[07:29:25] fold 18 (XHLT2-HS28-BLE1) done [1252s]; integrity {'max_abs_P': 1.187764047116957e-07, 'max_rel_msq': 0.0, 'compared': 6270}
+[07:30:53] fold 19 (XHLT2-HS10-AAE6) done [1340s]; integrity {'max_abs_P': 1.187764047116957e-07, 'max_rel_msq': 0.0, 'compared': 6600}
+[07:31:49] fold 20 (XHLT2-HS93-BLE1) done [1396s]; integrity {'max_abs_P': 1.187764047116957e-07, 'max_rel_msq': 0.0, 'compared': 6930}
+[07:32:46] fold 21 (XHLT2-HS47-BLE1) done [1453s]; integrity {'max_abs_P': 1.187764047116957e-07, 'max_rel_msq': 0.0, 'compared': 7260}
+[07:33:42] fold 22 (XHLT2-HS16-BLE1) done [1509s]; integrity {'max_abs_P': 1.187764047116957e-07, 'max_rel_msq': 0.0, 'compared': 7590}
+[07:34:44] fold 23 (XHLT2-HS75-AAE6) done [1571s]; integrity {'max_abs_P': 1.187764047116957e-07, 'max_rel_msq': 0.0, 'compared': 7920}
+[07:36:00] fold 24 (XHLT2-HS22-BLE1) done [1647s]; integrity {'max_abs_P': 1.187764047116957e-07, 'max_rel_msq': 0.0, 'compared': 8250}
+[07:36:59] fold 25 (XHLT2-HS6-AAE6) done [1706s]; integrity {'max_abs_P': 1.187764047116957e-07, 'max_rel_msq': 0.0, 'compared': 8580}
+[07:37:55] fold 26 (XHLT2-HS48-BLE1) done [1762s]; integrity {'max_abs_P': 1.187764047116957e-07, 'max_rel_msq': 0.0, 'compared': 8910}
+[07:38:53] fold 27 (XHLT2-HS30-AAE6) done [1820s]; integrity {'max_abs_P': 1.187764047116957e-07, 'max_rel_msq': 0.0, 'compared': 9240}
+[07:40:17] fold 28 (XHLT2-HS12-AAE6) done [1904s]; integrity {'max_abs_P': 1.187764047116957e-07, 'max_rel_msq': 0.0, 'compared': 9570}
+[07:41:17] fold 29 (XHLT2-HS30-BLE1) done [1964s]; integrity {'max_abs_P': 1.187764047116957e-07, 'max_rel_msq': 0.0, 'compared': 9900}
+[07:42:14] fold 30 (XHLT2-HS94-BLE1) done [2021s]; integrity {'max_abs_P': 1.187764047116957e-07, 'max_rel_msq': 0.0, 'compared': 10230}
+[07:43:11] fold 31 (XHLT2-HS86-BLE1) done [2078s]; integrity {'max_abs_P': 1.187764047116957e-07, 'max_rel_msq': 0.0, 'compared': 10560}
+[07:44:21] fold 32 (XHLT2-HS28-AAE6) done [2148s]; integrity {'max_abs_P': 1.187764047116957e-07, 'max_rel_msq': 0.0, 'compared': 10890}
+[07:45:26] fold 33 (XHLT2-HS32-AAE6) done [2213s]; integrity {'max_abs_P': 1.187764047116957e-07, 'max_rel_msq': 0.0, 'compared': 11220}
+[07:45:27] {"B1": true, "B2": true, "B3": true}
+[07:45:27] B1: B=50 atlas 0.802 po 0.673 diff 0.129 (0.121-0.137); B=100 atlas 0.861 po 0.748 diff 0.112 (0.103-0.120); B=150 atlas 0.886 po 0.795 diff 0.091 (0.084-0.098)
+[07:45:27] B2: B=50 atlas 0.355 po 0.153 diff 0.201 (0.189-0.213); B=100 atlas 0.472 po 0.279 diff 0.193 (0.180-0.205); B=150 atlas 0.523 po 0.355 diff 0.168 (0.156-0.180)
+[07:45:27] B3: B=100 atlas 0.388 po 0.247 diff 0.142 (0.125-0.158); B=150 atlas 0.469 po 0.325 diff 0.144 (0.129-0.153)

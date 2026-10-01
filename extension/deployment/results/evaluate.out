@@ -1,0 +1,4 @@
+[19:47:42] {"D1": true, "D2": false, "D3": true}
+[19:47:42] D1_other_vs_paired_only: 3.91 (3.29-4.45)
+[19:47:42] D2_assay_vs_paired_only: 1.00 (1.00-1.00)
+[19:47:42] D3_other_over_same: 0.87 (0.81-0.96)

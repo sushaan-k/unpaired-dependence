@@ -1,0 +1,163 @@
+scored s1d1
+scored s1d2
+scored s1d3
+scored s2d1
+scored s2d4
+scored s2d5
+scored s3d1
+scored s3d6
+scored s3d7
+scored s4d1
+scored s4d8
+scored s4d9
+reference s1d1
+reference s1d2
+reference s1d3
+reference s2d1
+reference s2d4
+reference s2d5
+reference s3d1
+reference s3d6
+reference s3d7
+reference s4d1
+reference s4d8
+reference s4d9
+{
+ "verdict": {
+  "H1_primary_beats_coverage": false,
+  "H2_primary_beats_controls": {
+   "composition": true,
+   "cells": true,
+   "n_train": true,
+   "shift": false
+  },
+  "H3_high_coverage_failures_recognized": true,
+  "H6_guided_beats_random": true,
+  "H6_guided_beats_balanced": true
+ },
+ "auc": {
+  "primary": 0.8729640658082761,
+  "label_free": 0.8432527064738405,
+  "coverage": 0.842543823553617,
+  "composition": 0.8387628029118441,
+  "cells": 0.4557135215208625,
+  "n_train": 0.5390540247342157,
+  "shift": 0.827862091410359,
+  "compatibility": 0.29277051645580987,
+  "type_disagreement": 0.5917994029672081
+ },
+ "comparisons": {
+  "primary_vs_coverage": {
+   "auc_a": 0.8729640658082761,
+   "auc_b": 0.842543823553617,
+   "difference": 0.030420242254659113,
+   "ci": [
+    -0.013562977018353777,
+    0.05886572732305327
+   ]
+  },
+  "primary_vs_composition": {
+   "auc_a": 0.8729640658082761,
+   "auc_b": 0.8387628029118441,
+   "difference": 0.034201262896431994,
+   "ci": [
+    0.02390119507658663,
+    0.04791183424180682
+   ]
+  },
+  "primary_vs_cells": {
+   "auc_a": 0.8729640658082761,
+   "auc_b": 0.4557135215208625,
+   "difference": 0.41725054428741365,
+   "ci": [
+    0.2566473361418944,
+    0.45110171662554643
+   ]
+  },
+  "primary_vs_n_train": {
+   "auc_a": 0.8729640658082761,
+   "auc_b": 0.5390540247342157,
+   "difference": 0.3339100410740604,
+   "ci": [
+    0.26073305518385875,
+    0.3924775298540194
+   ]
+  },
+  "primary_vs_shift": {
+   "auc_a": 0.8729640658082761,
+   "auc_b": 0.827862091410359,
+   "difference": 0.04510197439791708,
+   "ci": [
+    -0.011890456287267651,
+    0.08557223246136164
+   ]
+  },
+  "label_free_vs_coverage": {
+   "auc_a": 0.8432527064738405,
+   "auc_b": 0.842543823553617,
+   "difference": 0.0007088829202235303,
+   "ci": [
+    -0.01442023030941868,
+    0.01974958265721063
+   ]
+  }
+ },
+ "high_coverage": {
+  "pairs": 251,
+  "failures": 19,
+  "evaluable": true,
+  "families": {
+   "P1": 36,
+   "colon": 6,
+   "frozen": 12,
+   "lc": 197,
+   "perm": 0
+  },
+  "type_disagreement": {
+   "auc": 0.9287658802177858,
+   "ci": [
+    0.9036953807740324,
+    0.9463037907972335
+   ]
+  },
+  "compatibility": {
+   "auc": 0.8913339382940109,
+   "ci": [
+    0.847924334524399,
+    0.9239936858721389
+   ]
+  },
+  "primary": {
+   "auc": 0.9891107078039928,
+   "ci": [
+    0.9765391866198319,
+    0.996108169167101
+   ]
+  },
+  "label_free": {
+   "auc": 0.22118874773139746,
+   "ci": [
+    0.13921497639447455,
+    0.3667812728964929
+   ]
+  }
+ },
+ "reference_tests": {
+  "guided_vs_random": {
+   "mean_difference": -0.033939339491038105,
+   "ci": [
+    -0.041042556546217634,
+    -0.026106287043105483
+   ],
+   "lower_at_every_budget": true
+  },
+  "guided_vs_balanced": {
+   "mean_difference": -0.06765320654011413,
+   "ci": [
+    -0.08665717472170309,
+    -0.056011052481451135
+   ],
+   "lower_at_every_budget": true
+  }
+ }
+}

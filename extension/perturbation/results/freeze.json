@@ -1,0 +1,22 @@
+{
+ "frozen_at": "2026-09-27T07:20:18-04:00",
+ "files": {
+  "PLAN.md": "e14a63c0060aaf583892c9e6692e69a59d127bb3a5be898eebd11c6bc02b70a6",
+  "freeze.py": "d4cb1ff5dd5558c16918e0512b94f32f5f21c09e60502d2f53bb2c77417d1856",
+  "pdata.py": "343eb611abe17aa76a3fd556c4c25d3f99ac4c24114a1ac15fd6ca8aa7e95050",
+  "pmethods.py": "13d81720662769d65965785476a7f804d0edb6d1cdba43cb4a959d32bad881e6",
+  "extract.py": "156993c47caeda636090b5302ae2625a513e7144ec8b72e45b5475adc10863c4",
+  "fit.py": "97d2e98b0e3d06cbaecfaa1bd8ecffc51dbce4a6635645553368bbeda4b64d9a",
+  "predict.py": "2993f4e1633a02077f64932e7547e42b83d974023784e63d63e6c9df26fd00e7",
+  "evaluate.py": "b1d70a074716f12759ec16a86f89b5eaf091c749576a4d4a71ff43b5ffde30af",
+  "results/seal.json": "a8821b55055e68d21134b493d1e930a96e35f249d48df9ef63d47ee1d150c865",
+  "results/channels.npz": "f6a1d3b346db16de2fb46dc8c896da5f1e0d8bdf335891048ffe5ef0706c7dc4",
+  "results/channels.json": "48037992376cd8e6e4b71ea3280bf004cfab578d7740cc5824b8a9620ce6fbc6",
+  "../cross_study/estimators.py": "e4fb8b76b8dd38832cabf9005846767a219e8425b3978b7170ccbe9158186c3a",
+  "../cross_study/data.py": "4f5bf600a8dba55e85c4deffea99093c60894c73648dc0f15323ebe952325314",
+  "../spectral_transfer/gaussian_transfer.py": "4fd558d20039fa208c16e8cfd96d02e2347fc85ed44b5146f02f8904dd831b9f",
+  "../recoverability/compat.py": "54fd3b16ff73bae178f5e62f6a4fd310c810a4aeb5e76b5cac823ed26a089df2",
+  "../recoverability/noise.py": "0a47641928672d5d2898558127be0a05e43f64365a00e37573403cb177f44376",
+  "../recoverability/stats.py": "fcbf7a05c7e44792f8987fe89480d835311409412420215dd504859e352949bd"
+ }
+}

@@ -1,0 +1,15 @@
+[   90s] stored predictions: per donor, per pool, leave one pool out
+[  301s] full: 63796 cells, 566 populations, maps ['B', 'CD14 Mono', 'CD4 T', 'CD8 T', 'NK']; rf 0.5 11.2 22.5 32.9 42.0 48.1; atlas cells 147=; saving 5.43
+[  505s] patients_4: 2132 cells, 17 populations, maps ['B', 'CD14 Mono', 'CD4 T', 'CD8 T', 'NK']; rf -4.0 4.2 9.5 13.6 14.8 12.7; atlas cells 800>; saving 1.00
+[  734s] patients_7: 3823 cells, 34 populations, maps ['B', 'CD14 Mono', 'CD4 T', 'CD8 T', 'NK']; rf -0.8 8.4 16.5 23.4 28.6 31.4; atlas cells 385=; saving 2.08
+[  941s] patients_15: 8231 cells, 73 populations, maps ['B', 'CD14 Mono', 'CD4 T', 'CD8 T', 'NK']; rf 0.2 10.5 20.5 29.3 36.4 40.9; atlas cells 185=; saving 4.31
+[ 1167s] patients_30: 16510 cells, 145 populations, maps ['B', 'CD14 Mono', 'CD4 T', 'CD8 T', 'NK']; rf -0.2 9.7 20.3 30.1 38.5 44.2; atlas cells 177=; saving 4.53
+[ 1388s] patients_59: 32350 cells, 281 populations, maps ['B', 'CD14 Mono', 'CD4 T', 'CD8 T', 'NK']; rf -0.7 9.5 20.2 30.4 39.5 45.7; atlas cells 174=; saving 4.60
+[ 1643s] few_B_mono: 47683 cells, 395 populations, maps ['B', 'CD14 Mono', 'CD4 T', 'CD8 T', 'NK']; rf -13.4 -6.1 2.8 10.0 17.5 19.9; atlas cells 800>; saving 1.00
+[ 1857s] few_T: 34942 cells, 351 populations, maps ['B', 'CD14 Mono', 'CD4 T', 'CD8 T', 'NK']; rf -3.3 7.2 14.0 14.1 8.8 -2.7; atlas cells 800>; saving 1.00
+[ 2098s] without_B: 55371 cells, 457 populations, maps ['CD14 Mono', 'CD4 T', 'CD8 T', 'NK']; rf 0.6 10.8 21.0 30.2 37.9 43.0; atlas cells 174=; saving 4.60
+[ 2382s] without_CD4_T: 42339 cells, 440 populations, maps ['B', 'CD14 Mono', 'CD8 T', 'NK']; rf 3.6 13.0 22.7 31.1 38.2 43.1; atlas cells 159=; saving 5.03
+[ 2673s] without_CD8_T: 52250 cells, 444 populations, maps ['B', 'CD14 Mono', 'CD4 T', 'NK']; rf -2.6 3.5 9.8 14.9 20.7 24.9; atlas cells 800>; saving 1.00
+[ 2918s] without_NK: 51730 cells, 443 populations, maps ['B', 'CD14 Mono', 'CD4 T', 'CD8 T']; rf 1.7 11.0 20.7 29.4 36.6 41.3; atlas cells 184=; saving 4.35
+[ 3167s] without_CD14_Mono: 53494 cells, 480 populations, maps ['B', 'CD4 T', 'CD8 T', 'NK']; rf 1.6 11.3 20.4 28.0 34.0 38.0; atlas cells 209=; saving 3.83
+[ 3167s] written

@@ -1,0 +1,20 @@
+{
+ "frozen_at": "2026-09-27T08:18:29-04:00",
+ "files": {
+  "PLAN.md": "332f3cd54e9e6dec63c749cd3d6c331513ec325af890bd929b64b9bcd55532a0",
+  "freeze.py": "84a505bb2a43c0048808ff3d0030fbc544f4a8078c2ecb16bbf565417e6a3400",
+  "rdata.py": "c2a72526d5d5ce1286ad9add79a0f0e70afc44b64834608c90fc017b5a37a3a7",
+  "extract.py": "57003e947ad2a62188c04c40fab1cc0608f6f8aee1febe8967285e790030ed8b",
+  "predict.py": "67160fcadca8827423adbc7a575f8a4121b14d79ca407fb0602d3b6160b9d803",
+  "evaluate.py": "1d00f55808745c3d28a7dbded440d2a25c5f179942d758f2322013d57880423d",
+  "results/seal.json": "9452f09cbd8dcbefa9dfb4193ff48cef7f254cf702e7e4c2fb19e892d694aae7",
+  "../perturbation/pmethods.py": "13d81720662769d65965785476a7f804d0edb6d1cdba43cb4a959d32bad881e6",
+  "../perturbation/pdata.py": "343eb611abe17aa76a3fd556c4c25d3f99ac4c24114a1ac15fd6ca8aa7e95050",
+  "../cross_study/estimators.py": "e4fb8b76b8dd38832cabf9005846767a219e8425b3978b7170ccbe9158186c3a",
+  "../cross_study/data.py": "4f5bf600a8dba55e85c4deffea99093c60894c73648dc0f15323ebe952325314",
+  "../spectral_transfer/gaussian_transfer.py": "4fd558d20039fa208c16e8cfd96d02e2347fc85ed44b5146f02f8904dd831b9f",
+  "../recoverability/compat.py": "54fd3b16ff73bae178f5e62f6a4fd310c810a4aeb5e76b5cac823ed26a089df2",
+  "../recoverability/noise.py": "0a47641928672d5d2898558127be0a05e43f64365a00e37573403cb177f44376",
+  "../recoverability/stats.py": "fcbf7a05c7e44792f8987fe89480d835311409412420215dd504859e352949bd"
+ }
+}

@@ -1,0 +1,462 @@
+{
+  "genes": 209,
+  "proteins": 177,
+  "donors": {
+    "XAUT1-HS1": {
+      "training_samples": 19,
+      "ridge_scale": 0.001,
+      "ridge_errors": [
+        18167.90781275145,
+        20421.54214571566,
+        26578.285190505027,
+        32863.90356217762
+      ],
+      "lowrank_message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+      "arms": {
+        "pf_means_regression": {
+          "mse": 0.36380064990047445,
+          "r2": 0.019304179061219617,
+          "cov_corr": 0.7303278437160738,
+          "cov_rel_error": 0.7491105983838039
+        },
+        "pf_means_closed_form": {
+          "mse": 0.3527518845472267,
+          "r2": 0.049088287504751804,
+          "cov_corr": 0.8344705723858725,
+          "cov_rel_error": 0.5670706259191612
+        },
+        "pf_lowrank_regression": {
+          "mse": 0.3306920098968237,
+          "r2": 0.1085549951260879,
+          "cov_corr": 0.8753304807188262,
+          "cov_rel_error": 0.495197456218651
+        },
+        "pf_lowrank_closed_form": {
+          "mse": 0.33831818850149187,
+          "r2": 0.0879971388128108,
+          "cov_corr": 0.8871551506277623,
+          "cov_rel_error": 0.46292744755025045
+        }
+      },
+      "seconds": 29.06951904296875
+    },
+    "XAUT1-HS10": {
+      "training_samples": 20,
+      "ridge_scale": 0.001,
+      "ridge_errors": [
+        19374.23267460563,
+        21225.898275214084,
+        25900.392575722166,
+        32211.919007743727
+      ],
+      "lowrank_message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+      "arms": {
+        "pf_means_regression": {
+          "mse": 0.3473837210454571,
+          "r2": -0.11598904954226619,
+          "cov_corr": 0.5114459630353669,
+          "cov_rel_error": 1.0214520318767175
+        },
+        "pf_means_closed_form": {
+          "mse": 0.32736936966626995,
+          "r2": -0.05169185995133163,
+          "cov_corr": 0.6166628549709976,
+          "cov_rel_error": 0.8135392993629182
+        },
+        "pf_lowrank_regression": {
+          "mse": 0.3134019502369432,
+          "r2": -0.006820767297416541,
+          "cov_corr": 0.6457630964672832,
+          "cov_rel_error": 0.7768411483417089
+        },
+        "pf_lowrank_closed_form": {
+          "mse": 0.3130814764999471,
+          "r2": -0.005791228031508666,
+          "cov_corr": 0.662507104232794,
+          "cov_rel_error": 0.7507579600832653
+        }
+      },
+      "seconds": 30.159334897994995
+    },
+    "XAUT1-HS11": {
+      "training_samples": 19,
+      "ridge_scale": 0.001,
+      "ridge_errors": [
+        19246.2322347273,
+        21101.281011903135,
+        28234.794048914773,
+        33254.77619240903
+      ],
+      "lowrank_message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+      "arms": {
+        "pf_means_regression": {
+          "mse": 0.38636633122159714,
+          "r2": 0.03733525730105214,
+          "cov_corr": 0.7342286985530785,
+          "cov_rel_error": 0.7179166594918442
+        },
+        "pf_means_closed_form": {
+          "mse": 0.36988508873052195,
+          "r2": 0.07839968186378687,
+          "cov_corr": 0.8493999595225001,
+          "cov_rel_error": 0.5374908355872252
+        },
+        "pf_lowrank_regression": {
+          "mse": 0.35982636053739125,
+          "r2": 0.10346186302564686,
+          "cov_corr": 0.8469739716883715,
+          "cov_rel_error": 0.5326734439272928
+        },
+        "pf_lowrank_closed_form": {
+          "mse": 0.3614355122648721,
+          "r2": 0.09945252393856563,
+          "cov_corr": 0.8811915549786701,
+          "cov_rel_error": 0.472762328070726
+        }
+      },
+      "seconds": 27.238434553146362
+    },
+    "XAUT1-HS12": {
+      "training_samples": 20,
+      "ridge_scale": 0.001,
+      "ridge_errors": [
+        18887.34110037758,
+        20416.53235596185,
+        25898.026979552982,
+        30758.46390000062
+      ],
+      "lowrank_message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+      "arms": {
+        "pf_means_regression": {
+          "mse": 0.379673887452464,
+          "r2": -0.041829970894464275,
+          "cov_corr": 0.7848081829469205,
+          "cov_rel_error": 0.6959198184534883
+        },
+        "pf_means_closed_form": {
+          "mse": 0.3493552230548116,
+          "r2": 0.04136482940878283,
+          "cov_corr": 0.8732902065188753,
+          "cov_rel_error": 0.5226682298028613
+        },
+        "pf_lowrank_regression": {
+          "mse": 0.3604812347328662,
+          "r2": 0.01083491200915565,
+          "cov_corr": 0.8479866098413495,
+          "cov_rel_error": 0.5350409029270676
+        },
+        "pf_lowrank_closed_form": {
+          "mse": 0.35947419667774333,
+          "r2": 0.013598237226746801,
+          "cov_corr": 0.8580766595102127,
+          "cov_rel_error": 0.5264543030610567
+        }
+      },
+      "seconds": 29.269570350646973
+    },
+    "XAUT1-HS2": {
+      "training_samples": 19,
+      "ridge_scale": 0.001,
+      "ridge_errors": [
+        19760.87313724711,
+        20328.455190381246,
+        26522.129350151277,
+        33703.643536066724
+      ],
+      "lowrank_message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+      "arms": {
+        "pf_means_regression": {
+          "mse": 0.3778043011802427,
+          "r2": 0.017217883895698893,
+          "cov_corr": 0.6379531199150906,
+          "cov_rel_error": 0.8788366092830332
+        },
+        "pf_means_closed_form": {
+          "mse": 0.34433495823918486,
+          "r2": 0.10428166685814,
+          "cov_corr": 0.7862445392740264,
+          "cov_rel_error": 0.6414204008949971
+        },
+        "pf_lowrank_regression": {
+          "mse": 0.33625664606973366,
+          "r2": 0.12529577575960738,
+          "cov_corr": 0.8343174323354637,
+          "cov_rel_error": 0.5560156641150925
+        },
+        "pf_lowrank_closed_form": {
+          "mse": 0.33707012662865826,
+          "r2": 0.12317966923934787,
+          "cov_corr": 0.852713028887272,
+          "cov_rel_error": 0.5227819869016086
+        }
+      },
+      "seconds": 28.16671395301819
+    },
+    "XAUT1-HS3": {
+      "training_samples": 19,
+      "ridge_scale": 0.01,
+      "ridge_errors": [
+        19023.097541130595,
+        18858.13218073549,
+        24274.058583108716,
+        31644.81623411256
+      ],
+      "lowrank_message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+      "arms": {
+        "pf_means_regression": {
+          "mse": 0.3587199177898925,
+          "r2": 0.15338470809383675,
+          "cov_corr": 0.8316883761970695,
+          "cov_rel_error": 0.5778599853508559
+        },
+        "pf_means_closed_form": {
+          "mse": 0.3422624950842115,
+          "r2": 0.19222589041188698,
+          "cov_corr": 0.9122391279818742,
+          "cov_rel_error": 0.4140927893691894
+        },
+        "pf_lowrank_regression": {
+          "mse": 0.3463771176148753,
+          "r2": 0.18251496502936637,
+          "cov_corr": 0.9251246649556962,
+          "cov_rel_error": 0.3928327716933864
+        },
+        "pf_lowrank_closed_form": {
+          "mse": 0.3432406724790794,
+          "r2": 0.18991729281353142,
+          "cov_corr": 0.9460797477654812,
+          "cov_rel_error": 0.32403004569375043
+        }
+      },
+      "seconds": 28.704026460647583
+    },
+    "XAUT1-HS4": {
+      "training_samples": 19,
+      "ridge_scale": 0.001,
+      "ridge_errors": [
+        19152.467690028767,
+        19500.039503197095,
+        26704.784263513382,
+        35458.94753242168
+      ],
+      "lowrank_message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+      "arms": {
+        "pf_means_regression": {
+          "mse": 0.40896776942947377,
+          "r2": 0.009482091800074754,
+          "cov_corr": 0.8395096464772009,
+          "cov_rel_error": 0.6121161505626068
+        },
+        "pf_means_closed_form": {
+          "mse": 0.3609672285335398,
+          "r2": 0.12573916366427862,
+          "cov_corr": 0.9236908535380173,
+          "cov_rel_error": 0.39217923903603863
+        },
+        "pf_lowrank_regression": {
+          "mse": 0.3643174052248346,
+          "r2": 0.11762505234203247,
+          "cov_corr": 0.9239616344458792,
+          "cov_rel_error": 0.393925346963649
+        },
+        "pf_lowrank_closed_form": {
+          "mse": 0.3636705755341663,
+          "r2": 0.11919167064316694,
+          "cov_corr": 0.9423306937716593,
+          "cov_rel_error": 0.33508377839780706
+        }
+      },
+      "seconds": 28.662919282913208
+    },
+    "XAUT1-HS5": {
+      "training_samples": 19,
+      "ridge_scale": 0.001,
+      "ridge_errors": [
+        17274.6418202681,
+        21079.168868683228,
+        31980.263967916355,
+        40348.15661452103
+      ],
+      "lowrank_message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+      "arms": {
+        "pf_means_regression": {
+          "mse": 0.4579443956447958,
+          "r2": 0.02384984021258707,
+          "cov_corr": 0.787756128205787,
+          "cov_rel_error": 0.6552314511486603
+        },
+        "pf_means_closed_form": {
+          "mse": 0.4124167417877993,
+          "r2": 0.12089617817394183,
+          "cov_corr": 0.9054649499512508,
+          "cov_rel_error": 0.4251440757854924
+        },
+        "pf_lowrank_regression": {
+          "mse": 0.40333554275349714,
+          "r2": 0.14025358045400194,
+          "cov_corr": 0.9060922027374383,
+          "cov_rel_error": 0.42768545171691663
+        },
+        "pf_lowrank_closed_form": {
+          "mse": 0.3833012457145596,
+          "r2": 0.18295850804297575,
+          "cov_corr": 0.9421456267665773,
+          "cov_rel_error": 0.3421619131456629
+        }
+      },
+      "seconds": 28.26309108734131
+    },
+    "XAUT1-HS6": {
+      "training_samples": 19,
+      "ridge_scale": 0.001,
+      "ridge_errors": [
+        18058.494713719087,
+        21131.519692950817,
+        32958.22299535506,
+        43822.91384038869
+      ],
+      "lowrank_message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+      "arms": {
+        "pf_means_regression": {
+          "mse": 0.4646724053831622,
+          "r2": 0.041864179021001036,
+          "cov_corr": 0.7287270373550595,
+          "cov_rel_error": 0.6851842843142723
+        },
+        "pf_means_closed_form": {
+          "mse": 0.46476431659016637,
+          "r2": 0.0416746618068089,
+          "cov_corr": 0.773553479234492,
+          "cov_rel_error": 0.6337314483542597
+        },
+        "pf_lowrank_regression": {
+          "mse": 0.4027642072317148,
+          "r2": 0.16951639502090754,
+          "cov_corr": 0.814631978818981,
+          "cov_rel_error": 0.6290696467096951
+        },
+        "pf_lowrank_closed_form": {
+          "mse": 0.4174340717861729,
+          "r2": 0.1392677240094532,
+          "cov_corr": 0.8652647080703724,
+          "cov_rel_error": 0.5482959680066869
+        }
+      },
+      "seconds": 28.30225110054016
+    },
+    "XAUT1-HS7": {
+      "training_samples": 19,
+      "ridge_scale": 0.001,
+      "ridge_errors": [
+        15501.99614230522,
+        17375.6782535353,
+        27334.65205140903,
+        38502.75630694885
+      ],
+      "lowrank_message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+      "arms": {
+        "pf_means_regression": {
+          "mse": 0.4048672502771767,
+          "r2": -0.022512130674833486,
+          "cov_corr": 0.704273786432552,
+          "cov_rel_error": 0.7969091519894506
+        },
+        "pf_means_closed_form": {
+          "mse": 0.3672819418391525,
+          "r2": 0.07241141225615011,
+          "cov_corr": 0.8137392832440473,
+          "cov_rel_error": 0.601031899352668
+        },
+        "pf_lowrank_regression": {
+          "mse": 0.36485480536832626,
+          "r2": 0.07854126465227285,
+          "cov_corr": 0.8481843015967188,
+          "cov_rel_error": 0.5297020534807595
+        },
+        "pf_lowrank_closed_form": {
+          "mse": 0.36930542433955266,
+          "r2": 0.06730100779283321,
+          "cov_corr": 0.8657294751736347,
+          "cov_rel_error": 0.5014378117733751
+        }
+      },
+      "seconds": 28.511767148971558
+    },
+    "XAUT1-HS8": {
+      "training_samples": 20,
+      "ridge_scale": 0.001,
+      "ridge_errors": [
+        17040.824838368393,
+        19646.06680341214,
+        27461.51739091115,
+        33872.167295162966
+      ],
+      "lowrank_message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+      "arms": {
+        "pf_means_regression": {
+          "mse": 0.49441699374736026,
+          "r2": 0.04480731156056672,
+          "cov_corr": 0.7103451693547219,
+          "cov_rel_error": 0.8163125210048378
+        },
+        "pf_means_closed_form": {
+          "mse": 0.43000933492385846,
+          "r2": 0.16924018010219122,
+          "cov_corr": 0.8896150769841714,
+          "cov_rel_error": 0.45926376794349805
+        },
+        "pf_lowrank_regression": {
+          "mse": 0.40156097521552586,
+          "r2": 0.22420120598751836,
+          "cov_corr": 0.9066201013677029,
+          "cov_rel_error": 0.42394821660130155
+        },
+        "pf_lowrank_closed_form": {
+          "mse": 0.3975055412336897,
+          "r2": 0.23203613265243406,
+          "cov_corr": 0.9439570254763077,
+          "cov_rel_error": 0.3306994198626693
+        }
+      },
+      "seconds": 30.353229999542236
+    },
+    "XAUT1-HS9": {
+      "training_samples": 19,
+      "ridge_scale": 0.001,
+      "ridge_errors": [
+        16455.64848151462,
+        19318.103740420505,
+        27521.584012845586,
+        34550.72850076906
+      ],
+      "lowrank_message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+      "arms": {
+        "pf_means_regression": {
+          "mse": 0.4266341336594636,
+          "r2": 0.0006260469879414421,
+          "cov_corr": 0.7656587831624566,
+          "cov_rel_error": 0.6758371695534195
+        },
+        "pf_means_closed_form": {
+          "mse": 0.37359488587118256,
+          "r2": 0.12486843301622286,
+          "cov_corr": 0.9074822130851914,
+          "cov_rel_error": 0.4211814300718619
+        },
+        "pf_lowrank_regression": {
+          "mse": 0.36700803689001854,
+          "r2": 0.14029787193086352,
+          "cov_corr": 0.8858722060668904,
+          "cov_rel_error": 0.4918365775767465
+        },
+        "pf_lowrank_closed_form": {
+          "mse": 0.3706058746759974,
+          "r2": 0.131870076105835,
+          "cov_corr": 0.9240582471213453,
+          "cov_rel_error": 0.39947609617566593
+        }
+      },
+      "seconds": 26.906278371810913
+    }
+  }
+}

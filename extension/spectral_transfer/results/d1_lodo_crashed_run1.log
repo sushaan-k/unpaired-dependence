@@ -1,0 +1,20 @@
+XAUT1-HS1 {"independence": 0.0, "reference_cov": -19.938, "reference_corr": -1.425, "regression": 0.248, "first_order": -33402.3348, "variances_only": -0.1455, "closed_form": 0.248, "oracle": 0.0324} ridge=0.001 169s
+Traceback (most recent call last):
+  File "/home/claude/cbio/cbio-agent-handoff/extension/spectral_transfer/colon_scale.py", line 180, in <module>
+    out = run(args.genes, args.recipients, args.reference)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/spectral_transfer/colon_scale.py", line 163, in run
+    "arms": {arm: evaluate(covs[arm], Sx, mx, my, xs, ys) for arm in ARMS},
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/spectral_transfer/colon_scale.py", line 163, in <dictcomp>
+    "arms": {arm: evaluate(covs[arm], Sx, mx, my, xs, ys) for arm in ARMS},
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/spectral_transfer/colon_scale.py", line 126, in evaluate
+    W = np.linalg.solve(Sx, C)
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/.venv/lib/python3.11/site-packages/numpy/linalg/_linalg.py", line 410, in solve
+    r = gufunc(a, b, signature=signature)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/.venv/lib/python3.11/site-packages/numpy/linalg/_linalg.py", line 104, in _raise_linalgerror_singular
+    raise LinAlgError("Singular matrix")
+numpy.linalg.LinAlgError: Singular matrix

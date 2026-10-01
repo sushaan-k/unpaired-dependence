@@ -1,0 +1,20 @@
+[21:54:01] atlas reference: 19467 cells, 348 populations, reliability {'B': 0.9615327864787823, 'CD14 Mono': 0.9717353116409195, 'CD4 T': 0.9850182981031308, 'CD8 T': 0.9646760294581199, 'NK': 0.9775116959716786}
+[21:54:03] fold 0 (XHLT2-HS6-BLE1) B=25 done [1s]
+[21:54:03] fold 0 (XHLT2-HS6-BLE1) B=50 done [2s]
+[21:54:04] fold 0 (XHLT2-HS6-BLE1) B=100 done [3s]
+[21:54:05] fold 17 (XHLT2-HS88-AAE6) B=25 done [4s]
+[21:54:06] fold 17 (XHLT2-HS88-AAE6) B=50 done [5s]
+[21:54:07] fold 17 (XHLT2-HS88-AAE6) B=100 done [6s]
+[21:54:08] predictions hashed: c500f3f98b4f3212
+[21:54:16] {"V1": false, "V2": false, "V3": true, "V4": false}
+[21:54:16] V1_atlas_vs_paired_only: 0.41 (0.38-0.43) [=/>]
+[21:54:16] V3_other_vs_paired_only: 1.63 (1.52-1.72) [=/<=]
+[21:54:16] V4_atlas_over_own: 1.00 (1.00-4.00) [>/>]
+[21:54:16] paired_only         28.8    51.0    65.4
+[21:54:16] atlas             -341.4  -947.2 -1065.2
+[21:54:16] other               68.1    80.5    88.8
+[21:54:16] own               -869.1 -1879.7 -4390.5
+[21:54:16] own_poolstd      -6614.3 -7017.2 -7924.7
+[21:54:16] atlas_dfcentre   -1295.0 -1337.0 -1174.5
+[21:54:16] calibration contrasts: B=25 1.06, B=50 1.02, B=100 0.98
+[21:54:16] calibration dfcentre: B=25 0.70, B=50 0.79, B=100 0.85

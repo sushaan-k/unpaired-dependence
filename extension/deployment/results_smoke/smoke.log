@@ -1,0 +1,9 @@
+[19:32:55] fold 0 (s1d1) B=25 done [2s]
+[19:32:56] fold 0 (s1d1) B=100 done [3s]
+[19:32:58] fold 4 (s2d4) B=25 done [5s]
+[19:32:59] fold 4 (s2d4) B=100 done [6s]
+[19:33:01] predictions hashed: d19d3f0b5dc64b3b
+[19:33:12] {"D1": false, "D2": false, "D3": true}
+[19:33:12] D1_other_vs_paired_only: 0.75 (0.75-0.75)
+[19:33:12] D2_assay_vs_paired_only: 0.37 (0.37-0.37)
+[19:33:12] D3_other_over_same: 0.49 (0.49-0.49)

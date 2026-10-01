@@ -1,0 +1,2962 @@
+{
+ "hao/P1|frozen": {
+  "type_agreement": 0.6872611529250459,
+  "type_scale": 1.0192776791736773
+ },
+ "hao/P1|P1": {
+  "type_agreement": 0.3826352988436727,
+  "type_scale": 0.7206353334060447
+ },
+ "hao/P1|lc00": {
+  "type_agreement": 0.1207810606391364,
+  "type_scale": 2.2549623477022602
+ },
+ "hao/P1|lc01": {
+  "type_agreement": 0.21087609457168827,
+  "type_scale": 1.5950693173937085
+ },
+ "hao/P1|lc02": {
+  "type_agreement": 0.28991328682903145,
+  "type_scale": 1.6496859851211447
+ },
+ "hao/P1|lc03": {
+  "type_agreement": 0.15689710600641746,
+  "type_scale": 1.7240964382858606
+ },
+ "hao/P1|lc04": {
+  "type_agreement": 0.13792720237991596,
+  "type_scale": 2.000702587672255
+ },
+ "hao/P1|lc07": {
+  "type_agreement": 0.507895968333471,
+  "type_scale": 1.7109378757964144
+ },
+ "hao/P1|lc08": {
+  "type_agreement": 0.22081844805903458,
+  "type_scale": 1.3098764910197935
+ },
+ "hao/P1|lc09": {
+  "type_agreement": 0.38446238246265324,
+  "type_scale": 1.166757034908788
+ },
+ "hao/P1|lc10": {
+  "type_agreement": 0.16103621893214093,
+  "type_scale": 1.326736750384768
+ },
+ "hao/P1|lc12": {
+  "type_agreement": 0.619924501159665,
+  "type_scale": 1.0028793856555875
+ },
+ "hao/P1|lc13": {
+  "type_agreement": 0.357394953236461,
+  "type_scale": 1.649447828700522
+ },
+ "hao/P1|lc14": {
+  "type_agreement": 0.47324698533503123,
+  "type_scale": 0.8415110738582271
+ },
+ "hao/P1|lc15": {
+  "type_agreement": 0.4249588599348027,
+  "type_scale": 1.1728526967718558
+ },
+ "hao/P1|lc16": {
+  "type_agreement": 0.3812647526675434,
+  "type_scale": 1.3129490018330852
+ },
+ "hao/P1|lc17": {
+  "type_agreement": 0.5356643844744564,
+  "type_scale": 0.828739396325186
+ },
+ "hao/P1|lc18": {
+  "type_agreement": 0.5351319219816446,
+  "type_scale": 1.5928476349852587
+ },
+ "hao/P1|lc20": {
+  "type_agreement": 0.3886254382012482,
+  "type_scale": 1.0564295266473622
+ },
+ "hao/P1|lc21": {
+  "type_agreement": 0.43509921825041037,
+  "type_scale": 1.2153239822462722
+ },
+ "hao/P1|lc22": {
+  "type_agreement": 0.41804807591466864,
+  "type_scale": 1.4187071184430136
+ },
+ "hao/P1|lc23": {
+  "type_agreement": 0.5743952485818511,
+  "type_scale": 0.948490431814795
+ },
+ "hao/P1|lc24": {
+  "type_agreement": 0.45009240432002157,
+  "type_scale": 0.9654269668177317
+ },
+ "hao/P1|lc25": {
+  "type_agreement": 0.38973540411468044,
+  "type_scale": 0.9853233772800323
+ },
+ "hao/P1|lc26": {
+  "type_agreement": 0.3710336610629869,
+  "type_scale": 0.907475607367118
+ },
+ "hao/P1|lc27": {
+  "type_agreement": 0.5365272887737648,
+  "type_scale": 1.572564603840965
+ },
+ "hao/P1|lc28": {
+  "type_agreement": 0.4434498547721124,
+  "type_scale": 1.0154222542322155
+ },
+ "hao/P1|lc30": {
+  "type_agreement": 0.6371370874352672,
+  "type_scale": 1.1361677159133565
+ },
+ "hao/P1|lc31": {
+  "type_agreement": 0.6581054738340686,
+  "type_scale": 1.076794294671569
+ },
+ "hao/P1|lc32": {
+  "type_agreement": 0.6375158917068513,
+  "type_scale": 1.124228606058888
+ },
+ "hao/P1|lc33": {
+  "type_agreement": 0.5736480495918602,
+  "type_scale": 1.0341713035415876
+ },
+ "hao/P1|lc34": {
+  "type_agreement": 0.702683764148537,
+  "type_scale": 1.0649769402248834
+ },
+ "hao/P1|lc35": {
+  "type_agreement": 0.5210184155235386,
+  "type_scale": 1.2116691873788485
+ },
+ "hao/P1|lc36": {
+  "type_agreement": 0.6159769438736524,
+  "type_scale": 1.1623864143610523
+ },
+ "hao/P1|lc37": {
+  "type_agreement": 0.6911036471225656,
+  "type_scale": 0.9594274773440619
+ },
+ "hao/P1|lc38": {
+  "type_agreement": 0.595156148456192,
+  "type_scale": 1.2486210504209752
+ },
+ "hao/P1|lc39": {
+  "type_agreement": 0.6735401258103413,
+  "type_scale": 1.0915035064173122
+ },
+ "hao/P2|frozen": {
+  "type_agreement": 0.7456355856484157,
+  "type_scale": 1.035736823595165
+ },
+ "hao/P2|P1": {
+  "type_agreement": 0.3385375900047729,
+  "type_scale": 0.8385832684031401
+ },
+ "hao/P2|lc00": {
+  "type_agreement": 0.1319987911936099,
+  "type_scale": 2.382776674167505
+ },
+ "hao/P2|lc01": {
+  "type_agreement": 0.19776681511089927,
+  "type_scale": 1.6674184076959515
+ },
+ "hao/P2|lc02": {
+  "type_agreement": 0.27055463714393796,
+  "type_scale": 1.8995916702460738
+ },
+ "hao/P2|lc03": {
+  "type_agreement": 0.14122109388552898,
+  "type_scale": 1.7683036247436894
+ },
+ "hao/P2|lc04": {
+  "type_agreement": 0.12489218012582014,
+  "type_scale": 2.0401307031531863
+ },
+ "hao/P2|lc07": {
+  "type_agreement": 0.5577817205422221,
+  "type_scale": 1.6181107011420273
+ },
+ "hao/P2|lc08": {
+  "type_agreement": 0.2256853548973632,
+  "type_scale": 1.335475681423857
+ },
+ "hao/P2|lc09": {
+  "type_agreement": 0.2874615004242983,
+  "type_scale": 1.4041199647885634
+ },
+ "hao/P2|lc10": {
+  "type_agreement": 0.14766243294033338,
+  "type_scale": 1.3663705398084636
+ },
+ "hao/P2|lc12": {
+  "type_agreement": 0.5834526332013482,
+  "type_scale": 1.0765375450659638
+ },
+ "hao/P2|lc13": {
+  "type_agreement": 0.34971180099575117,
+  "type_scale": 1.7154201447363995
+ },
+ "hao/P2|lc14": {
+  "type_agreement": 0.4448043011070539,
+  "type_scale": 0.8517904073582978
+ },
+ "hao/P2|lc15": {
+  "type_agreement": 0.40305477197520667,
+  "type_scale": 1.1865224304572244
+ },
+ "hao/P2|lc16": {
+  "type_agreement": 0.4350173493587366,
+  "type_scale": 1.2123355139322454
+ },
+ "hao/P2|lc17": {
+  "type_agreement": 0.5190883601445969,
+  "type_scale": 0.8813557229788868
+ },
+ "hao/P2|lc18": {
+  "type_agreement": 0.5037545974452213,
+  "type_scale": 1.7707108003287646
+ },
+ "hao/P2|lc20": {
+  "type_agreement": 0.3773133766195409,
+  "type_scale": 1.1038830250187688
+ },
+ "hao/P2|lc21": {
+  "type_agreement": 0.4297365344063863,
+  "type_scale": 1.2427200272055756
+ },
+ "hao/P2|lc22": {
+  "type_agreement": 0.496070198787492,
+  "type_scale": 1.35922322241177
+ },
+ "hao/P2|lc23": {
+  "type_agreement": 0.5499085141989761,
+  "type_scale": 0.9968915084639005
+ },
+ "hao/P2|lc24": {
+  "type_agreement": 0.43419756817364247,
+  "type_scale": 1.0262297044599658
+ },
+ "hao/P2|lc25": {
+  "type_agreement": 0.38409959625267887,
+  "type_scale": 1.016628842549501
+ },
+ "hao/P2|lc26": {
+  "type_agreement": 0.3369905053096059,
+  "type_scale": 0.9226184676647355
+ },
+ "hao/P2|lc27": {
+  "type_agreement": 0.5516177807289329,
+  "type_scale": 1.640769437974681
+ },
+ "hao/P2|lc28": {
+  "type_agreement": 0.410509364993641,
+  "type_scale": 1.0322337915579287
+ },
+ "hao/P2|lc30": {
+  "type_agreement": 0.6654583480972955,
+  "type_scale": 1.2042039318109763
+ },
+ "hao/P2|lc31": {
+  "type_agreement": 0.7004647691180884,
+  "type_scale": 1.1164661857125129
+ },
+ "hao/P2|lc32": {
+  "type_agreement": 0.6884062133559234,
+  "type_scale": 1.1632930845946328
+ },
+ "hao/P2|lc33": {
+  "type_agreement": 0.6587124211660232,
+  "type_scale": 1.0127738362564145
+ },
+ "hao/P2|lc34": {
+  "type_agreement": 0.7425105688918657,
+  "type_scale": 1.1260272677628307
+ },
+ "hao/P2|lc35": {
+  "type_agreement": 0.5903634074273171,
+  "type_scale": 1.1708458080157214
+ },
+ "hao/P2|lc36": {
+  "type_agreement": 0.6538449199943179,
+  "type_scale": 1.241266595359603
+ },
+ "hao/P2|lc37": {
+  "type_agreement": 0.7670706885659998,
+  "type_scale": 0.936196077292535
+ },
+ "hao/P2|lc38": {
+  "type_agreement": 0.618636526603307,
+  "type_scale": 1.2539269350061546
+ },
+ "hao/P2|lc39": {
+  "type_agreement": 0.7204011135137087,
+  "type_scale": 1.1518245915378496
+ },
+ "hao/P3|frozen": {
+  "type_agreement": 0.7547348028197277,
+  "type_scale": 0.9479425101486304
+ },
+ "hao/P3|P1": {
+  "type_agreement": 0.35999333189305854,
+  "type_scale": 0.8370589199666766
+ },
+ "hao/P3|lc00": {
+  "type_agreement": 0.1454890254657646,
+  "type_scale": 2.0858501509355842
+ },
+ "hao/P3|lc01": {
+  "type_agreement": 0.20549325307760535,
+  "type_scale": 1.5411016820574739
+ },
+ "hao/P3|lc02": {
+  "type_agreement": 0.2790083778802256,
+  "type_scale": 1.7508931309667028
+ },
+ "hao/P3|lc03": {
+  "type_agreement": 0.12826172109081116,
+  "type_scale": 1.6583099589261585
+ },
+ "hao/P3|lc04": {
+  "type_agreement": 0.0886756461079466,
+  "type_scale": 1.9251235817910375
+ },
+ "hao/P3|lc07": {
+  "type_agreement": 0.5157759048810019,
+  "type_scale": 1.5328004548679715
+ },
+ "hao/P3|lc08": {
+  "type_agreement": 0.2007285088511086,
+  "type_scale": 1.1951469470374931
+ },
+ "hao/P3|lc09": {
+  "type_agreement": 0.31211524606130503,
+  "type_scale": 1.27402876497588
+ },
+ "hao/P3|lc10": {
+  "type_agreement": 0.1272006343972587,
+  "type_scale": 1.2675626918225806
+ },
+ "hao/P3|lc12": {
+  "type_agreement": 0.5744783537003427,
+  "type_scale": 1.0177690815290494
+ },
+ "hao/P3|lc13": {
+  "type_agreement": 0.3455044937183634,
+  "type_scale": 1.533198635298453
+ },
+ "hao/P3|lc14": {
+  "type_agreement": 0.43065067036793353,
+  "type_scale": 0.8166464895912273
+ },
+ "hao/P3|lc15": {
+  "type_agreement": 0.42193614289866843,
+  "type_scale": 1.0884099629599002
+ },
+ "hao/P3|lc16": {
+  "type_agreement": 0.4565605018187823,
+  "type_scale": 1.0573988192887824
+ },
+ "hao/P3|lc17": {
+  "type_agreement": 0.5049428557363745,
+  "type_scale": 0.8307418945410979
+ },
+ "hao/P3|lc18": {
+  "type_agreement": 0.5054984144923388,
+  "type_scale": 1.7024989820232335
+ },
+ "hao/P3|lc20": {
+  "type_agreement": 0.3556029327683206,
+  "type_scale": 1.027590082980498
+ },
+ "hao/P3|lc21": {
+  "type_agreement": 0.4068046323885765,
+  "type_scale": 1.2392678113510078
+ },
+ "hao/P3|lc22": {
+  "type_agreement": 0.46730942846509654,
+  "type_scale": 1.1928787111187558
+ },
+ "hao/P3|lc23": {
+  "type_agreement": 0.5487527299738156,
+  "type_scale": 0.9546412119037099
+ },
+ "hao/P3|lc24": {
+  "type_agreement": 0.4097016650476946,
+  "type_scale": 0.9548645193412112
+ },
+ "hao/P3|lc25": {
+  "type_agreement": 0.3695909042121331,
+  "type_scale": 0.9558452369548817
+ },
+ "hao/P3|lc26": {
+  "type_agreement": 0.3239888945482975,
+  "type_scale": 0.8880570797880962
+ },
+ "hao/P3|lc27": {
+  "type_agreement": 0.555655338023563,
+  "type_scale": 1.5371660361496315
+ },
+ "hao/P3|lc28": {
+  "type_agreement": 0.39557482220526186,
+  "type_scale": 0.9705270765346846
+ },
+ "hao/P3|lc30": {
+  "type_agreement": 0.6906634981277284,
+  "type_scale": 1.0668074442261353
+ },
+ "hao/P3|lc31": {
+  "type_agreement": 0.7234651534062647,
+  "type_scale": 1.0278491984112583
+ },
+ "hao/P3|lc32": {
+  "type_agreement": 0.6894314648623232,
+  "type_scale": 1.0777323551973739
+ },
+ "hao/P3|lc33": {
+  "type_agreement": 0.7010409686106835,
+  "type_scale": 0.9308918635155492
+ },
+ "hao/P3|lc34": {
+  "type_agreement": 0.7273194185484178,
+  "type_scale": 1.0721922170297926
+ },
+ "hao/P3|lc35": {
+  "type_agreement": 0.6004021235318837,
+  "type_scale": 1.0350529625660279
+ },
+ "hao/P3|lc36": {
+  "type_agreement": 0.6677557155834297,
+  "type_scale": 1.1452478907178674
+ },
+ "hao/P3|lc37": {
+  "type_agreement": 0.7685568796509432,
+  "type_scale": 0.8661122871887593
+ },
+ "hao/P3|lc38": {
+  "type_agreement": 0.6806756669454583,
+  "type_scale": 1.1039357790762976
+ },
+ "hao/P3|lc39": {
+  "type_agreement": 0.7044281831215115,
+  "type_scale": 1.123449900528698
+ },
+ "hao/P4|frozen": {
+  "type_agreement": 0.7581791566076559,
+  "type_scale": 1.005119830332883
+ },
+ "hao/P4|P1": {
+  "type_agreement": 0.38335673038827706,
+  "type_scale": 0.8570875002768097
+ },
+ "hao/P4|lc00": {
+  "type_agreement": 0.19393446290466265,
+  "type_scale": 2.2340795967464278
+ },
+ "hao/P4|lc01": {
+  "type_agreement": 0.2279946640486366,
+  "type_scale": 1.6466750702968003
+ },
+ "hao/P4|lc02": {
+  "type_agreement": 0.28843935171909907,
+  "type_scale": 1.8676039829766458
+ },
+ "hao/P4|lc03": {
+  "type_agreement": 0.19847032252206095,
+  "type_scale": 1.751044237503944
+ },
+ "hao/P4|lc04": {
+  "type_agreement": 0.1743680058362864,
+  "type_scale": 1.982993912661916
+ },
+ "hao/P4|lc07": {
+  "type_agreement": 0.613469584822882,
+  "type_scale": 1.5686963458288923
+ },
+ "hao/P4|lc08": {
+  "type_agreement": 0.26694661315686485,
+  "type_scale": 1.3142668050850683
+ },
+ "hao/P4|lc09": {
+  "type_agreement": 0.39912153464368466,
+  "type_scale": 1.3187937358842912
+ },
+ "hao/P4|lc10": {
+  "type_agreement": 0.20550874528721877,
+  "type_scale": 1.3499813990719205
+ },
+ "hao/P4|lc12": {
+  "type_agreement": 0.6142307643033734,
+  "type_scale": 1.0540240048559741
+ },
+ "hao/P4|lc13": {
+  "type_agreement": 0.3660117963168489,
+  "type_scale": 1.6686167633662659
+ },
+ "hao/P4|lc14": {
+  "type_agreement": 0.525656417294865,
+  "type_scale": 0.8439647944757329
+ },
+ "hao/P4|lc15": {
+  "type_agreement": 0.5369831409453925,
+  "type_scale": 1.093181214175924
+ },
+ "hao/P4|lc16": {
+  "type_agreement": 0.4846763550503163,
+  "type_scale": 1.114767722459952
+ },
+ "hao/P4|lc17": {
+  "type_agreement": 0.5670524753141338,
+  "type_scale": 0.8787189170088934
+ },
+ "hao/P4|lc18": {
+  "type_agreement": 0.5108673651093145,
+  "type_scale": 1.6995971701791284
+ },
+ "hao/P4|lc20": {
+  "type_agreement": 0.4110396443319421,
+  "type_scale": 1.1011598738017707
+ },
+ "hao/P4|lc21": {
+  "type_agreement": 0.4200460173072873,
+  "type_scale": 1.217753438722749
+ },
+ "hao/P4|lc22": {
+  "type_agreement": 0.5144877208382344,
+  "type_scale": 1.2448427246432727
+ },
+ "hao/P4|lc23": {
+  "type_agreement": 0.564249798403652,
+  "type_scale": 0.996396740821247
+ },
+ "hao/P4|lc24": {
+  "type_agreement": 0.47063768458175115,
+  "type_scale": 1.0263557867499253
+ },
+ "hao/P4|lc25": {
+  "type_agreement": 0.42331178456541285,
+  "type_scale": 1.014869356472502
+ },
+ "hao/P4|lc26": {
+  "type_agreement": 0.40928538758582517,
+  "type_scale": 0.9215502930352109
+ },
+ "hao/P4|lc27": {
+  "type_agreement": 0.5293317341557687,
+  "type_scale": 1.7025920609171135
+ },
+ "hao/P4|lc28": {
+  "type_agreement": 0.4683894331182619,
+  "type_scale": 1.0340275952439235
+ },
+ "hao/P4|lc30": {
+  "type_agreement": 0.6898477167844631,
+  "type_scale": 1.143501124319611
+ },
+ "hao/P4|lc31": {
+  "type_agreement": 0.7011294923100299,
+  "type_scale": 1.1097766350739628
+ },
+ "hao/P4|lc32": {
+  "type_agreement": 0.7366630576964291,
+  "type_scale": 1.122412948996675
+ },
+ "hao/P4|lc33": {
+  "type_agreement": 0.7377001953076318,
+  "type_scale": 0.9584260620475451
+ },
+ "hao/P4|lc34": {
+  "type_agreement": 0.7229900497851016,
+  "type_scale": 1.1529371238856039
+ },
+ "hao/P4|lc35": {
+  "type_agreement": 0.6540878577759809,
+  "type_scale": 1.105186144360433
+ },
+ "hao/P4|lc36": {
+  "type_agreement": 0.6615457473405901,
+  "type_scale": 1.2165372818074223
+ },
+ "hao/P4|lc37": {
+  "type_agreement": 0.8059272033672819,
+  "type_scale": 0.8988541070959757
+ },
+ "hao/P4|lc38": {
+  "type_agreement": 0.7169761676164099,
+  "type_scale": 1.1713987020660523
+ },
+ "hao/P4|lc39": {
+  "type_agreement": 0.7048914084620941,
+  "type_scale": 1.1570948954746454
+ },
+ "hao/P5|frozen": {
+  "type_agreement": 0.7533192823284357,
+  "type_scale": 0.9149055315542016
+ },
+ "hao/P5|P1": {
+  "type_agreement": 0.31928970470334367,
+  "type_scale": 0.7421820583108348
+ },
+ "hao/P5|lc00": {
+  "type_agreement": 0.16129562584565268,
+  "type_scale": 1.8903601173805646
+ },
+ "hao/P5|lc01": {
+  "type_agreement": 0.24428271506275157,
+  "type_scale": 1.471769985157534
+ },
+ "hao/P5|lc02": {
+  "type_agreement": 0.25753115611657984,
+  "type_scale": 1.7654705951580765
+ },
+ "hao/P5|lc03": {
+  "type_agreement": 0.10465128258451567,
+  "type_scale": 1.666393456982632
+ },
+ "hao/P5|lc04": {
+  "type_agreement": 0.08262298158048838,
+  "type_scale": 1.8865587678190059
+ },
+ "hao/P5|lc07": {
+  "type_agreement": 0.47861810106988395,
+  "type_scale": 1.5794309162012352
+ },
+ "hao/P5|lc08": {
+  "type_agreement": 0.2079935991060131,
+  "type_scale": 1.1501828224969364
+ },
+ "hao/P5|lc09": {
+  "type_agreement": 0.3068759502105192,
+  "type_scale": 1.2301373403735958
+ },
+ "hao/P5|lc10": {
+  "type_agreement": 0.10452467274712371,
+  "type_scale": 1.2617523026207642
+ },
+ "hao/P5|lc12": {
+  "type_agreement": 0.5836651558009414,
+  "type_scale": 0.9944246879934204
+ },
+ "hao/P5|lc13": {
+  "type_agreement": 0.3117803626492073,
+  "type_scale": 1.5863323155595932
+ },
+ "hao/P5|lc14": {
+  "type_agreement": 0.4316535347869262,
+  "type_scale": 0.796171175926538
+ },
+ "hao/P5|lc15": {
+  "type_agreement": 0.4368920273416116,
+  "type_scale": 1.0848988698973767
+ },
+ "hao/P5|lc16": {
+  "type_agreement": 0.3904131681443507,
+  "type_scale": 1.0958852640220036
+ },
+ "hao/P5|lc17": {
+  "type_agreement": 0.5297600324225186,
+  "type_scale": 0.7959991426378653
+ },
+ "hao/P5|lc18": {
+  "type_agreement": 0.47389137091436095,
+  "type_scale": 1.7395815705802085
+ },
+ "hao/P5|lc20": {
+  "type_agreement": 0.38299174900696975,
+  "type_scale": 0.9939004691613458
+ },
+ "hao/P5|lc21": {
+  "type_agreement": 0.4317130598934919,
+  "type_scale": 1.2169150241201936
+ },
+ "hao/P5|lc22": {
+  "type_agreement": 0.4743546398183949,
+  "type_scale": 1.1357852231141874
+ },
+ "hao/P5|lc23": {
+  "type_agreement": 0.5783897099549522,
+  "type_scale": 0.8841544724401861
+ },
+ "hao/P5|lc24": {
+  "type_agreement": 0.43624727605043667,
+  "type_scale": 0.9054749009151167
+ },
+ "hao/P5|lc25": {
+  "type_agreement": 0.3811459215674801,
+  "type_scale": 0.9060262224993579
+ },
+ "hao/P5|lc26": {
+  "type_agreement": 0.32064717649928115,
+  "type_scale": 0.877773503966602
+ },
+ "hao/P5|lc27": {
+  "type_agreement": 0.6068685118417336,
+  "type_scale": 1.4605817188918697
+ },
+ "hao/P5|lc28": {
+  "type_agreement": 0.4150860411547601,
+  "type_scale": 0.9380446658922204
+ },
+ "hao/P5|lc30": {
+  "type_agreement": 0.7242476967513778,
+  "type_scale": 1.0043454110053522
+ },
+ "hao/P5|lc31": {
+  "type_agreement": 0.7425797564512052,
+  "type_scale": 0.9704097642320418
+ },
+ "hao/P5|lc32": {
+  "type_agreement": 0.6666439478936529,
+  "type_scale": 1.018699962732029
+ },
+ "hao/P5|lc33": {
+  "type_agreement": 0.654498291763278,
+  "type_scale": 0.875926645105033
+ },
+ "hao/P5|lc34": {
+  "type_agreement": 0.752065549290192,
+  "type_scale": 0.9582026763054556
+ },
+ "hao/P5|lc35": {
+  "type_agreement": 0.581193622788463,
+  "type_scale": 1.0492364570977097
+ },
+ "hao/P5|lc36": {
+  "type_agreement": 0.6766346964424664,
+  "type_scale": 1.036080142526103
+ },
+ "hao/P5|lc37": {
+  "type_agreement": 0.7493358418151762,
+  "type_scale": 0.8452966323199114
+ },
+ "hao/P5|lc38": {
+  "type_agreement": 0.6723349973292598,
+  "type_scale": 1.018501246731619
+ },
+ "hao/P5|lc39": {
+  "type_agreement": 0.7173622488355427,
+  "type_scale": 1.033045713205287
+ },
+ "hao/P6|frozen": {
+  "type_agreement": 0.6966112814810407,
+  "type_scale": 0.9041562083535016
+ },
+ "hao/P6|P1": {
+  "type_agreement": 0.24983355492651418,
+  "type_scale": 0.7674929546386183
+ },
+ "hao/P6|lc00": {
+  "type_agreement": 0.09389980937349485,
+  "type_scale": 2.0783575128373535
+ },
+ "hao/P6|lc01": {
+  "type_agreement": 0.17812330955207661,
+  "type_scale": 1.5089594411453742
+ },
+ "hao/P6|lc02": {
+  "type_agreement": 0.18289480233280386,
+  "type_scale": 2.0201134277584356
+ },
+ "hao/P6|lc03": {
+  "type_agreement": 0.06521611985291968,
+  "type_scale": 1.6569158485800688
+ },
+ "hao/P6|lc04": {
+  "type_agreement": 0.031230921113055407,
+  "type_scale": 1.7131146032848505
+ },
+ "hao/P6|lc07": {
+  "type_agreement": 0.3690152666718086,
+  "type_scale": 1.5598226092911318
+ },
+ "hao/P6|lc08": {
+  "type_agreement": 0.17293153661407898,
+  "type_scale": 1.134737517631354
+ },
+ "hao/P6|lc09": {
+  "type_agreement": 0.26500276779034243,
+  "type_scale": 1.358157735884441
+ },
+ "hao/P6|lc10": {
+  "type_agreement": 0.04790548299500676,
+  "type_scale": 1.220498953334367
+ },
+ "hao/P6|lc12": {
+  "type_agreement": 0.4577020512691417,
+  "type_scale": 1.0508344882374485
+ },
+ "hao/P6|lc13": {
+  "type_agreement": 0.22148517229550205,
+  "type_scale": 1.7613265365013377
+ },
+ "hao/P6|lc14": {
+  "type_agreement": 0.35596016166138206,
+  "type_scale": 0.744956814176511
+ },
+ "hao/P6|lc15": {
+  "type_agreement": 0.4041472932772306,
+  "type_scale": 1.080078847907978
+ },
+ "hao/P6|lc16": {
+  "type_agreement": 0.28057175431657805,
+  "type_scale": 1.2311139273912928
+ },
+ "hao/P6|lc17": {
+  "type_agreement": 0.4657840824161943,
+  "type_scale": 0.8081473858993373
+ },
+ "hao/P6|lc18": {
+  "type_agreement": 0.3864459040362982,
+  "type_scale": 1.8472712229378105
+ },
+ "hao/P6|lc20": {
+  "type_agreement": 0.3102451694426096,
+  "type_scale": 0.9871336919787255
+ },
+ "hao/P6|lc21": {
+  "type_agreement": 0.37656328907007797,
+  "type_scale": 1.1435401416633453
+ },
+ "hao/P6|lc22": {
+  "type_agreement": 0.3619708455644135,
+  "type_scale": 1.231755216032049
+ },
+ "hao/P6|lc23": {
+  "type_agreement": 0.47507112930267115,
+  "type_scale": 0.9032782788693853
+ },
+ "hao/P6|lc24": {
+  "type_agreement": 0.36429178835111165,
+  "type_scale": 0.8991849506489424
+ },
+ "hao/P6|lc25": {
+  "type_agreement": 0.3333717016582292,
+  "type_scale": 0.8965429474889351
+ },
+ "hao/P6|lc26": {
+  "type_agreement": 0.25965378416619955,
+  "type_scale": 0.8305925833584471
+ },
+ "hao/P6|lc27": {
+  "type_agreement": 0.5813949679197499,
+  "type_scale": 1.3074622007488332
+ },
+ "hao/P6|lc28": {
+  "type_agreement": 0.3320623881010752,
+  "type_scale": 0.8819915385978315
+ },
+ "hao/P6|lc30": {
+  "type_agreement": 0.6799060044438682,
+  "type_scale": 0.941130500574978
+ },
+ "hao/P6|lc31": {
+  "type_agreement": 0.7040512624954443,
+  "type_scale": 0.9143921123784549
+ },
+ "hao/P6|lc32": {
+  "type_agreement": 0.5563573959939974,
+  "type_scale": 1.0330202525595351
+ },
+ "hao/P6|lc33": {
+  "type_agreement": 0.5699911607651119,
+  "type_scale": 0.8849440674023943
+ },
+ "hao/P6|lc34": {
+  "type_agreement": 0.6989695757299184,
+  "type_scale": 0.9361891090589848
+ },
+ "hao/P6|lc35": {
+  "type_agreement": 0.5438861972222859,
+  "type_scale": 1.0170642040859308
+ },
+ "hao/P6|lc36": {
+  "type_agreement": 0.6132546559271258,
+  "type_scale": 1.0189706322773329
+ },
+ "hao/P6|lc37": {
+  "type_agreement": 0.7082503893639228,
+  "type_scale": 0.8424211863480285
+ },
+ "hao/P6|lc38": {
+  "type_agreement": 0.5568512760467619,
+  "type_scale": 1.1010882317642459
+ },
+ "hao/P6|lc39": {
+  "type_agreement": 0.6540989453324346,
+  "type_scale": 1.0135375154410917
+ },
+ "hao/P7|frozen": {
+  "type_agreement": 0.7351356696768672,
+  "type_scale": 1.0586290065743666
+ },
+ "hao/P7|P1": {
+  "type_agreement": 0.4406955601835516,
+  "type_scale": 0.9115807515855178
+ },
+ "hao/P7|lc00": {
+  "type_agreement": 0.10926831372901664,
+  "type_scale": 1.913831199890018
+ },
+ "hao/P7|lc01": {
+  "type_agreement": 0.20386851805277661,
+  "type_scale": 1.525891537303308
+ },
+ "hao/P7|lc02": {
+  "type_agreement": 0.18777470295903587,
+  "type_scale": 1.85835330263036
+ },
+ "hao/P7|lc03": {
+  "type_agreement": 0.04333660648967727,
+  "type_scale": 1.6982563215897875
+ },
+ "hao/P7|lc04": {
+  "type_agreement": 0.008485016403658367,
+  "type_scale": 1.7887876478875469
+ },
+ "hao/P7|lc07": {
+  "type_agreement": 0.6382369052306205,
+  "type_scale": 1.338377430870024
+ },
+ "hao/P7|lc08": {
+  "type_agreement": 0.172495329424569,
+  "type_scale": 1.1491708549029063
+ },
+ "hao/P7|lc09": {
+  "type_agreement": 0.41949282948254024,
+  "type_scale": 1.2485998280322113
+ },
+ "hao/P7|lc10": {
+  "type_agreement": 0.051296150561223566,
+  "type_scale": 1.2689420231792536
+ },
+ "hao/P7|lc12": {
+  "type_agreement": 0.5502085682376386,
+  "type_scale": 0.98638106058239
+ },
+ "hao/P7|lc13": {
+  "type_agreement": 0.22802519279496403,
+  "type_scale": 1.6427246796753392
+ },
+ "hao/P7|lc14": {
+  "type_agreement": 0.4149850575072718,
+  "type_scale": 0.7895573806351609
+ },
+ "hao/P7|lc15": {
+  "type_agreement": 0.5454446492400279,
+  "type_scale": 1.0667460328173775
+ },
+ "hao/P7|lc16": {
+  "type_agreement": 0.44924062631408546,
+  "type_scale": 0.9690497336081797
+ },
+ "hao/P7|lc17": {
+  "type_agreement": 0.4738301486479486,
+  "type_scale": 0.8157824008513113
+ },
+ "hao/P7|lc18": {
+  "type_agreement": 0.44249234421228,
+  "type_scale": 1.7076233698767151
+ },
+ "hao/P7|lc20": {
+  "type_agreement": 0.29325160834725456,
+  "type_scale": 0.9981427216174218
+ },
+ "hao/P7|lc21": {
+  "type_agreement": 0.428244226083506,
+  "type_scale": 1.1617777065019776
+ },
+ "hao/P7|lc22": {
+  "type_agreement": 0.5558813712577705,
+  "type_scale": 0.9609014722838943
+ },
+ "hao/P7|lc23": {
+  "type_agreement": 0.5109904766238021,
+  "type_scale": 0.9082555296470426
+ },
+ "hao/P7|lc24": {
+  "type_agreement": 0.3512169049845965,
+  "type_scale": 0.9480427142662026
+ },
+ "hao/P7|lc25": {
+  "type_agreement": 0.3089117139286964,
+  "type_scale": 0.9006351929817993
+ },
+ "hao/P7|lc26": {
+  "type_agreement": 0.2833848187280018,
+  "type_scale": 0.8883048770989531
+ },
+ "hao/P7|lc27": {
+  "type_agreement": 0.6023568490457679,
+  "type_scale": 1.7885210279557735
+ },
+ "hao/P7|lc28": {
+  "type_agreement": 0.36297283740086694,
+  "type_scale": 0.9353643594817528
+ },
+ "hao/P7|lc30": {
+  "type_agreement": 0.7340079843348398,
+  "type_scale": 1.09076552358539
+ },
+ "hao/P7|lc31": {
+  "type_agreement": 0.707581070958814,
+  "type_scale": 1.1439852325517372
+ },
+ "hao/P7|lc32": {
+  "type_agreement": 0.7501850091303269,
+  "type_scale": 1.0764927596000422
+ },
+ "hao/P7|lc33": {
+  "type_agreement": 0.6931949949801944,
+  "type_scale": 0.9852943184620132
+ },
+ "hao/P7|lc34": {
+  "type_agreement": 0.6996149801460643,
+  "type_scale": 1.3160057126045803
+ },
+ "hao/P7|lc35": {
+  "type_agreement": 0.7085755220415021,
+  "type_scale": 0.9172448147793291
+ },
+ "hao/P7|lc36": {
+  "type_agreement": 0.6692288389785362,
+  "type_scale": 1.2807651874331119
+ },
+ "hao/P7|lc37": {
+  "type_agreement": 0.7522463071685703,
+  "type_scale": 0.9619380301601
+ },
+ "hao/P7|lc38": {
+  "type_agreement": 0.7376856476006237,
+  "type_scale": 1.1028774910908519
+ },
+ "hao/P7|lc39": {
+  "type_agreement": 0.647666322708249,
+  "type_scale": 1.4088873010501723
+ },
+ "hao/P8|frozen": {
+  "type_agreement": 0.756213022861163,
+  "type_scale": 1.0599608341485809
+ },
+ "hao/P8|P1": {
+  "type_agreement": 0.41828071074780676,
+  "type_scale": 0.8868276238370931
+ },
+ "hao/P8|lc00": {
+  "type_agreement": 0.10774280456165884,
+  "type_scale": 1.8050327314170163
+ },
+ "hao/P8|lc01": {
+  "type_agreement": 0.251300900359959,
+  "type_scale": 1.4681924460137947
+ },
+ "hao/P8|lc02": {
+  "type_agreement": 0.3177450308401144,
+  "type_scale": 1.4657464620598508
+ },
+ "hao/P8|lc03": {
+  "type_agreement": 0.0479854165707627,
+  "type_scale": 1.6389840633719508
+ },
+ "hao/P8|lc04": {
+  "type_agreement": 0.037436016281372206,
+  "type_scale": 1.9571477827329637
+ },
+ "hao/P8|lc07": {
+  "type_agreement": 0.6095682518818173,
+  "type_scale": 1.4540082975214963
+ },
+ "hao/P8|lc08": {
+  "type_agreement": 0.17875172547402862,
+  "type_scale": 1.1403103601243676
+ },
+ "hao/P8|lc09": {
+  "type_agreement": 0.40502794007729614,
+  "type_scale": 1.0981485271765266
+ },
+ "hao/P8|lc10": {
+  "type_agreement": 0.074968259724508,
+  "type_scale": 1.260319404644121
+ },
+ "hao/P8|lc12": {
+  "type_agreement": 0.6573450197750846,
+  "type_scale": 0.947485646851774
+ },
+ "hao/P8|lc13": {
+  "type_agreement": 0.3310361195509751,
+  "type_scale": 1.410708347386635
+ },
+ "hao/P8|lc14": {
+  "type_agreement": 0.4259456549870073,
+  "type_scale": 0.829608155397006
+ },
+ "hao/P8|lc15": {
+  "type_agreement": 0.5116080094491746,
+  "type_scale": 1.0351969623763821
+ },
+ "hao/P8|lc16": {
+  "type_agreement": 0.5364675799534913,
+  "type_scale": 0.9152625913816079
+ },
+ "hao/P8|lc17": {
+  "type_agreement": 0.5030923225407856,
+  "type_scale": 0.7883420855035146
+ },
+ "hao/P8|lc18": {
+  "type_agreement": 0.564426544406882,
+  "type_scale": 1.5389019517338425
+ },
+ "hao/P8|lc20": {
+  "type_agreement": 0.34561966009954675,
+  "type_scale": 0.9717039624270599
+ },
+ "hao/P8|lc21": {
+  "type_agreement": 0.4931422223551841,
+  "type_scale": 1.2591821751722108
+ },
+ "hao/P8|lc22": {
+  "type_agreement": 0.5670863750823708,
+  "type_scale": 1.0269268825833375
+ },
+ "hao/P8|lc23": {
+  "type_agreement": 0.607166559531589,
+  "type_scale": 0.8947728696804809
+ },
+ "hao/P8|lc24": {
+  "type_agreement": 0.40072709367188325,
+  "type_scale": 0.9223288996106437
+ },
+ "hao/P8|lc25": {
+  "type_agreement": 0.32232512073220254,
+  "type_scale": 0.893941673982709
+ },
+ "hao/P8|lc26": {
+  "type_agreement": 0.29084936876215095,
+  "type_scale": 0.9099399118088555
+ },
+ "hao/P8|lc27": {
+  "type_agreement": 0.5969813445882557,
+  "type_scale": 1.8631514209052886
+ },
+ "hao/P8|lc28": {
+  "type_agreement": 0.39647573611181225,
+  "type_scale": 0.9543316567201219
+ },
+ "hao/P8|lc30": {
+  "type_agreement": 0.7216644984737002,
+  "type_scale": 1.185106743888971
+ },
+ "hao/P8|lc31": {
+  "type_agreement": 0.7139915106099695,
+  "type_scale": 1.192524949577266
+ },
+ "hao/P8|lc32": {
+  "type_agreement": 0.7734825472284731,
+  "type_scale": 1.081882603225124
+ },
+ "hao/P8|lc33": {
+  "type_agreement": 0.727297804460099,
+  "type_scale": 0.9449059633710563
+ },
+ "hao/P8|lc34": {
+  "type_agreement": 0.703797195835541,
+  "type_scale": 1.3318652122729524
+ },
+ "hao/P8|lc35": {
+  "type_agreement": 0.6895533861079104,
+  "type_scale": 0.9300539253575912
+ },
+ "hao/P8|lc36": {
+  "type_agreement": 0.6850028709176085,
+  "type_scale": 1.284972928261847
+ },
+ "hao/P8|lc37": {
+  "type_agreement": 0.784244525088059,
+  "type_scale": 0.9421417150985837
+ },
+ "hao/P8|lc38": {
+  "type_agreement": 0.7718105526668679,
+  "type_scale": 1.0909503020378788
+ },
+ "hao/P8|lc39": {
+  "type_agreement": 0.6768174233617695,
+  "type_scale": 1.4080909285509664
+ },
+ "colon/XAUT1-HS1|frozen": {
+  "type_agreement": 0.3936909492817374,
+  "type_scale": 1.2368837771389405
+ },
+ "colon/XAUT1-HS1|P1": {
+  "type_agreement": 0.18061307995446646,
+  "type_scale": 1.4301293698301032
+ },
+ "colon/XAUT1-HS1|lc00": {
+  "type_agreement": 0.12181871825709494,
+  "type_scale": 2.1098539377356933
+ },
+ "colon/XAUT1-HS1|lc01": {
+  "type_agreement": 0.0854133706483762,
+  "type_scale": 1.556617825968229
+ },
+ "colon/XAUT1-HS1|lc02": {
+  "type_agreement": 0.08048741126272847,
+  "type_scale": 2.3556050237073025
+ },
+ "colon/XAUT1-HS1|lc03": {
+  "type_agreement": 0.11655613071263946,
+  "type_scale": 1.4379348132914749
+ },
+ "colon/XAUT1-HS1|lc04": {
+  "type_agreement": 0.16094437869598668,
+  "type_scale": 1.7841010220915128
+ },
+ "colon/XAUT1-HS1|lc07": {
+  "type_agreement": 0.2662074275765743,
+  "type_scale": 1.6374432663834768
+ },
+ "colon/XAUT1-HS1|lc08": {
+  "type_agreement": 0.2003346328645746,
+  "type_scale": 1.2561060121997418
+ },
+ "colon/XAUT1-HS1|lc09": {
+  "type_agreement": 0.1534823644202702,
+  "type_scale": 2.054611386358195
+ },
+ "colon/XAUT1-HS1|lc10": {
+  "type_agreement": 0.13603946258529448,
+  "type_scale": 1.1371469074214822
+ },
+ "colon/XAUT1-HS1|lc12": {
+  "type_agreement": 0.24588526100048733,
+  "type_scale": 1.154296806120578
+ },
+ "colon/XAUT1-HS1|lc13": {
+  "type_agreement": 0.18740119753390547,
+  "type_scale": 1.8929629496234945
+ },
+ "colon/XAUT1-HS1|lc14": {
+  "type_agreement": 0.2678674658879806,
+  "type_scale": 0.710218258402211
+ },
+ "colon/XAUT1-HS1|lc15": {
+  "type_agreement": 0.13239525625881893,
+  "type_scale": 1.5067589648860769
+ },
+ "colon/XAUT1-HS1|lc16": {
+  "type_agreement": 0.21647661268868146,
+  "type_scale": 1.3981170724616
+ },
+ "colon/XAUT1-HS1|lc17": {
+  "type_agreement": 0.3171869823624216,
+  "type_scale": 0.8856409339863277
+ },
+ "colon/XAUT1-HS1|lc18": {
+  "type_agreement": 0.14960279423885278,
+  "type_scale": 2.3689366197139186
+ },
+ "colon/XAUT1-HS1|lc20": {
+  "type_agreement": 0.25976478366014555,
+  "type_scale": 1.01232794492563
+ },
+ "colon/XAUT1-HS1|lc21": {
+  "type_agreement": 0.18140899808183525,
+  "type_scale": 1.1870112988982342
+ },
+ "colon/XAUT1-HS1|lc22": {
+  "type_agreement": 0.2687865117131271,
+  "type_scale": 1.6900684070837335
+ },
+ "colon/XAUT1-HS1|lc23": {
+  "type_agreement": 0.3045669504998274,
+  "type_scale": 0.9454192003578753
+ },
+ "colon/XAUT1-HS1|lc24": {
+  "type_agreement": 0.2894504233789025,
+  "type_scale": 0.9761152280924631
+ },
+ "colon/XAUT1-HS1|lc25": {
+  "type_agreement": 0.2793737318644889,
+  "type_scale": 0.9638073065713708
+ },
+ "colon/XAUT1-HS1|lc26": {
+  "type_agreement": 0.1762938933063193,
+  "type_scale": 0.7463576821518421
+ },
+ "colon/XAUT1-HS1|lc27": {
+  "type_agreement": 0.24841587590030276,
+  "type_scale": 1.9545194314751548
+ },
+ "colon/XAUT1-HS1|lc28": {
+  "type_agreement": 0.20694873779058257,
+  "type_scale": 0.850292407469688
+ },
+ "colon/XAUT1-HS1|lc30": {
+  "type_agreement": 0.31277055140076965,
+  "type_scale": 1.5532184864325604
+ },
+ "colon/XAUT1-HS1|lc31": {
+  "type_agreement": 0.37165359332388265,
+  "type_scale": 1.3572645654121742
+ },
+ "colon/XAUT1-HS1|lc32": {
+  "type_agreement": 0.3410533641167782,
+  "type_scale": 1.5562368314848556
+ },
+ "colon/XAUT1-HS1|lc33": {
+  "type_agreement": 0.42134988239531274,
+  "type_scale": 1.0975411287809067
+ },
+ "colon/XAUT1-HS1|lc34": {
+  "type_agreement": 0.33266168809596636,
+  "type_scale": 1.4761626814097693
+ },
+ "colon/XAUT1-HS1|lc35": {
+  "type_agreement": 0.37830858896096986,
+  "type_scale": 1.20429473561499
+ },
+ "colon/XAUT1-HS1|lc36": {
+  "type_agreement": 0.3146138787508919,
+  "type_scale": 1.5705827161502015
+ },
+ "colon/XAUT1-HS1|lc37": {
+  "type_agreement": 0.4546241057835409,
+  "type_scale": 0.996291604263487
+ },
+ "colon/XAUT1-HS1|lc38": {
+  "type_agreement": 0.4036164599165389,
+  "type_scale": 1.1955103660394666
+ },
+ "colon/XAUT1-HS1|lc39": {
+  "type_agreement": 0.33067658626486035,
+  "type_scale": 1.4293942848313868
+ },
+ "colon/XAUT1-HS10|frozen": {
+  "type_agreement": 0.2925142929158717,
+  "type_scale": 0.7548992539826983
+ },
+ "colon/XAUT1-HS10|P1": {
+  "type_agreement": 0.22606231359887605,
+  "type_scale": 1.0718979197480814
+ },
+ "colon/XAUT1-HS10|lc00": {
+  "type_agreement": -0.06129553953819929,
+  "type_scale": 2.069636392473797
+ },
+ "colon/XAUT1-HS10|lc01": {
+  "type_agreement": -0.029558742387738247,
+  "type_scale": 1.84164304231553
+ },
+ "colon/XAUT1-HS10|lc02": {
+  "type_agreement": 0.005405384076952986,
+  "type_scale": 1.6812799682264676
+ },
+ "colon/XAUT1-HS10|lc03": {
+  "type_agreement": 0.21088971825500571,
+  "type_scale": 0.6765987795801155
+ },
+ "colon/XAUT1-HS10|lc04": {
+  "type_agreement": 0.2943025324276179,
+  "type_scale": 0.7678065778621679
+ },
+ "colon/XAUT1-HS10|lc07": {
+  "type_agreement": 0.02657482568878587,
+  "type_scale": 1.473269260084749
+ },
+ "colon/XAUT1-HS10|lc08": {
+  "type_agreement": 0.13027664416516233,
+  "type_scale": 0.6055764993340467
+ },
+ "colon/XAUT1-HS10|lc09": {
+  "type_agreement": 0.15454198946905326,
+  "type_scale": 1.0414294560786193
+ },
+ "colon/XAUT1-HS10|lc10": {
+  "type_agreement": 0.25657811827024485,
+  "type_scale": 0.6132159327142341
+ },
+ "colon/XAUT1-HS10|lc12": {
+  "type_agreement": -0.043733181943110114,
+  "type_scale": 0.8034363100868385
+ },
+ "colon/XAUT1-HS10|lc13": {
+  "type_agreement": 0.14647728577950928,
+  "type_scale": 1.0558953086168335
+ },
+ "colon/XAUT1-HS10|lc14": {
+  "type_agreement": 0.13223609954293802,
+  "type_scale": 0.23747752986160497
+ },
+ "colon/XAUT1-HS10|lc15": {
+  "type_agreement": 0.12818495253996393,
+  "type_scale": 0.8116535778181682
+ },
+ "colon/XAUT1-HS10|lc16": {
+  "type_agreement": 0.09243182795757857,
+  "type_scale": 1.5652302338771573
+ },
+ "colon/XAUT1-HS10|lc17": {
+  "type_agreement": 0.11838405164186763,
+  "type_scale": 0.5820887196044958
+ },
+ "colon/XAUT1-HS10|lc18": {
+  "type_agreement": 0.02134668992897083,
+  "type_scale": 1.6523632271425392
+ },
+ "colon/XAUT1-HS10|lc20": {
+  "type_agreement": 0.007364361326157807,
+  "type_scale": 0.5085578024045468
+ },
+ "colon/XAUT1-HS10|lc21": {
+  "type_agreement": -0.00712533216557056,
+  "type_scale": 1.0771583284081419
+ },
+ "colon/XAUT1-HS10|lc22": {
+  "type_agreement": 0.21881749014262114,
+  "type_scale": 1.1793995178435264
+ },
+ "colon/XAUT1-HS10|lc23": {
+  "type_agreement": -0.021333690419973662,
+  "type_scale": 0.8377014839648632
+ },
+ "colon/XAUT1-HS10|lc24": {
+  "type_agreement": 0.12140629901210037,
+  "type_scale": 0.5554594188819052
+ },
+ "colon/XAUT1-HS10|lc25": {
+  "type_agreement": 0.17537573417002042,
+  "type_scale": 0.6262410850007029
+ },
+ "colon/XAUT1-HS10|lc26": {
+  "type_agreement": -0.04068838884041205,
+  "type_scale": 0.020347175751635298
+ },
+ "colon/XAUT1-HS10|lc27": {
+  "type_agreement": 0.14467389448345006,
+  "type_scale": 0.683555252464246
+ },
+ "colon/XAUT1-HS10|lc28": {
+  "type_agreement": 0.14610301286026864,
+  "type_scale": 0.26504653262786787
+ },
+ "colon/XAUT1-HS10|lc30": {
+  "type_agreement": 0.22983309154527076,
+  "type_scale": 0.9636669706482988
+ },
+ "colon/XAUT1-HS10|lc31": {
+  "type_agreement": 0.22100549316078869,
+  "type_scale": 0.7480396400064568
+ },
+ "colon/XAUT1-HS10|lc32": {
+  "type_agreement": 0.31551733391024617,
+  "type_scale": 1.0306383699555481
+ },
+ "colon/XAUT1-HS10|lc33": {
+  "type_agreement": 0.2749700976242064,
+  "type_scale": 0.9446856287717281
+ },
+ "colon/XAUT1-HS10|lc34": {
+  "type_agreement": 0.27246290484880553,
+  "type_scale": 0.7776165024374563
+ },
+ "colon/XAUT1-HS10|lc35": {
+  "type_agreement": 0.293178237013617,
+  "type_scale": 0.8356939401160557
+ },
+ "colon/XAUT1-HS10|lc36": {
+  "type_agreement": 0.2943430047017374,
+  "type_scale": 0.9399727606817015
+ },
+ "colon/XAUT1-HS10|lc37": {
+  "type_agreement": 0.21861386117299825,
+  "type_scale": 0.7681298724566733
+ },
+ "colon/XAUT1-HS10|lc38": {
+  "type_agreement": 0.19839355860716565,
+  "type_scale": 0.9874992741960296
+ },
+ "colon/XAUT1-HS10|lc39": {
+  "type_agreement": 0.2523527275177402,
+  "type_scale": 0.7823003866004569
+ },
+ "colon/XAUT1-HS11|frozen": {
+  "type_agreement": 0.47448516879904323,
+  "type_scale": 0.9318405159291392
+ },
+ "colon/XAUT1-HS11|P1": {
+  "type_agreement": 0.17031262844196907,
+  "type_scale": 0.9240164730625847
+ },
+ "colon/XAUT1-HS11|lc00": {
+  "type_agreement": 0.2742920235737433,
+  "type_scale": 1.182209107558863
+ },
+ "colon/XAUT1-HS11|lc01": {
+  "type_agreement": -0.0045268912849098855,
+  "type_scale": 0.9489190272834185
+ },
+ "colon/XAUT1-HS11|lc02": {
+  "type_agreement": 0.04322315289081162,
+  "type_scale": 2.361903233557074
+ },
+ "colon/XAUT1-HS11|lc03": {
+  "type_agreement": 0.08904734722678996,
+  "type_scale": 0.7926229512547862
+ },
+ "colon/XAUT1-HS11|lc04": {
+  "type_agreement": 0.1767788228221426,
+  "type_scale": 0.7489813541133327
+ },
+ "colon/XAUT1-HS11|lc07": {
+  "type_agreement": 0.2060824943099217,
+  "type_scale": 1.3377102468894118
+ },
+ "colon/XAUT1-HS11|lc08": {
+  "type_agreement": 0.3077202361254885,
+  "type_scale": 0.750604866527509
+ },
+ "colon/XAUT1-HS11|lc09": {
+  "type_agreement": 0.10528311122409939,
+  "type_scale": 2.2774030352088697
+ },
+ "colon/XAUT1-HS11|lc10": {
+  "type_agreement": 0.05791604993034124,
+  "type_scale": 0.47480264967146424
+ },
+ "colon/XAUT1-HS11|lc12": {
+  "type_agreement": 0.16291219448185898,
+  "type_scale": 0.9722176388386424
+ },
+ "colon/XAUT1-HS11|lc13": {
+  "type_agreement": 0.185138178879334,
+  "type_scale": 1.6872717423304362
+ },
+ "colon/XAUT1-HS11|lc14": {
+  "type_agreement": 0.14537618641406136,
+  "type_scale": 0.2590324093743083
+ },
+ "colon/XAUT1-HS11|lc15": {
+  "type_agreement": 0.08797632274606365,
+  "type_scale": 1.5716755482738096
+ },
+ "colon/XAUT1-HS11|lc16": {
+  "type_agreement": 0.18817762225162893,
+  "type_scale": 1.1311358321798481
+ },
+ "colon/XAUT1-HS11|lc17": {
+  "type_agreement": 0.38177797846464434,
+  "type_scale": 0.6672025238547856
+ },
+ "colon/XAUT1-HS11|lc18": {
+  "type_agreement": 0.1259715987432569,
+  "type_scale": 2.237454665519845
+ },
+ "colon/XAUT1-HS11|lc20": {
+  "type_agreement": 0.36423994103586715,
+  "type_scale": 0.6332722723137278
+ },
+ "colon/XAUT1-HS11|lc21": {
+  "type_agreement": 0.05937090664248448,
+  "type_scale": 0.7718864635712067
+ },
+ "colon/XAUT1-HS11|lc22": {
+  "type_agreement": 0.29300235898678617,
+  "type_scale": 1.4761865548793522
+ },
+ "colon/XAUT1-HS11|lc23": {
+  "type_agreement": 0.33677214829443325,
+  "type_scale": 0.613354566647298
+ },
+ "colon/XAUT1-HS11|lc24": {
+  "type_agreement": 0.39224911912015326,
+  "type_scale": 0.6252144205566824
+ },
+ "colon/XAUT1-HS11|lc25": {
+  "type_agreement": 0.4077954332364515,
+  "type_scale": 0.6215703030682357
+ },
+ "colon/XAUT1-HS11|lc26": {
+  "type_agreement": 0.031199229853513515,
+  "type_scale": 0.24971799225942007
+ },
+ "colon/XAUT1-HS11|lc27": {
+  "type_agreement": 0.32219288526925133,
+  "type_scale": 1.4241326478652878
+ },
+ "colon/XAUT1-HS11|lc28": {
+  "type_agreement": 0.0696731810471447,
+  "type_scale": 0.2521362134497729
+ },
+ "colon/XAUT1-HS11|lc30": {
+  "type_agreement": 0.36239923385630335,
+  "type_scale": 1.199559477812566
+ },
+ "colon/XAUT1-HS11|lc31": {
+  "type_agreement": 0.446858640743272,
+  "type_scale": 1.065171978340041
+ },
+ "colon/XAUT1-HS11|lc32": {
+  "type_agreement": 0.34130688951621524,
+  "type_scale": 1.3644310384486842
+ },
+ "colon/XAUT1-HS11|lc33": {
+  "type_agreement": 0.4894672346845414,
+  "type_scale": 0.840740870536497
+ },
+ "colon/XAUT1-HS11|lc34": {
+  "type_agreement": 0.3541182813360533,
+  "type_scale": 1.2324921913480567
+ },
+ "colon/XAUT1-HS11|lc35": {
+  "type_agreement": 0.43334609286858145,
+  "type_scale": 0.9628785660491708
+ },
+ "colon/XAUT1-HS11|lc36": {
+  "type_agreement": 0.3195288266739539,
+  "type_scale": 1.3347460675564384
+ },
+ "colon/XAUT1-HS11|lc37": {
+  "type_agreement": 0.5571726000682914,
+  "type_scale": 0.7477373439106116
+ },
+ "colon/XAUT1-HS11|lc38": {
+  "type_agreement": 0.48028511845367955,
+  "type_scale": 0.7834496592590783
+ },
+ "colon/XAUT1-HS11|lc39": {
+  "type_agreement": 0.36736406246793774,
+  "type_scale": 1.0624283186484373
+ },
+ "colon/XAUT1-HS12|frozen": {
+  "type_agreement": 0.29446087396723214,
+  "type_scale": 0.7108452699794018
+ },
+ "colon/XAUT1-HS12|P1": {
+  "type_agreement": -0.053340573751098457,
+  "type_scale": 1.1940683192510886
+ },
+ "colon/XAUT1-HS12|lc00": {
+  "type_agreement": 0.22130425440327064,
+  "type_scale": 0.9004339503798422
+ },
+ "colon/XAUT1-HS12|lc01": {
+  "type_agreement": 0.017639787322432272,
+  "type_scale": 0.760543358551934
+ },
+ "colon/XAUT1-HS12|lc02": {
+  "type_agreement": 0.04196975231757052,
+  "type_scale": 1.6545265163397134
+ },
+ "colon/XAUT1-HS12|lc03": {
+  "type_agreement": 0.20161262337345262,
+  "type_scale": 0.7078468386452361
+ },
+ "colon/XAUT1-HS12|lc04": {
+  "type_agreement": 0.20500497145510121,
+  "type_scale": 0.9080094362099251
+ },
+ "colon/XAUT1-HS12|lc07": {
+  "type_agreement": 0.17030906428174034,
+  "type_scale": 0.9919832142324843
+ },
+ "colon/XAUT1-HS12|lc08": {
+  "type_agreement": 0.2071279510789931,
+  "type_scale": 0.6522593257539031
+ },
+ "colon/XAUT1-HS12|lc09": {
+  "type_agreement": 0.09689945937892074,
+  "type_scale": 1.5537482753152498
+ },
+ "colon/XAUT1-HS12|lc10": {
+  "type_agreement": 0.15071876065084658,
+  "type_scale": 0.46835087768565825
+ },
+ "colon/XAUT1-HS12|lc12": {
+  "type_agreement": 0.18483158204067404,
+  "type_scale": 0.7405658089644653
+ },
+ "colon/XAUT1-HS12|lc13": {
+  "type_agreement": 0.11639174434649502,
+  "type_scale": 1.2201602480547744
+ },
+ "colon/XAUT1-HS12|lc14": {
+  "type_agreement": 0.21644027185479237,
+  "type_scale": 0.36215306245947
+ },
+ "colon/XAUT1-HS12|lc15": {
+  "type_agreement": 0.07614209448864478,
+  "type_scale": 1.1020780946241007
+ },
+ "colon/XAUT1-HS12|lc16": {
+  "type_agreement": 0.16983829151084415,
+  "type_scale": 0.9354163193044912
+ },
+ "colon/XAUT1-HS12|lc17": {
+  "type_agreement": 0.2145693281929292,
+  "type_scale": 0.5409959715984538
+ },
+ "colon/XAUT1-HS12|lc18": {
+  "type_agreement": 0.06301880114003977,
+  "type_scale": 1.6979746900266905
+ },
+ "colon/XAUT1-HS12|lc20": {
+  "type_agreement": 0.2528038698391533,
+  "type_scale": 0.5521467293338492
+ },
+ "colon/XAUT1-HS12|lc21": {
+  "type_agreement": 0.05470349341290269,
+  "type_scale": 0.700881509708122
+ },
+ "colon/XAUT1-HS12|lc22": {
+  "type_agreement": 0.21606700680383417,
+  "type_scale": 1.0048014505001381
+ },
+ "colon/XAUT1-HS12|lc23": {
+  "type_agreement": 0.2622927109264055,
+  "type_scale": 0.546020812832333
+ },
+ "colon/XAUT1-HS12|lc24": {
+  "type_agreement": 0.26344173867318793,
+  "type_scale": 0.5314525082615992
+ },
+ "colon/XAUT1-HS12|lc25": {
+  "type_agreement": 0.27432298761687496,
+  "type_scale": 0.5505474476380768
+ },
+ "colon/XAUT1-HS12|lc26": {
+  "type_agreement": 0.1747642336008234,
+  "type_scale": 0.38815299638750306
+ },
+ "colon/XAUT1-HS12|lc27": {
+  "type_agreement": 0.12448698041414649,
+  "type_scale": 1.1459813767950195
+ },
+ "colon/XAUT1-HS12|lc28": {
+  "type_agreement": 0.19773983662422095,
+  "type_scale": 0.3981365526980988
+ },
+ "colon/XAUT1-HS12|lc30": {
+  "type_agreement": 0.21248615912902102,
+  "type_scale": 0.8665791233309873
+ },
+ "colon/XAUT1-HS12|lc31": {
+  "type_agreement": 0.306693938270006,
+  "type_scale": 0.7970436698884138
+ },
+ "colon/XAUT1-HS12|lc32": {
+  "type_agreement": 0.22017985652074967,
+  "type_scale": 0.9628520582674438
+ },
+ "colon/XAUT1-HS12|lc33": {
+  "type_agreement": 0.27180896023345713,
+  "type_scale": 0.6653845381874997
+ },
+ "colon/XAUT1-HS12|lc34": {
+  "type_agreement": 0.2178711426091725,
+  "type_scale": 0.8808773213945038
+ },
+ "colon/XAUT1-HS12|lc35": {
+  "type_agreement": 0.2867467524794694,
+  "type_scale": 0.763288924796065
+ },
+ "colon/XAUT1-HS12|lc36": {
+  "type_agreement": 0.2214915003559426,
+  "type_scale": 0.9285331132999559
+ },
+ "colon/XAUT1-HS12|lc37": {
+  "type_agreement": 0.2933645507563671,
+  "type_scale": 0.6153637340045895
+ },
+ "colon/XAUT1-HS12|lc38": {
+  "type_agreement": 0.3425620839521012,
+  "type_scale": 0.6665951725622855
+ },
+ "colon/XAUT1-HS12|lc39": {
+  "type_agreement": 0.21150067765980313,
+  "type_scale": 0.825089327372265
+ },
+ "colon/XAUT1-HS2|frozen": {
+  "type_agreement": 0.3719077168281928,
+  "type_scale": 0.8839007042653249
+ },
+ "colon/XAUT1-HS2|P1": {
+  "type_agreement": 0.11561094899651313,
+  "type_scale": 1.046073342723299
+ },
+ "colon/XAUT1-HS2|lc00": {
+  "type_agreement": 0.2675875307428188,
+  "type_scale": 1.159694654090282
+ },
+ "colon/XAUT1-HS2|lc01": {
+  "type_agreement": 0.022860142132524516,
+  "type_scale": 0.9266627305274727
+ },
+ "colon/XAUT1-HS2|lc02": {
+  "type_agreement": 0.030548679445430955,
+  "type_scale": 2.256134368611046
+ },
+ "colon/XAUT1-HS2|lc03": {
+  "type_agreement": 0.08045462486332304,
+  "type_scale": 0.7481994470995034
+ },
+ "colon/XAUT1-HS2|lc04": {
+  "type_agreement": 0.15832911441713865,
+  "type_scale": 0.7821999910279832
+ },
+ "colon/XAUT1-HS2|lc07": {
+  "type_agreement": 0.20020459662092766,
+  "type_scale": 1.2064269960993437
+ },
+ "colon/XAUT1-HS2|lc08": {
+  "type_agreement": 0.21438736095558425,
+  "type_scale": 0.6889469161688426
+ },
+ "colon/XAUT1-HS2|lc09": {
+  "type_agreement": 0.09942610881481365,
+  "type_scale": 2.1393299838070163
+ },
+ "colon/XAUT1-HS2|lc10": {
+  "type_agreement": 0.01606256412879833,
+  "type_scale": 0.4436971871151792
+ },
+ "colon/XAUT1-HS2|lc12": {
+  "type_agreement": 0.12365244611708089,
+  "type_scale": 0.9261541777681749
+ },
+ "colon/XAUT1-HS2|lc13": {
+  "type_agreement": 0.10171918482206302,
+  "type_scale": 1.623540092277859
+ },
+ "colon/XAUT1-HS2|lc14": {
+  "type_agreement": 0.11685163791743579,
+  "type_scale": 0.2782182483960801
+ },
+ "colon/XAUT1-HS2|lc15": {
+  "type_agreement": 0.027438863964467784,
+  "type_scale": 1.4858734796458277
+ },
+ "colon/XAUT1-HS2|lc16": {
+  "type_agreement": 0.15068152455597647,
+  "type_scale": 1.1653175263335034
+ },
+ "colon/XAUT1-HS2|lc17": {
+  "type_agreement": 0.305916981806667,
+  "type_scale": 0.6334502816311859
+ },
+ "colon/XAUT1-HS2|lc18": {
+  "type_agreement": 0.05737340919447343,
+  "type_scale": 2.2282955479003816
+ },
+ "colon/XAUT1-HS2|lc20": {
+  "type_agreement": 0.31706419708472405,
+  "type_scale": 0.6094718780189604
+ },
+ "colon/XAUT1-HS2|lc21": {
+  "type_agreement": 0.02962412133464686,
+  "type_scale": 0.7403424942477773
+ },
+ "colon/XAUT1-HS2|lc22": {
+  "type_agreement": 0.21071836772477584,
+  "type_scale": 1.3099126109130663
+ },
+ "colon/XAUT1-HS2|lc23": {
+  "type_agreement": 0.269586570090422,
+  "type_scale": 0.5907918342471526
+ },
+ "colon/XAUT1-HS2|lc24": {
+  "type_agreement": 0.3303080968579373,
+  "type_scale": 0.6013063951465157
+ },
+ "colon/XAUT1-HS2|lc25": {
+  "type_agreement": 0.3281468530198349,
+  "type_scale": 0.5993205916098949
+ },
+ "colon/XAUT1-HS2|lc26": {
+  "type_agreement": 0.07470373988241033,
+  "type_scale": 0.2719783649721776
+ },
+ "colon/XAUT1-HS2|lc27": {
+  "type_agreement": 0.18175918443988184,
+  "type_scale": 1.2466297297616071
+ },
+ "colon/XAUT1-HS2|lc28": {
+  "type_agreement": 0.10220036751126867,
+  "type_scale": 0.2740346934342911
+ },
+ "colon/XAUT1-HS2|lc30": {
+  "type_agreement": 0.2803143248247514,
+  "type_scale": 1.1102227088654533
+ },
+ "colon/XAUT1-HS2|lc31": {
+  "type_agreement": 0.3898076882481209,
+  "type_scale": 0.9404744520216807
+ },
+ "colon/XAUT1-HS2|lc32": {
+  "type_agreement": 0.26142072884472095,
+  "type_scale": 1.2031476913479207
+ },
+ "colon/XAUT1-HS2|lc33": {
+  "type_agreement": 0.3977655054013495,
+  "type_scale": 0.8148185114557065
+ },
+ "colon/XAUT1-HS2|lc34": {
+  "type_agreement": 0.2826464826007937,
+  "type_scale": 0.9882859132899536
+ },
+ "colon/XAUT1-HS2|lc35": {
+  "type_agreement": 0.33392630905167864,
+  "type_scale": 0.9008693902526231
+ },
+ "colon/XAUT1-HS2|lc36": {
+  "type_agreement": 0.2735681565655556,
+  "type_scale": 1.1485157569165285
+ },
+ "colon/XAUT1-HS2|lc37": {
+  "type_agreement": 0.4204185949364691,
+  "type_scale": 0.7219241528469698
+ },
+ "colon/XAUT1-HS2|lc38": {
+  "type_agreement": 0.399343393572073,
+  "type_scale": 0.7864616624103874
+ },
+ "colon/XAUT1-HS2|lc39": {
+  "type_agreement": 0.2577951787919395,
+  "type_scale": 0.9767273528789241
+ },
+ "colon/XAUT1-HS3|frozen": {
+  "type_agreement": 0.37259970637397855,
+  "type_scale": 1.0391433719593
+ },
+ "colon/XAUT1-HS3|P1": {
+  "type_agreement": 0.06554974636677384,
+  "type_scale": 1.1859366767975814
+ },
+ "colon/XAUT1-HS3|lc00": {
+  "type_agreement": 0.15114071555778044,
+  "type_scale": 1.5639723930750047
+ },
+ "colon/XAUT1-HS3|lc01": {
+  "type_agreement": 0.03531062173119013,
+  "type_scale": 1.1263539079274971
+ },
+ "colon/XAUT1-HS3|lc02": {
+  "type_agreement": 0.034246627552727664,
+  "type_scale": 2.0423355601770217
+ },
+ "colon/XAUT1-HS3|lc03": {
+  "type_agreement": 0.07777409685893591,
+  "type_scale": 1.1195722687404521
+ },
+ "colon/XAUT1-HS3|lc04": {
+  "type_agreement": 0.15957247571052843,
+  "type_scale": 1.3151494001703714
+ },
+ "colon/XAUT1-HS3|lc07": {
+  "type_agreement": 0.26099774729180425,
+  "type_scale": 1.2545618742409779
+ },
+ "colon/XAUT1-HS3|lc08": {
+  "type_agreement": 0.19456655226023087,
+  "type_scale": 0.9691740868238361
+ },
+ "colon/XAUT1-HS3|lc09": {
+  "type_agreement": 0.1439614768472683,
+  "type_scale": 1.8389446036115484
+ },
+ "colon/XAUT1-HS3|lc10": {
+  "type_agreement": 0.08125046534162471,
+  "type_scale": 0.8458043235670519
+ },
+ "colon/XAUT1-HS3|lc12": {
+  "type_agreement": 0.19037815276609824,
+  "type_scale": 0.9816946887603443
+ },
+ "colon/XAUT1-HS3|lc13": {
+  "type_agreement": 0.1506645504256485,
+  "type_scale": 1.606265768227096
+ },
+ "colon/XAUT1-HS3|lc14": {
+  "type_agreement": 0.21478260029664234,
+  "type_scale": 0.5350625544878563
+ },
+ "colon/XAUT1-HS3|lc15": {
+  "type_agreement": 0.0907212235690436,
+  "type_scale": 1.3831304928882466
+ },
+ "colon/XAUT1-HS3|lc16": {
+  "type_agreement": 0.18792563016633929,
+  "type_scale": 1.1252234154956757
+ },
+ "colon/XAUT1-HS3|lc17": {
+  "type_agreement": 0.3045945745259439,
+  "type_scale": 0.7148347281235782
+ },
+ "colon/XAUT1-HS3|lc18": {
+  "type_agreement": 0.09434476470266374,
+  "type_scale": 2.059752498802284
+ },
+ "colon/XAUT1-HS3|lc20": {
+  "type_agreement": 0.263984943219827,
+  "type_scale": 0.8003690086650194
+ },
+ "colon/XAUT1-HS3|lc21": {
+  "type_agreement": 0.11811667939623903,
+  "type_scale": 0.8818492236404615
+ },
+ "colon/XAUT1-HS3|lc22": {
+  "type_agreement": 0.2594625037419574,
+  "type_scale": 1.4638052822237893
+ },
+ "colon/XAUT1-HS3|lc23": {
+  "type_agreement": 0.29084032984422414,
+  "type_scale": 0.746751426965295
+ },
+ "colon/XAUT1-HS3|lc24": {
+  "type_agreement": 0.29735760066442063,
+  "type_scale": 0.7683775808315634
+ },
+ "colon/XAUT1-HS3|lc25": {
+  "type_agreement": 0.29349714109729585,
+  "type_scale": 0.7478765276456147
+ },
+ "colon/XAUT1-HS3|lc26": {
+  "type_agreement": 0.13021423071969446,
+  "type_scale": 0.5726529912213605
+ },
+ "colon/XAUT1-HS3|lc27": {
+  "type_agreement": 0.22059349954671043,
+  "type_scale": 1.5883127777759893
+ },
+ "colon/XAUT1-HS3|lc28": {
+  "type_agreement": 0.15608163773876702,
+  "type_scale": 0.634961672880684
+ },
+ "colon/XAUT1-HS3|lc30": {
+  "type_agreement": 0.2926014732179537,
+  "type_scale": 1.3069235118787832
+ },
+ "colon/XAUT1-HS3|lc31": {
+  "type_agreement": 0.3854986430585535,
+  "type_scale": 1.11199430032089
+ },
+ "colon/XAUT1-HS3|lc32": {
+  "type_agreement": 0.29899016142968793,
+  "type_scale": 1.3557294336387749
+ },
+ "colon/XAUT1-HS3|lc33": {
+  "type_agreement": 0.4047826179294805,
+  "type_scale": 0.8618314534037793
+ },
+ "colon/XAUT1-HS3|lc34": {
+  "type_agreement": 0.30541088983495823,
+  "type_scale": 1.2212191590657813
+ },
+ "colon/XAUT1-HS3|lc35": {
+  "type_agreement": 0.3935636583202841,
+  "type_scale": 0.9741094956145269
+ },
+ "colon/XAUT1-HS3|lc36": {
+  "type_agreement": 0.2794292103118085,
+  "type_scale": 1.3611467421055292
+ },
+ "colon/XAUT1-HS3|lc37": {
+  "type_agreement": 0.44908295365721956,
+  "type_scale": 0.799693571863003
+ },
+ "colon/XAUT1-HS3|lc38": {
+  "type_agreement": 0.3986164876324262,
+  "type_scale": 0.9263173033481037
+ },
+ "colon/XAUT1-HS3|lc39": {
+  "type_agreement": 0.2918385773547081,
+  "type_scale": 1.1969487228202171
+ },
+ "colon/XAUT1-HS4|frozen": {
+  "type_agreement": 0.4131332817403046,
+  "type_scale": 1.1604261103481128
+ },
+ "colon/XAUT1-HS4|P1": {
+  "type_agreement": 0.04529938799352921,
+  "type_scale": 1.3861052959161213
+ },
+ "colon/XAUT1-HS4|lc00": {
+  "type_agreement": 0.04820055523341111,
+  "type_scale": 2.200105256606238
+ },
+ "colon/XAUT1-HS4|lc01": {
+  "type_agreement": 0.10044053018641921,
+  "type_scale": 1.5965430470956756
+ },
+ "colon/XAUT1-HS4|lc02": {
+  "type_agreement": 0.11775385215499473,
+  "type_scale": 1.6921770543075314
+ },
+ "colon/XAUT1-HS4|lc03": {
+  "type_agreement": 0.08085780192737439,
+  "type_scale": 1.5687466556729528
+ },
+ "colon/XAUT1-HS4|lc04": {
+  "type_agreement": 0.0979608874174241,
+  "type_scale": 1.987512599212687
+ },
+ "colon/XAUT1-HS4|lc07": {
+  "type_agreement": 0.33702530784901297,
+  "type_scale": 1.471345175253162
+ },
+ "colon/XAUT1-HS4|lc08": {
+  "type_agreement": 0.17603957773792597,
+  "type_scale": 1.30787986222886
+ },
+ "colon/XAUT1-HS4|lc09": {
+  "type_agreement": 0.182993633868125,
+  "type_scale": 1.365605547884042
+ },
+ "colon/XAUT1-HS4|lc10": {
+  "type_agreement": 0.11643499350721254,
+  "type_scale": 1.298012640933429
+ },
+ "colon/XAUT1-HS4|lc12": {
+  "type_agreement": 0.3222631945801207,
+  "type_scale": 1.006232353131645
+ },
+ "colon/XAUT1-HS4|lc13": {
+  "type_agreement": 0.20298753810633474,
+  "type_scale": 1.5657320599353683
+ },
+ "colon/XAUT1-HS4|lc14": {
+  "type_agreement": 0.29005552461489925,
+  "type_scale": 0.8102153446148095
+ },
+ "colon/XAUT1-HS4|lc15": {
+  "type_agreement": 0.18803697209682563,
+  "type_scale": 1.207460459023612
+ },
+ "colon/XAUT1-HS4|lc16": {
+  "type_agreement": 0.27613129149865717,
+  "type_scale": 1.0843306866345053
+ },
+ "colon/XAUT1-HS4|lc17": {
+  "type_agreement": 0.3097804339461136,
+  "type_scale": 0.8393950155283338
+ },
+ "colon/XAUT1-HS4|lc18": {
+  "type_agreement": 0.2368624789649802,
+  "type_scale": 1.7214228950178148
+ },
+ "colon/XAUT1-HS4|lc20": {
+  "type_agreement": 0.21943271922975044,
+  "type_scale": 1.0399614666534858
+ },
+ "colon/XAUT1-HS4|lc21": {
+  "type_agreement": 0.26281341693109866,
+  "type_scale": 1.2010272049941453
+ },
+ "colon/XAUT1-HS4|lc22": {
+  "type_agreement": 0.3259729974300747,
+  "type_scale": 1.4163061985957297
+ },
+ "colon/XAUT1-HS4|lc23": {
+  "type_agreement": 0.29662060053030553,
+  "type_scale": 0.9400255750221728
+ },
+ "colon/XAUT1-HS4|lc24": {
+  "type_agreement": 0.2592148265012056,
+  "type_scale": 0.9924760931311138
+ },
+ "colon/XAUT1-HS4|lc25": {
+  "type_agreement": 0.22772103014312464,
+  "type_scale": 0.9586296885506959
+ },
+ "colon/XAUT1-HS4|lc26": {
+  "type_agreement": 0.18860253846972777,
+  "type_scale": 0.8684648007932531
+ },
+ "colon/XAUT1-HS4|lc27": {
+  "type_agreement": 0.2681285224940792,
+  "type_scale": 1.9457764392720402
+ },
+ "colon/XAUT1-HS4|lc28": {
+  "type_agreement": 0.22993505449960402,
+  "type_scale": 0.9815660381842629
+ },
+ "colon/XAUT1-HS4|lc30": {
+  "type_agreement": 0.3391125912111974,
+  "type_scale": 1.4347494006651211
+ },
+ "colon/XAUT1-HS4|lc31": {
+  "type_agreement": 0.3739161616363115,
+  "type_scale": 1.3129458599423227
+ },
+ "colon/XAUT1-HS4|lc32": {
+  "type_agreement": 0.3789935382887058,
+  "type_scale": 1.3602629995868945
+ },
+ "colon/XAUT1-HS4|lc33": {
+  "type_agreement": 0.4336197551596453,
+  "type_scale": 0.9643981789693329
+ },
+ "colon/XAUT1-HS4|lc34": {
+  "type_agreement": 0.3733082214041804,
+  "type_scale": 1.3594831967080876
+ },
+ "colon/XAUT1-HS4|lc35": {
+  "type_agreement": 0.37442361330903584,
+  "type_scale": 1.1266635892266763
+ },
+ "colon/XAUT1-HS4|lc36": {
+  "type_agreement": 0.35180718077504747,
+  "type_scale": 1.448777402203423
+ },
+ "colon/XAUT1-HS4|lc37": {
+  "type_agreement": 0.4498307157710985,
+  "type_scale": 0.9226005168672937
+ },
+ "colon/XAUT1-HS4|lc38": {
+  "type_agreement": 0.3747171623191355,
+  "type_scale": 1.1341117230738837
+ },
+ "colon/XAUT1-HS4|lc39": {
+  "type_agreement": 0.36949756120439786,
+  "type_scale": 1.371766495895339
+ },
+ "colon/XAUT1-HS5|frozen": {
+  "type_agreement": 0.43166591136165183,
+  "type_scale": 1.154545426943578
+ },
+ "colon/XAUT1-HS5|P1": {
+  "type_agreement": -0.0327228705181752,
+  "type_scale": 1.4314725154768881
+ },
+ "colon/XAUT1-HS5|lc00": {
+  "type_agreement": 0.02528655418409522,
+  "type_scale": 2.0518696425540806
+ },
+ "colon/XAUT1-HS5|lc01": {
+  "type_agreement": 0.07836618064995544,
+  "type_scale": 1.4820847486927373
+ },
+ "colon/XAUT1-HS5|lc02": {
+  "type_agreement": 0.13834304777414916,
+  "type_scale": 1.4023744947444972
+ },
+ "colon/XAUT1-HS5|lc03": {
+  "type_agreement": 0.06904719792329829,
+  "type_scale": 1.4380870374205588
+ },
+ "colon/XAUT1-HS5|lc04": {
+  "type_agreement": 0.09781779673246135,
+  "type_scale": 1.8094927155319465
+ },
+ "colon/XAUT1-HS5|lc07": {
+  "type_agreement": 0.4015044067810254,
+  "type_scale": 1.3656157546839964
+ },
+ "colon/XAUT1-HS5|lc08": {
+  "type_agreement": 0.16411393606557972,
+  "type_scale": 1.1794229721963023
+ },
+ "colon/XAUT1-HS5|lc09": {
+  "type_agreement": 0.17153084820639644,
+  "type_scale": 1.0191433189969012
+ },
+ "colon/XAUT1-HS5|lc10": {
+  "type_agreement": 0.10977023591681778,
+  "type_scale": 1.199503258199417
+ },
+ "colon/XAUT1-HS5|lc12": {
+  "type_agreement": 0.38206722249450487,
+  "type_scale": 0.88648292360845
+ },
+ "colon/XAUT1-HS5|lc13": {
+  "type_agreement": 0.21154419603524835,
+  "type_scale": 1.3053120973495655
+ },
+ "colon/XAUT1-HS5|lc14": {
+  "type_agreement": 0.31845896805298174,
+  "type_scale": 0.7401000372095763
+ },
+ "colon/XAUT1-HS5|lc15": {
+  "type_agreement": 0.1825989486049071,
+  "type_scale": 1.066794590010527
+ },
+ "colon/XAUT1-HS5|lc16": {
+  "type_agreement": 0.3176110119932063,
+  "type_scale": 0.9304706648956831
+ },
+ "colon/XAUT1-HS5|lc17": {
+  "type_agreement": 0.3306508760990187,
+  "type_scale": 0.7441064045063006
+ },
+ "colon/XAUT1-HS5|lc18": {
+  "type_agreement": 0.29314210368091936,
+  "type_scale": 1.414511151352757
+ },
+ "colon/XAUT1-HS5|lc20": {
+  "type_agreement": 0.2288333475386258,
+  "type_scale": 0.9413520597378193
+ },
+ "colon/XAUT1-HS5|lc21": {
+  "type_agreement": 0.30456415311035856,
+  "type_scale": 1.0768903892001371
+ },
+ "colon/XAUT1-HS5|lc22": {
+  "type_agreement": 0.3752002993562497,
+  "type_scale": 1.3127617562348193
+ },
+ "colon/XAUT1-HS5|lc23": {
+  "type_agreement": 0.31583075044791664,
+  "type_scale": 0.8570835505185206
+ },
+ "colon/XAUT1-HS5|lc24": {
+  "type_agreement": 0.2662937757481248,
+  "type_scale": 0.9100700215642882
+ },
+ "colon/XAUT1-HS5|lc25": {
+  "type_agreement": 0.22903949170563606,
+  "type_scale": 0.8604712427297069
+ },
+ "colon/XAUT1-HS5|lc26": {
+  "type_agreement": 0.2003044714704357,
+  "type_scale": 0.7930398637272894
+ },
+ "colon/XAUT1-HS5|lc27": {
+  "type_agreement": 0.2996819320453516,
+  "type_scale": 1.7656726240009095
+ },
+ "colon/XAUT1-HS5|lc28": {
+  "type_agreement": 0.2545313331876578,
+  "type_scale": 0.9024473444092475
+ },
+ "colon/XAUT1-HS5|lc30": {
+  "type_agreement": 0.3780081028356554,
+  "type_scale": 1.3423554434004026
+ },
+ "colon/XAUT1-HS5|lc31": {
+  "type_agreement": 0.40431644507398024,
+  "type_scale": 1.256517774030321
+ },
+ "colon/XAUT1-HS5|lc32": {
+  "type_agreement": 0.4227132816423466,
+  "type_scale": 1.2996684550206064
+ },
+ "colon/XAUT1-HS5|lc33": {
+  "type_agreement": 0.4582586554650959,
+  "type_scale": 0.9113344558712363
+ },
+ "colon/XAUT1-HS5|lc34": {
+  "type_agreement": 0.4073357163521174,
+  "type_scale": 1.2768568836377918
+ },
+ "colon/XAUT1-HS5|lc35": {
+  "type_agreement": 0.4278626250450229,
+  "type_scale": 1.0055255556230567
+ },
+ "colon/XAUT1-HS5|lc36": {
+  "type_agreement": 0.37553017545794193,
+  "type_scale": 1.4741243064529304
+ },
+ "colon/XAUT1-HS5|lc37": {
+  "type_agreement": 0.4541085420803194,
+  "type_scale": 0.8532339590500224
+ },
+ "colon/XAUT1-HS5|lc38": {
+  "type_agreement": 0.4095873054360919,
+  "type_scale": 0.9992863424866808
+ },
+ "colon/XAUT1-HS5|lc39": {
+  "type_agreement": 0.3901847502275644,
+  "type_scale": 1.4092337325303852
+ },
+ "colon/XAUT1-HS6|frozen": {
+  "type_agreement": 0.3797010879821684,
+  "type_scale": 0.8890679153761236
+ },
+ "colon/XAUT1-HS6|P1": {
+  "type_agreement": 0.01298331756678489,
+  "type_scale": 1.2938154019840427
+ },
+ "colon/XAUT1-HS6|lc00": {
+  "type_agreement": 0.2317439195770087,
+  "type_scale": 1.325178089969117
+ },
+ "colon/XAUT1-HS6|lc01": {
+  "type_agreement": 0.06210538646187271,
+  "type_scale": 1.1324404622300575
+ },
+ "colon/XAUT1-HS6|lc02": {
+  "type_agreement": 0.10434506002559374,
+  "type_scale": 2.432519194524903
+ },
+ "colon/XAUT1-HS6|lc03": {
+  "type_agreement": 0.21058566775874157,
+  "type_scale": 0.8636988222782411
+ },
+ "colon/XAUT1-HS6|lc04": {
+  "type_agreement": 0.20758912285001738,
+  "type_scale": 0.8266425525500355
+ },
+ "colon/XAUT1-HS6|lc07": {
+  "type_agreement": 0.17114998620732771,
+  "type_scale": 1.3906666268518628
+ },
+ "colon/XAUT1-HS6|lc08": {
+  "type_agreement": 0.2640137039252453,
+  "type_scale": 0.7459729643129928
+ },
+ "colon/XAUT1-HS6|lc09": {
+  "type_agreement": 0.05625535713232127,
+  "type_scale": 2.0045209472244037
+ },
+ "colon/XAUT1-HS6|lc10": {
+  "type_agreement": 0.15334577173156863,
+  "type_scale": 0.6118343515076634
+ },
+ "colon/XAUT1-HS6|lc12": {
+  "type_agreement": 0.19869647838511992,
+  "type_scale": 1.037963641704482
+ },
+ "colon/XAUT1-HS6|lc13": {
+  "type_agreement": 0.196268185582604,
+  "type_scale": 1.5848936245987326
+ },
+ "colon/XAUT1-HS6|lc14": {
+  "type_agreement": 0.21935441525161342,
+  "type_scale": 0.34347521439640877
+ },
+ "colon/XAUT1-HS6|lc15": {
+  "type_agreement": 0.06875939017004241,
+  "type_scale": 1.3452582260704158
+ },
+ "colon/XAUT1-HS6|lc16": {
+  "type_agreement": 0.2275503392659702,
+  "type_scale": 1.1412123701733543
+ },
+ "colon/XAUT1-HS6|lc17": {
+  "type_agreement": 0.2833650430297708,
+  "type_scale": 0.682771752505788
+ },
+ "colon/XAUT1-HS6|lc18": {
+  "type_agreement": 0.15415018134128972,
+  "type_scale": 2.210449233079115
+ },
+ "colon/XAUT1-HS6|lc20": {
+  "type_agreement": 0.30075283624752597,
+  "type_scale": 0.6651436003181443
+ },
+ "colon/XAUT1-HS6|lc21": {
+  "type_agreement": 0.11584809558285537,
+  "type_scale": 0.881441012964192
+ },
+ "colon/XAUT1-HS6|lc22": {
+  "type_agreement": 0.22405873891697525,
+  "type_scale": 1.3391325773435776
+ },
+ "colon/XAUT1-HS6|lc23": {
+  "type_agreement": 0.2712092063053152,
+  "type_scale": 0.7260739546574032
+ },
+ "colon/XAUT1-HS6|lc24": {
+  "type_agreement": 0.3063547444401916,
+  "type_scale": 0.6499940257625262
+ },
+ "colon/XAUT1-HS6|lc25": {
+  "type_agreement": 0.32654335369614745,
+  "type_scale": 0.6587687653348051
+ },
+ "colon/XAUT1-HS6|lc26": {
+  "type_agreement": 0.16217598142237818,
+  "type_scale": 0.3690822776216447
+ },
+ "colon/XAUT1-HS6|lc27": {
+  "type_agreement": 0.23110673562632897,
+  "type_scale": 1.2301995628517175
+ },
+ "colon/XAUT1-HS6|lc28": {
+  "type_agreement": 0.21929254862476857,
+  "type_scale": 0.37486891198578715
+ },
+ "colon/XAUT1-HS6|lc30": {
+  "type_agreement": 0.28268294328814597,
+  "type_scale": 1.0665341832569302
+ },
+ "colon/XAUT1-HS6|lc31": {
+  "type_agreement": 0.39454526696087483,
+  "type_scale": 0.9499569191889619
+ },
+ "colon/XAUT1-HS6|lc32": {
+  "type_agreement": 0.2749748514126897,
+  "type_scale": 1.2511681597421191
+ },
+ "colon/XAUT1-HS6|lc33": {
+  "type_agreement": 0.3489285984739889,
+  "type_scale": 0.8586170010599595
+ },
+ "colon/XAUT1-HS6|lc34": {
+  "type_agreement": 0.2892920585125029,
+  "type_scale": 1.0526447877554175
+ },
+ "colon/XAUT1-HS6|lc35": {
+  "type_agreement": 0.3078103688580856,
+  "type_scale": 0.9390815386583277
+ },
+ "colon/XAUT1-HS6|lc36": {
+  "type_agreement": 0.26993756514845824,
+  "type_scale": 1.2314688533273102
+ },
+ "colon/XAUT1-HS6|lc37": {
+  "type_agreement": 0.4323414094231017,
+  "type_scale": 0.7516742857083855
+ },
+ "colon/XAUT1-HS6|lc38": {
+  "type_agreement": 0.4013700011133108,
+  "type_scale": 0.8731847588060844
+ },
+ "colon/XAUT1-HS6|lc39": {
+  "type_agreement": 0.30722173204562386,
+  "type_scale": 0.993683630701818
+ },
+ "colon/XAUT1-HS7|frozen": {
+  "type_agreement": 0.5171091858104853,
+  "type_scale": 1.262346510242178
+ },
+ "colon/XAUT1-HS7|P1": {
+  "type_agreement": 0.1677585729506399,
+  "type_scale": 1.2927336215384002
+ },
+ "colon/XAUT1-HS7|lc00": {
+  "type_agreement": 0.0972824569772085,
+  "type_scale": 2.3188086652407964
+ },
+ "colon/XAUT1-HS7|lc01": {
+  "type_agreement": 0.07957346937159344,
+  "type_scale": 1.7057347202801292
+ },
+ "colon/XAUT1-HS7|lc02": {
+  "type_agreement": 0.046259911221657284,
+  "type_scale": 2.508589985412419
+ },
+ "colon/XAUT1-HS7|lc03": {
+  "type_agreement": 0.03675832044585208,
+  "type_scale": 1.6684259991216637
+ },
+ "colon/XAUT1-HS7|lc04": {
+  "type_agreement": 0.12349392259409046,
+  "type_scale": 1.906139975317423
+ },
+ "colon/XAUT1-HS7|lc07": {
+  "type_agreement": 0.364190293442768,
+  "type_scale": 1.663746761901949
+ },
+ "colon/XAUT1-HS7|lc08": {
+  "type_agreement": 0.18894096613102646,
+  "type_scale": 1.389480150722352
+ },
+ "colon/XAUT1-HS7|lc09": {
+  "type_agreement": 0.2318240185137944,
+  "type_scale": 2.1481740249102095
+ },
+ "colon/XAUT1-HS7|lc10": {
+  "type_agreement": 0.07880108712648591,
+  "type_scale": 1.2952478395606066
+ },
+ "colon/XAUT1-HS7|lc12": {
+  "type_agreement": 0.26753878771482287,
+  "type_scale": 1.2231608961475577
+ },
+ "colon/XAUT1-HS7|lc13": {
+  "type_agreement": 0.16544683486156833,
+  "type_scale": 2.048820993429338
+ },
+ "colon/XAUT1-HS7|lc14": {
+  "type_agreement": 0.26133996895091727,
+  "type_scale": 0.7816927167543005
+ },
+ "colon/XAUT1-HS7|lc15": {
+  "type_agreement": 0.1948574335927756,
+  "type_scale": 1.654642990036356
+ },
+ "colon/XAUT1-HS7|lc16": {
+  "type_agreement": 0.2824595305890357,
+  "type_scale": 1.3320440275029435
+ },
+ "colon/XAUT1-HS7|lc17": {
+  "type_agreement": 0.36311746856615246,
+  "type_scale": 0.9541480657784969
+ },
+ "colon/XAUT1-HS7|lc18": {
+  "type_agreement": 0.14877659344824035,
+  "type_scale": 2.4475077474710365
+ },
+ "colon/XAUT1-HS7|lc20": {
+  "type_agreement": 0.27845497411532627,
+  "type_scale": 1.1193962586058066
+ },
+ "colon/XAUT1-HS7|lc21": {
+  "type_agreement": 0.22742664764750983,
+  "type_scale": 1.2317199316236724
+ },
+ "colon/XAUT1-HS7|lc22": {
+  "type_agreement": 0.3655673644892583,
+  "type_scale": 1.6927105525398296
+ },
+ "colon/XAUT1-HS7|lc23": {
+  "type_agreement": 0.3489371848307915,
+  "type_scale": 1.0184287863983175
+ },
+ "colon/XAUT1-HS7|lc24": {
+  "type_agreement": 0.3245065275118399,
+  "type_scale": 1.073455602426012
+ },
+ "colon/XAUT1-HS7|lc25": {
+  "type_agreement": 0.30134478833083306,
+  "type_scale": 1.0388737549014337
+ },
+ "colon/XAUT1-HS7|lc26": {
+  "type_agreement": 0.1550003719737851,
+  "type_scale": 0.8448502767602355
+ },
+ "colon/XAUT1-HS7|lc27": {
+  "type_agreement": 0.37567128888471213,
+  "type_scale": 1.8880158162484761
+ },
+ "colon/XAUT1-HS7|lc28": {
+  "type_agreement": 0.20668461673158434,
+  "type_scale": 0.9488273950040481
+ },
+ "colon/XAUT1-HS7|lc30": {
+  "type_agreement": 0.43196475616789815,
+  "type_scale": 1.5110836494524913
+ },
+ "colon/XAUT1-HS7|lc31": {
+  "type_agreement": 0.5148529644802302,
+  "type_scale": 1.3770233373877554
+ },
+ "colon/XAUT1-HS7|lc32": {
+  "type_agreement": 0.4177604043271568,
+  "type_scale": 1.5982086479692028
+ },
+ "colon/XAUT1-HS7|lc33": {
+  "type_agreement": 0.5483874214176149,
+  "type_scale": 1.0983170734604408
+ },
+ "colon/XAUT1-HS7|lc34": {
+  "type_agreement": 0.4356835665939719,
+  "type_scale": 1.5228868617846878
+ },
+ "colon/XAUT1-HS7|lc35": {
+  "type_agreement": 0.4864536649501343,
+  "type_scale": 1.2586171705895561
+ },
+ "colon/XAUT1-HS7|lc36": {
+  "type_agreement": 0.386153464114055,
+  "type_scale": 1.6469428467143878
+ },
+ "colon/XAUT1-HS7|lc37": {
+  "type_agreement": 0.5864418274808927,
+  "type_scale": 1.0276329877155437
+ },
+ "colon/XAUT1-HS7|lc38": {
+  "type_agreement": 0.495055308197984,
+  "type_scale": 1.2081878293085875
+ },
+ "colon/XAUT1-HS7|lc39": {
+  "type_agreement": 0.43884103568050375,
+  "type_scale": 1.4475090013432692
+ },
+ "colon/XAUT1-HS8|frozen": {
+  "type_agreement": 0.5821917206508543,
+  "type_scale": 1.0871334381828561
+ },
+ "colon/XAUT1-HS8|P1": {
+  "type_agreement": 0.07815996290895469,
+  "type_scale": 1.4331425812960787
+ },
+ "colon/XAUT1-HS8|lc00": {
+  "type_agreement": -0.03295774496626873,
+  "type_scale": 2.217707618788788
+ },
+ "colon/XAUT1-HS8|lc01": {
+  "type_agreement": 0.1479321179678098,
+  "type_scale": 1.5656962501754204
+ },
+ "colon/XAUT1-HS8|lc02": {
+  "type_agreement": 0.1368289715723677,
+  "type_scale": 1.6180590053482307
+ },
+ "colon/XAUT1-HS8|lc03": {
+  "type_agreement": 0.03573681787588973,
+  "type_scale": 1.568512869401023
+ },
+ "colon/XAUT1-HS8|lc04": {
+  "type_agreement": 0.09808979987640325,
+  "type_scale": 1.8431715884934556
+ },
+ "colon/XAUT1-HS8|lc07": {
+  "type_agreement": 0.4759246704530089,
+  "type_scale": 1.3438439479412325
+ },
+ "colon/XAUT1-HS8|lc08": {
+  "type_agreement": 0.22254562196872651,
+  "type_scale": 1.2278089196060418
+ },
+ "colon/XAUT1-HS8|lc09": {
+  "type_agreement": 0.24899993406059567,
+  "type_scale": 1.1037553379433205
+ },
+ "colon/XAUT1-HS8|lc10": {
+  "type_agreement": 0.131467143780758,
+  "type_scale": 1.262720191295334
+ },
+ "colon/XAUT1-HS8|lc12": {
+  "type_agreement": 0.4300677749157887,
+  "type_scale": 0.9292936258973714
+ },
+ "colon/XAUT1-HS8|lc13": {
+  "type_agreement": 0.21442222867916447,
+  "type_scale": 1.4890484421554995
+ },
+ "colon/XAUT1-HS8|lc14": {
+  "type_agreement": 0.3846173143098933,
+  "type_scale": 0.7747878680609902
+ },
+ "colon/XAUT1-HS8|lc15": {
+  "type_agreement": 0.30502056442659986,
+  "type_scale": 1.0350658323612267
+ },
+ "colon/XAUT1-HS8|lc16": {
+  "type_agreement": 0.3369773403072214,
+  "type_scale": 0.9459684705988918
+ },
+ "colon/XAUT1-HS8|lc17": {
+  "type_agreement": 0.39137728845962383,
+  "type_scale": 0.8019916620882405
+ },
+ "colon/XAUT1-HS8|lc18": {
+  "type_agreement": 0.34923834010525423,
+  "type_scale": 1.4912992338050468
+ },
+ "colon/XAUT1-HS8|lc20": {
+  "type_agreement": 0.2537888237948011,
+  "type_scale": 1.0099942841382687
+ },
+ "colon/XAUT1-HS8|lc21": {
+  "type_agreement": 0.4421112103057514,
+  "type_scale": 1.084598198499425
+ },
+ "colon/XAUT1-HS8|lc22": {
+  "type_agreement": 0.5180405263905751,
+  "type_scale": 1.198198588945899
+ },
+ "colon/XAUT1-HS8|lc23": {
+  "type_agreement": 0.3802707385886781,
+  "type_scale": 0.9123648478075626
+ },
+ "colon/XAUT1-HS8|lc24": {
+  "type_agreement": 0.31089522111815887,
+  "type_scale": 0.9757613760374337
+ },
+ "colon/XAUT1-HS8|lc25": {
+  "type_agreement": 0.25582544561124876,
+  "type_scale": 0.9174945302332015
+ },
+ "colon/XAUT1-HS8|lc26": {
+  "type_agreement": 0.2332059605866105,
+  "type_scale": 0.8474542845634301
+ },
+ "colon/XAUT1-HS8|lc27": {
+  "type_agreement": 0.4602118690007448,
+  "type_scale": 1.722110060905463
+ },
+ "colon/XAUT1-HS8|lc28": {
+  "type_agreement": 0.3108842380095902,
+  "type_scale": 0.9525525667383563
+ },
+ "colon/XAUT1-HS8|lc30": {
+  "type_agreement": 0.5235001176297123,
+  "type_scale": 1.2807964112144443
+ },
+ "colon/XAUT1-HS8|lc31": {
+  "type_agreement": 0.554815504307723,
+  "type_scale": 1.1810126674376242
+ },
+ "colon/XAUT1-HS8|lc32": {
+  "type_agreement": 0.564958591589321,
+  "type_scale": 1.2524081142045818
+ },
+ "colon/XAUT1-HS8|lc33": {
+  "type_agreement": 0.5560180660713396,
+  "type_scale": 0.9146786701624146
+ },
+ "colon/XAUT1-HS8|lc34": {
+  "type_agreement": 0.5542200901282783,
+  "type_scale": 1.3043691214250526
+ },
+ "colon/XAUT1-HS8|lc35": {
+  "type_agreement": 0.5581098673149539,
+  "type_scale": 0.969853436568198
+ },
+ "colon/XAUT1-HS8|lc36": {
+  "type_agreement": 0.5244669415130443,
+  "type_scale": 1.3634500397251417
+ },
+ "colon/XAUT1-HS8|lc37": {
+  "type_agreement": 0.5991002064302164,
+  "type_scale": 0.8645189214775081
+ },
+ "colon/XAUT1-HS8|lc38": {
+  "type_agreement": 0.5078350375206993,
+  "type_scale": 1.031363130858533
+ },
+ "colon/XAUT1-HS8|lc39": {
+  "type_agreement": 0.5331142194771995,
+  "type_scale": 1.4026427253199427
+ },
+ "colon/XAUT1-HS9|frozen": {
+  "type_agreement": 0.3590917935452688,
+  "type_scale": 0.8570251192845372
+ },
+ "colon/XAUT1-HS9|P1": {
+  "type_agreement": 0.046917339193857883,
+  "type_scale": 0.9386085268155163
+ },
+ "colon/XAUT1-HS9|lc00": {
+  "type_agreement": 0.23100960691954667,
+  "type_scale": 1.020881920762093
+ },
+ "colon/XAUT1-HS9|lc01": {
+  "type_agreement": -0.01637638902744743,
+  "type_scale": 0.7643977656826266
+ },
+ "colon/XAUT1-HS9|lc02": {
+  "type_agreement": 0.07040981973546287,
+  "type_scale": 1.931609978783608
+ },
+ "colon/XAUT1-HS9|lc03": {
+  "type_agreement": 0.17175482423920457,
+  "type_scale": 0.7869521282937928
+ },
+ "colon/XAUT1-HS9|lc04": {
+  "type_agreement": 0.18397456112198582,
+  "type_scale": 0.7483736814117122
+ },
+ "colon/XAUT1-HS9|lc07": {
+  "type_agreement": 0.22336477381106107,
+  "type_scale": 1.203813537767711
+ },
+ "colon/XAUT1-HS9|lc08": {
+  "type_agreement": 0.22331232527384473,
+  "type_scale": 0.6430498695813837
+ },
+ "colon/XAUT1-HS9|lc09": {
+  "type_agreement": 0.02009936673783685,
+  "type_scale": 1.8676741361231703
+ },
+ "colon/XAUT1-HS9|lc10": {
+  "type_agreement": 0.12807068353214482,
+  "type_scale": 0.4736349727308937
+ },
+ "colon/XAUT1-HS9|lc12": {
+  "type_agreement": 0.19392126211133837,
+  "type_scale": 0.7995829686287487
+ },
+ "colon/XAUT1-HS9|lc13": {
+  "type_agreement": 0.17900706404797426,
+  "type_scale": 1.4205380471614222
+ },
+ "colon/XAUT1-HS9|lc14": {
+  "type_agreement": 0.19857335275854351,
+  "type_scale": 0.28960614132568957
+ },
+ "colon/XAUT1-HS9|lc15": {
+  "type_agreement": -0.013408105560920364,
+  "type_scale": 1.295198531165101
+ },
+ "colon/XAUT1-HS9|lc16": {
+  "type_agreement": 0.18412578543008223,
+  "type_scale": 1.1113063269671795
+ },
+ "colon/XAUT1-HS9|lc17": {
+  "type_agreement": 0.2768649607837226,
+  "type_scale": 0.5522662959311079
+ },
+ "colon/XAUT1-HS9|lc18": {
+  "type_agreement": 0.13249572053246148,
+  "type_scale": 1.8998998370720261
+ },
+ "colon/XAUT1-HS9|lc20": {
+  "type_agreement": 0.2887362817150404,
+  "type_scale": 0.5604812498295932
+ },
+ "colon/XAUT1-HS9|lc21": {
+  "type_agreement": 0.06550657048117173,
+  "type_scale": 0.5861627363019096
+ },
+ "colon/XAUT1-HS9|lc22": {
+  "type_agreement": 0.2462428379733205,
+  "type_scale": 1.29743604996105
+ },
+ "colon/XAUT1-HS9|lc23": {
+  "type_agreement": 0.30692772789119593,
+  "type_scale": 0.5337644979203341
+ },
+ "colon/XAUT1-HS9|lc24": {
+  "type_agreement": 0.2967074033540442,
+  "type_scale": 0.5374273740266683
+ },
+ "colon/XAUT1-HS9|lc25": {
+  "type_agreement": 0.30909383623079345,
+  "type_scale": 0.5400520067206633
+ },
+ "colon/XAUT1-HS9|lc26": {
+  "type_agreement": 0.1555054552162281,
+  "type_scale": 0.3115066185742537
+ },
+ "colon/XAUT1-HS9|lc27": {
+  "type_agreement": 0.1892741367995319,
+  "type_scale": 1.2248915445974045
+ },
+ "colon/XAUT1-HS9|lc28": {
+  "type_agreement": 0.16213999583713107,
+  "type_scale": 0.3269958411857679
+ },
+ "colon/XAUT1-HS9|lc30": {
+  "type_agreement": 0.2801334806156514,
+  "type_scale": 1.052905025796521
+ },
+ "colon/XAUT1-HS9|lc31": {
+  "type_agreement": 0.3655655749500137,
+  "type_scale": 0.9071553140256506
+ },
+ "colon/XAUT1-HS9|lc32": {
+  "type_agreement": 0.29043175746858435,
+  "type_scale": 1.1468313964419552
+ },
+ "colon/XAUT1-HS9|lc33": {
+  "type_agreement": 0.3518156539356974,
+  "type_scale": 0.7406665665368621
+ },
+ "colon/XAUT1-HS9|lc34": {
+  "type_agreement": 0.2905718096208272,
+  "type_scale": 0.9442505873844046
+ },
+ "colon/XAUT1-HS9|lc35": {
+  "type_agreement": 0.3361073963631198,
+  "type_scale": 0.8580810573511243
+ },
+ "colon/XAUT1-HS9|lc36": {
+  "type_agreement": 0.2946493152897606,
+  "type_scale": 1.141405601015364
+ },
+ "colon/XAUT1-HS9|lc37": {
+  "type_agreement": 0.37151234893885327,
+  "type_scale": 0.6795846297347317
+ },
+ "colon/XAUT1-HS9|lc38": {
+  "type_agreement": 0.3246757646221829,
+  "type_scale": 0.8030502032784905
+ },
+ "colon/XAUT1-HS9|lc39": {
+  "type_agreement": 0.2949776228664879,
+  "type_scale": 0.9456127781819388
+ }
+}

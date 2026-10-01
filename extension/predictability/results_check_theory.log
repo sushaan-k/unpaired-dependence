@@ -1,0 +1,23 @@
+{
+ "S14": {
+  "random_cases": 2000,
+  "bounds_hold": true,
+  "limit_high_accuracy_max_rel_err": 0.0004142290208802194,
+  "limit_low_accuracy_max_rel_err": 7.643004251144868e-06,
+  "equal_shares_saving": [
+   0.9999999999999992,
+   0.9999999999999993,
+   1.0000000000000016
+  ]
+ },
+ "S15": {
+  "tau": 24.263809282735977,
+  "tau_independence_plus_signal": 24.243082951044002,
+  "rel_diff": 0.0008542076576047618
+ },
+ "S13_summary": {
+  "cases": 72,
+  "all_hold": true,
+  "max_gap_over_bound": 0.09848572189900502
+ }
+}

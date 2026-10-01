@@ -1,0 +1,6 @@
+B=25: bound 3.173, implemented 0.950, idealized 1.918, unshrunk 9.276 (relative to ||theta||^2)
+B=50: bound 1.902, implemented 0.812, idealized 1.060, unshrunk 4.716 (relative to ||theta||^2)
+B=100: bound 1.193, implemented 0.650, idealized 0.709, unshrunk 2.330 (relative to ||theta||^2)
+B=200: bound 0.761, implemented 0.487, idealized 0.505, unshrunk 1.178 (relative to ||theta||^2)
+B=400: bound 0.476, implemented 0.338, idealized 0.344, unshrunk 0.588 (relative to ||theta||^2)
+effective dimensions: [6.4, 12.2, 10.5, 19.7, 17.8, 31.6, 13.5, 22.9] ; condition tau >= 4 rho: True

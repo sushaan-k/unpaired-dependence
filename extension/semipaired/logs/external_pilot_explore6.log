@@ -1,0 +1,11 @@
+pilot genes: 196
+fold 0: held ['CYP27A1', 'ATF6B', 'IL1RN', 'BATF', 'DUPD1', 'CALML3', 'CLIC1']; reservoir 291; pool keys 18; reliability {'rest': 0.32805515421815123, 'stim': 0.3316333767543874}
+[3s] fold 0 done
+fold 1: held ['CRLF2', 'LTBR', 'NGFR', 'AHNAK', 'CDK2', 'MS4A3']; reservoir 280; pool keys 18; reliability {'rest': 0.3690616333106404, 'stim': 0.36977458687413267}
+[5s] fold 1 done
+fold 2: held ['GPN3', 'MRPL18', 'AKR1C4', 'RAN', 'AHCY', 'GPD1']; reservoir 343; pool keys 20; reliability {'rest': 0.3974145881603579, 'stim': 0.4000251559455861}
+[8s] fold 2 done
+bjs/mapped            0.5   16.5   27.8   38.6
+bjs_col/mapped      -55.6   -9.2   16.6   33.2
+bjs_col20/mapped    -43.1   -4.1   17.7   33.2
+ridge/mapped          8.1   15.7   24.5   37.1

@@ -1,0 +1,5 @@
+{
+ "PLAN.md": "fd9e021104a4c7696a3f06b46611d569b55318082c630542843351b5437ab0a3",
+ "recorded_at": "2026-09-27T10:00:27-04:00",
+ "note": "PLAN.md as amended: deviation 1 was added after the smoke test and before the full runs (about 09:15 EDT, not separately hashed); the post hoc section was added after the Frangieh comparison had been scored. The original record is results/plan.json."
+}

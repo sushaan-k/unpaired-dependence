@@ -1,0 +1,81 @@
+{
+ "note": "post hoc, exploratory",
+ "datasets": [
+  "hao",
+  "stephenson",
+  "bmmc_cite",
+  "colon",
+  "bmmc_multiome",
+  "gouwens_visp",
+  "banc",
+  "malecns",
+  "frangieh",
+  "papalexi",
+  "overcite"
+ ],
+ "predicted": {
+  "hao": 5.295936006704191,
+  "stephenson": 5.845213850572565,
+  "bmmc_cite": 5.433685705636178,
+  "colon": 6.011346506827866,
+  "bmmc_multiome": 19.348902684352048,
+  "gouwens_visp": 2.1599652765138817,
+  "banc": 2.7059006876157103,
+  "malecns": 3.58711846433787,
+  "frangieh": 6.941370282803261,
+  "papalexi": 2.7716077438094966,
+  "overcite": 4.337953818598382
+ },
+ "observed": {
+  "hao": 1.9615274724377199,
+  "stephenson": 2.0490909207503574,
+  "bmmc_cite": 4.749528887036605,
+  "colon": 6.361167677359623,
+  "bmmc_multiome": 2.8117441650854955,
+  "gouwens_visp": 1.3917151011155688,
+  "banc": 3.5899478205352255,
+  "malecns": 2.9315586393437165,
+  "frangieh": 5.484412856317674,
+  "papalexi": 2.10078591350396,
+  "overcite": 4.818839694421483
+ },
+ "censored": {
+  "hao": true,
+  "stephenson": true,
+  "bmmc_cite": true,
+  "colon": true,
+  "bmmc_multiome": true,
+  "gouwens_visp": false,
+  "banc": false,
+  "malecns": true,
+  "frangieh": false,
+  "papalexi": false,
+  "overcite": false
+ },
+ "concordance": 0.9166666666666666,
+ "usable_pairs": 24,
+ "p_one_sided": 0.007999200079992,
+ "permutations": 10000,
+ "uncensored_spearman": 0.8999999999999998,
+ "observed_over_predicted": {
+  "hao": 0.37038352992834467,
+  "stephenson": 0.35055876023246607,
+  "bmmc_cite": 0.8740897328879511,
+  "colon": 1.0581934796362877,
+  "bmmc_multiome": 0.14531801678652428,
+  "gouwens_visp": 0.6443229047467628,
+  "banc": 1.3267108571151918,
+  "malecns": 0.8172461178766337,
+  "frangieh": 0.7901052145143312,
+  "papalexi": 0.7579665333942563,
+  "overcite": 1.1108554622599642
+ },
+ "censored_consistent": {
+  "hao": true,
+  "stephenson": true,
+  "bmmc_cite": true,
+  "colon": false,
+  "bmmc_multiome": true,
+  "malecns": true
+ }
+}

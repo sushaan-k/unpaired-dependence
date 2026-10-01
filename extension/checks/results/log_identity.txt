@@ -1,0 +1,6 @@
+{
+ "mean of per-draw scores": -18.029852286633556,
+ "stored form 2<mean C,T> - msq": -18.02985228663356,
+ "score of the averaged prediction": 1.5686225780544163,
+ "spread of the draws": 19.598474864687976
+}

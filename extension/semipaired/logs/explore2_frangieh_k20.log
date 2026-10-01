@@ -1,0 +1,7 @@
+[10s] fold None: 141 groups, reservoir 21171
+[11s]  B=50: bjs 21.6/0.953  bjs_z 21.0/0.955  map 16.4/0.964  cond_direct 0.9/0.998  hier 7.1/0.985  map_hier -29.3/1.063  paired_all 96.7/0.791
+[12s]  B=100: bjs 36.8/0.920  bjs_z 36.9/0.920  map 37.5/0.919  cond_direct 18.6/0.960  hier 26.2/0.943  map_hier 3.0/0.993  paired_all 96.7/0.791
+[13s]  B=200: bjs 51.4/0.889  bjs_z 51.0/0.890  map 52.4/0.887  cond_direct 38.0/0.918  hier 47.8/0.897  map_hier 31.6/0.932  paired_all 96.7/0.791
+[14s]  B=400: bjs 61.4/0.867  bjs_z 61.3/0.867  map 64.0/0.862  cond_direct 54.1/0.883  hier 61.7/0.866  map_hier 45.2/0.902  paired_all 96.7/0.791
+[16s]  B=800: bjs 69.4/0.850  bjs_z 69.4/0.850  map 72.8/0.842  cond_direct 66.4/0.856  hier 70.9/0.847  map_hier 37.8/0.918  paired_all 96.7/0.791
+[21s]  B=1600: bjs 73.9/0.840  bjs_z 73.9/0.840  map 76.5/0.834  cond_direct 76.7/0.834  hier 77.5/0.832  map_hier 2.3/0.995  paired_all 96.7/0.791

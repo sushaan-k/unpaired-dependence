@@ -1,0 +1,1949 @@
+{
+ "replicates": 200,
+ "rows": [
+  {
+   "tag": "s1d1/total",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 3.041783548174035,
+   "q05": 2.6977563114124754,
+   "q95": 3.7443564550755055,
+   "basic_lower": 2.339210641272565
+  },
+  {
+   "tag": "s1d1/total",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.9408779887640782,
+   "q05": 0.4540414080771496,
+   "q95": 0.6887931720255971,
+   "basic_lower": 1.1929628055025594
+  },
+  {
+   "tag": "s1d1/total",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 6.130099368684702,
+   "q05": 5.605103418540591,
+   "q95": 7.038540389513134,
+   "basic_lower": 5.22165834785627
+  },
+  {
+   "tag": "s1d1/total",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 3.5642049914135367,
+   "q05": 2.519166480992304,
+   "q95": 3.750188977306263,
+   "basic_lower": 3.3782210055208104
+  },
+  {
+   "tag": "s1d1/total",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 2.1851877990884288,
+   "q05": 1.7914174446738864,
+   "q95": 2.268435986992397,
+   "basic_lower": 2.1019396111844606
+  },
+  {
+   "tag": "s1d1/total",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.46635458985588457,
+   "q05": 0.2507303548207992,
+   "q95": 0.40349508791711935,
+   "basic_lower": 0.5292140917946497
+  },
+  {
+   "tag": "s1d1/within_coarse",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 2.8959340686244883,
+   "q05": 2.5422725927042764,
+   "q95": 3.3952727690239226,
+   "basic_lower": 2.396595368225054
+  },
+  {
+   "tag": "s1d1/within_coarse",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.4349830403851084,
+   "q05": 0.25743529892086564,
+   "q95": 0.376956953901576,
+   "basic_lower": 0.49300912686864073
+  },
+  {
+   "tag": "s1d1/within_coarse",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 5.658953419709179,
+   "q05": 5.266564227773705,
+   "q95": 6.476644993429359,
+   "basic_lower": 4.841261845988999
+  },
+  {
+   "tag": "s1d1/within_coarse",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 2.714772966905408,
+   "q05": 1.7506524925978557,
+   "q95": 2.835287527029225,
+   "basic_lower": 2.5942584067815915
+  },
+  {
+   "tag": "s1d1/within_coarse",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 2.139147043741826,
+   "q05": 1.7092152124940667,
+   "q95": 2.2485521912743938,
+   "basic_lower": 2.0297418962092584
+  },
+  {
+   "tag": "s1d1/within_coarse",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.30203774303839614,
+   "q05": 0.16869975472635612,
+   "q95": 0.23961452109834458,
+   "basic_lower": 0.3644609649784477
+  },
+  {
+   "tag": "s1d1/within_fine",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 2.803465143434778,
+   "q05": 2.449764755214365,
+   "q95": 3.2619671368308385,
+   "basic_lower": 2.3449631500387174
+  },
+  {
+   "tag": "s1d1/within_fine",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.3451435666474703,
+   "q05": 0.21933807981350562,
+   "q95": 0.31947616724366085,
+   "basic_lower": 0.3708109660512798
+  },
+  {
+   "tag": "s1d1/within_fine",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 5.326477628547198,
+   "q05": 4.914607362386995,
+   "q95": 6.1508347809865125,
+   "basic_lower": 4.5021204761078835
+  },
+  {
+   "tag": "s1d1/within_fine",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 2.2656564411487947,
+   "q05": 1.3959556065606815,
+   "q95": 2.360562632293505,
+   "basic_lower": 2.1707502500040845
+  },
+  {
+   "tag": "s1d1/within_fine",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 2.112955344400374,
+   "q05": 1.6694827253035542,
+   "q95": 2.222828969643546,
+   "basic_lower": 2.0030817191572017
+  },
+  {
+   "tag": "s1d1/within_fine",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.2527841489036408,
+   "q05": 0.14178574442920788,
+   "q95": 0.20533314257092605,
+   "basic_lower": 0.3002351552363556
+  },
+  {
+   "tag": "s1d2/total",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 3.1039855524258932,
+   "q05": 2.744184352020341,
+   "q95": 3.8320213321254504,
+   "basic_lower": 2.375949772726336
+  },
+  {
+   "tag": "s1d2/total",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.7918380638928885,
+   "q05": 0.4751789815307642,
+   "q95": 0.7937833105014311,
+   "basic_lower": 0.7898928172843458
+  },
+  {
+   "tag": "s1d2/total",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 5.794889218215059,
+   "q05": 5.377710516069761,
+   "q95": 6.677107907648848,
+   "basic_lower": 4.91267052878127
+  },
+  {
+   "tag": "s1d2/total",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 3.6526175780287984,
+   "q05": 2.8026650977991685,
+   "q95": 3.810468654069202,
+   "basic_lower": 3.4947665019883947
+  },
+  {
+   "tag": "s1d2/total",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 2.180873418775133,
+   "q05": 1.8312711970086788,
+   "q95": 2.2744577610946886,
+   "basic_lower": 2.087289076455577
+  },
+  {
+   "tag": "s1d2/total",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.7255013877861142,
+   "q05": 0.2858888627231398,
+   "q95": 0.4608822135395172,
+   "basic_lower": 0.9901205620327111
+  },
+  {
+   "tag": "s1d2/within_coarse",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 3.1446505686683577,
+   "q05": 2.7868019505819692,
+   "q95": 3.666609300158968,
+   "basic_lower": 2.6226918371777472
+  },
+  {
+   "tag": "s1d2/within_coarse",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.4925804258351759,
+   "q05": 0.30642027364427266,
+   "q95": 0.4534698953116369,
+   "basic_lower": 0.5316909563587149
+  },
+  {
+   "tag": "s1d2/within_coarse",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 5.832664067770227,
+   "q05": 5.4540408010323755,
+   "q95": 6.768697450438675,
+   "basic_lower": 4.896630685101779
+  },
+  {
+   "tag": "s1d2/within_coarse",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 3.2564540337704897,
+   "q05": 2.2058446469876025,
+   "q95": 3.3514755309018445,
+   "basic_lower": 3.161432536639135
+  },
+  {
+   "tag": "s1d2/within_coarse",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 2.213106861100107,
+   "q05": 1.7919165712495644,
+   "q95": 2.3621192864833014,
+   "basic_lower": 2.0640944357169126
+  },
+  {
+   "tag": "s1d2/within_coarse",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.38326506937339677,
+   "q05": 0.1869246617677866,
+   "q95": 0.29572739548100235,
+   "basic_lower": 0.4708027432657912
+  },
+  {
+   "tag": "s1d2/within_fine",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 2.9624213091386276,
+   "q05": 2.5801569393103687,
+   "q95": 3.4697651063276074,
+   "basic_lower": 2.4550775119496477
+  },
+  {
+   "tag": "s1d2/within_fine",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.39567500305032227,
+   "q05": 0.25114781004397657,
+   "q95": 0.3786892696620516,
+   "basic_lower": 0.41266073643859297
+  },
+  {
+   "tag": "s1d2/within_fine",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 5.542325432504331,
+   "q05": 5.190925401199077,
+   "q95": 6.420357296382682,
+   "basic_lower": 4.66429356862598
+  },
+  {
+   "tag": "s1d2/within_fine",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 2.8020187753668706,
+   "q05": 1.7656493472343733,
+   "q95": 2.7617097791185725,
+   "basic_lower": 2.8423277716151687
+  },
+  {
+   "tag": "s1d2/within_fine",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 2.161272254409634,
+   "q05": 1.732159967387666,
+   "q95": 2.283019058295744,
+   "basic_lower": 2.039525450523524
+  },
+  {
+   "tag": "s1d2/within_fine",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.2775015405127578,
+   "q05": 0.15834526448489866,
+   "q95": 0.23687660227402946,
+   "basic_lower": 0.3181264787514862
+  },
+  {
+   "tag": "s1d3/total",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 2.8242620119945165,
+   "q05": 2.5613696717639702,
+   "q95": 3.4569345880893265,
+   "basic_lower": 2.1915894358997066
+  },
+  {
+   "tag": "s1d3/total",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.6048718553999906,
+   "q05": 0.393878762455924,
+   "q95": 0.6093111627031473,
+   "basic_lower": 0.6004325480968338
+  },
+  {
+   "tag": "s1d3/total",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 5.665268964262213,
+   "q05": 5.276347954633683,
+   "q95": 6.551139145107992,
+   "basic_lower": 4.779398783416434
+  },
+  {
+   "tag": "s1d3/total",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 3.4380087031753837,
+   "q05": 2.465298198356323,
+   "q95": 3.416551919931804,
+   "basic_lower": 3.459465486418963
+  },
+  {
+   "tag": "s1d3/total",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 2.0338728984719974,
+   "q05": 1.6964633175547812,
+   "q95": 2.1626166697064457,
+   "basic_lower": 1.905129127237549
+  },
+  {
+   "tag": "s1d3/total",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.45645744002673805,
+   "q05": 0.24253658428935748,
+   "q95": 0.3997533186053028,
+   "basic_lower": 0.5131615614481733
+  },
+  {
+   "tag": "s1d3/within_coarse",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 2.7204369385670866,
+   "q05": 2.4282398529011022,
+   "q95": 3.2061410569728404,
+   "basic_lower": 2.234732820161333
+  },
+  {
+   "tag": "s1d3/within_coarse",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.324315499048895,
+   "q05": 0.22862970011834946,
+   "q95": 0.34360414140170953,
+   "basic_lower": 0.3050268566960805
+  },
+  {
+   "tag": "s1d3/within_coarse",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 5.390474107469209,
+   "q05": 5.021800604890375,
+   "q95": 6.145869490837011,
+   "basic_lower": 4.635078724101406
+  },
+  {
+   "tag": "s1d3/within_coarse",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 3.0303337576117406,
+   "q05": 1.8009595269904024,
+   "q95": 2.7177057560172813,
+   "basic_lower": 3.3429617592062
+  },
+  {
+   "tag": "s1d3/within_coarse",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 2.102709938890176,
+   "q05": 1.6878374479992908,
+   "q95": 2.255244803386818,
+   "basic_lower": 1.9501750743935342
+  },
+  {
+   "tag": "s1d3/within_coarse",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.3220118985833289,
+   "q05": 0.16996231982527027,
+   "q95": 0.2555014362582855,
+   "basic_lower": 0.38852236090837233
+  },
+  {
+   "tag": "s1d3/within_fine",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 2.6104039684157896,
+   "q05": 2.3167901432605325,
+   "q95": 3.1150352509765287,
+   "basic_lower": 2.1057726858550505
+  },
+  {
+   "tag": "s1d3/within_fine",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.25713303709261637,
+   "q05": 0.18884103492596332,
+   "q95": 0.2721118260645786,
+   "basic_lower": 0.24215424812065411
+  },
+  {
+   "tag": "s1d3/within_fine",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 5.208353916103936,
+   "q05": 4.889781852288521,
+   "q95": 6.052178091215305,
+   "basic_lower": 4.364529740992566
+  },
+  {
+   "tag": "s1d3/within_fine",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 2.708617433739514,
+   "q05": 1.414518027027579,
+   "q95": 2.313792304457126,
+   "basic_lower": 3.103442563021902
+  },
+  {
+   "tag": "s1d3/within_fine",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 2.0224284136424777,
+   "q05": 1.6050282251404313,
+   "q95": 2.1301146450491535,
+   "basic_lower": 1.914742182235802
+  },
+  {
+   "tag": "s1d3/within_fine",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.25280831445232044,
+   "q05": 0.13376607867470955,
+   "q95": 0.20085373436365,
+   "basic_lower": 0.30476289454099087
+  },
+  {
+   "tag": "s2d1/total",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 3.002995830688639,
+   "q05": 2.706969201210755,
+   "q95": 3.584150502768516,
+   "basic_lower": 2.4218411586087623
+  },
+  {
+   "tag": "s2d1/total",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.3935842429474021,
+   "q05": 0.30117387408307655,
+   "q95": 0.41567404462352764,
+   "basic_lower": 0.3714944412712765
+  },
+  {
+   "tag": "s2d1/total",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 5.508450751100157,
+   "q05": 5.241058998269277,
+   "q95": 6.384742644564141,
+   "basic_lower": 4.632158857636173
+  },
+  {
+   "tag": "s2d1/total",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 2.037507492467825,
+   "q05": 1.5317235770497364,
+   "q95": 2.21952877420426,
+   "basic_lower": 1.8554862107313896
+  },
+  {
+   "tag": "s2d1/total",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 1.9445130638496757,
+   "q05": 1.6624993315885521,
+   "q95": 2.0922697523271703,
+   "basic_lower": 1.7967563753721811
+  },
+  {
+   "tag": "s2d1/total",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.30859697705522615,
+   "q05": 0.1740079018018253,
+   "q95": 0.2728346520186744,
+   "basic_lower": 0.3443593020917779
+  },
+  {
+   "tag": "s2d1/within_coarse",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 2.6399488676086897,
+   "q05": 2.4707353189312418,
+   "q95": 3.2020223494368234,
+   "basic_lower": 2.077875385780556
+  },
+  {
+   "tag": "s2d1/within_coarse",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.27452378389881826,
+   "q05": 0.21170731651661026,
+   "q95": 0.3011802873441905,
+   "basic_lower": 0.24786728045344603
+  },
+  {
+   "tag": "s2d1/within_coarse",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 5.537755691845831,
+   "q05": 5.2404019204310135,
+   "q95": 6.410144507850544,
+   "basic_lower": 4.665366875841118
+  },
+  {
+   "tag": "s2d1/within_coarse",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 1.7207162415192483,
+   "q05": 1.2149213928814782,
+   "q95": 1.9553619676134202,
+   "basic_lower": 1.4860705154250764
+  },
+  {
+   "tag": "s2d1/within_coarse",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 2.0846772757502716,
+   "q05": 1.6953474644512603,
+   "q95": 2.318466968173732,
+   "basic_lower": 1.850887583326811
+  },
+  {
+   "tag": "s2d1/within_coarse",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.22978026573608168,
+   "q05": 0.14011182915011053,
+   "q95": 0.21592451194296544,
+   "basic_lower": 0.24363601952919792
+  },
+  {
+   "tag": "s2d1/within_fine",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 2.636195232825417,
+   "q05": 2.435976544461533,
+   "q95": 3.2323058068319086,
+   "basic_lower": 2.0400846588189254
+  },
+  {
+   "tag": "s2d1/within_fine",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.2575568003787557,
+   "q05": 0.19421198631776632,
+   "q95": 0.27047536693910784,
+   "basic_lower": 0.2446382338184036
+  },
+  {
+   "tag": "s2d1/within_fine",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 5.555158437037371,
+   "q05": 5.292404201662697,
+   "q95": 6.425821981356322,
+   "basic_lower": 4.68449489271842
+  },
+  {
+   "tag": "s2d1/within_fine",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 1.6921396091376615,
+   "q05": 1.0691304279054181,
+   "q95": 1.704076714598107,
+   "basic_lower": 1.680202503677216
+  },
+  {
+   "tag": "s2d1/within_fine",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 2.164182166461911,
+   "q05": 1.7342137071958375,
+   "q95": 2.3793193681909077,
+   "basic_lower": 1.9490449647329147
+  },
+  {
+   "tag": "s2d1/within_fine",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.21014479876424874,
+   "q05": 0.1292512552324253,
+   "q95": 0.20516726847971892,
+   "basic_lower": 0.21512232904877857
+  },
+  {
+   "tag": "s2d4/total",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 2.59348352546812,
+   "q05": 2.273581141429725,
+   "q95": 3.119839495348131,
+   "basic_lower": 2.067127555588109
+  },
+  {
+   "tag": "s2d4/total",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.48686455738082696,
+   "q05": 0.3210516647842421,
+   "q95": 0.446059717980479,
+   "basic_lower": 0.527669396781175
+  },
+  {
+   "tag": "s2d4/total",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 5.026558478815949,
+   "q05": 4.747323692906493,
+   "q95": 5.85988589448269,
+   "basic_lower": 4.1932310631492085
+  },
+  {
+   "tag": "s2d4/total",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 2.606279185522787,
+   "q05": 1.810505330830951,
+   "q95": 2.6345063362795957,
+   "basic_lower": 2.5780520347659786
+  },
+  {
+   "tag": "s2d4/total",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 1.6521411866255014,
+   "q05": 1.381589341324378,
+   "q95": 1.746637589925286,
+   "basic_lower": 1.5576447833257168
+  },
+  {
+   "tag": "s2d4/total",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.4039523279779677,
+   "q05": 0.165695432322413,
+   "q95": 0.2657735598000012,
+   "basic_lower": 0.5421310961559342
+  },
+  {
+   "tag": "s2d4/within_coarse",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 2.5594141742278262,
+   "q05": 2.3051518198450274,
+   "q95": 3.015455365518561,
+   "basic_lower": 2.1033729829370915
+  },
+  {
+   "tag": "s2d4/within_coarse",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.2959229502244617,
+   "q05": 0.2092769076058176,
+   "q95": 0.30154814323527257,
+   "basic_lower": 0.2902977572136508
+  },
+  {
+   "tag": "s2d4/within_coarse",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 5.315061318908165,
+   "q05": 5.029064263777142,
+   "q95": 6.06361276109961,
+   "basic_lower": 4.56650987671672
+  },
+  {
+   "tag": "s2d4/within_coarse",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 2.5813056835829893,
+   "q05": 1.519726496418228,
+   "q95": 2.4315383514618443,
+   "basic_lower": 2.7310730157041343
+  },
+  {
+   "tag": "s2d4/within_coarse",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 1.881462839385679,
+   "q05": 1.5167152737256322,
+   "q95": 2.0377104218940705,
+   "basic_lower": 1.7252152568772874
+  },
+  {
+   "tag": "s2d4/within_coarse",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.22656456924745638,
+   "q05": 0.13071136163411226,
+   "q95": 0.19998186319562616,
+   "basic_lower": 0.2531472752992866
+  },
+  {
+   "tag": "s2d4/within_fine",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 2.5497798263120717,
+   "q05": 2.252011633865166,
+   "q95": 2.991511758464934,
+   "basic_lower": 2.1080478941592093
+  },
+  {
+   "tag": "s2d4/within_fine",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.26390232293512855,
+   "q05": 0.1934832331850551,
+   "q95": 0.26484677505604276,
+   "basic_lower": 0.26295787081421435
+  },
+  {
+   "tag": "s2d4/within_fine",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 5.328071956404548,
+   "q05": 4.98780823721171,
+   "q95": 6.120960913521028,
+   "basic_lower": 4.535182999288068
+  },
+  {
+   "tag": "s2d4/within_fine",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 2.291583532422322,
+   "q05": 1.349675576776639,
+   "q95": 2.1450100449915652,
+   "basic_lower": 2.4381570198530786
+  },
+  {
+   "tag": "s2d4/within_fine",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 1.9017015622988123,
+   "q05": 1.5217934033317841,
+   "q95": 2.0780265443665837,
+   "basic_lower": 1.7253765802310408
+  },
+  {
+   "tag": "s2d4/within_fine",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.20138170101651878,
+   "q05": 0.1174804564252967,
+   "q95": 0.17828878663674366,
+   "basic_lower": 0.2244746153962939
+  },
+  {
+   "tag": "s2d5/total",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 2.9545076267437045,
+   "q05": 2.695359250609233,
+   "q95": 3.5098971988165846,
+   "basic_lower": 2.3991180546708244
+  },
+  {
+   "tag": "s2d5/total",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.5062806629590496,
+   "q05": 0.3208831123301247,
+   "q95": 0.4662897505169534,
+   "basic_lower": 0.5462715754011458
+  },
+  {
+   "tag": "s2d5/total",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 5.596112020809525,
+   "q05": 5.297337258248929,
+   "q95": 6.4822692399144035,
+   "basic_lower": 4.709954801704647
+  },
+  {
+   "tag": "s2d5/total",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 2.2224818052036133,
+   "q05": 1.6894657964388156,
+   "q95": 2.35973060713381,
+   "basic_lower": 2.0852330032734163
+  },
+  {
+   "tag": "s2d5/total",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 2.1331201261372064,
+   "q05": 1.7643196601633915,
+   "q95": 2.2615858660239696,
+   "basic_lower": 2.004654386250443
+  },
+  {
+   "tag": "s2d5/total",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.42705162858665047,
+   "q05": 0.18953521554368633,
+   "q95": 0.290458788885608,
+   "basic_lower": 0.5636444682876929
+  },
+  {
+   "tag": "s2d5/within_coarse",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 2.679543739729711,
+   "q05": 2.4874295879176658,
+   "q95": 3.252962011776194,
+   "basic_lower": 2.106125467683228
+  },
+  {
+   "tag": "s2d5/within_coarse",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.3177374349942469,
+   "q05": 0.21482398172008296,
+   "q95": 0.30354607908606046,
+   "basic_lower": 0.3319287909024333
+  },
+  {
+   "tag": "s2d5/within_coarse",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 5.584870251495708,
+   "q05": 5.3121289654116515,
+   "q95": 6.476330409964558,
+   "basic_lower": 4.693410093026858
+  },
+  {
+   "tag": "s2d5/within_coarse",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 2.072915469087029,
+   "q05": 1.3424881327460116,
+   "q95": 2.0442941660887652,
+   "basic_lower": 2.1015367720852924
+  },
+  {
+   "tag": "s2d5/within_coarse",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 2.1633530846875337,
+   "q05": 1.7355868968151116,
+   "q95": 2.3529728515426522,
+   "basic_lower": 1.9737333178324152
+  },
+  {
+   "tag": "s2d5/within_coarse",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.30746653305161054,
+   "q05": 0.1345934314902446,
+   "q95": 0.21707808187966826,
+   "basic_lower": 0.3978549842235528
+  },
+  {
+   "tag": "s2d5/within_fine",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 2.64591778263748,
+   "q05": 2.449168873260822,
+   "q95": 3.237153140247263,
+   "basic_lower": 2.054682425027697
+  },
+  {
+   "tag": "s2d5/within_fine",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.2828142937347475,
+   "q05": 0.18558835377405067,
+   "q95": 0.2654675977160553,
+   "basic_lower": 0.30016098975343963
+  },
+  {
+   "tag": "s2d5/within_fine",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 5.5600208791017405,
+   "q05": 5.273923777678849,
+   "q95": 6.528851466891268,
+   "basic_lower": 4.591190291312213
+  },
+  {
+   "tag": "s2d5/within_fine",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 1.94704612714619,
+   "q05": 1.1287848201355482,
+   "q95": 1.8720208055177674,
+   "basic_lower": 2.0220714487746125
+  },
+  {
+   "tag": "s2d5/within_fine",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 2.184596748021781,
+   "q05": 1.722924714680516,
+   "q95": 2.376123710470397,
+   "basic_lower": 1.993069785573165
+  },
+  {
+   "tag": "s2d5/within_fine",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.2327536185228258,
+   "q05": 0.1222128261538117,
+   "q95": 0.19087991613677735,
+   "basic_lower": 0.27462732090887426
+  },
+  {
+   "tag": "s3d1/total",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 2.43385142463985,
+   "q05": 2.083175302085863,
+   "q95": 2.878397189564809,
+   "basic_lower": 1.9893056597148915
+  },
+  {
+   "tag": "s3d1/total",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.22422305074545662,
+   "q05": 0.18567234601687976,
+   "q95": 0.2540473068861294,
+   "basic_lower": 0.19439879460478382
+  },
+  {
+   "tag": "s3d1/total",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 5.245186846785984,
+   "q05": 4.944382656209798,
+   "q95": 6.160410133031149,
+   "basic_lower": 4.329963560540818
+  },
+  {
+   "tag": "s3d1/total",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 1.3361269600990215,
+   "q05": 0.8691878961169581,
+   "q95": 1.332701444746233,
+   "basic_lower": 1.33955247545181
+  },
+  {
+   "tag": "s3d1/total",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 1.905650328774418,
+   "q05": 1.570951803464328,
+   "q95": 2.0980837217938477,
+   "basic_lower": 1.7132169357549882
+  },
+  {
+   "tag": "s3d1/total",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.17101279901052516,
+   "q05": 0.12255587582469155,
+   "q95": 0.18224817263305962,
+   "basic_lower": 0.1597774253879907
+  },
+  {
+   "tag": "s3d1/within_coarse",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 1.8959020841640404,
+   "q05": 1.653802176609074,
+   "q95": 2.318221099727867,
+   "basic_lower": 1.4735830686002136
+  },
+  {
+   "tag": "s3d1/within_coarse",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.1559173590044885,
+   "q05": 0.13854293475940782,
+   "q95": 0.18649191823423167,
+   "basic_lower": 0.12534279977474533
+  },
+  {
+   "tag": "s3d1/within_coarse",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 5.0274935781664025,
+   "q05": 4.667779551660797,
+   "q95": 5.893872388159046,
+   "basic_lower": 4.161114768173759
+  },
+  {
+   "tag": "s3d1/within_coarse",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 1.1286280747081008,
+   "q05": 0.6907372924271863,
+   "q95": 1.2123585851661538,
+   "basic_lower": 1.0448975642500478
+  },
+  {
+   "tag": "s3d1/within_coarse",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 1.8296536468657782,
+   "q05": 1.4771258781835963,
+   "q95": 2.0377516978044983,
+   "basic_lower": 1.6215555959270582
+  },
+  {
+   "tag": "s3d1/within_coarse",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.14723873776560828,
+   "q05": 0.10222089491354926,
+   "q95": 0.15188298428682243,
+   "basic_lower": 0.14259449124439413
+  },
+  {
+   "tag": "s3d1/within_fine",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 1.8549280583920806,
+   "q05": 1.6432954218073348,
+   "q95": 2.207112916486988,
+   "basic_lower": 1.5027432002971732
+  },
+  {
+   "tag": "s3d1/within_fine",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.15223769148744934,
+   "q05": 0.13336356085197623,
+   "q95": 0.17492700036555384,
+   "basic_lower": 0.12954838260934484
+  },
+  {
+   "tag": "s3d1/within_fine",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 5.013835211313788,
+   "q05": 4.714911261191643,
+   "q95": 5.875786119407544,
+   "basic_lower": 4.151884303220032
+  },
+  {
+   "tag": "s3d1/within_fine",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 1.0016519674663544,
+   "q05": 0.6228943169893494,
+   "q95": 1.0669788848202382,
+   "basic_lower": 0.9363250501124707
+  },
+  {
+   "tag": "s3d1/within_fine",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 1.9164864611741057,
+   "q05": 1.4991535797310385,
+   "q95": 2.1198376830058527,
+   "basic_lower": 1.7131352393423587
+  },
+  {
+   "tag": "s3d1/within_fine",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.14579308345922068,
+   "q05": 0.09869431989074504,
+   "q95": 0.15012217639310935,
+   "basic_lower": 0.141463990525332
+  },
+  {
+   "tag": "s3d6/total",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 2.5403127426320617,
+   "q05": 2.323628222255311,
+   "q95": 3.0730296369221097,
+   "basic_lower": 2.0075958483420138
+  },
+  {
+   "tag": "s3d6/total",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.5489044160965248,
+   "q05": 0.3014145397742655,
+   "q95": 0.4634289514716569,
+   "basic_lower": 0.6343798807213927
+  },
+  {
+   "tag": "s3d6/total",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 4.6982570330537765,
+   "q05": 4.493932927636514,
+   "q95": 5.544224361136011,
+   "basic_lower": 3.8522897049715423
+  },
+  {
+   "tag": "s3d6/total",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 1.8702723968535795,
+   "q05": 1.519706865103983,
+   "q95": 2.169266005348052,
+   "basic_lower": 1.5712787883591068
+  },
+  {
+   "tag": "s3d6/total",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 1.7684638400828616,
+   "q05": 1.4921357079164108,
+   "q95": 1.9258328815425072,
+   "basic_lower": 1.611094798623216
+  },
+  {
+   "tag": "s3d6/total",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.2722328924094451,
+   "q05": 0.16168519174737436,
+   "q95": 0.23041596045686372,
+   "basic_lower": 0.31404982436202644
+  },
+  {
+   "tag": "s3d6/within_coarse",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 2.4936411232466553,
+   "q05": 2.295344638437917,
+   "q95": 2.9974854261738204,
+   "basic_lower": 1.9897968203194902
+  },
+  {
+   "tag": "s3d6/within_coarse",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.3254748831026127,
+   "q05": 0.2220818713073045,
+   "q95": 0.3181480448282777,
+   "basic_lower": 0.3328017213769477
+  },
+  {
+   "tag": "s3d6/within_coarse",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 4.9879475208515185,
+   "q05": 4.805287267539564,
+   "q95": 5.904245070690496,
+   "basic_lower": 4.071649971012541
+  },
+  {
+   "tag": "s3d6/within_coarse",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 1.6752218851291307,
+   "q05": 1.394367342029585,
+   "q95": 2.067960598859784,
+   "basic_lower": 1.2824831713984777
+  },
+  {
+   "tag": "s3d6/within_coarse",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 1.9198016743678876,
+   "q05": 1.5883599725688347,
+   "q95": 2.1108155491617078,
+   "basic_lower": 1.7287877995740675
+  },
+  {
+   "tag": "s3d6/within_coarse",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.22023207496530092,
+   "q05": 0.13542132841297977,
+   "q95": 0.20337818814841538,
+   "basic_lower": 0.23708596178218647
+  },
+  {
+   "tag": "s3d6/within_fine",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 2.565724492381183,
+   "q05": 2.3621116542391167,
+   "q95": 3.0945457770999014,
+   "basic_lower": 2.0369032076624642
+  },
+  {
+   "tag": "s3d6/within_fine",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.2899566115807052,
+   "q05": 0.20785541185318043,
+   "q95": 0.2925647903313752,
+   "basic_lower": 0.28734843283003514
+  },
+  {
+   "tag": "s3d6/within_fine",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 5.17767988238633,
+   "q05": 4.994257704910624,
+   "q95": 6.1157218313148025,
+   "basic_lower": 4.239637933457857
+  },
+  {
+   "tag": "s3d6/within_fine",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 1.6159821877836056,
+   "q05": 1.2431068727861974,
+   "q95": 2.048547402775248,
+   "basic_lower": 1.1834169727919632
+  },
+  {
+   "tag": "s3d6/within_fine",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 2.0779465475994052,
+   "q05": 1.6806056688268014,
+   "q95": 2.268048119577749,
+   "basic_lower": 1.8878449756210616
+  },
+  {
+   "tag": "s3d6/within_fine",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.2166133074865568,
+   "q05": 0.13071726434051545,
+   "q95": 0.1909246531152988,
+   "basic_lower": 0.2423019618578148
+  },
+  {
+   "tag": "s3d7/total",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 2.778527411319561,
+   "q05": 2.5614278262950902,
+   "q95": 3.3174298762638115,
+   "basic_lower": 2.2396249463753106
+  },
+  {
+   "tag": "s3d7/total",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.4517399851286752,
+   "q05": 0.30178697498026263,
+   "q95": 0.4161506889207064,
+   "basic_lower": 0.487329281336644
+  },
+  {
+   "tag": "s3d7/total",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 5.298576677887062,
+   "q05": 5.046746668054947,
+   "q95": 6.104126253193781,
+   "basic_lower": 4.493027102580342
+  },
+  {
+   "tag": "s3d7/total",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 2.2120310406382795,
+   "q05": 1.5553614134344533,
+   "q95": 2.252729756396943,
+   "basic_lower": 2.171332324879616
+  },
+  {
+   "tag": "s3d7/total",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 1.9542194485147757,
+   "q05": 1.6157730207734744,
+   "q95": 2.141114425545138,
+   "basic_lower": 1.7673244714844132
+  },
+  {
+   "tag": "s3d7/total",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.2682016256508904,
+   "q05": 0.16048222406949764,
+   "q95": 0.24475916457491811,
+   "basic_lower": 0.2916440867268627
+  },
+  {
+   "tag": "s3d7/within_coarse",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 2.7014660441970593,
+   "q05": 2.5103062227270394,
+   "q95": 3.2887178562588897,
+   "basic_lower": 2.114214232135229
+  },
+  {
+   "tag": "s3d7/within_coarse",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.3497670848454009,
+   "q05": 0.2196669339977103,
+   "q95": 0.3172058991462214,
+   "basic_lower": 0.38232827054458046
+  },
+  {
+   "tag": "s3d7/within_coarse",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 5.582204901881787,
+   "q05": 5.289413700778277,
+   "q95": 6.426556816405463,
+   "basic_lower": 4.737852987358111
+  },
+  {
+   "tag": "s3d7/within_coarse",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 2.233936446272358,
+   "q05": 1.4647589962039442,
+   "q95": 2.1799932964385373,
+   "basic_lower": 2.287879596106179
+  },
+  {
+   "tag": "s3d7/within_coarse",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 2.03462555210987,
+   "q05": 1.6407839355519365,
+   "q95": 2.253969437460842,
+   "basic_lower": 1.815281666758898
+  },
+  {
+   "tag": "s3d7/within_coarse",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.2034922975846699,
+   "q05": 0.13643147085558516,
+   "q95": 0.2101020983753447,
+   "basic_lower": 0.19688249679399514
+  },
+  {
+   "tag": "s3d7/within_fine",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 2.685371445211187,
+   "q05": 2.4430187217063843,
+   "q95": 3.240280551960072,
+   "basic_lower": 2.130462338462302
+  },
+  {
+   "tag": "s3d7/within_fine",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.31038293648872467,
+   "q05": 0.19983285781677568,
+   "q95": 0.2806359954031579,
+   "basic_lower": 0.3401298775742914
+  },
+  {
+   "tag": "s3d7/within_fine",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 5.571276619325054,
+   "q05": 5.323638438463853,
+   "q95": 6.456488216362775,
+   "basic_lower": 4.686065022287332
+  },
+  {
+   "tag": "s3d7/within_fine",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 2.011331856635316,
+   "q05": 1.220308943455127,
+   "q95": 2.018190363229634,
+   "basic_lower": 2.0044733500409984
+  },
+  {
+   "tag": "s3d7/within_fine",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 2.1758743571747305,
+   "q05": 1.7313908319882152,
+   "q95": 2.4090598203876588,
+   "basic_lower": 1.9426888939618023
+  },
+  {
+   "tag": "s3d7/within_fine",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.20753472519713514,
+   "q05": 0.13150509292301205,
+   "q95": 0.19422604484155476,
+   "basic_lower": 0.22084340555271553
+  },
+  {
+   "tag": "s4d1/total",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 2.7580417195690914,
+   "q05": 2.4127093224957865,
+   "q95": 3.32624936053243,
+   "basic_lower": 2.189834078605753
+  },
+  {
+   "tag": "s4d1/total",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.4548157018720634,
+   "q05": 0.3391901700617286,
+   "q95": 0.5511585893075109,
+   "basic_lower": 0.3584728144366158
+  },
+  {
+   "tag": "s4d1/total",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 5.1135963586203435,
+   "q05": 4.874175995569937,
+   "q95": 6.020116568777747,
+   "basic_lower": 4.2070761484629395
+  },
+  {
+   "tag": "s4d1/total",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 2.660831967995169,
+   "q05": 2.0641697044716674,
+   "q95": 2.976261446268963,
+   "basic_lower": 2.3454024897213746
+  },
+  {
+   "tag": "s4d1/total",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 1.8516250422522567,
+   "q05": 1.5611982195484326,
+   "q95": 1.9893111720417884,
+   "basic_lower": 1.713938912462725
+  },
+  {
+   "tag": "s4d1/total",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.5615064562311596,
+   "q05": 0.22328019295872528,
+   "q95": 0.38597794742986774,
+   "basic_lower": 0.7370349650324515
+  },
+  {
+   "tag": "s4d1/within_coarse",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 2.662572203035302,
+   "q05": 2.3434200235224534,
+   "q95": 3.065307821320461,
+   "basic_lower": 2.2598365847501425
+  },
+  {
+   "tag": "s4d1/within_coarse",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.31715088842543554,
+   "q05": 0.2236027302184541,
+   "q95": 0.3240276985473256,
+   "basic_lower": 0.3102740783035455
+  },
+  {
+   "tag": "s4d1/within_coarse",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 4.92503341463269,
+   "q05": 4.663060734946491,
+   "q95": 5.814295573419033,
+   "basic_lower": 4.035771255846347
+  },
+  {
+   "tag": "s4d1/within_coarse",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 2.4290954674591516,
+   "q05": 1.6607807089252007,
+   "q95": 2.4455445115810615,
+   "basic_lower": 2.4126464233372418
+  },
+  {
+   "tag": "s4d1/within_coarse",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 1.8846518068983438,
+   "q05": 1.5569357718013341,
+   "q95": 2.025443659011182,
+   "basic_lower": 1.7438599547855054
+  },
+  {
+   "tag": "s4d1/within_coarse",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.3402952945050846,
+   "q05": 0.1572231111127493,
+   "q95": 0.23478261987496762,
+   "basic_lower": 0.4458079691352016
+  },
+  {
+   "tag": "s4d1/within_fine",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 2.533953620763565,
+   "q05": 2.209013496292955,
+   "q95": 2.926016678543953,
+   "basic_lower": 2.1418905629831766
+  },
+  {
+   "tag": "s4d1/within_fine",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.27456093685266914,
+   "q05": 0.19361034279859102,
+   "q95": 0.26812640775065527,
+   "basic_lower": 0.280995465954683
+  },
+  {
+   "tag": "s4d1/within_fine",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 4.71412989982424,
+   "q05": 4.552121665354431,
+   "q95": 5.566407120530139,
+   "basic_lower": 3.861852679118341
+  },
+  {
+   "tag": "s4d1/within_fine",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 2.0484453302359533,
+   "q05": 1.390916627152315,
+   "q95": 2.1803772123406024,
+   "basic_lower": 1.9165134481313042
+  },
+  {
+   "tag": "s4d1/within_fine",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 1.9052864462066772,
+   "q05": 1.5424215709866405,
+   "q95": 2.040688448186413,
+   "basic_lower": 1.7698844442269412
+  },
+  {
+   "tag": "s4d1/within_fine",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.2800527997993509,
+   "q05": 0.13237002022165248,
+   "q95": 0.19226713532518105,
+   "basic_lower": 0.36783846427352074
+  },
+  {
+   "tag": "s4d8/total",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 2.8448446935929144,
+   "q05": 2.567375196298112,
+   "q95": 3.364281570472142,
+   "basic_lower": 2.3254078167136867
+  },
+  {
+   "tag": "s4d8/total",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.5394517468159508,
+   "q05": 0.3488106185059433,
+   "q95": 0.5202691237597366,
+   "basic_lower": 0.558634369872165
+  },
+  {
+   "tag": "s4d8/total",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 5.46006857878826,
+   "q05": 4.999423925445063,
+   "q95": 6.271469680329193,
+   "basic_lower": 4.648667477247327
+  },
+  {
+   "tag": "s4d8/total",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 2.6573519090764974,
+   "q05": 2.000223927161957,
+   "q95": 2.8223588752549,
+   "basic_lower": 2.492344942898095
+  },
+  {
+   "tag": "s4d8/total",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 1.9402715108018942,
+   "q05": 1.5648392816637997,
+   "q95": 2.108763149205248,
+   "basic_lower": 1.7717798723985405
+  },
+  {
+   "tag": "s4d8/total",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.41525772276578093,
+   "q05": 0.20163843522191982,
+   "q95": 0.31915377786400173,
+   "basic_lower": 0.5113616676675601
+  },
+  {
+   "tag": "s4d8/within_coarse",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 2.5724820690478127,
+   "q05": 2.3577096585664203,
+   "q95": 3.0017520208548714,
+   "basic_lower": 2.143212117240754
+  },
+  {
+   "tag": "s4d8/within_coarse",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.35451764020150484,
+   "q05": 0.2328221001028615,
+   "q95": 0.31391904425817196,
+   "basic_lower": 0.3951162361448377
+  },
+  {
+   "tag": "s4d8/within_coarse",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 5.365441630622109,
+   "q05": 4.87331180159095,
+   "q95": 6.136320695563034,
+   "basic_lower": 4.5945625656811835
+  },
+  {
+   "tag": "s4d8/within_coarse",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 2.36177813018271,
+   "q05": 1.450547499883511,
+   "q95": 2.3540856922860214,
+   "basic_lower": 2.369470568079399
+  },
+  {
+   "tag": "s4d8/within_coarse",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 1.9259701652815437,
+   "q05": 1.5849372496334253,
+   "q95": 2.132012129383303,
+   "basic_lower": 1.7199282011797843
+  },
+  {
+   "tag": "s4d8/within_coarse",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.2540472607346327,
+   "q05": 0.1486773381685802,
+   "q95": 0.2135717625663816,
+   "basic_lower": 0.29452275890288376
+  },
+  {
+   "tag": "s4d8/within_fine",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 2.2727253285572333,
+   "q05": 2.092540973552126,
+   "q95": 2.703293340381066,
+   "basic_lower": 1.8421573167334007
+  },
+  {
+   "tag": "s4d8/within_fine",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.26522943336308885,
+   "q05": 0.19016505614167328,
+   "q95": 0.2580617053761507,
+   "basic_lower": 0.272397161350027
+  },
+  {
+   "tag": "s4d8/within_fine",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 4.901394382650824,
+   "q05": 4.523203085923857,
+   "q95": 5.632867407594697,
+   "basic_lower": 4.169921357706951
+  },
+  {
+   "tag": "s4d8/within_fine",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 2.029909237916059,
+   "q05": 1.1707742975893467,
+   "q95": 1.9739342126347321,
+   "basic_lower": 2.0858842631973857
+  },
+  {
+   "tag": "s4d8/within_fine",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 1.9664572858978675,
+   "q05": 1.5370474083950034,
+   "q95": 2.149201456278446,
+   "basic_lower": 1.7837131155172892
+  },
+  {
+   "tag": "s4d8/within_fine",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.18703146248402522,
+   "q05": 0.12880885120016247,
+   "q95": 0.1858319527961135,
+   "basic_lower": 0.18823097217193693
+  },
+  {
+   "tag": "s4d9/total",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 2.530162833099477,
+   "q05": 2.210746453946296,
+   "q95": 3.0700794105353135,
+   "basic_lower": 1.9902462556636409
+  },
+  {
+   "tag": "s4d9/total",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.563873815072526,
+   "q05": 0.3185297985084538,
+   "q95": 0.5341538722124404,
+   "basic_lower": 0.5935937579326116
+  },
+  {
+   "tag": "s4d9/total",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 5.007475897860784,
+   "q05": 4.758689771155506,
+   "q95": 5.826491786169706,
+   "basic_lower": 4.1884600095518625
+  },
+  {
+   "tag": "s4d9/total",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 2.4155245062744353,
+   "q05": 2.0174016549841722,
+   "q95": 2.7452409167942298,
+   "basic_lower": 2.0858080957546408
+  },
+  {
+   "tag": "s4d9/total",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 1.7210165541518991,
+   "q05": 1.435044649104358,
+   "q95": 1.9096158861686405,
+   "basic_lower": 1.5324172221351577
+  },
+  {
+   "tag": "s4d9/total",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.386693730709392,
+   "q05": 0.21369907290687148,
+   "q95": 0.3374426340768601,
+   "basic_lower": 0.4359448273419239
+  },
+  {
+   "tag": "s4d9/within_coarse",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 2.4613802874225925,
+   "q05": 2.1996922441981552,
+   "q95": 2.867021952487595,
+   "basic_lower": 2.05573862235759
+  },
+  {
+   "tag": "s4d9/within_coarse",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.3369410993754378,
+   "q05": 0.21159110411605186,
+   "q95": 0.31709243771877765,
+   "basic_lower": 0.356789761032098
+  },
+  {
+   "tag": "s4d9/within_coarse",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 5.032288740344715,
+   "q05": 4.76169497890923,
+   "q95": 5.875715053886492,
+   "basic_lower": 4.188862426802937
+  },
+  {
+   "tag": "s4d9/within_coarse",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 2.2202727513701324,
+   "q05": 1.6235279745338393,
+   "q95": 2.515174940566397,
+   "basic_lower": 1.925370562173868
+  },
+  {
+   "tag": "s4d9/within_coarse",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 1.8486410840240912,
+   "q05": 1.485134028144339,
+   "q95": 2.035019564859535,
+   "basic_lower": 1.6622626031886476
+  },
+  {
+   "tag": "s4d9/within_coarse",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.2763475795071369,
+   "q05": 0.1638619169983229,
+   "q95": 0.23873349775994793,
+   "basic_lower": 0.3139616612543259
+  },
+  {
+   "tag": "s4d9/within_fine",
+   "channel": "frozen",
+   "statistic": "F_measured",
+   "point": 2.3727526837875192,
+   "q05": 2.13637096738214,
+   "q95": 2.7812693894131937,
+   "basic_lower": 1.9642359781618448
+  },
+  {
+   "tag": "s4d9/within_fine",
+   "channel": "frozen",
+   "statistic": "F_signal",
+   "point": 0.2727478172546554,
+   "q05": 0.1793139222813177,
+   "q95": 0.24636068823241664,
+   "basic_lower": 0.2991349462768942
+  },
+  {
+   "tag": "s4d9/within_fine",
+   "channel": "P1",
+   "statistic": "F_measured",
+   "point": 4.815854205596705,
+   "q05": 4.606208198119452,
+   "q95": 5.620530687693457,
+   "basic_lower": 4.011177723499952
+  },
+  {
+   "tag": "s4d9/within_fine",
+   "channel": "P1",
+   "statistic": "F_signal",
+   "point": 1.8345198908985467,
+   "q05": 1.3847071286233643,
+   "q95": 2.0757949424427835,
+   "basic_lower": 1.59324483935431
+  },
+  {
+   "tag": "s4d9/within_fine",
+   "channel": "colon",
+   "statistic": "F_measured",
+   "point": 1.8925847584002216,
+   "q05": 1.500937573189903,
+   "q95": 2.076876342691921,
+   "basic_lower": 1.708293174108522
+  },
+  {
+   "tag": "s4d9/within_fine",
+   "channel": "colon",
+   "statistic": "F_signal",
+   "point": 0.26634128091977316,
+   "q05": 0.14271872462041124,
+   "q95": 0.20757921270081284,
+   "basic_lower": 0.3251033491387335
+  }
+ ]
+}

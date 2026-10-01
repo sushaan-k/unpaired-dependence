@@ -1,0 +1,24 @@
+[    18s] colon: fold 0 B=25 (bjs2 37, selftune 4, js 23, scose 2, fcose 2, lowrank 153, semicca 1020, ridge_p 68, ridge_u 67 ms/fit)
+[    48s] colon: fold 0 B=50 (bjs2 49, selftune 5, js 36, scose 3, fcose 3, lowrank 157, semicca 1030, ridge_p 68, ridge_u 66 ms/fit)
+[   109s] colon: fold 0 B=100 (bjs2 89, selftune 6, js 86, scose 5, fcose 6, lowrank 185, semicca 1132, ridge_p 81, ridge_u 80 ms/fit)
+[   223s] colon: fold 0 B=200 (bjs2 224, selftune 9, js 226, scose 12, fcose 17, lowrank 259, semicca 1434, ridge_p 103, ridge_u 99 ms/fit)
+[   369s] colon: fold 0 B=400 (bjs2 444, selftune 13, js 448, scose 22, fcose 52, lowrank 351, semicca 1660, ridge_p 119, ridge_u 113 ms/fit)
+[   570s] colon: fold 0 B=800 (bjs2 792, selftune 19, js 815, scose 40, fcose 218, lowrank 472, semicca 1842, ridge_p 136, ridge_u 128 ms/fit)
+[   612s] colon: fold 1 B=25 (bjs2 86, selftune 9, js 54, scose 4, fcose 5, lowrank 334, semicca 2072, ridge_p 148, ridge_u 131 ms/fit)
+[   684s] colon: fold 1 B=50 (bjs2 114, selftune 10, js 98, scose 7, fcose 6, lowrank 323, semicca 2116, ridge_p 161, ridge_u 142 ms/fit)
+[   779s] colon: fold 1 B=100 (bjs2 193, selftune 11, js 170, scose 10, fcose 9, lowrank 353, semicca 2133, ridge_p 167, ridge_u 149 ms/fit)
+[   893s] colon: fold 1 B=200 (bjs2 314, selftune 13, js 289, scose 15, fcose 20, lowrank 383, semicca 2167, ridge_p 168, ridge_u 152 ms/fit)
+[  1032s] colon: fold 1 B=400 (bjs2 515, selftune 15, js 479, scose 25, fcose 60, lowrank 445, semicca 2239, ridge_p 166, ridge_u 158 ms/fit)
+[  1225s] colon: fold 1 B=800 (bjs2 842, selftune 20, js 839, scose 40, fcose 223, lowrank 555, semicca 2304, ridge_p 175, ridge_u 167 ms/fit)
+[  1261s] colon: fold 2 B=25 (bjs2 85, selftune 10, js 50, scose 5, fcose 3, lowrank 297, semicca 2065, ridge_p 150, ridge_u 117 ms/fit)
+[  1331s] colon: fold 2 B=50 (bjs2 118, selftune 11, js 102, scose 6, fcose 4, lowrank 312, semicca 2085, ridge_p 157, ridge_u 134 ms/fit)
+[  1424s] colon: fold 2 B=100 (bjs2 185, selftune 11, js 173, scose 10, fcose 8, lowrank 356, semicca 2126, ridge_p 159, ridge_u 144 ms/fit)
+[  1539s] colon: fold 2 B=200 (bjs2 299, selftune 13, js 293, scose 16, fcose 18, lowrank 390, semicca 2180, ridge_p 161, ridge_u 142 ms/fit)
+[  1689s] colon: fold 2 B=400 (bjs2 494, selftune 15, js 481, scose 26, fcose 55, lowrank 440, semicca 2252, ridge_p 166, ridge_u 147 ms/fit)
+[  1875s] colon: fold 2 B=800 (bjs2 831, selftune 20, js 839, scose 41, fcose 216, lowrank 538, semicca 2281, ridge_p 170, ridge_u 153 ms/fit)
+[  1886s] colon: predictions hashed
+[  1926s] colon: bootstrap 500/2000
+[  1966s] colon: bootstrap 1000/2000
+[  1999s] colon: bootstrap 1500/2000
+[  2032s] colon: bootstrap 2000/2000
+[  2033s] colon: done: proposed -2.7, -2.9, 11.1, 15.9, 19.7, 25.3; saving vs paired-only at 0.5: 1.00 [1.0, 1.0]

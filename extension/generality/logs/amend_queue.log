@@ -1,0 +1,1 @@
+./amend_queue.sh: line 5:  2944 Killed                  python3 with_object_arrays.py grun_amend.py "$d" > "logs/${d}_amend1.log" 2>&1

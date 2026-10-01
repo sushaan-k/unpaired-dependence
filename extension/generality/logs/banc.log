@@ -1,0 +1,21 @@
+[    18s] banc: fold 0 B=25 (bjs2 34, selftune 3, js 24, scose 2, fcose 3, lowrank 81, semicca 915, ridge_p 57, ridge_u 56 ms/fit)
+[    39s] banc: fold 0 B=50 (bjs2 51, selftune 5, js 38, scose 3, fcose 4, lowrank 76, semicca 968, ridge_p 72, ridge_u 71 ms/fit)
+[    68s] banc: fold 0 B=100 (bjs2 92, selftune 7, js 88, scose 6, fcose 7, lowrank 98, semicca 1110, ridge_p 81, ridge_u 81 ms/fit)
+[   103s] banc: fold 0 B=200 (bjs2 172, selftune 8, js 159, scose 10, fcose 18, lowrank 117, semicca 1195, ridge_p 90, ridge_u 86 ms/fit)
+[   149s] banc: fold 0 B=400 (bjs2 276, selftune 10, js 294, scose 16, fcose 56, lowrank 147, semicca 1262, ridge_p 94, ridge_u 88 ms/fit)
+[   175s] banc: fold 1 B=25 (bjs2 52, selftune 7, js 31, scose 3, fcose 4, lowrank 105, semicca 1317, ridge_p 103, ridge_u 111 ms/fit)
+[   202s] banc: fold 1 B=50 (bjs2 83, selftune 8, js 53, scose 5, fcose 5, lowrank 108, semicca 1355, ridge_p 102, ridge_u 112 ms/fit)
+[   232s] banc: fold 1 B=100 (bjs2 106, selftune 8, js 96, scose 6, fcose 7, lowrank 111, semicca 1364, ridge_p 97, ridge_u 109 ms/fit)
+[   268s] banc: fold 1 B=200 (bjs2 180, selftune 9, js 180, scose 11, fcose 18, lowrank 133, semicca 1404, ridge_p 97, ridge_u 108 ms/fit)
+[   317s] banc: fold 1 B=400 (bjs2 309, selftune 11, js 307, scose 17, fcose 55, lowrank 164, semicca 1442, ridge_p 102, ridge_u 111 ms/fit)
+[   344s] banc: fold 2 B=25 (bjs2 56, selftune 8, js 35, scose 4, fcose 5, lowrank 116, semicca 1363, ridge_p 98, ridge_u 103 ms/fit)
+[   372s] banc: fold 2 B=50 (bjs2 70, selftune 8, js 53, scose 5, fcose 6, lowrank 113, semicca 1388, ridge_p 96, ridge_u 103 ms/fit)
+[   402s] banc: fold 2 B=100 (bjs2 108, selftune 9, js 100, scose 7, fcose 9, lowrank 126, semicca 1413, ridge_p 102, ridge_u 104 ms/fit)
+[   441s] banc: fold 2 B=200 (bjs2 173, selftune 10, js 180, scose 10, fcose 19, lowrank 140, semicca 1449, ridge_p 108, ridge_u 109 ms/fit)
+[   519s] banc: fold 2 B=400 (bjs2 306, selftune 12, js 320, scose 17, fcose 62, lowrank 165, semicca 2141, ridge_p 113, ridge_u 112 ms/fit)
+[   524s] banc: predictions hashed
+[   775s] banc: bootstrap 500/2000
+[   895s] banc: bootstrap 1000/2000
+[  1014s] banc: bootstrap 1500/2000
+[  1136s] banc: bootstrap 2000/2000
+[  1138s] banc: done: proposed 34.0, 46.0, 56.2, 63.9, 68.1; saving vs paired-only at 0.5: 3.66 [3.2072225474357734, 4.206553102695894]

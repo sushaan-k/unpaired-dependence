@@ -1,0 +1,197 @@
+{
+ "pf": {
+  "patients": 118,
+  "cells_rna_half": 111816,
+  "cells_protein_half": 111824,
+  "pf_means": {
+   "scale": 0.01,
+   "ridge": 0.19937943981151007,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0
+    ],
+    "losses": [
+     4582806.724555386,
+     3283495.100359887,
+     3271049.8463960188,
+     4249050.755629088,
+     5398032.155913565
+    ],
+    "extensions": 0,
+    "at_edge": false
+   }
+  },
+  "pf_moment": {
+   "rank": 32,
+   "ridge": 1e-05,
+   "tuning": {
+    "values": [
+     2,
+     4,
+     8,
+     16,
+     32
+    ],
+    "losses": [
+     7583891.756211144,
+     6797624.6610711,
+     6418996.407574356,
+     6250608.636104583,
+     6178926.342548713
+    ],
+    "extensions": 0,
+    "at_edge": true,
+    "cv_fits": {
+     "2/0": {
+      "converged": true,
+      "iterations": 2021,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "heldout": 2526527.433225087
+     },
+     "2/1": {
+      "converged": true,
+      "iterations": 1376,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "heldout": 2537327.4511067783
+     },
+     "2/2": {
+      "converged": true,
+      "iterations": 1449,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "heldout": 2520036.8718792787
+     },
+     "4/0": {
+      "converged": true,
+      "iterations": 3362,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "heldout": 2241376.5784820495
+     },
+     "4/1": {
+      "converged": true,
+      "iterations": 3053,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "heldout": 2283670.7622165997
+     },
+     "4/2": {
+      "converged": true,
+      "iterations": 3181,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "heldout": 2272577.320372451
+     },
+     "8/0": {
+      "converged": true,
+      "iterations": 4649,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "heldout": 2091404.0140297064
+     },
+     "8/1": {
+      "converged": false,
+      "iterations": 5147,
+      "message": "ABNORMAL_TERMINATION_IN_LNSRCH",
+      "heldout": 2176553.1792937103
+     },
+     "8/2": {
+      "converged": true,
+      "iterations": 4574,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "heldout": 2151039.2142509385
+     },
+     "16/0": {
+      "converged": false,
+      "iterations": 8993,
+      "message": "ABNORMAL_TERMINATION_IN_LNSRCH",
+      "heldout": 2040809.1472197105
+     },
+     "16/1": {
+      "converged": false,
+      "iterations": 10467,
+      "message": "ABNORMAL_TERMINATION_IN_LNSRCH",
+      "heldout": 2112988.0302647892
+     },
+     "16/2": {
+      "converged": true,
+      "iterations": 10219,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "heldout": 2096811.458620083
+     },
+     "32/0": {
+      "converged": true,
+      "iterations": 7594,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "heldout": 2010131.1382228995
+     },
+     "32/1": {
+      "converged": false,
+      "iterations": 7957,
+      "message": "ABNORMAL_TERMINATION_IN_LNSRCH",
+      "heldout": 2088643.1924831753
+     },
+     "32/2": {
+      "converged": false,
+      "iterations": 11484,
+      "message": "ABNORMAL_TERMINATION_IN_LNSRCH",
+      "heldout": 2080152.0118426385
+     }
+    }
+   },
+   "converged": false,
+   "iterations": 9858,
+   "message": "ABNORMAL_TERMINATION_IN_LNSRCH",
+   "grad_norm": 0.0002372167969132043
+  }
+ },
+ "paired": {
+  "paired_closed_form": {
+   "ridge": 0.01,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0
+    ],
+    "losses": [
+     -1174701.4780127057,
+     -1274508.5302258008,
+     -1358339.6419725465,
+     -1307676.8901141582,
+     -1044504.9479525783
+    ],
+    "extensions": 0,
+    "at_edge": false
+   },
+   "converged": true,
+   "iterations": 140,
+   "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+   "grad_norm": 3.9352031789415914e-07
+  },
+  "reference_regression": {
+   "lambda": 0.1,
+   "tuning": {
+    "values": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0
+    ],
+    "losses": [
+     23222679.76658411,
+     23222530.791298248,
+     23221220.626293637,
+     23219605.31035938,
+     23376540.28005176
+    ],
+    "extensions": 0,
+    "at_edge": false
+   }
+  },
+  "cells": 223640
+ },
+ "sha256": "883de364939ee1ed12e0bc5174e9cf88850bfd3774eda967245a5dc9d677842e"
+}

@@ -1,0 +1,184 @@
+{
+  "plan_sha256": "f2f31b509b173e5c064bc817d205f8e5a6f1ad9960891ee365854aa5d10c23c2",
+  "S3_reversal_direction": {
+    "Cambridge": {
+      "recipients": 24,
+      "recipient_queries": 1944,
+      "reversals": 374,
+      "reversals_with_tied_heldout_direction": 8,
+      "recipients_with_a_reversal": 24,
+      "agreement_with_full_patterns": 0.5956284153005464,
+      "agreeing": 218,
+      "usable_reversals": 366,
+      "bootstrap_95": [
+        0.5502954447786851,
+        0.6418767421389796
+      ],
+      "bootstrap_familywise": [
+        0.5382424642918219,
+        0.6551724137931034
+      ],
+      "bootstrap_draws_without_reversals": 0
+    },
+    "Newcastle": {
+      "recipients": 56,
+      "recipient_queries": 4536,
+      "reversals": 1029,
+      "reversals_with_tied_heldout_direction": 65,
+      "recipients_with_a_reversal": 56,
+      "agreement_with_full_patterns": 0.7531120331950207,
+      "agreeing": 726,
+      "usable_reversals": 964,
+      "bootstrap_95": [
+        0.7178160520113981,
+        0.7870372642023771
+      ],
+      "bootstrap_familywise": [
+        0.7086018114016146,
+        0.7966808643784955
+      ],
+      "bootstrap_draws_without_reversals": 0
+    },
+    "T-ALL": {
+      "recipients": 15,
+      "recipient_queries": 1215,
+      "reversals": 344,
+      "reversals_with_tied_heldout_direction": 3,
+      "recipients_with_a_reversal": 15,
+      "agreement_with_full_patterns": 0.844574780058651,
+      "agreeing": 288,
+      "usable_reversals": 341,
+      "bootstrap_95": [
+        0.8058497147702745,
+        0.881159420289855
+      ],
+      "bootstrap_familywise": [
+        0.7945202853180939,
+        0.8902077151335311
+      ],
+      "bootstrap_draws_without_reversals": 0
+    },
+    "Colon": {
+      "recipients": 11,
+      "recipient_queries": 891,
+      "reversals": 201,
+      "reversals_with_tied_heldout_direction": 4,
+      "recipients_with_a_reversal": 11,
+      "agreement_with_full_patterns": 0.6802030456852792,
+      "agreeing": 134,
+      "usable_reversals": 197,
+      "bootstrap_95": [
+        0.5911602209944752,
+        0.7627906976744186
+      ],
+      "bootstrap_familywise": [
+        0.5666666666666667,
+        0.7873303167420814
+      ],
+      "bootstrap_draws_without_reversals": 0
+    }
+  },
+  "S1_S2_S4_identified_set": {
+    "Cambridge": {
+      "recipients": 24,
+      "S1_direction_unidentified_fraction": 1.0,
+      "S1_direction_unidentified_count": 1944,
+      "S1_cognate_fraction": 1.0,
+      "S1_recipients_all_queries_unidentified": 24,
+      "S2_log_odds_width_median": 14.762573319241723,
+      "S2_log_odds_width_quartiles": [
+        8.893245602557677,
+        22.873937684637966
+      ],
+      "S2_log_odds_width_min": 5.030618739577933,
+      "S2_minimax_deviance_lower_bound_mean": 0.26582436231708584,
+      "S2_minimax_deviance_lower_bound_quartiles": [
+        0.06746929919968661,
+        0.46241401796397047
+      ],
+      "heldout_mean_deviance_frequency_only": 0.022292481454009062,
+      "heldout_mean_deviance_full_patterns": 0.01858475993246699,
+      "S4_mean_within_spearman_bound_vs_gain": 0.025933453778982235,
+      "S4_mean_within_spearman_frequency_product_vs_gain": 0.028310373381511586
+    },
+    "Newcastle": {
+      "recipients": 56,
+      "S1_direction_unidentified_fraction": 1.0,
+      "S1_direction_unidentified_count": 4536,
+      "S1_cognate_fraction": 1.0,
+      "S1_recipients_all_queries_unidentified": 56,
+      "S2_log_odds_width_median": 15.075687230436028,
+      "S2_log_odds_width_quartiles": [
+        11.132122144954867,
+        19.691916691940214
+      ],
+      "S2_log_odds_width_min": 5.253355371225906,
+      "S2_minimax_deviance_lower_bound_mean": 0.3185537304187458,
+      "S2_minimax_deviance_lower_bound_quartiles": [
+        0.11599155365435762,
+        0.5033521576317836
+      ],
+      "heldout_mean_deviance_frequency_only": 0.032326753717100074,
+      "heldout_mean_deviance_full_patterns": 0.022889347887977276,
+      "S4_mean_within_spearman_bound_vs_gain": 0.07532826816363401,
+      "S4_mean_within_spearman_frequency_product_vs_gain": 0.08709954510259388
+    },
+    "T-ALL": {
+      "recipients": 15,
+      "S1_direction_unidentified_fraction": 1.0,
+      "S1_direction_unidentified_count": 1215,
+      "S1_cognate_fraction": 1.0,
+      "S1_recipients_all_queries_unidentified": 15,
+      "S2_log_odds_width_median": 16.422955801394853,
+      "S2_log_odds_width_quartiles": [
+        12.207871326651574,
+        22.218177349033525
+      ],
+      "S2_log_odds_width_min": 5.587758488627552,
+      "S2_minimax_deviance_lower_bound_mean": 0.36963312769002177,
+      "S2_minimax_deviance_lower_bound_quartiles": [
+        0.15175024169074136,
+        0.5395617397526735
+      ],
+      "heldout_mean_deviance_frequency_only": 0.058471481693007095,
+      "heldout_mean_deviance_full_patterns": 0.02598634504512238,
+      "S4_mean_within_spearman_bound_vs_gain": 0.03922312556458897,
+      "S4_mean_within_spearman_frequency_product_vs_gain": 0.03266937669376693
+    },
+    "Colon": {
+      "recipients": 11,
+      "S1_direction_unidentified_fraction": 1.0,
+      "S1_direction_unidentified_count": 891,
+      "S1_cognate_fraction": 1.0,
+      "S1_recipients_all_queries_unidentified": 11,
+      "S2_log_odds_width_median": 12.57893152787523,
+      "S2_log_odds_width_quartiles": [
+        9.62228228260086,
+        19.501838506136657
+      ],
+      "S2_log_odds_width_min": 5.577661613137659,
+      "S2_minimax_deviance_lower_bound_mean": 0.2651956925983098,
+      "S2_minimax_deviance_lower_bound_quartiles": [
+        0.04538268511183685,
+        0.4794222583871684
+      ],
+      "heldout_mean_deviance_frequency_only": 0.025878174733614454,
+      "heldout_mean_deviance_full_patterns": 0.021827014453186487,
+      "S4_mean_within_spearman_bound_vs_gain": 0.10822862774082286,
+      "S4_mean_within_spearman_frequency_product_vs_gain": 0.0951157920670116
+    }
+  },
+  "endpoint_sources": {
+    "star_attains_lower_endpoint_fraction": 1.0,
+    "star_attains_upper_endpoint_fraction": 1.0
+  },
+  "certification": {
+    "recipients": 106,
+    "queries_per_recipient": 81,
+    "star_endpoints_certified": 17172,
+    "max_search_vs_certified_difference": 4.144812271178466e-11,
+    "scaling_failures_during_search": 0,
+    "objective_evaluations": 503825,
+    "compute_seconds": 15438.18387889862
+  }
+}

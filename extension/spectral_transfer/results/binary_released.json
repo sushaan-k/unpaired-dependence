@@ -1,0 +1,132 @@
+{
+  "arms": [
+    "frequencies",
+    "first_order",
+    "closed_form",
+    "pairwise_exact",
+    "patterns",
+    "independence"
+  ],
+  "clipped_cells": {
+    "first_order": 590,
+    "closed_form": 116
+  },
+  "cohorts": {
+    "Cambridge": {
+      "n": 24,
+      "mean_loss": {
+        "frequencies": 0.02229248145400907,
+        "first_order": 0.02979203215243761,
+        "closed_form": 0.01949998500705397,
+        "pairwise_exact": 0.01891386242702103,
+        "patterns": 0.018584759932466992,
+        "independence": 0.0345033618380089
+      },
+      "first_order_gain_retained": -2.022684458596935,
+      "first_order_gain_retained_95": [
+        -3.4704514659847754,
+        -0.9747502126649206
+      ],
+      "first_order_beats_frequencies": 5,
+      "closed_form_gain_retained": 0.7531570078093873,
+      "closed_form_gain_retained_95": [
+        0.5974226351549188,
+        0.8636745743039091
+      ],
+      "closed_form_beats_frequencies": 21,
+      "pairwise_exact_gain_retained": 0.9112386157800867,
+      "pairwise_exact_gain_retained_95": [
+        0.8893041740901658,
+        0.9302139629854516
+      ],
+      "pairwise_exact_beats_frequencies": 24
+    },
+    "Newcastle": {
+      "n": 56,
+      "mean_loss": {
+        "frequencies": 0.03232675371710008,
+        "first_order": 0.06193363717321403,
+        "closed_form": 0.025514816800169027,
+        "pairwise_exact": 0.02308147491042793,
+        "patterns": 0.022889347887977276,
+        "independence": 0.04352354010749056
+      },
+      "first_order_gain_retained": -3.1371845178841777,
+      "first_order_gain_retained_95": [
+        -4.589642506134041,
+        -2.115918603679691
+      ],
+      "first_order_beats_frequencies": 4,
+      "closed_form_gain_retained": 0.7218018426112565,
+      "closed_form_gain_retained_95": [
+        0.6286367393067903,
+        0.8003686110127988
+      ],
+      "closed_form_beats_frequencies": 50,
+      "pairwise_exact_gain_retained": 0.979641966666542,
+      "pairwise_exact_gain_retained_95": [
+        0.9705487543885555,
+        0.987784833375151
+      ],
+      "pairwise_exact_beats_frequencies": 55
+    },
+    "T-ALL": {
+      "n": 15,
+      "mean_loss": {
+        "frequencies": 0.05847148169300709,
+        "first_order": 0.1384396367766169,
+        "closed_form": 0.02963311075688949,
+        "pairwise_exact": 0.027218999509288206,
+        "patterns": 0.025986345045122376,
+        "independence": 0.07459124449042322
+      },
+      "first_order_gain_retained": -2.4616844297257083,
+      "first_order_gain_retained_95": [
+        -4.266939754018019,
+        -0.6830766448749048
+      ],
+      "first_order_beats_frequencies": 6,
+      "closed_form_gain_retained": 0.8877404841698711,
+      "closed_form_gain_retained_95": [
+        0.8364064391180102,
+        0.9277893157166776
+      ],
+      "closed_form_beats_frequencies": 15,
+      "pairwise_exact_gain_retained": 0.9620548167142743,
+      "pairwise_exact_gain_retained_95": [
+        0.9462087967819668,
+        0.9743543384455781
+      ],
+      "pairwise_exact_beats_frequencies": 15
+    },
+    "Colon": {
+      "n": 11,
+      "mean_loss": {
+        "frequencies": 0.025878174733614454,
+        "first_order": 0.026484805327762005,
+        "closed_form": 0.02318713770942288,
+        "pairwise_exact": 0.021907076385127247,
+        "patterns": 0.02182701445318648,
+        "independence": 0.031693770565632745
+      },
+      "first_order_gain_retained": -0.14974243232940296,
+      "first_order_gain_retained_95": [
+        -0.8551935582309994,
+        0.2455949379534877
+      ],
+      "first_order_beats_frequencies": 4,
+      "closed_form_gain_retained": 0.6642632821003284,
+      "closed_form_gain_retained_95": [
+        0.4721928885843775,
+        0.8317402741734913
+      ],
+      "closed_form_beats_frequencies": 10,
+      "pairwise_exact_gain_retained": 0.9802372835437878,
+      "pairwise_exact_gain_retained_95": [
+        0.9622620470348507,
+        0.9983928480147071
+      ],
+      "pairwise_exact_beats_frequencies": 11
+    }
+  }
+}

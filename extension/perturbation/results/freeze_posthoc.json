@@ -1,0 +1,16 @@
+{
+ "recorded_at": "2026-09-27T08:18:28-04:00",
+ "files": {
+  "PLAN_programs.md": "628194a4ea6fa18dc1357191d658f99c92dda86960ad61e54db55cb6d9f54a40",
+  "freeze_posthoc.py": "b2e2eacad803daaea6fe9cef41144fc882e64ac7f456ed8a094dcaae3f63d514",
+  "programs.py": "21e7cc9991f6e036bbb271f97abc734ba78cbe488f68da2f4b4abcf5045f7c98",
+  "design.py": "34d48a98c1067834cc37aeffa3e0e7631e732414023988dde9d825e414c59695",
+  "pmethods.py": "13d81720662769d65965785476a7f804d0edb6d1cdba43cb4a959d32bad881e6",
+  "pdata.py": "343eb611abe17aa76a3fd556c4c25d3f99ac4c24114a1ac15fd6ca8aa7e95050",
+  "predict.py": "2993f4e1633a02077f64932e7547e42b83d974023784e63d63e6c9df26fd00e7",
+  "results/channels.npz": "f6a1d3b346db16de2fb46dc8c896da5f1e0d8bdf335891048ffe5ef0706c7dc4",
+  "results/predictions.npz": "58c520557e9da97f7285f3e80e5ddad1c3bba983d8014cefd351fd9714e58421",
+  "results/seal.json": "a8821b55055e68d21134b493d1e930a96e35f249d48df9ef63d47ee1d150c865",
+  "results/evaluation.json": "58a265276f05cde532898c585e34d3d47369f610d3358982722e78599fa5e431"
+ }
+}

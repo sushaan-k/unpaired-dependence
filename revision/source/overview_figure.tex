@@ -1,0 +1,151 @@
+% Conceptual overview (Fig. 1). Drawn by hand; contains no data. Values in b and c are illustrative.
+\definecolor{rnacol}{HTML}{217D91}%
+\definecolor{protcol}{HTML}{A64442}%
+\definecolor{propcol}{HTML}{217D91}%
+\definecolor{inkgray}{HTML}{5D6670}%
+\begin{tikzpicture}[font=\sffamily\scriptsize,>={Stealth[length=4pt]},
+  lab/.style={font=\sffamily\small\bfseries,anchor=base west},
+  head/.style={font=\sffamily\small,anchor=base west},
+  sub/.style={font=\sffamily\scriptsize,anchor=base},
+  note/.style={font=\sffamily\scriptsize,text=inkgray,align=center},
+  axl/.style={font=\sffamily\scriptsize,text=black},
+  ax/.style={->,gray!70,line width=.5pt}]
+%% ---------------- a: paired and unpaired cells
+\begin{scope}[shift={(0,0)}]
+\node[lab] at (-.2,4.6) {a};
+\node[head] at (.2,4.6) {Few paired cells, many unpaired cells};
+\begin{scope}[shift={(.45,1.05)}]
+\node[sub] at (1.1,2.75) {paired: same cells};
+\draw[ax] (0,0) -- (2.3,0) node[axl,below left] {RNA \textit{x}};
+\draw[ax] (0,0) -- (0,2.4) node[axl,right,xshift=1pt,yshift=-3pt] {protein \textit{y}};
+\foreach \u/\v in {.45/.52,.62/.78,.92/.95,1.12/1.20,1.35/1.38,1.55/1.60,1.78/1.85,.70/.55,1.30/1.05,1.62/1.48}
+  \fill[inkgray!85] (\u,\v) circle (1.4pt);
+\node[note] at (1.15,-.62) {dependence observed};
+\end{scope}
+\begin{scope}[shift={(4.2,1.05)}]
+\node[sub] at (1.1,2.75) {unpaired: different cells};
+\fill[rnacol!45] plot[smooth,domain=0.1:2.2,samples=40] (\x,{.02+.5*exp(-((\x-1.1)^2)/0.28)}) -- (2.2,.02) -- (0.1,.02) -- cycle;
+\fill[protcol!45] plot[smooth,domain=0.1:2.2,samples=40] ({.02+.5*exp(-((\x-1.15)^2)/0.3)},\x) -- (.02,2.2) -- (.02,0.1) -- cycle;
+\draw[ax] (0,0) -- (2.3,0) node[axl,below left] {RNA \textit{x}};
+\draw[ax] (0,0) -- (0,2.4) node[axl,right,xshift=1pt,yshift=-3pt] {protein \textit{y}};
+\node[font=\sffamily\large,text=inkgray] at (1.3,1.3) {?};
+\node[note] at (1.15,-.62) {how each modality varies};
+\end{scope}
+\end{scope}
+%% ---------------- b: the three steps of the estimator
+\begin{scope}[shift={(8.55,0)}]
+\node[lab] at (-.2,4.6) {b};
+\node[head] at (.2,4.6) {Estimating the dependence from a few paired cells};
+\node[font=\sffamily\scriptsize\bfseries,anchor=base west] at (.1,4.12) {1\enspace contrasts};
+\node[font=\sffamily\scriptsize\bfseries,anchor=base west] at (2.1,4.12) {2\enspace block shrinkage};
+\node[font=\sffamily\scriptsize\bfseries,anchor=base west] at (6.25,4.12) {3\enspace cell-type maps};
+% 1: two populations, each with its own average removed
+\begin{scope}[shift={(.15,1.0)}]
+\foreach \u/\v in {.30/2.35,.55/2.55,.42/2.15,.68/2.30,.20/2.60}
+  \fill[rnacol!80] (\u,\v) circle (1.3pt);
+\foreach \u/\v in {1.35/2.75,1.60/2.95,1.48/2.55,1.75/2.70,1.25/3.00}
+  \fill[protcol!80] (\u,\v) circle (1.3pt);
+\draw[->,black!70,line width=.6pt] (.95,2.05) -- (.95,1.35);
+\draw[ax] (.25,.75) -- (1.65,.75);
+\draw[ax] (.95,.1) -- (.95,1.3);
+\foreach \u/\v in {.72/.95,.98/.62,.83/.42,1.10/.88,.66/.70}
+  \fill[rnacol!80] (\u,\v) circle (1.3pt);
+\foreach \u/\v in {1.05/1.05,.80/.55,1.22/.66,.92/.98,1.15/.40}
+  \fill[protcol!80] (\u,\v) circle (1.3pt);
+\node[note,anchor=north] at (.95,.05) {each population's\\average removed};
+\end{scope}
+% 2: block shrinkage of the paired average in the reference's axes
+\begin{scope}[shift={(2.1,-.12)}]
+\pgfmathsetseed{11}
+\foreach \j in {0,...,31}{
+  \foreach \i in {0,...,17}{
+    \pgfmathtruncatemacro{\rb}{\j<5 ? 0 : (\j<12 ? 1 : (\j<21 ? 2 : 3))}
+    \pgfmathtruncatemacro{\cb}{\i<6 ? 0 : 1}
+    \pgfmathtruncatemacro{\k}{2*\rb+\cb}
+    \pgfmathsetmacro{\s}{{72,18,24,6,0,0,0,0}[\k]}
+    \pgfmathsetmacro{\f}{{.92,.55,.5,.12,0,0,0,0}[\k]}
+    \pgfmathtruncatemacro{\vl}{min(100,\s+30*rnd)}
+    \pgfmathtruncatemacro{\vr}{\f*\vl}
+    \fill[propcol!\vl] ({.35+.065*\i},{3.72-.09*\j}) rectangle ++(.065,-.09);
+    \fill[propcol!\vr] ({2.75+.065*\i},{3.72-.09*\j}) rectangle ++(.065,-.09);
+  }
+}
+\foreach \x in {.35,2.75}{
+  \draw[white,line width=.8pt] (\x+.39,3.72) -- (\x+.39,.84);
+  \foreach \y in {3.27,2.64,1.83}
+    \draw[white,line width=.8pt] (\x,\y) -- (\x+1.17,\y);
+  \draw[gray!60,line width=.4pt] (\x,.84) rectangle (\x+1.17,3.72);
+}
+\node[axl,rotate=90,anchor=south] at (.3,2.28) {RNA axes};
+\node[axl,anchor=south] at (.94,3.74) {protein axes};
+\draw[->,black!70,line width=.7pt] (1.62,2.28) -- (2.68,2.28);
+\node[font=\sffamily\scriptsize,anchor=south,align=center] at (2.13,2.36) {shrink\\each\\block};
+\node[note,anchor=north] at (.94,.78) {paired\\average $m$};
+\node[note,anchor=north] at (3.34,.78) {pooled\\estimate};
+\end{scope}
+% 3: cell-type maps from the reference's covariance of each cell type
+\begin{scope}[shift={(6.25,-.12)}]
+\foreach \t/\y/\a in {B/3.05/.8,T/2.05/1.2,NK/1.05/.6}{
+  \pgfmathsetseed{11}
+  \foreach \j in {0,...,9}{
+    \foreach \i in {0,...,8}{
+      \pgfmathtruncatemacro{\v}{min(100,max(0,(\j<3 ? 70 : 12)*\a+25*rnd))}
+      \fill[propcol!\v] ({.45+.075*\i},{\y+.6-.075*\j}) rectangle ++(.075,-.075);
+    }
+  }
+  \draw[gray!60,line width=.4pt] (.45,\y-.15) rectangle (1.125,\y+.6);
+  \node[font=\sffamily\scriptsize,anchor=west] at (1.17,\y+.22) {\t};
+  \draw[->,black!55,line width=.5pt] (-.25,2.28) -- (.4,\y+.22);
+}
+\node[note,anchor=north,align=center] at (1.0,.78) {per type, via its\\covariance};
+\end{scope}
+\end{scope}
+%% ---------------- c: where dependence lies relative to noise
+\begin{scope}[shift={(0,-5.35)}]
+\node[lab] at (-.2,4.6) {c};
+\node[head] at (.2,4.6) {Where dependence lies relative to noise sets the saving};
+\foreach \x/\ttl/\ws/\ps/\res in {.45/unpaired axes/{.80,.12,.03,.02,.01,.01,.005,.005}/{.33,.23,.08,.05,.10,.06,.09,.06}/1.8-fold saving,
+    4.45/random axes/{.011,.039,.032,.118,.086,.314,.086,.314}/{.011,.039,.032,.118,.086,.314,.086,.314}/no saving}{
+  \begin{scope}[shift={(\x,1.05)}]
+  \node[sub] at (1.7,2.3) {\ttl};
+  \draw[gray!60,line width=.5pt] (0,0) -- (3.4,0);
+  \foreach \g in {0,...,7}{
+    \pgfmathsetmacro{\hw}{2.6*{\ws}[\g]}
+    \pgfmathsetmacro{\hp}{2.6*{\ps}[\g]}
+    \fill[propcol] ({.12+.41*\g},0) rectangle ++(.16,\hw);
+    \fill[inkgray!55] ({.29+.41*\g},0) rectangle ++(.16,\hp);
+  }
+  \node[note] at (1.7,-.28) {blocks};
+  \node[font=\sffamily\scriptsize,anchor=base] at (1.7,-.72) {\res};
+  \end{scope}
+}
+\fill[propcol] (1.0,3.98) rectangle ++(.16,.16);
+\node[font=\sffamily\scriptsize,anchor=west] at (1.2,4.06) {dependence share $w_b$};
+\fill[inkgray!55] (5.0,3.98) rectangle ++(.16,.16);
+\node[font=\sffamily\scriptsize,anchor=west] at (5.2,4.06) {noise share $\pi_b$};
+\node[note,anchor=base] at (4.35,-.15) {saving $=1$ if $w=\pi$;\enspace$\to1+\chi^2(w\,\|\,\pi)$ at low accuracy;\enspace$\le1/\min_b\pi_b$};
+\end{scope}
+%% ---------------- d: population differences determine a shared channel
+\begin{scope}[shift={(8.55,-5.35)}]
+\node[lab] at (-.2,4.6) {d};
+\node[head] at (.2,4.6) {Without paired cells: population averages};
+\begin{scope}[shift={(.55,.95)}]
+\draw[ax] (0,0) -- (3.0,0) node[axl,below left] {RNA direction 1};
+\draw[ax] (0,0) -- (0,3.0) node[axl,right,xshift=1pt,yshift=-3pt] {RNA direction 2};
+\draw[rnacol,line width=1.1pt,->] (.35,.55) -- (2.75,2.35) node[right,font=\sffamily\scriptsize] {\textit{M}};
+\draw[gray!55,dashed,line width=.8pt,->] (1.55,1.45) -- (.85,2.4) node[left,font=\sffamily\scriptsize,text=inkgray] {\textit{M}$^{\perp}$};
+\foreach \u in {.55,.85,1.1,1.4,1.65,1.95,2.25,2.5}
+  \fill[inkgray] (\u,{.55+(\u-.35)*0.75+0.06*sin(900*\u)}) circle (1.6pt);
+\node[note,anchor=north] at (1.5,-.41) {RNA averages of populations};
+\end{scope}
+\begin{scope}[shift={(4.55,.95)}]
+\draw[ax] (0,0) -- (3.0,0) node[axl,below left] {RNA along \textit{M}};
+\draw[ax] (0,0) -- (0,3.0) node[axl,right,xshift=1pt,yshift=-3pt] {protein average};
+\draw[protcol,line width=1.1pt] (.2,.35) -- (2.8,2.55);
+\foreach \u in {.45,.75,1.0,1.3,1.55,1.85,2.15,2.4}
+  \fill[inkgray] (\u,{.35+(\u-.2)*0.846+0.07*cos(700*\u)}) circle (1.6pt);
+\node[font=\sffamily\scriptsize,text=protcol,anchor=east] at (2.95,1.05) {channel \textit{W}};
+\node[note,anchor=north] at (1.5,-.41) {determined on \textit{M},\\open on \textit{M}$^{\perp}$};
+\end{scope}
+\end{scope}
+\end{tikzpicture}%

@@ -1,0 +1,128 @@
+\section{Measurement noise and the latent RNA correlation}\label{sec:noise}
+Population means average over cells, and hence over the sampling noise of
+single-cell RNA counts; a recipient's single-cell covariance does not. The
+next result states what this does to Proposition~\ref{prop:means}.
+
+\begin{proposition}[Latent and measured RNA]\label{prop:noise}
+In every population let each cell have a latent RNA state $z$ and measured RNA
+$x=z+e$, with $E(e\mid z,y)=0$ and $\operatorname{Cov}(e\mid z)=N(z)$
+diagonal, and let $E(y\mid z,s)=Az+b$ with $A$ shared by all populations.
+Write $\Sigma_z$ and $\Sigma_x$ for a recipient's latent and measured RNA
+covariances and $\bar N=E\,N(z)$.
+\begin{enumerate}
+\item Population means satisfy $E(y\mid s)=A\,E(x\mid s)+b$, so they identify
+$A$, the channel acting on the latent state, on $M$
+(Proposition~\ref{prop:means}(1)).
+\item $\Sigma_x=\Sigma_z+\bar N$ and $\operatorname{Cov}(x,y)=\Sigma_zA^\top$;
+the cell-level regression slope of $y$ on $x$ is
+$A\Sigma_z\Sigma_x^{-1}$, which differs from $A$ whenever $\bar N\neq0$.
+\item Let $F(\Sigma)=Q_N^\top\Sigma^{1/2}A^\top\Sigma_y^{-1/2}$ with $Q_N$ an
+orthonormal basis of $\Sigma^{-1/2}M$. The cross-covariances compatible with
+$AP_M$ and with a valid joint law of $(z,y)$ exist if and only if
+$\|F(\Sigma_z)\|_{\mathrm{op}}\le1$, and
+$\|F(\Sigma_x)\|_{\mathrm{op}}\ge\|F(\Sigma_z)\|_{\mathrm{op}}$. Measurement
+noise can therefore empty the set of Proposition~\ref{prop:means}(4) computed
+with $\Sigma_x$ when the latent set is not empty.
+\item If $x$ is a function of counts $c\sim\mathrm{Poisson}(\lambda)$ given
+$\lambda$, the binomial halves $c_1\mid c\sim\mathrm{Bin}(c,1/2)$ and
+$c_2=c-c_1$ are independent given $\lambda$, so any functions $f(c_1)$ and
+$f(c_2)$ have covariance $\operatorname{Var}\{E(f(c_1)\mid\lambda)\}$, the
+latent variance at half depth, which requires no paired cell.
+\end{enumerate}
+\end{proposition}
+
+\begin{proof}
+(1) $E(y\mid s)=E\{E(y\mid z,s)\mid s\}=A\,E(z\mid s)+b$ and
+$E(x\mid s)=E(z\mid s)$. (2) By the law of total covariance
+$\Sigma_x=\Sigma_z+E\,N(z)$; $\operatorname{Cov}(e,y)=0$ because
+$E(e\mid z,y)=0$, so $\operatorname{Cov}(x,y)=\operatorname{Cov}(z,y)
+=\Sigma_zA^\top$. (3) The first statement is Proposition~\ref{prop:means}(4)
+applied to $(z,y)$. With $V$ an orthonormal basis of $M$ and $A_M=AV$,
+$F(\Sigma)^\top F(\Sigma)=\Sigma_y^{-1/2}A_M(V^\top\Sigma^{-1}V)^{-1}A_M^\top\Sigma_y^{-1/2}$,
+because $\Sigma^{1/2}Q_NQ_N^\top\Sigma^{1/2}=V(V^\top\Sigma^{-1}V)^{-1}V^\top$.
+$\Sigma_x\succeq\Sigma_z$ gives $V^\top\Sigma_x^{-1}V\preceq V^\top\Sigma_z^{-1}V$
+and, inverting, $F(\Sigma_x)^\top F(\Sigma_x)\succeq F(\Sigma_z)^\top F(\Sigma_z)$.
+(4) Binomial thinning of a Poisson count gives independent Poisson counts with
+half the mean; functions of independent variables are independent, and the
+law of total covariance gives the stated covariance.
+\end{proof}
+
+In the analyses, $x$ is log-normalized expression. For each gene, the
+correlation across cells of the log-normalized values of the two halves is its
+split-half reliability; the Spearman--Brown formula $2r/(1+r)$ gives the
+reliability at full depth, and one minus this is the share $\nu_j$ of the
+gene's standardized variance that is sampling noise. The latent correlation
+matrix is estimated as $R_x-\operatorname{diag}(\nu_jR_{x,jj})$, after the off-diagonal entries of $R_x$
+have been multiplied by 0.9, with eigenvalues floored at 0.001 times the mean diagonal. The Spearman--Brown step treats the two
+half-depth values as parallel measurements, which is exact on the count scale
+and approximate after the logarithm, and library normalization couples genes;
+in simulations with known latent covariance both effects were small
+(below).
+
+The proof of (3) shows that $\|F(\Sigma)\|^2_{\mathrm{op}}$ is the largest
+eigenvalue of the channel applied to $(V^\top\Sigma^{-1}V)^{-1}$, the variance
+of the $M$-coordinates of $x$ that the orthogonal coordinates leave unexplained.
+Noise raises this conditional variance, so the statistic computed with measured
+covariance bounds the latent one from above. After the noise diagonal is removed
+from a covariance estimated from $n$ cells, fluctuations of the noise covariance
+of spectral norm of order $\nu(p/n)^{1/2}$ remain off the diagonal\cite{marchenko1967}.
+They create near-null directions that shrink the conditional variance, and in
+simulations the statistic computed with the corrected covariance understated
+the latent one, so that the two computed statistics bracket it
+(below).
+
+\subsection*{Validation of the noise correction}
+Each of \RcBmSamples{} bone-marrow samples of the NeurIPS 2021 CITE-seq data\cite{luecken2021sandbox} (adaptation cells) defined a
+latent truth. Each cell's expected proportions of the panel genes were the
+average of the observed proportions (count divided by library) over the cell and
+its 14 nearest neighbours in 30 principal components of standardized log
+expression, and the rest of the transcriptome kept the remaining share. In a
+second construction, independent gene-specific lognormal variation was added,
+sized so that each gene's latent within-type variance matched the real data's
+within-type variance times one minus its count-splitting noise share. Expected
+libraries were the observed ones times 0.5, 1 or 2. Counts of the panel genes and
+of the rest of the transcriptome were drawn from Poisson distributions, and the
+library was their sum, so normalization coupled genes as in real data. Forty
+independent replicate draws per cell gave the noise covariance
+$N=E\{\operatorname{Cov}(x\mid\text{truth})\}$, a full matrix, and the latent
+covariance $\operatorname{Cov}\{E(x\mid\text{truth})\}$, estimated as the
+covariance of replicate means minus $N/40$, for
+$x=\log(1+10^4\,\text{count}/\text{library})$. The first replicate was analysed
+by the pipeline of the pairing-free analyses, and the truth was expressed on the
+same scale (standard deviations of the analysed replicate, same shrinkage), with
+the pairing-free channels of Supplementary Note~\ref{sec:cross} and the sample's real protein correlation.
+
+Estimated noise shares had a median absolute error of
+\RcSimNuMaeMin--\RcSimNuMaeMax{} and a median bias of at most \RcSimNuBiasMax{} in
+every setting (Supplementary Table~\ref{tab:sim}). Off-diagonal noise covariance,
+which normalization creates, was at most \RcSimCouplingMax\% of the off-diagonal
+latent covariance in norm. Correcting the diagonal reduced the relative error of
+the RNA correlation matrix from \RcSimErrMeasMin--\RcSimErrMeasMax{} to
+\RcSimErrCorrMin--\RcSimErrCorrMax, as much as correction with the true noise
+variances did. The compatibility statistic was nevertheless biased: across
+settings and channels, its median ratio to the latent value was
+\RcSimCorrRatioMin--\RcSimCorrRatioMax{} with corrected covariance
+(\RcSimFrozenRatioMin--\RcSimFrozenRatioMax{} for the prespecified channel) and
+\RcSimMeasRatioMin--\RcSimMeasRatioMax{} with measured covariance, and the latent
+value lay between the two in \RcSimBracket{} of \RcSimBracketTotal{} cases. Correction
+with the true noise variances gave nearly the same statistics (median ratio to
+the estimated correction, \RcSimOracleMin--\RcSimOracleMax), so the bias arises
+from finite-cell fluctuations of the noise covariance rather than from the
+estimated shares (Proposition~\ref{prop:noise} and the remark after it). At the observed
+depth, the prespecified blood channel's latent statistic exceeded one in all \RcSimDOne{}
+simulated total analyses (median \RcSimFrozenTrue), while its corrected statistic
+exceeded one in \RcSimFrozenCorrAbove.
+
+\begin{table}[h]
+\caption{\textbf{Validation of the noise correction.} Medians over
+\RcBmSamples{} bone-marrow samples. Noise share, true median share of sampling
+noise in gene variance; share error, mean absolute error of the count-splitting
+estimate; matrix error, relative Frobenius error of the measured and corrected RNA
+correlation matrices against the latent one (all with the same shrinkage);
+$\|F\|$ / true, ratio of the compatibility statistic of the prespecified blood channel
+computed with measured or corrected covariance to its latent value. Depth, factor
+applied to the observed library sizes.}
+\label{tab:sim}
+\centering\footnotesize\setlength{\tabcolsep}{4pt}
+\input{recov_sim_table.tex}
+\end{table}

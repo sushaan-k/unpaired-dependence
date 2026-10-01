@@ -1,0 +1,22 @@
+[ok] freeze: plan and code unchanged since the freeze: 2026-09-27T17:26:25-0400
+[ok] hao: predictions hashed after the freeze, before scoring; files match the manifest: 2026-09-27T18:00:18-0400; present: predictions, msq, info
+[ok] stephenson: predictions hashed after the freeze, before scoring; files match the manifest: 2026-09-27T17:45:26-0400; present: predictions, msq, info
+[ok] bmmc_cite: predictions hashed after the freeze, before scoring; files match the manifest: 2026-09-27T18:23:25-0400; present: predictions, msq, info
+[ok] colon: predictions hashed after the freeze, before scoring; files match the manifest: 2026-09-27T17:57:56-0400; present: predictions, msq, info
+[ok] bmmc_multiome: predictions hashed after the freeze, before scoring; files match the manifest: 2026-09-27T18:50:02-0400; present: predictions, msq, info
+[ok] scala_m1: predictions hashed after the freeze, before scoring; files match the manifest: 2026-09-27T18:01:53-0400; present: predictions, msq, info
+[ok] gouwens_visp: predictions hashed after the freeze, before scoring; files match the manifest: 2026-09-27T18:45:13-0400; present: predictions, msq, info
+[ok] banc: predictions hashed after the freeze, before scoring; files match the manifest: 2026-09-27T18:14:47-0400; present: predictions, msq, info
+[ok] malecns: predictions hashed after the freeze, before scoring; files match the manifest: 2026-09-27T18:55:08-0400; present: predictions, msq, info
+[ok] banc_crossanimal: predictions hashed after the freeze, before scoring; files match the manifest: 2026-09-27T18:32:34-0400; present: predictions, msq, info
+[ok] summary: G1 and G2 recomputed from per-data-set results: G1 1.50 (1.40-1.55); verdicts {"G1_met": true, "G2_met": true}
+[ok] law: Spearman correlation recomputed; observed savings equal the per-data-set results: rho -0.09, p 0.6271
+[ok] amendments: script unchanged since amendment 2; the other data sets were scored after it: amendment 2 at 2026-09-27T18:07:08-0400; later: bmmc_cite, bmmc_multiome, gouwens_visp, banc, malecns
+[ok] amended summary: G1' recomputed; every amended run reproduced the frozen savings exactly: G1' 2.90 (2.26-3.03) over 8 informative data sets
+[ok] assets: regenerated gen_*.tex equal revision/source
+[ok] data: extracted files match the freeze record
+[ok] colon: re-scored from hashed predictions (2026-09-27T17:57:56-0400): largest difference 0.0e+00
+[ok] scala_m1: re-scored from hashed predictions (2026-09-27T18:01:53-0400): largest difference 0.0e+00
+[ok] banc: re-scored from hashed predictions (2026-09-27T18:14:47-0400): largest difference 0.0e+00
+
+20 of 20 checks passed

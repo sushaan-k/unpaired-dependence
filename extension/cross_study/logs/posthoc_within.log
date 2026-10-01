@@ -1,0 +1,63 @@
+{
+ "units": 512,
+ "patients": 118,
+ "types": {
+  "B_cell": 81,
+  "CD14": 72,
+  "CD16": 22,
+  "CD4": 111,
+  "CD8": 106,
+  "DCs": 1,
+  "HSC": 1,
+  "MAIT": 1,
+  "NK_16hi": 102,
+  "Plasmablast": 6,
+  "Treg": 3,
+  "gdT": 6
+ },
+ "scale": 0.001,
+ "dimension_M": 86,
+ "effective_dimension": 94.3910143187765
+}
+{
+ "hao/total": {
+  "mean_E": 0.6597535839197914,
+  "donors_below_1": 8,
+  "mean_E_frozen_pf_means": 0.29163597964801247,
+  "mean_E_paired": 0.13424856354701847,
+  "mean_rho": 0.63548920028848,
+  "mean_floor": 0.1291092593569183
+ },
+ "hao/within_l1": {
+  "mean_E": 1.2868780949172147,
+  "donors_below_1": 0,
+  "mean_E_frozen_pf_means": 1.0819759967054203,
+  "mean_E_paired": 0.5280401216928268,
+  "mean_rho": 0.49822636478430027,
+  "mean_floor": 0.2783223477844265
+ },
+ "hao/within_l2": {
+  "mean_E": 2.1632742256647606,
+  "donors_below_1": 0,
+  "mean_E_frozen_pf_means": 1.4844264165992302,
+  "mean_E_paired": 0.8683627673451344,
+  "mean_rho": 0.4658104258095175,
+  "mean_floor": 0.4029951406718286
+ },
+ "colon/total": {
+  "mean_E": 1.104114472803695,
+  "donors_below_1": 1,
+  "mean_E_frozen_pf_means": 0.9877616607674038,
+  "mean_E_paired": 0.7192004217535616,
+  "mean_rho": 0.5152141206555102,
+  "mean_floor": 0.4860316746811571
+ },
+ "colon/within_coarse": {
+  "mean_E": 1.5208174627224753,
+  "donors_below_1": 0,
+  "mean_E_frozen_pf_means": 1.2736596066419528,
+  "mean_E_paired": 0.9996722098684031,
+  "mean_rho": 0.4521816280898305,
+  "mean_floor": 0.755580532946515
+ }
+}

@@ -1,0 +1,9 @@
+[06:20:48] fafb_vpn p100 target 0.5: observed 38=; m=50: median achieved 0.572, reached 0.86; m=100: median achieved 0.691, reached 0.99; m=200: median achieved 0.791, reached 1.00
+[06:20:49] fafb_vpn p100 target 0.3: observed 25<=; m=50: median achieved 0.570, reached 0.98; m=100: median achieved 0.693, reached 1.00; m=200: median achieved 0.796, reached 1.00
+[06:20:50] fafb_vpn p100 target 0.7: observed 110=; m=50: median achieved 0.675, reached 0.31; m=100: median achieved 0.700, reached 0.50; m=200: median achieved 0.789, reached 0.99
+[06:20:52] fafb_vpn p200 target 0.5: observed 32=; m=50: median achieved 0.580, reached 0.92; m=100: median achieved 0.701, reached 1.00; m=200: median achieved 0.803, reached 1.00
+[06:20:53] fafb_vpn p200 target 0.3: observed 25<=; m=50: median achieved 0.592, reached 1.00; m=100: median achieved 0.712, reached 1.00; m=200: median achieved 0.795, reached 1.00
+[06:20:55] fafb_vpn p200 target 0.7: observed 96=; m=50: median achieved 0.676, reached 0.32; m=100: median achieved 0.709, reached 0.59; m=200: median achieved 0.798, reached 1.00
+[06:20:57] fafb_vpn p400 target 0.5: observed 29=; m=50: median achieved 0.600, reached 0.96; m=100: median achieved 0.703, reached 1.00; m=200: median achieved 0.792, reached 1.00
+[06:20:59] fafb_vpn p400 target 0.3: observed 25<=; m=50: median achieved 0.602, reached 1.00; m=100: median achieved 0.719, reached 1.00; m=200: median achieved 0.800, reached 1.00
+[06:21:01] fafb_vpn p400 target 0.7: observed 94=; m=50: median achieved 0.688, reached 0.40; m=100: median achieved 0.706, reached 0.53; m=200: median achieved 0.797, reached 1.00

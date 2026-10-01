@@ -1,0 +1,147 @@
+\section{Learning without pairs in a perturbation screen}\label{sec:pert}
+This note describes the prespecified test of whether intervention-induced population
+variation lets RNA--protein dependence within conditions be recovered without
+paired cells.
+
+\subsection*{Data and split}
+The Perturb-CITE-seq screen of Frangieh et al.\cite{frangieh2021} was obtained
+from the scPerturb release\cite{peidli2024} (Zenodo record 7041849): \PtCells{} patient-derived melanoma cells
+with CRISPR knockouts of \PtTargets{} genes, cultured alone, with interferon-$\gamma$
+or with autologous tumour-infiltrating lymphocytes, with RNA and 24
+antibody-derived tags per cell. The release has no replicate or batch
+annotation. Targets were read from the detected guides, because the release's
+perturbation column names only the first of several targeted genes and labels
+cells with targeting and non-targeting guides as controls. We used the
+\PtSingleCells{} cells whose guides all targeted one gene and the \PtNTCells{}
+cells whose guides were all non-targeting.
+
+Every fourth target in a fixed pseudo-random order was held out (\PtHeldTargets{} targets), and
+every cell whose guides targeted a held-out gene was excluded from training and
+tuning. Within each training population (target by condition), cells in a fixed
+pseudo-random order formed an RNA half and a protein half. Within each
+held-out group and each condition of the non-targeting cells, the first half
+formed the adaptation cells and the second half the scoring cells, which
+alternated between sub-halves A and B. The gene panel was fixed from training
+cells only: the \PtEncodingGenes{} genes that encode proteins targeted by the
+antibodies and were detected in at least 1\% of training cells, then the genes of highest dispersion
+(detected in at least 5\%, not mitochondrial or ribosomal, log dispersion
+z-scored within 20 bins of mean log expression) up to \PtGenes{} genes. Protein
+features were the centred log ratios of the \PtProteins{} target antibodies. The
+split files were recorded before any statistic of held-out or
+non-targeting cells other than library sizes was computed.
+
+\subsection*{Protocol}
+The protocol was written after a development analysis on
+training targets only, in which every fourth training target played the held-out
+role (47 targets, 118 groups). There, the channel fitted to
+uncentred population means supported two between-condition directions and
+recovered \PtDevPooled\% of within-condition dependence, the condition-centred
+channel \PtDevPrimary\%, and the paired closed form \PtDevPaired\%; the
+condition-centred channel was chosen as primary, because the target is the dependence within
+conditions, and the code was run end to end on this split. The protocol, the
+code and the training fits were then registered. Predictions for
+eligible groups (at least 40 adaptation cells) were computed from adaptation
+cells, each assay separately, and recorded
+before the scoring files were opened; the evaluation recomputed every
+prediction and checked it against the record. There were no amendments.
+
+Arms were the primary condition-centred pairing-free channel with measured RNA
+correlation; its matched controls on pseudo-populations and derangements (ten
+draws each); the paired closed form, reference regression and pooled
+within-population cross-correlation of the condition, fitted on paired training
+cells; independence; and, as secondary arms, the uncentred channel with its own
+controls, the primary channel with noise-corrected RNA correlation, with its
+regression form and with the pooled training correlation matrices of the
+condition instead of the group's, the paired closed form with corrected RNA
+correlation, and ridge regression on the group's own adaptation pairs. The
+recovered fraction (Methods) removes scoring noise from both the gain over
+independence and the size of the target, so that arms are compared on the true
+within-group dependence; the mean relative Frobenius error, which scoring noise
+inflates towards one for every arm, is reported alongside.
+
+\subsection*{Results}
+All \PtGroups{} eligible held-out groups came from \PtHeldEligible{} of the
+\PtHeldTargets{} held-out targets. The primary channel supported \PtDimS{}
+direction (the uncentred channel \PtDimSPooled), and the direction held a median
+of \PtCoverage\% of the groups' corrected RNA variance (\PtCoverageNt\% for
+non-targeting cells). H1 (recovery above zero) was \PtHOne, H2 (recovery above
+both controls) was \PtHTwo, H3 (recovery in non-targeting cells) was \PtHThree{}
+and H4 (at least half of the paired closed form's recovery) was \PtHFour. All arms
+are in Supplementary Table~\ref{tab:pert}.
+
+\begin{table}[h]
+\caption{\textbf{Recovered fraction of within-condition dependence (\%).} Held-out
+targets: \PtGroups{} target-by-condition groups, 95\% intervals from 2,000
+resamples of targets; conditions are cultured alone, with interferon-$\gamma$ and
+with T cells. Non-targeting cells: three conditions pooled, intervals from 2,000
+resamples of guide sets. Error, mean relative Frobenius error over held-out
+groups against all scoring cells (independence, 1), inflated by scoring noise.
+Controls are averages over ten draws.}
+\label{tab:pert}
+\centering\scriptsize\setlength{\tabcolsep}{3pt}
+\input{pert_table.tex}
+\end{table}
+
+\subsection*{Programs and perturbation choice}
+These analyses were
+specified after the prespecified evaluation and registered before any of their statistics was computed; the
+held-out scoring cells had already been opened for the aggregate endpoint, so the analyses are
+exploratory. MSigDB Hallmark gene sets were downloaded from gsea-msigdb.org. The interferon block comprised \PgIfnGenes{}
+panel genes and the antibodies to HLA class~I (HLA-A, -B, -C and B2M), PD-L1 and
+CD47, whose genes belong to the interferon sets. Prespecified criteria: P1, a
+pairing-free share of the paired closed form above one half in the interferon
+block, was \PgPOne; P2, the same along the supported direction, was \PgPTwo{}
+(share \PgAlongShare\%; \PgAlongShareLo{} to \PgAlongShareHi\%); P3, higher
+recovery in the interferon block than in the complement (difference \PgDiff\%;
+\PgDiffLo--\PgDiffHi\%), was \PgPThree. The support of the interferon program, the
+mean squared correlation of its genes with the RNA score along the supported
+direction in adaptation cells, was \PgSupportIfn, against at most
+\PgSupportOtherMax{} for the \PgOtherCount{} other programs (Supplementary
+Table~\ref{tab:programs}).
+
+For perturbation choice, development on training targets only
+showed that channels fitted on 10 to 40 targets, selected at
+random or by exposure, retained many spurious directions and were often worse
+than independence, whereas removing a few targets from the full set left the
+estimator stable; the prespecified analysis therefore removed targets. The four
+targets of highest exposure, \DsTopFour, had exposures at least \DsExposureGap{}
+times that of any other target. After removal of the 5, 10 and 20 targets of
+highest exposure, the channel supported \DsFiveDimExp, \DsTenDimExp{} and
+\DsTwentyDimExp{} directions, against a mean of \DsFiveDimRand, \DsTenDimRand{} and
+\DsTwentyDimRand{} after random removals, none of which removed all. Recovery over
+all genes and proteins after removing the 5 of highest exposure was \DsFiveAllExp\%
+(random removals, mean \DsFiveAllRand\%, 5th percentile \DsFiveAllRandLow\%), and
+in the interferon block \DsFiveIfnExp\% (random \DsFiveIfnRand\%); after removing
+10, \DsTenAllExp\% (random \DsTenAllRand\%) and \DsTenIfnExp\% (random
+\DsTenIfnRand\%; \DsTenIfnBelow{} of \DsDraws{} random removals were at or below
+it). Removing the 5 and 10 targets of strongest effect (\DsTopStrengthFive{} first)
+left interferon-block recovery at \DsFiveIfnStr\% and \DsTenIfnStr\%
+(random minus strongest, \DsFiveIfnDiffStr\% and \DsTenIfnDiffStr\%; 95\% CI,
+\DsFiveIfnDiffStrLo--\DsFiveIfnDiffStrHi\% and \DsTenIfnDiffStrLo--\DsTenIfnDiffStrHi\%).
+Effect strength was a comparator, not a criterion. The design criterion was \DsDOne. Leaving single targets out, the loss of
+recovery was largest for \DsLooTop, but its rank correlation with exposure over all
+targets was \DsLooSpearman{} (permutation $P=\DsLooP$), because targets that move
+the same direction substitute for each other.
+
+\begin{table}[h]
+\caption{\textbf{Recovery by program (\%).} Held-out target-by-condition groups of
+the melanoma screen and non-targeting cells. Blocks: interferon genes and
+antibodies; the RNA score along the supported direction with all antibodies;
+interferon genes with all antibodies; all other genes and antibodies; genes of
+other Hallmark programs with all antibodies. Arms: no pairs, the primary pairing-free
+channel; paired CF, paired closed form; ref.\ regr., reference regression; transf.\
+corr., pooled within-condition correlation of paired training cells; own pairs, ridge
+regression on the group's paired adaptation cells; replicate, the adaptation half
+used directly as the estimate. Rel., split-half reliability of the scoring target
+(pooled over groups).}
+\label{tab:programs}
+\centering\scriptsize\setlength{\tabcolsep}{3pt}
+\input{pert_program_table.tex}
+\end{table}
+
+\subsection*{Limitations of this test}
+The screen used one patient-derived model without biological replicates, so
+intervals reflect variation among targets and guides only. Held-out groups had a
+median of \PtAdaptMedian{} adaptation cells, which limits the accuracy of the
+within-assay covariance matrices that closed-form transfer uses and favours
+arms that do not use them. The panel had 20 surface proteins.

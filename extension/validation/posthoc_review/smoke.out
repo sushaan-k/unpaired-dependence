@@ -1,0 +1,10 @@
+[16:29:18] global BH threshold at q=0.05: P <= 0.000521 (1387 of 133200 pairs)
+[16:29:36] fold 0 (XHLT2-HS6-BLE1) done [18s]; integrity {'max_abs_P': 4.742556320991298e-07, 'max_rel_msq': 0.0, 'compared': 165}
+[16:29:52] fold 17 (XHLT2-HS88-AAE6) done [17s]; integrity {'max_abs_P': 4.732673133389653e-07, 'max_rel_msq': 0.0, 'compared': 165}
+[16:29:52] champollion pools: B 882/854, CD4 T 2000/2000, CD8 T 1346/1339, NK 1514/1520, CD14 Mono 1231/1134
+[16:29:52] global BH threshold at q=0.05: P <= 0.000521 (1387 of 133200 pairs)
+[16:30:08] champollion fold 0 (XHLT2-HS6-BLE1) done [16s; fits 3.9s]
+[16:30:08] reproduction: readout 2.22e-16; recovered fraction 7.11e-15
+[16:30:09] alternatives: cells atlas >100, other <=25, own >100, paired_only =41, semicca =93, regression =48, semicca/pooled =94, semicca/mapped >100, semicca/percond >100, ridge_p/pooled >100, ridge_p/mapped >100, ridge_p/percond >100, ridge_u/pooled =48, ridge_u/mapped >100, ridge_u/percond >100; K1 False K2 False
+[16:30:09] champollion: cells >50 vs atlas (same draws) >50
+[16:30:10] calibration: p01 E1@100 89.9 vs 99.4; p05 E1@100 87.2 vs 98.7; p001 E1@100 93.1 vs 99.8; fdr05_unit E1@100 91.8 vs 99.7; fdr05_all E1@100 92.9 vs 99.9

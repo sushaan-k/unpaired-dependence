@@ -1,0 +1,24 @@
+[    44s] bmmc_multiome: fold 0 B=25 (bjs2 93, selftune 11, js 68, scose 5, fcose 4, lowrank 401, semicca 2338, ridge_p 149, ridge_u 157 ms/fit)
+[   141s] bmmc_multiome: fold 0 B=50 (bjs2 135, selftune 11, js 115, scose 7, fcose 7, lowrank 410, semicca 2346, ridge_p 155, ridge_u 155 ms/fit)
+[   271s] bmmc_multiome: fold 0 B=100 (bjs2 214, selftune 12, js 198, scose 11, fcose 10, lowrank 426, semicca 2373, ridge_p 152, ridge_u 150 ms/fit)
+[   417s] bmmc_multiome: fold 0 B=200 (bjs2 347, selftune 14, js 325, scose 17, fcose 20, lowrank 471, semicca 2381, ridge_p 156, ridge_u 155 ms/fit)
+[   591s] bmmc_multiome: fold 0 B=400 (bjs2 563, selftune 16, js 552, scose 26, fcose 53, lowrank 539, semicca 2444, ridge_p 161, ridge_u 158 ms/fit)
+[   702s] bmmc_multiome: fold 0 B=800 (bjs2 749, selftune 18, js 745, scose 32, fcose 129, lowrank 540, semicca 2293, ridge_p 151, ridge_u 147 ms/fit)
+[   727s] bmmc_multiome: fold 1 B=25 (bjs2 55, selftune 5, js 37, scose 3, fcose 3, lowrank 236, semicca 1763, ridge_p 99, ridge_u 98 ms/fit)
+[   775s] bmmc_multiome: fold 1 B=50 (bjs2 62, selftune 5, js 48, scose 4, fcose 3, lowrank 220, semicca 1496, ridge_p 85, ridge_u 84 ms/fit)
+[   838s] bmmc_multiome: fold 1 B=100 (bjs2 91, selftune 6, js 86, scose 5, fcose 5, lowrank 221, semicca 1399, ridge_p 82, ridge_u 79 ms/fit)
+[   910s] bmmc_multiome: fold 1 B=200 (bjs2 152, selftune 6, js 155, scose 8, fcose 9, lowrank 233, semicca 1354, ridge_p 80, ridge_u 78 ms/fit)
+[   997s] bmmc_multiome: fold 1 B=400 (bjs2 264, selftune 7, js 261, scose 13, fcose 28, lowrank 258, semicca 1363, ridge_p 80, ridge_u 79 ms/fit)
+[  1104s] bmmc_multiome: fold 1 B=800 (bjs2 465, selftune 10, js 461, scose 21, fcose 109, lowrank 306, semicca 1379, ridge_p 83, ridge_u 81 ms/fit)
+[  1124s] bmmc_multiome: fold 2 B=25 (bjs2 42, selftune 5, js 26, scose 2, fcose 2, lowrank 188, semicca 1170, ridge_p 67, ridge_u 67 ms/fit)
+[  1164s] bmmc_multiome: fold 2 B=50 (bjs2 54, selftune 5, js 42, scose 3, fcose 2, lowrank 192, semicca 1173, ridge_p 72, ridge_u 67 ms/fit)
+[  1227s] bmmc_multiome: fold 2 B=100 (bjs2 91, selftune 5, js 85, scose 6, fcose 4, lowrank 201, semicca 1182, ridge_p 72, ridge_u 69 ms/fit)
+[  1300s] bmmc_multiome: fold 2 B=200 (bjs2 153, selftune 6, js 151, scose 8, fcose 9, lowrank 219, semicca 1185, ridge_p 73, ridge_u 71 ms/fit)
+[  1384s] bmmc_multiome: fold 2 B=400 (bjs2 260, selftune 7, js 263, scose 13, fcose 27, lowrank 247, semicca 1214, ridge_p 77, ridge_u 75 ms/fit)
+[  1490s] bmmc_multiome: fold 2 B=800 (bjs2 444, selftune 10, js 453, scose 21, fcose 107, lowrank 298, semicca 1260, ridge_p 80, ridge_u 77 ms/fit)
+[  1502s] bmmc_multiome: predictions hashed
+[  1538s] bmmc_multiome: bootstrap 500/2000
+[  1566s] bmmc_multiome: bootstrap 1000/2000
+[  1594s] bmmc_multiome: bootstrap 1500/2000
+[  1623s] bmmc_multiome: bootstrap 2000/2000
+[  1624s] bmmc_multiome: done: proposed -18.1, -4.8, -3.7, 6.8, 18.1, 25.1; saving vs paired-only at 0.5: 1.00 [1.0, 1.0]

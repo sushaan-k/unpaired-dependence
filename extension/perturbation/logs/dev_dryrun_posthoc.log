@@ -1,0 +1,179 @@
+heldout groups 118
+nt groups 3
+128 training targets, 118 held-out groups
+fitted 0 of 15
+leave-one-out 0
+leave-one-out 25
+leave-one-out 50
+leave-one-out 75
+leave-one-out 100
+leave-one-out 125
+{
+ "verdict": {
+  "D1_remove5": true,
+  "D1_ifn_remove5": true,
+  "D1_remove10": true,
+  "D1_ifn_remove10": true
+ },
+ "none": {
+  "all": 0.10310751834049246,
+  "ifn": 0.5114816135284194,
+  "nt_all": 0.1386262678933565,
+  "nt_ifn": 0.2836648481148371
+ },
+ "ablation": {
+  "5": {
+   "all": {
+    "remove_exposure": 4.346939643461561e-05,
+    "remove_strength": 0.0042010525317448325,
+    "remove_random_mean": 0.10363262221193337,
+    "remove_random_q05": 0.08818841446442872,
+    "remove_random_min": 0.08570148895462218,
+    "random_minus_exposure": {
+     "value": 0.10358915281549876,
+     "ci": [
+      0.07111244185417724,
+      0.13418998912976599
+     ]
+    },
+    "random_minus_strength": {
+     "value": 0.09943156968018854,
+     "ci": [
+      0.0671807845271217,
+      0.1299267436705543
+     ]
+    },
+    "random_below_exposure": 0,
+    "nt": {
+     "remove_exposure": 4.08694998315629e-05,
+     "remove_strength": 0.004029292574064861,
+     "remove_random_mean": 0.13894795243253114
+    }
+   },
+   "ifn": {
+    "remove_exposure": 0.00011519732432555854,
+    "remove_strength": 0.0073874051071483714,
+    "remove_random_mean": 0.5133011227438293,
+    "remove_random_q05": 0.501560396131051,
+    "remove_random_min": 0.5014454882356045,
+    "random_minus_exposure": {
+     "value": 0.5131859254195038,
+     "ci": [
+      0.42104159210966013,
+      0.6039697566941883
+     ]
+    },
+    "random_minus_strength": {
+     "value": 0.5059137176366809,
+     "ci": [
+      0.41379649797937723,
+      0.5965910920675127
+     ]
+    },
+    "random_below_exposure": 0,
+    "nt": {
+     "remove_exposure": 8.651179918613737e-05,
+     "remove_strength": 0.00616448932876025,
+     "remove_random_mean": 0.28771898849595
+    }
+   },
+   "dim_S": {
+    "exposure": 0,
+    "strength": 0,
+    "random_mean": 1.0,
+    "random_zero": 0
+   }
+  },
+  "10": {
+   "all": {
+    "remove_exposure": 0.03888230858673685,
+    "remove_strength": 3.944909815511544e-05,
+    "remove_random_mean": 0.09872980145035429,
+    "remove_random_q05": 0.07810618802080017,
+    "remove_random_min": 0.07621498025741011,
+    "random_minus_exposure": {
+     "value": 0.05984749286361744,
+     "ci": [
+      0.033387699742663424,
+      0.08965082176678009
+     ]
+    },
+    "random_minus_strength": {
+     "value": 0.09869035235219917,
+     "ci": [
+      0.06861725896725132,
+      0.13001967330563796
+     ]
+    },
+    "random_below_exposure": 0,
+    "nt": {
+     "remove_exposure": 0.03532188713386189,
+     "remove_strength": 3.75208860713607e-05,
+     "remove_random_mean": 0.13709411334461744
+    }
+   },
+   "ifn": {
+    "remove_exposure": 0.10483667170810966,
+    "remove_strength": 7.413872445857608e-05,
+    "remove_random_mean": 0.5120916531393062,
+    "remove_random_q05": 0.4980050362539111,
+    "remove_random_min": 0.4971717506559359,
+    "random_minus_exposure": {
+     "value": 0.4072549814311965,
+     "ci": [
+      0.325055496168096,
+      0.5166674713282309
+     ]
+    },
+    "random_minus_strength": {
+     "value": 0.5120175144148476,
+     "ci": [
+      0.42608247849914543,
+      0.6278111432721369
+     ]
+    },
+    "random_below_exposure": 0,
+    "nt": {
+     "remove_exposure": 0.07757589730187968,
+     "remove_strength": 6.197163940689118e-05,
+     "remove_random_mean": 0.28595262022724033
+    }
+   },
+   "dim_S": {
+    "exposure": 0,
+    "strength": 0,
+    "random_mean": 1.0,
+    "random_zero": 0
+   }
+  }
+ },
+ "loo": {
+  "spearman_exposure": 0.0059512909723493865,
+  "p_exposure": 0.4527363184079602,
+  "top_drop": [
+   "CD274",
+   "CD47",
+   "ITGA3",
+   "CTPS1",
+   "NONO",
+   "HLA-B",
+   "CD44",
+   "TMED10",
+   "RB1",
+   "MYC"
+  ],
+  "top_exposure": [
+   "JAK2",
+   "IFNGR2",
+   "TMED10",
+   "CTPS1",
+   "MYC",
+   "DNMT1",
+   "CTSD",
+   "CKS1B",
+   "MIA",
+   "LGALS3BP"
+  ]
+ }
+}
+DRY RUN OK

@@ -1,0 +1,9 @@
+=== banc
+{"source": "banc connectome, compiled data of the fly connectome tutorial (gs://lee-lab_brain-and-nerve-cord-fly-connectome/compiled_data): banc_888_meta.feather, banc_888_edgelist_simple_v3.feather", "x": "brain-side synapse counts with partner groups (super class : hemilineage, else cell class), inputs and outputs", "y": "nerve-cord-side synapse counts, same groups", "unit": "cell type", "cond": "super class (descending, ascending)", "pop": "condition", "neurons": "descending and ascending neurons with a cell type and >= 50 synapses on each side", "cells": 2487, "units": 913}
+=== fafb_brain
+fafb_brain (2767, 608)
+=== manc_vnc
+manc_vnc (3149, 128)
+=== malecns
+{"source": "malecns connectome, compiled data of the fly connectome tutorial (gs://lee-lab_brain-and-nerve-cord-fly-connectome/compiled_data): malecns_09_meta.feather, malecns_09_simple_edgelist.feather", "x": "brain-side synapse counts with partner groups (super class : hemilineage, else cell class), inputs and outputs", "y": "nerve-cord-side synapse counts, same groups", "unit": "cell type", "cond": "super class (descending, ascending)", "pop": "condition", "neurons": "descending and ascending neurons with a cell type and >= 50 synapses on each side", "cells": 3009, "units": 1010}
+done

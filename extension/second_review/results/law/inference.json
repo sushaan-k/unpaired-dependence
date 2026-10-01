@@ -1,0 +1,628 @@
+{
+ "0.5": {
+  "estimable": 10,
+  "datasets": [
+   "banc_vpn",
+   "fafb_vpn",
+   "sln111",
+   "sln206"
+  ],
+  "per_dataset": {
+   "banc_vpn": {
+    "problems": 2,
+    "median_abs_log2": 0.13626851518122454,
+    "median_log2": -0.13626851518122454,
+    "study": "fly visual neurons"
+   },
+   "fafb_vpn": {
+    "problems": 3,
+    "median_abs_log2": 0.23266171671505412,
+    "median_log2": -0.23266171671505412,
+    "study": "fly visual neurons"
+   },
+   "sln111": {
+    "problems": 3,
+    "median_abs_log2": 0.32999090312487195,
+    "median_log2": -0.32999090312487195,
+    "study": "mouse lymphoid CITE-seq"
+   },
+   "sln206": {
+    "problems": 2,
+    "median_abs_log2": 0.4353648792267385,
+    "median_log2": -0.4353648792267385,
+    "study": "mouse lymphoid CITE-seq"
+   }
+  },
+  "leave_one_out": {
+   "banc_vpn": 0.3251615688078532,
+   "fafb_vpn": 0.32999090312487195,
+   "sln111": 0.23266171671505412,
+   "sln206": 0.2262585720639121
+  },
+  "dataset_means": {
+   "rho": 1.0,
+   "p_one_sided_exact": 0.041666666666666664,
+   "datasets": 4
+  },
+  "within_dataset_permutation": {
+   "rho": 0.9757575757575757,
+   "permutations": 144,
+   "p_one_sided": 0.006944444444444444
+  },
+  "slope_fixed_effects": {
+   "slope": 1.0777138983489498,
+   "ci": [
+    0.9893526225401118,
+    1.2576781481965928
+   ]
+  },
+  "median_abs_log2": 0.27649697560294423,
+  "median_abs_log2_ci_datasets": [
+   0.15113377069971287,
+   0.3645357777827599
+  ],
+  "median_abs_log2_ci_studies": [
+   0.17225816001397468,
+   0.3308785006812944
+  ],
+  "non_estimable": [
+   {
+    "dataset": "sln206",
+    "problem": "p400",
+    "reason": "a curve does not reach the target within the budgets",
+    "rel_js": ">",
+    "rel_blocks": "="
+   },
+   {
+    "dataset": "pbmc10k",
+    "problem": "p100",
+    "reason": "target below both curves at the smallest budget",
+    "rel_js": "<=",
+    "rel_blocks": "<="
+   },
+   {
+    "dataset": "pbmc10k",
+    "problem": "p200",
+    "reason": "target below both curves at the smallest budget",
+    "rel_js": "<=",
+    "rel_blocks": "<="
+   },
+   {
+    "dataset": "pbmc10k",
+    "problem": "p400",
+    "reason": "target below both curves at the smallest budget",
+    "rel_js": "<=",
+    "rel_blocks": "<="
+   },
+   {
+    "dataset": "malt10k",
+    "problem": "p100",
+    "reason": "target below both curves at the smallest budget",
+    "rel_js": "<=",
+    "rel_blocks": "<="
+   },
+   {
+    "dataset": "malt10k",
+    "problem": "p200",
+    "reason": "target below both curves at the smallest budget",
+    "rel_js": "<=",
+    "rel_blocks": "<="
+   },
+   {
+    "dataset": "malt10k",
+    "problem": "p400",
+    "reason": "target below both curves at the smallest budget",
+    "rel_js": "<=",
+    "rel_blocks": "<="
+   },
+   {
+    "dataset": "bmcite",
+    "problem": "p100",
+    "reason": "target below both curves at the smallest budget",
+    "rel_js": "<=",
+    "rel_blocks": "<="
+   },
+   {
+    "dataset": "bmcite",
+    "problem": "p200",
+    "reason": "target below both curves at the smallest budget",
+    "rel_js": "<=",
+    "rel_blocks": "<="
+   },
+   {
+    "dataset": "bmcite",
+    "problem": "p400",
+    "reason": "one curve starts above the target",
+    "rel_js": "=",
+    "rel_blocks": "<="
+   },
+   {
+    "dataset": "fetal_cortex",
+    "problem": "p100",
+    "reason": "a curve does not reach the target within the budgets",
+    "rel_js": ">",
+    "rel_blocks": ">"
+   },
+   {
+    "dataset": "fetal_cortex",
+    "problem": "p200",
+    "reason": "a curve does not reach the target within the budgets",
+    "rel_js": ">",
+    "rel_blocks": ">"
+   },
+   {
+    "dataset": "fetal_cortex",
+    "problem": "p400",
+    "reason": "a curve does not reach the target within the budgets",
+    "rel_js": ">",
+    "rel_blocks": ">"
+   },
+   {
+    "dataset": "snare_cortex",
+    "problem": "p100",
+    "reason": "a curve does not reach the target within the budgets",
+    "rel_js": ">",
+    "rel_blocks": "="
+   },
+   {
+    "dataset": "snare_cortex",
+    "problem": "p200",
+    "reason": "a curve does not reach the target within the budgets",
+    "rel_js": ">",
+    "rel_blocks": "="
+   },
+   {
+    "dataset": "snare_cortex",
+    "problem": "p400",
+    "reason": "a curve does not reach the target within the budgets",
+    "rel_js": ">",
+    "rel_blocks": "="
+   },
+   {
+    "dataset": "human_gaba",
+    "problem": "p100",
+    "reason": "a curve does not reach the target within the budgets",
+    "rel_js": ">",
+    "rel_blocks": ">"
+   },
+   {
+    "dataset": "human_gaba",
+    "problem": "p200",
+    "reason": "a curve does not reach the target within the budgets",
+    "rel_js": ">",
+    "rel_blocks": ">"
+   },
+   {
+    "dataset": "human_gaba",
+    "problem": "p400",
+    "reason": "a curve does not reach the target within the budgets",
+    "rel_js": ">",
+    "rel_blocks": ">"
+   }
+  ]
+ },
+ "0.3": {
+  "estimable": 8,
+  "datasets": [
+   "human_gaba",
+   "sln111",
+   "sln206"
+  ],
+  "per_dataset": {
+   "human_gaba": {
+    "problems": 2,
+    "median_abs_log2": 1.288668945387645,
+    "median_log2": -1.288668945387645,
+    "study": "human_gaba"
+   },
+   "sln111": {
+    "problems": 3,
+    "median_abs_log2": 0.7474366280465914,
+    "median_log2": -0.7474366280465914,
+    "study": "mouse lymphoid CITE-seq"
+   },
+   "sln206": {
+    "problems": 3,
+    "median_abs_log2": 0.6236893626198758,
+    "median_log2": -0.6236893626198758,
+    "study": "mouse lymphoid CITE-seq"
+   }
+  },
+  "leave_one_out": {
+   "human_gaba": 0.6855629953332336,
+   "sln111": 0.8535810986505793,
+   "sln206": 0.9897289184577067
+  },
+  "dataset_means": {
+   "rho": 1.0,
+   "p_one_sided_exact": 0.16666666666666666,
+   "datasets": 3
+  },
+  "within_dataset_permutation": {
+   "rho": 0.9523809523809524,
+   "permutations": 72,
+   "p_one_sided": 0.027777777777777776
+  },
+  "slope_fixed_effects": {
+   "slope": 0.9796102535680269,
+   "ci": [
+    -2.3896325364435453,
+    1.221514096999591
+   ]
+  },
+  "median_abs_log2": 0.8005088633485853,
+  "median_abs_log2_ci_datasets": [
+   0.6236893626198758,
+   1.288668945387645
+  ],
+  "median_abs_log2_ci_studies": [
+   0.6855629953332336,
+   1.288668945387645
+  ],
+  "non_estimable": [
+   {
+    "dataset": "pbmc10k",
+    "problem": "p100",
+    "reason": "target below both curves at the smallest budget",
+    "rel_js": "<=",
+    "rel_blocks": "<="
+   },
+   {
+    "dataset": "pbmc10k",
+    "problem": "p200",
+    "reason": "target below both curves at the smallest budget",
+    "rel_js": "<=",
+    "rel_blocks": "<="
+   },
+   {
+    "dataset": "pbmc10k",
+    "problem": "p400",
+    "reason": "target below both curves at the smallest budget",
+    "rel_js": "<=",
+    "rel_blocks": "<="
+   },
+   {
+    "dataset": "malt10k",
+    "problem": "p100",
+    "reason": "target below both curves at the smallest budget",
+    "rel_js": "<=",
+    "rel_blocks": "<="
+   },
+   {
+    "dataset": "malt10k",
+    "problem": "p200",
+    "reason": "target below both curves at the smallest budget",
+    "rel_js": "<=",
+    "rel_blocks": "<="
+   },
+   {
+    "dataset": "malt10k",
+    "problem": "p400",
+    "reason": "target below both curves at the smallest budget",
+    "rel_js": "<=",
+    "rel_blocks": "<="
+   },
+   {
+    "dataset": "bmcite",
+    "problem": "p100",
+    "reason": "target below both curves at the smallest budget",
+    "rel_js": "<=",
+    "rel_blocks": "<="
+   },
+   {
+    "dataset": "bmcite",
+    "problem": "p200",
+    "reason": "target below both curves at the smallest budget",
+    "rel_js": "<=",
+    "rel_blocks": "<="
+   },
+   {
+    "dataset": "bmcite",
+    "problem": "p400",
+    "reason": "target below both curves at the smallest budget",
+    "rel_js": "<=",
+    "rel_blocks": "<="
+   },
+   {
+    "dataset": "fetal_cortex",
+    "problem": "p100",
+    "reason": "a curve does not reach the target within the budgets",
+    "rel_js": ">",
+    "rel_blocks": "="
+   },
+   {
+    "dataset": "fetal_cortex",
+    "problem": "p200",
+    "reason": "a curve does not reach the target within the budgets",
+    "rel_js": ">",
+    "rel_blocks": "="
+   },
+   {
+    "dataset": "fetal_cortex",
+    "problem": "p400",
+    "reason": "a curve does not reach the target within the budgets",
+    "rel_js": ">",
+    "rel_blocks": "="
+   },
+   {
+    "dataset": "snare_cortex",
+    "problem": "p100",
+    "reason": "a curve does not reach the target within the budgets",
+    "rel_js": ">",
+    "rel_blocks": "="
+   },
+   {
+    "dataset": "snare_cortex",
+    "problem": "p200",
+    "reason": "a curve does not reach the target within the budgets",
+    "rel_js": ">",
+    "rel_blocks": "="
+   },
+   {
+    "dataset": "snare_cortex",
+    "problem": "p400",
+    "reason": "a curve does not reach the target within the budgets",
+    "rel_js": ">",
+    "rel_blocks": "="
+   },
+   {
+    "dataset": "fafb_vpn",
+    "problem": "p100",
+    "reason": "one curve starts above the target",
+    "rel_js": "=",
+    "rel_blocks": "<="
+   },
+   {
+    "dataset": "fafb_vpn",
+    "problem": "p200",
+    "reason": "one curve starts above the target",
+    "rel_js": "=",
+    "rel_blocks": "<="
+   },
+   {
+    "dataset": "fafb_vpn",
+    "problem": "p400",
+    "reason": "one curve starts above the target",
+    "rel_js": "=",
+    "rel_blocks": "<="
+   },
+   {
+    "dataset": "banc_vpn",
+    "problem": "p100",
+    "reason": "one curve starts above the target",
+    "rel_js": "=",
+    "rel_blocks": "<="
+   },
+   {
+    "dataset": "banc_vpn",
+    "problem": "p200",
+    "reason": "one curve starts above the target",
+    "rel_js": "=",
+    "rel_blocks": "<="
+   },
+   {
+    "dataset": "human_gaba",
+    "problem": "p400",
+    "reason": "a curve does not reach the target within the budgets",
+    "rel_js": ">",
+    "rel_blocks": ">"
+   }
+  ]
+ },
+ "0.7": {
+  "estimable": 5,
+  "datasets": [
+   "banc_vpn",
+   "fafb_vpn"
+  ],
+  "per_dataset": {
+   "banc_vpn": {
+    "problems": 2,
+    "median_abs_log2": 0.02731968600315009,
+    "median_log2": 0.02731968600315009,
+    "study": "fly visual neurons"
+   },
+   "fafb_vpn": {
+    "problems": 3,
+    "median_abs_log2": 0.07583936110653398,
+    "median_log2": -0.07583936110653398,
+    "study": "fly visual neurons"
+   }
+  },
+  "leave_one_out": {
+   "banc_vpn": 0.07583936110653398,
+   "fafb_vpn": 0.02731968600315009
+  },
+  "within_dataset_permutation": {
+   "rho": 0.9999999999999999,
+   "permutations": 12,
+   "p_one_sided": 0.08333333333333333
+  },
+  "slope_fixed_effects": {
+   "slope": 1.0184124864016786,
+   "ci": [
+    0.9875392873504796,
+    1.1488086997453069
+   ]
+  },
+  "median_abs_log2": 0.06173533911689705,
+  "median_abs_log2_ci_datasets": [
+   0.02731968600315009,
+   0.07583936110653398
+  ],
+  "median_abs_log2_ci_studies": [
+   0.06173533911689705,
+   0.06173533911689705
+  ],
+  "non_estimable": [
+   {
+    "dataset": "sln111",
+    "problem": "p100",
+    "reason": "a curve does not reach the target within the budgets",
+    "rel_js": ">",
+    "rel_blocks": "="
+   },
+   {
+    "dataset": "sln111",
+    "problem": "p200",
+    "reason": "a curve does not reach the target within the budgets",
+    "rel_js": ">",
+    "rel_blocks": "="
+   },
+   {
+    "dataset": "sln111",
+    "problem": "p400",
+    "reason": "a curve does not reach the target within the budgets",
+    "rel_js": ">",
+    "rel_blocks": "="
+   },
+   {
+    "dataset": "sln206",
+    "problem": "p100",
+    "reason": "a curve does not reach the target within the budgets",
+    "rel_js": ">",
+    "rel_blocks": "="
+   },
+   {
+    "dataset": "sln206",
+    "problem": "p200",
+    "reason": "a curve does not reach the target within the budgets",
+    "rel_js": ">",
+    "rel_blocks": "="
+   },
+   {
+    "dataset": "sln206",
+    "problem": "p400",
+    "reason": "a curve does not reach the target within the budgets",
+    "rel_js": ">",
+    "rel_blocks": "="
+   },
+   {
+    "dataset": "pbmc10k",
+    "problem": "p100",
+    "reason": "one curve starts above the target",
+    "rel_js": "=",
+    "rel_blocks": "<="
+   },
+   {
+    "dataset": "pbmc10k",
+    "problem": "p200",
+    "reason": "one curve starts above the target",
+    "rel_js": "=",
+    "rel_blocks": "<="
+   },
+   {
+    "dataset": "pbmc10k",
+    "problem": "p400",
+    "reason": "one curve starts above the target",
+    "rel_js": "=",
+    "rel_blocks": "<="
+   },
+   {
+    "dataset": "malt10k",
+    "problem": "p100",
+    "reason": "one curve starts above the target",
+    "rel_js": "=",
+    "rel_blocks": "<="
+   },
+   {
+    "dataset": "malt10k",
+    "problem": "p200",
+    "reason": "one curve starts above the target",
+    "rel_js": "=",
+    "rel_blocks": "<="
+   },
+   {
+    "dataset": "malt10k",
+    "problem": "p400",
+    "reason": "one curve starts above the target",
+    "rel_js": "=",
+    "rel_blocks": "<="
+   },
+   {
+    "dataset": "bmcite",
+    "problem": "p100",
+    "reason": "one curve starts above the target",
+    "rel_js": "=",
+    "rel_blocks": "<="
+   },
+   {
+    "dataset": "bmcite",
+    "problem": "p200",
+    "reason": "one curve starts above the target",
+    "rel_js": "=",
+    "rel_blocks": "<="
+   },
+   {
+    "dataset": "bmcite",
+    "problem": "p400",
+    "reason": "one curve starts above the target",
+    "rel_js": "=",
+    "rel_blocks": "<="
+   },
+   {
+    "dataset": "fetal_cortex",
+    "problem": "p100",
+    "reason": "a curve does not reach the target within the budgets",
+    "rel_js": ">",
+    "rel_blocks": ">"
+   },
+   {
+    "dataset": "fetal_cortex",
+    "problem": "p200",
+    "reason": "a curve does not reach the target within the budgets",
+    "rel_js": ">",
+    "rel_blocks": ">"
+   },
+   {
+    "dataset": "fetal_cortex",
+    "problem": "p400",
+    "reason": "a curve does not reach the target within the budgets",
+    "rel_js": ">",
+    "rel_blocks": ">"
+   },
+   {
+    "dataset": "snare_cortex",
+    "problem": "p100",
+    "reason": "a curve does not reach the target within the budgets",
+    "rel_js": ">",
+    "rel_blocks": ">"
+   },
+   {
+    "dataset": "snare_cortex",
+    "problem": "p200",
+    "reason": "a curve does not reach the target within the budgets",
+    "rel_js": ">",
+    "rel_blocks": ">"
+   },
+   {
+    "dataset": "snare_cortex",
+    "problem": "p400",
+    "reason": "a curve does not reach the target within the budgets",
+    "rel_js": ">",
+    "rel_blocks": ">"
+   },
+   {
+    "dataset": "human_gaba",
+    "problem": "p100",
+    "reason": "a curve does not reach the target within the budgets",
+    "rel_js": ">",
+    "rel_blocks": ">"
+   },
+   {
+    "dataset": "human_gaba",
+    "problem": "p200",
+    "reason": "a curve does not reach the target within the budgets",
+    "rel_js": ">",
+    "rel_blocks": ">"
+   },
+   {
+    "dataset": "human_gaba",
+    "problem": "p400",
+    "reason": "a curve does not reach the target within the budgets",
+    "rel_js": ">",
+    "rel_blocks": ">"
+   }
+  ]
+ }
+}

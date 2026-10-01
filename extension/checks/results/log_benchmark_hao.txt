@@ -1,0 +1,48 @@
+[07:18:22] fold 0 B=25 (bjs2 51, selftune 7, js 32, scose 3, fcose 4, lowrank 219, semicca 1193, ridge_p 69, ridge_u 75 ms/fit)
+[07:19:01] fold 0 B=50 (bjs2 61, selftune 7, js 46, scose 4, fcose 4, lowrank 221, semicca 1188, ridge_p 70, ridge_u 74 ms/fit)
+[07:19:54] fold 0 B=100 (bjs2 91, selftune 7, js 86, scose 6, fcose 6, lowrank 233, semicca 1236, ridge_p 74, ridge_u 73 ms/fit)
+[07:21:00] fold 0 B=200 (bjs2 152, selftune 8, js 163, scose 9, fcose 11, lowrank 249, semicca 1258, ridge_p 76, ridge_u 74 ms/fit)
+[07:22:49] fold 0 B=400 (bjs2 282, selftune 10, js 291, scose 15, fcose 32, lowrank 295, semicca 1329, ridge_p 83, ridge_u 88 ms/fit)
+[07:25:27] fold 0 B=800 (bjs2 572, selftune 13, js 577, scose 34, fcose 163, lowrank 396, semicca 1429, ridge_p 92, ridge_u 94 ms/fit)
+[07:25:28] hao fold 0 regenerated [453s]
+[07:26:30] {
+ "test": "benchmark/hao",
+ "units_regenerated": 1,
+ "units": 3,
+ "budgets": [
+  25,
+  50,
+  100,
+  200,
+  400,
+  800
+ ],
+ "draws": [
+  5
+ ],
+ "curve_points_compared": 0,
+ "max_abs_difference_per_draw_vs_published": null,
+ "max_abs_difference_per_draw_vs_stored_unit_terms": 6.038920329138428e-16,
+ "max_abs_difference_stored_form_vs_published": 4.440892098500626e-16,
+ "averaged_prediction_minus_published": {
+  "min": 0.0,
+  "median": 0.07052358675101153,
+  "max": 2.0821235292224225,
+  "points": 156
+ },
+ "stored_vs_regenerated": {
+  "compared": 1248,
+  "draws_per_key": [
+   5
+  ],
+  "max_abs_mean_difference": 1.7208456881689926e-15,
+  "max_rel_msq_difference": 4.123783262727945e-16,
+  "rerun_fold_outputs": {
+   "keys": 428,
+   "max_abs_difference_means_and_maps": 0.0,
+   "max_rel_difference_msq": 0.0
+  }
+ },
+ "seconds": 515,
+ "passed": true
+}

@@ -1,0 +1,9 @@
+{
+  "recipients": 106,
+  "queries_per_recipient": 81,
+  "star_endpoints_certified": 17172,
+  "max_search_vs_certified_difference": 4.144812271178466e-11,
+  "scaling_failures_during_search": 0,
+  "objective_evaluations": 503825,
+  "compute_seconds": 15438.18387889862
+}

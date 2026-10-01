@@ -1,0 +1,12 @@
+XAUT1-HS1 {"pf_means_regression": 0.7491, "pf_means_closed_form": 0.5671, "pf_lowrank_regression": 0.4952, "pf_lowrank_closed_form": 0.4629} scale=0.001 29s
+XAUT1-HS10 {"pf_means_regression": 1.0215, "pf_means_closed_form": 0.8135, "pf_lowrank_regression": 0.7768, "pf_lowrank_closed_form": 0.7508} scale=0.001 30s
+XAUT1-HS11 {"pf_means_regression": 0.7179, "pf_means_closed_form": 0.5375, "pf_lowrank_regression": 0.5327, "pf_lowrank_closed_form": 0.4728} scale=0.001 27s
+XAUT1-HS12 {"pf_means_regression": 0.6959, "pf_means_closed_form": 0.5227, "pf_lowrank_regression": 0.535, "pf_lowrank_closed_form": 0.5265} scale=0.001 29s
+XAUT1-HS2 {"pf_means_regression": 0.8788, "pf_means_closed_form": 0.6414, "pf_lowrank_regression": 0.556, "pf_lowrank_closed_form": 0.5228} scale=0.001 28s
+XAUT1-HS3 {"pf_means_regression": 0.5779, "pf_means_closed_form": 0.4141, "pf_lowrank_regression": 0.3928, "pf_lowrank_closed_form": 0.324} scale=0.01 29s
+XAUT1-HS4 {"pf_means_regression": 0.6121, "pf_means_closed_form": 0.3922, "pf_lowrank_regression": 0.3939, "pf_lowrank_closed_form": 0.3351} scale=0.001 29s
+XAUT1-HS5 {"pf_means_regression": 0.6552, "pf_means_closed_form": 0.4251, "pf_lowrank_regression": 0.4277, "pf_lowrank_closed_form": 0.3422} scale=0.001 28s
+XAUT1-HS6 {"pf_means_regression": 0.6852, "pf_means_closed_form": 0.6337, "pf_lowrank_regression": 0.6291, "pf_lowrank_closed_form": 0.5483} scale=0.001 28s
+XAUT1-HS7 {"pf_means_regression": 0.7969, "pf_means_closed_form": 0.601, "pf_lowrank_regression": 0.5297, "pf_lowrank_closed_form": 0.5014} scale=0.001 29s
+XAUT1-HS8 {"pf_means_regression": 0.8163, "pf_means_closed_form": 0.4593, "pf_lowrank_regression": 0.4239, "pf_lowrank_closed_form": 0.3307} scale=0.001 30s
+XAUT1-HS9 {"pf_means_regression": 0.6758, "pf_means_closed_form": 0.4212, "pf_lowrank_regression": 0.4918, "pf_lowrank_closed_form": 0.3995} scale=0.001 27s

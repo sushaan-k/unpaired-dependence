@@ -1,0 +1,17 @@
+full {'ifn': np.float64(0.256), 'tnfa': np.float64(0.049), 'emt': np.float64(0.063)} ifn block 0.511 all 0.103
+k=10 random mean ifn:-0.65(q90 +0.00) tnfa:-0.73(q90 -0.26) emt:-0.52(q90 -0.04) ifnblock:-0.13(q90 +0.33) all:-0.97(q90 -0.23)
+   design[ifn] dimS 9 ifn:-0.60 tnfa:-0.70 emt:-0.45 ifnblock:-0.29 all:-0.63 top ['JAK2', 'IFNGR2', 'MYC', 'B2M', 'CTPS1', 'PET100']
+   design[tnfa] dimS 9 ifn:-0.07 tnfa:-0.27 emt:-0.13 ifnblock:+0.36 all:-0.38 top ['CTPS1', 'JAK2', 'PABPC1', 'MYC', 'IFNGR2', 'TMED10']
+   design[emt] dimS 13 ifn:-0.15 tnfa:-0.42 emt:-0.38 ifnblock:+0.40 all:-0.53 top ['MYC', 'CTPS1', 'PABPC1', 'JAK2', 'TMED10', 'CDC123']
+k=20 random mean ifn:-0.15(q90 +0.10) tnfa:-0.33(q90 +0.04) emt:-0.19(q90 +0.02) ifnblock:+0.16(q90 +0.38) all:-0.38(q90 +0.03)
+   design[ifn] dimS 2 ifn:+0.11 tnfa:-0.13 emt:-0.11 ifnblock:+0.38 all:-0.08 top ['JAK2', 'IFNGR2', 'MYC', 'B2M', 'CTPS1', 'PET100']
+   design[tnfa] dimS 8 ifn:-0.39 tnfa:-0.57 emt:-0.37 ifnblock:+0.23 all:-1.24 top ['CTPS1', 'JAK2', 'PABPC1', 'MYC', 'IFNGR2', 'TMED10']
+   design[emt] dimS 9 ifn:-0.58 tnfa:-0.50 emt:-0.24 ifnblock:-0.21 all:-0.57 top ['MYC', 'CTPS1', 'PABPC1', 'JAK2', 'TMED10', 'CDC123']
+k=40 random mean ifn:-0.00(q90 +0.16) tnfa:-0.08(q90 +0.08) emt:-0.04(q90 +0.11) ifnblock:+0.17(q90 +0.44) all:-0.10(q90 +0.08)
+   design[ifn] dimS 10 ifn:-0.61 tnfa:-0.59 emt:-0.33 ifnblock:-0.14 all:-0.71 top ['JAK2', 'IFNGR2', 'MYC', 'B2M', 'CTPS1', 'PET100']
+   design[tnfa] dimS 2 ifn:+0.19 tnfa:+0.00 emt:+0.02 ifnblock:+0.47 all:-0.01 top ['CTPS1', 'JAK2', 'PABPC1', 'MYC', 'IFNGR2', 'TMED10']
+   design[emt] dimS 10 ifn:-0.49 tnfa:-0.46 emt:-0.20 ifnblock:-0.08 all:-0.77 top ['MYC', 'CTPS1', 'PABPC1', 'JAK2', 'TMED10', 'CDC123']
+k=70 random mean ifn:+0.05(q90 +0.25) tnfa:-0.11(q90 +0.07) emt:-0.03(q90 +0.11) ifnblock:+0.30(q90 +0.50) all:-0.08(q90 +0.09)
+   design[ifn] dimS 1 ifn:+0.24 tnfa:+0.07 emt:+0.11 ifnblock:+0.47 all:+0.10 top ['JAK2', 'IFNGR2', 'MYC', 'B2M', 'CTPS1', 'PET100']
+   design[tnfa] dimS 1 ifn:+0.19 tnfa:-0.01 emt:+0.00 ifnblock:+0.46 all:+0.01 top ['CTPS1', 'JAK2', 'PABPC1', 'MYC', 'IFNGR2', 'TMED10']
+   design[emt] dimS 1 ifn:+0.22 tnfa:+0.02 emt:+0.03 ifnblock:+0.49 all:+0.05 top ['MYC', 'CTPS1', 'PABPC1', 'JAK2', 'TMED10', 'CDC123']

@@ -1,0 +1,229 @@
+\section{Learning without pairs in blood: protocol, identification analyses and complete results}\label{sec:cross}
+The protocol was written and registered
+before extraction, fitting and prediction, and before any recipient scoring
+cell was read. It is retrospective with respect to the released paper. The
+colon cohort had informed method development; the blood recipient cohort
+\cite{hao2021} had not been used in this project.
+
+\subsection*{Data and features}
+\textbf{Training populations.} Stephenson et al.\ \cite{stephenson2021}
+(E-MTAB-10026): samples without
+lipopolysaccharide stimulation; cells annotated as platelets or red cells
+removed; patients as units (\XsPatients{} patients, 13 with two samples
+pooled); at most 2,000 cells per patient, chosen pseudo-randomly
+(\XsTrainCells{} cells). Within each patient a second pseudo-random split divided the cells
+into an RNA half and a protein half (\XsHalfCells{} RNA-half cells); the
+pairing-free estimators saw only RNA moments of the first and protein moments
+of the second. Paired comparators used all selected cells.
+
+\textbf{Recipients.} The confirmatory blood cohort was the 3$'$ CITE-seq study of
+Hao et al.\ \cite{hao2021} (GEO GSE164378; \XsHaoDonors{} donors, three
+vaccination time points pooled per donor, \XsHaoCells{} cells,
+\XsHaoScoring{} scoring cells). The colon cohort was the 12 donors of the
+large-panel analysis with a new pseudo-random split (\XsColonScoring{} scoring cells).
+Scoring halves were written to separate files at split time and read only
+after the predictions had been recorded.
+
+\textbf{Features.} Proteins: the \XsProteins{} antibody targets present in all
+three panels, matched by specificity (isotype controls and three ambiguous
+targets excluded; where the blood recipient cohort measured a target with two
+clones, the clone annotated as human-specific, otherwise the first, was used),
+as $\log(1+\text{count})$ minus its mean over the matched targets of the
+cell. Genes: $\log(1+{}$counts per $10^4)$; the 200 genes with the highest
+variance-to-mean ratio over the selected training cells (mean above 0.05),
+among symbols shared by all three studies and detected in at least 1\% of the
+adaptation cells of both recipient studies, plus six panel genes not already
+selected (\XsGenes{} genes). No protein value, pairing, scoring cell or
+prediction entered feature selection.
+
+\subsection*{Arms and tuning}
+Pairing-free: (1) ridge regression of patient protein means on patient RNA
+means in pooled within-patient standard-deviation units, penalty scale
+\XsPfScale{} times the trace of the between-patient RNA-mean covariance,
+interior to its grid; (2) the Gaussian moment likelihood of
+Proposition~\ref{prop:pairing} with $W$ of rank \XsPfRank{}, penalty $10^{-3}$
+times that scale, rank chosen from $\{2,4,8,16,32\}$ by held-out patients'
+likelihood; the final fit stopped after \XsPfMomentIter{} iterations with
+gradient norm $\XsPfMomentGrad$. Paired: the profile-likelihood interaction
+(ridge \XsPairedRidge{}, interior), reference regression (penalty
+\XsRegLambda{} times the mean diagonal, interior), pooled within-patient
+cross-correlations and cross-covariances, and the closed form with identity
+marginals. Benchmark: ridge regression on the recipient's own adaptation
+pairs, tuned by three folds of adaptation cells. All tuned arms used a
+five-value grid, three patient-grouped folds (patients assigned pseudo-randomly) and the
+edge rule of the protocol.
+
+\textbf{Amendment.} Before any prediction was computed, the rank search of
+the moment estimator was restricted to its five-value grid without the edge
+extension, because extending it to full rank (122) would have required three
+cross-validation fits of more than an hour each on the available two cores;
+the within-colon re-analysis kept the rank of its first version (8). The
+information available at the time was the tuning outcome of the other arms and
+the fact that the rank search had reached the edge of its grid. The chosen rank
+(\XsPfRank) is therefore at the edge. The final fit stopped when the line
+search could not decrease the objective further; three restarts from that point
+changed the interaction by less than $\XsRestartBChange$ (relative) and no
+recipient's endpoint by more than $\XsRestartEChange$.
+
+\subsection*{Identifiability computations}
+The effective supported subspace $S$ was spanned by the eigenvectors of the
+between-patient RNA-mean matrix $G$ (pooled within-patient standard-deviation
+units) whose ridge factor $g/(g+\lambda)$ was at least one half, with
+$\lambda$ the fitted pairing-free penalty. $S$ is contained in the span $M$ of
+Proposition~\ref{prop:means} and depends on the penalty. The share of the
+recipient's standardized RNA variance inside $S$ is
+$\operatorname{tr}(P_SR_xP_S)/\operatorname{tr}R_x$ for its adaptation
+correlation matrix $R_x$ (the analyses of this note use measured $R_x$;
+Supplementary Note~\ref{sec:noise} repeats them with its latent part). The
+unsupported share is $\|R_x^{\mathrm{s}}(I-P_S)(R_x^{\mathrm{s}})^{-1}T\|_F/\|T\|_F$,
+with $R_x^{\mathrm{s}}$ the shrunk RNA correlation matrix of the scoring cells
+and $T$ their cross-correlation. The set of Proposition~\ref{prop:means}(4) was
+computed with the adaptation correlation matrices and the fitted $W$ on $S$.
+With measured RNA covariance, its whitened block $F$ had largest singular value
+between \XsMaxFMin{} and \XsMaxFMax. It exceeded one in \XsMaxFAboveOne{} of
+\XsIdUnits{} recipient analyses, including every total analysis (minimum
+\XsMaxFTotalMin), so the exact set was empty there. Supplementary
+Note~\ref{sec:noise} shows that RNA sampling noise explains most of this and
+separates the remaining incompatibility from sampling uncertainty. The radii
+below cap the singular values of $F$ at one, which is the same as clipping the
+negative eigenvalues of $I-F^\top F$ at zero; they describe a repaired set, not
+the identified one, and are kept for comparison with the earlier version. The
+per-gene analysis (each gene's row of the cross-correlation matrix) was added
+after scoring and is descriptive. In the per-gene analysis, the unsupported
+share of each gene's relationships had Spearman correlation
+\XsGeneSpearmanUnidHao{} with its prediction error in the confirmatory cohort and
+\XsGeneSpearmanUnidColon{} in colon, whereas the share of the gene's own axis
+inside $S$ had \XsGeneSpearmanAxisHao{} and \XsGeneSpearmanAxisColon. The
+unsupported part of the target was \XsHaoIdFloor{} of its norm (range
+\XsHaoIdFloorMin--\XsHaoIdFloorMax) in the confirmatory cohort's total analysis,
+\XsHaoWIdFloor{} within its level-1 types and \XsColonIdFloor{} in colon; the
+capped radius was \XsHaoIdRadius, \XsHaoWIdRadius{} and \XsColonIdRadius{} of
+the norm of the truth, respectively.
+
+\subsection*{Within-colon re-analysis of pairing-free learning}
+This re-analysis replaces an earlier version of the within-colon analysis, with the same recipients, genes, proteins, units,
+halves and endpoint. Each training biopsy's RNA moments came from one pseudo-random half
+of its cells and its protein moments from the other. Folds for tuning were
+donor-grouped. The ridge penalty was chosen from $\{10^{-4},\dots,1\}$ times the
+trace of the between-biopsy RNA-mean covariance with the edge rule. The moment
+estimator kept rank 8 and was run for up to 20,000 L-BFGS-B iterations
+(gradient tolerance $10^{-7}$); within this limit, \XsRigConverged{} of 12 fits converged. The
+other \XsRigContinued{} were continued post hoc from their final state for up to
+20,000 further iterations, after
+which \XsRigContinueConverged{} of them had converged; recipient errors changed by at
+most \XsRigContinueMaxChange{} and interactions by at most \XsRigContinueMaxWChange{}
+(relative Frobenius norm). Supplementary Table~\ref{tab:rigor} reports the errors
+at the limit. The permutation control
+reassigned protein moments between biopsies of different donors only, 200
+times for the primary estimator and 20 times for the moment estimator, with
+the same fitting rules. Supplementary Table~\ref{tab:rigor} gives every recipient.
+
+\begin{table}[h]
+\centering
+\caption{\textbf{Within-colon pairing-free learning, corrected re-analysis.}
+Relative cross-covariance error $E$ for each recipient, learned from the other
+donors' biopsies without paired cells; $p$ is the donor-aware permutation
+$p$-value (200 permutations for means, 20 for rank 8); $\dim M$ is the number
+of gene directions the ridge estimator kept by at least one half. An asterisk
+marks a rank-8 fit that stopped without meeting the convergence criterion.}
+\label{tab:rigor}
+\small
+\input{cross_rigor_table.tex}
+\end{table}
+
+\subsection*{Complete results}
+Supplementary Table~\ref{tab:cross} gives every arm's donor-mean error. The null of H1 kept
+each training site's patients but paired their RNA and protein moments at
+random within site; it therefore retained any site-level batch alignment,
+which makes it conservative.
+
+\begin{table}[h]
+\centering
+\caption{\textbf{Cross-study transfer: donor-mean relative error of the predicted
+cross-correlation matrix.} Interactions were learned in the training study and
+applied unchanged; the own paired half uses the recipient's adaptation pairs,
+which the setting does not permit. Type columns centre every cell by its
+cell-type mean in both assays. The last column is the mean correlation between
+predicted and held-out entries in colon (all cells).}
+\label{tab:cross}
+\small
+\input{cross_table.tex}
+\end{table}
+
+\subsection*{Post hoc analyses}
+Two exploratory analyses were appended to the protocol after scoring; their
+text and every version of the
+protocol are kept with the code. Neither changes any confirmatory result.
+
+\textbf{Between-type and within-type parts (P2).} For each recipient donor, the
+scoring cells of the kept level-1 (blood) or coarse (colon) types were used to
+compute the between-type part of the cross-covariance (type means weighted by
+type proportions) and the within-type part (pooled within-type
+cross-covariance); their sum is the total cross-covariance of those cells. Both
+parts were divided by the scoring cells' total standard deviations. The prespecified
+primary channel $W$ predicted each part from the donor's adaptation cells as
+the corresponding RNA covariance part, in the same units, times $W^\top$, with
+no saturation, so the two predicted parts also add to the direct-channel
+prediction of the total. Supplementary Table~\ref{tab:mixture} reports the relative
+Frobenius norm of each part of the truth, the relative error and the entry
+correlation of each predicted part, and, as a descriptive addition computed
+after P2 and not part of its plan, the share
+$\operatorname{tr}(P_MR P_M)/\operatorname{tr}R$ of each RNA covariance part $R$
+inside $M$. The direct channel's prediction of the within-type part had
+\XsMixHaoNormWithin{} times the norm of the truth in the confirmatory cohort. The
+direct channel without saturation is cruder than the closed form: for the total
+over the kept types its error was \XsMixHaoErrDirect{} in the confirmatory cohort,
+against \XsHaoErrPfMeans{} for the prespecified closed-form prediction of all cells.
+
+\begin{table}[h]
+\centering
+\caption{\textbf{Between-type and within-type parts of the cross-covariance.}
+Donor means. Norm share, Frobenius norm of each part of the scoring cells'
+cross-covariance relative to the total (the parts are not orthogonal, so the
+shares need not sum to one). Relative error and entry correlation, the prespecified
+pairing-free channel's prediction of each part. Share inside $S$, fraction of
+the corresponding RNA covariance of the adaptation cells inside the effective
+supported subspace (descriptive addition).}
+\label{tab:mixture}
+\small
+\input{mixture_table.tex}
+\end{table}
+
+\textbf{Training on variation within cell types (P1).} Training units were the
+training donors' cell types in the training study's initial clustering, with at least 50 cells in each
+pseudo-random half (\XsPoneUnits{} units). RNA moments came from the RNA half and
+protein moments from the protein half of each unit, and each unit's means were
+centred on the cell-weighted mean of its type across donors, leaving only
+variation among donors within types. The primary estimator was refitted by its
+prespecified rules, with donor-grouped folds. The supported subspace had \XsPoneDim{}
+directions, against \XsDimM{} for the prespecified fit, and the unsupported part of
+the level-1 within-type truth fell to \XsPoneFloor{} of its norm (from
+\XsHaoWIdFloor). The within-type error was \XsPoneErr{} at level 1 and
+\XsPoneErrLTwo{} at level 2, against \XsHaoWErrPfMeans{} and
+\XsHaoLTwoErrPfMeans{} for the prespecified fit, and the total error was
+\XsPoneErrTotal. The training labels are the original authors' annotations of
+the training study, which used both assays; the analysis therefore assumes
+that each assay carries its own cell-type labels, as annotated atlases do.
+
+\textbf{Gene--protein pairs.} Genes whose protein product was measured were
+matched to their antibody targets by gene symbol (21 pairs among the prespecified
+features). Their donor-mean held-out and predicted within-type correlations
+(level-1 types, confirmatory cohort) are descriptive and were computed after
+scoring; for FCGR3A and CD16 they were \XsPairFcgraWTruth{} held out,
+\XsPairFcgraWPaired{} for the paired closed form, \XsPairFcgraWBench{} for the
+recipient's own paired half and \XsPairFcgraWPfMeans{} for the primary
+pairing-free channel; for IGHD and IgD, \XsPairIghdWTruth, \XsPairIghdWPaired,
+\XsPairIghdWBench{} and \XsPairIghdWPfMeans; for KLRB1 and CD161,
+\XsPairKlrbWTruth, \XsPairKlrbWPaired, \XsPairKlrbWBench{} and
+\XsPairKlrbWPfMeans; and for IL7R and CD127, \XsPairIlrWTruth,
+\XsPairIlrWPaired, \XsPairIlrWBench{} and \XsPairIlrWPfMeans. Supplementary Fig.~\ref{sfig:entries} shows held-out against
+predicted entries of the cross-correlation matrix between and within cell types.
+
+\begin{figure}[htbp]
+\centering
+\resizebox{\textwidth}{!}{\input{entries_figure.tex}}
+\caption{\textbf{Gene--protein dependence between and within cell types in the confirmatory cohort.}
+Held-out cross-correlations against predictions, averaged over the \XsHaoDonors{} donors, for every sixteenth of the \XsGenes{}~$\times$~\XsProteins{} gene--protein pairs (grey) and for labelled pairs (coloured). \textbf{a}, All cells, pairing-free channel. \textbf{b}, Within level-1 cell types, pairing-free channel. \textbf{c}, Within level-1 cell types, paired closed form. Red, the four genes with the largest held-out within-type correlation with their own protein; blue, two lineage pairs. The diagonal marks perfect prediction. The labelled pairs and averages are descriptive and were chosen after scoring.}
+\label{sfig:entries}
+\end{figure}
+

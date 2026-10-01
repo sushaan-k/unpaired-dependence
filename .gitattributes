@@ -1,2 +1,8 @@
-data/confirmation/combat_citeseq/COMBAT_CITEseq_Composition-PerSample_CellType_Counts_and_PercentFrequencies_out_of_all_PBMCs.csv binary
-data/confirmation/stephenson_citeseq/E-MTAB-10026.sdrf.txt binary
+# Frozen research records must keep their recorded byte representation.
+extension/** -text
+release/** -text
+revision/source/** -text
+*.pdf binary
+*.png binary
+*.npz binary
+*.npy binary

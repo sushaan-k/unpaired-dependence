@@ -1,0 +1,699 @@
+{
+ "manifest": {
+  "predictions.npz": "ac82e56b1acebb4100fa77cf3062b981b21a4d0d53dac06f3ebccec078933a15",
+  "digests.json": "5e5ab110d499d5628a10d6fe3084a327306ac344151dbc62f08001e098e6a1de",
+  "diagnostics.json": "d323dfd5d29aa1628463d9d6e9c31914333e8de2b4a1b8ac42989f55688dc867",
+  "seal.json": "9452f09cbd8dcbefa9dfb4193ff48cef7f254cf702e7e4c2fb19e892d694aae7",
+  "freeze.json": "6d0187a1604582ce573c8ee9ea6e14676b4e6b65a5efb9a9167d599142d08640",
+  "frozen_at": "2026-09-27T08:18:29-04:00",
+  "note": "written before the scoring files were opened"
+ },
+ "blocks": {
+  "ifn_genes": [
+   "CD86",
+   "CD274",
+   "CCL7",
+   "CXCL11",
+   "CXCL9",
+   "IDO1",
+   "CD69",
+   "TNFAIP6",
+   "HLA-DQA1",
+   "MT2A",
+   "CCL2",
+   "SLAMF7",
+   "CXCL10",
+   "IFIT2",
+   "CCL5",
+   "RSAD2"
+  ],
+  "ifn_proteins": [
+   "CD86",
+   "PDL1"
+  ]
+ },
+ "test": {
+  "groups": 55,
+  "targets": 21,
+  "summary": {
+   "all": {
+    "pf_within_measured": -2.1240914084256928,
+    "pf_within_latent": -2.1444853957750984,
+    "paired_closed_form": 0.3236637264040636,
+    "reference_regression": 0.37138651756836494,
+    "transferred_correlation": 0.8124649805223757,
+    "benchmark": 0.21826014666022595,
+    "replicate": -2.046151625322944,
+    "pseudo": -0.1024256277768,
+    "derange": -0.45585626713203026,
+    "remove_exposure": -1.7233576828013988,
+    "remove_strength": -2.193005773180444,
+    "remove_random_mean": -2.1633113732638556,
+    "share_paired": -6.562648932039932,
+    "reliability": 0.13964746771868078
+   },
+   "ifn": {
+    "pf_within_measured": -0.02954349958491204,
+    "pf_within_latent": -0.0628271546974004,
+    "paired_closed_form": 0.8369496605417541,
+    "reference_regression": 0.8426763327245292,
+    "transferred_correlation": 0.9428241488233402,
+    "benchmark": 0.6065147582462401,
+    "replicate": 0.18868992263659254,
+    "pseudo": -0.0323092094782602,
+    "derange": -0.12437858888949238,
+    "remove_exposure": -0.05600438603189153,
+    "remove_strength": -0.22530531726532957,
+    "remove_random_mean": -0.03673862452302417,
+    "share_paired": -0.03529901615085028,
+    "reliability": 0.3354008664257966
+   },
+   "complement": {
+    "pf_within_measured": -2.005127579228821,
+    "pf_within_latent": -1.9434853020164822,
+    "paired_closed_form": 0.25088056563705846,
+    "reference_regression": 0.3055301117773626,
+    "transferred_correlation": 0.83742379678164,
+    "benchmark": 0.031307178371069874,
+    "replicate": -3.9009222603424694,
+    "pseudo": -0.1556226706577915,
+    "derange": -0.5356360797755169,
+    "remove_exposure": -1.6397504511100462,
+    "remove_strength": -1.7299932965900735,
+    "remove_random_mean": -2.2652427030073676,
+    "share_paired": -7.992359129680774,
+    "reliability": 0.0892318600133764
+   },
+   "along_S": {
+    "pf_within_measured": -1.235794028418463,
+    "pf_within_latent": -1.2783819785281563,
+    "paired_closed_form": 0.720858506596628,
+    "reference_regression": 0.7272728109923028,
+    "transferred_correlation": 0.8742069941204066,
+    "benchmark": 0.49937007899486113,
+    "replicate": -0.049521842791737505,
+    "pseudo": -0.08059098176755367,
+    "derange": -0.3744477000745185,
+    "remove_exposure": -1.1428411909176712,
+    "remove_strength": -1.551816363562909,
+    "remove_random_mean": -1.2338214262147869,
+    "share_paired": -1.7143364711793272,
+    "reliability": 0.30258715083592214
+   }
+  },
+  "by_replicate": {
+   "rep1-tx": {
+    "all": {
+     "pf_within_measured": -0.9782737211973258,
+     "pf_within_latent": -0.9856018549370739,
+     "paired_closed_form": 0.6171433904041522,
+     "reference_regression": 0.6350253081470879,
+     "transferred_correlation": 0.8264061164612746,
+     "benchmark": 0.46910152518948345,
+     "replicate": -0.6406784932569236,
+     "pseudo": -0.04891136336499677,
+     "derange": -0.2750650374513003,
+     "remove_exposure": -0.8362768318962486,
+     "remove_strength": -1.2026407858356067,
+     "remove_random_mean": -0.9811704862956173,
+     "share_paired": -1.5851643822300001,
+     "reliability": 0.22819324546552675
+    },
+    "ifn": {
+     "pf_within_measured": 0.24576576146291224,
+     "pf_within_latent": 0.19584820700496977,
+     "paired_closed_form": 0.8716130800701553,
+     "reference_regression": 0.8605562058464972,
+     "transferred_correlation": 0.8665768279719812,
+     "benchmark": 0.6651802539012578,
+     "replicate": 0.48645372368390616,
+     "pseudo": -0.017936123557452853,
+     "derange": -0.10191078778018406,
+     "remove_exposure": 0.11130845326225926,
+     "remove_strength": 0.014357998652582771,
+     "remove_random_mean": 0.2195162198580634,
+     "share_paired": 0.2819665825151807,
+     "reliability": 0.473145108509642
+    },
+    "complement": {
+     "pf_within_measured": -1.0480052153129122,
+     "pf_within_latent": -0.998902192078311,
+     "paired_closed_form": 0.5410861660417112,
+     "reference_regression": 0.597407477278623,
+     "transferred_correlation": 0.8489314140623475,
+     "benchmark": 0.30030585311246044,
+     "replicate": -2.0492388155715835,
+     "pseudo": -0.09316480556491362,
+     "derange": -0.3558001606959279,
+     "remove_exposure": -0.8932579518346867,
+     "remove_strength": -1.174327053766796,
+     "remove_random_mean": -1.1596556786370527,
+     "share_paired": -1.9368545734213498,
+     "reliability": 0.1372935223627703
+    },
+    "along_S": {
+     "pf_within_measured": -0.421647137815724,
+     "pf_within_latent": -0.4427261146503805,
+     "paired_closed_form": 0.8648000785089797,
+     "reference_regression": 0.8642440006525289,
+     "transferred_correlation": 0.8744829701941944,
+     "benchmark": 0.7111893058452473,
+     "replicate": 0.5234724099289206,
+     "pseudo": -0.03743290406968628,
+     "derange": -0.24072837926731122,
+     "remove_exposure": -0.44793254590871534,
+     "remove_strength": -0.7539449365828425,
+     "remove_random_mean": -0.3897890781746169,
+     "share_paired": -0.4875660262921054,
+     "reliability": 0.4355652166206224
+    }
+   },
+   "rep3-tx": {
+    "all": {
+     "pf_within_measured": -2.9793445004917687,
+     "pf_within_latent": -3.0151112392397446,
+     "paired_closed_form": 0.04753496403925028,
+     "reference_regression": 0.1627790066150094,
+     "transferred_correlation": 0.7991754642266077,
+     "benchmark": -0.15168115187086822,
+     "replicate": -3.3947389586955374,
+     "pseudo": -0.1629494967883047,
+     "derange": -0.6224067708901242,
+     "remove_exposure": -2.3556434512823405,
+     "remove_strength": -3.0332076252894677,
+     "remove_random_mean": -3.079420660266523,
+     "share_paired": -62.676906582524865,
+     "reliability": 0.10277700094608891
+    },
+    "ifn": {
+     "pf_within_measured": 0.08551485228565493,
+     "pf_within_latent": 0.09886016222293452,
+     "paired_closed_form": 0.7433724195545045,
+     "reference_regression": 0.7805240400255531,
+     "transferred_correlation": 0.8331734327632687,
+     "benchmark": 0.39286822578353037,
+     "replicate": 0.04778560823689831,
+     "pseudo": -0.027074957079432433,
+     "derange": -0.10631577815337061,
+     "remove_exposure": -0.10832390396079732,
+     "remove_strength": -0.30419003108146103,
+     "remove_random_mean": 0.042530541702956996,
+     "share_paired": 0.11503635329503227,
+     "reliability": 0.3209753814086306
+    },
+    "complement": {
+     "pf_within_measured": -2.218430268022482,
+     "pf_within_latent": -2.169915867970417,
+     "paired_closed_form": 0.03430303795861508,
+     "reference_regression": 0.10848204207587726,
+     "transferred_correlation": 0.7143348089994351,
+     "benchmark": -0.2816315722118334,
+     "replicate": -4.527011165631921,
+     "pseudo": -0.18256980848007154,
+     "derange": -0.5359866068753061,
+     "remove_exposure": -1.7895075845148205,
+     "remove_strength": -1.775820483861202,
+     "remove_random_mean": -2.583508710805873,
+     "share_paired": -64.67153931668993,
+     "reliability": 0.08148200319303915
+    },
+    "along_S": {
+     "pf_within_measured": -1.7594526172396117,
+     "pf_within_latent": -1.815594308649031,
+     "paired_closed_form": 0.5597487030098146,
+     "reference_regression": 0.6125476352022268,
+     "transferred_correlation": 0.8520882795095416,
+     "benchmark": 0.15334794403467078,
+     "replicate": -0.6386567696148445,
+     "pseudo": -0.1405324884814738,
+     "derange": -0.5101513601322748,
+     "remove_exposure": -1.5131701022114652,
+     "remove_strength": -2.1940999793335516,
+     "remove_random_mean": -1.8020753646507637,
+     "share_paired": -3.143290208228962,
+     "reliability": 0.24652576389129707
+    }
+   },
+   "rep4-tx": {
+    "all": {
+     "pf_within_measured": -3.9267174115754173,
+     "pf_within_latent": -3.9610095051133114,
+     "paired_closed_form": -0.070441264477152,
+     "reference_regression": -0.029369780386672623,
+     "transferred_correlation": 0.7939482993457051,
+     "benchmark": 0.0400582491574988,
+     "replicate": -3.902475149273867,
+     "pseudo": -0.1622374759829451,
+     "derange": -0.7028429762227187,
+     "remove_exposure": -3.154283115672483,
+     "remove_strength": -3.6314544873666823,
+     "remove_random_mean": -3.9831106228013686,
+     "share_paired": NaN,
+     "reliability": 0.09136892175702321
+    },
+    "ifn": {
+     "pf_within_measured": -1.2932236926306924,
+     "pf_within_latent": -1.375918058191799,
+     "paired_closed_form": 0.9314835895562792,
+     "reference_regression": 0.924025492268933,
+     "transferred_correlation": 1.4753743447799061,
+     "benchmark": 0.896240999641698,
+     "replicate": -0.5552529149929989,
+     "pseudo": -0.09646882419008175,
+     "derange": -0.2478632975076521,
+     "remove_exposure": -0.5370549073983621,
+     "remove_strength": -0.9051250294446697,
+     "remove_random_mean": -1.1476472509136064,
+     "share_paired": -1.3883483371368157,
+     "reliability": 0.17332681138507136
+    },
+    "complement": {
+     "pf_within_measured": -3.927459040734607,
+     "pf_within_latent": -3.814355740531564,
+     "paired_closed_form": -0.08129826883278989,
+     "reference_regression": -0.06285057590039096,
+     "transferred_correlation": 1.0132120982586648,
+     "benchmark": -0.0914547272400799,
+     "replicate": -7.267718602069163,
+     "pseudo": -0.25956626739644845,
+     "derange": -0.9623892633812933,
+     "remove_exposure": -3.166445601769854,
+     "remove_strength": -2.9747562112377337,
+     "remove_random_mean": -4.367140100446196,
+     "share_paired": NaN,
+     "reliability": 0.05328176478768796
+    },
+    "along_S": {
+     "pf_within_measured": -2.5843134990097023,
+     "pf_within_latent": -2.6628603452649546,
+     "paired_closed_form": 0.5635348990758298,
+     "reference_regression": 0.53190819267645,
+     "transferred_correlation": 0.8997153577685113,
+     "benchmark": 0.3967777211248789,
+     "replicate": -0.737562535859869,
+     "pseudo": -0.11399137981998866,
+     "derange": -0.5371246517274841,
+     "remove_exposure": -2.3845509522074755,
+     "remove_strength": -2.7206072069591247,
+     "remove_random_mean": -2.601815180617992,
+     "share_paired": -4.585897880056502,
+     "reliability": 0.20607651260234985
+    }
+   }
+  },
+  "intervals": {
+   "primary": {
+    "value": -2.1240914084256928,
+    "ci": [
+     -2.8747263752419108,
+     -1.572900482094308
+    ]
+   },
+   "primary_minus_pseudo": {
+    "value": -2.0216657806488927,
+    "ci": [
+     -2.7472381094023333,
+     -1.5052271600453737
+    ]
+   },
+   "primary_minus_derange": {
+    "value": -1.6682351412936625,
+    "ci": [
+     -2.3409333901872666,
+     -1.188806983101329
+    ]
+   },
+   "ifn_share_paired": {
+    "value": -0.03529901615085028,
+    "ci": [
+     -0.41336735754215354,
+     0.24347403866052714
+    ]
+   },
+   "random_minus_exposure_removal": {
+    "value": -0.4399536904624568,
+    "ci": [
+     -0.9061209633733436,
+     -0.0347966323586715
+    ]
+   },
+   "paired": {
+    "value": 0.3236637264040636,
+    "ci": [
+     0.20700695984224718,
+     0.4307659260158922
+    ]
+   },
+   "ifn_primary": {
+    "value": -0.02954349958491204,
+    "ci": [
+     -0.3564555832876187,
+     0.1948293731636479
+    ]
+   },
+   "ifn_paired": {
+    "value": 0.8369496605417541,
+    "ci": [
+     0.7271146936819097,
+     0.9969213863454157
+    ]
+   },
+   "share_paired": {
+    "value": -6.562648932039932,
+    "ci": [
+     -11.947035337725325,
+     -4.294794123661649
+    ]
+   },
+   "ifn_random_minus_exposure_removal": {
+    "value": 0.019265761508867357,
+    "ci": [
+     -0.21105339655728228,
+     0.20191815115734296
+    ]
+   },
+   "along_S_primary": {
+    "value": -1.235794028418463,
+    "ci": [
+     -1.882507812325383,
+     -0.7524102277834354
+    ]
+   },
+   "along_S_share_paired": {
+    "value": -1.7143364711793272,
+    "ci": [
+     -2.658266595725639,
+     -1.0689292533450283
+    ]
+   },
+   "ifn_transferred": {
+    "value": 0.9428241488233402,
+    "ci": [
+     0.801549037035693,
+     1.1455867314407193
+    ]
+   },
+   "ifn_replicate": {
+    "value": 0.18868992263659254,
+    "ci": [
+     -0.022411133958648726,
+     0.357344830109766
+    ]
+   }
+  }
+ },
+ "nt": {
+  "groups": 3,
+  "targets": 1,
+  "summary": {
+   "all": {
+    "pf_within_measured": -0.8953336513557876,
+    "pf_within_latent": -0.9272745905042339,
+    "paired_closed_form": 0.8201521459949414,
+    "reference_regression": 0.8129995470758812,
+    "transferred_correlation": 0.8972074209283055,
+    "benchmark": 0.7422514929961167,
+    "replicate": 0.6018496722042112,
+    "pseudo": -0.1552406140887717,
+    "derange": -0.25823770202538715,
+    "remove_exposure": -1.3209057185398747,
+    "remove_strength": -1.6372489514092394,
+    "remove_random_mean": -1.0955221766114802,
+    "share_paired": -1.0916677542428939,
+    "reliability": 0.4839999539858921
+   },
+   "ifn": {
+    "pf_within_measured": 0.20676304419737523,
+    "pf_within_latent": 0.15422904991752567,
+    "paired_closed_form": 0.8907936708883686,
+    "reference_regression": 0.893744340441701,
+    "transferred_correlation": 0.8553748361799173,
+    "benchmark": 0.7095269454734366,
+    "replicate": 0.8803144033638975,
+    "pseudo": -0.04021796891930877,
+    "derange": -0.08509951164173385,
+    "remove_exposure": 0.13907570643697895,
+    "remove_strength": -0.07609255870325532,
+    "remove_random_mean": 0.10888625758715233,
+    "share_paired": 0.2321110386776492,
+    "reliability": 0.7371107634096866
+   },
+   "complement": {
+    "pf_within_measured": -0.19384455442057852,
+    "pf_within_latent": -0.06072191287507779,
+    "paired_closed_form": 0.7451539401959651,
+    "reference_regression": 0.7416987229358011,
+    "transferred_correlation": 0.9238841551908281,
+    "benchmark": 0.7188376389079167,
+    "replicate": 0.36283526477635686,
+    "pseudo": -0.21281746018903544,
+    "derange": -0.31878362263439974,
+    "remove_exposure": -0.8379305078386174,
+    "remove_strength": -1.0463739629467141,
+    "remove_random_mean": -0.5697582251351004,
+    "share_paired": -0.2601402796979106,
+    "reliability": 0.3592167722504382
+   },
+   "along_S": {
+    "pf_within_measured": -0.7283124327352811,
+    "pf_within_latent": -0.8123329644282216,
+    "paired_closed_form": 0.8896700059632299,
+    "reference_regression": 0.8789395975736781,
+    "transferred_correlation": 0.9135996558059389,
+    "benchmark": 0.8309593161107186,
+    "replicate": 0.907694953487829,
+    "pseudo": -0.1549780695551064,
+    "derange": -0.20259024034315382,
+    "remove_exposure": -1.1563157433267186,
+    "remove_strength": -1.5909316500765864,
+    "remove_random_mean": -0.9277568856778475,
+    "share_paired": -0.8186321083700582,
+    "reliability": 0.7241125867792245
+   }
+  },
+  "by_replicate": {
+   "rep1-tx": {
+    "all": {
+     "pf_within_measured": -0.2151749218579215,
+     "pf_within_latent": -0.2004196623664829,
+     "paired_closed_form": 0.784280043073224,
+     "reference_regression": 0.7699821238223057,
+     "transferred_correlation": 0.9010808097692471,
+     "benchmark": 0.833826463530058,
+     "replicate": 0.7802987425307646,
+     "pseudo": -0.08688764199816304,
+     "derange": -0.10058158946695712,
+     "remove_exposure": -0.5321006341863541,
+     "remove_strength": -0.8630056028361198,
+     "remove_random_mean": -0.35514057708044994,
+     "share_paired": -0.2743598077731933,
+     "reliability": 0.6846004874115516
+    },
+    "ifn": {
+     "pf_within_measured": 0.12513665401633842,
+     "pf_within_latent": 0.04093716748365041,
+     "paired_closed_form": 0.8331490131958167,
+     "reference_regression": 0.8668199586542754,
+     "transferred_correlation": 0.8144151050295574,
+     "benchmark": 0.9074888551241367,
+     "replicate": 0.9145878960520648,
+     "pseudo": -0.032604972920806295,
+     "derange": -0.06772109176348699,
+     "remove_exposure": 0.026190392863813926,
+     "remove_strength": -0.2647603572485928,
+     "remove_random_mean": 0.004963807744291313,
+     "share_paired": 0.15019720606321751,
+     "reliability": 0.8219269438849254
+    },
+    "complement": {
+     "pf_within_measured": 0.09910460435302022,
+     "pf_within_latent": 0.18259870095885625,
+     "paired_closed_form": 0.663623523763114,
+     "reference_regression": 0.6484733392398442,
+     "transferred_correlation": 0.8731059910530528,
+     "benchmark": 0.7338748924468319,
+     "replicate": 0.6330446802858679,
+     "pseudo": -0.11461973393511973,
+     "derange": -0.09718678045214653,
+     "remove_exposure": -0.4049332645199879,
+     "remove_strength": -0.7759617415977763,
+     "remove_random_mean": -0.10446023262371476,
+     "share_paired": 0.14933859455590434,
+     "reliability": 0.6253153187343781
+    },
+    "along_S": {
+     "pf_within_measured": -0.08262754655804447,
+     "pf_within_latent": -0.10030747185685146,
+     "paired_closed_form": 0.794930590806647,
+     "reference_regression": 0.7857923032697659,
+     "transferred_correlation": 0.8875627335369909,
+     "benchmark": 0.885249018842817,
+     "replicate": 0.8961560653998685,
+     "pseudo": -0.09125291200014055,
+     "derange": -0.07766803611374953,
+     "remove_exposure": -0.393942630424449,
+     "remove_strength": -0.8834757269867974,
+     "remove_random_mean": -0.233170039426746,
+     "share_paired": -0.10394309580437594,
+     "reliability": 0.8990226921281678
+    }
+   },
+   "rep3-tx": {
+    "all": {
+     "pf_within_measured": -1.3901502787046858,
+     "pf_within_latent": -1.4292264324306454,
+     "paired_closed_form": 0.8216508070309145,
+     "reference_regression": 0.831308194374753,
+     "transferred_correlation": 0.7330834451893193,
+     "benchmark": 0.6324569654431944,
+     "replicate": 0.26090140716989657,
+     "pseudo": -0.2812171446410826,
+     "derange": -0.4177176031626361,
+     "remove_exposure": -2.1166445247469636,
+     "remove_strength": -2.2378108504384056,
+     "remove_random_mean": -1.6808678164291306,
+     "share_paired": -1.6918991216330437,
+     "reliability": 0.389809773714253
+    },
+    "ifn": {
+     "pf_within_measured": 0.08942078289218358,
+     "pf_within_latent": 0.01927446885839485,
+     "paired_closed_form": 0.8769048907298406,
+     "reference_regression": 0.8651688319684575,
+     "transferred_correlation": 0.7810909905154639,
+     "benchmark": 0.7526190532693108,
+     "replicate": 0.7969425242295541,
+     "pseudo": -0.04477489696038741,
+     "derange": -0.04157740934083838,
+     "remove_exposure": -0.0048368485523350895,
+     "remove_strength": -0.1380840420283646,
+     "remove_random_mean": -0.0031198220856435187,
+     "share_paired": 0.10197318299566036,
+     "reliability": 0.7184000317878335
+    },
+    "complement": {
+     "pf_within_measured": -0.621765640293576,
+     "pf_within_latent": -0.44339869375638263,
+     "paired_closed_form": 0.666313793941572,
+     "reference_regression": 0.6935293323898956,
+     "transferred_correlation": 0.5920484414173754,
+     "benchmark": 0.39852679667900104,
+     "replicate": -0.1934227750537187,
+     "pseudo": -0.28618079689417986,
+     "derange": -0.5093655506771707,
+     "remove_exposure": -1.6871020365644895,
+     "remove_strength": -1.4370979243714026,
+     "remove_random_mean": -1.1471123982933853,
+     "share_paired": -0.9331423811827879,
+     "reliability": 0.295053455037421
+    },
+    "along_S": {
+     "pf_within_measured": -0.9088457917361167,
+     "pf_within_latent": -1.0034992432640653,
+     "paired_closed_form": 0.8833562320427784,
+     "reference_regression": 0.8799294630580534,
+     "transferred_correlation": 0.7757906352508791,
+     "benchmark": 0.7910443452228505,
+     "replicate": 0.7649870358805498,
+     "pseudo": -0.27325739133336857,
+     "derange": -0.3089400668245641,
+     "remove_exposure": -1.6383039978827267,
+     "remove_strength": -1.7582975275231139,
+     "remove_random_mean": -1.1852004741626352,
+     "share_paired": -1.0288553572938441,
+     "reliability": 0.6824995707024747
+    }
+   },
+   "rep4-tx": {
+    "all": {
+     "pf_within_measured": -2.1245521908989504,
+     "pf_within_latent": -2.2667736457761314,
+     "paired_closed_form": 0.9087118223882581,
+     "reference_regression": 0.903270905388784,
+     "transferred_correlation": 1.0458172189714638,
+     "benchmark": 0.6184014247114642,
+     "replicate": 0.4830180597032705,
+     "pseudo": -0.20521461367560434,
+     "derange": -0.49995874243349714,
+     "remove_exposure": -2.5324290353099967,
+     "remove_strength": -3.000520696358745,
+     "remove_random_mean": -2.38851155069453,
+     "share_paired": -2.33798233780567,
+     "reliability": 0.3225971136965216
+    },
+    "ifn": {
+     "pf_within_measured": 0.40666910933828965,
+     "pf_within_latent": 0.4065876339172966,
+     "paired_closed_form": 0.9699368938037768,
+     "reference_regression": 0.9505737405292507,
+     "transferred_correlation": 0.9695374465332619,
+     "benchmark": 0.4418758112563097,
+     "replicate": 0.9156589790768633,
+     "pseudo": -0.04492278895887858,
+     "derange": -0.14433221936225932,
+     "remove_exposure": 0.39901987453670895,
+     "remove_strength": 0.19780773524500503,
+     "remove_random_mean": 0.32977411417077834,
+     "share_paired": 0.41927378155857725,
+     "reliability": 0.6997363481521804
+    },
+    "complement": {
+     "pf_within_measured": -0.8554252897728506,
+     "pf_within_latent": -0.561761336355146,
+     "paired_closed_form": 1.2812971095364092,
+     "reference_regression": 1.2800882959622872,
+     "transferred_correlation": 1.7606312834841769,
+     "benchmark": 1.215474691907797,
+     "replicate": 0.039926085490382415,
+     "pseudo": -0.5592122635918245,
+     "derange": -1.055961512285453,
+     "remove_exposure": -1.4304356935568001,
+     "remove_strength": -1.6646643150054454,
+     "remove_random_mean": -1.8025398701621922,
+     "share_paired": -0.6676244591563585,
+     "reliability": 0.1360598215500136
+    },
+    "along_S": {
+     "pf_within_measured": -2.176739725450244,
+     "pf_within_latent": -2.4179038210568797,
+     "paired_closed_form": 1.1366938550475214,
+     "reference_regression": 1.1142421399784808,
+     "transferred_correlation": 1.1246040290756119,
+     "benchmark": 0.7351900312357257,
+     "replicate": 1.0870657224546114,
+     "pseudo": -0.19226834514939523,
+     "derange": -0.4077032859889232,
+     "remove_exposure": -2.5837622043253923,
+     "remove_strength": -3.2099401562570185,
+     "remove_random_mean": -2.4193733299229065,
+     "share_paired": -1.914974481285677,
+     "reliability": 0.5123603803522491
+    }
+   }
+  },
+  "intervals": {
+   "primary": {
+    "value": -0.8953336513557876,
+    "ci": [
+     -1.3984446583329173,
+     -0.5160087278129485
+    ]
+   },
+   "paired": {
+    "value": 0.8201521459949414,
+    "ci": [
+     0.7027644727685579,
+     0.9473937900221888
+    ]
+   }
+  }
+ },
+ "verdict": {
+  "R1_recovery": false,
+  "R2_beats_pseudo_populations": false,
+  "R2_beats_derangements": false,
+  "R3_ifn_share_above_half": false,
+  "R4_nontargeting": false,
+  "R5_exposure_targets_matter": false
+ }
+}

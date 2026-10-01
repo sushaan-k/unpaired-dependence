@@ -1,0 +1,22 @@
+frozen 0.01
+P1 0.001 512
+learning curve done
+permutations done
+colon 0.01 21
+{
+ "frozen": {
+  "scale": 0.01,
+  "at_edge": false,
+  "n_train": 118
+ },
+ "P1": {
+  "scale": 0.001,
+  "at_edge": false,
+  "n_train": 512
+ },
+ "colon": {
+  "scale": 0.01,
+  "at_edge": false,
+  "n_train": 21
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "checked_at": "2026-09-27T16:22:22-0400",
+ "frozen_at": "2026-09-27T14:49:37-0400",
+ "plan_sha256": "07cff2ca22bd9a304f916c0d35a9a8b23ef82b1b9459cb1214afe5ffddc2072b",
+ "plan_lines_naming_the_proposed_estimator": [
+  "* Proposed estimator (`bjs2/mapped`): positive-part block James-Stein of the mean paired cross-products in two"
+ ],
+ "manifest_written_at": "2026-09-27T15:06:29-0400",
+ "predictions_sha256": "29b555b374674a8ad9287e8d2efd4dc0ec87f8457c0d44e6c7f0561be7035824",
+ "arrays_per_arm": {
+  "bjs2/mapped": 200,
+  "bjs/mapped": 200
+ },
+ "max_abs_difference_recomputed_vs_stored": {
+  "bjs2/mapped": 0.0,
+  "bjs/mapped": 0.0
+ },
+ "scoring_outputs": {
+  "frozen_script (proposed = bjs/mapped)": "4e32c7789025268077b084c8bd1dfa7cdcbdd668b89c038684d2ae3fb1316e60",
+  "plan_estimator (proposed = bjs2/mapped)": "f7612e64d53e38a8597a00b3ee5e52f7026e5ef8c1defd66e453a74e6ae71883",
+  "DEVIATIONS.md": "80515c01b3f41a1547067b09f2c14bebbc3e7b56e49daac05c3e2ee9b9dfcfdf"
+ },
+ "file_modification_times": {
+  "PLAN.md": "2026-09-27T14:49:26-0400",
+  "results/freeze.json": "2026-09-27T14:49:37-0400",
+  "results/predictions.npz": "2026-09-27T15:06:28-0400",
+  "results/predict_info.json": "2026-09-27T15:06:28-0400",
+  "results/manifest.json": "2026-09-27T15:06:29-0400",
+  "results/overcite.json": "2026-09-27T15:07:01-0400",
+  "results/overcite_plan_estimator.json": "2026-09-27T15:08:11-0400",
+  "DEVIATIONS.md": "2026-09-27T15:08:27-0400",
+  "rescore.py": "2026-09-27T15:07:53-0400"
+ }
+}

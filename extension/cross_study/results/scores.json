@@ -1,0 +1,2478 @@
+{
+ "manifest": {
+  "predictions.npz": "b23404d0bc17da48dcbf0e2bc295dcc01c788d9db60777e2af165ad578e7c310",
+  "prediction_info.json": "1ef27df3e169c78d27d278ffab5c8b5fd0cce960c41cd2b6f4775d2a34004668",
+  "reference_fit.npz": "883de364939ee1ed12e0bc5174e9cf88850bfd3774eda967245a5dc9d677842e",
+  "PLAN.md": "2694fa0b6ce7a48fb634cc36b6c108a481d0ca4b5a6c0eb39587be8bdf0799f1",
+  "seal.json": "0c2c99d5ca38d4b86a3e4cbdfc70837f38572186d2745effd3d8bf7b7e208d0c",
+  "hao_seal.json": "862ae36f176f9cadc28491cbeae469549c0a124269b3343a21047fa883a69642",
+  "note": "written before any scoring file was opened"
+ },
+ "recomputed_within_type": [
+  {
+   "tag": "hao/P1/within_l2",
+   "dropped": [
+    "CD8 Proliferating",
+    "Eryth"
+   ]
+  },
+  {
+   "tag": "hao/P2/within_l2",
+   "dropped": [
+    "HSPC"
+   ]
+  },
+  {
+   "tag": "hao/P3/within_l2",
+   "dropped": [
+    "HSPC"
+   ]
+  },
+  {
+   "tag": "hao/P6/within_l2",
+   "dropped": [
+    "Plasmablast"
+   ]
+  },
+  {
+   "tag": "hao/P8/within_l2",
+   "dropped": [
+    "Plasmablast"
+   ]
+  },
+  {
+   "tag": "colon/XAUT1-HS11/within_coarse",
+   "dropped": [
+    "08-MNP"
+   ]
+  },
+  {
+   "tag": "colon/XAUT1-HS12/within_coarse",
+   "dropped": [
+    "06-NK"
+   ]
+  },
+  {
+   "tag": "colon/XAUT1-HS4/within_coarse",
+   "dropped": [
+    "12-Endothelial"
+   ]
+  },
+  {
+   "tag": "colon/XAUT1-HS5/within_coarse",
+   "dropped": [
+    "12-Endothelial"
+   ]
+  },
+  {
+   "tag": "colon/XAUT1-HS6/within_coarse",
+   "dropped": [
+    "12-Endothelial"
+   ]
+  },
+  {
+   "tag": "colon/XAUT1-HS9/within_coarse",
+   "dropped": [
+    "05-ILC2 and ILC3",
+    "12-Endothelial"
+   ]
+  }
+ ],
+ "scores": {
+  "hao/P1/total": {
+   "scoring_cells": 9068,
+   "types": null,
+   "arms": {
+    "pf_means": {
+     "E": 0.31422466055663056,
+     "entry_correlation": 0.9582897792129537
+    },
+    "pf_moment": {
+     "E": 0.3766541906576013,
+     "entry_correlation": 0.9547168899859722
+    },
+    "paired_closed_form": {
+     "E": 0.14243781527236946,
+     "entry_correlation": 0.9944972142537892
+    },
+    "reference_regression": {
+     "E": 0.5120653054312148,
+     "entry_correlation": 0.9041186010521425
+    },
+    "transferred_correlation": {
+     "E": 0.604621612941172,
+     "entry_correlation": 0.8455193058417567
+    },
+    "transferred_covariance": {
+     "E": 1.1499168842503371,
+     "entry_correlation": 0.46704725866333985
+    },
+    "variances_only": {
+     "E": 0.9735701791507446,
+     "entry_correlation": 0.40423989768202634
+    },
+    "recipient_benchmark": {
+     "E": 0.12821326281888443,
+     "entry_correlation": 0.9975287663316088
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "hao/P1/within_l1": {
+   "scoring_cells": 9068,
+   "types": [
+    "B",
+    "CD4 T",
+    "CD8 T",
+    "DC",
+    "Mono",
+    "NK",
+    "other",
+    "other T"
+   ],
+   "arms": {
+    "pf_means": {
+     "E": 1.073766349058828,
+     "entry_correlation": 0.3961215843684922
+    },
+    "pf_moment": {
+     "E": 1.0605967904095277,
+     "entry_correlation": 0.3600276001649287
+    },
+    "paired_closed_form": {
+     "E": 0.49544346402899553,
+     "entry_correlation": 0.8703323513686368
+    },
+    "reference_regression": {
+     "E": 0.6475827083113908,
+     "entry_correlation": 0.765855847379666
+    },
+    "transferred_correlation": {
+     "E": 2.00687664129414,
+     "entry_correlation": 0.3830355819889661
+    },
+    "transferred_covariance": {
+     "E": 9.52246986715435,
+     "entry_correlation": 0.2602888566483955
+    },
+    "variances_only": {
+     "E": 0.9010947190897471,
+     "entry_correlation": 0.481726237615985
+    },
+    "recipient_benchmark": {
+     "E": 0.3376652270060656,
+     "entry_correlation": 0.9595970646146711
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "hao/P1/within_l2": {
+   "scoring_cells": 9030,
+   "types": [
+    "B intermediate",
+    "B memory",
+    "B naive",
+    "CD14 Mono",
+    "CD16 Mono",
+    "CD4 CTL",
+    "CD4 Naive",
+    "CD4 Proliferating",
+    "CD4 TCM",
+    "CD4 TEM",
+    "CD8 Naive",
+    "CD8 TCM",
+    "CD8 TEM",
+    "Doublet",
+    "HSPC",
+    "MAIT",
+    "NK",
+    "NK Proliferating",
+    "NK_CD56bright",
+    "Plasmablast",
+    "Platelet",
+    "Treg",
+    "cDC2",
+    "dnT",
+    "gdT",
+    "pDC"
+   ],
+   "arms": {
+    "pf_means": {
+     "E": 1.3763022705304662,
+     "entry_correlation": 0.35719237379690544
+    },
+    "pf_moment": {
+     "E": 1.384335609509078,
+     "entry_correlation": 0.29356426383346285
+    },
+    "paired_closed_form": {
+     "E": 0.8075688887037872,
+     "entry_correlation": 0.694117001364138
+    },
+    "reference_regression": {
+     "E": 0.7781883169526269,
+     "entry_correlation": 0.6530183369429051
+    },
+    "transferred_correlation": {
+     "E": 3.7654330274002796,
+     "entry_correlation": 0.37130336119496654
+    },
+    "transferred_covariance": {
+     "E": 20.786425773535544,
+     "entry_correlation": 0.26071729864763404
+    },
+    "variances_only": {
+     "E": 0.8938835777041527,
+     "entry_correlation": 0.45155142686811095
+    },
+    "recipient_benchmark": {
+     "E": 0.5318342597358555,
+     "entry_correlation": 0.8659045891386015
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "hao/P2/total": {
+   "scoring_cells": 8603,
+   "types": null,
+   "arms": {
+    "pf_means": {
+     "E": 0.3107827139759075,
+     "entry_correlation": 0.9578133542959733
+    },
+    "pf_moment": {
+     "E": 0.3977071977465806,
+     "entry_correlation": 0.9522561635108097
+    },
+    "paired_closed_form": {
+     "E": 0.13771679947251717,
+     "entry_correlation": 0.9951119478743887
+    },
+    "reference_regression": {
+     "E": 0.4982263727828003,
+     "entry_correlation": 0.9083672245837183
+    },
+    "transferred_correlation": {
+     "E": 0.5906087294109771,
+     "entry_correlation": 0.8696510999621356
+    },
+    "transferred_covariance": {
+     "E": 0.7146458113404656,
+     "entry_correlation": 0.7034164116573433
+    },
+    "variances_only": {
+     "E": 0.9733828252261607,
+     "entry_correlation": 0.4169228828292067
+    },
+    "recipient_benchmark": {
+     "E": 0.12555449509828315,
+     "entry_correlation": 0.9977018296087606
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "hao/P2/within_l1": {
+   "scoring_cells": 8603,
+   "types": [
+    "B",
+    "CD4 T",
+    "CD8 T",
+    "DC",
+    "Mono",
+    "NK",
+    "other",
+    "other T"
+   ],
+   "arms": {
+    "pf_means": {
+     "E": 1.02090722594149,
+     "entry_correlation": 0.48470558273466596
+    },
+    "pf_moment": {
+     "E": 0.9890768481054226,
+     "entry_correlation": 0.46313579989107523
+    },
+    "paired_closed_form": {
+     "E": 0.48418318282730893,
+     "entry_correlation": 0.8776783062197816
+    },
+    "reference_regression": {
+     "E": 0.6439650010174609,
+     "entry_correlation": 0.7681864114500407
+    },
+    "transferred_correlation": {
+     "E": 2.0921778632234247,
+     "entry_correlation": 0.39940421054744685
+    },
+    "transferred_covariance": {
+     "E": 8.131598516700247,
+     "entry_correlation": 0.33184171341343244
+    },
+    "variances_only": {
+     "E": 0.8957736196585551,
+     "entry_correlation": 0.48821129858890633
+    },
+    "recipient_benchmark": {
+     "E": 0.34556468518601585,
+     "entry_correlation": 0.9545160848603451
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "hao/P2/within_l2": {
+   "scoring_cells": 8571,
+   "types": [
+    "B intermediate",
+    "B memory",
+    "B naive",
+    "CD14 Mono",
+    "CD16 Mono",
+    "CD4 CTL",
+    "CD4 Naive",
+    "CD4 TCM",
+    "CD4 TEM",
+    "CD8 Naive",
+    "CD8 TCM",
+    "CD8 TEM",
+    "Doublet",
+    "ILC",
+    "MAIT",
+    "NK",
+    "NK Proliferating",
+    "NK_CD56bright",
+    "Plasmablast",
+    "Platelet",
+    "Treg",
+    "cDC2",
+    "dnT",
+    "gdT",
+    "pDC"
+   ],
+   "arms": {
+    "pf_means": {
+     "E": 1.5430946707016202,
+     "entry_correlation": 0.32037755317794336
+    },
+    "pf_moment": {
+     "E": 1.4801814481616173,
+     "entry_correlation": 0.30588203986693163
+    },
+    "paired_closed_form": {
+     "E": 0.8959109854410986,
+     "entry_correlation": 0.6501805348408516
+    },
+    "reference_regression": {
+     "E": 0.8342197429901398,
+     "entry_correlation": 0.6080088633560455
+    },
+    "transferred_correlation": {
+     "E": 4.284666962196533,
+     "entry_correlation": 0.38045569737214796
+    },
+    "transferred_covariance": {
+     "E": 19.941656857440737,
+     "entry_correlation": 0.33017802852379824
+    },
+    "variances_only": {
+     "E": 0.8997288371213128,
+     "entry_correlation": 0.4529355633252726
+    },
+    "recipient_benchmark": {
+     "E": 0.5979754605212637,
+     "entry_correlation": 0.8155625802082319
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "hao/P3/total": {
+   "scoring_cells": 7330,
+   "types": null,
+   "arms": {
+    "pf_means": {
+     "E": 0.30521156985430037,
+     "entry_correlation": 0.9599264644461577
+    },
+    "pf_moment": {
+     "E": 0.40595019480725636,
+     "entry_correlation": 0.9505930890213056
+    },
+    "paired_closed_form": {
+     "E": 0.1383465110493292,
+     "entry_correlation": 0.9948024153660422
+    },
+    "reference_regression": {
+     "E": 0.5156005386524029,
+     "entry_correlation": 0.8992172984633839
+    },
+    "transferred_correlation": {
+     "E": 0.6106310944319898,
+     "entry_correlation": 0.8640313947011083
+    },
+    "transferred_covariance": {
+     "E": 1.37254150713297,
+     "entry_correlation": 0.3417316329508025
+    },
+    "variances_only": {
+     "E": 0.9753122319083333,
+     "entry_correlation": 0.4065301811393591
+    },
+    "recipient_benchmark": {
+     "E": 0.14672047877558453,
+     "entry_correlation": 0.9972669288076346
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "hao/P3/within_l1": {
+   "scoring_cells": 7330,
+   "types": [
+    "B",
+    "CD4 T",
+    "CD8 T",
+    "DC",
+    "Mono",
+    "NK",
+    "other",
+    "other T"
+   ],
+   "arms": {
+    "pf_means": {
+     "E": 1.178736445730297,
+     "entry_correlation": 0.3145408426079605
+    },
+    "pf_moment": {
+     "E": 1.1212860872608668,
+     "entry_correlation": 0.31676345212297236
+    },
+    "paired_closed_form": {
+     "E": 0.5349880592846752,
+     "entry_correlation": 0.8469404884300391
+    },
+    "reference_regression": {
+     "E": 0.6899873248918726,
+     "entry_correlation": 0.7275028359916937
+    },
+    "transferred_correlation": {
+     "E": 2.28716788267975,
+     "entry_correlation": 0.3326059271261926
+    },
+    "transferred_covariance": {
+     "E": 13.264315417180866,
+     "entry_correlation": 0.17919988439175705
+    },
+    "variances_only": {
+     "E": 0.9015195904950271,
+     "entry_correlation": 0.4601731624895951
+    },
+    "recipient_benchmark": {
+     "E": 0.3921616851110035,
+     "entry_correlation": 0.9412542772113192
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "hao/P3/within_l2": {
+   "scoring_cells": 7285,
+   "types": [
+    "B intermediate",
+    "B memory",
+    "B naive",
+    "CD14 Mono",
+    "CD16 Mono",
+    "CD4 Naive",
+    "CD4 TCM",
+    "CD4 TEM",
+    "CD8 Naive",
+    "CD8 TCM",
+    "CD8 TEM",
+    "Doublet",
+    "MAIT",
+    "NK",
+    "NK Proliferating",
+    "NK_CD56bright",
+    "Platelet",
+    "Treg",
+    "cDC2",
+    "dnT",
+    "gdT",
+    "pDC"
+   ],
+   "arms": {
+    "pf_means": {
+     "E": 1.5971898173153414,
+     "entry_correlation": 0.2536755767700505
+    },
+    "pf_moment": {
+     "E": 1.538898226391958,
+     "entry_correlation": 0.2316871050264828
+    },
+    "paired_closed_form": {
+     "E": 0.9373609586098489,
+     "entry_correlation": 0.5830820194504034
+    },
+    "reference_regression": {
+     "E": 0.8792111453208555,
+     "entry_correlation": 0.5440832895782746
+    },
+    "transferred_correlation": {
+     "E": 4.313201705914846,
+     "entry_correlation": 0.3317559811766755
+    },
+    "transferred_covariance": {
+     "E": 27.721113289428253,
+     "entry_correlation": 0.1913242280846314
+    },
+    "variances_only": {
+     "E": 0.9182107123909744,
+     "entry_correlation": 0.42282531935521
+    },
+    "recipient_benchmark": {
+     "E": 0.6340237491491159,
+     "entry_correlation": 0.794873070976389
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "hao/P4/total": {
+   "scoring_cells": 8545,
+   "types": null,
+   "arms": {
+    "pf_means": {
+     "E": 0.3029878631206927,
+     "entry_correlation": 0.9587865934124715
+    },
+    "pf_moment": {
+     "E": 0.38678961346404667,
+     "entry_correlation": 0.9552916105064008
+    },
+    "paired_closed_form": {
+     "E": 0.14005208554281837,
+     "entry_correlation": 0.9942413681986044
+    },
+    "reference_regression": {
+     "E": 0.49336499881728996,
+     "entry_correlation": 0.9067670044404058
+    },
+    "transferred_correlation": {
+     "E": 0.6122513295906254,
+     "entry_correlation": 0.842088138751
+    },
+    "transferred_covariance": {
+     "E": 1.2988237056412097,
+     "entry_correlation": 0.3930292622907861
+    },
+    "variances_only": {
+     "E": 0.9741614692741005,
+     "entry_correlation": 0.4018721269283228
+    },
+    "recipient_benchmark": {
+     "E": 0.12347582454423865,
+     "entry_correlation": 0.9974873472344715
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "hao/P4/within_l1": {
+   "scoring_cells": 8545,
+   "types": [
+    "B",
+    "CD4 T",
+    "CD8 T",
+    "DC",
+    "Mono",
+    "NK",
+    "other",
+    "other T"
+   ],
+   "arms": {
+    "pf_means": {
+     "E": 1.296082509282082,
+     "entry_correlation": 0.27921713746818977
+    },
+    "pf_moment": {
+     "E": 1.21961935713957,
+     "entry_correlation": 0.30206996350479065
+    },
+    "paired_closed_form": {
+     "E": 0.6462963848495596,
+     "entry_correlation": 0.7852640888140884
+    },
+    "reference_regression": {
+     "E": 0.7279719184051405,
+     "entry_correlation": 0.6884849828194887
+    },
+    "transferred_correlation": {
+     "E": 2.798750337385396,
+     "entry_correlation": 0.30400188253144805
+    },
+    "transferred_covariance": {
+     "E": 14.559250454674885,
+     "entry_correlation": 0.2042537133745417
+    },
+    "variances_only": {
+     "E": 0.886037528824122,
+     "entry_correlation": 0.4757706726564023
+    },
+    "recipient_benchmark": {
+     "E": 0.4284258461511627,
+     "entry_correlation": 0.9257009701967954
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "hao/P4/within_l2": {
+   "scoring_cells": 8510,
+   "types": [
+    "B intermediate",
+    "B memory",
+    "B naive",
+    "CD14 Mono",
+    "CD16 Mono",
+    "CD4 Naive",
+    "CD4 TCM",
+    "CD4 TEM",
+    "CD8 Naive",
+    "CD8 TCM",
+    "CD8 TEM",
+    "Doublet",
+    "HSPC",
+    "MAIT",
+    "NK",
+    "NK Proliferating",
+    "Plasmablast",
+    "Platelet",
+    "Treg",
+    "cDC1",
+    "cDC2",
+    "dnT",
+    "gdT",
+    "pDC"
+   ],
+   "arms": {
+    "pf_means": {
+     "E": 1.7716143420159531,
+     "entry_correlation": 0.21852882983595853
+    },
+    "pf_moment": {
+     "E": 1.6689142675228945,
+     "entry_correlation": 0.23872544500681403
+    },
+    "paired_closed_form": {
+     "E": 1.0126938326015256,
+     "entry_correlation": 0.5597758940876663
+    },
+    "reference_regression": {
+     "E": 0.9374562163334421,
+     "entry_correlation": 0.5222567067624523
+    },
+    "transferred_correlation": {
+     "E": 4.912373782002733,
+     "entry_correlation": 0.2783357877486966
+    },
+    "transferred_covariance": {
+     "E": 28.436154772208333,
+     "entry_correlation": 0.20102258564847814
+    },
+    "variances_only": {
+     "E": 0.9470267888617037,
+     "entry_correlation": 0.4007769233213195
+    },
+    "recipient_benchmark": {
+     "E": 0.6483203687248615,
+     "entry_correlation": 0.7737119749966018
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "hao/P5/total": {
+   "scoring_cells": 10906,
+   "types": null,
+   "arms": {
+    "pf_means": {
+     "E": 0.2951883104481443,
+     "entry_correlation": 0.9605544744696247
+    },
+    "pf_moment": {
+     "E": 0.35715665801534185,
+     "entry_correlation": 0.9583545354862952
+    },
+    "paired_closed_form": {
+     "E": 0.1385233484012085,
+     "entry_correlation": 0.9930563169006129
+    },
+    "reference_regression": {
+     "E": 0.5195764304708035,
+     "entry_correlation": 0.9037992045409763
+    },
+    "transferred_correlation": {
+     "E": 0.6325487270990564,
+     "entry_correlation": 0.847980941025573
+    },
+    "transferred_covariance": {
+     "E": 0.7327531771448926,
+     "entry_correlation": 0.7060903210364347
+    },
+    "variances_only": {
+     "E": 0.9765287011582781,
+     "entry_correlation": 0.39847934475897906
+    },
+    "recipient_benchmark": {
+     "E": 0.10573558242525664,
+     "entry_correlation": 0.9983192451618264
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "hao/P5/within_l1": {
+   "scoring_cells": 10906,
+   "types": [
+    "B",
+    "CD4 T",
+    "CD8 T",
+    "DC",
+    "Mono",
+    "NK",
+    "other",
+    "other T"
+   ],
+   "arms": {
+    "pf_means": {
+     "E": 0.9667505075618277,
+     "entry_correlation": 0.5365264402830245
+    },
+    "pf_moment": {
+     "E": 0.9752252014742074,
+     "entry_correlation": 0.46071038208817294
+    },
+    "paired_closed_form": {
+     "E": 0.5145103855680407,
+     "entry_correlation": 0.861203090457836
+    },
+    "reference_regression": {
+     "E": 0.6817067305617386,
+     "entry_correlation": 0.7348233383912743
+    },
+    "transferred_correlation": {
+     "E": 2.0077254554307467,
+     "entry_correlation": 0.3702739716172944
+    },
+    "transferred_covariance": {
+     "E": 6.004815929540209,
+     "entry_correlation": 0.2970976639194082
+    },
+    "variances_only": {
+     "E": 0.9085722070184235,
+     "entry_correlation": 0.45802214833409954
+    },
+    "recipient_benchmark": {
+     "E": 0.30545470637894667,
+     "entry_correlation": 0.9665440068983873
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "hao/P5/within_l2": {
+   "scoring_cells": 10883,
+   "types": [
+    "B intermediate",
+    "B memory",
+    "B naive",
+    "CD14 Mono",
+    "CD16 Mono",
+    "CD4 CTL",
+    "CD4 Naive",
+    "CD4 TCM",
+    "CD4 TEM",
+    "CD8 Naive",
+    "CD8 TCM",
+    "CD8 TEM",
+    "Doublet",
+    "ILC",
+    "MAIT",
+    "NK",
+    "NK Proliferating",
+    "NK_CD56bright",
+    "Plasmablast",
+    "Platelet",
+    "Treg",
+    "cDC1",
+    "cDC2",
+    "gdT",
+    "pDC"
+   ],
+   "arms": {
+    "pf_means": {
+     "E": 1.2582118457989129,
+     "entry_correlation": 0.42004485033935174
+    },
+    "pf_moment": {
+     "E": 1.2646939471847056,
+     "entry_correlation": 0.3350215903402197
+    },
+    "paired_closed_form": {
+     "E": 0.7525067420657081,
+     "entry_correlation": 0.7187131252572138
+    },
+    "reference_regression": {
+     "E": 0.7962430861981378,
+     "entry_correlation": 0.6154626809811987
+    },
+    "transferred_correlation": {
+     "E": 3.3414895696932114,
+     "entry_correlation": 0.3316952766728336
+    },
+    "transferred_covariance": {
+     "E": 11.833030046704684,
+     "entry_correlation": 0.27254851493936477
+    },
+    "variances_only": {
+     "E": 0.9170401921124096,
+     "entry_correlation": 0.4011185236447207
+    },
+    "recipient_benchmark": {
+     "E": 0.4418836954645455,
+     "entry_correlation": 0.9173978274880523
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "hao/P6/total": {
+   "scoring_cells": 10371,
+   "types": null,
+   "arms": {
+    "pf_means": {
+     "E": 0.3175407091507214,
+     "entry_correlation": 0.9631707438433631
+    },
+    "pf_moment": {
+     "E": 0.42173204213787435,
+     "entry_correlation": 0.9573107852240504
+    },
+    "paired_closed_form": {
+     "E": 0.12709911681390146,
+     "entry_correlation": 0.9961352387811313
+    },
+    "reference_regression": {
+     "E": 0.5604814779324296,
+     "entry_correlation": 0.884033540918375
+    },
+    "transferred_correlation": {
+     "E": 0.6549639913902189,
+     "entry_correlation": 0.8415107923457965
+    },
+    "transferred_covariance": {
+     "E": 0.7580915780526372,
+     "entry_correlation": 0.6969432272719078
+    },
+    "variances_only": {
+     "E": 0.9784772386867828,
+     "entry_correlation": 0.3890200409066464
+    },
+    "recipient_benchmark": {
+     "E": 0.11046904017093939,
+     "entry_correlation": 0.9986112608863188
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "hao/P6/within_l1": {
+   "scoring_cells": 10371,
+   "types": [
+    "B",
+    "CD4 T",
+    "CD8 T",
+    "DC",
+    "Mono",
+    "NK",
+    "other",
+    "other T"
+   ],
+   "arms": {
+    "pf_means": {
+     "E": 1.122526193662598,
+     "entry_correlation": 0.3755265722961985
+    },
+    "pf_moment": {
+     "E": 1.0457656455834692,
+     "entry_correlation": 0.40861077061659007
+    },
+    "paired_closed_form": {
+     "E": 0.5250119504587683,
+     "entry_correlation": 0.8549598901789361
+    },
+    "reference_regression": {
+     "E": 0.691703754698735,
+     "entry_correlation": 0.7234365906416514
+    },
+    "transferred_correlation": {
+     "E": 2.310285112541822,
+     "entry_correlation": 0.31219750565304755
+    },
+    "transferred_covariance": {
+     "E": 6.8337367723372875,
+     "entry_correlation": 0.25729998425476347
+    },
+    "variances_only": {
+     "E": 0.9016489783809292,
+     "entry_correlation": 0.4596820746708421
+    },
+    "recipient_benchmark": {
+     "E": 0.35052444695897517,
+     "entry_correlation": 0.9562270361169889
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "hao/P6/within_l2": {
+   "scoring_cells": 10328,
+   "types": [
+    "B intermediate",
+    "B memory",
+    "B naive",
+    "CD14 Mono",
+    "CD16 Mono",
+    "CD4 Naive",
+    "CD4 TCM",
+    "CD4 TEM",
+    "CD8 Naive",
+    "CD8 TCM",
+    "CD8 TEM",
+    "Doublet",
+    "ILC",
+    "MAIT",
+    "NK",
+    "NK Proliferating",
+    "NK_CD56bright",
+    "Platelet",
+    "Treg",
+    "cDC2",
+    "gdT",
+    "pDC"
+   ],
+   "arms": {
+    "pf_means": {
+     "E": 1.6205928101800389,
+     "entry_correlation": 0.28149453273220804
+    },
+    "pf_moment": {
+     "E": 1.5616896888232326,
+     "entry_correlation": 0.2643688560585532
+    },
+    "paired_closed_form": {
+     "E": 0.9314226203184582,
+     "entry_correlation": 0.6415685600822023
+    },
+    "reference_regression": {
+     "E": 0.8684901619790517,
+     "entry_correlation": 0.5818742680715072
+    },
+    "transferred_correlation": {
+     "E": 4.537370946368184,
+     "entry_correlation": 0.3416933700661432
+    },
+    "transferred_covariance": {
+     "E": 15.990611604241154,
+     "entry_correlation": 0.30686928594529306
+    },
+    "variances_only": {
+     "E": 0.9067773141754457,
+     "entry_correlation": 0.448400907852037
+    },
+    "recipient_benchmark": {
+     "E": 0.5767635659009392,
+     "entry_correlation": 0.8368151754252204
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "hao/P7/total": {
+   "scoring_cells": 12936,
+   "types": null,
+   "arms": {
+    "pf_means": {
+     "E": 0.24381557587163188,
+     "entry_correlation": 0.9757160749976875
+    },
+    "pf_moment": {
+     "E": 0.40351490440930987,
+     "entry_correlation": 0.95949387581233
+    },
+    "paired_closed_form": {
+     "E": 0.12030006412742883,
+     "entry_correlation": 0.9968351246185134
+    },
+    "reference_regression": {
+     "E": 0.5470406696307752,
+     "entry_correlation": 0.896842747515213
+    },
+    "transferred_correlation": {
+     "E": 0.6782423871544745,
+     "entry_correlation": 0.8247463191130733
+    },
+    "transferred_covariance": {
+     "E": 0.7869875287963525,
+     "entry_correlation": 0.6498044764165838
+    },
+    "variances_only": {
+     "E": 0.9807590966905688,
+     "entry_correlation": 0.36504644941567316
+    },
+    "recipient_benchmark": {
+     "E": 0.10947864859118586,
+     "entry_correlation": 0.9990528359563321
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "hao/P7/within_l1": {
+   "scoring_cells": 12936,
+   "types": [
+    "B",
+    "CD4 T",
+    "CD8 T",
+    "DC",
+    "Mono",
+    "NK",
+    "other",
+    "other T"
+   ],
+   "arms": {
+    "pf_means": {
+     "E": 1.0295769192779054,
+     "entry_correlation": 0.47164296957098956
+    },
+    "pf_moment": {
+     "E": 0.9667046554729549,
+     "entry_correlation": 0.4814616066049265
+    },
+    "paired_closed_form": {
+     "E": 0.49607194589542425,
+     "entry_correlation": 0.8690522409502853
+    },
+    "reference_regression": {
+     "E": 0.6660787597642621,
+     "entry_correlation": 0.7517130267861342
+    },
+    "transferred_correlation": {
+     "E": 1.9861313320206644,
+     "entry_correlation": 0.3501120629113051
+    },
+    "transferred_covariance": {
+     "E": 5.7424499576933465,
+     "entry_correlation": 0.2783654433916389
+    },
+    "variances_only": {
+     "E": 0.9044206496880909,
+     "entry_correlation": 0.47669626685825656
+    },
+    "recipient_benchmark": {
+     "E": 0.3162104636814649,
+     "entry_correlation": 0.9728233758642698
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "hao/P7/within_l2": {
+   "scoring_cells": 12894,
+   "types": [
+    "B intermediate",
+    "B memory",
+    "B naive",
+    "CD14 Mono",
+    "CD16 Mono",
+    "CD4 CTL",
+    "CD4 Naive",
+    "CD4 Proliferating",
+    "CD4 TCM",
+    "CD4 TEM",
+    "CD8 Naive",
+    "CD8 TCM",
+    "CD8 TEM",
+    "Doublet",
+    "MAIT",
+    "NK",
+    "NK Proliferating",
+    "NK_CD56bright",
+    "Plasmablast",
+    "Platelet",
+    "Treg",
+    "cDC1",
+    "cDC2",
+    "dnT",
+    "gdT",
+    "pDC"
+   ],
+   "arms": {
+    "pf_means": {
+     "E": 1.3886435176013217,
+     "entry_correlation": 0.36530662555500826
+    },
+    "pf_moment": {
+     "E": 1.3137415777670742,
+     "entry_correlation": 0.3370946888247789
+    },
+    "paired_closed_form": {
+     "E": 0.7853873923779702,
+     "entry_correlation": 0.6994306023515546
+    },
+    "reference_regression": {
+     "E": 0.8225330400034409,
+     "entry_correlation": 0.5938653877383693
+    },
+    "transferred_correlation": {
+     "E": 3.501234780548446,
+     "entry_correlation": 0.3269848881758661
+    },
+    "transferred_covariance": {
+     "E": 12.211531438704219,
+     "entry_correlation": 0.26476984051326796
+    },
+    "variances_only": {
+     "E": 0.9087521596034785,
+     "entry_correlation": 0.41976170504906096
+    },
+    "recipient_benchmark": {
+     "E": 0.45543152273769755,
+     "entry_correlation": 0.9193866605941169
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "hao/P8/total": {
+   "scoring_cells": 13125,
+   "types": null,
+   "arms": {
+    "pf_means": {
+     "E": 0.2433364342060708,
+     "entry_correlation": 0.9764681698307248
+    },
+    "pf_moment": {
+     "E": 0.3627421243686562,
+     "entry_correlation": 0.965151065735004
+    },
+    "paired_closed_form": {
+     "E": 0.12951276769657474,
+     "entry_correlation": 0.9962327939087737
+    },
+    "reference_regression": {
+     "E": 0.5334251152838124,
+     "entry_correlation": 0.9012825028183755
+    },
+    "transferred_correlation": {
+     "E": 0.6533358929497741,
+     "entry_correlation": 0.8301583349367275
+    },
+    "transferred_covariance": {
+     "E": 0.7972136261934438,
+     "entry_correlation": 0.6048389991678299
+    },
+    "variances_only": {
+     "E": 0.9791559681994029,
+     "entry_correlation": 0.3659262095051053
+    },
+    "recipient_benchmark": {
+     "E": 0.11116234429858271,
+     "entry_correlation": 0.9987419193357325
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "hao/P8/within_l1": {
+   "scoring_cells": 13125,
+   "types": [
+    "B",
+    "CD4 T",
+    "CD8 T",
+    "DC",
+    "Mono",
+    "NK",
+    "other",
+    "other T"
+   ],
+   "arms": {
+    "pf_means": {
+     "E": 0.967461823128334,
+     "entry_correlation": 0.5466983170395188
+    },
+    "pf_moment": {
+     "E": 0.9296871139353996,
+     "entry_correlation": 0.5347827794665493
+    },
+    "paired_closed_form": {
+     "E": 0.527815600629842,
+     "entry_correlation": 0.8508483495841764
+    },
+    "reference_regression": {
+     "E": 0.6906058077605031,
+     "entry_correlation": 0.725175922152634
+    },
+    "transferred_correlation": {
+     "E": 2.207814793081572,
+     "entry_correlation": 0.30441071595080155
+    },
+    "transferred_covariance": {
+     "E": 7.617534531542081,
+     "entry_correlation": 0.2132652870031222
+    },
+    "variances_only": {
+     "E": 0.911941515002572,
+     "entry_correlation": 0.4361335166038786
+    },
+    "recipient_benchmark": {
+     "E": 0.3119149143896321,
+     "entry_correlation": 0.9684304570410047
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "hao/P8/within_l2": {
+   "scoring_cells": 13082,
+   "types": [
+    "B intermediate",
+    "B memory",
+    "B naive",
+    "CD14 Mono",
+    "CD16 Mono",
+    "CD4 CTL",
+    "CD4 Naive",
+    "CD4 TCM",
+    "CD4 TEM",
+    "CD8 Naive",
+    "CD8 TCM",
+    "CD8 TEM",
+    "Doublet",
+    "MAIT",
+    "NK",
+    "NK Proliferating",
+    "NK_CD56bright",
+    "Platelet",
+    "Treg",
+    "cDC2",
+    "dnT",
+    "gdT",
+    "pDC"
+   ],
+   "arms": {
+    "pf_means": {
+     "E": 1.3197620586501873,
+     "entry_correlation": 0.42241638649665564
+    },
+    "pf_moment": {
+     "E": 1.2679257104713446,
+     "entry_correlation": 0.38005823356925295
+    },
+    "paired_closed_form": {
+     "E": 0.8240507186426788,
+     "entry_correlation": 0.6441095792313755
+    },
+    "reference_regression": {
+     "E": 0.821007616503891,
+     "entry_correlation": 0.5914189543412001
+    },
+    "transferred_correlation": {
+     "E": 3.694867961604701,
+     "entry_correlation": 0.25825989915843844
+    },
+    "transferred_covariance": {
+     "E": 14.701698474283281,
+     "entry_correlation": 0.19078068600883216
+    },
+    "variances_only": {
+     "E": 0.9290255371374175,
+     "entry_correlation": 0.38279042837135685
+    },
+    "recipient_benchmark": {
+     "E": 0.4425250923923254,
+     "entry_correlation": 0.9185721587849502
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "colon/XAUT1-HS1/total": {
+   "scoring_cells": 731,
+   "types": null,
+   "arms": {
+    "pf_means": {
+     "E": 1.0366754021508444,
+     "entry_correlation": 0.3621292270343466
+    },
+    "pf_moment": {
+     "E": 0.8887042943706239,
+     "entry_correlation": 0.5032076719105666
+    },
+    "paired_closed_form": {
+     "E": 0.7241570930032691,
+     "entry_correlation": 0.6918032894718401
+    },
+    "reference_regression": {
+     "E": 0.8590776916835692,
+     "entry_correlation": 0.5259465964379267
+    },
+    "transferred_correlation": {
+     "E": 1.152164301548543,
+     "entry_correlation": 0.46131573896202577
+    },
+    "transferred_covariance": {
+     "E": 7.938620172694223,
+     "entry_correlation": 0.21711941845047872
+    },
+    "variances_only": {
+     "E": 0.9662484118544573,
+     "entry_correlation": 0.29562095682130024
+    },
+    "recipient_benchmark": {
+     "E": 0.5314140173570391,
+     "entry_correlation": 0.851668249139787
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "colon/XAUT1-HS1/within_coarse": {
+   "scoring_cells": 702,
+   "types": [
+    "01-Plasma cells",
+    "02-B",
+    "03-CD4 T",
+    "04-CD8 T",
+    "05-ILC2 and ILC3",
+    "08-MNP",
+    "10-Epithelial",
+    "11-Stromal-fibroblast",
+    "14-Mito Hi immune"
+   ],
+   "arms": {
+    "pf_means": {
+     "E": 1.3444933081148362,
+     "entry_correlation": 0.13219431389576353
+    },
+    "pf_moment": {
+     "E": 1.2725802088035665,
+     "entry_correlation": 0.15484454099927114
+    },
+    "paired_closed_form": {
+     "E": 1.0267940406705711,
+     "entry_correlation": 0.3243224350784791
+    },
+    "reference_regression": {
+     "E": 0.9911027490492503,
+     "entry_correlation": 0.2682317844997132
+    },
+    "transferred_correlation": {
+     "E": 2.351353659902302,
+     "entry_correlation": 0.1774723463296312
+    },
+    "transferred_covariance": {
+     "E": 17.133528886272977,
+     "entry_correlation": 0.12004718099908863
+    },
+    "variances_only": {
+     "E": 0.9824592674819275,
+     "entry_correlation": 0.20508126843868868
+    },
+    "recipient_benchmark": {
+     "E": 0.9276860645824344,
+     "entry_correlation": 0.4119308202309186
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "colon/XAUT1-HS10/total": {
+   "scoring_cells": 217,
+   "types": null,
+   "arms": {
+    "pf_means": {
+     "E": 1.1545155805693716,
+     "entry_correlation": 0.18450549158824844
+    },
+    "pf_moment": {
+     "E": 1.034620769416792,
+     "entry_correlation": 0.3239795131570438
+    },
+    "paired_closed_form": {
+     "E": 0.9189530243049197,
+     "entry_correlation": 0.4642109235201132
+    },
+    "reference_regression": {
+     "E": 0.9472245200274934,
+     "entry_correlation": 0.38916895972080773
+    },
+    "transferred_correlation": {
+     "E": 1.36078054071245,
+     "entry_correlation": 0.23914390564718455
+    },
+    "transferred_covariance": {
+     "E": 5.646008903999961,
+     "entry_correlation": 0.12457136653593656
+    },
+    "variances_only": {
+     "E": 0.9798716499972092,
+     "entry_correlation": 0.20786590694192444
+    },
+    "recipient_benchmark": {
+     "E": 0.8391252759718424,
+     "entry_correlation": 0.5537494285516417
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "colon/XAUT1-HS10/within_coarse": {
+   "scoring_cells": 185,
+   "types": [
+    "01-Plasma cells",
+    "03-CD4 T",
+    "04-CD8 T",
+    "14-Mito Hi immune"
+   ],
+   "arms": {
+    "pf_means": {
+     "E": 1.2164747184533289,
+     "entry_correlation": 0.042859378542901935
+    },
+    "pf_moment": {
+     "E": 1.1944274973990514,
+     "entry_correlation": 0.07006457004387943
+    },
+    "paired_closed_form": {
+     "E": 1.0466034385400897,
+     "entry_correlation": 0.16151333899137474
+    },
+    "reference_regression": {
+     "E": 1.0039789640269536,
+     "entry_correlation": 0.1485700551202229
+    },
+    "transferred_correlation": {
+     "E": 1.7729029243052226,
+     "entry_correlation": 0.0740895282260752
+    },
+    "transferred_covariance": {
+     "E": 7.222988138531733,
+     "entry_correlation": 0.051042098830296104
+    },
+    "variances_only": {
+     "E": 0.997189768851118,
+     "entry_correlation": 0.11122229956473446
+    },
+    "recipient_benchmark": {
+     "E": 1.0023036205238325,
+     "entry_correlation": 0.11427722314780722
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "colon/XAUT1-HS11/total": {
+   "scoring_cells": 675,
+   "types": null,
+   "arms": {
+    "pf_means": {
+     "E": 0.9501896850565611,
+     "entry_correlation": 0.4453749269892895
+    },
+    "pf_moment": {
+     "E": 0.860144218290096,
+     "entry_correlation": 0.527269162145308
+    },
+    "paired_closed_form": {
+     "E": 0.7080370696122948,
+     "entry_correlation": 0.7073034455370754
+    },
+    "reference_regression": {
+     "E": 0.8161461522555986,
+     "entry_correlation": 0.5780998332549241
+    },
+    "transferred_correlation": {
+     "E": 1.1296411843127032,
+     "entry_correlation": 0.4456182194704804
+    },
+    "transferred_covariance": {
+     "E": 5.51533455120767,
+     "entry_correlation": 0.2186371733388263
+    },
+    "variances_only": {
+     "E": 0.9645747635246023,
+     "entry_correlation": 0.3150583164510585
+    },
+    "recipient_benchmark": {
+     "E": 0.5322262555302653,
+     "entry_correlation": 0.8510178340635961
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "colon/XAUT1-HS11/within_coarse": {
+   "scoring_cells": 650,
+   "types": [
+    "01-Plasma cells",
+    "02-B",
+    "03-CD4 T",
+    "04-CD8 T",
+    "09-Cycling",
+    "10-Epithelial",
+    "11-Stromal-fibroblast",
+    "14-Mito Hi immune"
+   ],
+   "arms": {
+    "pf_means": {
+     "E": 1.2837610169251632,
+     "entry_correlation": 0.13962786665658802
+    },
+    "pf_moment": {
+     "E": 1.2540213929363708,
+     "entry_correlation": 0.16395872984995472
+    },
+    "paired_closed_form": {
+     "E": 0.9880351872581847,
+     "entry_correlation": 0.37277909477646365
+    },
+    "reference_regression": {
+     "E": 0.961852941112205,
+     "entry_correlation": 0.313585976562533
+    },
+    "transferred_correlation": {
+     "E": 2.3679042277101856,
+     "entry_correlation": 0.1263965531766007
+    },
+    "transferred_covariance": {
+     "E": 50.53450953048962,
+     "entry_correlation": 0.010507057681494372
+    },
+    "variances_only": {
+     "E": 0.978936625504537,
+     "entry_correlation": 0.21582866150171912
+    },
+    "recipient_benchmark": {
+     "E": 0.9310078174200649,
+     "entry_correlation": 0.4182370609871718
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "colon/XAUT1-HS12/total": {
+   "scoring_cells": 1403,
+   "types": null,
+   "arms": {
+    "pf_means": {
+     "E": 1.0502993153631235,
+     "entry_correlation": 0.30802953949405437
+    },
+    "pf_moment": {
+     "E": 0.9805187746596459,
+     "entry_correlation": 0.3583754684366019
+    },
+    "paired_closed_form": {
+     "E": 0.7136427814250063,
+     "entry_correlation": 0.701358956229418
+    },
+    "reference_regression": {
+     "E": 0.9172768111081305,
+     "entry_correlation": 0.42389492412041146
+    },
+    "transferred_correlation": {
+     "E": 1.3904125340132858,
+     "entry_correlation": 0.3017764734171676
+    },
+    "transferred_covariance": {
+     "E": 7.4658233071345075,
+     "entry_correlation": 0.1487239191364181
+    },
+    "variances_only": {
+     "E": 0.9731878636360879,
+     "entry_correlation": 0.2425177954512967
+    },
+    "recipient_benchmark": {
+     "E": 0.42511818129036977,
+     "entry_correlation": 0.9112638858793296
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "colon/XAUT1-HS12/within_coarse": {
+   "scoring_cells": 1371,
+   "types": [
+    "01-Plasma cells",
+    "02-B",
+    "03-CD4 T",
+    "04-CD8 T",
+    "10-Epithelial",
+    "11-Stromal-fibroblast",
+    "12-Endothelial",
+    "14-Mito Hi immune"
+   ],
+   "arms": {
+    "pf_means": {
+     "E": 1.3655916308056217,
+     "entry_correlation": 0.13321193102791548
+    },
+    "pf_moment": {
+     "E": 1.3152024501901518,
+     "entry_correlation": 0.17207523326817836
+    },
+    "paired_closed_form": {
+     "E": 0.9991857469894629,
+     "entry_correlation": 0.385298621678092
+    },
+    "reference_regression": {
+     "E": 0.9886020238558295,
+     "entry_correlation": 0.28970043953502544
+    },
+    "transferred_correlation": {
+     "E": 2.9045916916642565,
+     "entry_correlation": 0.11432124023754206
+    },
+    "transferred_covariance": {
+     "E": 22.26210061630453,
+     "entry_correlation": 0.03475615798723365
+    },
+    "variances_only": {
+     "E": 0.9924167469408773,
+     "entry_correlation": 0.19973479786303364
+    },
+    "recipient_benchmark": {
+     "E": 0.9021962009572954,
+     "entry_correlation": 0.5870585702358991
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "colon/XAUT1-HS2/total": {
+   "scoring_cells": 512,
+   "types": null,
+   "arms": {
+    "pf_means": {
+     "E": 0.98953995757814,
+     "entry_correlation": 0.39234410420289667
+    },
+    "pf_moment": {
+     "E": 0.9421465485586884,
+     "entry_correlation": 0.4132208925662942
+    },
+    "paired_closed_form": {
+     "E": 0.7482081483983529,
+     "entry_correlation": 0.6663276283474797
+    },
+    "reference_regression": {
+     "E": 0.8500918482347006,
+     "entry_correlation": 0.5279250424669703
+    },
+    "transferred_correlation": {
+     "E": 1.1322970587042356,
+     "entry_correlation": 0.4595739207251991
+    },
+    "transferred_covariance": {
+     "E": 6.193664139470947,
+     "entry_correlation": 0.23040795195071442
+    },
+    "variances_only": {
+     "E": 0.9647173143511946,
+     "entry_correlation": 0.31010940242977436
+    },
+    "recipient_benchmark": {
+     "E": 0.7367118576096354,
+     "entry_correlation": 0.7722336582676784
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "colon/XAUT1-HS2/within_coarse": {
+   "scoring_cells": 475,
+   "types": [
+    "01-Plasma cells",
+    "02-B",
+    "03-CD4 T",
+    "04-CD8 T",
+    "10-Epithelial",
+    "11-Stromal-fibroblast",
+    "14-Mito Hi immune"
+   ],
+   "arms": {
+    "pf_means": {
+     "E": 1.209484744857152,
+     "entry_correlation": 0.12535966689420183
+    },
+    "pf_moment": {
+     "E": 1.2022183066033498,
+     "entry_correlation": 0.13784470410784316
+    },
+    "paired_closed_form": {
+     "E": 0.9760232593161873,
+     "entry_correlation": 0.33516485024581527
+    },
+    "reference_regression": {
+     "E": 0.9792372239932451,
+     "entry_correlation": 0.24278413063288462
+    },
+    "transferred_correlation": {
+     "E": 2.1464348622202993,
+     "entry_correlation": 0.11191486283170875
+    },
+    "transferred_covariance": {
+     "E": 18.48151083868193,
+     "entry_correlation": 0.036349577144668695
+    },
+    "variances_only": {
+     "E": 0.9902151515232996,
+     "entry_correlation": 0.1650253614687782
+    },
+    "recipient_benchmark": {
+     "E": 0.9492232699904856,
+     "entry_correlation": 0.3579117387153447
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "colon/XAUT1-HS3/total": {
+   "scoring_cells": 852,
+   "types": null,
+   "arms": {
+    "pf_means": {
+     "E": 0.9458908393632526,
+     "entry_correlation": 0.4290727505905227
+    },
+    "pf_moment": {
+     "E": 0.8288913333702461,
+     "entry_correlation": 0.5642861826054197
+    },
+    "paired_closed_form": {
+     "E": 0.6850752765258877,
+     "entry_correlation": 0.7301568590637137
+    },
+    "reference_regression": {
+     "E": 0.8188395629274335,
+     "entry_correlation": 0.573851136588812
+    },
+    "transferred_correlation": {
+     "E": 1.0707854532580556,
+     "entry_correlation": 0.4321190536933403
+    },
+    "transferred_covariance": {
+     "E": 4.3322696058184125,
+     "entry_correlation": 0.19819683630549279
+    },
+    "variances_only": {
+     "E": 0.9695720706644029,
+     "entry_correlation": 0.2993732347199729
+    },
+    "recipient_benchmark": {
+     "E": 0.4353131643183815,
+     "entry_correlation": 0.9126779598553473
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "colon/XAUT1-HS3/within_coarse": {
+   "scoring_cells": 821,
+   "types": [
+    "01-Plasma cells",
+    "02-B",
+    "03-CD4 T",
+    "04-CD8 T",
+    "05-ILC2 and ILC3",
+    "08-MNP",
+    "09-Cycling",
+    "10-Epithelial",
+    "11-Stromal-fibroblast",
+    "14-Mito Hi immune"
+   ],
+   "arms": {
+    "pf_means": {
+     "E": 1.3476151086916461,
+     "entry_correlation": 0.14202453663549078
+    },
+    "pf_moment": {
+     "E": 1.2403893522120877,
+     "entry_correlation": 0.19141458082056728
+    },
+    "paired_closed_form": {
+     "E": 0.9944265818198263,
+     "entry_correlation": 0.39952862365133746
+    },
+    "reference_regression": {
+     "E": 0.967693930304446,
+     "entry_correlation": 0.33012783231585047
+    },
+    "transferred_correlation": {
+     "E": 2.40346320062643,
+     "entry_correlation": 0.205487842218046
+    },
+    "transferred_covariance": {
+     "E": 13.377379935502672,
+     "entry_correlation": 0.14024937590012188
+    },
+    "variances_only": {
+     "E": 0.965730365184366,
+     "entry_correlation": 0.262379327432804
+    },
+    "recipient_benchmark": {
+     "E": 0.9191334923472181,
+     "entry_correlation": 0.4685694707610167
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "colon/XAUT1-HS4/total": {
+   "scoring_cells": 865,
+   "types": null,
+   "arms": {
+    "pf_means": {
+     "E": 0.9585588611863591,
+     "entry_correlation": 0.44509842665402577
+    },
+    "pf_moment": {
+     "E": 0.9033682201023058,
+     "entry_correlation": 0.470800503874608
+    },
+    "paired_closed_form": {
+     "E": 0.6709462558943009,
+     "entry_correlation": 0.7422239509578994
+    },
+    "reference_regression": {
+     "E": 0.8807650952654744,
+     "entry_correlation": 0.4950601804632276
+    },
+    "transferred_correlation": {
+     "E": 1.1174499388357608,
+     "entry_correlation": 0.4131394587259341
+    },
+    "transferred_covariance": {
+     "E": 3.6254788206239397,
+     "entry_correlation": 0.251934166007544
+    },
+    "variances_only": {
+     "E": 0.9734815780868538,
+     "entry_correlation": 0.2626285266898246
+    },
+    "recipient_benchmark": {
+     "E": 0.4114934271091043,
+     "entry_correlation": 0.913531660272544
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "colon/XAUT1-HS4/within_coarse": {
+   "scoring_cells": 830,
+   "types": [
+    "01-Plasma cells",
+    "02-B",
+    "03-CD4 T",
+    "04-CD8 T",
+    "08-MNP",
+    "10-Epithelial",
+    "11-Stromal-fibroblast",
+    "14-Mito Hi immune"
+   ],
+   "arms": {
+    "pf_means": {
+     "E": 1.3019510908668896,
+     "entry_correlation": 0.13451569538424485
+    },
+    "pf_moment": {
+     "E": 1.2712944579144234,
+     "entry_correlation": 0.14464715816754037
+    },
+    "paired_closed_form": {
+     "E": 0.9933493425585159,
+     "entry_correlation": 0.35612136984434273
+    },
+    "reference_regression": {
+     "E": 0.9698805955762717,
+     "entry_correlation": 0.29712633769576646
+    },
+    "transferred_correlation": {
+     "E": 2.3791047198498294,
+     "entry_correlation": 0.20150041336761976
+    },
+    "transferred_covariance": {
+     "E": 12.011129290200758,
+     "entry_correlation": 0.13290012301417728
+    },
+    "variances_only": {
+     "E": 0.9779085351124405,
+     "entry_correlation": 0.22213760914101102
+    },
+    "recipient_benchmark": {
+     "E": 0.9345311312997879,
+     "entry_correlation": 0.4365205846789303
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "colon/XAUT1-HS5/total": {
+   "scoring_cells": 523,
+   "types": null,
+   "arms": {
+    "pf_means": {
+     "E": 1.0323196123249552,
+     "entry_correlation": 0.35870460981814545
+    },
+    "pf_moment": {
+     "E": 0.9082241668546676,
+     "entry_correlation": 0.4564096441434584
+    },
+    "paired_closed_form": {
+     "E": 0.7730958040884741,
+     "entry_correlation": 0.6473763268664889
+    },
+    "reference_regression": {
+     "E": 0.8937244677925413,
+     "entry_correlation": 0.47344874992698766
+    },
+    "transferred_correlation": {
+     "E": 1.0724345846566028,
+     "entry_correlation": 0.41134786707445814
+    },
+    "transferred_covariance": {
+     "E": 2.617926283935616,
+     "entry_correlation": 0.27103204332880343
+    },
+    "variances_only": {
+     "E": 0.9755967231862314,
+     "entry_correlation": 0.2574899040406836
+    },
+    "recipient_benchmark": {
+     "E": 0.49363038968895806,
+     "entry_correlation": 0.869817396777626
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "colon/XAUT1-HS5/within_coarse": {
+   "scoring_cells": 498,
+   "types": [
+    "01-Plasma cells",
+    "02-B",
+    "03-CD4 T",
+    "04-CD8 T",
+    "08-MNP",
+    "10-Epithelial",
+    "11-Stromal-fibroblast",
+    "14-Mito Hi immune"
+   ],
+   "arms": {
+    "pf_means": {
+     "E": 1.2844305137259588,
+     "entry_correlation": 0.13159342409515828
+    },
+    "pf_moment": {
+     "E": 1.1936957893242353,
+     "entry_correlation": 0.18163298923744575
+    },
+    "paired_closed_form": {
+     "E": 1.004915736525095,
+     "entry_correlation": 0.3518828180149487
+    },
+    "reference_regression": {
+     "E": 1.0099397898753957,
+     "entry_correlation": 0.23252606960259667
+    },
+    "transferred_correlation": {
+     "E": 2.077652403328337,
+     "entry_correlation": 0.1566237070866929
+    },
+    "transferred_covariance": {
+     "E": 8.55141823316209,
+     "entry_correlation": 0.10888476403172849
+    },
+    "variances_only": {
+     "E": 0.9846441255291288,
+     "entry_correlation": 0.18575657348539554
+    },
+    "recipient_benchmark": {
+     "E": 0.9346166427240034,
+     "entry_correlation": 0.3901112840266562
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "colon/XAUT1-HS6/total": {
+   "scoring_cells": 266,
+   "types": null,
+   "arms": {
+    "pf_means": {
+     "E": 1.0941294300517401,
+     "entry_correlation": 0.25133411153399743
+    },
+    "pf_moment": {
+     "E": 1.0875441813245892,
+     "entry_correlation": 0.20159054705556642
+    },
+    "paired_closed_form": {
+     "E": 0.7813574937310244,
+     "entry_correlation": 0.6307000608810402
+    },
+    "reference_regression": {
+     "E": 0.8928934725743685,
+     "entry_correlation": 0.4650585893630578
+    },
+    "transferred_correlation": {
+     "E": 1.0757896571851862,
+     "entry_correlation": 0.3917892064564031
+    },
+    "transferred_covariance": {
+     "E": 2.6170587653461386,
+     "entry_correlation": 0.24316601415921849
+    },
+    "variances_only": {
+     "E": 0.9759103839093743,
+     "entry_correlation": 0.25891251758417316
+    },
+    "recipient_benchmark": {
+     "E": 0.6878819398062319,
+     "entry_correlation": 0.7860322638201968
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "colon/XAUT1-HS6/within_coarse": {
+   "scoring_cells": 233,
+   "types": [
+    "01-Plasma cells",
+    "02-B",
+    "03-CD4 T",
+    "04-CD8 T",
+    "06-NK",
+    "07-Mast",
+    "11-Stromal-fibroblast",
+    "14-Mito Hi immune"
+   ],
+   "arms": {
+    "pf_means": {
+     "E": 1.195793517730541,
+     "entry_correlation": 0.0570817767493508
+    },
+    "pf_moment": {
+     "E": 1.2071977993837892,
+     "entry_correlation": 0.04796774199942981
+    },
+    "paired_closed_form": {
+     "E": 1.024047647091582,
+     "entry_correlation": 0.21459270083841409
+    },
+    "reference_regression": {
+     "E": 1.0008087094383493,
+     "entry_correlation": 0.1752867199044381
+    },
+    "transferred_correlation": {
+     "E": 1.7707446363057697,
+     "entry_correlation": 0.07714712145723812
+    },
+    "transferred_covariance": {
+     "E": 8.02526068396619,
+     "entry_correlation": 0.03089934550781302
+    },
+    "variances_only": {
+     "E": 0.9948011549014312,
+     "entry_correlation": 0.12349140883071705
+    },
+    "recipient_benchmark": {
+     "E": 0.9683724164902746,
+     "entry_correlation": 0.24966915392150535
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "colon/XAUT1-HS7/total": {
+   "scoring_cells": 779,
+   "types": null,
+   "arms": {
+    "pf_means": {
+     "E": 0.9376249511606018,
+     "entry_correlation": 0.48868816016852323
+    },
+    "pf_moment": {
+     "E": 0.8169065823561762,
+     "entry_correlation": 0.5913452241486389
+    },
+    "paired_closed_form": {
+     "E": 0.6156473480458639,
+     "entry_correlation": 0.7889366022183854
+    },
+    "reference_regression": {
+     "E": 0.7909563552502913,
+     "entry_correlation": 0.6162161200850655
+    },
+    "transferred_correlation": {
+     "E": 1.0439940392951834,
+     "entry_correlation": 0.5191349740407046
+    },
+    "transferred_covariance": {
+     "E": 3.532152307197924,
+     "entry_correlation": 0.3275312796107682
+    },
+    "variances_only": {
+     "E": 0.9605011948113152,
+     "entry_correlation": 0.3453907909431438
+    },
+    "recipient_benchmark": {
+     "E": 0.493609708038253,
+     "entry_correlation": 0.8764670986009881
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "colon/XAUT1-HS7/within_coarse": {
+   "scoring_cells": 761,
+   "types": [
+    "01-Plasma cells",
+    "02-B",
+    "03-CD4 T",
+    "04-CD8 T",
+    "08-MNP",
+    "09-Cycling",
+    "10-Epithelial",
+    "11-Stromal-fibroblast",
+    "14-Mito Hi immune"
+   ],
+   "arms": {
+    "pf_means": {
+     "E": 1.296843652231993,
+     "entry_correlation": 0.16149162928889393
+    },
+    "pf_moment": {
+     "E": 1.2278327330487004,
+     "entry_correlation": 0.1958374259272119
+    },
+    "paired_closed_form": {
+     "E": 0.9662468170974433,
+     "entry_correlation": 0.41465813005688457
+    },
+    "reference_regression": {
+     "E": 0.9608985370826942,
+     "entry_correlation": 0.33267674232963534
+    },
+    "transferred_correlation": {
+     "E": 2.2467190250151665,
+     "entry_correlation": 0.2212479800419606
+    },
+    "transferred_covariance": {
+     "E": 10.672071223857671,
+     "entry_correlation": 0.15808184568881326
+    },
+    "variances_only": {
+     "E": 0.9691424101821488,
+     "entry_correlation": 0.24862065592265753
+    },
+    "recipient_benchmark": {
+     "E": 0.9132132346556067,
+     "entry_correlation": 0.49744128321883807
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "colon/XAUT1-HS8/total": {
+   "scoring_cells": 483,
+   "types": null,
+   "arms": {
+    "pf_means": {
+     "E": 0.7193430413014911,
+     "entry_correlation": 0.6938682247647111
+    },
+    "pf_moment": {
+     "E": 0.724357333648519,
+     "entry_correlation": 0.6920575813000749
+    },
+    "paired_closed_form": {
+     "E": 0.5286469989132686,
+     "entry_correlation": 0.8513404323944802
+    },
+    "reference_regression": {
+     "E": 0.7495365579517929,
+     "entry_correlation": 0.6679405736904326
+    },
+    "transferred_correlation": {
+     "E": 0.8282139861743639,
+     "entry_correlation": 0.5777718310467029
+    },
+    "transferred_covariance": {
+     "E": 1.328817754361591,
+     "entry_correlation": 0.36827282048981763
+    },
+    "variances_only": {
+     "E": 0.9772552485618416,
+     "entry_correlation": 0.292865626203912
+    },
+    "recipient_benchmark": {
+     "E": 0.3822057164462781,
+     "entry_correlation": 0.9339164687471015
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "colon/XAUT1-HS8/within_coarse": {
+   "scoring_cells": 454,
+   "types": [
+    "01-Plasma cells",
+    "02-B",
+    "03-CD4 T",
+    "04-CD8 T",
+    "08-MNP",
+    "11-Stromal-fibroblast",
+    "12-Endothelial",
+    "14-Mito Hi immune"
+   ],
+   "arms": {
+    "pf_means": {
+     "E": 1.1814268356213795,
+     "entry_correlation": 0.17801377036473126
+    },
+    "pf_moment": {
+     "E": 1.1254173377112149,
+     "entry_correlation": 0.22191047912126222
+    },
+    "paired_closed_form": {
+     "E": 0.966092055903598,
+     "entry_correlation": 0.37850427972639267
+    },
+    "reference_regression": {
+     "E": 0.9723713260890358,
+     "entry_correlation": 0.28912221743905586
+    },
+    "transferred_correlation": {
+     "E": 1.8876024168516377,
+     "entry_correlation": 0.14911568900559147
+    },
+    "transferred_covariance": {
+     "E": 5.2654445801779595,
+     "entry_correlation": 0.1155671571926141
+    },
+    "variances_only": {
+     "E": 0.97516209636134,
+     "entry_correlation": 0.22134286336245665
+    },
+    "recipient_benchmark": {
+     "E": 0.9050957665274129,
+     "entry_correlation": 0.4806415071376017
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "colon/XAUT1-HS9/total": {
+   "scoring_cells": 673,
+   "types": null,
+   "arms": {
+    "pf_means": {
+     "E": 0.9840532531024049,
+     "entry_correlation": 0.4005933331587335
+    },
+    "pf_moment": {
+     "E": 0.9104936173953762,
+     "entry_correlation": 0.45868422227618016
+    },
+    "paired_closed_form": {
+     "E": 0.7626377671000756,
+     "entry_correlation": 0.6502122551149737
+    },
+    "reference_regression": {
+     "E": 0.8970518085040283,
+     "entry_correlation": 0.4576564890858304
+    },
+    "transferred_correlation": {
+     "E": 1.2158327423119217,
+     "entry_correlation": 0.3410597697989391
+    },
+    "transferred_covariance": {
+     "E": 5.000401822700929,
+     "entry_correlation": 0.1616448022543166
+    },
+    "variances_only": {
+     "E": 0.9743856672821299,
+     "entry_correlation": 0.25072227323641044
+    },
+    "recipient_benchmark": {
+     "E": 0.4951823683409404,
+     "entry_correlation": 0.8711761700339342
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  },
+  "colon/XAUT1-HS9/within_coarse": {
+   "scoring_cells": 628,
+   "types": [
+    "01-Plasma cells",
+    "02-B",
+    "03-CD4 T",
+    "04-CD8 T",
+    "10-Epithelial",
+    "11-Stromal-fibroblast",
+    "14-Mito Hi immune"
+   ],
+   "arms": {
+    "pf_means": {
+     "E": 1.2560491416789215,
+     "entry_correlation": 0.14434815203045676
+    },
+    "pf_moment": {
+     "E": 1.2244801945562094,
+     "entry_correlation": 0.1851587929426047
+    },
+    "paired_closed_form": {
+     "E": 1.0103466646502812,
+     "entry_correlation": 0.3265637755018994
+    },
+    "reference_regression": {
+     "E": 0.984441142900893,
+     "entry_correlation": 0.26602789987727593
+    },
+    "transferred_correlation": {
+     "E": 2.3923397885828566,
+     "entry_correlation": 0.10363294870564403
+    },
+    "transferred_covariance": {
+     "E": 14.167220685392284,
+     "entry_correlation": 0.04406625364792061
+    },
+    "variances_only": {
+     "E": 0.990648236767857,
+     "entry_correlation": 0.1757149969834137
+    },
+    "recipient_benchmark": {
+     "E": 0.9475577386114519,
+     "entry_correlation": 0.3710010624944185
+    },
+    "independence": {
+     "E": 1.0,
+     "entry_correlation": 0.0
+    }
+   }
+  }
+ }
+}

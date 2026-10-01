@@ -1,0 +1,53 @@
+{
+ "frozen_at": "2026-09-27T17:26:25-0400",
+ "files": {
+  "PLAN.md": "0126f462ed8a60c12183c376ecd838fc1dd4f74cd9b6e538a4917a3a31c2d553",
+  "gdata.py": "3f43f2a03e5330400b6fcfdfcf0de6861dd18c29723c0e4008bae7083fab48b5",
+  "grun.py": "8c9f026ea7a133939826534d7ee71e8e87b3e9d65889185429b869004d9c9f65",
+  "glaw.py": "e41fc004cb102fb76486e2efb8eab1496fd514ad7a0c93d7c1b0f1a68636a140",
+  "freeze.py": "75b156ea94e82191a532e072348220cb52958fe11183c5aa388b609d14e5f00a",
+  "../semipaired/run_study.py": "281a9b6b29678af2033dac5c5c809c4d177d8fafabb5afb3d502f4b91743cb56",
+  "../semipaired/common.py": "a5178b735b9a39642bb1c47ba017681aeaae4e53405fe24542da5bcbbda8ebae",
+  "../semipaired/sp_estimators.py": "2c7d7921928f154c9942038a53d91d172746bb663b4b2cbde2800b56b295d203",
+  "../semipaired/competitors.py": "bf42197d92b4019cdf4bc4447a082cab9cbe495452431a93b2a65ebdd6fb8ab0",
+  "../semipaired/selftune.py": "bee2da02022952aad76e592e8730a6b2fef3a67b9f87e56c06ce8258a4bb0688",
+  "../semipaired/DEV_SELFTUNE.md": "f3316661386894e66f1892dbb98923c281c197d01e767cd1fe3d2b8f5fe4c807",
+  "../semipaired/bound_check.py": "94f76bd58ee724900d7a0f83d76ffba9d4d592d8416bfdcee94e6eec4b34d66e",
+  "../semipaired/results/frangieh.json": "83eca01602d70d4f6548ea68c63dee7effe014742d9b94a624ef66a135d4d1fa",
+  "../semipaired/results/papalexi.json": "08ec8533218d97338be38de97d086982313f4e5cd92cf6ea3cb5bb24dcc8c57c",
+  "../semipaired/external/results/overcite_plan_estimator.json": "f7612e64d53e38a8597a00b3ee5e52f7026e5ef8c1defd66e453a74e6ae71883",
+  "../hybrid/hmethods.py": "8cddc28ae630972e66c2334b94665d6d15c0ce27c7eeeb097ac287df57e9187a",
+  "../hybrid/run.py": "4bbac983b8a9d88ecff0776ddd3eae3001db7af3725f7dcfa630160569742e6f",
+  "../perturbation/pmethods.py": "13d81720662769d65965785476a7f804d0edb6d1cdba43cb4a959d32bad881e6",
+  "../perturbation/pdata.py": "343eb611abe17aa76a3fd556c4c25d3f99ac4c24114a1ac15fd6ca8aa7e95050",
+  "../recoverability/noise.py": "0a47641928672d5d2898558127be0a05e43f64365a00e37573403cb177f44376",
+  "../recoverability/compat.py": "54fd3b16ff73bae178f5e62f6a4fd310c810a4aeb5e76b5cac823ed26a089df2",
+  "../cross_study/estimators.py": "e4fb8b76b8dd38832cabf9005846767a219e8425b3978b7170ccbe9158186c3a",
+  "../cross_study/data.py": "4f5bf600a8dba55e85c4deffea99093c60894c73648dc0f15323ebe952325314",
+  "../spectral_transfer/gaussian_transfer.py": "4fd558d20039fa208c16e8cfd96d02e2347fc85ed44b5146f02f8904dd831b9f"
+ },
+ "data": {
+  "hao": "38b380c988d74363321ab5af82f305faaf6e9b1dbc99cc502e143b36f522841c",
+  "stephenson": "3779f36f642b135bccea8e430b3e6abfb1ce1c300d86f58f91518951165e82b2",
+  "bmmc_cite": "3144206388adfbf286a3db68a1cda0b2d2732a360148e0ea1b45c8339c750399",
+  "colon": "069344904e104850c841d34236db89d081b18171a8bc8526fd07e77581b3be89",
+  "bmmc_multiome": "1e326138f83617b9fb141a9cb194e7a5ee6d917f6b94ccbc1c1d81334cc557be",
+  "scala_m1": "eb2cadea711d037fe58fff280b50f72c092cc176023f4f569b990df8404d6d36",
+  "gouwens_visp": "b2206518a829aa74dd21245bd186c4c5cc6a50a916845319fb61cd4b790a6411",
+  "banc": "63ded2322259fb6c76cdc46dec11c702fcff171ad957a2a0d16ece6b3dc8933d",
+  "malecns": "c74897bb774742f3008e8ea15238e89c813d8e551804d6ec0e418d5099b6d79c",
+  "fafb_brain": "fdfb21074d4a3c40afc7a6a474c1c59343a51abd78debfc970e8ef98383076e8",
+  "manc_vnc": "419dbb9672cd8b9361d26aeb88928863e139178a5e3ec0cc00947a6a2d6f2170"
+ },
+ "data_json": {
+  "hao": "3e9a58403144517fb374b069a56a795c0ceb080ce4fbc2a2f9add0337f772f4f",
+  "stephenson": "8cff9158957714988c743e0ec7de0fb215392ee8916c27e194e525f9c4ac05cd",
+  "bmmc_cite": "0874943e1f85e0ba8e1da8eba1d7839072e5c885ecf7485df53abb5643cb3fc3",
+  "colon": "c443e3d0e09e434b58e78b7e91b20d9d6b677e1b7a9068d1cdc89c63b67af616",
+  "bmmc_multiome": "b7325d1cc190bb57da5627605df70b2a3e0787c4fcd6e69dcf1fa40e992002a2",
+  "scala_m1": "4c3c33d8d24d860d1e52c80c3520d15aff9a69a88b95deb118cb1e5b19dc122d",
+  "gouwens_visp": "9f90a73674279e6ffafe0eae3d01a4479e5c2ef96d5028e7dee03836263fb38a",
+  "banc": "40bc9df4b1737be265d8f540e258c06aa730be6b8543570ffac0415f3157c362",
+  "malecns": "3cbffe817d9995d3be8faa312c55558e49bf934f15297f025c9fc1dfa2c783c2"
+ }
+}

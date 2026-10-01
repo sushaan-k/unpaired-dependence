@@ -1,0 +1,22 @@
+[04:27:19] reference few_B_mono: maps ['B', 'CD14 Mono', 'CD4 T', 'CD8 T', 'NK']
+[04:27:20] reference few_T: maps ['B', 'CD14 Mono', 'CD4 T', 'CD8 T', 'NK']
+[04:27:20] reference full: own-weight maps reproduce the published maps (max abs difference 0.0e+00)
+[04:27:20] reference few_B_mono: own-weight maps reproduce the published maps (max abs difference 0.0e+00)
+[04:27:20] reference few_T: own-weight maps reproduce the published maps (max abs difference 0.0e+00)
+[04:27:27] fold 0 (XHLT2-HS6-BLE1) done [7s]; check {'max_abs_mean': 4.742556320991298e-07, 'max_rel_msq': 0.0, 'compared': 165}
+[04:27:34] fold 17 (XHLT2-HS88-AAE6) done [7s]; check {'max_abs_mean': 4.732673133389653e-07, 'max_rel_msq': 0.0, 'compared': 165}
+/home/claude/cbio/cbio-agent-handoff/extension/second_review/validation_review.py:520: RuntimeWarning: Mean of empty slice
+  "sign": np.nanmean(np.nanmean(sgn[:, :, :, ai], 2), 0).tolist(),
+/home/claude/cbio/cbio-agent-handoff/extension/second_review/validation_review.py:519: RuntimeWarning: divide by zero encountered in divide
+  per_arm[a] = {"rf": (np.nanmean(num[:, :, :, ai], 2).sum(0) / den).tolist(),
+/home/claude/cbio/cbio-agent-handoff/extension/second_review/validation_review.py:519: RuntimeWarning: invalid value encountered in divide
+  per_arm[a] = {"rf": (np.nanmean(num[:, :, :, ai], 2).sum(0) / den).tolist(),
+paired_only              cells 25<=  rf 28.8 51.0 65.4
+atlas                    cells 100>  rf -341.4 -947.2 -1065.2
+atlas/axes               cells 25<=  rf 28.0 50.7 65.3
+atlas/map_only           cells 100>  rf -313.8 -918.7 -1051.1
+regression               cells 25<=  rf 13.2 46.0 64.5
+few_B_mono/mapped        cells 100>  rf -376.4 -1084.4 -1383.5
+few_B_mono/reweighted    cells 100>  rf -443.5 -802.1 -1002.2
+few_T/mapped             cells 100>  rf -139.1 -399.7 -486.9
+few_T/reweighted         cells 100>  rf -230.4 -382.3 -494.2

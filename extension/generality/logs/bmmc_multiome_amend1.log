@@ -1,0 +1,5 @@
+[    36s] bmmc_multiome: bootstrap 500/2000
+[    64s] bmmc_multiome: bootstrap 1000/2000
+[    93s] bmmc_multiome: bootstrap 1500/2000
+[   120s] bmmc_multiome: bootstrap 2000/2000
+[   124s] bmmc_multiome: amended: level 25.1 (bjs2/mapped); saving vs paired-only 2.81 (1.71-3.02); proposed =285, paired-only >800

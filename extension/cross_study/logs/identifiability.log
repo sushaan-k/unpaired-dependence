@@ -1,0 +1,52 @@
+hao/P1/total {'rho': 0.352, 'floor': 0.152, 'radius': 0.864, 'centre_error': 0.856, 'max_identified_singular_value': 3.593, 'E_pf_means': 0.314, 'E_pf_moment': 0.377, 'E_paired_closed_form': 0.142}
+hao/P1/within_l1 {'rho': 0.128, 'floor': 0.696, 'radius': 1.716, 'centre_error': 1.093, 'max_identified_singular_value': 3.748, 'E_pf_means': 1.074, 'E_pf_moment': 1.061, 'E_paired_closed_form': 0.495}
+hao/P1/within_l2 {'rho': 0.094, 'floor': 0.724, 'radius': 2.851, 'centre_error': 1.372, 'max_identified_singular_value': 3.741, 'E_pf_means': 1.376, 'E_pf_moment': 1.384, 'E_paired_closed_form': 0.808}
+hao/P2/total {'rho': 0.376, 'floor': 0.151, 'radius': 0.875, 'centre_error': 0.872, 'max_identified_singular_value': 2.696, 'E_pf_means': 0.311, 'E_pf_moment': 0.398, 'E_paired_closed_form': 0.138}
+hao/P2/within_l1 {'rho': 0.127, 'floor': 0.693, 'radius': 1.782, 'centre_error': 1.042, 'max_identified_singular_value': 2.663, 'E_pf_means': 1.021, 'E_pf_moment': 0.989, 'E_paired_closed_form': 0.484}
+hao/P2/within_l2 {'rho': 0.091, 'floor': 0.761, 'radius': 3.201, 'centre_error': 1.316, 'max_identified_singular_value': 2.743, 'E_pf_means': 1.543, 'E_pf_moment': 1.48, 'E_paired_closed_form': 0.896}
+hao/P3/total {'rho': 0.378, 'floor': 0.158, 'radius': 0.881, 'centre_error': 0.872, 'max_identified_singular_value': 3.38, 'E_pf_means': 0.305, 'E_pf_moment': 0.406, 'E_paired_closed_form': 0.138}
+hao/P3/within_l1 {'rho': 0.107, 'floor': 0.817, 'radius': 1.908, 'centre_error': 1.158, 'max_identified_singular_value': 3.824, 'E_pf_means': 1.179, 'E_pf_moment': 1.121, 'E_paired_closed_form': 0.535}
+hao/P3/within_l2 {'rho': 0.087, 'floor': 0.811, 'radius': 3.22, 'centre_error': 1.547, 'max_identified_singular_value': 3.917, 'E_pf_means': 1.597, 'E_pf_moment': 1.539, 'E_paired_closed_form': 0.937}
+hao/P4/total {'rho': 0.362, 'floor': 0.159, 'radius': 0.869, 'centre_error': 0.859, 'max_identified_singular_value': 3.478, 'E_pf_means': 0.303, 'E_pf_moment': 0.387, 'E_paired_closed_form': 0.14}
+hao/P4/within_l1 {'rho': 0.11, 'floor': 0.793, 'radius': 2.233, 'centre_error': 1.271, 'max_identified_singular_value': 3.996, 'E_pf_means': 1.296, 'E_pf_moment': 1.22, 'E_paired_closed_form': 0.646}
+hao/P4/within_l2 {'rho': 0.089, 'floor': 0.81, 'radius': 3.621, 'centre_error': 1.724, 'max_identified_singular_value': 4.083, 'E_pf_means': 1.772, 'E_pf_moment': 1.669, 'E_paired_closed_form': 1.013}
+hao/P5/total {'rho': 0.382, 'floor': 0.198, 'radius': 0.899, 'centre_error': 0.885, 'max_identified_singular_value': 3.355, 'E_pf_means': 0.295, 'E_pf_moment': 0.357, 'E_paired_closed_form': 0.139}
+hao/P5/within_l1 {'rho': 0.129, 'floor': 0.623, 'radius': 1.704, 'centre_error': 1.063, 'max_identified_singular_value': 3.695, 'E_pf_means': 0.967, 'E_pf_moment': 0.975, 'E_paired_closed_form': 0.515}
+hao/P5/within_l2 {'rho': 0.095, 'floor': 0.667, 'radius': 2.542, 'centre_error': 1.285, 'max_identified_singular_value': 3.733, 'E_pf_means': 1.258, 'E_pf_moment': 1.265, 'E_paired_closed_form': 0.753}
+hao/P6/total {'rho': 0.389, 'floor': 0.151, 'radius': 0.879, 'centre_error': 0.893, 'max_identified_singular_value': 3.456, 'E_pf_means': 0.318, 'E_pf_moment': 0.422, 'E_paired_closed_form': 0.127}
+hao/P6/within_l1 {'rho': 0.107, 'floor': 0.804, 'radius': 1.885, 'centre_error': 1.148, 'max_identified_singular_value': 3.562, 'E_pf_means': 1.123, 'E_pf_moment': 1.046, 'E_paired_closed_form': 0.525}
+hao/P6/within_l2 {'rho': 0.087, 'floor': 0.797, 'radius': 3.333, 'centre_error': 1.556, 'max_identified_singular_value': 3.638, 'E_pf_means': 1.621, 'E_pf_moment': 1.562, 'E_paired_closed_form': 0.931}
+hao/P7/total {'rho': 0.406, 'floor': 0.156, 'radius': 0.892, 'centre_error': 0.895, 'max_identified_singular_value': 3.457, 'E_pf_means': 0.244, 'E_pf_moment': 0.404, 'E_paired_closed_form': 0.12}
+hao/P7/within_l1 {'rho': 0.134, 'floor': 0.696, 'radius': 1.702, 'centre_error': 1.1, 'max_identified_singular_value': 3.93, 'E_pf_means': 1.03, 'E_pf_moment': 0.967, 'E_paired_closed_form': 0.496}
+hao/P7/within_l2 {'rho': 0.101, 'floor': 0.738, 'radius': 2.705, 'centre_error': 1.39, 'max_identified_singular_value': 3.959, 'E_pf_means': 1.389, 'E_pf_moment': 1.314, 'E_paired_closed_form': 0.785}
+hao/P8/total {'rho': 0.39, 'floor': 0.132, 'radius': 0.88, 'centre_error': 0.887, 'max_identified_singular_value': 3.701, 'E_pf_means': 0.243, 'E_pf_moment': 0.363, 'E_paired_closed_form': 0.13}
+hao/P8/within_l1 {'rho': 0.133, 'floor': 0.606, 'radius': 1.759, 'centre_error': 1.15, 'max_identified_singular_value': 4.19, 'E_pf_means': 0.967, 'E_pf_moment': 0.93, 'E_paired_closed_form': 0.528}
+hao/P8/within_l2 {'rho': 0.101, 'floor': 0.672, 'radius': 2.725, 'centre_error': 1.485, 'max_identified_singular_value': 4.286, 'E_pf_means': 1.32, 'E_pf_moment': 1.268, 'E_paired_closed_form': 0.824}
+colon/XAUT1-HS1/total {'rho': 0.182, 'floor': 0.67, 'radius': 1.374, 'centre_error': 0.972, 'max_identified_singular_value': 2.745, 'E_pf_means': 1.037, 'E_pf_moment': 0.889, 'E_paired_closed_form': 0.724}
+colon/XAUT1-HS1/within_coarse {'rho': 0.09, 'floor': 0.911, 'radius': 2.102, 'centre_error': 1.057, 'max_identified_singular_value': 2.656, 'E_pf_means': 1.344, 'E_pf_moment': 1.273, 'E_paired_closed_form': 1.027}
+colon/XAUT1-HS10/total {'rho': 0.155, 'floor': 0.872, 'radius': 1.508, 'centre_error': 0.996, 'max_identified_singular_value': 1.025, 'E_pf_means': 1.155, 'E_pf_moment': 1.035, 'E_paired_closed_form': 0.919}
+colon/XAUT1-HS10/within_coarse {'rho': 0.083, 'floor': 0.971, 'radius': 1.518, 'centre_error': 1.0, 'max_identified_singular_value': 0.436, 'E_pf_means': 1.216, 'E_pf_moment': 1.194, 'E_paired_closed_form': 1.047}
+colon/XAUT1-HS11/total {'rho': 0.177, 'floor': 0.716, 'radius': 1.266, 'centre_error': 0.951, 'max_identified_singular_value': 2.767, 'E_pf_means': 0.95, 'E_pf_moment': 0.86, 'E_paired_closed_form': 0.708}
+colon/XAUT1-HS11/within_coarse {'rho': 0.086, 'floor': 0.91, 'radius': 1.949, 'centre_error': 1.054, 'max_identified_singular_value': 2.769, 'E_pf_means': 1.284, 'E_pf_moment': 1.254, 'E_paired_closed_form': 0.988}
+colon/XAUT1-HS12/total {'rho': 0.147, 'floor': 0.726, 'radius': 1.414, 'centre_error': 0.999, 'max_identified_singular_value': 3.069, 'E_pf_means': 1.05, 'E_pf_moment': 0.981, 'E_paired_closed_form': 0.714}
+colon/XAUT1-HS12/within_coarse {'rho': 0.079, 'floor': 0.886, 'radius': 2.258, 'centre_error': 1.102, 'max_identified_singular_value': 2.184, 'E_pf_means': 1.366, 'E_pf_moment': 1.315, 'E_paired_closed_form': 0.999}
+colon/XAUT1-HS2/total {'rho': 0.159, 'floor': 0.688, 'radius': 1.31, 'centre_error': 0.968, 'max_identified_singular_value': 2.465, 'E_pf_means': 0.99, 'E_pf_moment': 0.942, 'E_paired_closed_form': 0.748}
+colon/XAUT1-HS2/within_coarse {'rho': 0.076, 'floor': 0.924, 'radius': 1.756, 'centre_error': 1.012, 'max_identified_singular_value': 1.915, 'E_pf_means': 1.209, 'E_pf_moment': 1.202, 'E_paired_closed_form': 0.976}
+colon/XAUT1-HS3/total {'rho': 0.183, 'floor': 0.636, 'radius': 1.199, 'centre_error': 0.965, 'max_identified_singular_value': 2.879, 'E_pf_means': 0.946, 'E_pf_moment': 0.829, 'E_paired_closed_form': 0.685}
+colon/XAUT1-HS3/within_coarse {'rho': 0.094, 'floor': 0.909, 'radius': 2.094, 'centre_error': 1.071, 'max_identified_singular_value': 2.895, 'E_pf_means': 1.348, 'E_pf_moment': 1.24, 'E_paired_closed_form': 0.994}
+colon/XAUT1-HS4/total {'rho': 0.198, 'floor': 0.713, 'radius': 1.373, 'centre_error': 0.972, 'max_identified_singular_value': 2.788, 'E_pf_means': 0.959, 'E_pf_moment': 0.903, 'E_paired_closed_form': 0.671}
+colon/XAUT1-HS4/within_coarse {'rho': 0.085, 'floor': 0.888, 'radius': 2.023, 'centre_error': 1.058, 'max_identified_singular_value': 2.794, 'E_pf_means': 1.302, 'E_pf_moment': 1.271, 'E_paired_closed_form': 0.993}
+colon/XAUT1-HS5/total {'rho': 0.208, 'floor': 0.753, 'radius': 1.365, 'centre_error': 0.973, 'max_identified_singular_value': 2.577, 'E_pf_means': 1.032, 'E_pf_moment': 0.908, 'E_paired_closed_form': 0.773}
+colon/XAUT1-HS5/within_coarse {'rho': 0.1, 'floor': 0.94, 'radius': 1.866, 'centre_error': 1.028, 'max_identified_singular_value': 2.502, 'E_pf_means': 1.284, 'E_pf_moment': 1.194, 'E_paired_closed_form': 1.005}
+colon/XAUT1-HS6/total {'rho': 0.211, 'floor': 0.84, 'radius': 1.288, 'centre_error': 0.972, 'max_identified_singular_value': 1.656, 'E_pf_means': 1.094, 'E_pf_moment': 1.088, 'E_paired_closed_form': 0.781}
+colon/XAUT1-HS6/within_coarse {'rho': 0.083, 'floor': 0.981, 'radius': 1.537, 'centre_error': 1.0, 'max_identified_singular_value': 0.996, 'E_pf_means': 1.196, 'E_pf_moment': 1.207, 'E_paired_closed_form': 1.024}
+colon/XAUT1-HS7/total {'rho': 0.207, 'floor': 0.604, 'radius': 1.288, 'centre_error': 0.94, 'max_identified_singular_value': 2.639, 'E_pf_means': 0.938, 'E_pf_moment': 0.817, 'E_paired_closed_form': 0.616}
+colon/XAUT1-HS7/within_coarse {'rho': 0.096, 'floor': 0.875, 'radius': 1.979, 'centre_error': 1.047, 'max_identified_singular_value': 2.711, 'E_pf_means': 1.297, 'E_pf_moment': 1.228, 'E_paired_closed_form': 0.966}
+colon/XAUT1-HS8/total {'rho': 0.238, 'floor': 0.585, 'radius': 1.049, 'centre_error': 0.934, 'max_identified_singular_value': 2.549, 'E_pf_means': 0.719, 'E_pf_moment': 0.724, 'E_paired_closed_form': 0.529}
+colon/XAUT1-HS8/within_coarse {'rho': 0.102, 'floor': 0.941, 'radius': 1.65, 'centre_error': 1.023, 'max_identified_singular_value': 2.581, 'E_pf_means': 1.181, 'E_pf_moment': 1.125, 'E_paired_closed_form': 0.966}
+colon/XAUT1-HS9/total {'rho': 0.166, 'floor': 0.737, 'radius': 1.352, 'centre_error': 0.987, 'max_identified_singular_value': 2.547, 'E_pf_means': 0.984, 'E_pf_moment': 0.91, 'E_paired_closed_form': 0.763}
+colon/XAUT1-HS9/within_coarse {'rho': 0.08, 'floor': 0.913, 'radius': 1.956, 'centre_error': 1.005, 'max_identified_singular_value': 1.379, 'E_pf_means': 1.256, 'E_pf_moment': 1.224, 'E_paired_closed_form': 1.01}
+/home/claude/cbio/cbio-agent-handoff/extension/cross_study/identifiability.py:150: RuntimeWarning: divide by zero encountered in divide
+  err.append(np.linalg.norm(C - T, axis=1) / norm)
+/home/claude/cbio/cbio-agent-handoff/extension/cross_study/identifiability.py:151: RuntimeWarning: divide by zero encountered in divide
+  unid.append(np.linalg.norm(Rx @ (np.eye(len(P)) - P) @ np.linalg.solve(Rx, T), axis=1) / norm)

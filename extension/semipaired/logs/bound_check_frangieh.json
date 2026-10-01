@@ -1,0 +1,160 @@
+{
+ "reservoir_cells": 21171,
+ "theta_norm2": 12.02307536354956,
+ "blocks": [
+  {
+   "rows": 5,
+   "cols": 3,
+   "signal_share": 0.7317062085684338,
+   "noise_share": 0.06313972180691513,
+   "effective_dimension": 4.426842194683258,
+   "null_direction": false
+  },
+  {
+   "rows": 5,
+   "cols": 17,
+   "signal_share": 0.07694642818544571,
+   "noise_share": 0.10746164325991732,
+   "effective_dimension": 26.68127477897609,
+   "null_direction": false
+  },
+  {
+   "rows": 15,
+   "cols": 3,
+   "signal_share": 0.09936818175545788,
+   "noise_share": 0.05167534589177,
+   "effective_dimension": 14.807832874242678,
+   "null_direction": false
+  },
+  {
+   "rows": 15,
+   "cols": 17,
+   "signal_share": 0.043911742668155805,
+   "noise_share": 0.08858330715361906,
+   "effective_dimension": 72.20858247781688,
+   "null_direction": false
+  },
+  {
+   "rows": 40,
+   "cols": 3,
+   "signal_share": 0.014061918091878374,
+   "noise_share": 0.06736294268617009,
+   "effective_dimension": 44.17699427099266,
+   "null_direction": false
+  },
+  {
+   "rows": 40,
+   "cols": 17,
+   "signal_share": 0.011681432335363028,
+   "noise_share": 0.11682613872942263,
+   "effective_dimension": 256.4005264130623,
+   "null_direction": false
+  },
+  {
+   "rows": 140,
+   "cols": 3,
+   "signal_share": 0.010727129297043636,
+   "noise_share": 0.18242809930496878,
+   "effective_dimension": 115.84753282717756,
+   "null_direction": false
+  },
+  {
+   "rows": 140,
+   "cols": 17,
+   "signal_share": 0.0115969590982217,
+   "noise_share": 0.32252280116721704,
+   "effective_dimension": 431.20131945922907,
+   "null_direction": false
+  }
+ ],
+ "budgets": {
+  "25": {
+   "bound": 26.985986561533686,
+   "risk_implemented": 9.376544811045818,
+   "risk_idealized": 21.1232420882407,
+   "risk_unshrunk": 171.59721825669484,
+   "bound_covers_implemented": true,
+   "bound_covers_idealized": true,
+   "relative_to_theta": {
+    "bound": 2.2445161279906207,
+    "implemented": 0.7798790681685946,
+    "idealized": 1.756891764338447,
+    "unshrunk": 14.272323267383593
+   }
+  },
+  "50": {
+   "bound": 15.775285787917984,
+   "risk_implemented": 7.353186247070924,
+   "risk_idealized": 10.6843838842368,
+   "risk_unshrunk": 85.65845015247362,
+   "bound_covers_implemented": true,
+   "bound_covers_idealized": true,
+   "relative_to_theta": {
+    "bound": 1.3120840808953111,
+    "implemented": 0.6115894664823968,
+    "idealized": 0.8886564843990514,
+    "unshrunk": 7.124504135785834
+   }
+  },
+  "100": {
+   "bound": 9.446402454374256,
+   "risk_implemented": 5.039180493658239,
+   "risk_idealized": 5.9611649117010685,
+   "risk_unshrunk": 43.301880463429335,
+   "bound_covers_implemented": true,
+   "bound_covers_idealized": true,
+   "relative_to_theta": {
+    "bound": 0.7856893655522595,
+    "implemented": 0.4191257512146648,
+    "idealized": 0.4958103256820275,
+    "unshrunk": 3.6015644212551425
+   }
+  },
+  "200": {
+   "bound": 5.780044778295448,
+   "risk_implemented": 3.650373776653596,
+   "risk_idealized": 3.907170316412067,
+   "risk_unshrunk": 21.935080198588306,
+   "bound_covers_implemented": true,
+   "bound_covers_idealized": true,
+   "relative_to_theta": {
+    "bound": 0.4807459492285018,
+    "implemented": 0.30361398113834165,
+    "idealized": 0.3249726212527505,
+    "unshrunk": 1.8244150964144363
+   }
+  },
+  "400": {
+   "bound": 3.5918278495993383,
+   "risk_implemented": 2.4837659063996664,
+   "risk_idealized": 2.5358061917602113,
+   "risk_unshrunk": 10.87633112158313,
+   "bound_covers_implemented": true,
+   "bound_covers_idealized": true,
+   "relative_to_theta": {
+    "bound": 0.29874451760393245,
+    "implemented": 0.2065832435792357,
+    "idealized": 0.21091161080533788,
+    "unshrunk": 0.9046213878486512
+   }
+  },
+  "800": {
+   "bound": 2.241075331797791,
+   "risk_implemented": 1.6802488578375983,
+   "risk_idealized": 1.6943810410928026,
+   "risk_unshrunk": 5.485759536570239,
+   "bound_covers_implemented": true,
+   "bound_covers_idealized": true,
+   "relative_to_theta": {
+    "bound": 0.18639784448096153,
+    "implemented": 0.1397520024644959,
+    "idealized": 0.1409274241289104,
+    "unshrunk": 0.4562692464859243
+   }
+  }
+ },
+ "condition_tau_ge_4rho": true,
+ "min_effective_dimension": 4.426842194683258,
+ "dataset": "frangieh",
+ "draws": 200
+}

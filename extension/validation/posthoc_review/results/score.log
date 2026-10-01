@@ -1,0 +1,4 @@
+[19:20:53] reproduction: readout 3.32e-06; recovered fraction 1.66e-14
+[19:20:53] alternatives: cells atlas =147, other =70, own =110, paired_only >800, semicca =496, regression =169, semicca/pooled >800, semicca/mapped =579, semicca/percond >800, ridge_p/pooled >800, ridge_p/mapped =235, ridge_p/percond =197, ridge_u/pooled >800, ridge_u/mapped =214, ridge_u/percond =175; K1 True K2 True
+[19:20:54] champollion: cells =180 vs atlas (same draws) =147
+[19:20:56] calibration: p01 E1@100 86.1 vs 74.8; p05 E1@100 82.0 vs 70.3; p001 E1@100 89.0 vs 78.8; fdr05_unit E1@100 89.3 vs 78.4; fdr05_all E1@100 89.0 vs 78.7

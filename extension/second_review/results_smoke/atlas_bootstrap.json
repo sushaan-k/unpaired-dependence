@@ -1,0 +1,39 @@
+{
+ "target": 0.2833659547722411,
+ "replicates": {
+  "0": {
+   "patients": 74,
+   "V1": 0.5,
+   "K2": 1.0,
+   "atlas_cells": 100.0
+  }
+ },
+ "over_replicates": {
+  "V1": {
+   "median": 0.5,
+   "range": [
+    0.5,
+    0.5
+   ]
+  },
+  "K2": {
+   "median": 1.0,
+   "range": [
+    1.0,
+    1.0
+   ],
+   "share_above_one": 0.0
+  }
+ },
+ "with_donor_resampling": {
+  "V1_ci": [
+   0.5,
+   0.5
+  ],
+  "K2_ci": [
+   1.0,
+   1.0
+  ],
+  "K2_share_above_one": 0.0
+ }
+}

@@ -1,0 +1,28 @@
+{'iterations': 3, 'message': 'ABNORMAL_TERMINATION_IN_LNSRCH', 'objective': 52.113804883366086, 'grad_norm': 0.00011857308572706654}
+{'iterations': 0, 'message': 'ABNORMAL_TERMINATION_IN_LNSRCH', 'objective': 52.11380488318332, 'grad_norm': 0.00011857308572706654}
+{'iterations': 0, 'message': 'ABNORMAL_TERMINATION_IN_LNSRCH', 'objective': 52.11380488318332, 'grad_norm': 0.00011857308572706654}
+{
+ "start_objective": 52.11380488452034,
+ "restarts": [
+  {
+   "iterations": 3,
+   "message": "ABNORMAL_TERMINATION_IN_LNSRCH",
+   "objective": 52.113804883366086,
+   "grad_norm": 0.00011857308572706654
+  },
+  {
+   "iterations": 0,
+   "message": "ABNORMAL_TERMINATION_IN_LNSRCH",
+   "objective": 52.11380488318332,
+   "grad_norm": 0.00011857308572706654
+  },
+  {
+   "iterations": 0,
+   "message": "ABNORMAL_TERMINATION_IN_LNSRCH",
+   "objective": 52.11380488318332,
+   "grad_norm": 0.00011857308572706654
+  }
+ ],
+ "relative_change_B": 8.535480779364701e-07,
+ "max_abs_E_change": 1.4516476025128178e-06
+}

@@ -1,0 +1,110 @@
+[03:56:00] fold 0 (s1d1) B=25 done [7s]
+[03:56:04] fold 0 (s1d1) B=50 done [11s]
+[03:56:10] fold 0 (s1d1) B=100 done [17s]
+[03:56:19] fold 0 (s1d1) B=200 done [26s]
+[03:56:36] fold 0 (s1d1) B=400 done [43s]
+[03:57:05] fold 0 (s1d1) B=800 done [72s]
+[03:57:12] fold 1 (s1d2) B=25 done [79s]
+[03:57:16] fold 1 (s1d2) B=50 done [83s]
+[03:57:21] fold 1 (s1d2) B=100 done [89s]
+[03:57:30] fold 1 (s1d2) B=200 done [97s]
+[03:57:45] fold 1 (s1d2) B=400 done [112s]
+[03:58:14] fold 1 (s1d2) B=800 done [141s]
+[03:58:21] fold 2 (s1d3) B=25 done [148s]
+[03:58:25] fold 2 (s1d3) B=50 done [152s]
+[03:58:31] fold 2 (s1d3) B=100 done [158s]
+[03:58:39] fold 2 (s1d3) B=200 done [167s]
+[03:58:55] fold 2 (s1d3) B=400 done [182s]
+[03:59:24] fold 2 (s1d3) B=800 done [211s]
+[03:59:31] fold 3 (s2d1) B=25 done [218s]
+[03:59:34] fold 3 (s2d1) B=50 done [222s]
+[03:59:40] fold 3 (s2d1) B=100 done [228s]
+[03:59:49] fold 3 (s2d1) B=200 done [236s]
+[04:00:05] fold 3 (s2d1) B=400 done [252s]
+[04:00:33] fold 3 (s2d1) B=800 done [280s]
+[04:00:40] fold 4 (s2d4) B=25 done [287s]
+[04:00:43] fold 4 (s2d4) B=50 done [290s]
+[04:00:49] fold 4 (s2d4) B=100 done [296s]
+[04:00:58] fold 4 (s2d4) B=200 done [305s]
+[04:01:14] fold 4 (s2d4) B=400 done [322s]
+[04:01:45] fold 4 (s2d4) B=800 done [352s]
+[04:01:53] fold 5 (s2d5) B=25 done [360s]
+[04:01:57] fold 5 (s2d5) B=50 done [364s]
+[04:02:03] fold 5 (s2d5) B=100 done [370s]
+[04:02:11] fold 5 (s2d5) B=200 done [379s]
+[04:02:27] fold 5 (s2d5) B=400 done [394s]
+[04:02:57] fold 5 (s2d5) B=800 done [424s]
+[04:03:04] fold 6 (s3d1) B=25 done [431s]
+[04:03:07] fold 6 (s3d1) B=50 done [434s]
+[04:03:13] fold 6 (s3d1) B=100 done [440s]
+[04:03:22] fold 6 (s3d1) B=200 done [449s]
+[04:03:37] fold 6 (s3d1) B=400 done [464s]
+[04:04:06] fold 6 (s3d1) B=800 done [494s]
+[04:04:13] fold 7 (s3d6) B=25 done [500s]
+[04:04:16] fold 7 (s3d6) B=50 done [503s]
+[04:04:22] fold 7 (s3d6) B=100 done [509s]
+[04:04:31] fold 7 (s3d6) B=200 done [518s]
+[04:04:45] fold 7 (s3d6) B=400 done [533s]
+[04:05:15] fold 7 (s3d6) B=800 done [563s]
+[04:05:22] fold 8 (s3d7) B=25 done [569s]
+[04:05:26] fold 8 (s3d7) B=50 done [573s]
+[04:05:32] fold 8 (s3d7) B=100 done [579s]
+[04:05:41] fold 8 (s3d7) B=200 done [589s]
+[04:05:57] fold 8 (s3d7) B=400 done [604s]
+[04:06:26] fold 8 (s3d7) B=800 done [634s]
+[04:06:33] fold 9 (s4d1) B=25 done [641s]
+[04:06:37] fold 9 (s4d1) B=50 done [644s]
+[04:06:43] fold 9 (s4d1) B=100 done [650s]
+[04:06:52] fold 9 (s4d1) B=200 done [659s]
+[04:07:06] fold 9 (s4d1) B=400 done [674s]
+[04:07:35] fold 9 (s4d1) B=800 done [702s]
+[04:07:42] fold 10 (s4d8) B=25 done [709s]
+[04:07:46] fold 10 (s4d8) B=50 done [713s]
+[04:07:52] fold 10 (s4d8) B=100 done [720s]
+[04:08:01] fold 10 (s4d8) B=200 done [728s]
+[04:08:16] fold 10 (s4d8) B=400 done [744s]
+[04:08:45] fold 10 (s4d8) B=800 done [772s]
+[04:08:51] fold 11 (s4d9) B=25 done [779s]
+[04:08:55] fold 11 (s4d9) B=50 done [783s]
+[04:09:02] fold 11 (s4d9) B=100 done [789s]
+[04:09:10] fold 11 (s4d9) B=200 done [798s]
+[04:09:26] fold 11 (s4d9) B=400 done [813s]
+[04:09:56] fold 11 (s4d9) B=800 done [844s]
+[04:10:26] predictions hashed: aa8ae4132a597430
+[04:10:51] {
+ "test": "deployment",
+ "units_regenerated": 12,
+ "units": 12,
+ "budgets": [
+  25,
+  50,
+  100,
+  200,
+  400,
+  800
+ ],
+ "draws": [
+  5
+ ],
+ "curve_points_compared": 78,
+ "max_abs_difference_per_draw_vs_published": 4.4939796328691273e-10,
+ "max_abs_difference_per_draw_vs_stored_unit_terms": 2.8267880797957286e-09,
+ "max_abs_difference_stored_form_vs_published": 8.881784197001252e-16,
+ "averaged_prediction_minus_published": {
+  "min": 0.0,
+  "median": 0.28856319670093966,
+  "max": 5.372633088775965,
+  "points": 78
+ },
+ "regenerated_prediction_file_identical": true,
+ "stored_vs_regenerated": {
+  "compared": 7488,
+  "draws_per_key": [
+   5
+  ],
+  "max_abs_mean_difference": 4.7005369729902213e-07,
+  "max_rel_msq_difference": 4.3840949517555217e-16
+ },
+ "seconds": 877,
+ "passed": true
+}

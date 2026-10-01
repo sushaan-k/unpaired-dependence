@@ -1,0 +1,42 @@
+[07:12:00] fold 0 B=25 (bjs2 8, selftune 3, js 4, scose 1, fcose 2, lowrank 7, semicca 391, ridge_p 24, ridge_u 23 ms/fit)
+[07:12:11] fold 0 B=50 (bjs2 10, selftune 3, js 7, scose 1, fcose 3, lowrank 7, semicca 394, ridge_p 26, ridge_u 27 ms/fit)
+[07:12:26] fold 0 B=100 (bjs2 13, selftune 3, js 10, scose 2, fcose 6, lowrank 8, semicca 427, ridge_p 27, ridge_u 26 ms/fit)
+[07:12:26] scala_m1 fold 0 regenerated [32s]
+[07:12:36] {
+ "test": "benchmark/scala_m1",
+ "units_regenerated": 1,
+ "units": 3,
+ "budgets": [
+  25,
+  50,
+  100
+ ],
+ "draws": [
+  5
+ ],
+ "curve_points_compared": 0,
+ "max_abs_difference_per_draw_vs_published": null,
+ "max_abs_difference_per_draw_vs_stored_unit_terms": 1.40094692386145e-16,
+ "max_abs_difference_stored_form_vs_published": 1.1102230246251565e-16,
+ "averaged_prediction_minus_published": {
+  "min": 0.0,
+  "median": 0.05462391041212061,
+  "max": 0.2854640915920327,
+  "points": 78
+ },
+ "stored_vs_regenerated": {
+  "compared": 546,
+  "draws_per_key": [
+   5
+  ],
+  "max_abs_mean_difference": 3.3306690738754696e-16,
+  "max_rel_msq_difference": 4.317449200092249e-16,
+  "rerun_fold_outputs": {
+   "keys": 205,
+   "max_abs_difference_means_and_maps": 0.0,
+   "max_rel_difference_msq": 0.0
+  }
+ },
+ "seconds": 41,
+ "passed": true
+}

@@ -1,0 +1,189 @@
+test ATF2 (66s)
+test CD86 (140s)
+nt None (208s)
+predictions 315 groups 9
+scored test
+scored nt
+{
+ "verdict": {
+  "R1_recovery": false,
+  "R2_beats_pseudo_populations": false,
+  "R2_beats_derangements": false,
+  "R3_ifn_share_above_half": false,
+  "R4_nontargeting": false,
+  "R5_exposure_targets_matter": false
+ },
+ "test": {
+  "primary": {
+   "value": -0.8630136216122505,
+   "ci": [
+    -1.0972292052116697,
+    -0.6952776107950083
+   ]
+  },
+  "primary_minus_pseudo": {
+   "value": -0.8380288314174368,
+   "ci": [
+    -1.0300078591762718,
+    -0.7005409846142344
+   ]
+  },
+  "primary_minus_derange": {
+   "value": -0.5030275664413,
+   "ci": [
+    -0.648856875803706,
+    -0.3985903371298677
+   ]
+  },
+  "ifn_share_paired": {
+   "value": 0.28323462982472564,
+   "ci": [
+    -0.3157810619881529,
+    0.737324254716302
+   ]
+  },
+  "random_minus_exposure_removal": {
+   "value": -1.1010190983398664,
+   "ci": [
+    -1.5526142552337818,
+    -0.7776043666739929
+   ]
+  },
+  "paired": {
+   "value": 0.45972733456743414,
+   "ci": [
+    0.41026351015125917,
+    0.5287953805180223
+   ]
+  },
+  "ifn_primary": {
+   "value": 0.21657651035543474,
+   "ci": [
+    -0.2535205163256368,
+    0.5441788458033989
+   ]
+  },
+  "ifn_paired": {
+   "value": 0.7646540625680518,
+   "ci": [
+    0.7380454967031851,
+    0.802836353546585
+   ]
+  },
+  "share_paired": {
+   "value": -1.8772292981540368,
+   "ci": [
+    -2.074959891171504,
+    -1.6947098476748952
+   ]
+  },
+  "ifn_random_minus_exposure_removal": {
+   "value": 0.09485362979252603,
+   "ci": [
+    -0.5129967681903778,
+    0.5184538626807718
+   ]
+  },
+  "along_S_primary": {
+   "value": -0.5602243526440934,
+   "ci": [
+    -0.9646733392909405,
+    -0.3438955895480495
+   ]
+  },
+  "along_S_share_paired": {
+   "value": -0.7676001361084405,
+   "ci": [
+    -1.0770911650206145,
+    -0.536362621975508
+   ]
+  },
+  "ifn_transferred": {
+   "value": 0.8440801114256545,
+   "ci": [
+    0.7932366318930043,
+    0.9170385917787813
+   ]
+  },
+  "ifn_replicate": {
+   "value": 0.38140306074393937,
+   "ci": [
+    0.36552456530906774,
+    0.3924685044558242
+   ]
+  }
+ },
+ "nt": {
+  "primary": {
+   "value": -1.69106861270542,
+   "ci": [
+    -36.4017252151513,
+    -0.9545299488859756
+   ]
+  },
+  "paired": {
+   "value": 0.3873733416635813,
+   "ci": [
+    -0.16423425014562967,
+    6.509517692006036
+   ]
+  }
+ },
+ "by_replicate": {
+  "rep1-tx": {
+   "all": {
+    "pf_within_measured": -0.105,
+    "paired_closed_form": 0.797,
+    "transferred_correlation": 0.869,
+    "replicate": 0.122,
+    "remove_exposure": 0.0,
+    "remove_random_mean": -0.329
+   },
+   "ifn": {
+    "pf_within_measured": 0.47,
+    "paired_closed_form": 0.823,
+    "transferred_correlation": 0.766,
+    "replicate": 0.727,
+    "remove_exposure": 0.0,
+    "remove_random_mean": 0.374
+   }
+  },
+  "rep3-tx": {
+   "all": {
+    "pf_within_measured": -1.18,
+    "paired_closed_form": 0.396,
+    "transferred_correlation": 0.664,
+    "replicate": -1.187,
+    "remove_exposure": -0.0,
+    "remove_random_mean": -1.499
+   },
+   "ifn": {
+    "pf_within_measured": 0.01,
+    "paired_closed_form": 1.029,
+    "transferred_correlation": 1.069,
+    "replicate": 0.586,
+    "remove_exposure": -0.0,
+    "remove_random_mean": -0.07
+   }
+  },
+  "rep4-tx": {
+   "all": {
+    "pf_within_measured": -1.819,
+    "paired_closed_form": -0.104,
+    "transferred_correlation": 0.546,
+    "replicate": -3.792,
+    "remove_exposure": 0.0,
+    "remove_random_mean": -1.941
+   },
+   "ifn": {
+    "pf_within_measured": -0.029,
+    "paired_closed_form": 0.43,
+    "transferred_correlation": 0.777,
+    "replicate": -0.385,
+    "remove_exposure": 0.0,
+    "remove_random_mean": -0.231
+   }
+  }
+ }
+}
+DRY RUN OK

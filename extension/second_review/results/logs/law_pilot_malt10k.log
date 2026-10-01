@@ -1,0 +1,9 @@
+[06:16:44] malt10k p100 target 0.5: observed 25<=; m=50: median achieved 0.940, reached 1.00; m=100: median achieved 0.966, reached 1.00; m=200: median achieved 0.981, reached 1.00
+[06:16:44] malt10k p100 target 0.3: observed 25<=; m=50: median achieved 0.940, reached 1.00; m=100: median achieved 0.966, reached 1.00; m=200: median achieved 0.980, reached 1.00
+[06:16:45] malt10k p100 target 0.7: observed 25<=; m=50: median achieved 0.940, reached 1.00; m=100: median achieved 0.966, reached 1.00; m=200: median achieved 0.981, reached 1.00
+[06:16:46] malt10k p200 target 0.5: observed 25<=; m=50: median achieved 0.946, reached 1.00; m=100: median achieved 0.970, reached 1.00; m=200: median achieved 0.982, reached 1.00
+[06:16:47] malt10k p200 target 0.3: observed 25<=; m=50: median achieved 0.944, reached 1.00; m=100: median achieved 0.969, reached 1.00; m=200: median achieved 0.981, reached 1.00
+[06:16:48] malt10k p200 target 0.7: observed 25<=; m=50: median achieved 0.948, reached 1.00; m=100: median achieved 0.971, reached 1.00; m=200: median achieved 0.980, reached 1.00
+[06:16:51] malt10k p400 target 0.5: observed 25<=; m=50: median achieved 0.939, reached 1.00; m=100: median achieved 0.961, reached 1.00; m=200: median achieved 0.978, reached 1.00
+[06:16:52] malt10k p400 target 0.3: observed 25<=; m=50: median achieved 0.942, reached 1.00; m=100: median achieved 0.962, reached 1.00; m=200: median achieved 0.978, reached 1.00
+[06:16:54] malt10k p400 target 0.7: observed 25<=; m=50: median achieved 0.937, reached 1.00; m=100: median achieved 0.965, reached 1.00; m=200: median achieved 0.977, reached 1.00

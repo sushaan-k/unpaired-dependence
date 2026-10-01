@@ -1,0 +1,22 @@
+{
+ "written_at": "2026-09-27T18:03:44-0400",
+ "grun_amend.py": "913d6f4c9d6e11a2a33e92b85d3a7ff3c5896c3280e4faa3a4b079fdead7d79f",
+ "DEVIATIONS.md": "721439e8e9d3aaf91bfa525d980620fc06101ab5b861af888c4455e826962ff8",
+ "scored_before": [
+  "stephenson",
+  "colon",
+  "hao"
+ ],
+ "amendment_2": {
+  "written_at": "2026-09-27T18:07:08-0400",
+  "grun_amend.py": "98d1cacabc72a46f1a6b66e72dd290b25c8486c069a3e59857a8503d64ce47a2",
+  "DEVIATIONS.md": "126216593902a715dcd082404a1fd157eea4e6cb2b47c6fa0bc90048566392fc",
+  "scored_before": [
+   "stephenson",
+   "colon",
+   "hao",
+   "scala_m1"
+  ],
+  "change": "summary() and law(): informative data sets only (level lower bound > 0), and geometric means with and without the rule; run() unchanged"
+ }
+}

@@ -1,0 +1,31 @@
+test ATF2 (43s)
+test CAV1 (86s)
+test CD86 (134s)
+test CMTM6 (196s)
+test ETV7 (249s)
+test IFNGR1 (308s)
+test IFNGR2 (347s)
+test IRF1 (408s)
+test IRF7 (455s)
+test JAK2 (505s)
+test MARCH8 (559s)
+test NFKBIA (615s)
+test PDCD1LG2 (634s)
+test POU2F2 (652s)
+test SMAD4 (669s)
+test STAT1 (688s)
+test STAT2 (706s)
+test STAT3 (724s)
+test STAT5A (741s)
+test TNFRSF14 (758s)
+test UBE2L6 (776s)
+nt None (793s)
+{
+ "predictions.npz": "ac82e56b1acebb4100fa77cf3062b981b21a4d0d53dac06f3ebccec078933a15",
+ "digests.json": "5e5ab110d499d5628a10d6fe3084a327306ac344151dbc62f08001e098e6a1de",
+ "diagnostics.json": "d323dfd5d29aa1628463d9d6e9c31914333e8de2b4a1b8ac42989f55688dc867",
+ "seal.json": "9452f09cbd8dcbefa9dfb4193ff48cef7f254cf702e7e4c2fb19e892d694aae7",
+ "freeze.json": "6d0187a1604582ce573c8ee9ea6e14676b4e6b65a5efb9a9167d599142d08640",
+ "frozen_at": "2026-09-27T08:18:29-04:00",
+ "note": "written before the scoring files were opened"
+}

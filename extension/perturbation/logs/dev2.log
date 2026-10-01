@@ -1,0 +1,102 @@
+channels: 374 populations; pf dim S 2, scale 0.01; within dim S 1 (3s)
+controls done (42s): dims {'pseudo00': 2, 'pseudo01': 2, 'pseudo02': 2, 'pseudo03': 2, 'pseudo04': 2, 'pseudo05': 2, 'pseudo06': 2, 'pseudo07': 2, 'pseudo08': 2, 'pseudo09': 2, 'derange00': 2, 'derange01': 2, 'derange02': 2, 'derange03': 2, 'derange04': 2, 'derange05': 2, 'derange06': 2, 'derange07': 2, 'derange08': 19, 'derange09': 20, 'wpseudo00': 0, 'wpseudo01': 0, 'wpseudo02': 0, 'wpseudo03': 0, 'wpseudo04': 0, 'wpseudo05': 0, 'wpseudo06': 0, 'wpseudo07': 0, 'wpseudo08': 0, 'wpseudo09': 0, 'wderange00': 0, 'wderange01': 0, 'wderange02': 0, 'wderange03': 0, 'wderange04': 0, 'wderange05': 0, 'wderange06': 0, 'wderange07': 0, 'wderange08': 1, 'wderange09': 1}
+paired references done (46s)
+groups scored: 118 (80s)
+{
+ "dev_test_targets": [
+  "A2M",
+  "ACSL3",
+  "AEBP1",
+  "ATP5MD",
+  "BZW2",
+  "C1QBP",
+  "CCND1",
+  "CCND2",
+  "CDKN1A",
+  "CDKN2A",
+  "CXCR4",
+  "DDR1",
+  "E2F1",
+  "EEF1G",
+  "FBL",
+  "FBXO32",
+  "FOS",
+  "FSTL3",
+  "GAS5",
+  "GRN",
+  "HLA-A",
+  "HLA-F",
+  "IDI2-AS1",
+  "IFNGR1",
+  "ILF2",
+  "JAK1",
+  "JMJD7",
+  "LCP1",
+  "MRPL47",
+  "NACA",
+  "NGFR",
+  "NOLC1",
+  "PAICS",
+  "PIK3IP1",
+  "PSMA7",
+  "PYGB",
+  "RAB27A",
+  "RPSA",
+  "SDCBP",
+  "SHMT2",
+  "SLC7A5P1",
+  "ST3GAL6-AS1",
+  "TMEM173",
+  "TOP1MT",
+  "UQCRFS1",
+  "UQCRH",
+  "WBP2"
+ ],
+ "training_populations": 374,
+ "groups": 118,
+ "denominator_total": 1693.213397384661,
+ "mean_norm_T": 7.990935456512501,
+ "pf": {
+  "ridge": 0.3501775325483468,
+  "scale": 0.01,
+  "at_edge": false,
+  "n_train": 374
+ },
+ "pf_dim_S": 2,
+ "diag_pf_median": {
+  "dim_S": 2.0,
+  "coverage": 0.0428647159520974,
+  "F_latent": 0.02225399873261707,
+  "F_measured": 0.21325893732517742
+ },
+ "diag_pf_within_median": {
+  "dim_S": 1.0,
+  "coverage": 0.025790921830472956,
+  "F_latent": 0.01562571219451071,
+  "F_measured": 0.1376672159408257
+ },
+ "pf_within": {
+  "ridge": 0.3930363319730037,
+  "scale": 0.1,
+  "at_edge": false,
+  "n_train": 374
+ },
+ "seconds": 81.62655138969421
+}
+independence                 RF +0.000 [+0.000, +0.000]  control +0.000 ifng +0.000 coculture +0.000
+pf_latent                    RF -0.303 [-0.372, -0.235]  control -0.182 ifng -0.236 coculture -0.440
+pf_measured                  RF -0.331 [-0.403, -0.262]  control -0.205 ifng -0.263 coculture -0.473
+pf_within_latent             RF +0.103 [+0.076, +0.131]  control +0.106 ifng +0.169 coculture +0.051
+pf_within_measured           RF +0.103 [+0.075, +0.132]  control +0.106 ifng +0.169 coculture +0.050
+pf_within_regression_latent  RF +0.093 [+0.080, +0.110]  control +0.049 ifng +0.148 coculture +0.083
+pf_within_condition_latent   RF +0.170 [+0.149, +0.193]  control +0.141 ifng +0.236 coculture +0.141
+pf_regression_latent         RF -0.052 [-0.077, -0.028]  control -0.075 ifng -0.012 coculture -0.065
+pf_condition_latent          RF -0.142 [-0.196, -0.091]  control -0.104 ifng -0.081 coculture -0.216
+reference_regression         RF +0.546 [+0.498, +0.596]  control +0.472 ifng +0.611 coculture +0.549
+transferred_correlation      RF +0.966 [+0.920, +1.020]  control +0.979 ifng +1.042 coculture +0.898
+benchmark                    RF +0.235 [+0.187, +0.282]  control +0.142 ifng +0.264 coculture +0.279
+pseudo00                     RF -0.326 [-0.391, -0.262]  control -0.208 ifng -0.177 coculture -0.524
+derange00                    RF -0.460 [-0.526, -0.392]  control -0.440 ifng -0.345 coculture -0.561
+wpseudo00                    RF +0.000 [+0.000, +0.000]  control +0.000 ifng +0.000 coculture +0.000
+wderange00                   RF -0.023 [-0.026, -0.019]  control -0.015 ifng -0.023 coculture -0.028
+{'pseudo': -0.365, 'derange': -0.566, 'wpseudo': -0.003, 'wderange': -0.032}

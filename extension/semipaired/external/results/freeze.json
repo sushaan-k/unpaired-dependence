@@ -1,0 +1,30 @@
+{
+ "frozen_at": "2026-09-27T14:49:37-0400",
+ "clock": "system clock (America/New_York)",
+ "files": {
+  "PLAN.md": "07cff2ca22bd9a304f916c0d35a9a8b23ef82b1b9459cb1214afe5ffddc2072b",
+  "odata.py": "bf2ecc0d2ffac945c2f3c422e9d6bef1b1fb81dc5d27b317f16b3a1a9293eadc",
+  "extract.py": "46cf0c0f299ce6f37df86d7b7ab0800627d6831ba9cf5f3914b16b1b74a367db",
+  "run_external.py": "ade5e4f4a0587aa3180f676e5e7c52d6b2762b2c2f325b9c3364b507ca5caf57",
+  "targets.py": "d72356358f64d7f13d12e6fa777c45b9b4f6a5b822f171fbc54cd256c48ecf09",
+  "freeze.py": "1bfbc2762ac65cf22a88cc2fcbbb887707eafce25240e49318f73f3224b576a7",
+  "pilot.py": "f94c8597d6459474db69836a9e2651a6cdc34cca27a2b30c19d06446a9818a67",
+  "pilot_champ.py": "441a715573f2b1ba515a9300c9d66c8fff941b97306a9e0f8e79f159f44c81ba",
+  "results/pilot.json": "8a6c66f762c18d14a1a68ebf2e947611ec86223c9369b62d265169c82ba1ce8b",
+  "results/pilot_champ.json": "3151ac773112890adaadd0c83413adfc6653f84eac10c7db699fda66e2e618bd",
+  "../run_study.py": "281a9b6b29678af2033dac5c5c809c4d177d8fafabb5afb3d502f4b91743cb56",
+  "../common.py": "a5178b735b9a39642bb1c47ba017681aeaae4e53405fe24542da5bcbbda8ebae",
+  "../sp_estimators.py": "2c7d7921928f154c9942038a53d91d172746bb663b4b2cbde2800b56b295d203",
+  "../competitors.py": "bf42197d92b4019cdf4bc4447a082cab9cbe495452431a93b2a65ebdd6fb8ab0",
+  "../champ_worker.py": "7ad540157a0fc59c7c7bccdf047a1b7be8182e6182c6fca39c2fdde5fa84e36f",
+  "../champ_tune.py": "633cd170c886955c58f3af21a62a2e3b999e0ef18bba9cb42abeaed469ccbf00",
+  "../logs/champ_choice.json": "20ea03159c4c0e9bfb4d4affb8150c12c525002893c82b3b867afe4f6b80cd13",
+  "../../hybrid/hmethods.py": "8cddc28ae630972e66c2334b94665d6d15c0ce27c7eeeb097ac287df57e9187a",
+  "../../hybrid/run.py": "4bbac983b8a9d88ecff0776ddd3eae3001db7af3725f7dcfa630160569742e6f",
+  "../../perturbation/pmethods.py": "13d81720662769d65965785476a7f804d0edb6d1cdba43cb4a959d32bad881e6",
+  "../../recoverability/noise.py": "0a47641928672d5d2898558127be0a05e43f64365a00e37573403cb177f44376",
+  "results/seal.json": "1b650eb87568462265ddb0a1a100221b4ec482ff4deb23dc981a5c0a577910b7",
+  "results/panel.json": "1c29b207b6882c3142de27f38984a9ee14d937467df0b12edc39b97b82e07688"
+ },
+ "note": "written before any prediction was computed and before any held-out file was opened"
+}

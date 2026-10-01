@@ -1,0 +1,8 @@
+encoding genes per protein: [1, 1, 1, 1]
+[5s] after fold 0: B=50: bjs2 7.0, cog 12.5 | B=100: bjs2 65.4, cog 61.6 | B=200: bjs2 72.8, cog 69.8 | B=400: bjs2 74.0, cog 76.0
+[9s] after fold 1: B=50: bjs2 -2.8, cog 10.3 | B=100: bjs2 56.2, cog 56.6 | B=200: bjs2 67.9, cog 67.3 | B=400: bjs2 74.9, cog 76.4
+[13s] after fold 2: B=50: bjs2 5.9, cog 16.6 | B=100: bjs2 40.9, cog 46.5 | B=200: bjs2 57.6, cog 58.2 | B=400: bjs2 62.5, cog 64.2
+[17s] after fold 3: B=50: bjs2 5.6, cog 18.6 | B=100: bjs2 36.4, cog 40.9 | B=200: bjs2 59.0, cog 60.3 | B=400: bjs2 63.5, cog 65.7
+[21s] after fold 4: B=50: bjs2 5.4, cog 20.2 | B=100: bjs2 32.0, cog 38.9 | B=200: bjs2 57.0, cog 61.0 | B=400: bjs2 66.3, cog 70.1
+[25s] after fold 5: B=50: bjs2 6.3, cog 20.1 | B=100: bjs2 32.0, cog 39.6 | B=200: bjs2 57.5, cog 61.5 | B=400: bjs2 65.2, cog 69.1
+[29s] after fold 6: B=50: bjs2 7.4, cog 20.8 | B=100: bjs2 30.9, cog 39.0 | B=200: bjs2 52.3, cog 57.4 | B=400: bjs2 62.2, cog 65.9

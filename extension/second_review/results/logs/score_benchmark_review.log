@@ -1,0 +1,6 @@
+0.05 {'raw': (3, 4.287598994956407, {'unresolved below': 2, 'estimable': 3, 'unresolved above': 4, 'one curve below': 1}), 'running_max': (3, 4.294847886305782, {'unresolved below': 2, 'estimable': 3, 'unresolved above': 4, 'one curve below': 1})}
+0.1 {'raw': (2, 1.7360764248472738, {'unresolved below': 2, 'unresolved above': 6, 'estimable': 2}), 'running_max': (2, 1.7360764248472738, {'unresolved below': 2, 'unresolved above': 6, 'estimable': 2})}
+0.15 {'raw': (2, 2.074481411495959, {'one curve below': 1, 'unresolved above': 6, 'estimable': 2, 'unresolved below': 1}), 'running_max': (2, 2.074481411495959, {'one curve below': 1, 'unresolved above': 6, 'estimable': 2, 'unresolved below': 1})}
+0.2 {'raw': (2, 2.464896363016605, {'one curve below': 2, 'unresolved above': 6, 'estimable': 2}), 'running_max': (2, 2.464896363016605, {'one curve below': 2, 'unresolved above': 6, 'estimable': 2})}
+0.3 {'raw': (1, 4.875234784806093, {'one curve below': 2, 'unresolved above': 7, 'estimable': 1}), 'running_max': (1, 4.875234784806093, {'one curve below': 2, 'unresolved above': 7, 'estimable': 1})}
+0.4 {'raw': (2, 3.385507556105992, {'estimable': 2, 'unresolved above': 8}), 'running_max': (2, 3.385507556105992, {'estimable': 2, 'unresolved above': 8})}

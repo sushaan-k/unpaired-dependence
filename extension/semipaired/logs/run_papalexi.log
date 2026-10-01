@@ -1,0 +1,154 @@
+[     1s] fold ATF2: 3 groups
+/home/claude/cbio/cbio-agent-handoff/extension/recoverability/noise.py:46: RuntimeWarning: Mean of empty slice.
+  x1[m] -= x1[m].mean(0)
+/usr/local/lib/python3.11/dist-packages/numpy/_core/_methods.py:130: RuntimeWarning: invalid value encountered in divide
+  ret = um.true_divide(
+/home/claude/cbio/cbio-agent-handoff/extension/recoverability/noise.py:47: RuntimeWarning: Mean of empty slice.
+  x2[m] -= x2[m].mean(0)
+[     6s]   B=50 (4s): bjs2/mapped 14.9, bjs/mapped 14.9, bjs2/pooled 20.8, js/pooled 3.9, fcose/mapped -6.9, semicca/mapped 20.9, ridge_u/mapped 23.4, abl/bjs_pairbasis -11.1
+[    11s]   B=100 (4s): bjs2/mapped 59.1, bjs/mapped 59.1, bjs2/pooled 59.4, js/pooled 31.1, fcose/mapped 22.1, semicca/mapped 47.0, ridge_u/mapped 50.9, abl/bjs_pairbasis 34.8
+[    15s]   B=200 (5s): bjs2/mapped 71.6, bjs/mapped 71.6, bjs2/pooled 68.1, js/pooled 44.0, fcose/mapped 44.4, semicca/mapped 52.9, ridge_u/mapped 52.8, abl/bjs_pairbasis 60.8
+[    20s]   B=400 (5s): bjs2/mapped 74.6, bjs/mapped 74.6, bjs2/pooled 70.0, js/pooled 54.4, fcose/mapped 62.0, semicca/mapped 62.9, ridge_u/mapped 68.5, abl/bjs_pairbasis 64.6
+[    28s]   B=800 (8s): bjs2/mapped 86.8, bjs/mapped 86.8, bjs2/pooled 82.9, js/pooled 72.6, fcose/mapped 78.1, semicca/mapped 61.7, ridge_u/mapped 84.8, abl/bjs_pairbasis 80.8
+[    49s]   B=1600 (21s): bjs2/mapped 89.6, bjs/mapped 89.6, bjs2/pooled 85.9, js/pooled 81.1, fcose/mapped 84.8, semicca/mapped 82.5, ridge_u/mapped 88.4, abl/bjs_pairbasis 84.6
+[    49s] fold CAV1: 3 groups
+[    55s]   B=50 (4s): bjs2/mapped -2.1, bjs/mapped -2.1, bjs2/pooled -8.0, js/pooled -1.0, fcose/mapped 1.4, semicca/mapped 40.5, ridge_u/mapped 24.0, abl/bjs_pairbasis -35.7
+[    59s]   B=100 (4s): bjs2/mapped 47.0, bjs/mapped 47.0, bjs2/pooled 40.0, js/pooled 23.3, fcose/mapped 11.7, semicca/mapped 47.8, ridge_u/mapped 40.7, abl/bjs_pairbasis 17.9
+[    64s]   B=200 (5s): bjs2/mapped 65.2, bjs/mapped 65.2, bjs2/pooled 56.8, js/pooled 38.5, fcose/mapped 42.3, semicca/mapped 60.2, ridge_u/mapped 63.7, abl/bjs_pairbasis 40.4
+[    69s]   B=400 (5s): bjs2/mapped 76.0, bjs/mapped 76.0, bjs2/pooled 64.9, js/pooled 53.5, fcose/mapped 59.7, semicca/mapped 62.8, ridge_u/mapped 72.9, abl/bjs_pairbasis 55.5
+[    77s]   B=800 (8s): bjs2/mapped 84.9, bjs/mapped 84.9, bjs2/pooled 74.3, js/pooled 66.2, fcose/mapped 74.2, semicca/mapped 75.0, ridge_u/mapped 80.2, abl/bjs_pairbasis 69.4
+[    99s]   B=1600 (22s): bjs2/mapped 87.5, bjs/mapped 87.5, bjs2/pooled 75.8, js/pooled 73.1, fcose/mapped 81.9, semicca/mapped 82.3, ridge_u/mapped 88.2, abl/bjs_pairbasis 71.9
+[    99s] fold CD86: 3 groups
+[   104s]   B=50 (4s): bjs2/mapped 19.0, bjs/mapped 19.0, bjs2/pooled 22.0, js/pooled 9.6, fcose/mapped 5.4, semicca/mapped 0.4, ridge_u/mapped 17.4, abl/bjs_pairbasis 9.4
+[   108s]   B=100 (4s): bjs2/mapped 11.9, bjs/mapped 11.9, bjs2/pooled 18.3, js/pooled 9.2, fcose/mapped 2.5, semicca/mapped 18.0, ridge_u/mapped 12.5, abl/bjs_pairbasis 2.3
+[   113s]   B=200 (4s): bjs2/mapped 34.4, bjs/mapped 34.4, bjs2/pooled 37.9, js/pooled 22.2, fcose/mapped 21.1, semicca/mapped 34.8, ridge_u/mapped 36.1, abl/bjs_pairbasis 29.3
+[   118s]   B=400 (5s): bjs2/mapped 42.3, bjs/mapped 42.3, bjs2/pooled 47.2, js/pooled 35.0, fcose/mapped 31.6, semicca/mapped 37.3, ridge_u/mapped 41.0, abl/bjs_pairbasis 42.2
+[   127s]   B=800 (8s): bjs2/mapped 57.4, bjs/mapped 57.4, bjs2/pooled 63.5, js/pooled 53.8, fcose/mapped 52.9, semicca/mapped 45.8, ridge_u/mapped 55.8, abl/bjs_pairbasis 61.2
+[   148s]   B=1600 (21s): bjs2/mapped 56.7, bjs/mapped 56.7, bjs2/pooled 63.1, js/pooled 57.0, fcose/mapped 53.5, semicca/mapped 47.4, ridge_u/mapped 57.5, abl/bjs_pairbasis 61.7
+[   148s] fold CMTM6: 3 groups
+[   153s]   B=50 (4s): bjs2/mapped 7.8, bjs/mapped 7.8, bjs2/pooled 7.3, js/pooled 0.8, fcose/mapped -3.2, semicca/mapped 6.0, ridge_u/mapped 4.8, abl/bjs_pairbasis -20.9
+[   157s]   B=100 (4s): bjs2/mapped 21.9, bjs/mapped 21.9, bjs2/pooled 19.7, js/pooled 8.8, fcose/mapped 4.7, semicca/mapped 29.6, ridge_u/mapped 17.0, abl/bjs_pairbasis 3.5
+[   162s]   B=200 (5s): bjs2/mapped 62.9, bjs/mapped 62.9, bjs2/pooled 57.9, js/pooled 43.4, fcose/mapped 44.7, semicca/mapped 49.1, ridge_u/mapped 61.9, abl/bjs_pairbasis 46.7
+[   167s]   B=400 (5s): bjs2/mapped 66.1, bjs/mapped 66.1, bjs2/pooled 59.4, js/pooled 46.6, fcose/mapped 50.9, semicca/mapped 56.4, ridge_u/mapped 63.2, abl/bjs_pairbasis 51.1
+[   175s]   B=800 (8s): bjs2/mapped 65.8, bjs/mapped 65.8, bjs2/pooled 58.4, js/pooled 54.1, fcose/mapped 60.0, semicca/mapped 55.9, ridge_u/mapped 65.7, abl/bjs_pairbasis 52.7
+[   197s]   B=1600 (22s): bjs2/mapped 72.3, bjs/mapped 72.3, bjs2/pooled 64.7, js/pooled 62.8, fcose/mapped 69.6, semicca/mapped 61.4, ridge_u/mapped 72.3, abl/bjs_pairbasis 61.4
+[   197s] fold ETV7: 3 groups
+[   203s]   B=50 (5s): bjs2/mapped -397.3, bjs/mapped -397.3, bjs2/pooled -389.5, js/pooled -126.5, fcose/mapped -378.8, semicca/mapped 106.3, ridge_u/mapped -1.4, abl/bjs_pairbasis -447.3
+[   207s]   B=100 (4s): bjs2/mapped -379.1, bjs/mapped -379.1, bjs2/pooled -264.5, js/pooled -97.4, fcose/mapped -72.6, semicca/mapped 78.0, ridge_u/mapped -128.4, abl/bjs_pairbasis -670.3
+[   212s]   B=200 (5s): bjs2/mapped 28.9, bjs/mapped 28.9, bjs2/pooled 72.9, js/pooled 124.3, fcose/mapped 123.6, semicca/mapped 13.4, ridge_u/mapped 154.3, abl/bjs_pairbasis -117.4
+[   217s]   B=400 (6s): bjs2/mapped 342.1, bjs/mapped 342.1, bjs2/pooled 349.6, js/pooled 315.9, fcose/mapped 253.0, semicca/mapped 217.7, ridge_u/mapped 464.0, abl/bjs_pairbasis 233.9
+[   226s]   B=800 (9s): bjs2/mapped 409.2, bjs/mapped 409.2, bjs2/pooled 419.6, js/pooled 364.1, fcose/mapped 304.0, semicca/mapped 312.4, ridge_u/mapped 548.0, abl/bjs_pairbasis 325.9
+[   250s]   B=1600 (24s): bjs2/mapped 447.1, bjs/mapped 447.1, bjs2/pooled 476.5, js/pooled 468.3, fcose/mapped 430.8, semicca/mapped 277.1, ridge_u/mapped 565.2, abl/bjs_pairbasis 433.8
+[   250s] fold IFNGR1: 3 groups
+[   260s]   B=50 (9s): bjs2/mapped 21.2, bjs/mapped 21.2, bjs2/pooled 15.4, js/pooled 11.4, fcose/mapped 6.9, semicca/mapped 11.4, ridge_u/mapped 23.6, abl/bjs_pairbasis -10.1
+[   269s]   B=100 (9s): bjs2/mapped 30.0, bjs/mapped 30.0, bjs2/pooled 21.6, js/pooled 26.2, fcose/mapped 8.1, semicca/mapped 27.2, ridge_u/mapped 38.9, abl/bjs_pairbasis -1.2
+[   279s]   B=200 (10s): bjs2/mapped 66.0, bjs/mapped 66.0, bjs2/pooled 59.6, js/pooled 43.9, fcose/mapped 41.6, semicca/mapped 48.1, ridge_u/mapped 71.6, abl/bjs_pairbasis 40.2
+[   290s]   B=400 (11s): bjs2/mapped 56.1, bjs/mapped 56.1, bjs2/pooled 44.0, js/pooled 46.0, fcose/mapped 38.7, semicca/mapped 46.2, ridge_u/mapped 73.0, abl/bjs_pairbasis 32.7
+[   308s]   B=800 (17s): bjs2/mapped 57.6, bjs/mapped 57.6, bjs2/pooled 44.3, js/pooled 53.1, fcose/mapped 53.4, semicca/mapped 36.3, ridge_u/mapped 70.1, abl/bjs_pairbasis 42.5
+[   341s]   B=1600 (33s): bjs2/mapped 69.4, bjs/mapped 69.4, bjs2/pooled 55.9, js/pooled 61.3, fcose/mapped 68.4, semicca/mapped 54.0, ridge_u/mapped 76.7, abl/bjs_pairbasis 55.6
+[   341s] fold IFNGR2: 3 groups
+[   346s]   B=50 (4s): bjs2/mapped 19.6, bjs/mapped 19.6, bjs2/pooled 19.1, js/pooled 11.3, fcose/mapped 10.5, semicca/mapped 22.5, ridge_u/mapped 19.1, abl/bjs_pairbasis 3.5
+[   351s]   B=100 (4s): bjs2/mapped 27.2, bjs/mapped 27.2, bjs2/pooled 24.4, js/pooled 15.7, fcose/mapped 16.5, semicca/mapped 26.7, ridge_u/mapped 20.7, abl/bjs_pairbasis 11.1
+[   355s]   B=200 (5s): bjs2/mapped 29.8, bjs/mapped 29.8, bjs2/pooled 26.9, js/pooled 20.1, fcose/mapped 21.7, semicca/mapped 22.1, ridge_u/mapped 30.7, abl/bjs_pairbasis 20.3
+[   361s]   B=400 (5s): bjs2/mapped 47.6, bjs/mapped 47.6, bjs2/pooled 42.8, js/pooled 36.1, fcose/mapped 35.6, semicca/mapped 38.9, ridge_u/mapped 47.5, abl/bjs_pairbasis 36.3
+[   369s]   B=800 (8s): bjs2/mapped 51.8, bjs/mapped 51.8, bjs2/pooled 46.4, js/pooled 44.4, fcose/mapped 46.1, semicca/mapped 37.1, ridge_u/mapped 50.2, abl/bjs_pairbasis 42.6
+[   415s]   B=1600 (46s): bjs2/mapped 53.1, bjs/mapped 53.1, bjs2/pooled 47.7, js/pooled 47.5, fcose/mapped 50.8, semicca/mapped 43.3, ridge_u/mapped 55.0, abl/bjs_pairbasis 45.3
+[   415s] fold IRF1: 3 groups
+[   426s]   B=50 (9s): bjs2/mapped 1.6, bjs/mapped 1.6, bjs2/pooled 2.2, js/pooled -2.3, fcose/mapped -7.4, semicca/mapped 20.7, ridge_u/mapped 27.3, abl/bjs_pairbasis -29.4
+[   434s]   B=100 (9s): bjs2/mapped 49.6, bjs/mapped 49.6, bjs2/pooled 46.5, js/pooled 39.7, fcose/mapped 31.4, semicca/mapped 52.8, ridge_u/mapped 49.1, abl/bjs_pairbasis 24.9
+[   444s]   B=200 (10s): bjs2/mapped 48.5, bjs/mapped 48.5, bjs2/pooled 45.6, js/pooled 39.6, fcose/mapped 39.1, semicca/mapped 38.1, ridge_u/mapped 55.8, abl/bjs_pairbasis 32.1
+[   456s]   B=400 (12s): bjs2/mapped 74.9, bjs/mapped 74.9, bjs2/pooled 69.5, js/pooled 62.0, fcose/mapped 60.9, semicca/mapped 58.4, ridge_u/mapped 82.8, abl/bjs_pairbasis 60.5
+[   474s]   B=800 (18s): bjs2/mapped 81.3, bjs/mapped 81.3, bjs2/pooled 74.3, js/pooled 70.6, fcose/mapped 76.4, semicca/mapped 59.8, ridge_u/mapped 85.3, abl/bjs_pairbasis 69.3
+[   522s]   B=1600 (48s): bjs2/mapped 88.3, bjs/mapped 88.3, bjs2/pooled 80.5, js/pooled 81.3, fcose/mapped 90.5, semicca/mapped 71.3, ridge_u/mapped 95.1, abl/bjs_pairbasis 80.1
+[   522s] fold IRF7: 2 groups
+[   533s]   B=50 (9s): bjs2/mapped 34.9, bjs/mapped 34.9, bjs2/pooled 32.2, js/pooled 17.8, fcose/mapped 13.9, semicca/mapped 49.3, ridge_u/mapped 59.0, abl/bjs_pairbasis -11.7
+[   542s]   B=100 (8s): bjs2/mapped 76.8, bjs/mapped 76.8, bjs2/pooled 71.2, js/pooled 39.8, fcose/mapped 35.1, semicca/mapped 79.3, ridge_u/mapped 82.8, abl/bjs_pairbasis 42.3
+[   552s]   B=200 (10s): bjs2/mapped 101.6, bjs/mapped 101.6, bjs2/pooled 91.7, js/pooled 65.3, fcose/mapped 70.3, semicca/mapped 96.6, ridge_u/mapped 97.8, abl/bjs_pairbasis 75.4
+[   563s]   B=400 (12s): bjs2/mapped 111.0, bjs/mapped 111.0, bjs2/pooled 96.0, js/pooled 70.8, fcose/mapped 86.8, semicca/mapped 98.2, ridge_u/mapped 109.4, abl/bjs_pairbasis 88.0
+[   580s]   B=800 (17s): bjs2/mapped 128.8, bjs/mapped 128.8, bjs2/pooled 111.9, js/pooled 94.1, fcose/mapped 116.0, semicca/mapped 113.1, ridge_u/mapped 129.0, abl/bjs_pairbasis 106.6
+[   627s]   B=1600 (46s): bjs2/mapped 132.2, bjs/mapped 132.2, bjs2/pooled 114.2, js/pooled 104.6, fcose/mapped 126.2, semicca/mapped 124.9, ridge_u/mapped 136.5, abl/bjs_pairbasis 111.8
+[   627s] fold JAK2: 3 groups
+[   637s]   B=50 (8s): bjs2/mapped -10.7, bjs/mapped -10.7, bjs2/pooled -4.6, js/pooled 3.9, fcose/mapped -18.7, semicca/mapped 5.7, ridge_u/mapped 3.8, abl/bjs_pairbasis -31.1
+[   646s]   B=100 (9s): bjs2/mapped -27.7, bjs/mapped -27.7, bjs2/pooled -18.0, js/pooled -1.0, fcose/mapped -22.9, semicca/mapped -12.7, ridge_u/mapped -15.1, abl/bjs_pairbasis -43.4
+[   656s]   B=200 (10s): bjs2/mapped 14.7, bjs/mapped 14.7, bjs2/pooled 20.2, js/pooled 21.2, fcose/mapped 20.7, semicca/mapped 4.9, ridge_u/mapped 22.8, abl/bjs_pairbasis 9.5
+[   667s]   B=400 (12s): bjs2/mapped 20.1, bjs/mapped 20.1, bjs2/pooled 26.5, js/pooled 33.2, fcose/mapped 19.4, semicca/mapped 7.6, ridge_u/mapped 33.3, abl/bjs_pairbasis 22.7
+[   685s]   B=800 (17s): bjs2/mapped 15.3, bjs/mapped 15.3, bjs2/pooled 24.2, js/pooled 33.8, fcose/mapped 15.8, semicca/mapped 4.1, ridge_u/mapped 25.6, abl/bjs_pairbasis 18.9
+[   730s]   B=1600 (46s): bjs2/mapped 28.8, bjs/mapped 28.8, bjs2/pooled 35.8, js/pooled 42.3, fcose/mapped 30.7, semicca/mapped 10.7, ridge_u/mapped 36.2, abl/bjs_pairbasis 34.6
+[   730s] fold MARCH8: 3 groups
+[   741s]   B=50 (9s): bjs2/mapped 32.3, bjs/mapped 32.3, bjs2/pooled 25.8, js/pooled 11.2, fcose/mapped 12.9, semicca/mapped 7.9, ridge_u/mapped 19.7, abl/bjs_pairbasis 2.4
+[   751s]   B=100 (9s): bjs2/mapped 42.3, bjs/mapped 42.3, bjs2/pooled 34.1, js/pooled 20.0, fcose/mapped 18.3, semicca/mapped 33.0, ridge_u/mapped 37.5, abl/bjs_pairbasis 4.9
+[   760s]   B=200 (10s): bjs2/mapped 66.8, bjs/mapped 66.8, bjs2/pooled 58.6, js/pooled 34.5, fcose/mapped 38.7, semicca/mapped 55.4, ridge_u/mapped 62.9, abl/bjs_pairbasis 42.1
+[   772s]   B=400 (11s): bjs2/mapped 69.7, bjs/mapped 69.7, bjs2/pooled 60.2, js/pooled 47.6, fcose/mapped 50.8, semicca/mapped 69.9, ridge_u/mapped 70.7, abl/bjs_pairbasis 51.5
+[   789s]   B=800 (17s): bjs2/mapped 78.9, bjs/mapped 78.9, bjs2/pooled 67.8, js/pooled 58.2, fcose/mapped 68.2, semicca/mapped 57.4, ridge_u/mapped 76.9, abl/bjs_pairbasis 65.2
+[   837s]   B=1600 (48s): bjs2/mapped 83.2, bjs/mapped 83.2, bjs2/pooled 71.6, js/pooled 66.7, fcose/mapped 79.1, semicca/mapped 72.7, ridge_u/mapped 84.5, abl/bjs_pairbasis 71.5
+[   837s] fold NFKBIA: 3 groups
+[   847s]   B=50 (9s): bjs2/mapped 54.2, bjs/mapped 54.2, bjs2/pooled 48.6, js/pooled 19.7, fcose/mapped 17.3, semicca/mapped 53.9, ridge_u/mapped 59.4, abl/bjs_pairbasis 17.5
+[   856s]   B=100 (9s): bjs2/mapped 49.0, bjs/mapped 49.0, bjs2/pooled 44.0, js/pooled 21.9, fcose/mapped 20.0, semicca/mapped 40.7, ridge_u/mapped 38.8, abl/bjs_pairbasis 20.4
+[   866s]   B=200 (9s): bjs2/mapped 67.5, bjs/mapped 67.5, bjs2/pooled 57.6, js/pooled 39.7, fcose/mapped 43.9, semicca/mapped 63.4, ridge_u/mapped 71.7, abl/bjs_pairbasis 44.5
+[   877s]   B=400 (11s): bjs2/mapped 81.5, bjs/mapped 81.5, bjs2/pooled 73.1, js/pooled 58.0, fcose/mapped 64.1, semicca/mapped 68.4, ridge_u/mapped 80.3, abl/bjs_pairbasis 67.3
+[   894s]   B=800 (17s): bjs2/mapped 93.3, bjs/mapped 93.3, bjs2/pooled 84.7, js/pooled 71.8, fcose/mapped 87.2, semicca/mapped 81.7, ridge_u/mapped 91.1, abl/bjs_pairbasis 79.5
+[   940s]   B=1600 (46s): bjs2/mapped 93.5, bjs/mapped 93.5, bjs2/pooled 82.8, js/pooled 76.7, fcose/mapped 91.2, semicca/mapped 77.1, ridge_u/mapped 95.9, abl/bjs_pairbasis 80.0
+[   940s] fold PDCD1LG2: 3 groups
+[   950s]   B=50 (8s): bjs2/mapped 25.1, bjs/mapped 25.1, bjs2/pooled 25.7, js/pooled 8.6, fcose/mapped 5.0, semicca/mapped 29.6, ridge_u/mapped 15.9, abl/bjs_pairbasis 12.8
+[   959s]   B=100 (9s): bjs2/mapped 35.0, bjs/mapped 35.0, bjs2/pooled 35.5, js/pooled 17.2, fcose/mapped 10.5, semicca/mapped 15.5, ridge_u/mapped 22.2, abl/bjs_pairbasis 20.2
+[   969s]   B=200 (10s): bjs2/mapped 56.1, bjs/mapped 56.1, bjs2/pooled 59.3, js/pooled 40.6, fcose/mapped 35.6, semicca/mapped 40.3, ridge_u/mapped 50.0, abl/bjs_pairbasis 50.6
+[   980s]   B=400 (11s): bjs2/mapped 69.2, bjs/mapped 69.2, bjs2/pooled 71.3, js/pooled 51.6, fcose/mapped 54.7, semicca/mapped 57.0, ridge_u/mapped 62.6, abl/bjs_pairbasis 68.1
+[   997s]   B=800 (17s): bjs2/mapped 72.9, bjs/mapped 72.9, bjs2/pooled 74.4, js/pooled 62.1, fcose/mapped 67.9, semicca/mapped 58.5, ridge_u/mapped 69.3, abl/bjs_pairbasis 72.6
+[  1043s]   B=1600 (46s): bjs2/mapped 79.0, bjs/mapped 79.0, bjs2/pooled 80.4, js/pooled 73.7, fcose/mapped 76.7, semicca/mapped 64.6, ridge_u/mapped 76.5, abl/bjs_pairbasis 79.6
+[  1043s] fold POU2F2: 1 groups
+[  1054s]   B=50 (9s): bjs2/mapped 41.4, bjs/mapped 41.4, bjs2/pooled 57.3, js/pooled 20.5, fcose/mapped 13.5, semicca/mapped 44.3, ridge_u/mapped 53.6, abl/bjs_pairbasis 29.4
+[  1063s]   B=100 (9s): bjs2/mapped 60.9, bjs/mapped 60.9, bjs2/pooled 57.1, js/pooled 28.8, fcose/mapped 29.2, semicca/mapped 58.5, ridge_u/mapped 50.6, abl/bjs_pairbasis 35.6
+[  1073s]   B=200 (10s): bjs2/mapped 89.5, bjs/mapped 89.5, bjs2/pooled 78.7, js/pooled 46.2, fcose/mapped 53.6, semicca/mapped 65.0, ridge_u/mapped 72.2, abl/bjs_pairbasis 69.6
+[  1084s]   B=400 (11s): bjs2/mapped 83.1, bjs/mapped 83.1, bjs2/pooled 74.7, js/pooled 48.9, fcose/mapped 58.2, semicca/mapped 86.3, ridge_u/mapped 78.4, abl/bjs_pairbasis 69.3
+[  1100s]   B=800 (17s): bjs2/mapped 87.0, bjs/mapped 87.0, bjs2/pooled 80.6, js/pooled 64.2, fcose/mapped 72.6, semicca/mapped 88.8, ridge_u/mapped 85.0, abl/bjs_pairbasis 78.3
+[  1145s]   B=1600 (45s): bjs2/mapped 91.6, bjs/mapped 91.6, bjs2/pooled 84.0, js/pooled 74.3, fcose/mapped 85.7, semicca/mapped 87.1, ridge_u/mapped 93.0, abl/bjs_pairbasis 82.7
+[  1145s] fold SMAD4: 2 groups
+[  1157s]   B=50 (9s): bjs2/mapped -5.9, bjs/mapped -5.9, bjs2/pooled -2.6, js/pooled -0.9, fcose/mapped -3.1, semicca/mapped -3.0, ridge_u/mapped -2.3, abl/bjs_pairbasis -4.9
+[  1165s]   B=100 (9s): bjs2/mapped 8.8, bjs/mapped 8.8, bjs2/pooled 13.2, js/pooled 7.5, fcose/mapped 2.6, semicca/mapped 7.0, ridge_u/mapped 12.6, abl/bjs_pairbasis 4.8
+[  1171s]   B=200 (5s): bjs2/mapped -13.8, bjs/mapped -13.8, bjs2/pooled -1.5, js/pooled 2.3, fcose/mapped -8.8, semicca/mapped -5.6, ridge_u/mapped -4.6, abl/bjs_pairbasis -3.1
+[  1176s]   B=400 (5s): bjs2/mapped 18.4, bjs/mapped 18.4, bjs2/pooled 23.8, js/pooled 19.2, fcose/mapped 15.8, semicca/mapped 16.1, ridge_u/mapped 25.4, abl/bjs_pairbasis 21.4
+[  1184s]   B=800 (8s): bjs2/mapped -2.1, bjs/mapped -2.1, bjs2/pooled 9.8, js/pooled 10.3, fcose/mapped -4.2, semicca/mapped -8.2, ridge_u/mapped 3.0, abl/bjs_pairbasis 9.2
+[  1204s]   B=1600 (21s): bjs2/mapped 2.0, bjs/mapped 2.0, bjs2/pooled 14.0, js/pooled 14.8, fcose/mapped 1.1, semicca/mapped -7.2, ridge_u/mapped 8.8, abl/bjs_pairbasis 13.8
+[  1204s] fold STAT1: 1 groups
+[  1210s]   B=50 (4s): bjs2/mapped -42.7, bjs/mapped -42.7, bjs2/pooled -15.3, js/pooled -5.0, fcose/mapped 1.3, semicca/mapped 11.2, ridge_u/mapped 0.0, abl/bjs_pairbasis -32.6
+[  1214s]   B=100 (4s): bjs2/mapped 4.0, bjs/mapped 4.0, bjs2/pooled 7.2, js/pooled 4.5, fcose/mapped 4.7, semicca/mapped 17.5, ridge_u/mapped 13.8, abl/bjs_pairbasis 3.8
+[  1219s]   B=200 (5s): bjs2/mapped 11.9, bjs/mapped 11.9, bjs2/pooled 14.1, js/pooled 11.8, fcose/mapped 4.2, semicca/mapped 13.8, ridge_u/mapped 21.6, abl/bjs_pairbasis 10.4
+[  1226s]   B=400 (8s): bjs2/mapped 21.7, bjs/mapped 21.7, bjs2/pooled 22.9, js/pooled 19.0, fcose/mapped 20.4, semicca/mapped 13.7, ridge_u/mapped 31.5, abl/bjs_pairbasis 22.7
+[  1238s]   B=800 (12s): bjs2/mapped 13.9, bjs/mapped 13.9, bjs2/pooled 21.3, js/pooled 19.0, fcose/mapped 11.6, semicca/mapped 5.7, ridge_u/mapped 19.8, abl/bjs_pairbasis 22.4
+[  1271s]   B=1600 (33s): bjs2/mapped 11.3, bjs/mapped 11.3, bjs2/pooled 18.3, js/pooled 18.0, fcose/mapped 11.3, semicca/mapped 2.0, ridge_u/mapped 19.9, abl/bjs_pairbasis 19.4
+[  1271s] fold STAT2: 3 groups
+[  1279s]   B=50 (6s): bjs2/mapped 17.1, bjs/mapped 17.1, bjs2/pooled 20.4, js/pooled 11.2, fcose/mapped 6.1, semicca/mapped 19.4, ridge_u/mapped 18.5, abl/bjs_pairbasis 0.1
+[  1285s]   B=100 (7s): bjs2/mapped 63.3, bjs/mapped 63.3, bjs2/pooled 59.3, js/pooled 31.2, fcose/mapped 27.1, semicca/mapped 22.4, ridge_u/mapped 16.9, abl/bjs_pairbasis 44.9
+[  1292s]   B=200 (7s): bjs2/mapped 72.9, bjs/mapped 72.9, bjs2/pooled 69.4, js/pooled 45.5, fcose/mapped 47.5, semicca/mapped 55.1, ridge_u/mapped 66.1, abl/bjs_pairbasis 61.6
+[  1300s]   B=400 (8s): bjs2/mapped 88.4, bjs/mapped 88.4, bjs2/pooled 82.3, js/pooled 66.1, fcose/mapped 74.2, semicca/mapped 77.2, ridge_u/mapped 82.8, abl/bjs_pairbasis 76.0
+[  1312s]   B=800 (12s): bjs2/mapped 93.2, bjs/mapped 93.2, bjs2/pooled 87.1, js/pooled 75.7, fcose/mapped 85.5, semicca/mapped 78.7, ridge_u/mapped 83.9, abl/bjs_pairbasis 83.6
+[  1344s]   B=1600 (33s): bjs2/mapped 101.3, bjs/mapped 101.3, bjs2/pooled 93.8, js/pooled 88.1, fcose/mapped 97.3, semicca/mapped 90.8, ridge_u/mapped 98.8, abl/bjs_pairbasis 93.0
+[  1344s] fold STAT3: 2 groups
+[  1352s]   B=50 (6s): bjs2/mapped 8.9, bjs/mapped 8.9, bjs2/pooled 10.6, js/pooled 7.6, fcose/mapped 4.5, semicca/mapped 9.8, ridge_u/mapped 9.3, abl/bjs_pairbasis 1.9
+[  1358s]   B=100 (6s): bjs2/mapped 21.4, bjs/mapped 21.4, bjs2/pooled 23.3, js/pooled 13.3, fcose/mapped 12.5, semicca/mapped 9.6, ridge_u/mapped 10.1, abl/bjs_pairbasis 14.1
+[  1364s]   B=200 (6s): bjs2/mapped 22.7, bjs/mapped 22.7, bjs2/pooled 26.0, js/pooled 20.9, fcose/mapped 19.5, semicca/mapped 19.3, ridge_u/mapped 25.5, abl/bjs_pairbasis 18.8
+[  1372s]   B=400 (8s): bjs2/mapped 40.9, bjs/mapped 40.9, bjs2/pooled 43.8, js/pooled 37.2, fcose/mapped 34.6, semicca/mapped 27.4, ridge_u/mapped 42.6, abl/bjs_pairbasis 41.4
+[  1384s]   B=800 (12s): bjs2/mapped 40.1, bjs/mapped 40.1, bjs2/pooled 43.1, js/pooled 39.9, fcose/mapped 41.0, semicca/mapped 25.7, ridge_u/mapped 41.4, abl/bjs_pairbasis 44.0
+[  1417s]   B=1600 (32s): bjs2/mapped 47.5, bjs/mapped 47.5, bjs2/pooled 48.5, js/pooled 46.8, fcose/mapped 47.4, semicca/mapped 35.2, ridge_u/mapped 48.4, abl/bjs_pairbasis 49.2
+[  1417s] fold STAT5A: 3 groups
+[  1424s]   B=50 (6s): bjs2/mapped 318.9, bjs/mapped 318.9, bjs2/pooled 324.7, js/pooled 216.9, fcose/mapped 167.0, semicca/mapped 334.8, ridge_u/mapped 255.0, abl/bjs_pairbasis 13.7
+[  1430s]   B=100 (6s): bjs2/mapped 497.9, bjs/mapped 497.9, bjs2/pooled 452.5, js/pooled 219.3, fcose/mapped 182.7, semicca/mapped 370.5, ridge_u/mapped 254.2, abl/bjs_pairbasis 292.6
+[  1437s]   B=200 (7s): bjs2/mapped 712.8, bjs/mapped 712.8, bjs2/pooled 655.5, js/pooled 441.9, fcose/mapped 459.6, semicca/mapped 492.6, ridge_u/mapped 590.9, abl/bjs_pairbasis 579.1
+[  1445s]   B=400 (8s): bjs2/mapped 805.2, bjs/mapped 805.2, bjs2/pooled 733.3, js/pooled 587.6, fcose/mapped 679.3, semicca/mapped 589.8, ridge_u/mapped 734.2, abl/bjs_pairbasis 678.7
+[  1457s]   B=800 (13s): bjs2/mapped 844.2, bjs/mapped 844.2, bjs2/pooled 774.7, js/pooled 688.4, fcose/mapped 795.4, semicca/mapped 659.4, ridge_u/mapped 761.6, abl/bjs_pairbasis 744.2
+[  1489s]   B=1600 (32s): bjs2/mapped 887.7, bjs/mapped 887.7, bjs2/pooled 814.2, js/pooled 776.4, fcose/mapped 863.2, semicca/mapped 836.5, ridge_u/mapped 863.6, abl/bjs_pairbasis 801.0
+[  1489s] fold TNFRSF14: 3 groups
+[  1497s]   B=50 (6s): bjs2/mapped 11.8, bjs/mapped 11.8, bjs2/pooled 12.6, js/pooled 9.4, fcose/mapped 8.8, semicca/mapped 8.4, ridge_u/mapped 10.7, abl/bjs_pairbasis 1.7
+[  1503s]   B=100 (6s): bjs2/mapped 52.9, bjs/mapped 52.9, bjs2/pooled 50.6, js/pooled 27.1, fcose/mapped 23.4, semicca/mapped 29.2, ridge_u/mapped 34.5, abl/bjs_pairbasis 27.8
+[  1509s]   B=200 (6s): bjs2/mapped 59.2, bjs/mapped 59.2, bjs2/pooled 55.6, js/pooled 36.1, fcose/mapped 31.9, semicca/mapped 57.5, ridge_u/mapped 53.5, abl/bjs_pairbasis 42.7
+[  1517s]   B=400 (8s): bjs2/mapped 71.6, bjs/mapped 71.6, bjs2/pooled 67.3, js/pooled 57.7, fcose/mapped 58.7, semicca/mapped 61.4, ridge_u/mapped 71.5, abl/bjs_pairbasis 59.3
+[  1529s]   B=800 (12s): bjs2/mapped 85.5, bjs/mapped 85.5, bjs2/pooled 80.6, js/pooled 73.0, fcose/mapped 78.8, semicca/mapped 70.3, ridge_u/mapped 80.5, abl/bjs_pairbasis 77.0
+[  1561s]   B=1600 (32s): bjs2/mapped 88.4, bjs/mapped 88.4, bjs2/pooled 83.9, js/pooled 81.4, fcose/mapped 85.7, semicca/mapped 83.6, ridge_u/mapped 88.7, abl/bjs_pairbasis 82.6
+[  1561s] fold UBE2L6: 2 groups
+[  1569s]   B=50 (6s): bjs2/mapped 26.0, bjs/mapped 26.0, bjs2/pooled 25.4, js/pooled 13.6, fcose/mapped 13.5, semicca/mapped 15.1, ridge_u/mapped 22.7, abl/bjs_pairbasis 11.3
+[  1575s]   B=100 (6s): bjs2/mapped 41.5, bjs/mapped 41.5, bjs2/pooled 35.0, js/pooled 19.0, fcose/mapped 21.3, semicca/mapped 19.9, ridge_u/mapped 28.6, abl/bjs_pairbasis 26.1
+[  1581s]   B=200 (6s): bjs2/mapped 55.3, bjs/mapped 55.3, bjs2/pooled 47.7, js/pooled 29.8, fcose/mapped 29.5, semicca/mapped 46.9, ridge_u/mapped 52.2, abl/bjs_pairbasis 39.5
+[  1589s]   B=400 (8s): bjs2/mapped 59.4, bjs/mapped 59.4, bjs2/pooled 50.5, js/pooled 35.5, fcose/mapped 40.7, semicca/mapped 50.9, ridge_u/mapped 55.2, abl/bjs_pairbasis 44.4
+[  1601s]   B=800 (12s): bjs2/mapped 77.5, bjs/mapped 77.5, bjs2/pooled 67.1, js/pooled 56.7, fcose/mapped 67.0, semicca/mapped 65.4, ridge_u/mapped 72.5, abl/bjs_pairbasis 64.2
+[  1633s]   B=1600 (32s): bjs2/mapped 75.5, bjs/mapped 75.5, bjs2/pooled 66.1, js/pooled 60.2, fcose/mapped 69.9, semicca/mapped 67.3, ridge_u/mapped 74.6, abl/bjs_pairbasis 65.0
+[  1633s] done

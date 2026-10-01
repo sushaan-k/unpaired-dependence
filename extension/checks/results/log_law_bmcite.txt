@@ -1,0 +1,36 @@
+[07:08:18] p100: n {'pool_x': 7692, 'pool_y': 7445, 'reservoir': 9952, 'truth': 8365, 'populations': 1, 'p': 100, 'q': 25}, pilot 200, budgets 25-6400, law saving at 0.5 4.77
+[07:08:24] p200: n {'pool_x': 7692, 'pool_y': 7445, 'reservoir': 9952, 'truth': 8365, 'populations': 1, 'p': 200, 'q': 25}, pilot 200, budgets 25-6400, law saving at 0.5 6.89
+[07:08:39] p400: n {'pool_x': 7692, 'pool_y': 7445, 'reservoir': 9952, 'truth': 8365, 'populations': 1, 'p': 400, 'q': 25}, pilot 200, budgets 25-6400, law saving at 0.5 10.36
+[07:08:39] predictions hashed
+[07:08:40] {
+ "test": "law/bmcite",
+ "problems": [
+  "p100",
+  "p200",
+  "p400"
+ ],
+ "curve_points_compared": 81,
+ "max_abs_difference_per_draw_vs_published": 7.771561172376096e-16,
+ "max_abs_difference_stored_form_vs_published": 0.0,
+ "averaged_prediction_minus_published": {
+  "min": 0.0005631038957384371,
+  "median": 0.026835581622389526,
+  "max": 0.252366876917174,
+  "points": 81
+ },
+ "regenerated_files_identical": {
+  "bmcite_estimates.npz": true,
+  "bmcite_msq.json": true,
+  "bmcite_predictions.json": true
+ },
+ "stored_vs_regenerated": {
+  "compared": 81,
+  "draws_per_key": [
+   20
+  ],
+  "max_abs_mean_difference": 1.0658141036401503e-14,
+  "max_rel_msq_difference": 4.454707674908998e-16
+ },
+ "seconds": 27,
+ "passed": true
+}

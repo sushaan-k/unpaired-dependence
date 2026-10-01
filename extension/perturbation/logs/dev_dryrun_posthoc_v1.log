@@ -1,0 +1,338 @@
+heldout groups 118
+nt groups 3
+heldout 118 groups
+nt 3 groups
+{
+ "verdict": {
+  "P1_ifn_share_above_half": false,
+  "P2_along_S_share_above_half": false,
+  "P3_ifn_above_complement": true
+ },
+ "support_vs_recovery": {
+  "programs": [
+   "e2f_targets",
+   "epithelial_mesenchymal_transition",
+   "g2m_checkpoint",
+   "hypoxia",
+   "tnfa_signaling_via_nfkb"
+  ],
+  "support": [
+   0.013344701213380154,
+   0.016876075659078747,
+   0.013853723270370525,
+   0.021472631252818404,
+   0.01798680833561747
+  ],
+  "recovery": [
+   0.2000569563914671,
+   0.06311815670979347,
+   0.22919300798279355,
+   0.032100672137836524,
+   0.04922949460872337
+  ],
+  "spearman": -0.8999999999999998
+ },
+ "blocks": {
+  "ifn": {
+   "rf": {
+    "pf_within_measured": 0.511,
+    "paired_closed_form": 0.0,
+    "transferred_correlation": 0.963,
+    "reference_regression": 0.716,
+    "benchmark": 0.493,
+    "replicate": -0.243
+   },
+   "reliability": 0.296,
+   "support": 0.09377612080204162,
+   "share_paired": NaN
+  },
+  "ifn_genes": {
+   "rf": {
+    "pf_within_measured": 0.256,
+    "paired_closed_form": 0.0,
+    "transferred_correlation": 0.901,
+    "reference_regression": 0.499,
+    "benchmark": 0.23,
+    "replicate": -2.699
+   },
+   "reliability": 0.129,
+   "support": 0.09377612080204162,
+   "share_paired": NaN
+  },
+  "complement": {
+   "rf": {
+    "pf_within_measured": 0.077,
+    "paired_closed_form": 0.0,
+    "transferred_correlation": 0.972,
+    "reference_regression": 0.552,
+    "benchmark": 0.17,
+    "replicate": -3.029
+   },
+   "reliability": 0.112,
+   "support": 0.021826052575487816,
+   "share_paired": NaN
+  },
+  "along_S": {
+   "rf": {
+    "pf_within_measured": 0.477,
+    "paired_closed_form": 0.0,
+    "transferred_correlation": 0.86,
+    "reference_regression": 0.753,
+    "benchmark": 0.43,
+    "replicate": -0.087
+   },
+   "reliability": 0.381,
+   "support": null,
+   "share_paired": NaN
+  },
+  "e2f_targets": {
+   "rf": {
+    "pf_within_measured": 0.2,
+    "paired_closed_form": 0.0,
+    "transferred_correlation": 1.271,
+    "reference_regression": 0.284,
+    "benchmark": -0.294,
+    "replicate": -5.811
+   },
+   "reliability": 0.061,
+   "support": 0.013344701213380154,
+   "share_paired": NaN
+  },
+  "epithelial_mesenchymal_transition": {
+   "rf": {
+    "pf_within_measured": 0.063,
+    "paired_closed_form": 0.0,
+    "transferred_correlation": 0.973,
+    "reference_regression": 0.693,
+    "benchmark": 0.361,
+    "replicate": -1.263
+   },
+   "reliability": 0.18,
+   "support": 0.016876075659078747,
+   "share_paired": NaN
+  },
+  "g2m_checkpoint": {
+   "rf": {
+    "pf_within_measured": 0.229,
+    "paired_closed_form": 0.0,
+    "transferred_correlation": 1.206,
+    "reference_regression": 0.341,
+    "benchmark": -0.255,
+    "replicate": -5.031
+   },
+   "reliability": 0.07,
+   "support": 0.013853723270370525,
+   "share_paired": NaN
+  },
+  "hypoxia": {
+   "rf": {
+    "pf_within_measured": 0.032,
+    "paired_closed_form": 0.0,
+    "transferred_correlation": 0.922,
+    "reference_regression": 0.504,
+    "benchmark": 0.218,
+    "replicate": -2.594
+   },
+   "reliability": 0.125,
+   "support": 0.021472631252818404,
+   "share_paired": NaN
+  },
+  "tnfa_signaling_via_nfkb": {
+   "rf": {
+    "pf_within_measured": 0.049,
+    "paired_closed_form": 0.0,
+    "transferred_correlation": 0.963,
+    "reference_regression": 0.554,
+    "benchmark": 0.284,
+    "replicate": -2.263
+   },
+   "reliability": 0.135,
+   "support": 0.01798680833561747,
+   "share_paired": NaN
+  }
+ }
+}
+128 training targets, 118 held-out groups
+fitted 0 of 29
+fitted 20 of 29
+leave-one-out 0
+leave-one-out 20
+leave-one-out 40
+leave-one-out 60
+leave-one-out 80
+leave-one-out 100
+leave-one-out 120
+{
+ "verdict": {
+  "D1_20": false,
+  "D1_40": false
+ },
+ "budgets": {
+  "5": {
+   "design": -1.2609753471228546,
+   "strength": -1.4892657968088296,
+   "random_mean": -1.1188641088935936,
+   "random_q95": -0.8838332063500575,
+   "random_max": -0.8699892215659617,
+   "design_minus_random": {
+    "value": -0.14211123822926108,
+    "ci": [
+     -0.21168131722376832,
+     -0.06326032530283868
+    ]
+   },
+   "design_minus_strength": {
+    "value": 0.228290449685975,
+    "ci": [
+     0.15827911201187056,
+     0.29536456244277814
+    ]
+   },
+   "design_rank_among_random": 3,
+   "nt": {
+    "design": -1.0358189987841337,
+    "strength": -1.0232311010600914,
+    "random_mean": -0.7749060275606323,
+    "random_q95": -0.45534152426016233
+   },
+   "dim_S": {
+    "design": 11,
+    "strength": 12,
+    "random_mean": 11.6
+   }
+  },
+  "10": {
+   "design": -0.42946593367837976,
+   "strength": -0.7427593871049608,
+   "random_mean": -0.6557527127404573,
+   "random_q95": -0.04720278751532356,
+   "random_max": 3.101191476078984e-05,
+   "design_minus_random": {
+    "value": 0.22628677906207756,
+    "ci": [
+     0.18824090721749953,
+     0.2654296391602571
+    ]
+   },
+   "design_minus_strength": {
+    "value": 0.31329345342658105,
+    "ci": [
+     0.2589996619194997,
+     0.36626357837935997
+    ]
+   },
+   "design_rank_among_random": 2,
+   "nt": {
+    "design": -0.2121945650119121,
+    "strength": -0.47416055122816586,
+    "random_mean": -0.4330760130318552,
+    "random_q95": -0.048025310251124234
+   },
+   "dim_S": {
+    "design": 7,
+    "strength": 9,
+    "random_mean": 12.8
+   }
+  },
+  "20": {
+   "design": -0.2553540606548828,
+   "strength": -0.4373966080091055,
+   "random_mean": -0.36572517244367164,
+   "random_q95": 0.045687744119988105,
+   "random_max": 0.04668843463804304,
+   "design_minus_random": {
+    "value": 0.11037111178878883,
+    "ci": [
+     0.0677754745979353,
+     0.13976625762680805
+    ]
+   },
+   "design_minus_strength": {
+    "value": 0.1820425473542227,
+    "ci": [
+     0.15455283051893848,
+     0.22183168719042365
+    ]
+   },
+   "design_rank_among_random": 3,
+   "nt": {
+    "design": -0.05461495922336237,
+    "strength": -0.1384369668333295,
+    "random_mean": -0.2952005743334428,
+    "random_q95": 0.10907428789189247
+   },
+   "dim_S": {
+    "design": 8,
+    "strength": 11,
+    "random_mean": 3.0
+   }
+  },
+  "40": {
+   "design": -0.6826323863022643,
+   "strength": -0.019276276383673775,
+   "random_mean": -0.1614081754778518,
+   "random_q95": -0.00031024628918611117,
+   "random_max": 4.8917276007034915e-05,
+   "design_minus_random": {
+    "value": -0.5212242108244125,
+    "ci": [
+     -0.5819347343200906,
+     -0.4713267150923466
+    ]
+   },
+   "design_minus_strength": {
+    "value": -0.6633561099185905,
+    "ci": [
+     -0.7232955699496134,
+     -0.6083636999487881
+    ]
+   },
+   "design_rank_among_random": 5,
+   "nt": {
+    "design": -0.453761252779033,
+    "strength": 0.00800083470549444,
+    "random_mean": -0.03783996566557443,
+    "random_q95": 0.0641416413466255
+   },
+   "dim_S": {
+    "design": 9,
+    "strength": 2,
+    "random_mean": 2.8
+   }
+  }
+ },
+ "all": {
+  "heldout": 0.10310751834049246,
+  "nt": 0.1386262678933565
+ },
+ "loo": {
+  "spearman_exposure": 0.0059512909723493865,
+  "spearman_strength": -0.02872070133675151,
+  "p_exposure": 0.4527363184079602,
+  "top_drop": [
+   "CD274",
+   "CD47",
+   "ITGA3",
+   "CTPS1",
+   "NONO",
+   "HLA-B",
+   "CD44",
+   "TMED10",
+   "RB1",
+   "MYC"
+  ],
+  "top_exposure": [
+   "JAK2",
+   "IFNGR2",
+   "TMED10",
+   "CTPS1",
+   "MYC",
+   "DNMT1",
+   "CTSD",
+   "CKS1B",
+   "MIA",
+   "LGALS3BP"
+  ]
+ }
+}
+DRY RUN OK

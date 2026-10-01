@@ -1,0 +1,81 @@
+=== bmmc_cite
+  rows 4000/36000
+  rows 8000/36000
+  rows 12000/36000
+  rows 16000/36000
+  rows 20000/36000
+  rows 24000/36000
+  rows 28000/36000
+  rows 32000/36000
+  rows 36000/36000
+  rows 4000/36000
+  rows 8000/36000
+  rows 12000/36000
+  rows 16000/36000
+  rows 20000/36000
+  rows 24000/36000
+  rows 28000/36000
+  rows 32000/36000
+  rows 36000/36000
+{"source": "NeurIPS 2021 bone-marrow CITE-seq (GSE194122); 3,000 cells per batch", "x": "RNA counts", "y": "ADT counts", "unit": "donor", "cond": "coarse cell type", "pop": "batch (site x donor)", "cells": 36000, "units": 9}
+=== bmmc_multiome
+  rows 4000/36450
+  rows 8000/36450
+  rows 12000/36450
+  rows 16000/36450
+  rows 20000/36450
+  rows 24000/36450
+  rows 28000/36450
+  rows 32000/36450
+  rows 36000/36450
+  rows 36450/36450
+  rows 4000/36450
+  rows 8000/36450
+  rows 12000/36450
+  rows 16000/36450
+  rows 20000/36450
+  rows 24000/36450
+  rows 28000/36450
+  rows 32000/36450
+  rows 36000/36450
+  rows 36450/36450
+{"source": "NeurIPS 2021 bone-marrow multiome (GSE194122); 3,000 cells per batch", "x": "RNA counts", "y": "ATAC peak counts, peaks detected in >= 5% of cells (<= 3,000)", "unit": "donor", "cond": "coarse cell type", "pop": "batch (site x donor)", "cells": 36450, "units": 10}
+=== stephenson
+  rows 4000/70800
+  rows 8000/70800
+  rows 12000/70800
+  rows 16000/70800
+  rows 20000/70800
+  rows 24000/70800
+  rows 28000/70800
+  rows 32000/70800
+  rows 36000/70800
+  rows 40000/70800
+  rows 44000/70800
+  rows 48000/70800
+  rows 52000/70800
+  rows 56000/70800
+  rows 60000/70800
+  rows 64000/70800
+  rows 68000/70800
+  rows 70800/70800
+  rows 4000/70800
+  rows 8000/70800
+  rows 12000/70800
+  rows 16000/70800
+  rows 20000/70800
+  rows 24000/70800
+  rows 28000/70800
+  rows 32000/70800
+  rows 36000/70800
+  rows 40000/70800
+  rows 44000/70800
+  rows 48000/70800
+  rows 52000/70800
+  rows 56000/70800
+  rows 60000/70800
+  rows 64000/70800
+  rows 68000/70800
+  rows 70800/70800
+{"source": "Stephenson et al. 2021 COVID-19 PBMC CITE-seq (E-MTAB-10026); no LPS; not platelets, red cells or doublets; 600 cells per patient", "x": "RNA counts", "y": "ADT counts (192)", "unit": "patient", "cond": "initial_clustering", "pop": "sample", "cells": 70800, "units": 118}
+done

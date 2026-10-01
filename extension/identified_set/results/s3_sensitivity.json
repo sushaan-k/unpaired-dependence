@@ -1,0 +1,74 @@
+{
+  "Cambridge": {
+    "nonempty_reversals": 341,
+    "nonempty_agreement": 0.5953079178885631,
+    "nonempty_bootstrap_95": [
+      0.5526315789473685,
+      0.6401298695440354
+    ],
+    "nonempty_bootstrap_familywise": [
+      0.5411135544572816,
+      0.6528192864162998
+    ],
+    "reversal_mean_pair_deviance_frequency_only": 0.022728146968280263,
+    "reversal_mean_pair_deviance_full_patterns": 0.01909891425260154,
+    "nonreversal_mean_pair_deviance_frequency_only": 0.022188698713666754,
+    "nonreversal_mean_pair_deviance_full_patterns": 0.01846227985875341,
+    "share_of_total_gain_from_reversals": 0.18831419190328302,
+    "reversal_fraction": 0.19238683127572018
+  },
+  "Newcastle": {
+    "nonempty_reversals": 914,
+    "nonempty_agreement": 0.7592997811816192,
+    "nonempty_bootstrap_95": [
+      0.7254901960784313,
+      0.7922854371148139
+    ],
+    "nonempty_bootstrap_familywise": [
+      0.7159482931266385,
+      0.800865920583841
+    ],
+    "reversal_mean_pair_deviance_frequency_only": 0.03776734331623418,
+    "reversal_mean_pair_deviance_full_patterns": 0.022254179692802818,
+    "nonreversal_mean_pair_deviance_frequency_only": 0.030730413056276294,
+    "nonreversal_mean_pair_deviance_full_patterns": 0.023075714603926666,
+    "share_of_total_gain_from_reversals": 0.37289801453661714,
+    "reversal_fraction": 0.22685185185185186
+  },
+  "T-ALL": {
+    "nonempty_reversals": 306,
+    "nonempty_agreement": 0.8333333333333334,
+    "nonempty_bootstrap_95": [
+      0.7899686520376176,
+      0.8754451657476567
+    ],
+    "nonempty_bootstrap_familywise": [
+      0.7770488947278231,
+      0.8865248226950354
+    ],
+    "reversal_mean_pair_deviance_frequency_only": 0.07004038756218206,
+    "reversal_mean_pair_deviance_full_patterns": 0.027014284187862957,
+    "nonreversal_mean_pair_deviance_frequency_only": 0.053902361579349,
+    "nonreversal_mean_pair_deviance_full_patterns": 0.025580362191961914,
+    "share_of_total_gain_from_reversals": 0.37499845894886985,
+    "reversal_fraction": 0.2831275720164609
+  },
+  "Colon": {
+    "nonempty_reversals": 185,
+    "nonempty_agreement": 0.6918918918918919,
+    "nonempty_bootstrap_95": [
+      0.6024078771225252,
+      0.775609756097561
+    ],
+    "nonempty_bootstrap_familywise": [
+      0.5777769151138716,
+      0.7990430622009569
+    ],
+    "reversal_mean_pair_deviance_frequency_only": 0.033354501828734916,
+    "reversal_mean_pair_deviance_full_patterns": 0.021261196353665582,
+    "nonreversal_mean_pair_deviance_frequency_only": 0.023700288145035883,
+    "nonreversal_mean_pair_deviance_full_patterns": 0.02199183972565562,
+    "share_of_total_gain_from_reversals": 0.6734168060728108,
+    "reversal_fraction": 0.2255892255892256
+  }
+}

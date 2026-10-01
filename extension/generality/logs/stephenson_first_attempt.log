@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/home/claude/cbio/cbio-agent-handoff/extension/generality/grun.py", line 638, in <module>
+    predict(sys.argv[2], log)
+  File "/home/claude/cbio/cbio-agent-handoff/extension/generality/grun.py", line 492, in predict
+    d = load(source(name))
+        ^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/generality/grun.py", line 79, in load
+    d = {k: z[k] for k in z.files}
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/generality/grun.py", line 79, in <dictcomp>
+    d = {k: z[k] for k in z.files}
+            ~^^^
+  File "/usr/local/lib/python3.11/dist-packages/numpy/lib/_npyio_impl.py", line 256, in __getitem__
+    return format.read_array(bytes,
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/numpy/lib/format.py", line 822, in read_array
+    raise ValueError("Object arrays cannot be loaded when "
+ValueError: Object arrays cannot be loaded when allow_pickle=False

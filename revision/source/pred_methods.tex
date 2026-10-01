@@ -1,0 +1,110 @@
+\section{Predicting the saving: theory and a prospective test}\label{sec:pred}
+
+Propositions~\ref{prop:bjs} and~\ref{prop:minimax} concern idealized estimators. This note bounds the rule that is implemented (Proposition~\ref{prop:oracle}), derives the saving of paired cells that the unpaired block structure buys (Proposition~\ref{prop:law}), and states what unpaired cells can and cannot reveal about it (Proposition~\ref{prop:reveal}). It then gives the development and the prespecified prospective test of the resulting law.
+
+\subsection*{Setting}
+Everything is conditional on the unpaired pool, which fixes the bases $U$ and $V$, the scaling, the population means used for centring and the blocks. Paired cells are independent draws from the population. For a block $b$, the product of an RNA eigen-block $R_b$ and a protein eigen-block $C_b$ with $d_b$ coefficients, let $z_{ib}$ be the coefficients of cell $i$'s product $\tilde x_i\tilde y_i^\top$ in the block ($\tilde x=U^\top x$, $\tilde y=V^\top y$), and
+\[
+\theta_b=\mathbb{E}z_{ib},\quad \Sigma_b=\operatorname{Cov}z_{ib},\quad \tau_b=\operatorname{tr}\Sigma_b,\quad \ell_b=\lambda_{\max}(\Sigma_b),\quad \kappa_b=\frac{\operatorname{Var}\|z_{ib}-\theta_b\|^2}{\tau_b^2},\quad r_b^2=\|\theta_b\|^2 .
+\]
+From $B$ cells the implemented rule forms the block mean $m_b$, the unbiased estimate $t_b=\sum_i\|z_{ib}-m_b\|^2/\{B(B-1)\}$ of $\operatorname{tr}\operatorname{Cov}(m_b)=\tau_b/B$, and $\hat\theta_b=(1-t_b/\|m_b\|^2)_+m_b$; paired-only James--Stein is the same rule with one block of all coefficients. For a fixed number $c$, $\mathbb{E}\|cm_b-\theta_b\|^2=c^2\tau_b/B+(1-c)^2r_b^2$ for any distribution with these first two moments, and its minimum over $c$,
+\[
+\rho(r_b^2,\tau_b;B)=\frac{r_b^2\tau_b}{Br_b^2+\tau_b},
+\]
+is the oracle-linear risk. It depends on the block only through its signal $r_b^2$ and its per-cell noise trace $\tau_b$.
+
+\begin{proposition}[The implemented rule without Gaussian assumptions]\label{prop:oracle}
+If $B\ge2$ and $\mathbb{E}\|z_{ib}\|^4<\infty$, then
+\[
+\Big|\big(\mathbb{E}\|\hat\theta_b-\theta_b\|^2\big)^{1/2}-\rho(r_b^2,\tau_b;B)^{1/2}\Big|\le\Big(\frac{36\,\ell_b}{B}+\frac{22\,\kappa_b\tau_b}{B^2}\Big)^{1/2}.
+\]
+\end{proposition}
+\noindent\textit{Proof.} Drop $b$. Write $s=\tau/B$, $A=\|m\|^2$, $\mu=\mathbb{E}A=r^2+s$ and $a^*=1-s/\mu\in[0,1)$; the rule $a^*m$ has risk $\rho$. Because $t\ge0$, the implemented factor is $a=\min\{\max(1-t/A,0),1\}$ ($a=0$ if $A=0$), and $\hat\theta=am$. Minkowski's inequality in $L^2$ gives $|(\mathbb{E}\|\hat\theta-\theta\|^2)^{1/2}-\rho^{1/2}|\le(\mathbb{E}[(a-a^*)^2A])^{1/2}=:\Delta^{1/2}$. Clipping to $[0,1]$ is 1-Lipschitz and fixes $a^*$, so $|a-a^*|\le|t/A-s/\mu|$ for $A>0$ and $|a-a^*|\le1$ always. On $\{A\ge\mu/2\}$, $(t/A-s/\mu)^2A=\{(t-s)\mu+s(\mu-A)\}^2/(A\mu^2)\le4(t-s)^2/\mu+4s^2(A-\mu)^2/\mu^3$. On $\{A<\mu/2\}$, $(a-a^*)^2A<\mu/2$, and Chebyshev's inequality gives $\Pr(A<\mu/2)\le4\operatorname{Var}(A)/\mu^2$. As $\mathbb{E}t=s$, $\Delta\le\{4\operatorname{Var}(t)+6\operatorname{Var}(A)\}/\mu$. With $e_i=z_i-\theta$,
+\[
+\operatorname{Var}(A)=\frac{4\theta^\top\Sigma\theta}{B}+\frac{4\,\mathbb{E}[\theta^\top e(\|e\|^2-\tau)]}{B^2}+\frac{\operatorname{Var}\|e\|^2+2(B-1)\operatorname{tr}\Sigma^2}{B^3},\qquad \operatorname{Var}(t)=\frac{1}{B^2}\Big(\frac{\operatorname{Var}\|e\|^2}{B}+\frac{2\operatorname{tr}\Sigma^2}{B(B-1)}\Big),
+\]
+the second being the variance of the unbiased trace of a sample covariance, a U-statistic of order two\cite{hoeffding1948}. Using $\theta^\top\Sigma\theta\le\ell r^2$, $\operatorname{tr}\Sigma^2\le\ell\tau$, the Cauchy--Schwarz bound $|\mathbb{E}[\theta^\top e(\|e\|^2-\tau)]|\le(\ell r^2)^{1/2}\kappa^{1/2}\tau$ and $4xy\le2x^2+2y^2$, $\operatorname{Var}(A)\le6\ell r^2/B+2\ell\tau/B^2+3\kappa\tau^2/B^3$ and $\operatorname{Var}(t)\le\kappa\tau^2/B^3+\ell\tau/B^2$. Hence $4\operatorname{Var}(t)+6\operatorname{Var}(A)\le36\ell r^2/B+16\ell\tau/B^2+22\kappa\tau^2/B^3$, and dividing by $\mu=r^2+\tau/B$ gives $\Delta\le36\ell/B+22\kappa\tau/B^2$. $\square$
+
+Dividing the bound by the unshrunk root-noise scale $\sqrt{\tau/B}$ gives $\sqrt{36/d_{\mathrm{eff}}+22\kappa/B}$, where $d_{\mathrm{eff}}=\tau/\ell$ is the block's effective dimension. Thus the absolute root-risk gap is small on this scale for blocks of many effective dimensions and budgets large relative to $\kappa$. This does not imply uniform relative accuracy against the oracle risk, which vanishes at zero signal. The constant is not sharp; in 72 simulated cases with Gaussian, log-normal and Poisson margins the gap never exceeded a tenth of the bound. With one block the statement covers paired-only James--Stein. Given the pool, $\theta_b$ includes the outer product of the errors of the unpaired means used for centring; the root risks against $\theta_b$ and the population cross-covariance differ by at most the norm of that outer product.
+
+\begin{proposition}[The saving is set by where dependence lies relative to where noise lies]\label{prop:law}
+With blocks, the oracle-linear risk is $R_K(B)=\sum_b\rho(r_b^2,\tau_b;B)$; with one block of all coefficients it is $R_1(B)=\rho(r^2,\tau;B)$, $r^2=\sum_br_b^2$, $\tau=\sum_b\tau_b$. For a relative risk $\varepsilon\in(0,1)$ let $B_K(\varepsilon)$ and $B_1(\varepsilon)$ solve $R_K(B)=\varepsilon r^2$ and $R_1(B)=\varepsilon r^2$, and let $S(\varepsilon)=B_1(\varepsilon)/B_K(\varepsilon)$. Write $w_b=r_b^2/r^2$ for the dependence shares and $\pi_b=\tau_b/\tau$ for the noise shares, and assume $r^2>0$ and $\tau_b>0$. Then:
+\begin{enumerate}
+\item[(a)] $S(\varepsilon)=(1-\varepsilon)/\{\varepsilon\beta(\varepsilon)\}$, where $\beta$ solves $\sum_bw_b\pi_b/(\beta w_b+\pi_b)=\varepsilon$; the saving depends on the dependence only through $w$, and $B_1=(\tau/r^2)(1-\varepsilon)/\varepsilon$.
+\item[(b)] $S(\varepsilon)\ge1$, with equality, at any and then every $\varepsilon$, if and only if $w=\pi$.
+\item[(c)] $S(\varepsilon)\le1/\min\{\pi_b:w_b>0\}$, with equality when all dependence lies in one block.
+\item[(d)] $S(\varepsilon)\to1/\sum_{b:w_b>0}\pi_b$ as $\varepsilon\to0$, and $S(\varepsilon)\to\sum_bw_b^2/\pi_b=1+\chi^2(w\,\|\,\pi)$ as $\varepsilon\to1$.
+\end{enumerate}
+\end{proposition}
+\noindent\textit{Proof.} $\rho(x,y;B)=xy/(Bx+y)=\min_c\{c^2y/B+(1-c)^2x\}$ is a minimum of linear functions, hence jointly concave, and it is positively homogeneous of degree one. (a) With $B=\beta\tau/r^2$, $\rho(r_b^2,\tau_b;B)/r^2=w_b\pi_b/(\beta w_b+\pi_b)$ and $R_1(B)/r^2=1/(1+\beta)$; the left side of the equation for $\beta$ decreases strictly from 1 to 0. (b) $R_1(B)=\min_c\sum_b\{c^2\tau_b/B+(1-c)^2r_b^2\}\ge\sum_b\min_{c_b}\{c_b^2\tau_b/B+(1-c_b)^2r_b^2\}=R_K(B)$, with equality if and only if the blockwise minimizers $r_b^2/(r_b^2+\tau_b/B)$ coincide, that is, $w=\pi$. At $B=B_1(\varepsilon)$, $R_K\le\varepsilon r^2$ and $R_K$ decreases in $B$, so $B_K\le B_1$, strictly unless $w=\pi$. (c) Let $\tau_+=\tau\min\{\pi_b:w_b>0\}$. For $w_b>0$, $\rho(r_b^2,\tau_b;B)\ge\rho(r_b^2,\tau_+;B)$, and $x\mapsto\rho(x,\tau_+;B)$ is concave and vanishes at zero, hence subadditive, so $R_K(B)\ge\rho(r^2,\tau_+;B)$; $R_K(B)\le\varepsilon r^2$ then requires $B\ge(\tau_+/r^2)(1-\varepsilon)/\varepsilon$. (d) As $\varepsilon\to0$, $\beta\to\infty$ and the left side is $\beta^{-1}\sum_{w_b>0}\pi_b+O(\beta^{-2})$; as $\varepsilon\to1$, $\beta\to0$ and it is $1-\beta\sum_bw_b^2/\pi_b+O(\beta^2)$. $\square$
+
+\begin{proposition}[What unpaired cells reveal]\label{prop:reveal}
+For parts (a) and (b), centre each modality at its population mean.
+\begin{enumerate}
+\item[(a)] If $x$ and $y$ are independent, with finite fourth moments, then
+\[
+\Sigma_b=\operatorname{Cov}(\tilde x_{R_b})\otimes\operatorname{Cov}(\tilde y_{C_b}),\qquad
+\tau_b=\operatorname{tr}\operatorname{Cov}(\tilde x_{R_b})\operatorname{tr}\operatorname{Cov}(\tilde y_{C_b}).
+\]
+Thus $\tau_b$ and $\ell_b$ are functions of the two marginal distributions. If $(x,y)$ is jointly Gaussian, $\tau_b$ is the independence value plus $r_b^2$, and $r_b^2$ is at most that independence value.
+\item[(b)] Given two Gaussian marginals with positive-definite covariances and any $w$ on the simplex, there are jointly Gaussian laws with these marginals and dependence shares $w$ for every sufficiently small $r^2>0$. As $r^2\to0$, the limiting savings compatible with the unpaired data fill $[1,1/\min_b\pi_b]$, where $\pi$ denotes the independence noise shares, and $B_K(\varepsilon)=\beta(\varepsilon)\tau/r^2$ is unbounded.
+\item[(c)] For $m\ge2$ independent paired observations, conditional on the unpaired pool as in the setting above, the raw estimate $\widehat r_b^2=\|m_b\|^2-t_b$ is unbiased and has variance
+\[
+\operatorname{Var}(\widehat r_b^2)
+=\frac{4\theta_b^\top\Sigma_b\theta_b}{m}
++\frac{2\operatorname{tr}(\Sigma_b^2)}{m(m-1)}.
+\]
+For $r_b^2>0$, its relative standard deviation is at most
+\[
+\frac{\{\operatorname{Var}(\widehat r_b^2)\}^{1/2}}{r_b^2}
+\le\left\{\frac{4\ell_b}{m r_b^2}
++\frac{2\ell_b\tau_b}{m(m-1)r_b^4}\right\}^{1/2}.
+\]
+\end{enumerate}
+\end{proposition}
+\noindent\textit{Proof.} (a) For population-centred Gaussian variables, Isserlis' theorem\cite{isserlis1918} gives
+\[
+\begin{aligned}
+\operatorname{Cov}(\tilde x_k\tilde y_l,\tilde x_{k'}\tilde y_{l'})
+={}&\operatorname{Cov}(\tilde x_k,\tilde x_{k'})\operatorname{Cov}(\tilde y_l,\tilde y_{l'})\\
+&+\operatorname{Cov}(\tilde x_k,\tilde y_{l'})\operatorname{Cov}(\tilde x_{k'},\tilde y_l).
+\end{aligned}
+\]
+Summing the diagonal gives $\tau_b$. Under independence the covariance factorizes for any centred distributions. Summing the inequalities $\operatorname{Cov}(\tilde x_k,\tilde y_l)^2\le\operatorname{Var}(\tilde x_k)\operatorname{Var}(\tilde y_l)$ proves the bound on $r_b^2$.
+
+(b) In the eigenbases, with marginal covariances $\Lambda$ and $M$, take unit-Frobenius matrices $E_b$ supported on the blocks and $\Theta=c\sum_bw_b^{1/2}E_b$. The joint covariance is positive semidefinite when $\|\Lambda^{-1/2}\Theta M^{-1/2}\|_{\mathrm{op}}\le1$, which holds for sufficiently small $c$. Its dependence shares are $w$, its squared signal is $r^2=c^2$, and its noise shares tend to their independence values by (a). At these limiting noise shares, the saving is a continuous function of $w$ on the simplex by Proposition~\ref{prop:law}(a). It equals 1 at $w=\pi$ and $1/\min_b\pi_b$ at the vertex of the least noisy block, so it takes every intermediate value; Proposition~\ref{prop:law}(b,c) excludes values outside that interval. For fixed $w$, $\beta(\varepsilon)>0$ and $\tau$ tends to a positive value, so the required budget diverges as $r^2\to0$.
+
+(c) Drop $b$ and write $e_i=z_i-\theta$. The raw estimate is the U-statistic
+\[
+\widehat r^2=\frac{1}{m(m-1)}\sum_{i\ne j}z_i^\top z_j,
+\qquad
+\widehat r^2-r^2=\frac{2}{m}\sum_i\theta^\top e_i
++\frac{1}{m(m-1)}\sum_{i\ne j}e_i^\top e_j.
+\]
+Both terms have mean zero and are uncorrelated. The first has variance $4\theta^\top\Sigma\theta/m$. In the second, only matching unordered index pairs contribute to the variance, giving $2\operatorname{tr}(\Sigma^2)/\{m(m-1)\}$. The relative bound follows from $\theta^\top\Sigma\theta\le\ell r^2$ and $\operatorname{tr}(\Sigma^2)\le\ell\tau$. $\square$
+
+Estimated centring means leave residual population means. Under independence, let these be $a$ and $c$ in the RNA and protein blocks, with marginal covariances $A$ and $D$. For row-wise vectorization of their product, the exact correction to part (a) is
+\[
+\Sigma_b=A\otimes D+(aa^\top)\otimes D+A\otimes(cc^\top).
+\]
+It follows by expanding each variable about its population mean. The additional terms vanish with exact centring; the product-noise covariance with estimated centring remains a function of the two marginal distributions.
+
+Unpaired profiles give the independence noise shares and hence bounds on the oracle saving. The saving itself and the paired budget require the dependence shares, estimated from paired cells. Part (c) quantifies the precision of a pilot's raw block signals. Its second variance term remains positive at zero signal and controls precision for weak signals. For spherical product noise $\Sigma_b=\sigma^2 I_{d_b}$, achieving fixed relative precision in a weak signal can require order $\sigma^2\sqrt{d_b}/r_b^2$ paired cells. All pilot cells count towards the study's paired total. In the implementation, negative raw signals are set to zero before totals and shares are formed; these positive-part estimates and normalized shares are plug-in estimates, not unbiased ones.
+
+\subsection*{Development}
+The benchmark's structural test (G4, Supplementary Note~\ref{sec:gen}) compared a predicted saving with the saving against the paired-only envelope, in held-out units and for the mapped estimator. Proposition~\ref{prop:law} concerns the saving of block shrinkage in the unpaired bases over the same shrinkage without them, for the population's own dependence. After the benchmark had been scored, we measured that quantity in its nine data sets (post hoc): 25\% of cells were held out as truth cells, 30\% formed a reservoir of paired cells and 45\% an unpaired pool, and block and single-block James--Stein were fitted to 20 draws of reservoir cells per budget and scored by the noise-unbiased recovered fraction of the truth cells' dependence. With block moments of the reservoir, the law of Proposition~\ref{prop:law} was within \PredDevLawErrMax\% of the observed saving in all \PredDevN{} problems with an estimable saving at a recovered fraction of 0.5 (median error \PredDevLawErr\%; savings \PredDevSaveMin{} to \PredDevSaveMax, including panels of 50 and 800 genes), and a random orthonormal basis pair gave no saving, as the law predicts. The dependence concentrated in the leading blocks: averaged over the \PredProfileN{} data sets with recoverable dependence, RNA eigen-coordinates 1--5 carried \PredProfileTop\% of the signal and 1--20 carried \PredProfileTopTwenty\%. It overpredicted at a recovered fraction of 0.3, which the proposed estimator reaches with 25--50 cells, where its smallest blocks fall short of the oracle-linear risk. Development also fixed the pilot rule and a zero-pair signal profile.
+
+\subsection*{Prospective test: protocol}
+The plan, the code and the development records were registered before any of the \PredNData{} data sets below was extracted, the extracted files before any prediction, and all predictions of all data sets were recorded before any statistic of truth cells was computed. Data sets: mouse spleen and lymph node CITE-seq with 111 and 206 antibodies\cite{totalvi2021}; human blood and MALT lymphoma CITE-seq with 14 antibodies (10x Genomics, via ref.~\citenum{totalvi2021}); human bone-marrow CITE-seq with 25 antibodies\cite{stuart2019}; human fetal cortex multiome (RNA--chromatin)\cite{trevino2021}; adult mouse cortex SNARE-seq (RNA--chromatin)\cite{chen2019snare}; the optic-lobe and central-brain wiring of visual projection and centrifugal neurons in the FlyWire\cite{dorkenwald2024,schlegel2024} and BANC\cite{bates2026} connectomes; and human cortical GABAergic Patch-seq (RNA--electrophysiology)\cite{lee2023gaba}. The FlyWire and BANC files had been used before for other neurons. A problem was a data set with an X panel of 100, 200 or 400 features chosen from unpaired pool cells (a panel identical to a smaller one was dropped), giving \PredNProblems{} problems. Roles, estimand, estimators and scoring were those of development. The pilot was the first $\min(200,\,0.2N)$ of the $N$ reservoir cells, and budgets were $25\times2^k$ up to $\min(12{,}800,\,N-\text{pilot})$ with 20 draws. The observed saving was the ratio of cells needed by single-block and block James--Stein, interpolated as elsewhere; it was estimable when both curves crossed the target within the budgets from below. Predictions: the law with block moments of all reservoir cells (primary); the same from the pilot; a zero-pair transfer that combined the development signal-share profile with the problem's unpaired noise shares (Proposition~\ref{prop:reveal}a); and the unpaired bound $1/\min_b\pi_b$. Hypotheses at a recovered fraction of 0.5, evaluated if at least 8 problems were estimable: H1, median $|\log_2(\text{observed}/\text{law})|<\log_2 1.25$; H2, positive Spearman correlation of law and observation (one-sided permutation $P<0.05$); H3, median saving of the random-basis control in $[0.8,1.25]$; H4, pilot median error below $\log_2 1.5$; H5, transfer median error below $\log_2 1.5$; H6, every estimable saving within $[0.8,\,1.25/\min_b\pi_b]$. Two deviations were recorded before any prediction: the plan's cell cap of 3,000 per population was dropped, because it would have discarded most cells of the single-population data sets, and a file was renamed because its planned name clashed with that of a module the registered code uses.
+
+\subsection*{Prospective test: results}
+Of the \PredNProblems{} problems, \PredNEstimable, from \PredNEstimableData{} data sets, had an estimable saving at the primary target (Supplementary Table~\ref{tab:pred}). In the \PredNEasy{} CITE-seq data sets without cell-type conditions, block James--Stein exceeded the target with 25 paired cells, the smallest budget, because their pooled cross-covariance includes the differences between cell types; in the two chromatin data sets and the small Patch-seq data set, at least one curve did not reach it within the budgets. All six hypotheses were met: the law's median error was \PredLawErr\% (H1; 95\% interval from resampling data sets, \PredLawErrLo--\PredLawErrHi\%), with \PredLawWithin\% of problems within 25\%; its rank correlation with the observed saving was \PredRho{} (H2, $P\PredRhoRel$); the random-basis control saved \PredRandomObs{} (H3; law, \PredRandomLaw); the pilot's median error was \PredPilotErr\% (H4; \PredPilotErrLo--\PredPilotErrHi\%) and the zero-pair transfer's \PredTransferErr\% (H5; \PredTransferErrLo--\PredTransferErrHi\%, \PredTransferWithin\% of problems within 25\%); and no observed saving left the unpaired bounds (H6). The law overpredicted systematically: observed savings were a median \PredLawRatio{} times the predicted ones. At a recovered fraction of 0.7 the law's median error was \PredLawErrSeven\% (\PredNSeven{} problems), and at 0.3 it was \PredLawErrThree\% (\PredNThree{} problems; observed/predicted \PredLawRatioThree).
+
+Secondary analyses, prespecified without thresholds, locate the bias. The law predicted the cells that single-block James--Stein needed at 0.5 closely (observed/predicted \PredCellsJsRatio) but underpredicted those that block James--Stein needed (\PredCellsBlocksRatio), the finite-sample shortfall of the smallest blocks that Proposition~\ref{prop:oracle} allows. A bootstrap version of the law, which resamples reservoir cells instead of assuming the oracle-linear risk, had median error \PredBootErr\% at 0.5 (observed/predicted \PredBootRatio), \PredBootErrSeven\% at 0.7 and \PredBootErrThree\% at 0.3. Exploratory checks of the censored problems agreed with the law in \PredCensAgree{} of \PredCensTotal{} comparisons of predicted cells with the censoring; the exceptions were two of the three SNARE-seq panels and one Patch-seq panel. In the three SNARE-seq panels block James--Stein needed \PredSnareObsMin--\PredSnareObsMax{} cells where the law predicted \PredSnareLawMin--\PredSnareLawMax, more than twice as many in two of them. Sparse chromatin counts have heavy-tailed products, for which the kurtosis term of Proposition~\ref{prop:oracle} is large.
+
+\begin{table}[h]
+\caption{\textbf{Prospective test of the saving law.} Savings at a recovered fraction of 0.5 of each population's dependence: cells needed by single-block James--Stein divided by cells needed by block James--Stein in the unpaired bases. Law: Proposition~\ref{prop:law} with block moments of the reservoir; pilot: the same from the pilot cells; no pairs: the development signal profile with unpaired noise shares; bound: $1/\min_b\pi_b$ from unpaired cells. n.e., not estimable (reason below each data set); $\geq$, single-block James--Stein did not reach the target. Cells: cells of eligible populations in all roles.}
+\label{tab:pred}
+\centering\scriptsize
+\resizebox{\textwidth}{!}{\input{pred_table.tex}}
+\end{table}

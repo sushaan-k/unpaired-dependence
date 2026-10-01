@@ -1,0 +1,66 @@
+{
+ "sealed_at": "2026-09-27T12:08:28-04:00",
+ "cells_total": 4312,
+ "cells_kept": 3067,
+ "orf_calls_failed": 1128,
+ "hashtag_calls_failed": 147,
+ "hashtag_median_library": {
+  "HTO21": 6295.0,
+  "HTO22": 6241.0,
+  "HTO23": 6205.0,
+  "HTO25": 5999.0,
+  "HTO26": 13102.0,
+  "HTO28": 13254.5,
+  "HTO30": 12959.0,
+  "HTO44": 13179.5
+ },
+ "stimulated_hashtags": [
+  "HTO26",
+  "HTO28",
+  "HTO30",
+  "HTO44"
+ ],
+ "heldout_orfs": [
+  "ADA",
+  "CDK1",
+  "CXCL12",
+  "DBI",
+  "DCLRE1B",
+  "IFNL2",
+  "IL12B",
+  "ITM2A",
+  "MRPL51",
+  "SLC10A7",
+  "ZNF830"
+ ],
+ "proteins": [
+  "CD11c",
+  "CD14",
+  "CD16",
+  "CD19",
+  "CD25",
+  "CD3",
+  "CD4",
+  "CD45",
+  "CD45RA",
+  "CD45RO",
+  "CD56",
+  "CD69",
+  "CD8",
+  "NGFR"
+ ],
+ "files": {
+  "train": {
+   "sha256": "0994013feda922efef616f3bacc00ce965a9c9ec2127ea6651922258f6001131",
+   "cells": 2159
+  },
+  "test_adaptation": {
+   "sha256": "e46ca7457ad93f09119351c59d26c06a34e2073504c90c4cd48c4e6ed4469baa",
+   "cells": 453
+  },
+  "test_scoring": {
+   "sha256": "f3d9d918f2e502f2688a07029b74b2ff105c3b6cd3a95f9ffb199a4904e49495",
+   "cells": 455
+  }
+ }
+}

@@ -1,0 +1,36 @@
+[07:08:06] p100: n {'pool_x': 1582, 'pool_y': 1536, 'reservoir': 2034, 'truth': 1686, 'populations': 1, 'p': 100, 'q': 14}, pilot 200, budgets 25-1600, law saving at 0.5 4.99
+[07:08:07] p200: n {'pool_x': 1582, 'pool_y': 1536, 'reservoir': 2034, 'truth': 1686, 'populations': 1, 'p': 200, 'q': 14}, pilot 200, budgets 25-1600, law saving at 0.5 5.90
+[07:08:11] p400: n {'pool_x': 1582, 'pool_y': 1536, 'reservoir': 2034, 'truth': 1686, 'populations': 1, 'p': 400, 'q': 14}, pilot 200, budgets 25-1600, law saving at 0.5 8.10
+[07:08:11] predictions hashed
+[07:08:11] {
+ "test": "law/malt10k",
+ "problems": [
+  "p100",
+  "p200",
+  "p400"
+ ],
+ "curve_points_compared": 63,
+ "max_abs_difference_per_draw_vs_published": 9.992007221626409e-16,
+ "max_abs_difference_stored_form_vs_published": 0.0,
+ "averaged_prediction_minus_published": {
+  "min": 0.0005046167001254709,
+  "median": 0.03429389993052778,
+  "max": 0.2377245492682336,
+  "points": 63
+ },
+ "regenerated_files_identical": {
+  "malt10k_estimates.npz": true,
+  "malt10k_msq.json": true,
+  "malt10k_predictions.json": true
+ },
+ "stored_vs_regenerated": {
+  "compared": 63,
+  "draws_per_key": [
+   20
+  ],
+  "max_abs_mean_difference": 3.552713678800501e-15,
+  "max_rel_msq_difference": 5.179088692922465e-16
+ },
+ "seconds": 7,
+ "passed": true
+}

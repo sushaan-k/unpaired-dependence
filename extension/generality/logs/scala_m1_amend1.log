@@ -1,0 +1,5 @@
+[    46s] scala_m1: bootstrap 500/2000
+[    91s] scala_m1: bootstrap 1000/2000
+[   133s] scala_m1: bootstrap 1500/2000
+[   177s] scala_m1: bootstrap 2000/2000
+[   179s] scala_m1: amended: level 0.0 (lowrank/pooled); saving vs paired-only 0.25 (0.25-2.73); proposed >100, paired-only <=25

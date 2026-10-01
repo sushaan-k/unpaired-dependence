@@ -1,0 +1,442 @@
+Traceback (most recent call last):
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/prun.py", line 27, in <module>
+    import ptools as pt  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/ptools.py", line 31, in <module>
+    import grun as gr  # noqa: E402  (frozen; read-only use of its data helpers)
+    ^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/generality/grun.py", line 33, in <module>
+    import common as cm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/semipaired/common.py", line 24, in <module>
+    import hmethods as hm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/hybrid/hmethods.py", line 24, in <module>
+    import pmethods as pm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/perturbation/pmethods.py", line 31, in <module>
+    from pdata import clr, lognorm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: cannot import name 'clr' from 'pdata' (/home/claude/cbio/cbio-agent-handoff/extension/predictability/pdata.py)
+PREDICT_FAILED pbmc10k
+Traceback (most recent call last):
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/prun.py", line 27, in <module>
+    import ptools as pt  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/ptools.py", line 31, in <module>
+    import grun as gr  # noqa: E402  (frozen; read-only use of its data helpers)
+    ^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/generality/grun.py", line 33, in <module>
+    import common as cm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/semipaired/common.py", line 24, in <module>
+    import hmethods as hm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/hybrid/hmethods.py", line 24, in <module>
+    import pmethods as pm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/perturbation/pmethods.py", line 31, in <module>
+    from pdata import clr, lognorm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: cannot import name 'clr' from 'pdata' (/home/claude/cbio/cbio-agent-handoff/extension/predictability/pdata.py)
+PREDICT_FAILED malt10k
+Traceback (most recent call last):
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/prun.py", line 27, in <module>
+    import ptools as pt  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/ptools.py", line 31, in <module>
+    import grun as gr  # noqa: E402  (frozen; read-only use of its data helpers)
+    ^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/generality/grun.py", line 33, in <module>
+    import common as cm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/semipaired/common.py", line 24, in <module>
+    import hmethods as hm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/hybrid/hmethods.py", line 24, in <module>
+    import pmethods as pm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/perturbation/pmethods.py", line 31, in <module>
+    from pdata import clr, lognorm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: cannot import name 'clr' from 'pdata' (/home/claude/cbio/cbio-agent-handoff/extension/predictability/pdata.py)
+PREDICT_FAILED human_gaba
+Traceback (most recent call last):
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/prun.py", line 27, in <module>
+    import ptools as pt  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/ptools.py", line 31, in <module>
+    import grun as gr  # noqa: E402  (frozen; read-only use of its data helpers)
+    ^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/generality/grun.py", line 33, in <module>
+    import common as cm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/semipaired/common.py", line 24, in <module>
+    import hmethods as hm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/hybrid/hmethods.py", line 24, in <module>
+    import pmethods as pm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/perturbation/pmethods.py", line 31, in <module>
+    from pdata import clr, lognorm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: cannot import name 'clr' from 'pdata' (/home/claude/cbio/cbio-agent-handoff/extension/predictability/pdata.py)
+PREDICT_FAILED fafb_vpn
+Traceback (most recent call last):
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/prun.py", line 27, in <module>
+    import ptools as pt  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/ptools.py", line 31, in <module>
+    import grun as gr  # noqa: E402  (frozen; read-only use of its data helpers)
+    ^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/generality/grun.py", line 33, in <module>
+    import common as cm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/semipaired/common.py", line 24, in <module>
+    import hmethods as hm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/hybrid/hmethods.py", line 24, in <module>
+    import pmethods as pm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/perturbation/pmethods.py", line 31, in <module>
+    from pdata import clr, lognorm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: cannot import name 'clr' from 'pdata' (/home/claude/cbio/cbio-agent-handoff/extension/predictability/pdata.py)
+PREDICT_FAILED banc_vpn
+Traceback (most recent call last):
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/prun.py", line 27, in <module>
+    import ptools as pt  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/ptools.py", line 31, in <module>
+    import grun as gr  # noqa: E402  (frozen; read-only use of its data helpers)
+    ^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/generality/grun.py", line 33, in <module>
+    import common as cm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/semipaired/common.py", line 24, in <module>
+    import hmethods as hm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/hybrid/hmethods.py", line 24, in <module>
+    import pmethods as pm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/perturbation/pmethods.py", line 31, in <module>
+    from pdata import clr, lognorm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: cannot import name 'clr' from 'pdata' (/home/claude/cbio/cbio-agent-handoff/extension/predictability/pdata.py)
+PREDICT_FAILED snare_cortex
+Traceback (most recent call last):
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/prun.py", line 27, in <module>
+    import ptools as pt  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/ptools.py", line 31, in <module>
+    import grun as gr  # noqa: E402  (frozen; read-only use of its data helpers)
+    ^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/generality/grun.py", line 33, in <module>
+    import common as cm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/semipaired/common.py", line 24, in <module>
+    import hmethods as hm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/hybrid/hmethods.py", line 24, in <module>
+    import pmethods as pm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/perturbation/pmethods.py", line 31, in <module>
+    from pdata import clr, lognorm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: cannot import name 'clr' from 'pdata' (/home/claude/cbio/cbio-agent-handoff/extension/predictability/pdata.py)
+PREDICT_FAILED fetal_cortex
+Traceback (most recent call last):
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/prun.py", line 27, in <module>
+    import ptools as pt  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/ptools.py", line 31, in <module>
+    import grun as gr  # noqa: E402  (frozen; read-only use of its data helpers)
+    ^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/generality/grun.py", line 33, in <module>
+    import common as cm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/semipaired/common.py", line 24, in <module>
+    import hmethods as hm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/hybrid/hmethods.py", line 24, in <module>
+    import pmethods as pm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/perturbation/pmethods.py", line 31, in <module>
+    from pdata import clr, lognorm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: cannot import name 'clr' from 'pdata' (/home/claude/cbio/cbio-agent-handoff/extension/predictability/pdata.py)
+PREDICT_FAILED sln111
+Traceback (most recent call last):
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/prun.py", line 27, in <module>
+    import ptools as pt  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/ptools.py", line 31, in <module>
+    import grun as gr  # noqa: E402  (frozen; read-only use of its data helpers)
+    ^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/generality/grun.py", line 33, in <module>
+    import common as cm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/semipaired/common.py", line 24, in <module>
+    import hmethods as hm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/hybrid/hmethods.py", line 24, in <module>
+    import pmethods as pm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/perturbation/pmethods.py", line 31, in <module>
+    from pdata import clr, lognorm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: cannot import name 'clr' from 'pdata' (/home/claude/cbio/cbio-agent-handoff/extension/predictability/pdata.py)
+PREDICT_FAILED sln206
+Traceback (most recent call last):
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/prun.py", line 27, in <module>
+    import ptools as pt  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/ptools.py", line 31, in <module>
+    import grun as gr  # noqa: E402  (frozen; read-only use of its data helpers)
+    ^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/generality/grun.py", line 33, in <module>
+    import common as cm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/semipaired/common.py", line 24, in <module>
+    import hmethods as hm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/hybrid/hmethods.py", line 24, in <module>
+    import pmethods as pm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/perturbation/pmethods.py", line 31, in <module>
+    from pdata import clr, lognorm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: cannot import name 'clr' from 'pdata' (/home/claude/cbio/cbio-agent-handoff/extension/predictability/pdata.py)
+PREDICT_FAILED bmcite
+PREDICT_ALL_DONE
+Traceback (most recent call last):
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/prun.py", line 27, in <module>
+    import ptools as pt  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/ptools.py", line 31, in <module>
+    import grun as gr  # noqa: E402  (frozen; read-only use of its data helpers)
+    ^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/generality/grun.py", line 33, in <module>
+    import common as cm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/semipaired/common.py", line 24, in <module>
+    import hmethods as hm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/hybrid/hmethods.py", line 24, in <module>
+    import pmethods as pm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/perturbation/pmethods.py", line 31, in <module>
+    from pdata import clr, lognorm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: cannot import name 'clr' from 'pdata' (/home/claude/cbio/cbio-agent-handoff/extension/predictability/pdata.py)
+EVALUATE_FAILED pbmc10k
+Traceback (most recent call last):
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/prun.py", line 27, in <module>
+    import ptools as pt  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/ptools.py", line 31, in <module>
+    import grun as gr  # noqa: E402  (frozen; read-only use of its data helpers)
+    ^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/generality/grun.py", line 33, in <module>
+    import common as cm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/semipaired/common.py", line 24, in <module>
+    import hmethods as hm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/hybrid/hmethods.py", line 24, in <module>
+    import pmethods as pm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/perturbation/pmethods.py", line 31, in <module>
+    from pdata import clr, lognorm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: cannot import name 'clr' from 'pdata' (/home/claude/cbio/cbio-agent-handoff/extension/predictability/pdata.py)
+EVALUATE_FAILED malt10k
+Traceback (most recent call last):
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/prun.py", line 27, in <module>
+    import ptools as pt  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/ptools.py", line 31, in <module>
+    import grun as gr  # noqa: E402  (frozen; read-only use of its data helpers)
+    ^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/generality/grun.py", line 33, in <module>
+    import common as cm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/semipaired/common.py", line 24, in <module>
+    import hmethods as hm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/hybrid/hmethods.py", line 24, in <module>
+    import pmethods as pm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/perturbation/pmethods.py", line 31, in <module>
+    from pdata import clr, lognorm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: cannot import name 'clr' from 'pdata' (/home/claude/cbio/cbio-agent-handoff/extension/predictability/pdata.py)
+EVALUATE_FAILED human_gaba
+Traceback (most recent call last):
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/prun.py", line 27, in <module>
+    import ptools as pt  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/ptools.py", line 31, in <module>
+    import grun as gr  # noqa: E402  (frozen; read-only use of its data helpers)
+    ^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/generality/grun.py", line 33, in <module>
+    import common as cm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/semipaired/common.py", line 24, in <module>
+    import hmethods as hm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/hybrid/hmethods.py", line 24, in <module>
+    import pmethods as pm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/perturbation/pmethods.py", line 31, in <module>
+    from pdata import clr, lognorm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: cannot import name 'clr' from 'pdata' (/home/claude/cbio/cbio-agent-handoff/extension/predictability/pdata.py)
+EVALUATE_FAILED fafb_vpn
+Traceback (most recent call last):
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/prun.py", line 27, in <module>
+    import ptools as pt  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/ptools.py", line 31, in <module>
+    import grun as gr  # noqa: E402  (frozen; read-only use of its data helpers)
+    ^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/generality/grun.py", line 33, in <module>
+    import common as cm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/semipaired/common.py", line 24, in <module>
+    import hmethods as hm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/hybrid/hmethods.py", line 24, in <module>
+    import pmethods as pm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/perturbation/pmethods.py", line 31, in <module>
+    from pdata import clr, lognorm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: cannot import name 'clr' from 'pdata' (/home/claude/cbio/cbio-agent-handoff/extension/predictability/pdata.py)
+EVALUATE_FAILED banc_vpn
+Traceback (most recent call last):
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/prun.py", line 27, in <module>
+    import ptools as pt  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/ptools.py", line 31, in <module>
+    import grun as gr  # noqa: E402  (frozen; read-only use of its data helpers)
+    ^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/generality/grun.py", line 33, in <module>
+    import common as cm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/semipaired/common.py", line 24, in <module>
+    import hmethods as hm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/hybrid/hmethods.py", line 24, in <module>
+    import pmethods as pm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/perturbation/pmethods.py", line 31, in <module>
+    from pdata import clr, lognorm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: cannot import name 'clr' from 'pdata' (/home/claude/cbio/cbio-agent-handoff/extension/predictability/pdata.py)
+EVALUATE_FAILED snare_cortex
+Traceback (most recent call last):
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/prun.py", line 27, in <module>
+    import ptools as pt  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/ptools.py", line 31, in <module>
+    import grun as gr  # noqa: E402  (frozen; read-only use of its data helpers)
+    ^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/generality/grun.py", line 33, in <module>
+    import common as cm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/semipaired/common.py", line 24, in <module>
+    import hmethods as hm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/hybrid/hmethods.py", line 24, in <module>
+    import pmethods as pm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/perturbation/pmethods.py", line 31, in <module>
+    from pdata import clr, lognorm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: cannot import name 'clr' from 'pdata' (/home/claude/cbio/cbio-agent-handoff/extension/predictability/pdata.py)
+EVALUATE_FAILED fetal_cortex
+Traceback (most recent call last):
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/prun.py", line 27, in <module>
+    import ptools as pt  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/ptools.py", line 31, in <module>
+    import grun as gr  # noqa: E402  (frozen; read-only use of its data helpers)
+    ^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/generality/grun.py", line 33, in <module>
+    import common as cm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/semipaired/common.py", line 24, in <module>
+    import hmethods as hm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/hybrid/hmethods.py", line 24, in <module>
+    import pmethods as pm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/perturbation/pmethods.py", line 31, in <module>
+    from pdata import clr, lognorm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: cannot import name 'clr' from 'pdata' (/home/claude/cbio/cbio-agent-handoff/extension/predictability/pdata.py)
+EVALUATE_FAILED sln111
+Traceback (most recent call last):
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/prun.py", line 27, in <module>
+    import ptools as pt  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/ptools.py", line 31, in <module>
+    import grun as gr  # noqa: E402  (frozen; read-only use of its data helpers)
+    ^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/generality/grun.py", line 33, in <module>
+    import common as cm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/semipaired/common.py", line 24, in <module>
+    import hmethods as hm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/hybrid/hmethods.py", line 24, in <module>
+    import pmethods as pm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/perturbation/pmethods.py", line 31, in <module>
+    from pdata import clr, lognorm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: cannot import name 'clr' from 'pdata' (/home/claude/cbio/cbio-agent-handoff/extension/predictability/pdata.py)
+EVALUATE_FAILED sln206
+Traceback (most recent call last):
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/prun.py", line 27, in <module>
+    import ptools as pt  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/ptools.py", line 31, in <module>
+    import grun as gr  # noqa: E402  (frozen; read-only use of its data helpers)
+    ^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/generality/grun.py", line 33, in <module>
+    import common as cm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/semipaired/common.py", line 24, in <module>
+    import hmethods as hm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/hybrid/hmethods.py", line 24, in <module>
+    import pmethods as pm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/perturbation/pmethods.py", line 31, in <module>
+    from pdata import clr, lognorm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: cannot import name 'clr' from 'pdata' (/home/claude/cbio/cbio-agent-handoff/extension/predictability/pdata.py)
+EVALUATE_FAILED bmcite
+Traceback (most recent call last):
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/prun.py", line 27, in <module>
+    import ptools as pt  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/predictability/ptools.py", line 31, in <module>
+    import grun as gr  # noqa: E402  (frozen; read-only use of its data helpers)
+    ^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/generality/grun.py", line 33, in <module>
+    import common as cm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/semipaired/common.py", line 24, in <module>
+    import hmethods as hm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/hybrid/hmethods.py", line 24, in <module>
+    import pmethods as pm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/perturbation/pmethods.py", line 31, in <module>
+    from pdata import clr, lognorm  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: cannot import name 'clr' from 'pdata' (/home/claude/cbio/cbio-agent-handoff/extension/predictability/pdata.py)
+PROSPECTIVE_DONE

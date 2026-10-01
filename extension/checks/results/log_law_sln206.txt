@@ -1,0 +1,36 @@
+[07:07:29] p100: n {'pool_x': 3133, 'pool_y': 3058, 'reservoir': 4074, 'truth': 3352, 'populations': 45, 'p': 100, 'q': 200}, pilot 200, budgets 25-3200, law saving at 0.5 10.03
+[07:07:38] p200: n {'pool_x': 3133, 'pool_y': 3058, 'reservoir': 4074, 'truth': 3352, 'populations': 45, 'p': 200, 'q': 200}, pilot 200, budgets 25-3200, law saving at 0.5 14.72
+[07:07:49] p400: n {'pool_x': 3133, 'pool_y': 3058, 'reservoir': 4074, 'truth': 3352, 'populations': 45, 'p': 400, 'q': 200}, pilot 200, budgets 25-3200, law saving at 0.5 20.16
+[07:07:51] predictions hashed
+[07:07:52] {
+ "test": "law/sln206",
+ "problems": [
+  "p100",
+  "p200",
+  "p400"
+ ],
+ "curve_points_compared": 72,
+ "max_abs_difference_per_draw_vs_published": 5.551115123125783e-16,
+ "max_abs_difference_stored_form_vs_published": 0.0,
+ "averaged_prediction_minus_published": {
+  "min": 0.006214776122325085,
+  "median": 0.08542738250474086,
+  "max": 0.32934260461050374,
+  "points": 72
+ },
+ "regenerated_files_identical": {
+  "sln206_estimates.npz": true,
+  "sln206_msq.json": true,
+  "sln206_predictions.json": true
+ },
+ "stored_vs_regenerated": {
+  "compared": 72,
+  "draws_per_key": [
+   20
+  ],
+  "max_abs_mean_difference": 6.661338147750939e-16,
+  "max_rel_msq_difference": 5.819849379586041e-16
+ },
+ "seconds": 28,
+ "passed": true
+}

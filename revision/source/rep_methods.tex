@@ -1,0 +1,67 @@
+\section{Replication in an independent screen}\label{sec:rep}
+This note describes the prespecified replication in the ECCITE-seq screen of Papalexi
+et al.\cite{papalexi2021}.
+
+\subsection*{Data, split and protocol}
+The scPerturb release\cite{peidli2024} (Zenodo record 7041849) contains 20,729 THP-1 cells stimulated with interferon-$\gamma$,
+with knockouts of \RpTargets{} genes and non-targeting guides, three biological
+replicates (the 77 cells of a fourth hashtag were not used; \RpCells{} cells
+remained), RNA and four surface proteins. Each target-by-replicate group was
+split in a fixed pseudo-random order of cells into a training half (RNA and protein
+halves) and a test half (adaptation and scoring cells); non-targeting cells were
+split into adaptation and scoring cells only. The gene panel was chosen from
+training halves by the prespecified rule (\RpGenes{} genes, including the four genes
+encoding the antibodies). The protocol and the code were registered after the split and before any statistic of test or
+non-targeting cells other than library sizes was computed; the pipeline had been
+run on training halves only to check the code. Predictions were computed from
+adaptation cells and recorded, and the scoring files were
+then opened. There were no amendments.
+
+The prespecified rules of the melanoma screen were reused, with the replicate in the
+role of the condition. Every target with an eligible test group was held out in
+turn; its channels, controls and paired comparators were fitted on the training
+halves of the other targets. For the design criterion, each fold's channel was
+also refitted without the five training targets of highest exposure, without the
+five of strongest effect and without five random targets (50 draws). The
+interferon block comprised \RpIfnGenes{} panel genes of the Hallmark
+interferon sets and the antibodies to CD86 and PD-L1.
+
+\subsection*{Results}
+Cross-validation over targets chose the smallest penalty scale in every fold,
+which retained \RpDimSMedian{} to \RpDimSMax{} supported directions. The five
+prespecified criteria were not met: recovery was \RpPrimary\% (95\% CI,
+\RpPrimaryLo{} to \RpPrimaryHi\%) over all genes and proteins, lower than both
+controls (pseudo-populations \RpAllPseudo\%, derangements \RpAllDerange\%), the
+interferon-block share of the paired closed form was \RpIfnShare\%
+(\RpIfnShareLo{} to \RpIfnShareHi\%), recovery in non-targeting cells was \RpNtPrimary\%
+(\RpNtPrimaryLo{} to \RpNtPrimaryHi\%), and removing the five targets of highest
+exposure did not lower recovery relative to random removals (difference
+\RpRemDiff\%; \RpRemDiffLo{} to \RpRemDiffHi\%). Paired comparators recovered
+\RpPaired\% (closed form) and \RpAllTrans\% (transferred correlation) over all genes
+and proteins, and \RpIfnPaired\% and \RpIfnTrans\% in the interferon block. By
+replicate, interferon-block recovery of the pairing-free channel was
+\RpRepOneIfnPf\%, \RpRepThreeIfnPf\% and \RpRepFourIfnPf\%, against \RpRepOneIfnPaired\%,
+\RpRepThreeIfnPaired\% and \RpRepFourIfnPaired\% for the paired closed form.
+
+After the scoring files had been opened, the channel was refitted in every fold with the penalty scale
+fixed (exploratory). At 0.1, the value chosen in the
+melanoma screen, it retained \RpFixedPointOneDim{} direction and recovered
+\RpFixedPointOneAll\% over all genes and proteins and \RpFixedPointOneIfn\% in the
+interferon block; at 1, \RpFixedOneDim{} directions, \RpFixedOneAll\% and
+\RpFixedOneIfn\%.
+
+\begin{table}[h]
+\caption{\textbf{Recovered fraction in the replication screen (\%).} Test targets:
+\RpGroups{} target-by-replicate groups from \RpTestTargets{} targets, each held out in
+turn. Non-targeting cells: three replicates. Controls and random removals are
+averages over their draws.}
+\label{tab:rep}
+\centering\scriptsize\setlength{\tabcolsep}{3pt}
+\input{rep_table.tex}
+\end{table}
+
+\subsection*{Limitations of this test}
+The screen had 25 targets, most of them in one pathway, and four proteins, so
+the interferon block had only two antibodies. Groups had 40 to 170 adaptation
+cells, which limits the within-assay covariance matrices that closed-form transfer
+uses.

@@ -1,0 +1,2 @@
+encoding genes per protein: [0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 1, 1, 0]
+[96s] after fold 0: B=50: bjs2 42.0, cog 32.6 | B=100: bjs2 52.6, cog 50.5 | B=200: bjs2 65.9, cog 64.7 | B=400: bjs2 74.9, cog 74.1

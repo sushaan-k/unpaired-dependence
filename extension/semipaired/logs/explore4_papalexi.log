@@ -1,0 +1,27 @@
+[2s] fold ATF2: 3 groups; map reliability {'rep1-tx': 0.7335913570313168, 'rep3-tx': 0.5559019367381495, 'rep4-tx': 0.4436526267986681}
+[3s] fold CAV1: 3 groups; map reliability {'rep1-tx': 0.760066070285467, 'rep3-tx': 0.5054708016958723, 'rep4-tx': 0.5695042802581376}
+[4s] fold CD86: 3 groups; map reliability {'rep1-tx': 0.7425313857265515, 'rep3-tx': 0.43611487036960417, 'rep4-tx': 0.5676814990814868}
+[5s] fold CMTM6: 3 groups; map reliability {'rep1-tx': 0.7217466805981814, 'rep3-tx': 0.4744464321113287, 'rep4-tx': 0.6118289152981446}
+[6s] fold ETV7: 3 groups; map reliability {'rep1-tx': 0.7320101986302121, 'rep3-tx': 0.484720015720123, 'rep4-tx': 0.5714974925156773}
+[7s] fold IFNGR1: 3 groups; map reliability {'rep1-tx': 0.7119856430909, 'rep3-tx': 0.48605624213242826, 'rep4-tx': 0.5645635020336618}
+[8s] fold IFNGR2: 3 groups; map reliability {'rep1-tx': 0.7377737833299329, 'rep3-tx': 0.4744351652435714, 'rep4-tx': 0.5038023926467935}
+[9s] fold IRF1: 3 groups; map reliability {'rep1-tx': 0.7428553992091669, 'rep3-tx': 0.4665898500741183, 'rep4-tx': 0.6361488276645646}
+[10s] fold IRF7: 2 groups; map reliability {'rep1-tx': 0.7575350943587307, 'rep3-tx': 0.47215672183090335, 'rep4-tx': 0.556600788399933}
+[11s] fold JAK2: 3 groups; map reliability {'rep1-tx': 0.7614853236861652, 'rep3-tx': 0.4854094650493513, 'rep4-tx': 0.5627121357770558}
+[12s] fold MARCH8: 3 groups; map reliability {'rep1-tx': 0.7270260041230228, 'rep3-tx': 0.451475077843916, 'rep4-tx': 0.5606030055531247}
+[13s] fold NFKBIA: 3 groups; map reliability {'rep1-tx': 0.7387450503092076, 'rep3-tx': 0.4669139415551608, 'rep4-tx': 0.5980398862621427}
+[14s] fold PDCD1LG2: 3 groups; map reliability {'rep1-tx': 0.750761832838265, 'rep3-tx': 0.5561070098039481, 'rep4-tx': 0.47020353916144136}
+[15s] fold POU2F2: 1 groups; map reliability {'rep1-tx': 0.7157478294023942, 'rep3-tx': 0.3916274385099042, 'rep4-tx': 0.583005198957835}
+[16s] fold SMAD4: 2 groups; map reliability {'rep1-tx': 0.7324827055362008, 'rep3-tx': 0.4660077179157946, 'rep4-tx': 0.3654681763920003}
+[17s] fold STAT1: 1 groups; map reliability {'rep1-tx': 0.6975923783274653, 'rep3-tx': 0.45819336198294164, 'rep4-tx': 0.5884738939846402}
+[18s] fold STAT2: 3 groups; map reliability {'rep1-tx': 0.7556362495013731, 'rep3-tx': 0.3294707698067836, 'rep4-tx': 0.408668245593051}
+[19s] fold STAT3: 2 groups; map reliability {'rep1-tx': 0.7485191805989772, 'rep3-tx': 0.5403767681832312, 'rep4-tx': 0.5655972155652417}
+[20s] fold STAT5A: 3 groups; map reliability {'rep1-tx': 0.7530882685232461, 'rep3-tx': 0.5484158591644922, 'rep4-tx': 0.5462879633655539}
+[21s] fold TNFRSF14: 3 groups; map reliability {'rep1-tx': 0.7138352017629642, 'rep3-tx': 0.43381378044168933, 'rep4-tx': 0.457191239183878}
+[22s] fold UBE2L6: 2 groups; map reliability {'rep1-tx': 0.7646017292902392, 'rep3-tx': 0.5022687586537364, 'rep4-tx': 0.5921202516231259}
+[22s]  B=50: bjs_z 14.9/0.965  map 11.5/0.973  map_s 14.5/0.966  map_s_hier 13.0/0.969
+[22s]  B=100: bjs_z 38.4/0.909  map 34.9/0.917  map_s 38.6/0.908  map_s_hier 38.4/0.909
+[22s]  B=200: bjs_z 52.6/0.875  map 52.2/0.876  map_s 55.3/0.869  map_s_hier 55.5/0.868
+[23s]  B=400: bjs_z 61.1/0.855  map 61.1/0.855  map_s 64.2/0.848  map_s_hier 64.3/0.847
+[23s]  B=800: bjs_z 68.5/0.837  map 68.9/0.836  map_s 71.9/0.829  map_s_hier 72.1/0.829
+[23s]  B=1600: bjs_z 73.2/0.826  map 74.3/0.823  map_s 77.3/0.816  map_s_hier 77.5/0.816

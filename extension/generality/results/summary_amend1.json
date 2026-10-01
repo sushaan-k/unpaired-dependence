@@ -1,0 +1,619 @@
+{
+ "datasets": [
+  "hao",
+  "stephenson",
+  "bmmc_cite",
+  "colon",
+  "bmmc_multiome",
+  "scala_m1",
+  "gouwens_visp",
+  "banc",
+  "malecns"
+ ],
+ "missing": [],
+ "informative": [
+  "hao",
+  "stephenson",
+  "bmmc_cite",
+  "colon",
+  "bmmc_multiome",
+  "gouwens_visp",
+  "banc",
+  "malecns"
+ ],
+ "not_informative": [
+  "scala_m1"
+ ],
+ "levels": {
+  "hao": [
+   0.35436884874436475,
+   "ridge_p/mapped",
+   0.16742282065119166,
+   0.36129487322669246
+  ],
+  "stephenson": [
+   0.12779336178684167,
+   "ridge_u/percond",
+   0.10721421835201564,
+   0.14584450243655964
+  ],
+  "bmmc_cite": [
+   0.4606597514363243,
+   "bjs2/mapped",
+   0.21863366560189287,
+   0.4869040216502382
+  ],
+  "colon": [
+   0.2533233950207691,
+   "bjs2/mapped",
+   0.15422615566120357,
+   0.2717380373190384
+  ],
+  "bmmc_multiome": [
+   0.2508981626599941,
+   "bjs2/mapped",
+   0.11866922666861539,
+   0.27936458124220415
+  ],
+  "scala_m1": [
+   0.0,
+   "lowrank/pooled",
+   0.0,
+   0.027629783888626917
+  ],
+  "gouwens_visp": [
+   0.4151545202978891,
+   "ridge_u/percond",
+   0.34993322283383527,
+   0.47997793519365256
+  ],
+  "banc": [
+   0.6814265148422428,
+   "bjs2/mapped",
+   0.5925398932865482,
+   0.6543760200575041
+  ],
+  "malecns": [
+   0.685220544866305,
+   "ridge_p/mapped",
+   0.596589692064742,
+   0.6558093139001805
+  ]
+ },
+ "informative/G1_paired_only/0.5": {
+  "geometric_mean": 2.899893063549145,
+  "ci": [
+   2.2629072902388945,
+   3.029050133007019
+  ],
+  "per_dataset": {
+   "hao": 1.9615274724377199,
+   "stephenson": 2.0490909207503574,
+   "bmmc_cite": 4.749528887036605,
+   "colon": 6.361167677359623,
+   "bmmc_multiome": 2.8117441650854955,
+   "gouwens_visp": 1.3917151011155688,
+   "banc": 3.5899478205352255,
+   "malecns": 2.9315586393437165
+  },
+  "lower_bound_above_one": [
+   "colon",
+   "bmmc_multiome",
+   "gouwens_visp",
+   "banc",
+   "malecns"
+  ]
+ },
+ "informative/G1_paired_only/0.25": {
+  "geometric_mean": 2.922267747548107,
+  "ci": [
+   2.1552340817134295,
+   3.0761760001264014
+  ],
+  "per_dataset": {
+   "hao": 4.540284131088242,
+   "stephenson": 2.386255664580496,
+   "bmmc_cite": 10.192291364534194,
+   "colon": 7.275479141205544,
+   "bmmc_multiome": 4.154173874992082,
+   "gouwens_visp": 1.1582062736542669,
+   "banc": 1.2779269098020785,
+   "malecns": 1.0765891683824942
+  },
+  "lower_bound_above_one": [
+   "stephenson",
+   "bmmc_cite",
+   "colon",
+   "bmmc_multiome",
+   "banc",
+   "malecns"
+  ]
+ },
+ "informative/G1_paired_only/0.75": {
+  "geometric_mean": 1.8777464116293996,
+  "ci": [
+   1.6671620028235783,
+   2.0221645147030824
+  ],
+  "per_dataset": {
+   "hao": 1.220458399718891,
+   "stephenson": 1.0,
+   "bmmc_cite": 2.233135893305471,
+   "colon": 2.2808298341767266,
+   "bmmc_multiome": 1.8545845531085676,
+   "gouwens_visp": 1.046639178406821,
+   "banc": 4.128325094065642,
+   "malecns": 3.102751489214837
+  },
+  "lower_bound_above_one": [
+   "colon",
+   "bmmc_multiome",
+   "banc",
+   "malecns"
+  ]
+ },
+ "informative/G2_semicca/0.5": {
+  "geometric_mean": 2.2899707564527207,
+  "ci": [
+   1.8163299887647406,
+   2.3832431265842953
+  ],
+  "per_dataset": {
+   "hao": 1.9615274724377199,
+   "stephenson": 1.0205215568752741,
+   "bmmc_cite": 3.7059642768191674,
+   "colon": 6.361167677359623,
+   "bmmc_multiome": 2.8117441650854955,
+   "gouwens_visp": 1.2830824871301783,
+   "banc": 2.286327888561699,
+   "malecns": 1.9427456561221146
+  },
+  "lower_bound_above_one": [
+   "colon",
+   "bmmc_multiome",
+   "gouwens_visp",
+   "banc",
+   "malecns"
+  ]
+ },
+ "informative/G2_semicca/0.25": {
+  "geometric_mean": 1.464408830337339,
+  "ci": [
+   1.021050375214806,
+   1.6305495882408516
+  ],
+  "per_dataset": {
+   "hao": 1.3754355086451862,
+   "stephenson": 0.7044365379452275,
+   "bmmc_cite": 1.747745756634555,
+   "colon": 3.2143497282682376,
+   "bmmc_multiome": 2.8466211372964265,
+   "gouwens_visp": 1.2947961159446182,
+   "banc": 1.0541785244558917,
+   "malecns": 1.0
+  },
+  "lower_bound_above_one": [
+   "colon",
+   "bmmc_multiome",
+   "gouwens_visp",
+   "banc"
+  ]
+ },
+ "informative/G2_semicca/0.75": {
+  "geometric_mean": 1.6705164846689229,
+  "ci": [
+   1.4654219842206262,
+   1.7778130701228594
+  ],
+  "per_dataset": {
+   "hao": 1.220458399718891,
+   "stephenson": 0.9776159230218257,
+   "bmmc_cite": 2.233135893305471,
+   "colon": 2.2808298341767266,
+   "bmmc_multiome": 1.8545845531085676,
+   "gouwens_visp": 1.000442211136764,
+   "banc": 2.830841313928542,
+   "malecns": 1.8999959258362746
+  },
+  "lower_bound_above_one": [
+   "colon",
+   "bmmc_multiome",
+   "banc",
+   "malecns"
+  ]
+ },
+ "informative/original_forms/0.5": {
+  "geometric_mean": 1.3653843600620734,
+  "ci": [
+   1.1041950277448171,
+   1.448840086320458
+  ],
+  "per_dataset": {
+   "hao": 0.6807996436073878,
+   "stephenson": 0.6072981552927721,
+   "bmmc_cite": 1.034475793764818,
+   "colon": 6.361167677359623,
+   "bmmc_multiome": 2.8117441650854955,
+   "gouwens_visp": 0.6813573183722172,
+   "banc": 1.7276931090344987,
+   "malecns": 1.3413546043313755
+  },
+  "lower_bound_above_one": [
+   "colon",
+   "bmmc_multiome",
+   "banc",
+   "malecns"
+  ]
+ },
+ "informative/original_forms/0.25": {
+  "geometric_mean": 1.1033402716471299,
+  "ci": [
+   0.7882675435782986,
+   1.1735236276041556
+  ],
+  "per_dataset": {
+   "hao": 0.798844794416575,
+   "stephenson": 0.4268317484581319,
+   "bmmc_cite": 1.3848184772384762,
+   "colon": 2.3439284835853513,
+   "bmmc_multiome": 2.8466211372964265,
+   "gouwens_visp": 0.6970914560536088,
+   "banc": 1.0,
+   "malecns": 1.0
+  },
+  "lower_bound_above_one": [
+   "colon",
+   "bmmc_multiome"
+  ]
+ },
+ "informative/original_forms/0.75": {
+  "geometric_mean": 1.0522589341027195,
+  "ci": [
+   0.9671926392016373,
+   1.16254642349588
+  ],
+  "per_dataset": {
+   "hao": 0.6508030700035112,
+   "stephenson": 0.6473170475183397,
+   "bmmc_cite": 0.9839891056780716,
+   "colon": 2.2808298341767266,
+   "bmmc_multiome": 1.8545845531085676,
+   "gouwens_visp": 0.5396717748644642,
+   "banc": 1.437232813613501,
+   "malecns": 1.105166454909465
+  },
+  "lower_bound_above_one": [
+   "colon",
+   "bmmc_multiome",
+   "banc"
+  ]
+ },
+ "informative/G3_selftune_vs_fixed/0.5": {
+  "geometric_mean": 0.5781451613633509,
+  "ci": [
+   0.5502398952566571,
+   0.6850873879376291
+  ],
+  "per_dataset": {
+   "hao": 0.5372768505037185,
+   "stephenson": 0.4880212926978416,
+   "bmmc_cite": 0.3940338619815306,
+   "colon": 0.5918599590116931,
+   "bmmc_multiome": 0.8068373457552307,
+   "gouwens_visp": 0.5947083737829948,
+   "banc": 0.6206372804775546,
+   "malecns": 0.6854532701648742
+  }
+ },
+ "informative/G3_selftune_vs_fixed/0.25": {
+  "geometric_mean": 0.6181280001776046,
+  "ci": [
+   0.5863056766853109,
+   0.7323340375993822
+  ],
+  "per_dataset": {
+   "hao": 0.3418942423120181,
+   "stephenson": 0.3344617933309776,
+   "bmmc_cite": 0.42723805337423404,
+   "colon": 0.9207834020840373,
+   "bmmc_multiome": 0.8090264098491292,
+   "gouwens_visp": 0.5855971103333599,
+   "banc": 1.0,
+   "malecns": 1.0
+  }
+ },
+ "informative/G3_selftune_vs_fixed/0.75": {
+  "geometric_mean": 0.6808772537294094,
+  "ci": [
+   0.6384415453783913,
+   0.7589670249438462
+  ],
+  "per_dataset": {
+   "hao": 0.8193642652878056,
+   "stephenson": 1.0,
+   "bmmc_cite": 0.44780078229803005,
+   "colon": 0.6253639100558909,
+   "bmmc_multiome": 0.7370030673235047,
+   "gouwens_visp": 0.9554391051194792,
+   "banc": 0.5441318646552912,
+   "malecns": 0.5253871637468964
+  }
+ },
+ "all/G1_paired_only/0.5": {
+  "geometric_mean": 2.2085673759297593,
+  "ci": [
+   1.7921308736407309,
+   2.7527803252531595
+  ],
+  "per_dataset": {
+   "hao": 1.9615274724377199,
+   "stephenson": 2.0490909207503574,
+   "bmmc_cite": 4.749528887036605,
+   "colon": 6.361167677359623,
+   "bmmc_multiome": 2.8117441650854955,
+   "scala_m1": 0.25,
+   "gouwens_visp": 1.3917151011155688,
+   "banc": 3.5899478205352255,
+   "malecns": 2.9315586393437165
+  },
+  "lower_bound_above_one": [
+   "colon",
+   "bmmc_multiome",
+   "gouwens_visp",
+   "banc",
+   "malecns"
+  ]
+ },
+ "all/G1_paired_only/0.25": {
+  "geometric_mean": 2.223708125891733,
+  "ci": [
+   1.7106549254407435,
+   2.665644383253446
+  ],
+  "per_dataset": {
+   "hao": 4.540284131088242,
+   "stephenson": 2.386255664580496,
+   "bmmc_cite": 10.192291364534194,
+   "colon": 7.275479141205544,
+   "bmmc_multiome": 4.154173874992082,
+   "scala_m1": 0.25,
+   "gouwens_visp": 1.1582062736542669,
+   "banc": 1.2779269098020785,
+   "malecns": 1.0765891683824942
+  },
+  "lower_bound_above_one": [
+   "stephenson",
+   "bmmc_cite",
+   "colon",
+   "bmmc_multiome",
+   "banc",
+   "malecns"
+  ]
+ },
+ "all/G1_paired_only/0.75": {
+  "geometric_mean": 1.500849972494314,
+  "ci": [
+   1.3622225841768014,
+   1.920785577529696
+  ],
+  "per_dataset": {
+   "hao": 1.220458399718891,
+   "stephenson": 1.0,
+   "bmmc_cite": 2.233135893305471,
+   "colon": 2.2808298341767266,
+   "bmmc_multiome": 1.8545845531085676,
+   "scala_m1": 0.25,
+   "gouwens_visp": 1.046639178406821,
+   "banc": 4.128325094065642,
+   "malecns": 3.102751489214837
+  },
+  "lower_bound_above_one": [
+   "colon",
+   "bmmc_multiome",
+   "banc",
+   "malecns"
+  ]
+ },
+ "all/G2_semicca/0.5": {
+  "geometric_mean": 2.088569022449451,
+  "ci": [
+   1.6307933092560896,
+   2.16938694857522
+  ],
+  "per_dataset": {
+   "hao": 1.9615274724377199,
+   "stephenson": 1.0205215568752741,
+   "bmmc_cite": 3.7059642768191674,
+   "colon": 6.361167677359623,
+   "bmmc_multiome": 2.8117441650854955,
+   "scala_m1": 1.0,
+   "gouwens_visp": 1.2830824871301783,
+   "banc": 2.286327888561699,
+   "malecns": 1.9427456561221146
+  },
+  "lower_bound_above_one": [
+   "colon",
+   "bmmc_multiome",
+   "gouwens_visp",
+   "banc",
+   "malecns"
+  ]
+ },
+ "all/G2_semicca/0.25": {
+  "geometric_mean": 1.4036389544100771,
+  "ci": [
+   1.0047046580074224,
+   1.5389875505337471
+  ],
+  "per_dataset": {
+   "hao": 1.3754355086451862,
+   "stephenson": 0.7044365379452275,
+   "bmmc_cite": 1.747745756634555,
+   "colon": 3.2143497282682376,
+   "bmmc_multiome": 2.8466211372964265,
+   "scala_m1": 1.0,
+   "gouwens_visp": 1.2947961159446182,
+   "banc": 1.0541785244558917,
+   "malecns": 1.0
+  },
+  "lower_bound_above_one": [
+   "colon",
+   "bmmc_multiome",
+   "gouwens_visp",
+   "banc"
+  ]
+ },
+ "all/G2_semicca/0.75": {
+  "geometric_mean": 1.577936671774171,
+  "ci": [
+   1.3146980009811564,
+   1.7235060441432757
+  ],
+  "per_dataset": {
+   "hao": 1.220458399718891,
+   "stephenson": 0.9776159230218257,
+   "bmmc_cite": 2.233135893305471,
+   "colon": 2.2808298341767266,
+   "bmmc_multiome": 1.8545845531085676,
+   "scala_m1": 1.0,
+   "gouwens_visp": 1.000442211136764,
+   "banc": 2.830841313928542,
+   "malecns": 1.8999959258362746
+  },
+  "lower_bound_above_one": [
+   "colon",
+   "bmmc_multiome",
+   "banc",
+   "malecns"
+  ]
+ },
+ "all/original_forms/0.5": {
+  "geometric_mean": 1.1306574388601354,
+  "ci": [
+   0.9436866646326104,
+   1.3211651348834885
+  ],
+  "per_dataset": {
+   "hao": 0.6807996436073878,
+   "stephenson": 0.6072981552927721,
+   "bmmc_cite": 1.034475793764818,
+   "colon": 6.361167677359623,
+   "bmmc_multiome": 2.8117441650854955,
+   "scala_m1": 0.25,
+   "gouwens_visp": 0.6813573183722172,
+   "banc": 1.7276931090344987,
+   "malecns": 1.3413546043313755
+  },
+  "lower_bound_above_one": [
+   "colon",
+   "bmmc_multiome",
+   "banc",
+   "malecns"
+  ]
+ },
+ "all/original_forms/0.25": {
+  "geometric_mean": 0.9355530497504999,
+  "ci": [
+   0.7029765983404473,
+   1.0729558327832414
+  ],
+  "per_dataset": {
+   "hao": 0.798844794416575,
+   "stephenson": 0.4268317484581319,
+   "bmmc_cite": 1.3848184772384762,
+   "colon": 2.3439284835853513,
+   "bmmc_multiome": 2.8466211372964265,
+   "scala_m1": 0.25,
+   "gouwens_visp": 0.6970914560536088,
+   "banc": 1.0,
+   "malecns": 1.0
+  },
+  "lower_bound_above_one": [
+   "colon",
+   "bmmc_multiome"
+  ]
+ },
+ "all/original_forms/0.75": {
+  "geometric_mean": 0.8969515776643314,
+  "ci": [
+   0.8379956369507098,
+   1.102492883173409
+  ],
+  "per_dataset": {
+   "hao": 0.6508030700035112,
+   "stephenson": 0.6473170475183397,
+   "bmmc_cite": 0.9839891056780716,
+   "colon": 2.2808298341767266,
+   "bmmc_multiome": 1.8545845531085676,
+   "scala_m1": 0.25,
+   "gouwens_visp": 0.5396717748644642,
+   "banc": 1.437232813613501,
+   "malecns": 1.105166454909465
+  },
+  "lower_bound_above_one": [
+   "colon",
+   "bmmc_multiome",
+   "banc"
+  ]
+ },
+ "all/G3_selftune_vs_fixed/0.5": {
+  "geometric_mean": 0.6144368305217867,
+  "ci": [
+   0.5879115933427658,
+   0.7136617048484876
+  ],
+  "per_dataset": {
+   "hao": 0.5372768505037185,
+   "stephenson": 0.4880212926978416,
+   "bmmc_cite": 0.3940338619815306,
+   "colon": 0.5918599590116931,
+   "bmmc_multiome": 0.8068373457552307,
+   "scala_m1": 1.0,
+   "gouwens_visp": 0.5947083737829948,
+   "banc": 0.6206372804775546,
+   "malecns": 0.6854532701648742
+  }
+ },
+ "all/G3_selftune_vs_fixed/0.25": {
+  "geometric_mean": 0.6520665559316914,
+  "ci": [
+   0.6221399473213749,
+   0.7581262403625
+  ],
+  "per_dataset": {
+   "hao": 0.3418942423120181,
+   "stephenson": 0.3344617933309776,
+   "bmmc_cite": 0.42723805337423404,
+   "colon": 0.9207834020840373,
+   "bmmc_multiome": 0.8090264098491292,
+   "scala_m1": 1.0,
+   "gouwens_visp": 0.5855971103333599,
+   "banc": 1.0,
+   "malecns": 1.0
+  }
+ },
+ "all/G3_selftune_vs_fixed/0.75": {
+  "geometric_mean": 0.7105861428568655,
+  "ci": [
+   0.6474464503608813,
+   0.7824342100262196
+  ],
+  "per_dataset": {
+   "hao": 0.8193642652878056,
+   "stephenson": 1.0,
+   "bmmc_cite": 0.44780078229803005,
+   "colon": 0.6253639100558909,
+   "bmmc_multiome": 0.7370030673235047,
+   "scala_m1": 1.0,
+   "gouwens_visp": 0.9554391051194792,
+   "banc": 0.5441318646552912,
+   "malecns": 0.5253871637468964
+  }
+ },
+ "verdicts": {
+  "G1_amended_met": true,
+  "G2_amended_met": true,
+  "G1_amended_all_met": true,
+  "G2_amended_all_met": true
+ }
+}

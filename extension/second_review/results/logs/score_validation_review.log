@@ -1,0 +1,10 @@
+paired_only              cells 800>  rf 0.5 2.4 3.5 5.1 7.7 13.9 12.6
+atlas                    cells 145=  rf 0.5 11.2 22.5 28.8 32.9 42.0 48.1
+atlas/axes               cells 800>  rf -0.7 4.0 7.8 9.3 10.4 12.7 14.0
+atlas/map_only           cells 800>  rf -0.2 1.8 4.7 7.1 9.5 17.7 28.0
+regression               cells 152=  rf 5.6 13.5 22.4 28.2 30.3 37.7 44.5
+few_B_mono/mapped        cells 800>  rf -13.4 -6.1 2.8 5.7 10.0 17.5 19.9
+few_B_mono/reweighted    cells 148=  rf -25.2 10.0 22.6 28.5 32.2 40.2 45.7
+few_T/mapped             cells 800>  rf -3.3 7.2 14.0 15.0 14.1 8.8 -2.7
+few_T/reweighted         cells 311=  rf -35.1 0.6 11.8 17.7 21.7 32.1 40.5
+exit 0

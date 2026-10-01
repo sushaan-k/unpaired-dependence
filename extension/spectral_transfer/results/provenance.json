@@ -1,0 +1,21 @@
+{
+  "plan_sha256": "c3c203af9cb2885e07be8c15c07c65872262e58364143dc96bc6a5cba07ad320",
+  "colon_count_matrix": {
+    "figshare_file": 54027674,
+    "md5": "d0dbb0fc4c95fbd5ce8e72cf418aad21",
+    "bytes": 3786136022
+  },
+  "paired_cells": 15953,
+  "donors": 12,
+  "biopsies": 21,
+  "result_sha256": {
+    "results/binary_released.json": "d0d326e668c730fcf432845c9f4f649448ddbfe264b7c6055ec407c4c53ade57",
+    "results/binary_released_losses.npz": "668b73b4284d864cf326c99a0707b2c8c0a4cebf2e3f6877ea851237eaf83f0b",
+    "results/d1_lodo.json": "a33ecaa824296d461466eaa38eadaae394d98b5efa32bb7d5353f4d8ea3960cf",
+    "results/d2_hc_to_uc.json": "8959e625e331508daa2b3d408aa763f9c2982ef116701feed154c13d5a7901fa",
+    "results/d3_learning_curve.json": "a541f8a590f533be742ca32b5238034f5130e84ed6086c74e7128261085e1661",
+    "results/d3_pairing_free.json": "416bb89c8c7aac735e173a928b4bb28d38758514af0db85e7ac171627d8f7df3",
+    "results/d3_permutation_control.json": "36f11d3d23f077a1dceb5ac35777a4f2f1344e83d93b879857f9378b78adc97f",
+    "results/scale_summary.json": "5d74b853fc473b6e4328769f3e866b8deedd954054441dbd6e7b592f541db39b"
+  }
+}

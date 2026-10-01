@@ -1,0 +1,46 @@
+[    10s] synthetic: fold 0 B=25 (bjs2 10, selftune 2, js 6, scose 1, fcose 2, lowrank 9, semicca 406, ridge_p 26, ridge_u 24 ms/fit)
+[    19s] synthetic: fold 0 B=50 (bjs2 11, selftune 2, js 8, scose 1, fcose 3, lowrank 8, semicca 394, ridge_p 27, ridge_u 24 ms/fit)
+[    29s] synthetic: fold 0 B=100 (bjs2 15, selftune 2, js 13, scose 1, fcose 4, lowrank 9, semicca 404, ridge_p 26, ridge_u 25 ms/fit)
+[    39s] synthetic: fold 0 B=200 (bjs2 22, selftune 3, js 20, scose 2, fcose 9, lowrank 10, semicca 410, ridge_p 27, ridge_u 25 ms/fit)
+[    52s] synthetic: fold 0 B=400 (bjs2 34, selftune 3, js 44, scose 3, fcose 27, lowrank 12, semicca 425, ridge_p 27, ridge_u 26 ms/fit)
+[    71s] synthetic: fold 0 B=800 (bjs2 65, selftune 4, js 83, scose 5, fcose 106, lowrank 16, semicca 439, ridge_p 29, ridge_u 28 ms/fit)
+[    80s] synthetic: fold 1 B=25 (bjs2 10, selftune 2, js 7, scose 1, fcose 2, lowrank 8, semicca 390, ridge_p 26, ridge_u 24 ms/fit)
+[    90s] synthetic: fold 1 B=50 (bjs2 12, selftune 2, js 9, scose 1, fcose 2, lowrank 8, semicca 395, ridge_p 25, ridge_u 24 ms/fit)
+[    99s] synthetic: fold 1 B=100 (bjs2 16, selftune 2, js 13, scose 1, fcose 4, lowrank 8, semicca 397, ridge_p 26, ridge_u 25 ms/fit)
+[   109s] synthetic: fold 1 B=200 (bjs2 21, selftune 3, js 20, scose 2, fcose 8, lowrank 9, semicca 400, ridge_p 26, ridge_u 25 ms/fit)
+[   122s] synthetic: fold 1 B=400 (bjs2 33, selftune 3, js 38, scose 3, fcose 25, lowrank 11, semicca 417, ridge_p 27, ridge_u 25 ms/fit)
+[   141s] synthetic: fold 1 B=800 (bjs2 63, selftune 4, js 78, scose 5, fcose 103, lowrank 15, semicca 431, ridge_p 28, ridge_u 27 ms/fit)
+[   150s] synthetic: fold 2 B=25 (bjs2 9, selftune 2, js 6, scose 1, fcose 2, lowrank 7, semicca 393, ridge_p 27, ridge_u 23 ms/fit)
+[   159s] synthetic: fold 2 B=50 (bjs2 11, selftune 2, js 8, scose 1, fcose 3, lowrank 8, semicca 389, ridge_p 26, ridge_u 24 ms/fit)
+[   169s] synthetic: fold 2 B=100 (bjs2 15, selftune 2, js 12, scose 1, fcose 4, lowrank 9, semicca 390, ridge_p 26, ridge_u 24 ms/fit)
+[   179s] synthetic: fold 2 B=200 (bjs2 21, selftune 3, js 20, scose 2, fcose 9, lowrank 10, semicca 393, ridge_p 26, ridge_u 24 ms/fit)
+[   192s] synthetic: fold 2 B=400 (bjs2 33, selftune 3, js 35, scose 3, fcose 27, lowrank 12, semicca 407, ridge_p 27, ridge_u 25 ms/fit)
+[   210s] synthetic: fold 2 B=800 (bjs2 64, selftune 4, js 74, scose 5, fcose 103, lowrank 15, semicca 422, ridge_p 29, ridge_u 26 ms/fit)
+[   211s] synthetic: predictions hashed
+[   214s] synthetic: bootstrap 500/2000
+[   215s] synthetic: bootstrap 1000/2000
+[   217s] synthetic: bootstrap 1500/2000
+[   218s] synthetic: bootstrap 2000/2000
+/home/claude/cbio/cbio-agent-handoff/extension/generality/grun.py:550: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  boot_ref.append(rb)
+/home/claude/cbio/cbio-agent-handoff/extension/generality/grun.py:438: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  return float(b[0]), "<="
+Traceback (most recent call last):
+  File "/home/claude/cbio/cbio-agent-handoff/extension/generality/grun.py", line 633, in <module>
+    with threadpool_limits(limits=1):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/cbio/cbio-agent-handoff/extension/generality/grun.py", line 579, in evaluate
+    bs = np.array([needed(boot_rf[PROPOSED][r], frac * boot_ref[r], common)[0]
+                                  ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ndarray is not JSON serializable

@@ -1,0 +1,25 @@
+{
+ "frozen_at": "2026-09-26T23:28:09-04:00",
+ "files": {
+  "PLAN.md": "758bd4dd5f0a9b4a69d58f5bcfc720cde142ae17e48a366a300244b7742b8995",
+  "bmmc.py": "153bb1751d2730aeb99c1a4755b43093cb9f01abe61b9059d0cee1788000cf6c",
+  "compat.py": "feb023bc7becaf2adc3d33b4d29b7e72bb9e1a7cabc14499c509a701fbc7e965",
+  "diagnostics.py": "d12cc377c34b2d5329773fc6d1bdf5581d8796386eea54f7b0b1dcbceb793b0f",
+  "noise.py": "0a47641928672d5d2898558127be0a05e43f64365a00e37573403cb177f44376",
+  "reference.py": "db5ea0549813ecfe8f5e023342527ae14685c059be5c83a33cd9570f0d44393d",
+  "stats.py": "fcbf7a05c7e44792f8987fe89480d835311409412420215dd504859e352949bd",
+  "training.py": "67d9c2f9c492017aa60c5a9814aa9e94e23f89a7a0272c8e05212db71f3941c0",
+  "fit_bmmc_channels.py": "a161c368054cb50e0be6dbbcba2aff80536b2cddddefa572308a87f03e799d9e",
+  "predict_bmmc.py": "53dbec9b12f677172dc16b50f6b5586423e9ac00800d56ee62eabea8919e419d",
+  "bootstrap_bmmc.py": "365aabf89e1100405b4a4fee3c1224f9c99baa0ba5e893cb48026ac3d16b202b",
+  "evaluate_bmmc.py": "2c0d67b9ab3278b29dd8cd62eb402e9d1f46d5ec53f40d117ce05c8521ba1f04",
+  "extract_bmmc.py": "e0b287f71405203e2eb803dd903266e3b870128761a4afb22c70bbc1de3d3fc3",
+  "define_bmmc_units.py": "9a07c6b50dd7f7a6c969013f4ae300a716946ced7df9c1f9f9488cf2ff05deae",
+  "fit_failure_model.py": "24367c70e04a1cda397b43dfe842c4d27f5bb9b19d3fe6c7bb487610b6499778",
+  "results/failure_model.json": "80082380948eae37ae6107aea0d2b75982f0aff265423f215560651575ecb4c7",
+  "results/bmmc_units.json": "23223410fcbc50b0cee91bdb36bed56f7875d3ac7bf7ca1e216195a3908839bc",
+  "results/bmmc_seal.json": "b9468fa0ce168372987879aa1af1815705e80ea0e1058e9bfca226de664cddd4",
+  "results/bmmc_channels.npz": "fcf6a118ee8bba2029ce33e427c896a65de320f1524d1612ef27a4728d7f5a7f",
+  "results/bmmc_channels.json": "2614e7b7791473ae9465c83088a87d51e022f3293022f3764b4558c4613c178e"
+ }
+}

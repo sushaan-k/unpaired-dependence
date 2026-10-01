@@ -1,0 +1,7 @@
+[04:16:26] reproduces es.two_sided_js: max abs difference 9.99e-16
+[04:16:27] validation fold 0 B=25: global ratio 1.1240 (jackknife 1.6075)
+[04:16:29] validation fold 0 B=100: global ratio 1.1789 (jackknife 1.2818)
+[04:16:30] validation fold 17 B=25: global ratio 1.1121 (jackknife 1.6120)
+[04:16:32] validation fold 17 B=100: global ratio 1.0954 (jackknife 1.1799)
+validation 25 {'helmert': 1.1179, 'helmert_shuffled': 1.123, 'orthonormal': 1.1382, 'jackknife': 1.6098, 'own_centring': 0.7621} {'helmert': -5.3813, 'jackknife': -0.2542}
+validation 100 {'helmert': 1.1353, 'helmert_shuffled': 1.1342, 'orthonormal': 1.2456, 'jackknife': 1.2286, 'own_centring': 1.0063} {'helmert': -14.9888, 'jackknife': -14.1915}

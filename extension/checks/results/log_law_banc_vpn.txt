@@ -1,0 +1,34 @@
+[07:09:46] p100: n {'pool_x': 1013, 'pool_y': 971, 'reservoir': 1272, 'truth': 1094, 'populations': 2, 'p': 100, 'q': 120}, pilot 200, budgets 25-800, law saving at 0.5 3.54
+[07:09:47] p200: n {'pool_x': 1013, 'pool_y': 971, 'reservoir': 1272, 'truth': 1094, 'populations': 2, 'p': 200, 'q': 120}, pilot 200, budgets 25-800, law saving at 0.5 4.27
+[07:09:48] predictions hashed
+[07:09:48] {
+ "test": "law/banc_vpn",
+ "problems": [
+  "p100",
+  "p200"
+ ],
+ "curve_points_compared": 36,
+ "max_abs_difference_per_draw_vs_published": 4.440892098500626e-16,
+ "max_abs_difference_stored_form_vs_published": 0.0,
+ "averaged_prediction_minus_published": {
+  "min": 0.013955450061441943,
+  "median": 0.11329916271081766,
+  "max": 0.19485396191393833,
+  "points": 36
+ },
+ "regenerated_files_identical": {
+  "banc_vpn_estimates.npz": true,
+  "banc_vpn_msq.json": true,
+  "banc_vpn_predictions.json": true
+ },
+ "stored_vs_regenerated": {
+  "compared": 36,
+  "draws_per_key": [
+   20
+  ],
+  "max_abs_mean_difference": 1.7763568394002505e-15,
+  "max_rel_msq_difference": 3.286484967804963e-16
+ },
+ "seconds": 4,
+ "passed": true
+}

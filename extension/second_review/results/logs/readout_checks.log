@@ -1,0 +1,56 @@
+[06:14:26] fold 0: 5 units so far
+[06:14:26] fold 1: 10 units so far
+[06:14:27] fold 2: 15 units so far
+[06:14:27] fold 3: 20 units so far
+[06:14:28] fold 4: 25 units so far
+[06:14:28] fold 5: 30 units so far
+[06:14:29] fold 6: 35 units so far
+[06:14:30] fold 7: 40 units so far
+[06:14:30] fold 8: 45 units so far
+[06:14:31] fold 9: 50 units so far
+[06:14:32] fold 10: 55 units so far
+[06:14:32] fold 11: 60 units so far
+[06:14:33] fold 12: 65 units so far
+[06:14:33] fold 13: 70 units so far
+[06:14:34] fold 14: 75 units so far
+[06:14:35] fold 15: 80 units so far
+[06:14:35] fold 16: 85 units so far
+[06:14:36] fold 17: 90 units so far
+[06:14:36] fold 18: 95 units so far
+[06:14:37] fold 19: 100 units so far
+[06:14:38] fold 20: 105 units so far
+[06:14:38] fold 21: 110 units so far
+[06:14:39] fold 22: 115 units so far
+[06:14:39] fold 23: 120 units so far
+[06:14:40] fold 24: 125 units so far
+[06:14:40] fold 25: 130 units so far
+[06:14:41] fold 26: 135 units so far
+[06:14:42] fold 27: 140 units so far
+[06:14:42] fold 28: 145 units so far
+[06:14:43] fold 29: 150 units so far
+[06:14:44] fold 30: 155 units so far
+[06:14:44] fold 31: 160 units so far
+[06:14:45] fold 32: 165 units so far
+[06:14:45] fold 33: 170 units so far
+{
+ "units": 170,
+ "overall": {
+  "P<=0.1": 0.09676337440381558,
+  "P<=0.05": 0.04895300079491256,
+  "P<=0.01": 0.010658922893481717,
+  "P<=0.001": 0.0014852742448330683,
+  "P<=0.0001": 0.00029872813990461047
+ },
+ "replicability": {
+  "null_rate": 6.781928987811341e-05,
+  "nominal_rate": 5e-05,
+  "observed_rate": 0.031968468468468465,
+  "implied_false_share": 0.0021214431947218794,
+  "same_sign_both_p01": 5119,
+  "pairs": 75480000,
+  "observed": {
+   "reproducible": 120649,
+   "pairs": 3774000
+  }
+ }
+}

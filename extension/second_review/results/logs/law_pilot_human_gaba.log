@@ -1,0 +1,9 @@
+[06:21:14] human_gaba p100 target 0.5: observed 100>; m=36: median achieved 0.350, reached 0.30
+[06:21:14] human_gaba p100 target 0.3: observed 85=; m=36: median achieved 0.133, reached 0.25
+[06:21:14] human_gaba p100 target 0.7: observed 100>; m=36: median achieved 0.504, reached 0.00
+[06:21:15] human_gaba p200 target 0.5: observed 100>; m=36: median achieved 0.281, reached 0.05
+[06:21:15] human_gaba p200 target 0.3: observed 97=; m=36: median achieved 0.058, reached 0.23
+[06:21:16] human_gaba p200 target 0.7: observed 100>; m=36: median achieved 0.393, reached 0.00
+[06:21:17] human_gaba p400 target 0.5: observed 100>; m=36: median achieved 0.177, reached 0.02
+[06:21:18] human_gaba p400 target 0.3: observed 100>; m=36: median achieved 0.054, reached 0.18
+[06:21:19] human_gaba p400 target 0.7: observed 100>; m=36: median achieved 0.183, reached 0.00

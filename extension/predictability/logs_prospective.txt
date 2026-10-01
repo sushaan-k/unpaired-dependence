@@ -1,0 +1,82 @@
+[     1s] pbmc10k: p100: n {'pool_x': 1571, 'pool_y': 1586, 'reservoir': 2018, 'truth': 1680, 'populations': 1, 'p': 100, 'q': 14}, pilot 200, budgets 25-1600, law saving at 0.5 2.39
+[     2s] pbmc10k: p200: n {'pool_x': 1571, 'pool_y': 1586, 'reservoir': 2018, 'truth': 1680, 'populations': 1, 'p': 200, 'q': 14}, pilot 200, budgets 25-1600, law saving at 0.5 3.35
+[     5s] pbmc10k: p400: n {'pool_x': 1571, 'pool_y': 1586, 'reservoir': 2018, 'truth': 1680, 'populations': 1, 'p': 400, 'q': 14}, pilot 200, budgets 25-1600, law saving at 0.5 4.88
+[     5s] pbmc10k: predictions hashed
+[     1s] malt10k: p100: n {'pool_x': 1582, 'pool_y': 1536, 'reservoir': 2034, 'truth': 1686, 'populations': 1, 'p': 100, 'q': 14}, pilot 200, budgets 25-1600, law saving at 0.5 4.99
+[     2s] malt10k: p200: n {'pool_x': 1582, 'pool_y': 1536, 'reservoir': 2034, 'truth': 1686, 'populations': 1, 'p': 200, 'q': 14}, pilot 200, budgets 25-1600, law saving at 0.5 5.90
+[     4s] malt10k: p400: n {'pool_x': 1582, 'pool_y': 1536, 'reservoir': 2034, 'truth': 1686, 'populations': 1, 'p': 400, 'q': 14}, pilot 200, budgets 25-1600, law saving at 0.5 8.10
+[     4s] malt10k: predictions hashed
+[     0s] human_gaba: p100: n {'pool_x': 121, 'pool_y': 154, 'reservoir': 181, 'truth': 157, 'populations': 4, 'p': 100, 'q': 75}, pilot 36, budgets 25-100, law saving at 0.5 1.89
+[     1s] human_gaba: p200: n {'pool_x': 121, 'pool_y': 154, 'reservoir': 181, 'truth': 157, 'populations': 4, 'p': 200, 'q': 75}, pilot 36, budgets 25-100, law saving at 0.5 1.79
+[     1s] human_gaba: p400: n {'pool_x': 121, 'pool_y': 154, 'reservoir': 181, 'truth': 157, 'populations': 4, 'p': 400, 'q': 75}, pilot 36, budgets 25-100, law saving at 0.5 1.77
+[     2s] human_gaba: predictions hashed
+[     1s] fafb_vpn: p100: n {'pool_x': 1613, 'pool_y': 1642, 'reservoir': 2132, 'truth': 1714, 'populations': 2, 'p': 100, 'q': 119}, pilot 200, budgets 25-1600, law saving at 0.5 2.34
+[     3s] fafb_vpn: p200: n {'pool_x': 1613, 'pool_y': 1642, 'reservoir': 2132, 'truth': 1714, 'populations': 2, 'p': 200, 'q': 119}, pilot 200, budgets 25-1600, law saving at 0.5 2.93
+[     6s] fafb_vpn: p400: n {'pool_x': 1613, 'pool_y': 1642, 'reservoir': 2132, 'truth': 1714, 'populations': 2, 'p': 302, 'q': 119}, pilot 200, budgets 25-1600, law saving at 0.5 3.48
+[     7s] fafb_vpn: predictions hashed
+[     1s] banc_vpn: p100: n {'pool_x': 1013, 'pool_y': 971, 'reservoir': 1272, 'truth': 1094, 'populations': 2, 'p': 100, 'q': 120}, pilot 200, budgets 25-800, law saving at 0.5 3.54
+[     2s] banc_vpn: p200: n {'pool_x': 1013, 'pool_y': 971, 'reservoir': 1272, 'truth': 1094, 'populations': 2, 'p': 200, 'q': 120}, pilot 200, budgets 25-800, law saving at 0.5 4.27
+[     2s] banc_vpn: predictions hashed
+[     3s] snare_cortex: p100: n {'pool_x': 2362, 'pool_y': 2325, 'reservoir': 3087, 'truth': 2535, 'populations': 12, 'p': 100, 'q': 200}, pilot 200, budgets 25-1600, law saving at 0.5 28.25
+[     5s] snare_cortex: p200: n {'pool_x': 2362, 'pool_y': 2325, 'reservoir': 3087, 'truth': 2535, 'populations': 12, 'p': 200, 'q': 200}, pilot 200, budgets 25-1600, law saving at 0.5 40.71
+[    11s] snare_cortex: p400: n {'pool_x': 2362, 'pool_y': 2325, 'reservoir': 3087, 'truth': 2535, 'populations': 12, 'p': 400, 'q': 200}, pilot 200, budgets 25-1600, law saving at 0.5 51.91
+[    12s] snare_cortex: predictions hashed
+[     3s] fetal_cortex: p100: n {'pool_x': 1877, 'pool_y': 1894, 'reservoir': 2472, 'truth': 2114, 'populations': 31, 'p': 100, 'q': 200}, pilot 200, budgets 25-1600, law saving at 0.5 3.29
+[     6s] fetal_cortex: p200: n {'pool_x': 1877, 'pool_y': 1894, 'reservoir': 2472, 'truth': 2114, 'populations': 31, 'p': 200, 'q': 200}, pilot 200, budgets 25-1600, law saving at 0.5 4.46
+[    12s] fetal_cortex: p400: n {'pool_x': 1877, 'pool_y': 1894, 'reservoir': 2472, 'truth': 2114, 'populations': 31, 'p': 400, 'q': 200}, pilot 200, budgets 25-1600, law saving at 0.5 5.81
+[    13s] fetal_cortex: predictions hashed
+[     3s] sln111: p100: n {'pool_x': 3179, 'pool_y': 3335, 'reservoir': 4389, 'truth': 3674, 'populations': 50, 'p': 100, 'q': 112}, pilot 200, budgets 25-3200, law saving at 0.5 6.76
+[     6s] sln111: p200: n {'pool_x': 3179, 'pool_y': 3335, 'reservoir': 4389, 'truth': 3674, 'populations': 50, 'p': 200, 'q': 112}, pilot 200, budgets 25-3200, law saving at 0.5 9.70
+[    13s] sln111: p400: n {'pool_x': 3179, 'pool_y': 3335, 'reservoir': 4389, 'truth': 3674, 'populations': 50, 'p': 400, 'q': 112}, pilot 200, budgets 25-3200, law saving at 0.5 14.55
+[    14s] sln111: predictions hashed
+[     4s] sln206: p100: n {'pool_x': 3133, 'pool_y': 3058, 'reservoir': 4074, 'truth': 3352, 'populations': 45, 'p': 100, 'q': 200}, pilot 200, budgets 25-3200, law saving at 0.5 10.03
+[     9s] sln206: p200: n {'pool_x': 3133, 'pool_y': 3058, 'reservoir': 4074, 'truth': 3352, 'populations': 45, 'p': 200, 'q': 200}, pilot 200, budgets 25-3200, law saving at 0.5 14.72
+[    18s] sln206: p400: n {'pool_x': 3133, 'pool_y': 3058, 'reservoir': 4074, 'truth': 3352, 'populations': 45, 'p': 400, 'q': 200}, pilot 200, budgets 25-3200, law saving at 0.5 20.16
+[    19s] sln206: predictions hashed
+[     3s] bmcite: p100: n {'pool_x': 7692, 'pool_y': 7445, 'reservoir': 9952, 'truth': 8365, 'populations': 1, 'p': 100, 'q': 25}, pilot 200, budgets 25-6400, law saving at 0.5 4.77
+[     7s] bmcite: p200: n {'pool_x': 7692, 'pool_y': 7445, 'reservoir': 9952, 'truth': 8365, 'populations': 1, 'p': 200, 'q': 25}, pilot 200, budgets 25-6400, law saving at 0.5 6.89
+[    17s] bmcite: p400: n {'pool_x': 7692, 'pool_y': 7445, 'reservoir': 9952, 'truth': 8365, 'populations': 1, 'p': 400, 'q': 25}, pilot 200, budgets 25-6400, law saving at 0.5 10.36
+[    17s] bmcite: predictions hashed
+PREDICT_ALL_DONE
+[     0s] pbmc10k: p100: proposed 0.80, 0.90, 0.94, 0.97, 0.98, 0.99, 0.99; saving at 0.5 1.00 (censored)
+[     1s] pbmc10k: p200: proposed 0.82, 0.88, 0.93, 0.96, 0.98, 0.99, 0.99; saving at 0.5 1.00 (censored)
+[     1s] pbmc10k: p400: proposed 0.82, 0.89, 0.94, 0.97, 0.98, 0.99, 0.99; saving at 0.5 1.00 (censored)
+[     0s] malt10k: p100: proposed 0.87, 0.93, 0.97, 0.98, 0.99, 0.99, 1.00; saving at 0.5 1.00 (censored)
+[     1s] malt10k: p200: proposed 0.90, 0.94, 0.96, 0.98, 0.99, 0.99, 1.00; saving at 0.5 1.00 (censored)
+[     1s] malt10k: p400: proposed 0.89, 0.92, 0.96, 0.97, 0.98, 0.99, 0.99; saving at 0.5 1.00 (censored)
+[     0s] human_gaba: p100: proposed -0.08, 0.06, 0.37; saving at 0.5 1.00 (censored)
+[     0s] human_gaba: p200: proposed -0.36, 0.05, 0.31; saving at 0.5 1.00 (censored)
+[     0s] human_gaba: p400: proposed -0.24, -0.04, 0.17; saving at 0.5 1.00 (censored)
+[     0s] fafb_vpn: p100: proposed 0.41, 0.56, 0.69, 0.78, 0.87, 0.92, 0.95; saving at 0.5 1.87 (estimable)
+[     1s] fafb_vpn: p200: proposed 0.46, 0.58, 0.71, 0.79, 0.87, 0.92, 0.95; saving at 0.5 2.49 (estimable)
+[     1s] fafb_vpn: p400: proposed 0.47, 0.61, 0.71, 0.80, 0.87, 0.91, 0.94; saving at 0.5 3.09 (estimable)
+[     0s] banc_vpn: p100: proposed 0.37, 0.52, 0.65, 0.74, 0.82, 0.88; saving at 0.5 3.26 (estimable)
+[     0s] banc_vpn: p200: proposed 0.41, 0.53, 0.67, 0.75, 0.82, 0.88; saving at 0.5 3.85 (estimable)
+[     1s] snare_cortex: p100: proposed -0.50, -0.13, 0.10, 0.25, 0.36, 0.44, 0.52; saving at 0.5 1.18 (censored)
+[     2s] snare_cortex: p200: proposed -0.24, -0.07, 0.10, 0.29, 0.38, 0.47, 0.55; saving at 0.5 1.54 (censored)
+[     3s] snare_cortex: p400: proposed -0.18, 0.07, 0.17, 0.33, 0.43, 0.50, 0.58; saving at 0.5 2.04 (censored)
+[     1s] fetal_cortex: p100: proposed -0.45, -0.29, -0.13, -0.06, 0.07, 0.19, 0.32; saving at 0.5 1.00 (censored)
+[     2s] fetal_cortex: p200: proposed -0.30, -0.20, -0.08, 0.03, 0.15, 0.25, 0.39; saving at 0.5 1.00 (censored)
+[     4s] fetal_cortex: p400: proposed -0.32, -0.06, 0.01, 0.08, 0.16, 0.27, 0.40; saving at 0.5 1.00 (censored)
+[     1s] sln111: p100: proposed -0.32, 0.15, 0.34, 0.46, 0.55, 0.65, 0.74, 0.81; saving at 0.5 5.38 (estimable)
+[     2s] sln111: p200: proposed 0.02, 0.15, 0.27, 0.46, 0.56, 0.65, 0.72, 0.79; saving at 0.5 8.33 (estimable)
+[     3s] sln111: p400: proposed 0.13, 0.23, 0.32, 0.46, 0.55, 0.64, 0.71, 0.78; saving at 0.5 11.57 (estimable)
+[     1s] sln206: p100: proposed 0.08, 0.08, 0.27, 0.42, 0.55, 0.62, 0.70, 0.78; saving at 0.5 7.06 (estimable)
+[     2s] sln206: p200: proposed 0.08, 0.13, 0.34, 0.45, 0.58, 0.61, 0.69, 0.76; saving at 0.5 11.43 (estimable)
+[     4s] sln206: p400: proposed 0.10, 0.22, 0.34, 0.46, 0.55, 0.60, 0.69, 0.76; saving at 0.5 11.48 (censored)
+[     2s] bmcite: p100: proposed 0.84, 0.91, 0.95, 0.96, 0.98, 0.99, 0.99, 1.00, 1.00; saving at 0.5 1.00 (censored)
+[     3s] bmcite: p200: proposed 0.87, 0.91, 0.95, 0.97, 0.98, 0.99, 0.99, 1.00, 1.00; saving at 0.5 1.00 (censored)
+[     5s] bmcite: p400: proposed 0.87, 0.92, 0.94, 0.97, 0.98, 0.99, 0.99, 1.00, 1.00; saving at 0.5 1.05 (censored)
+{
+ "evaluable": true,
+ "H1_law_calibrated": true,
+ "H2_law_ranks": true,
+ "H3_random_control_no_saving": true,
+ "H4_pilot_calibrated": true,
+ "H5_transfer_calibrated": true,
+ "H6_within_unpaired_bounds": true
+}
+0.5 {'law': (0.27649697560294423, 10), 'pilot': (0.16378952737183933, 10), 'transfer': (0.48641579722145395, 10)} {'rho': 0.9757575757575757, 'p_one_sided': 9.999000099990002e-05}
+0.3 {'law': (0.8005088633485853, 8), 'pilot': (0.9721749069370841, 8), 'transfer': (1.0078769230754203, 8)} {'rho': 0.9523809523809524, 'p_one_sided': 0.0004999500049995}
+0.7 {'law': (0.06173533911689705, 5), 'pilot': (0.02593308431949043, 5), 'transfer': (0.36427744665311684, 5)} {'rho': 0.9999999999999999, 'p_one_sided': 0.010198980101989802}
+PROSPECTIVE_DONE

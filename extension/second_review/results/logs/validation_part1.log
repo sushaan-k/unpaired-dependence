@@ -1,0 +1,32 @@
+[04:33:37] reference few_B_mono: maps ['B', 'CD14 Mono', 'CD4 T', 'CD8 T', 'NK']
+[04:33:55] reference few_T: maps ['B', 'CD14 Mono', 'CD4 T', 'CD8 T', 'NK']
+[04:33:56] reference full: own-weight maps reproduce the published maps (max abs difference 0.0e+00)
+[04:33:56] reference few_B_mono: own-weight maps reproduce the published maps (max abs difference 0.0e+00)
+[04:33:56] reference few_T: own-weight maps reproduce the published maps (max abs difference 0.0e+00)
+[04:47:31] fold 1 (XHLT2-HS32-BLE1) done [815s]; check {'max_abs_mean': 5.958598570110496e-08, 'max_rel_msq': 0.0, 'compared': 330}
+[05:08:27] reference few_B_mono: maps ['B', 'CD14 Mono', 'CD4 T', 'CD8 T', 'NK']
+[05:08:50] reference few_T: maps ['B', 'CD14 Mono', 'CD4 T', 'CD8 T', 'NK']
+[05:08:50] reference full: own-weight maps reproduce the published maps (max abs difference 0.0e+00)
+[05:08:50] reference few_B_mono: own-weight maps reproduce the published maps (max abs difference 0.0e+00)
+[05:08:51] reference few_T: own-weight maps reproduce the published maps (max abs difference 0.0e+00)
+[05:33:08] fold 3 (XHLT2-HS86-AAE6) done [1456s]; check {'max_abs_mean': 5.94289115696256e-08, 'max_rel_msq': 0.0, 'compared': 330}
+[05:53:54] fold 5 (XHLT2-HS46-BLE1) done [1245s]; check {'max_abs_mean': 1.187764047116957e-07, 'max_rel_msq': 0.0, 'compared': 330}
+[06:14:55] fold 7 (XHLT2-HS16-AAE6) done [1262s]; check {'max_abs_mean': 1.1023817902966471e-07, 'max_rel_msq': 0.0, 'compared': 330}
+[06:35:26] fold 9 (XHLT2-HS68-BLE1) done [1230s]; check {'max_abs_mean': 5.571156069805738e-08, 'max_rel_msq': 0.0, 'compared': 330}
+[06:56:19] fold 11 (XHLT2-HS47-AAE6) done [1253s]; check {'max_abs_mean': 5.822153004153563e-08, 'max_rel_msq': 0.0, 'compared': 330}
+[07:10:55] fold 13 (XHLT2-HS46-AAE6) done [876s]; check {'max_abs_mean': 5.2870910538516114e-08, 'max_rel_msq': 0.0, 'compared': 330}
+[07:30:09] fold 15 (XHLT2-HS68-AAE6) done [1154s]; check {'max_abs_mean': 1.1235431962575149e-07, 'max_rel_msq': 0.0, 'compared': 330}
+[07:48:14] fold 17 (XHLT2-HS88-AAE6) done [1084s]; check {'max_abs_mean': 5.9441102484569797e-08, 'max_rel_msq': 0.0, 'compared': 330}
+[08:43:54] reference few_B_mono: maps ['B', 'CD14 Mono', 'CD4 T', 'CD8 T', 'NK']
+[08:44:02] reference few_T: maps ['B', 'CD14 Mono', 'CD4 T', 'CD8 T', 'NK']
+[08:44:02] reference full: own-weight maps reproduce the published maps (max abs difference 0.0e+00)
+[08:44:03] reference few_B_mono: own-weight maps reproduce the published maps (max abs difference 0.0e+00)
+[08:44:03] reference few_T: own-weight maps reproduce the published maps (max abs difference 0.0e+00)
+[08:50:04] fold 19 (XHLT2-HS10-AAE6) done [361s]; check {'max_abs_mean': 1.0750197709796794e-07, 'max_rel_msq': 0.0, 'compared': 330}
+[08:56:31] fold 21 (XHLT2-HS47-BLE1) done [386s]; check {'max_abs_mean': 1.0633785096914039e-07, 'max_rel_msq': 0.0, 'compared': 330}
+[09:02:26] fold 23 (XHLT2-HS75-AAE6) done [355s]; check {'max_abs_mean': 5.952373194340055e-08, 'max_rel_msq': 0.0, 'compared': 330}
+[09:08:41] fold 25 (XHLT2-HS6-AAE6) done [375s]; check {'max_abs_mean': 5.9553583842131275e-08, 'max_rel_msq': 0.0, 'compared': 330}
+[09:14:55] fold 27 (XHLT2-HS30-AAE6) done [374s]; check {'max_abs_mean': 9.983868132223961e-08, 'max_rel_msq': 0.0, 'compared': 330}
+[09:21:12] fold 29 (XHLT2-HS30-BLE1) done [376s]; check {'max_abs_mean': 5.94781308649317e-08, 'max_rel_msq': 0.0, 'compared': 330}
+[09:27:32] fold 31 (XHLT2-HS86-BLE1) done [380s]; check {'max_abs_mean': 5.950852166591858e-08, 'max_rel_msq': 0.0, 'compared': 330}
+[09:34:09] fold 33 (XHLT2-HS32-AAE6) done [398s]; check {'max_abs_mean': 5.9158210330423344e-08, 'max_rel_msq': 0.0, 'compared': 330}

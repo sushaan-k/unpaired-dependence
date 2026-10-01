@@ -1,0 +1,26 @@
+heldout groups 118
+nt groups 3
+predictions 2420 groups 121
+benchmark                          +0.235 [+0.201, +0.278]
+independence                       +0.000 [+0.000, +0.000]
+paired_closed_form                 +0.000 [+0.000, +0.000]
+paired_closed_form_latent          +0.000 [+0.000, +0.000]
+pf_latent                          -0.303 [-0.360, -0.240]
+pf_measured                        -0.331 [-0.389, -0.267]
+pf_within_condition                +0.178 [+0.160, +0.200]
+pf_within_latent                   +0.103 [+0.073, +0.128]
+pf_within_measured                 +0.103 [+0.072, +0.128]
+pf_within_regression               +0.094 [+0.077, +0.109]
+reference_regression               +0.546 [+0.487, +0.589]
+transferred_correlation            +0.966 [+0.917, +1.021]
+control_within_pseudo              -0.004 [-0.005, -0.003]
+control_within_derange             -0.012 [-0.014, -0.011]
+control_pseudo                     -0.380 [-0.441, -0.329]
+control_derange                    -0.450 [-0.519, -0.393]
+primary_minus_within_pseudo        +0.107 [+0.075, +0.133]
+primary_minus_within_derange       +0.115 [+0.084, +0.141]
+share_of_paired                    +nan [+nan, +nan]
+primary_minus_unstratified         +0.434 [+0.388, +0.488]
+unstratified_minus_pseudo          +0.049 [+0.028, +0.072]
+unstratified_minus_derange         +0.119 [+0.106, +0.144]
+nt pooled {'benchmark': 0.505, 'paired_closed_form': 0.0, 'pf_measured': -0.31, 'pf_within_condition': 0.135, 'pf_within_latent': 0.135, 'pf_within_measured': 0.139, 'reference_regression': 0.764, 'transferred_correlation': 0.956} {'value': nan, 'ci': [nan, nan]} {'coculture': 9, 'control': 9, 'ifng': 9}

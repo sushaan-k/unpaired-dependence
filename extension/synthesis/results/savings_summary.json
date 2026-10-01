@@ -1,0 +1,155 @@
+{
+ "note": "descriptive summary after all tests were scored; each data set at its primary target",
+ "n_test": 10,
+ "n_informative": 9,
+ "geometric_mean": 3.0722047454174293,
+ "ci": [
+  2.442472848419702,
+  3.2080299024202015
+ ],
+ "min": 1.3917151011155688,
+ "max": 6.361167677359623,
+ "n_lower_bound_above_one": 6,
+ "rows": [
+  {
+   "dataset": "overcite",
+   "label": "T cells, ORF screen (external test)",
+   "modality": "RNA-protein",
+   "informative": true,
+   "target": "0.3 (prespecified)",
+   "factor": 4.875234784806093,
+   "ci": [
+    3.2216552109733265,
+    6.033991609991867
+   ],
+   "comparator_relation": "=",
+   "proposed_relation": "="
+  },
+  {
+   "dataset": "hao",
+   "label": "Blood, 8 donors",
+   "modality": "RNA-protein",
+   "informative": true,
+   "target": "half of the best recovery",
+   "factor": 1.9615274724377199,
+   "ci": [
+    1.0,
+    2.0745883417718995
+   ],
+   "comparator_relation": ">",
+   "proposed_relation": "="
+  },
+  {
+   "dataset": "stephenson",
+   "label": "Blood, COVID-19",
+   "modality": "RNA-protein",
+   "informative": true,
+   "target": "half of the best recovery",
+   "factor": 2.0490909207503574,
+   "ci": [
+    1.0,
+    2.603793419389237
+   ],
+   "comparator_relation": ">",
+   "proposed_relation": "="
+  },
+  {
+   "dataset": "bmmc_cite",
+   "label": "Bone marrow",
+   "modality": "RNA-protein",
+   "informative": true,
+   "target": "half of the best recovery",
+   "factor": 4.749528887036605,
+   "ci": [
+    1.0,
+    5.98797974425123
+   ],
+   "comparator_relation": ">",
+   "proposed_relation": "="
+  },
+  {
+   "dataset": "colon",
+   "label": "Colon",
+   "modality": "RNA-protein",
+   "informative": true,
+   "target": "half of the best recovery",
+   "factor": 6.361167677359623,
+   "ci": [
+    3.3036939235466853,
+    7.7008478617455065
+   ],
+   "comparator_relation": ">",
+   "proposed_relation": "="
+  },
+  {
+   "dataset": "bmmc_multiome",
+   "label": "Bone marrow multiome",
+   "modality": "RNA-chromatin",
+   "informative": true,
+   "target": "half of the best recovery",
+   "factor": 2.8117441650854955,
+   "ci": [
+    1.712944765055569,
+    3.0192276950709225
+   ],
+   "comparator_relation": ">",
+   "proposed_relation": "="
+  },
+  {
+   "dataset": "scala_m1",
+   "label": "Motor cortex Patch-seq",
+   "modality": "RNA-electrophysiology",
+   "informative": false,
+   "target": "half of the best recovery",
+   "factor": 0.25,
+   "ci": [
+    0.25,
+    2.729116805420208
+   ],
+   "comparator_relation": "<=",
+   "proposed_relation": ">"
+  },
+  {
+   "dataset": "gouwens_visp",
+   "label": "Visual cortex Patch-seq",
+   "modality": "RNA-electrophysiology",
+   "informative": true,
+   "target": "half of the best recovery",
+   "factor": 1.3917151011155688,
+   "ci": [
+    1.197660487886483,
+    1.5866989910017244
+   ],
+   "comparator_relation": "=",
+   "proposed_relation": "="
+  },
+  {
+   "dataset": "banc",
+   "label": "Fly CNS, female",
+   "modality": "brain-nerve cord wiring",
+   "informative": true,
+   "target": "half of the best recovery",
+   "factor": 3.5899478205352255,
+   "ci": [
+    3.144336520106167,
+    3.8488433593780793
+   ],
+   "comparator_relation": "=",
+   "proposed_relation": "="
+  },
+  {
+   "dataset": "malecns",
+   "label": "Fly CNS, male",
+   "modality": "brain-nerve cord wiring",
+   "informative": true,
+   "target": "half of the best recovery",
+   "factor": 2.9315586393437165,
+   "ci": [
+    2.630847760067032,
+    3.132599246554815
+   ],
+   "comparator_relation": "=",
+   "proposed_relation": "<="
+  }
+ ]
+}

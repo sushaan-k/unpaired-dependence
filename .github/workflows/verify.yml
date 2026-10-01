@@ -1,0 +1,37 @@
+name: Verify packaged results
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    env:
+      OPENBLAS_NUM_THREADS: "1"
+      OMP_NUM_THREADS: "1"
+      MKL_NUM_THREADS: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - name: Check packaged evidence and corrected identities
+        working-directory: extension
+        run: |
+          python verify_semipaired.py
+          python verify_generality.py
+          python verify_predictability.py
+          python verify_deployment.py
+          python verify_validation.py
+          python verify_perturbation.py
+          (cd cross_study && python verify_cross_study.py)
+          python verify_manuscript_assets.py
+          python checks/draw_scoring.py identity
+          python checks/draw_scoring.py verify
+          python second_review/verify.py
+          python verify_release_portable.py
+          python -m unittest discover -s checks -p test_theory_corrections.py

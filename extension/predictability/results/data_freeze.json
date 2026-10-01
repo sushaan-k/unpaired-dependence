@@ -1,0 +1,23 @@
+{
+ "written_at": "2026-09-27T21:56:40-0400",
+ "note": "written after extraction and before any prediction; extraction used metadata and marginal statistics of one modality at a time (Deviations 1-2)",
+ "plan_freeze": "0feda017f983ee7ebb3872668fbc4352b2f72542cff26c07acf2d94903142aeb",
+ "code": {
+  "pextract.py": "ab42cb07237a633fe7fded925d3fbfbbb88b69d52ce2de5f32e539180f5801dc",
+  "freeze_data.py": "e89acdf1c6c16d4331b3b0942353a1dcc5717703a634a695e60b8f950970f62d",
+  "DEVIATIONS.md": "52fa97ef447eb1e043bcdc2d772ec00e5ae06fb1f64881bf55b5e96795421921"
+ },
+ "data": {
+  "sln111": "f9a69dd83a351df764bd0f6fa48c4f5f69c51649e0cb181952bf4d1deea2cb23",
+  "sln206": "41ee63fe1959f41177cb18f3e9ceb14706e12889e2cad9416fe2befbc9b7649a",
+  "pbmc10k": "66e6e83992cb534613944edc659bd93d501a08653c19760f0498f6efc6f1afee",
+  "malt10k": "25e5d966d57d912efa7bf3949866c14abf3eda552bc85d11b3775bb9f050ce68",
+  "bmcite": "97c1a92acac5642844517cd2379e59259729de907f6fdf8a385a32e91ed8362f",
+  "fetal_cortex": "84bf0e8748cbb71497ca3306eb8a4c95fe5a03a15b47069513c6a23fcd94f2c3",
+  "snare_cortex": "0f62f8ffa71b2061d61f6233b1b7f9596d3c43ed0d17a43ad951d9b831e93dec",
+  "fafb_vpn": "e98a960f9a54e18514ae687c891f263b66cd4a27ed995741ce6dfca859870cae",
+  "banc_vpn": "9f61ca2ceba9e81da9046543a69de6ca50bac6945b1d5664fc813da11fcbd651",
+  "human_gaba": "cf412f2e53e613923ceb0ccf051ba881847bef226fc9b6bd820de7539348260b"
+ },
+ "missing": []
+}

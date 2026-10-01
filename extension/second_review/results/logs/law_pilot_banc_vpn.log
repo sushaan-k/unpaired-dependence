@@ -1,0 +1,6 @@
+[06:21:05] banc_vpn p100 target 0.5: observed 45=; m=50: median achieved 0.556, reached 0.81; m=100: median achieved 0.671, reached 0.99; m=200: median achieved 0.756, reached 1.00
+[06:21:06] banc_vpn p100 target 0.3: observed 25<=; m=50: median achieved 0.536, reached 1.00; m=100: median achieved 0.660, reached 1.00; m=200: median achieved 0.753, reached 1.00
+[06:21:07] banc_vpn p100 target 0.7: observed 143=; m=50: median achieved 0.691, reached 0.43; m=100: median achieved 0.688, reached 0.41; m=200: median achieved 0.760, reached 0.97
+[06:21:09] banc_vpn p200 target 0.5: observed 41=; m=50: median achieved 0.551, reached 0.83; m=100: median achieved 0.674, reached 1.00; m=200: median achieved 0.764, reached 1.00
+[06:21:10] banc_vpn p200 target 0.3: observed 25<=; m=50: median achieved 0.551, reached 1.00; m=100: median achieved 0.665, reached 1.00; m=200: median achieved 0.758, reached 1.00
+[06:21:12] banc_vpn p200 target 0.7: observed 131=; m=50: median achieved 0.691, reached 0.42; m=100: median achieved 0.691, reached 0.42; m=200: median achieved 0.766, reached 0.97

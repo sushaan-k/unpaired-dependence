@@ -1,0 +1,34 @@
+pilot genes: 198
+fold 0: held ['CYP27A1', 'ATF6B', 'IL1RN', 'BATF', 'DUPD1', 'CALML3', 'CLIC1']; reservoir 291; pool keys 18; reliability {'rest': 0.33304679792315806, 'stim': 0.3366521021868708}
+[25s] fold 0 done
+fold 1: held ['CRLF2', 'LTBR', 'NGFR', 'AHNAK', 'CDK2', 'MS4A3']; reservoir 280; pool keys 18; reliability {'rest': 0.3744388367772353, 'stim': 0.37517974454047354}
+[51s] fold 1 done
+fold 2: held ['GPN3', 'MRPL18', 'AKR1C4', 'RAN', 'AHCY', 'GPD1']; reservoir 343; pool keys 20; reliability {'rest': 0.4021016449009328, 'stim': 0.404910994981014}
+[79s] fold 2 done
+bjs2/pooled          -5.8   15.3   30.1   41.9
+bjs2/percond        -18.8    1.3   23.0   36.8
+bjs2/mapped          -6.9   15.1   30.5   42.8
+bjs/pooled            0.9   16.3   27.3   37.8
+bjs/percond          -6.2    8.1   23.6   36.4
+bjs/mapped            0.4   16.6   27.9   38.8
+js/pooled             0.8    6.5   12.1   19.1
+js/percond           -1.2    3.2    8.7   17.4
+js/mapped            -0.6    4.7    9.7   15.7
+scose/pooled          1.1    6.6   12.1   19.1
+scose/percond        -0.2    3.7    8.9   17.5
+scose/mapped         -0.2    4.9    9.7   15.7
+fcose/pooled         -2.8    4.0    5.3   12.5
+fcose/percond        -1.2    2.5    4.4   13.0
+fcose/mapped         -5.0    3.3    3.8   10.6
+lowrank/pooled        0.0    0.0    0.0    0.0
+lowrank/percond       0.0    0.0    0.0    0.0
+lowrank/mapped        0.0    0.0    0.0    0.0
+semicca/pooled        3.6   14.4   21.3   33.5
+semicca/percond       4.0   12.5   20.8   30.9
+semicca/mapped        3.2   13.9   21.1   33.6
+ridge_p/pooled       -1.2   16.2   26.3   34.6
+ridge_p/percond      -9.7   12.7   22.3   33.4
+ridge_p/mapped       -2.1   16.0   27.0   35.6
+ridge_u/pooled        8.2   15.5   24.9   35.1
+ridge_u/percond       8.2   11.8   22.5   34.0
+ridge_u/mapped        8.5   15.7   25.3   36.2

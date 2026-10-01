@@ -1,0 +1,8 @@
+[07:49:21] part 1 stopped after results/validation/fold17.npz
+[07:49:21] benchmark_review stephenson exit 0
+[07:51:20] note: the exit status above was read after a command substitution and is not the command's own; the benchmark_review run for stephenson had failed at its import of validation_review (DEVIATIONS.md 1); lane_c.sh was stopped here and lane_d.sh continues
+[07:56:23] draw_scoring stephenson finished (see ../checks/results/log_benchmark_stephenson.txt)
+[08:10:18] benchmark_review stephenson exit 0
+[08:42:49] part 1 restarted
+[09:34:10] part 1 exit 0
+[09:42:21] atlas_bootstrap exit 0

@@ -1,0 +1,29 @@
+{
+ "frozen": "2026-09-28 19:35:44 EDT",
+ "files": {
+  "cross_study/adt_matching.py": "5cb0b34e8ab7fc5261a7c2e79663d156d654cd7c6ca23a87fd79e4e7a2c6e6ad",
+  "cross_study/data.py": "4f5bf600a8dba55e85c4deffea99093c60894c73648dc0f15323ebe952325314",
+  "cross_study/estimators.py": "e4fb8b76b8dd38832cabf9005846767a219e8425b3978b7170ccbe9158186c3a",
+  "deployment/PLAN.md": "5a3a3ad86771c3c50b6c1bfb5b6cd70fa21022e06f72695aaa6571179dfb8675",
+  "deployment/drun.py": "539d914a94a2aaed78aae73c2fb556e8cdbb961be2b10903d3dba48aa4e7997d",
+  "deployment/freeze.py": "abe4cd5d7ccdf104d7a0716f60d658efa1a49057aa43eb2439341755df5ee399",
+  "generality/grun.py": "8c9f026ea7a133939826534d7ee71e8e87b3e9d65889185429b869004d9c9f65",
+  "hybrid/hmethods.py": "8cddc28ae630972e66c2334b94665d6d15c0ce27c7eeeb097ac287df57e9187a",
+  "hybrid/run.py": "4bbac983b8a9d88ecff0776ddd3eae3001db7af3725f7dcfa630160569742e6f",
+  "perturbation/pdata.py": "343eb611abe17aa76a3fd556c4c25d3f99ac4c24114a1ac15fd6ca8aa7e95050",
+  "perturbation/pmethods.py": "13d81720662769d65965785476a7f804d0edb6d1cdba43cb4a959d32bad881e6",
+  "perturbation_replication/rdata.py": "c2a72526d5d5ce1286ad9add79a0f0e70afc44b64834608c90fc017b5a37a3a7",
+  "recoverability/compat.py": "54fd3b16ff73bae178f5e62f6a4fd310c810a4aeb5e76b5cac823ed26a089df2",
+  "recoverability/noise.py": "0a47641928672d5d2898558127be0a05e43f64365a00e37573403cb177f44376",
+  "semipaired/common.py": "a5178b735b9a39642bb1c47ba017681aeaae4e53405fe24542da5bcbbda8ebae",
+  "semipaired/competitors.py": "bf42197d92b4019cdf4bc4447a082cab9cbe495452431a93b2a65ebdd6fb8ab0",
+  "semipaired/run_study.py": "281a9b6b29678af2033dac5c5c809c4d177d8fafabb5afb3d502f4b91743cb56",
+  "semipaired/selftune.py": "bee2da02022952aad76e592e8730a6b2fef3a67b9f87e56c06ce8258a4bb0688",
+  "semipaired/sp_estimators.py": "2c7d7921928f154c9942038a53d91d172746bb663b4b2cbde2800b56b295d203",
+  "spectral_transfer/gaussian_transfer.py": "4fd558d20039fa208c16e8cfd96d02e2347fc85ed44b5146f02f8904dd831b9f"
+ },
+ "data": {
+  "bmmc_cite": "3144206388adfbf286a3db68a1cda0b2d2732a360148e0ea1b45c8339c750399",
+  "bmmc_multiome": "1e326138f83617b9fb141a9cb194e7a5ee6d917f6b94ccbc1c1d81334cc557be"
+ }
+}
